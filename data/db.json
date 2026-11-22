@@ -132,7 +132,25 @@
       "azTranslation": "heyrətlənmiş, heyrətə gəlmiş, mat qalmış",
       "definition": "Greatly surprised or impressed; amazed.",
       "etymology": "From Old French estoner (to stun, daze), from Vulgar Latin extonare, from Latin ex- (out) + tonare (to thunder)."
+    },
+    "resilient": {
+      "term": "resilient",
+      "category": "word",
+      "cefrLevel": "C1",
+      "partOfSpeech": "Adjective",
+      "ipa": "/rɪˈzɪl.i.ənt/",
+      "badge": "C1 · Adjective",
+      "azTranslation": "dayanıqlı, möhkəm, çətinliklərə dözümlü",
+      "definition": "Able to recoil or spring back into shape after bending, stretching, or being compressed; able to withstand or recover quickly from difficult conditions.",
+      "exampleEn": "She is a resilient woman who rebuilt her life after losing everything in the war.",
+      "exampleAz": "O, müharibədə hər şeyini itirdikdən sonra həyatını yenidən quran dayanıqlı bir qadındır.",
+      "etymology": "Latin: resilire (to rebound or recoil)"
     }
   },
-  "documents": []
+  "documents": [],
+  "customLexicon": {
+    "words": [],
+    "idioms": [],
+    "phrasals": []
+  }
 }

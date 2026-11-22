@@ -138,6 +138,58 @@ function getGenAiClient(): GoogleGenAI | null {
   });
 }
 
+async function generateJsonWithFallback<T>(
+  ai: GoogleGenAI,
+  params: {
+    contents: string;
+    systemInstruction: string;
+    responseSchema: Record<string, unknown>;
+    timeoutMs?: number;
+  }
+): Promise<T> {
+  const timeoutMs = params.timeoutMs ?? 9000;
+  const attempts: Array<{ model: string; useLowThinking: boolean }> = [
+    { model: 'gemini-3.1-flash-lite', useLowThinking: false },
+    { model: 'gemini-4-hydrogen', useLowThinking: true },
+  ];
+
+  let lastErr: unknown;
+  for (const attempt of attempts) {
+    try {
+      const response = await Promise.race([
+        ai.models.generateContent({
+          model: attempt.model,
+          contents: params.contents,
+          config: {
+            ...(attempt.useLowThinking
+              ? { thinkingConfig: { thinkingLevel: ThinkingLevel.LOW } }
+              : {}),
+            systemInstruction: params.systemInstruction,
+            responseMimeType: 'application/json',
+            responseSchema: params.responseSchema,
+          },
+        }),
+        new Promise<never>((_, reject) =>
+          setTimeout(
+            () => reject(new Error(`Model ${attempt.model} timed out.`)),
+            timeoutMs
+          )
+        ),
+      ]);
+
+      const text = (response.text ?? '').trim();
+      if (!text) {
+        throw new Error(`Empty response from ${attempt.model}`);
+      }
+      return JSON.parse(text) as T;
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+
+  throw lastErr ?? new Error('All Gemini models failed to respond.');
+}
+
 interface ExtractedVideo {
   buffer: Buffer;
   mimeType: string;
@@ -494,50 +546,7 @@ async function createServer() {
     }
 
     try {
-      const response = await ai.models.generateContent({
-        model: 'gemini-4-hydrogen',
-        contents: `Analyze and translate the English expression "${rawWord}" into natural, literary Azerbaijani.${context ? ` Sentence context: "${context}"` : ''} Classify category strictly as "word" (single vocabulary word), "phrasal" (verb + particle like give up, look forward to, carry out), or "idiom" (figurative multi-word expression like break the ice, once in a blue moon). Accurately assign its CEFR difficulty level ("A1", "A2", "B1", "B2", "C1", or "C2"), primary partOfSpeech (e.g. "Noun", "Verb", "Adjective", "Adverb"), brief etymology (e.g. "Latin: ubique"), and one natural literary example sentence in English (exampleEn) with its Azerbaijani translation (exampleAz).`,
-        config: {
-          thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
-          systemInstruction:
-            'You are an English-Azerbaijani lexicographer for The Crown app. Return accurate British IPA, category ("word", "idiom", or "phrasal"), CEFR level ("A1"-"C2"), primary partOfSpeech, badge ("CEFR · PartOfSpeech"), natural Azerbaijani translation(s), concise English definition, brief origin note, and a bilingual example sentence.',
-          responseMimeType: 'application/json',
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              term: { type: Type.STRING },
-              category: { type: Type.STRING, enum: ['word', 'idiom', 'phrasal'] },
-              cefrLevel: {
-                type: Type.STRING,
-                enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
-              },
-              partOfSpeech: { type: Type.STRING },
-              ipa: { type: Type.STRING },
-              badge: { type: Type.STRING },
-              azTranslation: { type: Type.STRING },
-              definition: { type: Type.STRING },
-              etymology: { type: Type.STRING },
-              exampleEn: { type: Type.STRING },
-              exampleAz: { type: Type.STRING },
-            },
-            required: [
-              'term',
-              'category',
-              'cefrLevel',
-              'partOfSpeech',
-              'ipa',
-              'badge',
-              'azTranslation',
-              'definition',
-              'exampleEn',
-              'exampleAz',
-            ],
-          },
-        },
-      });
-
-      const text = (response.text ?? '').trim();
-      const parsed = JSON.parse(text) as {
+      const parsed = await generateJsonWithFallback<{
         term: string;
         category?: 'word' | 'idiom' | 'phrasal';
         cefrLevel?: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -549,7 +558,44 @@ async function createServer() {
         etymology?: string;
         exampleEn?: string;
         exampleAz?: string;
-      };
+      }>(ai, {
+        contents: `Analyze and translate the English expression "${rawWord}" into natural, literary Azerbaijani.${context ? ` Sentence context: "${context}"` : ''} Classify category strictly as "word" (single vocabulary word), "phrasal" (verb + particle like give up, look forward to, carry out), or "idiom" (figurative multi-word expression like break the ice, once in a blue moon). Accurately assign its CEFR difficulty level ("A1", "A2", "B1", "B2", "C1", or "C2"), primary partOfSpeech (e.g. "Noun", "Verb", "Adjective", "Adverb"), brief etymology (e.g. "Latin: ubique"), and one natural literary example sentence in English (exampleEn) with its Azerbaijani translation (exampleAz).`,
+        systemInstruction:
+          'You are an English-Azerbaijani lexicographer for The Crown app. Return accurate British IPA, category ("word", "idiom", or "phrasal"), CEFR level ("A1"-"C2"), primary partOfSpeech, badge ("CEFR · PartOfSpeech"), natural Azerbaijani translation(s), concise English definition, brief origin note, and a bilingual example sentence.',
+        responseSchema: {
+          type: Type.OBJECT,
+          properties: {
+            term: { type: Type.STRING },
+            category: { type: Type.STRING, enum: ['word', 'idiom', 'phrasal'] },
+            cefrLevel: {
+              type: Type.STRING,
+              enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+            },
+            partOfSpeech: { type: Type.STRING },
+            ipa: { type: Type.STRING },
+            badge: { type: Type.STRING },
+            azTranslation: { type: Type.STRING },
+            definition: { type: Type.STRING },
+            etymology: { type: Type.STRING },
+            exampleEn: { type: Type.STRING },
+            exampleAz: { type: Type.STRING },
+          },
+          required: [
+            'term',
+            'category',
+            'cefrLevel',
+            'partOfSpeech',
+            'ipa',
+            'badge',
+            'azTranslation',
+            'definition',
+            'exampleEn',
+            'exampleAz',
+          ],
+        },
+        timeoutMs: 9000,
+      });
+
       if (!parsed.category) {
         parsed.category = 'word';
       }
@@ -869,43 +915,38 @@ async function createServer() {
 
     if (ai) {
       try {
-        const scriptRes = await ai.models.generateContent({
-          model: 'gemini-4-hydrogen',
-          contents: `Create a short 1-line classic cinema scene where an actor naturally speaks the English expression "${term}" (${category}). Azerbaijani meaning: "${azTranslation}". Context sentence: "${exampleEn}".`,
-          config: {
-            thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
-            systemInstruction:
-              'You write concise, natural film dialogue scenes for an English-Azerbaijani learning app. The spokenLine MUST contain the exact target expression naturally inside a 8-18 word movie line, and azSubtitle must translate spokenLine accurately into Azerbaijani.',
-            responseMimeType: 'application/json',
-            responseSchema: {
-              type: Type.OBJECT,
-              properties: {
-                filmTitle: { type: Type.STRING },
-                episodeTitle: { type: Type.STRING },
-                speaker: { type: Type.STRING },
-                spokenLine: { type: Type.STRING },
-                azSubtitle: { type: Type.STRING },
-                videoPrompt: { type: Type.STRING },
-              },
-              required: [
-                'filmTitle',
-                'episodeTitle',
-                'speaker',
-                'spokenLine',
-                'azSubtitle',
-                'videoPrompt',
-              ],
-            },
-          },
-        });
-        const parsed = JSON.parse((scriptRes.text ?? '').trim()) as {
+        const parsed = await generateJsonWithFallback<{
           filmTitle?: string;
           episodeTitle?: string;
           speaker?: string;
           spokenLine?: string;
           azSubtitle?: string;
           videoPrompt?: string;
-        };
+        }>(ai, {
+          contents: `Create a short 1-line classic cinema scene where an actor naturally speaks the English expression "${term}" (${category}). Azerbaijani meaning: "${azTranslation}". Context sentence: "${exampleEn}".`,
+          systemInstruction:
+            'You write concise, natural film dialogue scenes for an English-Azerbaijani learning app. The spokenLine MUST contain the exact target expression naturally inside a 8-18 word movie line, and azSubtitle must translate spokenLine accurately into Azerbaijani.',
+          responseSchema: {
+            type: Type.OBJECT,
+            properties: {
+              filmTitle: { type: Type.STRING },
+              episodeTitle: { type: Type.STRING },
+              speaker: { type: Type.STRING },
+              spokenLine: { type: Type.STRING },
+              azSubtitle: { type: Type.STRING },
+              videoPrompt: { type: Type.STRING },
+            },
+            required: [
+              'filmTitle',
+              'episodeTitle',
+              'speaker',
+              'spokenLine',
+              'azSubtitle',
+              'videoPrompt',
+            ],
+          },
+          timeoutMs: 6500,
+        });
         if (parsed.filmTitle) filmTitle = parsed.filmTitle.slice(0, 90);
         if (parsed.episodeTitle) episodeTitle = parsed.episodeTitle.slice(0, 90);
         if (parsed.speaker) speaker = parsed.speaker.slice(0, 50).toUpperCase();
@@ -931,20 +972,20 @@ async function createServer() {
       sourceSection: 'reader' as const,
       status: ai ? ('generating' as const) : ('audio-only' as const),
       filmTitle,
-      releaseYear: 'Section 05 Discovery · 16:9',
-      directorNote: `Cinema dialogue study featuring “${term}” marked from Section 05.`,
+      releaseYear: 'Marked Vocabulary · 16:9',
+      directorNote: `Cinema dialogue clip featuring “${term}” from your difficult words.`,
       episodeTitle,
-      sceneTag: `${catLabel} · From Reader`,
+      sceneTag: `${catLabel} · Marked Clip`,
       targetTerm: term,
       targetCategory: category,
-      durationSec: 10,
+      durationSec: 5,
       aspectRatio: '16:9' as const,
       promptUsed: videoPrompt,
       cues: [
         {
           id: `${id}-cue-1`,
           startSec: 0,
-          endSec: 10,
+          endSec: 5,
           speaker,
           tokens: splitDialogueAroundTerm(spokenLine, term, {
             lexiconId,
@@ -953,7 +994,7 @@ async function createServer() {
             category,
             ipa,
             azTranslation: azTranslation || azSubtitle,
-            definition: definition || `Featured expression from Section 05: ${term}`,
+            definition: definition || `Featured expression: ${term}`,
             exampleEn: spokenLine,
             exampleAz: azSubtitle,
             etymology,
@@ -975,6 +1016,115 @@ async function createServer() {
     }
 
     res.status(201).json({ episode });
+  });
+
+  app.post('/api/episodes/sync-difficult', async (req: Request, res: Response) => {
+    const rawItems = Array.isArray(req.body?.items) ? req.body.items : [];
+    const excludeTerms = new Set(
+      (Array.isArray(req.body?.excludeTerms) ? req.body.excludeTerms : [])
+        .map((t: unknown) => String(t || '').trim().toLowerCase())
+        .filter(Boolean)
+    );
+
+    const createdEpisodes: unknown[] = [];
+
+    await withDbLock(async () => {
+      const db = await readDb();
+      const existingTerms = new Set(
+        db.episodes
+          .map((ep) => String((ep as { targetTerm?: string }).targetTerm || '').trim().toLowerCase())
+          .filter(Boolean)
+      );
+
+      for (const raw of rawItems.slice(0, 40)) {
+        const item = raw as {
+          id?: string;
+          term?: string;
+          category?: string;
+          badge?: string;
+          ipa?: string;
+          azTranslation?: string;
+          definition?: string;
+          exampleEn?: string;
+          exampleAz?: string;
+          etymologyNote?: string;
+        };
+        const term = String(item?.term ?? '').trim().slice(0, 100);
+        if (!term) continue;
+        const lower = term.toLowerCase();
+        if (existingTerms.has(lower) || excludeTerms.has(lower)) continue;
+
+        existingTerms.add(lower);
+        const category: 'word' | 'idiom' | 'phrasal' =
+          item.category === 'idiom' || item.category === 'phrasal'
+            ? item.category
+            : 'word';
+        const catLabel =
+          category === 'phrasal'
+            ? 'Phrasal Verb'
+            : category === 'idiom'
+              ? 'Idiom'
+              : 'Word';
+        const lexiconId = String(item.id || `lex-${crypto.randomUUID()}`);
+        const azTranslation = String(item.azTranslation || term).trim().slice(0, 300);
+        const rawExample = String(item.exampleEn || '').trim().slice(0, 260);
+        const spokenLine =
+          rawExample && rawExample.toLowerCase().includes(lower)
+            ? rawExample
+            : `In tonight’s scene, the true weight of “${term}” becomes unmistakably clear.`;
+        const azSubtitle =
+          String(item.exampleAz || '').trim().slice(0, 320) || azTranslation;
+        const id = `ep-lex-${crypto.randomUUID()}`;
+
+        const ep = {
+          id,
+          kind: 'generated' as const,
+          sourceSection: 'reader' as const,
+          status: 'audio-only' as const,
+          filmTitle: 'The Crown Cinema Archive',
+          releaseYear: 'Marked Vocabulary · 16:9',
+          directorNote: `Cinema dialogue study featuring “${term}” (${azTranslation}).`,
+          episodeTitle: `Scene · ${term}`,
+          sceneTag: `${catLabel} · Marked Clip`,
+          targetTerm: term,
+          targetCategory: category,
+          durationSec: 5,
+          aspectRatio: '16:9' as const,
+          promptUsed: `35mm classic cinema scene in a warm candlelit British library, character speaking the line "${spokenLine}", film grain`,
+          cues: [
+            {
+              id: `${id}-cue-1`,
+              startSec: 0,
+              endSec: 5,
+              speaker: 'SCHOLAR',
+              tokens: splitDialogueAroundTerm(spokenLine, term, {
+                lexiconId,
+                term,
+                badge: String(item.badge || catLabel),
+                category,
+                ipa: String(item.ipa || '/—/'),
+                azTranslation,
+                definition: String(item.definition || `Marked expression: ${term}`),
+                exampleEn: spokenLine,
+                exampleAz: azSubtitle,
+                etymology: item.etymologyNote,
+              }),
+              azSubtitle,
+            },
+          ],
+          createdAt: Date.now(),
+        };
+
+        db.episodes = [ep, ...db.episodes];
+        createdEpisodes.push(ep);
+      }
+
+      if (createdEpisodes.length > 0) {
+        await writeDb(db);
+      }
+    });
+
+    res.json({ created: createdEpisodes });
   });
 
   app.post('/api/episodes/:id/retry-video', async (req: Request, res: Response) => {

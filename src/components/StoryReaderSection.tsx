@@ -10,6 +10,7 @@ import {
   Edit3,
   FileText,
   FileUp,
+  Film,
   Languages,
   Loader2,
   Network,
@@ -37,6 +38,7 @@ interface StoryReaderSectionProps {
   allPhrasals: PhrasalVerbEntry[];
   difficultIds: Set<string>;
   onToggleDifficult: (item: Omit<DifficultItem, 'addedAt'>) => void;
+  onWatchVideoClip?: (term: string) => void;
 }
 
 type ReaderFilter = 'all' | 'story' | 'article';
@@ -61,6 +63,7 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
   allPhrasals,
   difficultIds,
   onToggleDifficult,
+  onWatchVideoClip,
 }) => {
   const [modeFilter, setModeFilter] = useState<ReaderFilter>('all');
   const [selectedWorkId, setSelectedWorkId] = useState<string>(works[0]?.id ?? '');
@@ -920,15 +923,29 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
             </div>
 
             {isSaved && (
-              <p className="mt-2.5 text-[11px] text-secondary font-[var(--font-display)] text-center">
-                Synced to{' '}
-                {(activeToken.category || 'word') === 'idiom'
-                  ? '02. Idioms'
-                  : (activeToken.category || 'word') === 'phrasal'
-                    ? '03. Phrasal Verbs'
-                    : '01. Words'}
-                , 04. Difficult Words &amp; 06. Film Episodes
-              </p>
+              <div className="mt-3 p-2.5 rounded-lg bg-surface-container-low border border-outline-variant/40 text-center space-y-2">
+                <p className="text-[11px] text-secondary font-[var(--font-display)]">
+                  Synced to{' '}
+                  {(activeToken.category || 'word') === 'idiom'
+                    ? '02. Idioms'
+                    : (activeToken.category || 'word') === 'phrasal'
+                      ? '03. Phrasal Verbs'
+                      : '01. Words'}
+                  , 04. Difficult Words &amp; 06. Film Episodes
+                </p>
+                {onWatchVideoClip && (activeToken.term || activeToken.text) && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      onWatchVideoClip(activeToken.term || activeToken.text)
+                    }
+                    className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded bg-secondary-fixed hover:bg-secondary hover:text-on-secondary text-on-secondary-fixed text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold transition-colors cursor-pointer"
+                  >
+                    <Film className="w-3.5 h-3.5" />
+                    <span>Watch Video Clip in 06. Film Episodes</span>
+                  </button>
+                )}
+              </div>
             )}
           </div>
 

@@ -6,6 +6,8 @@ import {
   Languages,
   Loader2,
   Network,
+  Pause,
+  Play,
   Repeat,
   RotateCcw,
   Search,
@@ -33,6 +35,8 @@ interface FilmEpisodesSectionProps {
   difficultIds: Set<string>;
   difficultItems: DifficultItem[];
   onToggleDifficult: (item: Omit<DifficultItem, 'addedAt'>) => void;
+  focusTerm?: string | null;
+  onClearFocusTerm?: () => void;
 }
 
 type EpisodeFilter =
@@ -52,6 +56,8 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   difficultIds,
   difficultItems,
   onToggleDifficult,
+  focusTerm,
+  onClearFocusTerm,
 }) => {
   const [generatedEpisodes, setGeneratedEpisodes] = useState<FilmEpisode[]>([]);
   const [filter, setFilter] = useState<EpisodeFilter>('all');
@@ -60,11 +66,13 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     classicEpisodes[0]?.id ?? ''
   );
 
-  // Real <video> player state
+  // Real <video> & Interactive Cinema Stage player state
   const [loopClip, setLoopClip] = useState(false);
   const [showAzSubtitles, setShowAzSubtitles] = useState(true);
   const [speakingTerm, setSpeakingTerm] = useState<string | null>(null);
   const [customAzNote, setCustomAzNote] = useState('');
+  const [stagePlaying, setStagePlaying] = useState(false);
+  const [stageElapsedSec, setStageElapsedSec] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   // Cinema Scene Studio state
@@ -94,20 +102,25 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
 
   useEffect(() => {
     let active = true;
-    fetch('/api/episodes')
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
-        if (active && data && Array.isArray(data.episodes)) {
-          setGeneratedEpisodes(data.episodes as FilmEpisode[]);
-        }
-      })
-      .catch(() => {
-        // Ignore silent fetch issue
-      });
+    const loadEpisodes = () => {
+      fetch('/api/episodes')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (active && data && Array.isArray(data.episodes)) {
+            setGeneratedEpisodes(data.episodes as FilmEpisode[]);
+          }
+        })
+        .catch(() => {
+          // Ignore silent fetch issue
+        });
+    };
+    loadEpisodes();
+    const timer = window.setTimeout(loadEpisodes, 900);
     return () => {
       active = false;
+      window.clearTimeout(timer);
     };
-  }, []);
+  }, [difficultItems.length]);
 
   const hasGeneratingEpisodes = useMemo(
     () => generatedEpisodes.some((ep) => ep.status === 'generating'),
@@ -250,6 +263,26 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   });
 
   useEffect(() => {
+    if (!focusTerm) return;
+    const lower = focusTerm.trim().toLowerCase();
+    const matched = allEpisodes.find(
+      (ep) =>
+        ep.targetTerm?.toLowerCase() === lower ||
+        ep.cues.some((c) =>
+          c.tokens.some((t) => t.term?.toLowerCase() === lower)
+        )
+    );
+    if (matched) {
+      setFilter('all');
+      setSearchQuery('');
+      setSelectedId(matched.id);
+      onClearFocusTerm?.();
+    }
+  }, [focusTerm, allEpisodes, onClearFocusTerm]);
+
+  useEffect(() => {
+    setStagePlaying(false);
+    setStageElapsedSec(0);
     if (!currentEpisode) return;
     const firstAnnotated = currentEpisode.cues
       .flatMap((c) => c.tokens)
@@ -259,11 +292,53 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     }
   }, [currentEpisode?.id]);
 
+  const stageDurationSec = Math.max(4, Math.min(8, currentEpisode?.durationSec || 5));
+
+  useEffect(() => {
+    if (!stagePlaying || !currentEpisode || currentEpisode.videoUrl) return;
+    const startedAt = Date.now() - stageElapsedSec * 1000;
+    const interval = window.setInterval(() => {
+      const next = (Date.now() - startedAt) / 1000;
+      if (next >= stageDurationSec) {
+        if (loopClip) {
+          const line = currentEpisode.cues[0]?.tokens.map((t) => t.text).join('') ?? '';
+          if (line) speakEnglish(line);
+          setStageElapsedSec(0);
+        } else {
+          setStageElapsedSec(stageDurationSec);
+          setStagePlaying(false);
+        }
+      } else {
+        setStageElapsedSec(next);
+      }
+    }, 80);
+    return () => window.clearInterval(interval);
+  }, [stagePlaying, currentEpisode?.id, currentEpisode?.videoUrl, stageDurationSec, loopClip]);
+
+  const startStageClip = (restart = false) => {
+    if (!currentEpisode) return;
+    if (restart || stageElapsedSec >= stageDurationSec) {
+      setStageElapsedSec(0);
+    }
+    setStagePlaying(true);
+    const line =
+      currentEpisode.cues[0]?.tokens.map((t) => t.text).join('') ||
+      currentEpisode.targetTerm ||
+      '';
+    if (line) {
+      speakEnglish(line);
+    }
+  };
+
   const handleReplayClip = () => {
-    const vid = videoRef.current;
-    if (!vid) return;
-    vid.currentTime = 0;
-    vid.play().catch(() => {});
+    if (currentEpisode?.videoUrl) {
+      const vid = videoRef.current;
+      if (!vid) return;
+      vid.currentTime = 0;
+      vid.play().catch(() => {});
+    } else {
+      startStageClip(true);
+    }
   };
 
   const handleLookupWord = (rawWord: string, lineContext: string) => {
@@ -685,7 +760,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                 )}
               </div>
 
-              {/* Real HTML5 MP4 Video Clip or Pending / Spoken Stage */}
+              {/* Real HTML5 MP4 Video Clip or Playable 5s Cinema Stage */}
               <div className="bg-[#120e0d] p-3 flex justify-center">
                 {currentEpisode.videoUrl ? (
                   <video
@@ -703,58 +778,120 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                     }
                   />
                 ) : (
-                  <div className="w-full aspect-video rounded bg-gradient-to-br from-[#1f1715] via-[#15100f] to-[#0c0908] flex flex-col items-center justify-center p-6 text-center text-[#fef9f0] border border-white/10">
-                    {currentEpisode.status === 'generating' ? (
-                      <>
-                        <Loader2 className="w-8 h-8 text-[#ffb2bc] animate-spin mb-3" />
-                        <p className="font-[var(--font-display)] text-xl">
-                          Generating Video Clip for “{currentEpisode.targetTerm}”...
-                        </p>
-                        <p className="text-xs text-[#d0c4c0] max-w-md mt-1.5">
-                          Cinema scene dialogue is ready below; MP4 clip is rendering via gemini-omni-1.2-flash and will appear here automatically.
-                        </p>
-                      </>
-                    ) : (
-                      <>
-                        <Film className="w-8 h-8 text-[#ffb2bc] mb-3" />
-                        <p className="font-[var(--font-display)] text-xl">
-                          Cinema Dialogue Preview · “{currentEpisode.targetTerm}”
-                        </p>
-                        {currentEpisode.generationError && (
-                          <p className="text-xs text-[#ffb2bc]/90 max-w-md mt-1">
-                            {currentEpisode.generationError}
-                          </p>
-                        )}
-                        <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
-                          {currentEpisode.cues[0] && (
-                            <button
-                              type="button"
-                              onClick={() =>
-                                handleSpeak(
-                                  currentEpisode.cues[0].tokens
-                                    .map((t) => t.text)
-                                    .join('')
-                                )
-                              }
-                              className="flex items-center gap-1.5 px-3.5 py-2 rounded bg-secondary text-on-secondary text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold cursor-pointer"
-                            >
-                              <Volume2 className="w-4 h-4" />
-                              <span>Play Spoken Dialogue</span>
-                            </button>
-                          )}
+                  <div className="w-full aspect-video rounded relative overflow-hidden bg-[#140e0d] border border-white/10 flex flex-col justify-between">
+                    {/* Atmospheric 35mm Cinema Backdrop */}
+                    <img
+                      src="/src/assets/images/scholar_desk_lexicon_1795336049106.jpg"
+                      alt=""
+                      aria-hidden="true"
+                      className={`absolute inset-0 w-full h-full object-cover opacity-35 transition-transform duration-[5000ms] ease-out ${
+                        stagePlaying ? 'scale-110' : 'scale-100'
+                      }`}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 to-black/75" />
+
+                    {/* Top Cinema Bar */}
+                    <div className="relative z-10 flex items-center justify-between px-4 pt-3 text-[10px] font-[var(--font-display)] uppercase tracking-[0.2em] text-[#ffb2bc]">
+                      <span>
+                        {currentEpisode.filmTitle} · {currentEpisode.targetCategory?.toUpperCase() || 'SCENE'}
+                      </span>
+                      <div className="flex items-center gap-2">
+                        {currentEpisode.status === 'generating' ? (
+                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-black/60 text-[#ffb2bc] border border-[#ffb2bc]/30">
+                            <Loader2 className="w-3 h-3 animate-spin" />
+                            MP4 Rendering…
+                          </span>
+                        ) : (
                           <button
                             type="button"
-                            onClick={() =>
-                              handleRetryEpisodeVideo(currentEpisode.id)
-                            }
-                            className="flex items-center gap-1.5 px-3.5 py-2 rounded bg-white/10 hover:bg-white/20 text-white text-xs font-[var(--font-display)] uppercase tracking-wider cursor-pointer"
+                            onClick={() => handleRetryEpisodeVideo(currentEpisode.id)}
+                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-white/10 hover:bg-white/20 text-[#fef9f0] transition-colors cursor-pointer"
+                            title="Render custom AI MP4 video clip"
                           >
-                            <Sparkles className="w-4 h-4 text-[#ffb2bc]" />
-                            <span>Render MP4 Video</span>
+                            <Sparkles className="w-3 h-3 text-[#ffb2bc]" />
+                            <span>Render AI MP4</span>
                           </button>
-                        </div>
-                      </>
-                    )}
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Center Cinema Dialogue Overlay (Matches Classic Film Card) */}
+                    <div className="relative z-10 px-5 py-3 flex flex-col items-center text-center">
+                      <span className="font-[var(--font-display)] text-[10px] uppercase tracking-[0.24em] text-[#ffb2bc] mb-2">
+                        {currentEpisode.cues[0]?.speaker || 'SCHOLAR'}
+                      </span>
+                      <div className="max-w-xl bg-black/70 backdrop-blur-sm px-5 py-3.5 rounded-lg border border-white/10">
+                        <p className="font-[var(--font-display)] text-lg sm:text-xl text-[#fef9f0] leading-snug">
+                          {currentEpisode.cues[0]?.tokens.map((tok, i) =>
+                            tok.term ? (
+                              <span
+                                key={i}
+                                className="inline-block mx-1 px-2 py-0.5 rounded bg-[#8f4955]/75 text-[#ffd9dd] underline decoration-[#ffb2bc] underline-offset-4 font-semibold"
+                              >
+                                {tok.text}
+                              </span>
+                            ) : (
+                              <React.Fragment key={i}>{tok.text}</React.Fragment>
+                            )
+                          )}
+                        </p>
+                        {showAzSubtitles && currentEpisode.cues[0]?.azSubtitle && (
+                          <p className="mt-2 text-xs sm:text-sm italic text-[#d0c4c0]">
+                            {currentEpisode.cues[0].azSubtitle}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Bottom Interactive 5s Cinema Transport Bar */}
+                    <div className="relative z-10 px-4 pb-3 flex items-center gap-3">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          if (stagePlaying) {
+                            setStagePlaying(false);
+                          } else {
+                            startStageClip(false);
+                          }
+                        }}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#fef9f0] text-[#191311] font-[var(--font-display)] text-[11px] uppercase tracking-wider font-bold cursor-pointer hover:bg-[#ffd9dd] transition-colors shrink-0"
+                      >
+                        {stagePlaying ? (
+                          <>
+                            <Pause className="w-3.5 h-3.5" />
+                            <span>Pause</span>
+                          </>
+                        ) : (
+                          <>
+                            <Play className="w-3.5 h-3.5" />
+                            <span>Play Clip</span>
+                          </>
+                        )}
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={() => startStageClip(true)}
+                        aria-label="Replay 5 second scene"
+                        className="p-1.5 rounded bg-white/10 hover:bg-white/20 text-[#fef9f0] cursor-pointer shrink-0"
+                      >
+                        <RotateCcw className="w-3.5 h-3.5" />
+                      </button>
+
+                      <div className="flex-1 h-1.5 rounded-full bg-white/20 overflow-hidden">
+                        <div
+                          className="h-full bg-[#b86977] transition-[width] duration-75"
+                          style={{
+                            width: `${Math.min(100, (stageElapsedSec / stageDurationSec) * 100)}%`,
+                          }}
+                        />
+                      </div>
+
+                      <span className="font-mono text-[11px] text-[#fef9f0]/90 tabular-nums shrink-0">
+                        00:{String(Math.floor(stageElapsedSec)).padStart(2, '0')} / 00:
+                        {String(Math.round(stageDurationSec)).padStart(2, '0')}
+                      </span>
+                    </div>
                   </div>
                 )}
               </div>

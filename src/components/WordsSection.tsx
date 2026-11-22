@@ -1024,6 +1024,12 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   required
                   value={lemmaInput}
                   onChange={(e) => handleLemmaChange(e.target.value)}
+                  onBlur={() => {
+                    const clean = lemmaInput.trim();
+                    if (autoStatus === 'idle' && /[a-zA-Z]{2,}/.test(clean)) {
+                      void runAutoDetect(clean, false);
+                    }
+                  }}
                   placeholder="e.g. Ubiquitous"
                   className="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                 />

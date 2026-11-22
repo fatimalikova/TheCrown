@@ -106,6 +106,7 @@ function toPhrasalEntry(item: Omit<DifficultItem, 'addedAt'>): PhrasalVerbEntry 
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<SectionId>('words');
+  const [focusFilmTerm, setFocusFilmTerm] = useState<string | null>(null);
 
   const [customWords, setCustomWords] = useState<WordEntry[]>(() => {
     try {
@@ -233,6 +234,20 @@ export default function App() {
     }).catch(() => {
       // Ignore background sync failure
     });
+
+    if (difficultItems.length > 0) {
+      const excludeTerms = CLASSIC_FILM_EPISODES.map((ep) => ep.targetTerm).filter(
+        Boolean
+      );
+      fetch('/api/episodes/sync-difficult', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          items: difficultItems,
+          excludeTerms,
+        }),
+      }).catch(() => {});
+    }
   }, [difficultItems]);
 
   const allWords = useMemo(
@@ -328,31 +343,35 @@ export default function App() {
         }
       }
 
-      // If marked in Section 05, ensure it has a film episode in Section 06
-      if (options?.fromReader) {
-        const inClassicClip = CLASSIC_FILM_EPISODES.some(
-          (ep) => ep.targetTerm?.toLowerCase() === lowerTerm
-        );
-        if (!inClassicClip) {
-          fetch('/api/episodes/from-lexicon', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              id: item.id,
-              term: item.term,
-              category: item.category,
-              badge: item.badge,
-              ipa: item.ipa,
-              azTranslation: item.azTranslation,
-              definition: item.definition,
-              exampleEn: item.exampleEn,
-              exampleAz: item.exampleAz,
-              etymology: item.etymologyNote,
-            }),
-          }).catch(() => {});
-        }
+      // Ensure every newly marked difficult word/idiom/phrasal has a cinema episode in Section 06
+      const inClassicClip = CLASSIC_FILM_EPISODES.some(
+        (ep) => ep.targetTerm?.toLowerCase() === lowerTerm
+      );
+      if (!inClassicClip) {
+        fetch('/api/episodes/from-lexicon', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            id: item.id,
+            term: item.term,
+            category: item.category,
+            badge: item.badge,
+            ipa: item.ipa,
+            azTranslation: item.azTranslation,
+            definition: item.definition,
+            exampleEn: item.exampleEn,
+            exampleAz: item.exampleAz,
+            etymology: item.etymologyNote,
+          }),
+        }).catch(() => {});
       }
     }
+  };
+
+  const handleOpenFilmClipForTerm = (term: string) => {
+    setFocusFilmTerm(term);
+    setActiveSection('film-episodes');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleAddCustomDifficult = (item: Omit<DifficultItem, 'addedAt'>) => {
@@ -436,6 +455,7 @@ export default function App() {
             onToggleDifficult={(item) =>
               handleToggleDifficult(item, { fromReader: true })
             }
+            onWatchVideoClip={handleOpenFilmClipForTerm}
           />
         )}
 
@@ -448,6 +468,8 @@ export default function App() {
             difficultIds={difficultIds}
             difficultItems={difficultItems}
             onToggleDifficult={handleToggleDifficult}
+            focusTerm={focusFilmTerm}
+            onClearFocusTerm={() => setFocusFilmTerm(null)}
           />
         )}
       </main>
