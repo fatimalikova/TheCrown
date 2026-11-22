@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fef9f0;
+  --color-surface: #fef9f0;
+  --color-surface-bright: #fef9f0;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f3ea;
+  --color-surface-container: #f2ede4;
+  --color-surface-container-high: #ece8df;
+  --color-surface-container-highest: #e7e2d9;
+  --color-surface-dim: #ded9d1;
+
+  --color-primary: #16110f;
+  --color-primary-container: #2c2523;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed: #211a18;
+  --color-on-primary-fixed-variant: #4d4543;
+  --color-primary-fixed: #ede0dc;
+  --color-primary-fixed-dim: #d0c4c0;
+
+  --color-secondary: #8f4955;
+  --color-secondary-container: #fea6b2;
+  --color-secondary-fixed: #ffd9dd;
+  --color-secondary-fixed-dim: #ffb2bc;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #3b0714;
+  --color-on-secondary-fixed-variant: #72323e;
+  --color-on-secondary-container: #7a3844;
+
+  --color-tertiary: #00160d;
+  --color-tertiary-container: #092c1f;
+  --color-tertiary-fixed: #c5ebd7;
+  --color-tertiary-fixed-dim: #aacfbc;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #002115;
+  --color-on-tertiary-fixed-variant: #2c4d3f;
+  --color-on-tertiary-container: #729584;
+
+  --color-on-surface: #1d1c16;
+  --color-on-surface-variant: #4e4542;
+  --color-outline: #807572;
+  --color-outline-variant: #d1c4c0;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --font-display: "EB Garamond", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    overscroll-behavior: none;
+  }
+
+  ::selection {
+    background-color: var(--color-secondary-fixed);
+    color: var(--color-on-secondary-fixed);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary":"#16110f","surface-container-high":"#ece8df","on-primary-fixed-variant":"#4d4543","on-surface":"#1d1c16","background":"#fef9f0","secondary-fixed-dim":"#ffb2bc","on-primary":"#ffffff","tertiary":"#00160d","surface-container":"#f2ede4","tertiary-fixed":"#c5ebd7","surface-container-highest":"#e7e2d9","on-surface-variant":"#4e4542","on-tertiary-fixed-variant":"#2c4d3f","primary-fixed":"#ede0dc","on-secondary-fixed":"#3b0714","surface-bright":"#fef9f0","tertiary-container":"#092c1f","on-background":"#1d1c16","surface":"#fef9f0","surface-container-low":"#f8f3ea","inverse-on-surface":"#f5f0e7","on-secondary-fixed-variant":"#72323e","error-container":"#ffdad6","on-error":"#ffffff","on-primary-container":"#968b88","tertiary-fixed-dim":"#aacfbc","on-error-container":"#93000a","outline":"#807572","secondary-fixed":"#ffd9dd","on-primary-fixed":"#211a18","surface-tint":"#665c5a","on-secondary-container":"#7a3844","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","secondary-container":"#fea6b2","on-tertiary-container":"#729584","error":"#ba1a1a","surface-dim":"#ded9d1","outline-variant":"#d1c4c0","secondary":"#8f4955","surface-variant":"#e7e2d9","primary-fixed-dim":"#d0c4c0","on-tertiary-fixed":"#002115","on-tertiary":"#ffffff","primary-container":"#2c2523","inverse-surface":"#32302a","inverse-primary":"#d0c4c0"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","space-lg":"1.75rem","space-xs":"0.25rem","space-sm":"0.5rem","margin":"2rem","space-md":"1rem","space-xl":"3rem"},"fontFamily":{"body-sm":["Newsreader"],"display-lg":["EB Garamond"],"headline-lg":["EB Garamond"],"label-md":["EB Garamond"],"label-lg":["EB Garamond"],"display-lg-mobile":["EB Garamond"],"body-lg":["Newsreader"],"headline-sm":["EB Garamond"],"body-md":["Newsreader"],"headline-lg-mobile":["EB Garamond"],"label-sm":["EB Garamond"],"headline-md":["EB Garamond"]},"fontSize":{"body-sm":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"600"}],"display-lg-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["19px",{"lineHeight":"32px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(44,37,35,0.05)]"><div class="h-28 max-w-[1140px] mx-auto px-margin flex flex-col justify-between pt-4 pb-2"><div class="flex items-center justify-between w-full"><div class="flex items-center gap-space-sm text-secondary"><span class="material-symbols-outlined text-[20px] select-none">bookmark</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant/70">Lex. Archive</span></div><div class="flex flex-col items-center justify-center text-center"><div class="flex items-center gap-space-md"><span class="text-secondary text-[10px] select-none">❦</span><span class="font-headline-sm text-headline-sm tracking-[0.2em] uppercase text-primary font-bold">Word Bloom</span><span class="text-secondary text-[10px] select-none">❦</span></div><span class="font-label-sm text-label-sm tracking-[0.15em] italic text-on-surface-variant font-serif mt-0.5">Folio &amp; Lexicon of English Eloquence</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div><div class="flex items-center justify-center w-full"><nav class="flex items-center gap-space-md py-1 px-space-md rounded" data-active-classes="bg-surface-container-high text-primary font-semibold shadow-[inset_0_1px_2px_rgba(44,37,35,0.06)]"><a aria-current="page" class="px-3 py-1 rounded transition-colors uppercase bg-surface-container-high text-primary font-semibold shadow-[inset_0_1px_2px_rgba(44,37,35,0.06)]" data-path="words" href="#">01. Words</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="idioms" href="#">02. Idioms</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="phrasal-verbs" href="#">03. Phrasal Verbs</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="difficult-words" href="#">04. Difficult Words</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="story-reader" href="#">05. Story Reader</a></nav></div></div></header><main class="w-full pt-28 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="w-full max-w-[1140px] mx-auto px-margin pt-space-md pb-space-xl">
+<!-- Top Ledger Header & Subtitle -->
+<div class="relative w-full text-center pb-space-lg mb-space-lg">
+<div class="flex items-center justify-center gap-space-sm mb-space-xs text-secondary">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-on-surface-variant">Archival Codex · Tome II</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight font-normal">
+        Part I · The Classical Lexicon
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto italic mt-space-xs">
+        Curated English Vocabulary from Foundation to Literary Mastery, annotated with classical Latin roots &amp; Azerbaijani literary counterparts.
+      </p>
+<!-- Decorative subtle fleuron -->
+<div class="flex items-center justify-center gap-space-md mt-space-md text-secondary/70">
+<span class="text-xs select-none">❧</span>
+<span class="w-16 h-[1px] bg-outline-variant/60"></span>
+<span class="text-xs select-none">❦</span>
+<span class="w-16 h-[1px] bg-outline-variant/60"></span>
+<span class="text-xs select-none">☙</span>
+</div>
+</div>
+<!-- Search & Register Filter Controls -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm mb-space-lg">
+<div class="flex flex-col lg:flex-row gap-space-md items-stretch lg:items-center justify-between">
+<!-- Search Input Bar -->
+<div class="relative flex-1">
+<div class="absolute inset-y-0 left-0 pl-space-md flex items-center pointer-events-none text-outline">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="w-full pl-11 pr-space-md py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline/70 font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-secondary/40 shadow-[inset_0_1px_3px_rgba(44,37,35,0.06)]" id="lexiconSearch" placeholder="Search entry, etymon, or Azerbaijani translation (e.g. bəlağətli, luminous)..." type="text"/>
+<div class="absolute inset-y-0 right-0 pr-space-md flex items-center gap-1 text-on-surface-variant/50 pointer-events-none">
+<span class="font-label-sm text-label-sm bg-surface-container-high px-1.5 py-0.5 rounded text-[10px]">⌘K</span>
+</div>
+</div>
+<!-- CEFR Registers Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<button class="filter-pill active px-3.5 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider bg-primary text-on-primary transition-all shadow-sm">
+            All Registers <span class="ml-1 opacity-70">(2,420)</span>
+</button>
+<button class="filter-pill px-3.5 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-colors">
+            A1–A2 Primer <span class="ml-1 opacity-60">640</span>
+</button>
+<button class="filter-pill px-3.5 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-colors">
+            B1–B2 Scholar <span class="ml-1 opacity-60">1,120</span>
+</button>
+<button class="filter-pill px-3.5 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-colors">
+            C1–C2 Master <span class="ml-1 opacity-60">660</span>
+</button>
+</div>
+</div>
+<!-- Alphabetical Index Ribbon -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between overflow-x-auto no-scrollbar gap-1 text-center select-none">
+<span class="font-label-sm text-label-sm text-secondary font-semibold uppercase pr-2">Folio:</span>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-surface-container-high">A</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">B</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">C</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">D</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-secondary-fixed/50">E</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">F</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">G</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">H</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">I</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">J</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">K</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-secondary-fixed/50">L</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-secondary-fixed/50">M</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">N</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">O</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">P</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">Q</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-secondary-fixed/50">R</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-primary font-bold bg-secondary-fixed/50">S</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">T</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">U</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">V</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">W</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">X</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">Y</button>
+<button class="px-2 py-1 rounded font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container">Z</button>
+</div>
+</div>
+<!-- Main Content Area: Compendium Split Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Scholarly Folio Entries (8 Columns) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Entry 1: Eloquent -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<!-- Folio Accent Ribbon -->
+<div class="absolute top-0 right-8 w-6 h-8 bg-secondary-container/70 rounded-b flex items-center justify-center shadow-sm">
+<span class="text-on-secondary-container text-[11px] font-bold font-serif select-none">❦</span>
+</div>
+<div class="flex items-start justify-between pr-8">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Eloquent
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/ˈel.ə.kwənt/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Eloquent')" title="Listen to pronunciation">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<!-- Metadata Badges -->
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-secondary-fixed text-on-secondary-fixed font-semibold">
+                  B2 · Adjective
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Latin: ēloquēns (ex- “out” + loquī “to speak”)
+                </span>
+</div>
+</div>
+<!-- Bookmark Button -->
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<!-- Azerbaijani Translation Badge -->
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Bəlağətli, səlis danışan, təsirli nitq sahibi”</span>
+</div>
+<!-- English Definition -->
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              Expressing oneself readily, clearly, and effectively in speech or written word; giving a clear, vivid, and emotionally stirring message.
+            </p>
+</div>
+<!-- Literary Citation -->
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “She was an eloquent advocate for the rights of those whose voices had long been muffled by circumstance.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «O, şəraitin səslərini uzun müddət boğduğu insanların haqları uğrunda bəlağətli bir müdafiəçi idi.»
+            </p>
+</div>
+<!-- Collocations & Footnote -->
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Collocations:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">eloquent testimony</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">eloquent silence</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 104 · Index #0421</span>
+</div>
+</article>
+<!-- Entry 2: Luminous -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Luminous
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/ˈluː.mɪ.nəs/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Luminous')">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-tertiary-container text-tertiary-fixed font-semibold">
+                  C1 · Adjective
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Latin: lūminōsus (from lūmen “light, daybreak”)
+                </span>
+</div>
+</div>
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<!-- Azerbaijani Translation Badge -->
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Parlaq, nur saçan, aydın, zülmət saçmayan”</span>
+</div>
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              Producing or reflecting a steady, radiant light; figuratively characterized by full comprehension, transcendent clarity, or enlightenment.
+            </p>
+</div>
+<!-- Literary Excerpt with contextual illumination visual badge -->
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “The dial of the clock had luminous numerals that hung like small green spirits in the library’s gloom.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «Saatın siferblatı kitabxananın zülmətində kiçik yaşıl ruhlar kimi süzülən işıqlı, nur saçan rəqəmlərə malik idi.»
+            </p>
+</div>
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Collocations:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">luminous intellect</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">luminous prose</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 105 · Index #0618</span>
+</div>
+</article>
+<!-- Entry 3: Meticulous -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Meticulous
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/məˈtɪk.jə.ləs/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Meticulous')">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-tertiary-container text-tertiary-fixed font-semibold">
+                  C1 · Adjective
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Latin: meticulōsus (“fearful, anxious”; evolving to extreme care)
+                </span>
+</div>
+</div>
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Hədsiz dərəcədə diqqətli, incəliklərə fikir verən, zərgər dəqiqlikli”</span>
+</div>
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              Showing great attention to detail; very careful and precise; marked by extreme or scrupulous concern for small parts.
+            </p>
+</div>
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “Through meticulous research and cross-examination of faded parchment deeds, the archivist verified the provenance.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «Solğun perqament sənədlərinin zərgər dəqiqliyi ilə tədqiqi və qarşılaşdırılması sayəsində arxivçi əsl mənşəyi təsdiqlədi.»
+            </p>
+</div>
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Synonyms:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">scrupulous</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">fastidious</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">punctilious</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 106 · Index #0834</span>
+</div>
+</article>
+<!-- Entry 4: Benevolent -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Benevolent
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/bəˈnev.əl.ənt/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Benevolent')">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-secondary-fixed text-on-secondary-fixed font-semibold">
+                  B2 · Adjective
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Latin: benevolēns (bene “well” + velle “to wish”)
+                </span>
+</div>
+</div>
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Xeyirxah, nəcib, alicənab, şəfqətli”</span>
+</div>
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              Well-meaning and kindly; serving a charitable rather than a profit-making purpose; inclined to do kind deeds.
+            </p>
+</div>
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “The elder scholar cast a benevolent glance across the lecture hall, encouraging even the most hesitant inquiries.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «Yaşlı alim mühazirə zalına xeyirxah və şəfqətli nəzər salaraq, hətta ən tərəddüdlü sualları belə həvəsləndirdi.»
+            </p>
+</div>
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Antonym:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">malevolent</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">spiteful</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 107 · Index #0192</span>
+</div>
+</article>
+<!-- Entry 5: Serendipity -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Serendipity
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/ˌser.ənˈdɪp.ə.ti/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Serendipity')">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-primary-container text-on-primary-fixed font-semibold">
+                  C2 · Noun
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Etymology: Coined by Horace Walpole (1754), via Persian fairy tale “The Three Princes of Serendip”
+                </span>
+</div>
+</div>
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Bəxt, gözlənilməz xoş təsadüf, axtarmadan tapılan səadət”</span>
+</div>
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              The occurrence and development of events by chance in a happy or beneficial way; the faculty of making fortunate discoveries unexpectedly.
+            </p>
+</div>
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “Finding that rare first-edition manuscript in an obscure provincial bazaar was pure serendipity.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «Gözdən uzaq əyalət bazarında həmin nadir birinci nəşr əlyazmasını tapmaq əsl gözlənilməz xoş təsadüf idi.»
+            </p>
+</div>
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Derivative:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">serendipitous (adj.)</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">serendipitously (adv.)</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 108 · Index #1240</span>
+</div>
+</article>
+<!-- Entry 6: Resilience -->
+<article class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+                  Resilience
+                </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">/rɪˈzɪl.jəns/</span>
+<button class="w-7 h-7 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-secondary transition-colors" onclick="playPhonetic(this, 'Resilience')">
+<span class="material-symbols-outlined text-[17px]">volume_up</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm uppercase bg-secondary-fixed text-on-secondary-fixed font-semibold">
+                  B2 · Noun
+                </span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-tertiary-fixed-variant italic">
+                  Latin: resilīre (re- “back” + salīre “to leap or spring”)
+                </span>
+</div>
+</div>
+<button class="p-2 rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" onclick="toggleBookmark(this)" title="Add to Ledger">
+<span class="material-symbols-outlined text-[22px]">bookmark_border</span>
+</button>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container-highest/60 rounded-lg flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Azərbaycan Dili:</span>
+<span class="font-headline-sm text-headline-sm text-primary italic font-serif">“Möhkəmlik, dözümlülük, çeviklik, çətinliklərdən sonra dirçəlmə qabiliyyəti”</span>
+</div>
+<div class="mt-space-md">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+              The capacity to withstand or recover quickly from difficulties; toughness; the physical property of a material that can resume its shape after being bent or stretched.
+            </p>
+</div>
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container border-l-2 border-secondary/60">
+<blockquote class="font-body-md text-body-md italic text-primary leading-relaxed font-serif">
+              “The community’s quiet resilience in the aftermath of the tempest was rooted in their unbroken sense of fellowship.”
+            </blockquote>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong class="font-label-sm text-label-sm uppercase text-secondary font-serif">Tərcümə:</strong> «Fırtınadan sonrakı dönəmdə icmanın nümayiş etdirdiyi sakit dözümlülük onların sarsılmaz həmrəylik hissindən qaynaqlanırdı.»
+            </p>
+</div>
+<div class="mt-space-md flex flex-wrap items-center justify-between pt-space-sm text-on-surface-variant font-label-sm text-label-sm gap-2">
+<div class="flex items-center gap-1.5">
+<span class="text-secondary font-serif font-bold">Collocations:</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">emotional resilience</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary">remarkable resilience</span>
+</div>
+<span class="italic text-on-surface-variant/80">Fol. 109 · Index #1075</span>
+</div>
+</article>
+<!-- Pagination or Ledger Continuation Control -->
+<div class="flex items-center justify-between py-space-md px-space-sm">
+<div class="font-label-md text-label-md text-on-surface-variant">
+            Showing <span class="font-bold text-primary">6</span> of <span class="font-bold text-primary">2,420</span> Codex Entries
+          </div>
+<div class="flex items-center gap-space-xs">
+<button class="px-3 py-1.5 rounded bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm uppercase disabled:opacity-40" disabled="">
+              Previous Folio
+            </button>
+<span class="px-3 py-1 font-serif italic text-secondary text-sm">Page I of 404</span>
+<button class="px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-sm text-label-sm uppercase">
+              Next Folio
+            </button>
+</div>
+</div>
+</div>
+<!-- Right Column: Sidebar Folio Widgets (4 Columns) -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Scholarly Visual Accent Card -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm overflow-hidden relative">
+<div class="relative w-full h-44 rounded-lg overflow-hidden mb-space-md">
+<img class="w-full h-full object-cover" data-alt="An antique leather-bound literary dictionary open upon a dark mahogany scholar desk beside a brass magnifying glass and dried botanical fern leaves in soft warm museum lighting with rich tones of ivory, parchment, and deep sepia." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIuWqEt_Molx3snscoa6p0Id501OxX-4xObRcTGlkIJcgOlzbM2AkQDyYh5tHjhSBwsYzx7NrIV_dvDIavVxdEpvCPg2PEzWEKfoHuB4NuDHnevY4opadkp94BOB36L9sWjA3DfaeYRYy3rfSXro5z1lcXcmhMa1dfFYpwtnoIJyWsK-ZYzEwdPSlTRg2Ee96pyu9AUb6zsp0GQKmtYnSe81NPOfJsjlUgVf9bNkPL"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex items-end p-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed font-serif">Scriptorium Archive</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">
+            Philologist's Vade Mecum
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Carefully collated against the 1913 Webster's Unabridged and Oxford etymological lineages, aligned with contemporary Azerbaijani high-register prose.
+          </p>
+</div>
+<!-- Widget: Lexicon Registry Stats -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">account_balance</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">
+                Lexicon Registry
+              </h3>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-serif">MMXXIV</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Current balance and philological distribution across verified CEFR proficiency tiers:
+          </p>
+<!-- SVG Donut Progress Graph -->
+<div class="flex items-center gap-space-md bg-surface-container-lowest p-space-md rounded-lg mb-space-md shadow-[inset_0_1px_2px_rgba(44,37,35,0.04)]">
+<svg class="w-20 h-20 shrink-0 transform -rotate-90" viewbox="0 0 36 36">
+<!-- Background ring -->
+<path class="text-surface-container-highest stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-width="4.5"></path>
+<!-- A1-A2 (26%) -->
+<path class="text-secondary stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-dasharray="26, 100" stroke-dashoffset="0" stroke-width="4.5"></path>
+<!-- B1-B2 (46%) -->
+<path class="text-primary stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-dasharray="46, 100" stroke-dashoffset="-26" stroke-width="4.5"></path>
+<!-- C1-C2 (28%) -->
+<path class="text-tertiary-container stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-dasharray="28, 100" stroke-dashoffset="-72" stroke-width="4.5"></path>
+</svg>
+<div class="flex flex-col gap-1 w-full text-on-surface">
+<div class="flex items-center justify-between text-xs">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> A1–A2 Primer</span>
+<span class="font-bold">640</span>
+</div>
+<div class="flex items-center justify-between text-xs">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-primary"></span> B1–B2 Scholar</span>
+<span class="font-bold">1,120</span>
+</div>
+<div class="flex items-center justify-between text-xs">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span> C1–C2 Master</span>
+<span class="font-bold">660</span>
+</div>
+</div>
+</div>
+<!-- Quick Stats Rows -->
+<div class="space-y-space-xs font-body-sm text-body-sm">
+<div class="flex justify-between py-1.5 px-space-xs text-on-surface-variant">
+<span>Etymological Roots Traced:</span>
+<span class="font-serif font-bold text-primary">1,894 (Latin/Greek)</span>
+</div>
+<div class="flex justify-between py-1.5 px-space-xs text-on-surface-variant">
+<span>Azerbaijani Literary Glosses:</span>
+<span class="font-serif font-bold text-secondary">2,420 (100%)</span>
+</div>
+<div class="flex justify-between py-1.5 px-space-xs text-on-surface-variant">
+<span>Personal Folio Bookmarks:</span>
+<span class="font-serif font-bold text-primary" id="savedBookmarksCount">47 terms</span>
+</div>
+</div>
+</div>
+<!-- Widget: Quick Add to Personal Ledger -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-xs text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">edit_note</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">
+              Personal Ledger
+            </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Inscribe a rare lexical finding, etymological gloss, or Azerbaijani dialectal variant into your folio.
+          </p>
+<form class="space-y-space-sm" id="ledgerForm" onsubmit="handleLedgerSubmit(event)">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">
+                English Lemma &amp; Phonetic
+              </label>
+<input class="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-secondary/40 shadow-[inset_0_1px_2px_rgba(44,37,35,0.05)]" id="ledgerLemma" placeholder="e.g. Perspicacious /ˈpɜː.spɪ.keɪ.ʃəs/" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">
+                CEFR Register &amp; Origin
+              </label>
+<div class="grid grid-cols-2 gap-space-xs">
+<select class="w-full px-2 py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none shadow-[inset_0_1px_2px_rgba(44,37,35,0.05)]" id="ledgerCefr">
+<option value="B1">B1 Intermediate</option>
+<option value="B2">B2 Scholar</option>
+<option selected="" value="C1">C1 Advanced</option>
+<option value="C2">C2 Mastery</option>
+</select>
+<input class="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline/60 focus:outline-none shadow-[inset_0_1px_2px_rgba(44,37,35,0.05)]" id="ledgerOrigin" placeholder="Latin: perspicax" type="text"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary mb-1">
+                Azerbaijani Translation
+              </label>
+<input class="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-secondary/40 shadow-[inset_0_1px_2px_rgba(44,37,35,0.05)]" id="ledgerAzeri" placeholder="Fərasətli, bəsirətli, tez başa düşən" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">
+                Literary Example / Context
+              </label>
+<textarea class="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-secondary/40 shadow-[inset_0_1px_2px_rgba(44,37,35,0.05)] resize-none" id="ledgerNote" placeholder="A perspicacious reader notes the unspoken undercurrents..." rows="2"></textarea>
+</div>
+<button class="w-full py-2.5 px-4 rounded bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-[16px] tracking-wider uppercase transition-all shadow active:translate-y-0.5 flex items-center justify-center gap-space-xs" type="submit">
+<span class="material-symbols-outlined text-[18px]">history_edu</span>
+<span>Inscribe into Ledger</span>
+</button>
+</form>
+<div class="hidden mt-space-sm p-2 rounded bg-tertiary-fixed text-on-tertiary-fixed font-body-sm text-body-sm text-center" id="ledgerSuccessFeedback">
+            ✓ Entry recorded in folio manuscript.
+          </div>
+</div>
+<!-- Archival Quote Vignette -->
+<div class="bg-surface-container p-space-md rounded-xl text-center shadow-sm">
+<span class="text-secondary text-sm">❦</span>
+<p class="font-body-sm text-body-sm text-on-surface italic font-serif mt-1">
+            “Words are things, and a small drop of ink, falling like dew upon a thought, produces that which makes thousands, perhaps millions, think.”
+          </p>
+<span class="block font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mt-2">
+            — Lord Byron · Don Juan
+          </span>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<script>
+  function toggleBookmark(btn) {
+    const icon = btn.querySelector('.material-symbols-outlined');
+    const isBookmarked = icon.textContent.trim() === 'bookmark';
+    const counter = document.getElementById('savedBookmarksCount');
+    let currentCount = parseInt(counter.textContent) || 47;
+
+    if (isBookmarked) {
+      icon.textContent = 'bookmark_border';
+      icon.style.fontVariationSettings = "'FILL' 0";
+      btn.classList.remove('text-secondary');
+      btn.classList.add('text-outline');
+      counter.textContent = (currentCount - 1) + ' terms';
+    } else {
+      icon.textContent = 'bookmark';
+      icon.style.fontVariationSettings = "'FILL' 1";
+      btn.classList.remove('text-outline');
+      btn.classList.add('text-secondary');
+      counter.textContent = (currentCount + 1) + ' terms';
+    }
+  }
+
+  function playPhonetic(button, term) {
+    button.classList.add('scale-110', 'text-secondary-fixed-dim');
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(term);
+      utterance.lang = 'en-GB';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+    setTimeout(() => {
+      button.classList.remove('scale-110', 'text-secondary-fixed-dim');
+    }, 600);
+  }
+
+  function handleLedgerSubmit(e) {
+    e.preventDefault();
+    const lemma = document.getElementById('ledgerLemma').value;
+    const azeri = document.getElementById('ledgerAzeri').value;
+    if (!lemma || !azeri) return;
+
+    const feedback = document.getElementById('ledgerSuccessFeedback');
+    feedback.classList.remove('hidden');
+    
+    const counter = document.getElementById('savedBookmarksCount');
+    let count = parseInt(counter.textContent) || 47;
+    counter.textContent = (count + 1) + ' terms';
+
+    setTimeout(() => {
+      e.target.reset();
+      feedback.classList.add('hidden');
+    }, 2800);
+  }
+
+  // Filter pill micro-interaction
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', function() {
+      document.querySelectorAll('.filter-pill').forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary');
+        p.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      this.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      this.classList.add('bg-primary', 'text-on-primary');
+    });
+  });
+
+  // Client-side quick filter on cards
+  const searchInput = document.getElementById('lexiconSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      const q = e.target.value.toLowerCase().trim();
+      const articles = document.querySelectorAll('article');
+      articles.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (text.includes(q)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low py-space-xl mt-space-xl shadow-[inset_0_1px_3px_rgba(44,37,35,0.03)]"><div class="max-w-[1140px] mx-auto px-margin flex flex-col items-center justify-center gap-space-sm text-center"><div class="flex items-center gap-space-md text-secondary/60 text-xs select-none"><span>❧</span><span>❖</span><span>☙</span></div><p class="font-headline-sm text-headline-sm text-primary italic font-serif">Ex Libris Bibliotheca Eloquentiae</p><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Printed and compiled for devoted philologists, scholars of cadence, and lovers of classical English diction.</p><div class="flex items-center gap-space-lg mt-space-sm"><span class="font-label-sm text-label-sm text-on-surface-variant/80 uppercase tracking-widest">Volume I • Edition MMXXIV</span></div></div></footer></body></html>

@@ -1,0 +1,6 @@
+{
+  "name": "The Crown",
+  "description": "An archival English-Azerbaijani lexicon, idioms, phrasal verbs, difficult words quizzer, and interactive story & article reader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

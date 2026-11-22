@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary":"#16110f","surface-container-high":"#ece8df","on-primary-fixed-variant":"#4d4543","on-surface":"#1d1c16","background":"#fef9f0","secondary-fixed-dim":"#ffb2bc","on-primary":"#ffffff","tertiary":"#00160d","surface-container":"#f2ede4","tertiary-fixed":"#c5ebd7","surface-container-highest":"#e7e2d9","on-surface-variant":"#4e4542","on-tertiary-fixed-variant":"#2c4d3f","primary-fixed":"#ede0dc","on-secondary-fixed":"#3b0714","surface-bright":"#fef9f0","tertiary-container":"#092c1f","on-background":"#1d1c16","surface":"#fef9f0","surface-container-low":"#f8f3ea","inverse-on-surface":"#f5f0e7","on-secondary-fixed-variant":"#72323e","error-container":"#ffdad6","on-error":"#ffffff","on-primary-container":"#968b88","tertiary-fixed-dim":"#aacfbc","on-error-container":"#93000a","outline":"#807572","secondary-fixed":"#ffd9dd","on-primary-fixed":"#211a18","surface-tint":"#665c5a","on-secondary-container":"#7a3844","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","secondary-container":"#fea6b2","on-tertiary-container":"#729584","error":"#ba1a1a","surface-dim":"#ded9d1","outline-variant":"#d1c4c0","secondary":"#8f4955","surface-variant":"#e7e2d9","primary-fixed-dim":"#d0c4c0","on-tertiary-fixed":"#002115","on-tertiary":"#ffffff","primary-container":"#2c2523","inverse-surface":"#32302a","inverse-primary":"#d0c4c0"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","space-lg":"1.75rem","space-xs":"0.25rem","space-sm":"0.5rem","margin":"2rem","space-md":"1rem","space-xl":"3rem"},"fontFamily":{"body-sm":["Newsreader"],"display-lg":["EB Garamond"],"headline-lg":["EB Garamond"],"label-md":["EB Garamond"],"label-lg":["EB Garamond"],"display-lg-mobile":["EB Garamond"],"body-lg":["Newsreader"],"headline-sm":["EB Garamond"],"body-md":["Newsreader"],"headline-lg-mobile":["EB Garamond"],"label-sm":["EB Garamond"],"headline-md":["EB Garamond"]},"fontSize":{"body-sm":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"600"}],"display-lg-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["19px",{"lineHeight":"32px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(44,37,35,0.05)]"><div class="h-28 max-w-[1140px] mx-auto px-margin flex flex-col justify-between pt-4 pb-2"><div class="flex items-center justify-between w-full"><div class="flex items-center gap-space-sm text-secondary"><span class="material-symbols-outlined text-[20px] select-none">bookmark</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant/70">Lex. Archive</span></div><div class="flex flex-col items-center justify-center text-center"><div class="flex items-center gap-space-md"><span class="text-secondary text-[10px] select-none">❦</span><span class="font-headline-sm text-headline-sm tracking-[0.2em] uppercase text-primary font-bold">Word Bloom</span><span class="text-secondary text-[10px] select-none">❦</span></div><span class="font-label-sm text-label-sm tracking-[0.15em] italic text-on-surface-variant font-serif mt-0.5">Folio &amp; Lexicon of English Eloquence</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div><div class="flex items-center justify-center w-full"><nav class="flex items-center gap-space-md py-1 px-space-md rounded" data-active-classes="bg-surface-container-high text-primary font-semibold shadow-[inset_0_1px_2px_rgba(44,37,35,0.06)]"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="words" href="#">01. Words</a><span class="text-outline-variant text-[10px] select-none">•</span><a aria-current="page" class="px-3 py-1 rounded transition-colors uppercase bg-surface-container-high text-primary font-semibold shadow-[inset_0_1px_2px_rgba(44,37,35,0.06)]" data-path="idioms" href="#">02. Idioms</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="phrasal-verbs" href="#">03. Phrasal Verbs</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="difficult-words" href="#">04. Difficult Words</a><span class="text-outline-variant text-[10px] select-none">•</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-3 py-1 rounded transition-colors uppercase" data-path="story-reader" href="#">05. Story Reader</a></nav></div></div></header><main class="w-full pt-28 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-[1140px] w-full mx-auto px-margin pb-space-xl">
+<!-- Scholarly Header Block -->
+<header class="pt-8 pb-space-lg flex flex-col items-center text-center relative">
+<div class="inline-flex items-center gap-space-sm bg-surface-container-high px-space-md py-1 rounded-full mb-space-sm shadow-sm">
+<span class="text-secondary font-serif text-[12px] select-none">❧</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-on-surface-variant">Lexicon Compendium · Fascicle II</span>
+<span class="text-secondary font-serif text-[12px] select-none">☙</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight font-normal">
+        Part II · Idiomatic Phrases — Figures of Speech
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant italic mt-1 max-w-2xl">
+        Timeless English colloquial eloquence &amp; scholarly formulations, catalogued with semantic nuances, historical etymologies, and Azerbaijani correspondences.
+      </p>
+<!-- Archive Metas & Counter -->
+<div class="flex items-center gap-space-lg mt-space-md text-on-surface-variant/80 font-label-md text-label-md uppercase tracking-wider">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-secondary">auto_stories</span> CXXVIII Expressions Curated</span>
+<span>•</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-secondary">verified</span> IELTS 7.5+ Calibrated</span>
+<span>•</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-secondary">history_edu</span> Philological Etymologies</span>
+</div>
+</header>
+<!-- Filter & Register Apparatus -->
+<section class="mb-space-lg bg-surface-container-low p-space-md rounded shadow-sm">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-2">
+<button class="idiom-filter-btn active bg-primary text-on-primary font-label-md text-label-md px-space-md py-1.5 rounded uppercase tracking-wider transition-all shadow-sm">
+            All Idioms (128)
+          </button>
+<button class="idiom-filter-btn bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-md text-label-md px-space-md py-1.5 rounded uppercase tracking-wider transition-all">
+            IELTS Band 7.5+
+          </button>
+<button class="idiom-filter-btn bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-md text-label-md px-space-md py-1.5 rounded uppercase tracking-wider transition-all">
+            Academic Register
+          </button>
+<button class="idiom-filter-btn bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-md text-label-md px-space-md py-1.5 rounded uppercase tracking-wider transition-all">
+            Everyday Colloquial
+          </button>
+</div>
+<!-- Search and Lexical Filter Controls -->
+<div class="flex items-center gap-space-sm w-full lg:w-auto">
+<div class="relative flex-1 lg:w-64">
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-[17px] text-on-surface-variant/60">search</span>
+<input class="w-full bg-surface-container pl-8 pr-3 py-1.5 text-body-sm font-body-sm text-primary placeholder:text-on-surface-variant/60 placeholder:italic rounded focus:outline-none focus:bg-surface-container-highest transition-colors" placeholder="Search expression or Azerbaijani term..." type="text"/>
+</div>
+<button class="bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary p-2 rounded transition-colors flex items-center justify-center" title="Sort Order">
+<span class="material-symbols-outlined text-[18px]">sort_by_alpha</span>
+</button>
+<button class="bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-secondary p-2 rounded transition-colors flex items-center justify-center" title="Bookmarked Only">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Main Compendium Slip Folios (2 Broad Columns) -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg mb-space-xl">
+<!-- Folio 1: Break the ice -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header / Top Badges -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 018</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">IELTS Band 7+</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term & Azerbaijani Definition -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Break the ice
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /breɪk ðiː aɪs/
+            </p>
+</div>
+<!-- Semantic Definition & Azerbaijani Correspondence -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Buzu sındırmaq <span class="text-on-surface-variant font-normal">(ünsiyyət yaratmaq, ilkin gərginliyi aradan qaldırmaq, söhbətə başlamaq)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> To overcome formality or cold reserve in a social setting; to facilitate uninhibited dialogue.
+            </p>
+</div>
+<!-- Etymological Vignette & History -->
+<div class="mt-space-md grid grid-cols-3 gap-space-sm items-center bg-surface-container-high/60 p-space-sm rounded">
+<div class="col-span-1 h-20 rounded overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover grayscale mix-blend-multiply" data-alt="An antique woodblock print illustration of a 17th-century merchant galleon navigating pack ice in polar twilight with woodcut crosshatching texture in muted sepia tones and ivory paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZKioNMkSKvL8fUXYQEAR1YmlNruNsu0R5iKNXNbyi9ZFgaYdfb5HqgqJWsY1NGgG5aXRCzOP5cweBdrL-RRmH1LlbieT_Vaiy0hjkbbgxQDMq5LBAkA8bX2twKG54zFuiJnBsSWyv0LI7YK3jy0ceQCE5hY2JGLQfxG4i9MUpm3GljSkBe1E-g5VE88KX5hAju9dMPyiH_Nc12G5RGo8jP1TrnFeZcyy5Uah7YGJl"/>
+</div>
+<div class="col-span-2">
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant uppercase tracking-wider block font-semibold">Nautical Icebreaker Origin</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[13px] leading-snug mt-1">
+                Derived from trade ships sent ahead with reinforced hulls to shatter frozen coastal waterways, allowing merchant convoys safe passage and open commerce.
+              </p>
+</div>
+</div>
+<!-- Exemplum in Literary Cadence -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “The chairman cracked a self-effacing jest about his punctuality, thereby <span class="font-semibold text-secondary not-italic">breaking the ice</span> before the stringent quarterly audit commenced.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> İdarə heyətinin sədri öz dəqiqliyi barədə zarafat edərək, sərt rüblük audit başlamazdan öncə yaranmış ilkin gərginliyi aradan qaldırdı.
+            </p>
+</div>
+</div>
+<!-- Folio Footer -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: Formal / Colloquial Diplomatic</span>
+<span>Collocation: “help to...” / “serve to...”</span>
+</div>
+</article>
+<!-- Folio 2: Once in a blue moon -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header / Top Badges -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 019</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">Essential Idiom</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term & Azerbaijani Definition -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Once in a blue moon
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /wʌns ɪn ə bluː muːn/
+            </p>
+</div>
+<!-- Azerbaijani Definition -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Yüz ildə bir <span class="text-on-surface-variant font-normal">(hədsiz dərəcədə nadir hallarda, qeyri-adi təsadüflərdə)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> Pertaining to events of exceptional rarity or improbable recurrence.
+            </p>
+</div>
+<!-- Celestial Lore Box -->
+<div class="mt-space-md grid grid-cols-3 gap-space-sm items-center bg-surface-container-high/60 p-space-sm rounded">
+<div class="col-span-1 h-20 rounded overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover grayscale mix-blend-multiply" data-alt="An astronomical ink illustration of an antique lunar phase chart and astronomical armillary sphere on unbleached parchment with warm sepia and muted charcoal lineart." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUXOsGdTVx_ue7jADGAip7bDkNJbFvX1qCc7cXoJg8KNzUe8rK1pRW2rK6K6xIS4tJBghLVnroRoCk1R4kZZGoZOY6dd8MUt9g3E5IIJ9O9tMJLfK1YZ8Fn2OQe0o-XWfc51KrruEYLmTvOM7MzCFa1hHK9f84CCQldVJBrCfqos23dikjOhAcjxOvM-RmhuGhmz1sfuBq4XC9mON36hByZC70biHpEW7PUnwlVdVD"/>
+</div>
+<div class="col-span-2">
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider block font-semibold">Celestial Almanac Lore</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[13px] leading-snug mt-1">
+                Refers to the third full moon in an astronomical season of four full moons, or two in a single solar month; occurrences separated by roughly 2.7 terrestrial years.
+              </p>
+</div>
+</div>
+<!-- Exemplum -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “Though gifted with a brilliant rhetorical instinct, the recluse scholar consented to address the Royal Society only <span class="font-semibold text-secondary not-italic">once in a blue moon</span>.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> İntellektual natiqlik istedadına malik olmasına baxmayaraq, xəlvətə çəkilmiş alim Kral Cəmiyyəti qarşısında çıxış etməyə yalnız yüz ildə bir razılıq verirdi.
+            </p>
+</div>
+</div>
+<!-- Folio Footer -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: Expressive / General Academic</span>
+<span>Frequency: Band 6.5–7.5 Idiomatic Flow</span>
+</div>
+</article>
+<!-- Folio 3: Bite the bullet -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 020</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">IELTS Band 7.5</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Bite the bullet
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /baɪt ðə ˈbʊl.ɪt/
+            </p>
+</div>
+<!-- Azerbaijani Correspondence -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Dişini sıxmaq <span class="text-on-surface-variant font-normal">(qaçılmaz ağrıya, çətinliyə və ya zəruri sınağa cəsarətlə dözmək)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> To confront an inevitable and distressing circumstance with fortitude without evasive delay.
+            </p>
+</div>
+<!-- Battlefield Etymology Commentary -->
+<div class="mt-space-md p-space-sm bg-surface-container-high/60 rounded">
+<span class="font-label-sm text-label-sm text-on-primary-fixed-variant uppercase tracking-wider block font-semibold mb-1">
+              Etymology · 19th Century Field Surgery
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Arising from military field hospitals before the generalisation of chemical anaesthetics, wherein wounded soldiers bit upon a soft lead projectile to endure emergency surgical operations without cry or jaw breakage.
+            </p>
+</div>
+<!-- Literary Exemplum -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “Confronted with undeniable budgetary deficits, the ministry resolved to <span class="font-semibold text-secondary not-italic">bite the bullet</span> and introduce severe austerity curbs.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> İnkaredilməz büdcə kəsirləri ilə üzləşən nazirlik dişini sıxaraq sərt qənaət tədbirlərini qüvvəyə mindirmək qərarına gəldi.
+            </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: Formal Commentary &amp; Rhetoric</span>
+<span>Task 2 Value: Band 8.0 Lexical Resource</span>
+</div>
+</article>
+<!-- Folio 4: Burn the midnight oil -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 021</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">Academic Register</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Burn the midnight oil
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /bɜːn ðə ˈmɪd.naɪt ɔɪl/
+            </p>
+</div>
+<!-- Azerbaijani Correspondence -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Gecə yarıyadək dərs oxumaq <span class="text-on-surface-variant font-normal">(gecə saatlarına qədər gərgin zehni əməklə məşğul olmaq)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> Sustained and diligent mental labor well into the night by artificial lamp illumination.
+            </p>
+</div>
+<!-- Historical Lore Note -->
+<div class="mt-space-md p-space-sm bg-surface-container-high/60 rounded">
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant uppercase tracking-wider block font-semibold mb-1">
+              Philological Antiquity · 18th-Century Scholar Lore
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Immortalised by English poet John Gay in 1727, directly alluding to oil-wick lamps burning valuable whale oil in solitary scholarly scripts and university chambers.
+            </p>
+</div>
+<!-- Exemplum -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “The researchers were obliged to <span class="font-semibold text-secondary not-italic">burn the midnight oil</span> in the archive, decoding the damaged parchment fragments.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> Tədqiqatçılar arxivdə gecə yarıyadək zəhmət çəkərək zədələnmiş perqament parçalarını deşifrə etməyə məcbur oldular.
+            </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: High Academic / Literary</span>
+<span>Examiner Tip: Preferable to basic ‘work hard late’</span>
+</div>
+</article>
+<!-- Folio 5: Cry over spilled milk -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 022</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">Common B1–B2</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Cry over spilled milk
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /kraɪ ˈoʊ.vɚ spɪld mɪlk/
+            </p>
+</div>
+<!-- Azerbaijani Correspondence -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Keçmişə heyfsilənmək <span class="text-on-surface-variant font-normal">(olan şeyə əbəs yerə kədərlənmək, geriyə qayıtmayan itkiyə yanmaq)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> Vain, futile distress over irreversible past errors or irrecoverable losses.
+            </p>
+</div>
+<!-- Folk Etymology Vignette -->
+<div class="mt-space-md p-space-sm bg-surface-container-high/60 rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold mb-1">
+              Folk Proverb Antiquity · 1659
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Attested in James Howell’s 1659 compilation “Proverbs in English, Italian, French and Spanish” as <em>‘No weeping for shed milk’</em>. Celtic lore linked spilt dairy to small offerings accepted by household spirits.
+            </p>
+</div>
+<!-- Exemplum -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “While the clerical mistake cost us the tender, there is little merit in <span class="font-semibold text-secondary not-italic">crying over spilled milk</span>; we must draft the succeeding proposition.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> Texniki xəta tenderi itirməyimizlə nəticələnsə də, olan şeyə əbəs yerə heyfsilənməyin faydası yoxdur; növbəti təklifi hazırlamalıyıq.
+            </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: Pragmatic / Conversational</span>
+<span>Frequent Syntax: “No use crying over...”</span>
+</div>
+</article>
+<!-- Folio 6: Piece of cake -->
+<article class="bg-surface-container-low p-space-lg rounded shadow-sm hover:shadow-md transition-all flex flex-col justify-between relative group">
+<div>
+<!-- Folio Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Fol. 023</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded uppercase">Primer A2–B1</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="speaker-btn text-on-surface-variant hover:text-primary p-1 rounded hover:bg-surface-container transition-colors" title="Listen to Cadence">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="mark-btn text-on-surface-variant hover:text-secondary p-1 rounded hover:bg-surface-container transition-colors" title="Mark as Difficult">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+</div>
+<!-- Main Term -->
+<div class="mt-space-xs">
+<h2 class="font-headline-md text-headline-md text-primary font-normal">
+              Piece of cake
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary italic mt-0.5">
+              /piːs əv keɪk/
+            </p>
+</div>
+<!-- Azerbaijani Correspondence -->
+<div class="mt-space-sm bg-surface-container p-space-sm rounded">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">translate</span> Azərbaycan dilində ekvivalenti:
+            </div>
+<p class="font-body-md text-body-md text-primary font-medium">
+              Çox asan iş <span class="text-on-surface-variant font-normal">(su içimi kimi, zəhmət tələb etməyən sadə tapşırıq)</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 pt-1.5 bg-surface-container-high/40 px-2 py-1 rounded">
+<strong class="font-label-sm text-label-sm text-primary uppercase">Semantic Value:</strong> A straightforward task achieved with absolute ease and negligible effort.
+            </p>
+</div>
+<!-- Culinary / Military Lore -->
+<div class="mt-space-md p-space-sm bg-surface-container-high/60 rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold mb-1">
+              Mid-20th Century RAF Colloquialism
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Originated within the British Royal Air Force in 1938 describing an effortless aerial mission, inspired by the 19th-century American “cake walk” festivities where confections were won with ease.
+            </p>
+</div>
+<!-- Exemplum -->
+<div class="mt-space-md pl-3 bg-surface-container-low rounded">
+<p class="font-body-md text-body-md text-primary italic leading-relaxed">
+              “Having audited multinational ledgers for two decades, deciphering the boutique firm’s annual ledger was a <span class="font-semibold text-secondary not-italic">piece of cake</span> for him.”
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+<em>Az:</em> İyirmi il transmilli şirkətlərin mühasibatını yoxladıqdan sonra, kiçik butik firmanın illik maliyyə hesabatını təhlil etmək onun üçün su içimi kimi asan idi.
+            </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant/70 font-label-sm text-label-sm uppercase tracking-wider">
+<span>Register: Colloquial / Informal</span>
+<span>Caution: Avoid in IELTS Academic Writing Task 2</span>
+</div>
+</article>
+</div>
+<!-- Fleuron Divider -->
+<div class="flex items-center justify-center gap-space-md my-space-lg text-secondary/60">
+<span class="text-sm select-none">❧</span>
+<span class="text-xs select-none">❖</span>
+<span class="font-headline-sm text-headline-sm italic text-primary/80 font-serif">Ars Rhetorica</span>
+<span class="text-xs select-none">❖</span>
+<span class="text-sm select-none">☙</span>
+</div>
+<!-- Dedicated Scholarly Panel: Rhetorical Practice & Examiner Advice -->
+<section class="bg-surface-container p-space-xl rounded shadow-md relative overflow-hidden">
+<!-- Faint decorative background flourish -->
+<div class="absolute -right-12 -bottom-12 w-64 h-64 rounded-full bg-secondary-fixed/20 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg relative z-10">
+<!-- Left Column: Examiner Advice -->
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-semibold mb-2">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span>IELTS Assessment &amp; Stylistic Criterion</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-normal">
+              Rhetorical Practice &amp; Examiner Advice
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-space-sm">
+              In the IELTS Speaking (Parts 2 &amp; 3) and Academic Writing evaluation rubrics, idiomatic language falls directly under <strong class="text-primary font-semibold">Lexical Resource</strong> (Band 7: <em>‘uses some less common and idiomatic vocabulary and shows some awareness of style and collocation’</em>). 
+            </p>
+<!-- Nuance Guidance Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm mt-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold block mb-1">
+                  1. Speaking vs. Writing
+                </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Phrases such as <em>‘piece of cake’</em> enhance natural fluency in Speaking Part 1, yet diminish the scholarly gravity demanded in Academic Task 2 essays.
+                </p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm">
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant uppercase font-semibold block mb-1">
+                  2. Restraint &amp; Precision
+                </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Over-stacking colloquialisms risks contrived delivery. Deploy idioms only when the nuance perfectly clarifies sentiment or argumentative weight.
+                </p>
+</div>
+</div>
+<!-- Azerbaijani Comparative Note -->
+<div class="mt-space-md bg-surface-container-high p-space-sm rounded">
+<p class="font-body-sm text-body-sm text-primary">
+<span class="font-label-sm text-label-sm uppercase font-semibold text-secondary block">Qeyd (Azərbaycanlı tələbələr üçün):</span>
+                İngilis idiomlarını sözbəsöz tərcümə etmək deyil, onların semantik kontekstini və üslubiyyatını (rəsmi və ya danışıq qatı) qavramaq mütləqdir. ‘Bite the bullet’ ifadəsi qətiyyət tələb edən qərarlar üçün yüksək ballı akademik nitq fiqurudur.
+              </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-md">
+<button class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md px-space-lg py-2.5 rounded uppercase tracking-widest transition-all shadow-sm">
+              Consult Band 8.5 Exemplars
+            </button>
+<button class="bg-surface-container-lowest hover:bg-surface-container-high text-primary font-label-md text-label-md px-space-md py-2.5 rounded uppercase tracking-wider transition-all">
+              Download Folio PDF
+            </button>
+</div>
+</div>
+<!-- Right Column: Interactive Mastery & Register Matrix -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-normal">Idiomatic Mastery Index</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">MMXXIV</span>
+</div>
+<!-- Band Distribution SVG Sparkline / Bar Graph -->
+<div class="mt-space-sm">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Band 7.5+ Readiness Ratio</span>
+<span class="font-semibold text-primary">68% Attained</span>
+</div>
+<!-- Clean Scholarly Progress SVG -->
+<svg class="w-full h-5 text-secondary" fill="none" viewbox="0 0 320 20" xmlns="http://www.w3.org/2000/svg">
+<rect class="fill-surface-container-high" height="8" rx="2" width="320" x="0" y="6"></rect>
+<rect fill="currentColor" height="8" rx="2" width="218" x="0" y="6"></rect>
+<!-- Subtle graduation marks -->
+<line class="stroke-background stroke-[1.5]" x1="80" x2="80" y1="4" y2="16"></line>
+<line class="stroke-background stroke-[1.5]" x1="160" x2="160" y1="4" y2="16"></line>
+<line class="stroke-background stroke-[1.5]" x1="240" x2="240" y1="4" y2="16"></line>
+</svg>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant/70 mt-1 uppercase tracking-wider">
+<span>A2 Familiar</span>
+<span>B2 Fluent</span>
+<span>C1 Scholar</span>
+<span>C2 Mastery</span>
+</div>
+</div>
+<!-- Lexical Registers Breakdown -->
+<div class="mt-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-body-sm text-body-sm text-primary">Academic Metaphorical Register</span>
+</div>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface-variant">42 items</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary-container"></span>
+<span class="font-body-sm text-body-sm text-primary">Formal Diplomatic Cadence</span>
+</div>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface-variant">36 items</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span class="font-body-sm text-body-sm text-primary">Colloquial &amp; Conversational</span>
+</div>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface-variant">50 items</span>
+</div>
+</div>
+</div>
+<!-- Bottom Micro-Tally Action -->
+<div class="mt-space-lg pt-space-sm bg-surface-container-low p-space-sm rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Study Goal for Today</span>
+<span class="font-body-sm text-body-sm font-medium text-primary">6 / 10 Mastered</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>
+  (function() {
+    // Filter button interactive active toggles
+    const filterButtons = document.querySelectorAll('.idiom-filter-btn');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        this.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        this.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      });
+    });
+
+    // Speaker pronunciation audio animation micro-interaction
+    const speakerButtons = document.querySelectorAll('.speaker-btn');
+    speakerButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const icon = this.querySelector('.material-symbols-outlined');
+        const originalText = icon.textContent;
+        icon.textContent = 'record_voice_over';
+        icon.classList.add('text-secondary');
+        setTimeout(() => {
+          icon.textContent = originalText;
+          icon.classList.remove('text-secondary');
+        }, 1200);
+      });
+    });
+
+    // Mark as Difficult toggles
+    const markButtons = document.querySelectorAll('.mark-btn');
+    markButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const icon = this.querySelector('.material-symbols-outlined');
+        if (icon.textContent === 'flag') {
+          icon.textContent = 'tour';
+          icon.classList.add('text-error');
+          this.setAttribute('title', 'Marked as Difficult');
+        } else {
+          icon.textContent = 'flag';
+          icon.classList.remove('text-error');
+          this.setAttribute('title', 'Mark as Difficult');
+        }
+      });
+    });
+  })();
+</script></main><footer class="w-full bg-surface-container-low py-space-xl mt-space-xl shadow-[inset_0_1px_3px_rgba(44,37,35,0.03)]"><div class="max-w-[1140px] mx-auto px-margin flex flex-col items-center justify-center gap-space-sm text-center"><div class="flex items-center gap-space-md text-secondary/60 text-xs select-none"><span>❧</span><span>❖</span><span>☙</span></div><p class="font-headline-sm text-headline-sm text-primary italic font-serif">Ex Libris Bibliotheca Eloquentiae</p><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Printed and compiled for devoted philologists, scholars of cadence, and lovers of classical English diction.</p><div class="flex items-center gap-space-lg mt-space-sm"><span class="font-label-sm text-label-sm text-on-surface-variant/80 uppercase tracking-widest">Volume I • Edition MMXXIV</span></div></div></footer></body></html>
