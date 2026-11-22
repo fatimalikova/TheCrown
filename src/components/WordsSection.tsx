@@ -1,12 +1,14 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Bookmark,
   BookOpen,
   Check,
   ChevronLeft,
   ChevronRight,
+  Loader2,
   PenLine,
   Search,
+  Sparkles,
   Volume2,
   X,
 } from 'lucide-react';
@@ -16,6 +18,7 @@ import {
   DifficultItem,
   WordEntry,
 } from '../types/lexicon';
+import { lookupLocalStoryWord } from '../data/storyDictionary';
 import { speakEnglish } from '../utils/speech';
 
 interface WordsSectionProps {
@@ -27,6 +30,48 @@ interface WordsSectionProps {
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const PAGE_SIZE = 6;
+
+const POS_OPTIONS = [
+  'Noun',
+  'Verb',
+  'Adjective',
+  'Adverb',
+  'Preposition',
+  'Conjunction',
+  'Pronoun',
+  'Phrase',
+] as const;
+
+function parseCefrFromBadge(badge?: string): CefrLevel | null {
+  if (!badge) return null;
+  const match = badge.match(/\b(A1|A2|B1|B2|C1|C2)\b/i);
+  if (!match) return null;
+  return match[1].toUpperCase() as CefrLevel;
+}
+
+function normalizePos(raw?: string, badge?: string): string {
+  const source = `${raw || ''} ${badge || ''}`.toLowerCase();
+  if (source.includes('adjective') || source.includes('adj')) return 'Adjective';
+  if (source.includes('adverb')) return 'Adverb';
+  if (source.includes('verb')) return 'Verb';
+  if (source.includes('noun')) return 'Noun';
+  if (source.includes('preposition') || source.includes('prep')) return 'Preposition';
+  if (source.includes('conjunction') || source.includes('conj')) return 'Conjunction';
+  if (source.includes('pronoun')) return 'Pronoun';
+  if (source.includes('idiom') || source.includes('phrase')) return 'Phrase';
+  return 'Noun';
+}
+
+interface DetectedLexiconPayload {
+  level?: CefrLevel;
+  pos?: string;
+  ipa?: string;
+  origin?: string;
+  az?: string;
+  definition?: string;
+  exampleEn?: string;
+  exampleAz?: string;
+}
 
 export const WordsSection: React.FC<WordsSectionProps> = ({
   words,
@@ -53,8 +98,16 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
   const [exampleInput, setExampleInput] = useState('');
   const [exampleAzInput, setExampleAzInput] = useState('');
   const [ledgerSavedMsg, setLedgerSavedMsg] = useState(false);
+  const [autoStatus, setAutoStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
+  const [autoNote, setAutoNote] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const manualEditsRef = useRef<Set<'cefr' | 'pos' | 'ipa' | 'origin' | 'az' | 'example'>>(
+    new Set()
+  );
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const activeLookupRef = useRef<string>('');
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -132,37 +185,272 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
     setTimeout(() => setSpeakingId((prev) => (prev === id ? null : prev)), 1200);
   };
 
-  const handleLedgerSubmit = (e: React.FormEvent) => {
+  const applyDetectedPayload = useCallback(
+    (payload: DetectedLexiconPayload, forceOverwrite: boolean) => {
+      const manual = manualEditsRef.current;
+      if (payload.level && (forceOverwrite || !manual.has('cefr'))) {
+        setCefrInput(payload.level);
+      }
+      if (payload.pos && (forceOverwrite || !manual.has('pos'))) {
+        setPosInput(payload.pos);
+      }
+      if (payload.ipa && (forceOverwrite || !manual.has('ipa'))) {
+        setIpaInput(payload.ipa);
+      }
+      if (payload.origin && (forceOverwrite || !manual.has('origin'))) {
+        setOriginInput(payload.origin);
+      }
+      if (payload.az && (forceOverwrite || !manual.has('az'))) {
+        setAzeriInput(payload.az);
+      }
+      if (payload.definition) {
+        setDefinitionInput(payload.definition);
+      }
+      if (payload.exampleEn && (forceOverwrite || !manual.has('example'))) {
+        setExampleInput(payload.exampleEn);
+      }
+      if (payload.exampleAz && (forceOverwrite || !manual.has('example'))) {
+        setExampleAzInput(payload.exampleAz);
+      }
+    },
+    []
+  );
+
+  const runAutoDetect = useCallback(
+    async (
+      rawTerm: string,
+      forceOverwrite = false
+    ): Promise<DetectedLexiconPayload | null> => {
+      const cleanTerm = rawTerm.trim();
+      if (!/[a-zA-Z]{2,}/.test(cleanTerm)) {
+        return null;
+      }
+
+      const normalizedKey = cleanTerm.toLowerCase();
+      activeLookupRef.current = normalizedKey;
+
+      // 1. Instant local lexicon or story dictionary hit
+      const existing = words.find(
+        (w) => w.term.trim().toLowerCase() === normalizedKey
+      );
+      if (existing) {
+        const localPayload: DetectedLexiconPayload = {
+          level: existing.level,
+          pos: normalizePos(existing.partOfSpeech),
+          ipa: existing.ipa,
+          origin: existing.etymology,
+          az: existing.azTranslation,
+          definition: existing.definition,
+          exampleEn: existing.exampleEn,
+          exampleAz: existing.exampleAz,
+        };
+        applyDetectedPayload(localPayload, forceOverwrite);
+        setAutoStatus('ready');
+        setAutoNote(`Auto-detected ${existing.level} · ${localPayload.pos}`);
+        return localPayload;
+      }
+
+      const storyHit = lookupLocalStoryWord(cleanTerm);
+      let instantPayload: DetectedLexiconPayload | null = null;
+      if (storyHit) {
+        const parsedLvl = parseCefrFromBadge(storyHit.badge) ?? 'B1';
+        const parsedPos = normalizePos(undefined, storyHit.badge);
+        instantPayload = {
+          level: parsedLvl,
+          pos: parsedPos,
+          ipa: storyHit.ipa,
+          origin: storyHit.etymology,
+          az: storyHit.azTranslation,
+          definition: storyHit.definition,
+        };
+        applyDetectedPayload(instantPayload, forceOverwrite);
+        setAutoStatus('ready');
+        setAutoNote(`Auto-detected ${parsedLvl} · ${parsedPos}`);
+      } else {
+        setAutoStatus('loading');
+        setAutoNote('Detecting CEFR level & translating…');
+      }
+
+      // 2. Full AI lexicon analysis & Azerbaijani translation (+ examples & etymology)
+      abortControllerRef.current?.abort();
+      const controller = new AbortController();
+      abortControllerRef.current = controller;
+
+      try {
+        const res = await fetch('/api/translate-word', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ word: cleanTerm, detailed: true }),
+          signal: controller.signal,
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.entry) {
+          if (instantPayload) return instantPayload;
+          if (activeLookupRef.current === normalizedKey) {
+            setAutoStatus('error');
+            setAutoNote(
+              typeof data.error === 'string'
+                ? data.error
+                : 'Auto-translate unavailable; you can enter details manually.'
+            );
+          }
+          return null;
+        }
+
+        if (activeLookupRef.current !== normalizedKey) {
+          return null;
+        }
+
+        const entry = data.entry as {
+          cefrLevel?: string;
+          partOfSpeech?: string;
+          badge?: string;
+          ipa?: string;
+          etymology?: string;
+          azTranslation?: string;
+          definition?: string;
+          exampleEn?: string;
+          exampleAz?: string;
+        };
+
+        const detectedLevel =
+          parseCefrFromBadge(entry.cefrLevel) ??
+          parseCefrFromBadge(entry.badge) ??
+          instantPayload?.level ??
+          'B2';
+        const detectedPos = normalizePos(entry.partOfSpeech, entry.badge);
+
+        const fullPayload: DetectedLexiconPayload = {
+          level: detectedLevel,
+          pos: detectedPos,
+          ipa: entry.ipa || instantPayload?.ipa,
+          origin: entry.etymology || instantPayload?.origin,
+          az: entry.azTranslation || instantPayload?.az,
+          definition: entry.definition || instantPayload?.definition,
+          exampleEn: entry.exampleEn,
+          exampleAz: entry.exampleAz,
+        };
+
+        applyDetectedPayload(fullPayload, forceOverwrite);
+        setAutoStatus('ready');
+        setAutoNote(`Auto-detected ${detectedLevel} · ${detectedPos}`);
+        return fullPayload;
+      } catch (err) {
+        if ((err as { name?: string })?.name === 'AbortError') {
+          return instantPayload;
+        }
+        if (instantPayload) return instantPayload;
+        if (activeLookupRef.current === normalizedKey) {
+          setAutoStatus('error');
+          setAutoNote('Could not reach translator; enter meaning manually.');
+        }
+        return null;
+      }
+    },
+    [applyDetectedPayload, words]
+  );
+
+  // Debounced auto CEFR + Azerbaijani translation when typing English Word
+  useEffect(() => {
+    const clean = lemmaInput.trim();
+    if (!/[a-zA-Z]{2,}/.test(clean)) {
+      abortControllerRef.current?.abort();
+      activeLookupRef.current = '';
+      setAutoStatus('idle');
+      setAutoNote(null);
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      void runAutoDetect(clean, false);
+    }, 520);
+
+    return () => {
+      window.clearTimeout(timer);
+    };
+  }, [lemmaInput, runAutoDetect]);
+
+  const handleLemmaChange = (value: string) => {
+    setLemmaInput(value);
+    // Reset manual override tracking when starting a new word so auto-detect fills cleanly
+    manualEditsRef.current.clear();
+    if (!value.trim()) {
+      setIpaInput('');
+      setOriginInput('');
+      setAzeriInput('');
+      setDefinitionInput('');
+      setExampleInput('');
+      setExampleAzInput('');
+    }
+  };
+
+  const handleLedgerSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (isSubmitting) return;
     const cleanTerm = lemmaInput.trim();
-    const cleanAz = azeriInput.trim();
-    if (!cleanTerm || !cleanAz) return;
+    if (!cleanTerm) return;
+
+    let finalAz = azeriInput.trim();
+    let finalLevel = cefrInput;
+    let finalPos = posInput;
+    let finalIpa = ipaInput.trim();
+    let finalOrigin = originInput.trim();
+    let finalDefinition = definitionInput.trim();
+    let finalExampleEn = exampleInput.trim();
+    let finalExampleAz = exampleAzInput.trim();
+
+    if (!finalAz) {
+      setIsSubmitting(true);
+      const detected = await runAutoDetect(cleanTerm, false);
+      setIsSubmitting(false);
+      if (detected) {
+        if (detected.az && !manualEditsRef.current.has('az')) finalAz = detected.az.trim();
+        if (detected.level && !manualEditsRef.current.has('cefr')) finalLevel = detected.level;
+        if (detected.pos && !manualEditsRef.current.has('pos')) finalPos = detected.pos;
+        if (detected.ipa && !finalIpa) finalIpa = detected.ipa.trim();
+        if (detected.origin && !finalOrigin) finalOrigin = detected.origin.trim();
+        if (detected.definition && !finalDefinition) finalDefinition = detected.definition.trim();
+        if (detected.exampleEn && !finalExampleEn) finalExampleEn = detected.exampleEn.trim();
+        if (detected.exampleAz && !finalExampleAz) finalExampleAz = detected.exampleAz.trim();
+      }
+    }
+
+    if (!finalAz) {
+      setAutoStatus('error');
+      setAutoNote('Please enter the Azerbaijani translation or retry Auto-Detect.');
+      return;
+    }
 
     const newWord: WordEntry = {
       id: `custom-word-${Date.now()}`,
       category: 'word',
       term: cleanTerm,
-      ipa: ipaInput.trim() || `/${cleanTerm.toLowerCase()}/`,
-      level: cefrInput,
-      partOfSpeech: posInput,
-      etymology: originInput.trim() || 'Personal archival entry',
-      azTranslation: cleanAz,
+      ipa: finalIpa || `/${cleanTerm.toLowerCase()}/`,
+      level: finalLevel,
+      partOfSpeech: finalPos,
+      etymology: finalOrigin || 'Personal archival entry',
+      azTranslation: finalAz,
       definition:
-        definitionInput.trim() ||
-        `Custom vocabulary entry recorded for ${cefrInput} mastery.`,
+        finalDefinition ||
+        `Custom vocabulary entry recorded for ${finalLevel} mastery.`,
       exampleEn:
-        exampleInput.trim() ||
+        finalExampleEn ||
         `The scholar carefully noted “${cleanTerm}” in her personal notebook.`,
       exampleAz:
-        exampleAzInput.trim() ||
+        finalExampleAz ||
         `Tələbə “${cleanTerm}” sözünü şəxsi dəftərinə qeyd etdi.`,
       relationLabel: 'Collocations',
-      relatedTerms: [cefrInput, posInput.toLowerCase()],
+      relatedTerms: [finalLevel, finalPos.toLowerCase()],
       folioRef: `Personal · #${words.length + 1}`,
       isCustom: true,
     };
 
     onAddWord(newWord);
+    manualEditsRef.current.clear();
+    abortControllerRef.current?.abort();
+    activeLookupRef.current = '';
+    setAutoStatus('idle');
+    setAutoNote(null);
     setLemmaInput('');
     setIpaInput('');
     setOriginInput('');
@@ -693,29 +981,71 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
 
           {/* Personal Ledger: Add Custom Word */}
           <div className="bg-surface-container-low rounded-xl p-5 border border-outline-variant/40">
-            <div className="flex items-center gap-2 mb-1 text-primary">
-              <PenLine className="w-4 h-4 text-secondary" aria-hidden="true" />
-              <h3 className="font-[var(--font-display)] text-xl font-semibold">
-                Add New Word
-              </h3>
+            <div className="flex items-center justify-between gap-2 mb-1 text-primary">
+              <div className="flex items-center gap-2">
+                <PenLine className="w-4 h-4 text-secondary" aria-hidden="true" />
+                <h3 className="font-[var(--font-display)] text-xl font-semibold">
+                  Add New Word
+                </h3>
+              </div>
+              <span className="font-[var(--font-display)] text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-secondary-fixed/70 text-on-secondary-fixed font-semibold">
+                Auto CEFR &amp; AZ
+              </span>
             </div>
             <p className="text-xs text-on-surface-variant mb-4">
-              Record a new English word, CEFR level, and Azerbaijani translation directly into your folio.
+              Type an English word — CEFR level and Azerbaijani translation are detected automatically, and can be edited anytime.
             </p>
 
             <form onSubmit={handleLedgerSubmit} className="space-y-3">
               <div>
-                <label className="block font-[var(--font-display)] text-[11px] uppercase tracking-wider text-on-surface-variant mb-1">
-                  English Word *
-                </label>
+                <div className="flex items-center justify-between mb-1">
+                  <label className="block font-[var(--font-display)] text-[11px] uppercase tracking-wider text-on-surface-variant">
+                    English Word *
+                  </label>
+                  <button
+                    type="button"
+                    disabled={!/[a-zA-Z]{2,}/.test(lemmaInput.trim()) || autoStatus === 'loading'}
+                    onClick={() => {
+                      manualEditsRef.current.clear();
+                      void runAutoDetect(lemmaInput.trim(), true);
+                    }}
+                    className="inline-flex items-center gap-1 font-[var(--font-display)] text-[10px] uppercase tracking-wider text-secondary hover:text-primary disabled:opacity-40 cursor-pointer disabled:cursor-default transition-colors"
+                  >
+                    {autoStatus === 'loading' ? (
+                      <Loader2 className="w-3 h-3 animate-spin" />
+                    ) : (
+                      <Sparkles className="w-3 h-3" />
+                    )}
+                    <span>Auto-Detect</span>
+                  </button>
+                </div>
                 <input
                   type="text"
                   required
                   value={lemmaInput}
-                  onChange={(e) => setLemmaInput(e.target.value)}
+                  onChange={(e) => handleLemmaChange(e.target.value)}
                   placeholder="e.g. Ubiquitous"
                   className="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                 />
+                {autoNote && (
+                  <p
+                    className={`mt-1.5 text-[11px] flex items-center gap-1.5 ${
+                      autoStatus === 'error'
+                        ? 'text-error'
+                        : autoStatus === 'loading'
+                          ? 'text-on-surface-variant'
+                          : 'text-secondary font-medium'
+                    }`}
+                  >
+                    {autoStatus === 'loading' && (
+                      <Loader2 className="w-3 h-3 animate-spin shrink-0" />
+                    )}
+                    {autoStatus === 'ready' && (
+                      <Check className="w-3 h-3 shrink-0" />
+                    )}
+                    <span>{autoNote}</span>
+                  </p>
+                )}
               </div>
 
               <div className="grid grid-cols-2 gap-2">
@@ -725,7 +1055,10 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   </label>
                   <select
                     value={cefrInput}
-                    onChange={(e) => setCefrInput(e.target.value as CefrLevel)}
+                    onChange={(e) => {
+                      manualEditsRef.current.add('cefr');
+                      setCefrInput(e.target.value as CefrLevel);
+                    }}
                     className="w-full px-2.5 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                   >
                     <option value="A1">A1 Beginner</option>
@@ -742,13 +1075,17 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   </label>
                   <select
                     value={posInput}
-                    onChange={(e) => setPosInput(e.target.value)}
+                    onChange={(e) => {
+                      manualEditsRef.current.add('pos');
+                      setPosInput(e.target.value);
+                    }}
                     className="w-full px-2.5 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                   >
-                    <option value="Noun">Noun</option>
-                    <option value="Verb">Verb</option>
-                    <option value="Adjective">Adjective</option>
-                    <option value="Adverb">Adverb</option>
+                    {POS_OPTIONS.map((opt) => (
+                      <option key={opt} value={opt}>
+                        {opt}
+                      </option>
+                    ))}
                   </select>
                 </div>
               </div>
@@ -761,7 +1098,10 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   <input
                     type="text"
                     value={ipaInput}
-                    onChange={(e) => setIpaInput(e.target.value)}
+                    onChange={(e) => {
+                      manualEditsRef.current.add('ipa');
+                      setIpaInput(e.target.value);
+                    }}
                     placeholder="/juːˈbɪk.wɪ.təs/"
                     className="w-full px-2.5 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                   />
@@ -773,7 +1113,10 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   <input
                     type="text"
                     value={originInput}
-                    onChange={(e) => setOriginInput(e.target.value)}
+                    onChange={(e) => {
+                      manualEditsRef.current.add('origin');
+                      setOriginInput(e.target.value);
+                    }}
                     placeholder="Latin: ubique"
                     className="w-full px-2.5 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                   />
@@ -782,37 +1125,47 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
 
               <div>
                 <label className="block font-[var(--font-display)] text-[11px] uppercase tracking-wider text-secondary font-semibold mb-1">
-                  Azerbaijani Translation *
+                  Azerbaijani Translation (Auto)
                 </label>
                 <input
                   type="text"
-                  required
                   value={azeriInput}
-                  onChange={(e) => setAzeriInput(e.target.value)}
-                  placeholder="e.g. Hər yerdə mövcud olan"
+                  onChange={(e) => {
+                    manualEditsRef.current.add('az');
+                    setAzeriInput(e.target.value);
+                  }}
+                  placeholder="Auto-translates when you type a word..."
                   className="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                 />
               </div>
 
               <div>
                 <label className="block font-[var(--font-display)] text-[11px] uppercase tracking-wider text-on-surface-variant mb-1">
-                  Example Sentence (Optional)
+                  Example Sentence (Auto / Optional)
                 </label>
                 <textarea
                   rows={2}
                   value={exampleInput}
-                  onChange={(e) => setExampleInput(e.target.value)}
-                  placeholder="Write an example sentence..."
+                  onChange={(e) => {
+                    manualEditsRef.current.add('example');
+                    setExampleInput(e.target.value);
+                  }}
+                  placeholder="Auto-filled or write your own example sentence..."
                   className="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full py-2.5 px-4 rounded bg-primary hover:bg-primary-container text-on-primary font-[var(--font-display)] text-sm tracking-wider uppercase transition-colors flex items-center justify-center gap-2 cursor-pointer"
+                disabled={isSubmitting}
+                className="w-full py-2.5 px-4 rounded bg-primary hover:bg-primary-container disabled:opacity-60 text-on-primary font-[var(--font-display)] text-sm tracking-wider uppercase transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >
-                <PenLine className="w-4 h-4" />
-                <span>Save to Words</span>
+                {isSubmitting ? (
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                ) : (
+                  <PenLine className="w-4 h-4" />
+                )}
+                <span>{isSubmitting ? 'Translating & Saving…' : 'Save to Words'}</span>
               </button>
             </form>
 

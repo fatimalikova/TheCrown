@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   ArrowLeft,
   ArrowRight,
@@ -7,24 +7,34 @@ import {
   ChevronDown,
   ChevronUp,
   Copy,
+  Edit3,
   FileText,
+  FileUp,
   Languages,
+  Loader2,
   Network,
   Star,
+  Trash2,
   Upload,
   Volume2,
 } from 'lucide-react';
 import {
   DifficultItem,
+  IdiomEntry,
+  LexiconCategory,
+  PhrasalVerbEntry,
   ReadingToken,
   ReadingWork,
   WordEntry,
 } from '../types/lexicon';
 import { speakEnglish } from '../utils/speech';
+import { lookupLocalStoryWord } from '../data/storyDictionary';
 
 interface StoryReaderSectionProps {
   works: ReadingWork[];
   allWords: WordEntry[];
+  allIdioms: IdiomEntry[];
+  allPhrasals: PhrasalVerbEntry[];
   difficultIds: Set<string>;
   onToggleDifficult: (item: Omit<DifficultItem, 'addedAt'>) => void;
 }
@@ -32,9 +42,23 @@ interface StoryReaderSectionProps {
 type ReaderFilter = 'all' | 'story' | 'article';
 type PaperTone = 'ivory' | 'parchment' | 'sepia';
 
+interface UploadedDocument {
+  id: string;
+  title: string;
+  fileName: string;
+  format: string;
+  wordCount: number;
+  pageCount?: number;
+  text: string;
+  truncated?: boolean;
+  uploadedAt: number;
+}
+
 export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
   works,
   allWords,
+  allIdioms,
+  allPhrasals,
   difficultIds,
   onToggleDifficult,
 }) => {
@@ -47,16 +71,97 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
   const [copiedId, setCopiedId] = useState(false);
   const [speakingTerm, setSpeakingTerm] = useState<string | null>(null);
   const [brokenImages, setBrokenImages] = useState<Set<string>>(new Set());
+  const [isTranslatingWord, setIsTranslatingWord] = useState(false);
+  const [translateError, setTranslateError] = useState<string | null>(null);
+  const remoteWordCacheRef = useRef<Map<string, ReadingToken>>(new Map());
 
-  // Custom Story / Article paste mode
+  // Custom Story / Article & Document Upload mode
   const [isCustomMode, setIsCustomMode] = useState(false);
   const [customTitle, setCustomTitle] = useState('My Custom Story or Article');
   const [customText, setCustomText] = useState(
     'In an ancient library overlooking the Caspian sea, a curious scholar discovered a luminous manuscript. Although the fragile pages seemed ephemeral, her meticulous notes helped bring about a vivid translation for future readers.'
   );
   const [customAzNote, setCustomAzNote] = useState('');
+  const [uploadedDocs, setUploadedDocs] = useState<UploadedDocument[]>([]);
+  const [activeDocId, setActiveDocId] = useState<string | null>(null);
+  const [isExtractingDoc, setIsExtractingDoc] = useState(false);
+  const [docUploadError, setDocUploadError] = useState<string | null>(null);
+  const [isDraggingDoc, setIsDraggingDoc] = useState(false);
+  const [showRawEditor, setShowRawEditor] = useState(false);
+  const [docPageIndex, setDocPageIndex] = useState(0);
+  const [showAllDocPages, setShowAllDocPages] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const lexiconWordMap = useMemo(() => {
+    const map = new Map<string, WordEntry>();
+    for (const w of allWords) {
+      map.set(w.term.toLowerCase(), w);
+    }
+    return map;
+  }, [allWords]);
+
+  const docParagraphs = useMemo(() => {
+    return customText
+      .split(/\n{2,}/)
+      .flatMap((block) => {
+        const trimmed = block.trim();
+        if (!trimmed) return [];
+        // Keep single newlines inside short blocks intact only if needed; split overly dense newline-only lists
+        if (trimmed.includes('\n')) {
+          return trimmed
+            .split(/\n+/)
+            .map((s) => s.trim())
+            .filter(Boolean);
+        }
+        return [trimmed];
+      });
+  }, [customText]);
+
+  const docPages = useMemo(() => {
+    const pages: string[][] = [];
+    let currentBatch: string[] = [];
+    let currentWords = 0;
+
+    for (const para of docParagraphs) {
+      const wordsInPara = para.split(/\s+/).filter(Boolean).length;
+      if (
+        currentBatch.length > 0 &&
+        (currentWords + wordsInPara > 1100 || currentBatch.length >= 18)
+      ) {
+        pages.push(currentBatch);
+        currentBatch = [para];
+        currentWords = wordsInPara;
+      } else {
+        currentBatch.push(para);
+        currentWords += wordsInPara;
+      }
+    }
+    if (currentBatch.length > 0) {
+      pages.push(currentBatch);
+    }
+    return pages.length > 0 ? pages : [['']];
+  }, [docParagraphs]);
+
+  const safeDocPageIndex = Math.min(docPageIndex, Math.max(0, docPages.length - 1));
+  const visibleDocParagraphs = showAllDocPages
+    ? docParagraphs
+    : docPages[safeDocPageIndex] ?? [];
+
+  useEffect(() => {
+    let active = true;
+    fetch('/api/documents')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && Array.isArray(data?.documents)) {
+          setUploadedDocs(data.documents);
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const visibleWorks = useMemo(() => {
     if (modeFilter === 'all') return works;
@@ -129,55 +234,292 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
     }
   };
 
-  const handleCustomWordClick = (rawWord: string) => {
-    const cleaned = rawWord.replace(/[^a-zA-Z'-]/g, '').trim();
+  const handleAnyWordClick = async (
+    rawWord: string,
+    contextSentence?: string
+  ) => {
+    const cleaned = rawWord
+      .replace(/’/g, "'")
+      .replace(/[^\p{L}\s'-]/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
     if (!cleaned) return;
-    const match = allWords.find(
-      (w) => w.term.toLowerCase() === cleaned.toLowerCase()
-    );
-    if (match) {
+    const lower = cleaned.toLowerCase();
+    setTranslateError(null);
+    setCustomAzNote('');
+
+    // 1. Check main Words / Idioms / Phrasal Verbs lexicons
+    const wordMatch = allWords.find((w) => w.term.toLowerCase() === lower);
+    if (wordMatch) {
+      setIsTranslatingWord(false);
       setActiveToken({
         text: rawWord,
-        lexiconId: match.id,
-        term: match.term,
-        badge: `${match.level} · ${match.partOfSpeech}`,
+        lexiconId: wordMatch.id,
+        term: wordMatch.term,
+        badge: `${wordMatch.level} · ${wordMatch.partOfSpeech}`,
         category: 'word',
-        ipa: match.ipa,
-        azTranslation: match.azTranslation,
-        definition: match.definition,
-        exampleEn: match.exampleEn,
-        exampleAz: match.exampleAz,
-        etymology: match.etymology,
+        ipa: wordMatch.ipa,
+        azTranslation: wordMatch.azTranslation,
+        definition: wordMatch.definition,
+        exampleEn: wordMatch.exampleEn,
+        exampleAz: wordMatch.exampleAz,
+        etymology: wordMatch.etymology,
       });
-    } else {
+      return;
+    }
+
+    const idiomMatch = allIdioms.find((i) => i.term.toLowerCase() === lower);
+    if (idiomMatch) {
+      setIsTranslatingWord(false);
       setActiveToken({
         text: rawWord,
-        lexiconId: `custom-reader-${cleaned.toLowerCase()}`,
-        term: cleaned.charAt(0).toUpperCase() + cleaned.slice(1),
-        badge: 'Reader Selection',
+        lexiconId: idiomMatch.id,
+        term: idiomMatch.term,
+        badge: idiomMatch.levelBadge,
+        category: 'idiom',
+        ipa: idiomMatch.ipa,
+        azTranslation: idiomMatch.azEquivalent,
+        azSubNote: idiomMatch.azNuance,
+        definition: idiomMatch.semanticValue,
+        exampleEn: idiomMatch.exampleEn,
+        exampleAz: idiomMatch.exampleAz,
+        etymology: idiomMatch.loreText,
+      });
+      return;
+    }
+
+    const pvMatch = allPhrasals.find((p) => p.term.toLowerCase() === lower);
+    if (pvMatch) {
+      setIsTranslatingWord(false);
+      setActiveToken({
+        text: rawWord,
+        lexiconId: pvMatch.id,
+        term: pvMatch.term,
+        badge: pvMatch.levelBadge,
+        category: 'phrasal',
+        ipa: pvMatch.ipa,
+        azTranslation: pvMatch.azTranslation,
+        definition: pvMatch.definition,
+        exampleEn: pvMatch.exampleEn,
+        exampleAz: pvMatch.exampleAz,
+        etymology: pvMatch.syntaxNote,
+      });
+      return;
+    }
+
+    // 2. Check instant local Story & Article bilingual dictionary
+    const localHit = lookupLocalStoryWord(cleaned);
+    if (localHit) {
+      setIsTranslatingWord(false);
+      setActiveToken({
+        text: rawWord,
+        lexiconId: `story-word-${lower.replace(/\s+/g, '-')}`,
+        term:
+          localHit.term.charAt(0).toUpperCase() + localHit.term.slice(1),
+        badge: localHit.badge,
         category: 'word',
-        ipa: `/${cleaned.toLowerCase()}/`,
+        ipa: localHit.ipa,
+        azTranslation: localHit.azTranslation,
+        definition: localHit.definition,
+        exampleEn:
+          contextSentence ||
+          `Encountered in “${isCustomMode ? customTitle : currentWork?.title ?? 'Reading'}”.`,
+        etymology: localHit.etymology,
+      });
+      return;
+    }
+
+    // 3. Check in-session remote cache
+    const cached = remoteWordCacheRef.current.get(lower);
+    if (cached) {
+      setIsTranslatingWord(false);
+      setActiveToken(cached);
+      return;
+    }
+
+    // 4. Fallback to server-side translation & classification
+    const displayTerm = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+    const pendingToken: ReadingToken = {
+      text: rawWord,
+      lexiconId: `story-word-${lower.replace(/\s+/g, '-')}`,
+      term: displayTerm,
+      badge: 'Looking up...',
+      category: 'word',
+      ipa: `/${lower}/`,
+      azTranslation: 'Tərcümə yüklənir...',
+      definition: `Looking up “${displayTerm}” in Azerbaijani...`,
+      exampleEn:
+        contextSentence ||
+        `Encountered in “${isCustomMode ? customTitle : currentWork?.title ?? 'Reading'}”.`,
+    };
+    setActiveToken(pendingToken);
+    setIsTranslatingWord(true);
+
+    try {
+      const res = await fetch('/api/translate-word', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          word: cleaned,
+          context: (contextSentence || '').slice(0, 300),
+        }),
+      });
+      const payload = await res.json();
+      if (!res.ok || !payload?.entry) {
+        throw new Error(payload?.error || 'Could not translate word.');
+      }
+      const entry = payload.entry as {
+        term: string;
+        category?: LexiconCategory;
+        ipa: string;
+        badge: string;
+        azTranslation: string;
+        definition: string;
+        etymology?: string;
+      };
+      const resolvedCat: LexiconCategory =
+        entry.category === 'idiom' || entry.category === 'phrasal'
+          ? entry.category
+          : 'word';
+      const resolvedToken: ReadingToken = {
+        text: rawWord,
+        lexiconId: `story-${resolvedCat}-${lower.replace(/\s+/g, '-')}`,
+        term: entry.term || displayTerm,
+        badge: entry.badge || 'Lexicon Lookup',
+        category: resolvedCat,
+        ipa: entry.ipa || `/${lower}/`,
+        azTranslation: entry.azTranslation,
+        definition: entry.definition,
+        exampleEn:
+          contextSentence ||
+          `Encountered in “${isCustomMode ? customTitle : currentWork?.title ?? 'Reading'}”.`,
+        etymology: entry.etymology,
+      };
+      remoteWordCacheRef.current.set(lower, resolvedToken);
+      setActiveToken(resolvedToken);
+    } catch (err) {
+      setTranslateError(
+        err instanceof Error ? err.message : 'Automatic lookup unavailable.'
+      );
+      setActiveToken({
+        ...pendingToken,
+        badge: 'Reader Selection',
         azTranslation:
           customAzNote.trim() || 'Add your Azerbaijani note below & save',
-        definition: `Selected directly from “${customTitle}”. Save it to My Difficult Words to practice it in quizzes.`,
-        exampleEn: customText.slice(0, 140) + (customText.length > 140 ? '…' : ''),
-        etymology: 'Extracted from custom Story/Article reader.',
+        definition: `Selected from “${isCustomMode ? customTitle : currentWork?.title ?? 'Reading'}”. Enter an Azerbaijani translation below and save to Difficult Words.`,
       });
+    } finally {
+      setIsTranslatingWord(false);
+    }
+  };
+
+  const handleTextSelectionPhrase = () => {
+    const sel = window.getSelection();
+    const raw = sel?.toString().trim() ?? '';
+    if (!raw || !/\s/.test(raw) || raw.length > 75) return;
+    const words = raw.split(/\s+/).filter(Boolean);
+    if (words.length < 2 || words.length > 7) return;
+    const anchorText = sel?.anchorNode?.textContent ?? '';
+    void handleAnyWordClick(raw, anchorText.slice(0, 260));
+  };
+
+  const activeUploadedDoc = useMemo(
+    () => uploadedDocs.find((d) => d.id === activeDocId) ?? null,
+    [uploadedDocs, activeDocId]
+  );
+
+  const handleSelectUploadedDoc = (doc: UploadedDocument) => {
+    setActiveDocId(doc.id);
+    setCustomTitle(doc.title);
+    setCustomText(doc.text);
+    setDocPageIndex(0);
+    setShowAllDocPages(false);
+    setDocUploadError(null);
+    setShowRawEditor(false);
+    setIsCustomMode(true);
+  };
+
+  const handleDeleteUploadedDoc = async (docId: string) => {
+    try {
+      const res = await fetch(`/api/documents/${encodeURIComponent(docId)}`, {
+        method: 'DELETE',
+      });
+      if (!res.ok) return;
+      setUploadedDocs((prev) => prev.filter((d) => d.id !== docId));
+      if (activeDocId === docId) {
+        setActiveDocId(null);
+      }
+    } catch {
+      // ignore network error
+    }
+  };
+
+  const processUploadedFile = async (file: File) => {
+    setDocUploadError(null);
+    if (file.size > 20 * 1024 * 1024) {
+      setDocUploadError(
+        'File exceeds the 20 MB limit. Please choose a smaller PDF, DOCX, or text document.'
+      );
+      setIsCustomMode(true);
+      return;
+    }
+
+    setIsExtractingDoc(true);
+    setIsCustomMode(true);
+
+    try {
+      const dataUrl = await new Promise<string>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          if (typeof reader.result === 'string') {
+            resolve(reader.result);
+          } else {
+            reject(new Error('Could not read the selected file.'));
+          }
+        };
+        reader.onerror = () => reject(new Error('Could not read the selected file.'));
+        reader.readAsDataURL(file);
+      });
+
+      const res = await fetch('/api/documents/extract', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fileName: file.name,
+          mimeType: file.type,
+          dataBase64: dataUrl,
+        }),
+      });
+
+      const payload = await res.json();
+      if (!res.ok || !payload?.document) {
+        throw new Error(
+          payload?.error || 'Could not extract text from this document.'
+        );
+      }
+
+      const doc = payload.document as UploadedDocument;
+      setUploadedDocs((prev) => [doc, ...prev.filter((d) => d.id !== doc.id)].slice(0, 20));
+      setActiveDocId(doc.id);
+      setCustomTitle(doc.title);
+      setCustomText(doc.text);
+      setDocPageIndex(0);
+      setShowAllDocPages(false);
+      setShowRawEditor(false);
+    } catch (err) {
+      setDocUploadError(
+        err instanceof Error ? err.message : 'Document upload failed.'
+      );
+    } finally {
+      setIsExtractingDoc(false);
     }
   };
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
+    e.target.value = '';
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      if (typeof reader.result === 'string') {
-        setCustomTitle(file.name.replace(/\.[^/.]+$/, ''));
-        setCustomText(reader.result);
-        setIsCustomMode(true);
-      }
-    };
-    reader.readAsText(file);
+    void processUploadedFile(file);
   };
 
   const activeId =
@@ -326,23 +668,31 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
             }`}
           >
             <FileText className="w-3.5 h-3.5 text-secondary" />
-            <span>{isCustomMode ? 'Back to Library' : 'Paste Text / .txt'}</span>
+            <span>{isCustomMode ? 'Back to Library' : 'My Documents / Paste'}</span>
           </button>
 
           <input
             ref={fileInputRef}
             type="file"
-            accept=".txt,text/plain"
+            accept=".pdf,.docx,.txt,.md,.rtf,.csv,.html,.htm,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/markdown,application/rtf,text/html"
             onChange={handleFileUpload}
             className="hidden"
           />
           <button
             type="button"
+            disabled={isExtractingDoc}
             onClick={() => fileInputRef.current?.click()}
-            title="Upload .txt story or article"
-            className="p-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors cursor-pointer"
+            title="Upload PDF, DOCX, TXT, MD, RTF, or HTML document"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary transition-colors cursor-pointer disabled:opacity-60 text-xs font-[var(--font-display)] uppercase tracking-wider"
           >
-            <Upload className="w-4 h-4" />
+            {isExtractingDoc ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin text-secondary" />
+            ) : (
+              <Upload className="w-3.5 h-3.5 text-secondary" />
+            )}
+            <span className="hidden sm:inline">
+              {isExtractingDoc ? 'Reading...' : 'Upload Doc'}
+            </span>
           </button>
         </div>
       </section>
@@ -400,7 +750,11 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                 <span className="font-[var(--font-display)] text-[11px] uppercase tracking-widest text-secondary font-bold">
                   ❖ Azərbaycan Dili Tərcüməsi
                 </span>
-                <Languages className="w-3.5 h-3.5 text-secondary" aria-hidden="true" />
+                {isTranslatingWord ? (
+                  <Loader2 className="w-3.5 h-3.5 text-secondary animate-spin" />
+                ) : (
+                  <Languages className="w-3.5 h-3.5 text-secondary" aria-hidden="true" />
+                )}
               </div>
               <p className="font-[var(--font-display)] text-xl text-primary font-semibold">
                 {activeToken.azTranslation}
@@ -410,23 +764,26 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                   {activeToken.azSubNote}
                 </p>
               )}
-              {isCustomMode && (
-                <input
-                  type="text"
-                  value={customAzNote}
-                  onChange={(e) => {
-                    setCustomAzNote(e.target.value);
+              {translateError && (
+                <p className="text-[11px] text-secondary mt-1.5">
+                  {translateError}
+                </p>
+              )}
+              <input
+                type="text"
+                value={customAzNote}
+                onChange={(e) => {
+                  setCustomAzNote(e.target.value);
+                  if (e.target.value.trim()) {
                     setActiveToken((prev) => ({
                       ...prev,
-                      azTranslation:
-                        e.target.value.trim() ||
-                        'Add your Azerbaijani note below & save',
+                      azTranslation: e.target.value.trim(),
                     }));
-                  }}
-                  placeholder="Write custom Azerbaijani translation..."
-                  className="mt-2 w-full px-2.5 py-1.5 rounded bg-surface-container-lowest text-xs border border-outline-variant/50 focus:outline-none focus:border-secondary"
-                />
-              )}
+                  }
+                }}
+                placeholder="Öz tərcümə qeydini əlavə et və ya dəyiş..."
+                className="mt-2.5 w-full px-2.5 py-1.5 rounded bg-surface-container-lowest text-xs border border-outline-variant/50 focus:outline-none focus:border-secondary"
+              />
             </div>
 
             {/* Definition */}
@@ -477,6 +834,43 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
               </div>
             )}
 
+            {/* Category Selector (Words / Idioms / Phrasal Verbs) */}
+            <div className="mb-4 flex items-center justify-between gap-2 bg-surface-container-low px-3 py-2 rounded-lg border border-outline-variant/30">
+              <span className="font-[var(--font-display)] text-[10px] uppercase tracking-wider text-on-surface-variant">
+                Auto-Route Section:
+              </span>
+              <div className="flex items-center gap-1">
+                {(
+                  [
+                    { key: 'word', label: '01. Words' },
+                    { key: 'idiom', label: '02. Idioms' },
+                    { key: 'phrasal', label: '03. Phrasal' },
+                  ] as const
+                ).map((cat) => {
+                  const selected = (activeToken.category || 'word') === cat.key;
+                  return (
+                    <button
+                      key={cat.key}
+                      type="button"
+                      onClick={() =>
+                        setActiveToken((prev) => ({
+                          ...prev,
+                          category: cat.key,
+                        }))
+                      }
+                      className={`px-2 py-0.5 rounded text-[11px] font-[var(--font-display)] cursor-pointer transition-colors ${
+                        selected
+                          ? 'bg-secondary text-on-secondary font-semibold'
+                          : 'bg-surface-container text-on-surface-variant hover:text-primary'
+                      }`}
+                    >
+                      {cat.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
             {/* Action Buttons */}
             <div className="flex items-center gap-2">
               <button
@@ -524,6 +918,18 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                 )}
               </button>
             </div>
+
+            {isSaved && (
+              <p className="mt-2.5 text-[11px] text-secondary font-[var(--font-display)] text-center">
+                Synced to{' '}
+                {(activeToken.category || 'word') === 'idiom'
+                  ? '02. Idioms'
+                  : (activeToken.category || 'word') === 'phrasal'
+                    ? '03. Phrasal Verbs'
+                    : '01. Words'}
+                , 04. Difficult Words &amp; 06. Film Episodes
+              </p>
+            )}
           </div>
 
           {/* Collapsible Chapter Vocabulary Index */}
@@ -581,74 +987,327 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
         >
           {isCustomMode ? (
             <div className="space-y-5">
-              <div className="flex items-center justify-between pb-3 border-b border-outline-variant/40">
-                <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.2em] text-secondary font-semibold">
-                  Custom Story / Article Reader
-                </span>
-                <span className="text-xs text-on-surface-variant italic">
-                  Click any word below to inspect &amp; save
-                </span>
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-outline-variant/40">
+                <div>
+                  <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.2em] text-secondary font-semibold block">
+                    Personal Document &amp; Article Reader
+                  </span>
+                  <span className="text-xs text-on-surface-variant italic">
+                    Upload PDF, DOCX, TXT, MD, RTF, HTML or paste any text — click any word to translate
+                  </span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setShowRawEditor((v) => !v)}
+                  className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary text-xs font-[var(--font-display)] uppercase tracking-wider cursor-pointer transition-colors"
+                >
+                  <Edit3 className="w-3.5 h-3.5 text-secondary" />
+                  <span>{showRawEditor ? 'Hide Text Editor' : 'Edit / Paste Text'}</span>
+                </button>
               </div>
 
-              <div className="space-y-2">
-                <label className="block font-[var(--font-display)] text-xs uppercase tracking-wider text-on-surface-variant">
-                  Title
-                </label>
-                <input
-                  type="text"
-                  value={customTitle}
-                  onChange={(e) => setCustomTitle(e.target.value)}
-                  className="w-full px-3 py-2 rounded bg-surface-container-low text-primary font-[var(--font-display)] text-xl border border-outline-variant/40 focus:outline-none focus:border-secondary"
-                />
-              </div>
+              {/* Document Upload Dropzone */}
+              <div
+                onDragOver={(e) => {
+                  e.preventDefault();
+                  setIsDraggingDoc(true);
+                }}
+                onDragLeave={() => setIsDraggingDoc(false)}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  setIsDraggingDoc(false);
+                  const dropped = e.dataTransfer.files?.[0];
+                  if (dropped) void processUploadedFile(dropped);
+                }}
+                className={`rounded-xl border border-dashed p-4 transition-colors ${
+                  isDraggingDoc
+                    ? 'border-secondary bg-secondary-fixed/30'
+                    : 'border-outline-variant/60 bg-surface-container-low/70'
+                }`}
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <div className="flex items-start gap-3">
+                    <div className="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+                      {isExtractingDoc ? (
+                        <Loader2 className="w-4 h-4 text-secondary animate-spin" />
+                      ) : (
+                        <FileUp className="w-4 h-4 text-secondary" />
+                      )}
+                    </div>
+                    <div>
+                      <p className="font-[var(--font-display)] text-sm font-semibold text-primary">
+                        {isExtractingDoc
+                          ? 'Extracting readable text from document...'
+                          : 'Add a document to read word-by-word'}
+                      </p>
+                      <p className="text-xs text-on-surface-variant">
+                        Supports PDF, DOCX, TXT, MD, RTF, CSV, HTML (up to 20 MB)
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    disabled={isExtractingDoc}
+                    onClick={() => fileInputRef.current?.click()}
+                    className="px-3.5 py-2 rounded-lg bg-primary hover:bg-primary-container text-on-primary text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold cursor-pointer disabled:opacity-60 shrink-0"
+                  >
+                    {isExtractingDoc ? 'Processing...' : 'Choose File'}
+                  </button>
+                </div>
 
-              <div className="space-y-2">
-                <label className="block font-[var(--font-display)] text-xs uppercase tracking-wider text-on-surface-variant">
-                  Paste English Story or Article Text
-                </label>
-                <textarea
-                  rows={5}
-                  value={customText}
-                  onChange={(e) => setCustomText(e.target.value)}
-                  className="w-full p-3 rounded bg-surface-container-low text-sm text-primary border border-outline-variant/40 focus:outline-none focus:border-secondary leading-relaxed"
-                />
-              </div>
+                {docUploadError && (
+                  <p className="mt-3 text-xs text-secondary bg-secondary-fixed/40 px-3 py-2 rounded border border-secondary/30">
+                    {docUploadError}
+                  </p>
+                )}
 
-              <div className="pt-3 border-t border-outline-variant/40">
-                <span className="font-[var(--font-display)] text-xs uppercase tracking-wider text-secondary font-semibold block mb-3">
-                  Interactive Reading View (Click any word)
-                </span>
-                <div className={`space-y-4 ${fontSizeClasses}`}>
-                  {customText.split(/\n+/).map((para, pIdx) => (
-                    <p key={pIdx} className="leading-relaxed">
-                      {para.split(/(\s+)/).map((part, wIdx) => {
-                        if (/^\s+$/.test(part)) return part;
-                        const cleaned = part.replace(/[^a-zA-Z'-]/g, '').toLowerCase();
-                        const inLexicon = allWords.some(
-                          (w) => w.term.toLowerCase() === cleaned
-                        );
-                        const isSelected =
-                          activeToken.term?.toLowerCase() === cleaned;
+                {/* Saved Uploaded Documents Shelf */}
+                {uploadedDocs.length > 0 && (
+                  <div className="mt-3 pt-3 border-t border-outline-variant/30">
+                    <span className="font-[var(--font-display)] text-[11px] uppercase tracking-wider text-on-surface-variant block mb-2">
+                      Uploaded Documents ({uploadedDocs.length})
+                    </span>
+                    <div className="flex flex-wrap gap-2">
+                      {uploadedDocs.map((doc) => {
+                        const isActive = doc.id === activeDocId;
                         return (
-                          <button
-                            key={`${pIdx}-${wIdx}`}
-                            type="button"
-                            onClick={() => handleCustomWordClick(part)}
-                            className={`inline rounded px-0.5 transition-colors cursor-pointer ${
-                              isSelected
-                                ? 'bg-secondary-fixed text-on-secondary-fixed font-semibold'
-                                : inLexicon
-                                  ? 'bg-surface-container-high hover:bg-secondary-fixed font-medium'
-                                  : 'hover:bg-surface-container-high'
+                          <div
+                            key={doc.id}
+                            className={`flex items-center gap-1.5 pl-2.5 pr-1.5 py-1 rounded-lg border text-xs transition-colors ${
+                              isActive
+                                ? 'bg-secondary text-on-secondary border-secondary'
+                                : 'bg-surface-container-lowest text-primary border-outline-variant/50 hover:border-secondary/60'
                             }`}
                           >
-                            {part}
-                          </button>
+                            <button
+                              type="button"
+                              onClick={() => handleSelectUploadedDoc(doc)}
+                              className="flex items-center gap-1.5 text-left cursor-pointer"
+                            >
+                              <span
+                                className={`font-[var(--font-display)] text-[10px] uppercase px-1.5 py-0.5 rounded font-semibold ${
+                                  isActive
+                                    ? 'bg-on-secondary/20 text-on-secondary'
+                                    : 'bg-surface-container text-secondary'
+                                }`}
+                              >
+                                {doc.format}
+                              </span>
+                              <span className="font-[var(--font-display)] font-medium max-w-[160px] truncate">
+                                {doc.title}
+                              </span>
+                              <span
+                                className={`text-[11px] tabular-nums ${
+                                  isActive
+                                    ? 'text-on-secondary/80'
+                                    : 'text-on-surface-variant'
+                                }`}
+                              >
+                                ({doc.wordCount.toLocaleString()}w
+                                {doc.pageCount ? ` · ${doc.pageCount}p` : ''})
+                              </span>
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteUploadedDoc(doc.id)}
+                              title={`Delete ${doc.title}`}
+                              aria-label={`Delete ${doc.title}`}
+                              className={`p-1 rounded transition-colors cursor-pointer ${
+                                isActive
+                                  ? 'hover:bg-on-secondary/20 text-on-secondary'
+                                  : 'hover:bg-surface-container text-on-surface-variant hover:text-secondary'
+                              }`}
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
                         );
                       })}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {showRawEditor && (
+                <div className="space-y-3 bg-surface-container-low/60 p-4 rounded-xl border border-outline-variant/40">
+                  <div className="space-y-1.5">
+                    <label className="block font-[var(--font-display)] text-xs uppercase tracking-wider text-on-surface-variant">
+                      Document Title
+                    </label>
+                    <input
+                      type="text"
+                      value={customTitle}
+                      onChange={(e) => {
+                        setActiveDocId(null);
+                        setCustomTitle(e.target.value);
+                      }}
+                      className="w-full px-3 py-2 rounded bg-surface-container-lowest text-primary font-[var(--font-display)] text-lg border border-outline-variant/40 focus:outline-none focus:border-secondary"
+                    />
+                  </div>
+
+                  <div className="space-y-1.5">
+                    <label className="block font-[var(--font-display)] text-xs uppercase tracking-wider text-on-surface-variant">
+                      Paste or Edit English Text
+                    </label>
+                    <textarea
+                      rows={5}
+                      value={customText}
+                      onChange={(e) => {
+                        setActiveDocId(null);
+                        setCustomText(e.target.value);
+                      }}
+                      className="w-full p-3 rounded bg-surface-container-lowest text-sm text-primary border border-outline-variant/40 focus:outline-none focus:border-secondary leading-relaxed"
+                    />
+                  </div>
+                </div>
+              )}
+
+              <div className="pt-2">
+                <div className="flex flex-wrap items-baseline justify-between gap-2 pb-3 mb-4 border-b border-outline-variant/30">
+                  <div>
+                    <h2 className="font-[var(--font-display)] text-2xl sm:text-3xl text-primary tracking-tight">
+                      {customTitle || 'Untitled Document'}
+                    </h2>
+                    <p className="text-xs text-on-surface-variant italic mt-0.5">
+                      {activeUploadedDoc
+                        ? `${activeUploadedDoc.format} · ${activeUploadedDoc.wordCount.toLocaleString()} words${activeUploadedDoc.pageCount ? ` · ${activeUploadedDoc.pageCount} pages` : ''}`
+                        : 'Interactive reading view'}{' '}
+                      — Click any word to view Azerbaijani translation &amp; save
+                    </p>
+                  </div>
+                  {activeUploadedDoc?.truncated && (
+                    <span className="text-[11px] text-secondary font-[var(--font-display)] uppercase tracking-wider">
+                      Excerpt (first 2,500,000 chars)
+                    </span>
+                  )}
+                </div>
+
+                {docPages.length > 1 && (
+                  <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-outline-variant/25 text-xs">
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        disabled={showAllDocPages || safeDocPageIndex <= 0}
+                        onClick={() =>
+                          setDocPageIndex((p) => Math.max(0, p - 1))
+                        }
+                        className="flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary disabled:opacity-40 cursor-pointer font-[var(--font-display)] uppercase tracking-wider"
+                      >
+                        <ArrowLeft className="w-3.5 h-3.5" />
+                        <span>Prev</span>
+                      </button>
+                      <span className="font-[var(--font-display)] text-primary tabular-nums px-1">
+                        {showAllDocPages
+                          ? `Showing all ${docParagraphs.length} paragraphs`
+                          : `Section ${safeDocPageIndex + 1} of ${docPages.length}`}
+                      </span>
+                      <button
+                        type="button"
+                        disabled={
+                          showAllDocPages || safeDocPageIndex >= docPages.length - 1
+                        }
+                        onClick={() =>
+                          setDocPageIndex((p) =>
+                            Math.min(docPages.length - 1, p + 1)
+                          )
+                        }
+                        className="flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary disabled:opacity-40 cursor-pointer font-[var(--font-display)] uppercase tracking-wider"
+                      >
+                        <span>Next</span>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setShowAllDocPages((v) => !v)}
+                      className="px-2.5 py-1 rounded bg-surface-container-low hover:bg-surface-container border border-outline-variant/40 text-secondary font-[var(--font-display)] uppercase tracking-wider cursor-pointer"
+                    >
+                      {showAllDocPages ? 'Paginate View' : 'Show Full Text'}
+                    </button>
+                  </div>
+                )}
+
+                <div
+                  onMouseUp={handleTextSelectionPhrase}
+                  className={`space-y-4 ${fontSizeClasses}`}
+                >
+                  {visibleDocParagraphs.map((para, pIdx) => (
+                    <p key={`${safeDocPageIndex}-${pIdx}`} className="leading-relaxed">
+                      {para
+                        .split(/([\p{L}]+(?:['’-][\p{L}]+)*)/gu)
+                        .map((part, wIdx) => {
+                          if (!/^[\p{L}]+(?:['’-][\p{L}]+)*$/u.test(part)) {
+                            return (
+                              <React.Fragment key={`${pIdx}-${wIdx}`}>
+                                {part}
+                              </React.Fragment>
+                            );
+                          }
+                          const cleaned = part
+                            .replace(/[^\p{L}'’-]/gu, '')
+                            .toLowerCase();
+                          const matchedWord = lexiconWordMap.get(cleaned);
+                          const isSelected =
+                            activeToken.term?.toLowerCase() === cleaned;
+                          const isMarkedDifficult =
+                            difficultIds.has(`story-word-${cleaned}`) ||
+                            difficultIds.has(`story-idiom-${cleaned}`) ||
+                            difficultIds.has(`story-phrasal-${cleaned}`) ||
+                            (matchedWord
+                              ? difficultIds.has(matchedWord.id)
+                              : false);
+                          return (
+                            <button
+                              key={`${pIdx}-${wIdx}`}
+                              type="button"
+                              onClick={() => handleAnyWordClick(part, para)}
+                              className={`inline rounded transition-colors cursor-pointer ${
+                                isSelected
+                                  ? 'bg-secondary-fixed text-on-secondary-fixed font-semibold px-0.5'
+                                  : isMarkedDifficult
+                                    ? 'underline decoration-secondary/70 decoration-dotted underline-offset-4 hover:bg-secondary-fixed/60'
+                                    : matchedWord
+                                      ? 'bg-surface-container-high hover:bg-secondary-fixed font-medium px-0.5'
+                                      : 'hover:bg-secondary-fixed/50'
+                              }`}
+                            >
+                              {part}
+                            </button>
+                          );
+                        })}
                     </p>
                   ))}
                 </div>
+
+                {docPages.length > 1 && !showAllDocPages && (
+                  <div className="flex items-center justify-between pt-5 mt-6 border-t border-outline-variant/30 text-xs">
+                    <button
+                      type="button"
+                      disabled={safeDocPageIndex <= 0}
+                      onClick={() => setDocPageIndex((p) => Math.max(0, p - 1))}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container hover:bg-surface-container-high text-primary disabled:opacity-40 cursor-pointer font-[var(--font-display)] uppercase tracking-wider"
+                    >
+                      <ArrowLeft className="w-3.5 h-3.5" />
+                      <span>Previous Section</span>
+                    </button>
+                    <span className="font-[var(--font-display)] italic text-on-surface-variant tabular-nums">
+                      Section {safeDocPageIndex + 1} of {docPages.length}
+                    </span>
+                    <button
+                      type="button"
+                      disabled={safeDocPageIndex >= docPages.length - 1}
+                      onClick={() =>
+                        setDocPageIndex((p) =>
+                          Math.min(docPages.length - 1, p + 1)
+                        )
+                      }
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container hover:bg-surface-container-high text-primary disabled:opacity-40 cursor-pointer font-[var(--font-display)] uppercase tracking-wider"
+                    >
+                      <span>Next Section</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           ) : (
@@ -676,13 +1335,16 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                     {currentWork.title}
                   </h1>
                   <p className="text-xs text-on-surface-variant italic mt-1">
-                    {currentWork.subtitle}
+                    {currentWork.subtitle} · Click any word in the text to translate &amp; save
                   </p>
                   <div className="w-20 h-px bg-secondary/40 mx-auto mt-4" />
                 </div>
 
                 {/* Prose Body */}
-                <article className={`space-y-5 text-justify ${fontSizeClasses}`}>
+                <article
+                  onMouseUp={handleTextSelectionPhrase}
+                  className={`space-y-5 text-justify ${fontSizeClasses}`}
+                >
                   {currentWork.paragraphs.map((para, pIdx) => (
                     <div key={pIdx} className="space-y-2">
                       <p
@@ -693,8 +1355,56 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                         }
                       >
                         {para.tokens.map((tok, tIdx) => {
+                          const paragraphContext = para.tokens
+                            .map((t) => t.text)
+                            .join('')
+                            .slice(0, 220);
+
                           if (!tok.term) {
-                            return <React.Fragment key={tIdx}>{tok.text}</React.Fragment>;
+                            return tok.text
+                              .split(/([a-zA-Z]+(?:['’-][a-zA-Z]+)*)/g)
+                              .map((part, wIdx) => {
+                                if (
+                                  !/^[a-zA-Z]+(?:['’-][a-zA-Z]+)*$/.test(part)
+                                ) {
+                                  return (
+                                    <React.Fragment key={`${tIdx}-${wIdx}`}>
+                                      {part}
+                                    </React.Fragment>
+                                  );
+                                }
+                                const cleaned = part
+                                  .replace(/[^a-zA-Z'-]/g, '')
+                                  .toLowerCase();
+                                const isCurrent =
+                                  activeToken.term?.toLowerCase() === cleaned;
+                                const matchedWord = allWords.find(
+                                  (w) => w.term.toLowerCase() === cleaned
+                                );
+                                const isMarkedDifficult =
+                                  difficultIds.has(`story-word-${cleaned}`) ||
+                                  (matchedWord
+                                    ? difficultIds.has(matchedWord.id)
+                                    : false);
+                                return (
+                                  <button
+                                    key={`${tIdx}-${wIdx}`}
+                                    type="button"
+                                    onClick={() =>
+                                      handleAnyWordClick(part, paragraphContext)
+                                    }
+                                    className={`inline rounded transition-colors cursor-pointer ${
+                                      isCurrent
+                                        ? 'bg-secondary-fixed text-on-secondary-fixed font-semibold px-0.5'
+                                        : isMarkedDifficult
+                                          ? 'underline decoration-secondary/70 decoration-dotted underline-offset-4 hover:bg-secondary-fixed/60'
+                                          : 'hover:bg-secondary-fixed/45'
+                                    }`}
+                                  >
+                                    {part}
+                                  </button>
+                                );
+                              });
                           }
                           const isCurrent =
                             activeToken.term?.toLowerCase() ===
@@ -703,7 +1413,11 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                             <button
                               key={tIdx}
                               type="button"
-                              onClick={() => setActiveToken(tok)}
+                              onClick={() => {
+                                setTranslateError(null);
+                                setCustomAzNote('');
+                                setActiveToken(tok);
+                              }}
                               title={`Az: ${tok.azTranslation}`}
                               className={`inline px-1.5 py-0.5 rounded transition-colors cursor-pointer font-medium ${
                                 isCurrent

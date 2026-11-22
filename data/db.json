@@ -1,0 +1,138 @@
+{
+  "episodes": [],
+  "difficultItems": [
+    {
+      "id": "story-word-damp",
+      "term": "Damp",
+      "category": "word",
+      "badge": "B1 · Adjective",
+      "ipa": "/dæmp/",
+      "azTranslation": "nəm, rütubətli",
+      "definition": "Slightly wet, moist, especially in a cool or lingering way.",
+      "exampleEn": "It was an hour past dusk when Julian ventured across the overgrown flagstones, guided solely by a strange sense of serendipity that had seemed to accompany his strides through the forgotten county of Sussex. The air hung",
+      "addedAt": 1795344291269,
+      "masteredCount": 0
+    },
+    {
+      "id": "story-word-accompany",
+      "term": "Accompany",
+      "category": "word",
+      "badge": "B1 · Verb",
+      "ipa": "/əˈkʌm.pə.ni/",
+      "azTranslation": "müşayiət etmək, yoldaşlıq etmək",
+      "definition": "To go somewhere with someone as a companion, or occur at the same time.",
+      "exampleEn": "It was an hour past dusk when Julian ventured across the overgrown flagstones, guided solely by a strange sense of serendipity that had seemed to accompany his strides through the forgotten county of Sussex. The air hung",
+      "addedAt": 1795343938218,
+      "masteredCount": 0
+    },
+    {
+      "id": "word-ephemeral",
+      "term": "Ephemeral",
+      "category": "word",
+      "badge": "C1 · Adjective",
+      "ipa": "/ɪˈfem.ər.əl/",
+      "azTranslation": "Müvəqqəti, qısaömürlü",
+      "definition": "Lasting for only a very short period of time; fleeting or transitory.",
+      "exampleEn": "Fame in modern courtly life is utterly ephemeral, evaporating with the seasonal thaw.",
+      "exampleAz": "Müasir saray həyatında şöhrət tamamilə müvəqqətidir, mövsümi donun açılması ilə buxarlanıb yox olur.",
+      "etymologyNote": "Greek root: ephēmeros (lasting only a single day).",
+      "addedAt": 1730000001000,
+      "masteredCount": 1
+    },
+    {
+      "id": "idiom-break-the-ice",
+      "term": "Break the ice",
+      "category": "idiom",
+      "badge": "Idiom",
+      "ipa": "/breɪk ðiː aɪs/",
+      "azTranslation": "Buzu sındırmaq, gərginliyi aradan qaldırmaq",
+      "definition": "To overcome formality or awkward silence and begin comfortable conversation.",
+      "exampleEn": "An anecdotal quip concerning the weather served readily to break the ice at the solemn dinner.",
+      "exampleAz": "Hava haqqında lətifəvari bir atmaca təntənəli şam yeməyindəki gərginliyi aradan qaldırmağa yetərli oldu.",
+      "etymologyNote": "17th-century icebreaker ships clearing frozen harbors.",
+      "addedAt": 1730000002000,
+      "masteredCount": 2
+    },
+    {
+      "id": "pv-carry-out",
+      "term": "Carry out",
+      "category": "phrasal",
+      "badge": "Phrasal Verb",
+      "ipa": "/ˈkær.i aʊt/",
+      "azTranslation": "Həyata keçirmək, icra etmək",
+      "definition": "To conduct, execute, or complete a planned task, experiment, or directive.",
+      "exampleEn": "The botanists did diligently carry out the taxonomic survey across the moorlands.",
+      "exampleAz": "Botaniklər bataqlıq torpaqlarda taksonomik tədqiqatı böyük səylə həyata keçirdilər.",
+      "etymologyNote": "Inseparable academic phrasal verb (IELTS Task 2 staple).",
+      "addedAt": 1730000003000,
+      "masteredCount": 1
+    },
+    {
+      "id": "word-meticulous",
+      "term": "Meticulous",
+      "category": "word",
+      "badge": "C1 · Adjective",
+      "ipa": "/məˈtɪk.jə.ləs/",
+      "azTranslation": "İncəliklərə diqqət yetirən, son dərəcə dəqiq",
+      "definition": "Showing great attention to detail; very careful and scrupulously precise.",
+      "exampleEn": "With meticulous strokes, she inscribed each gloss upon the vellum margin.",
+      "exampleAz": "Son dərəcə incə və dəqiq qələm hərəkətləri ilə o, perqamentin haşiyəsinə hər bir izahı qeyd edirdi.",
+      "etymologyNote": "Latin: meticulōsus, evolving from anxious care to precision.",
+      "addedAt": 1730000004000,
+      "masteredCount": 1
+    },
+    {
+      "id": "idiom-blue-moon",
+      "term": "Once in a blue moon",
+      "category": "idiom",
+      "badge": "Idiom",
+      "ipa": "/wʌns ɪn ə bluː muːn/",
+      "azTranslation": "Yüz ildə bir, çox nadir hallarda",
+      "definition": "Happening very rarely or almost never.",
+      "exampleEn": "He visited the quiet northern observatory only once in a blue moon.",
+      "exampleAz": "O, sakit şimal rəsədxanasına yalnız yüz ildə bir baş çəkərdi.",
+      "etymologyNote": "Refers to the rare extra full moon in an astronomical season.",
+      "addedAt": 1730000005000,
+      "masteredCount": 1
+    },
+    {
+      "id": "word-benevolent",
+      "term": "Benevolent",
+      "category": "word",
+      "badge": "B2 · Adjective",
+      "ipa": "/bəˈnev.əl.ənt/",
+      "azTranslation": "Xeyirxah, nəcib",
+      "definition": "Well-meaning, kindly, and disposed to charitable deeds.",
+      "exampleEn": "A benevolent benefactor anonymously endowed the collegiate library.",
+      "exampleAz": "Xeyirxah bir himayədar anonim şəkildə kollec kitabxanasına ianə bağışladı.",
+      "etymologyNote": "Latin: bene (well) + velle (to wish).",
+      "addedAt": 1730000006000,
+      "masteredCount": 1
+    },
+    {
+      "id": "pv-bring-about",
+      "term": "Bring about",
+      "category": "phrasal",
+      "badge": "Phrasal Verb",
+      "ipa": "/brɪŋ əˈbaʊt/",
+      "azTranslation": "Səbəb olmaq, meydana gətirmək",
+      "definition": "To cause an important change or event to happen.",
+      "exampleEn": "The peaceful treaty helped bring about an era of unprecedented prosperity.",
+      "exampleAz": "Sülh müqaviləsi misli görünməmiş rifah dövrünün meydana gəlməsinə kömək etdi.",
+      "etymologyNote": "High-register causative phrasal verb.",
+      "addedAt": 1730000007000,
+      "masteredCount": 0
+    }
+  ],
+  "wordCache": {
+    "astonished": {
+      "term": "astonished",
+      "ipa": "/əˈstɒnɪʃt/",
+      "badge": "B2 • Adjective",
+      "azTranslation": "heyrətlənmiş, heyrətə gəlmiş, mat qalmış",
+      "definition": "Greatly surprised or impressed; amazed.",
+      "etymology": "From Old French estoner (to stun, daze), from Vulgar Latin extonare, from Latin ex- (out) + tonare (to thunder)."
+    }
+  },
+  "documents": []
+}

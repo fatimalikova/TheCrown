@@ -31,10 +31,17 @@ interface FilmEpisodesSectionProps {
   allIdioms: IdiomEntry[];
   allPhrasals: PhrasalVerbEntry[];
   difficultIds: Set<string>;
+  difficultItems: DifficultItem[];
   onToggleDifficult: (item: Omit<DifficultItem, 'addedAt'>) => void;
 }
 
-type EpisodeFilter = 'all' | 'phrasal' | 'idiom' | 'word' | 'generated';
+type EpisodeFilter =
+  | 'all'
+  | 'marked'
+  | 'phrasal'
+  | 'idiom'
+  | 'word'
+  | 'generated';
 type StudioTab = 'text-to-video' | 'image-to-video';
 
 export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
@@ -43,6 +50,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   allIdioms,
   allPhrasals,
   difficultIds,
+  difficultItems,
   onToggleDifficult,
 }) => {
   const [generatedEpisodes, setGeneratedEpisodes] = useState<FilmEpisode[]>([]);
@@ -101,14 +109,81 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     };
   }, []);
 
+  const hasGeneratingEpisodes = useMemo(
+    () => generatedEpisodes.some((ep) => ep.status === 'generating'),
+    [generatedEpisodes]
+  );
+
+  useEffect(() => {
+    if (!hasGeneratingEpisodes) return;
+    const timer = window.setInterval(() => {
+      fetch('/api/episodes')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data && Array.isArray(data.episodes)) {
+            setGeneratedEpisodes(data.episodes as FilmEpisode[]);
+          }
+        })
+        .catch(() => {});
+    }, 4000);
+    return () => window.clearInterval(timer);
+  }, [hasGeneratingEpisodes]);
+
   const allEpisodes = useMemo(
     () => [...generatedEpisodes, ...classicEpisodes],
     [generatedEpisodes, classicEpisodes]
   );
 
+  const matchedTermsByEpisodeId = useMemo(() => {
+    const map = new Map<string, string[]>();
+    const markedLower = difficultItems
+      .map((d) => ({ id: d.id, term: d.term.trim(), lower: d.term.trim().toLowerCase() }))
+      .filter((d) => d.lower.length > 0);
+
+    for (const ep of allEpisodes) {
+      const matched: string[] = [];
+      const targetLower = ep.targetTerm?.toLowerCase() ?? '';
+      const dialogueText = ep.cues
+        .map((c) => c.tokens.map((t) => t.text).join(''))
+        .join(' ')
+        .toLowerCase();
+
+      for (const m of markedLower) {
+        const tokenMatched = ep.cues.some((c) =>
+          c.tokens.some(
+            (t) =>
+              t.lexiconId === m.id ||
+              t.term?.toLowerCase() === m.lower
+          )
+        );
+        const wordRe = new RegExp(
+          `\\b${m.lower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`,
+          'i'
+        );
+        if (
+          tokenMatched ||
+          targetLower === m.lower ||
+          wordRe.test(dialogueText)
+        ) {
+          matched.push(m.term);
+        }
+      }
+
+      if (ep.sourceSection === 'reader' && matched.length === 0 && ep.targetTerm) {
+        matched.push(ep.targetTerm);
+      }
+
+      if (matched.length > 0) {
+        map.set(ep.id, Array.from(new Set(matched)));
+      }
+    }
+    return map;
+  }, [allEpisodes, difficultItems]);
+
   const filteredEpisodes = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     return allEpisodes.filter((ep) => {
+      if (filter === 'marked' && !matchedTermsByEpisodeId.has(ep.id)) return false;
       if (filter === 'generated' && ep.kind !== 'generated') return false;
       if (
         (filter === 'phrasal' || filter === 'idiom' || filter === 'word') &&
@@ -128,7 +203,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         .toLowerCase();
       return haystack.includes(q);
     });
-  }, [allEpisodes, filter, searchQuery]);
+  }, [allEpisodes, filter, searchQuery, matchedTermsByEpisodeId]);
 
   const currentEpisode = useMemo(() => {
     return (
@@ -409,18 +484,38 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     }
   };
 
+  const handleRetryEpisodeVideo = async (id: string) => {
+    try {
+      const res = await fetch(`/api/episodes/${encodeURIComponent(id)}/retry-video`, {
+        method: 'POST',
+      });
+      if (res.ok) {
+        setGeneratedEpisodes((prev) =>
+          prev.map((ep) =>
+            ep.id === id
+              ? { ...ep, status: 'generating', generationError: undefined }
+              : ep
+          )
+        );
+      }
+    } catch {
+      // Ignore silent network error
+    }
+  };
+
   const activeId =
     activeToken.lexiconId ??
     `film-word-${(activeToken.term ?? 'word').toLowerCase().replace(/\s+/g, '-')}`;
   const isSaved = difficultIds.has(activeId);
 
-  const phrasalCount = classicEpisodes.filter(
+  const markedCount = matchedTermsByEpisodeId.size;
+  const phrasalCount = allEpisodes.filter(
     (e) => e.targetCategory === 'phrasal'
   ).length;
-  const idiomCount = classicEpisodes.filter(
+  const idiomCount = allEpisodes.filter(
     (e) => e.targetCategory === 'idiom'
   ).length;
-  const wordCount = classicEpisodes.filter(
+  const wordCount = allEpisodes.filter(
     (e) => e.targetCategory === 'word'
   ).length;
 
@@ -448,6 +543,14 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
             {(
               [
                 { key: 'all', label: `All Clips (${allEpisodes.length})` },
+                ...(markedCount > 0
+                  ? [
+                      {
+                        key: 'marked' as const,
+                        label: `From Your Words (${markedCount})`,
+                      },
+                    ]
+                  : []),
                 { key: 'phrasal', label: `Phrasal Verbs (${phrasalCount})` },
                 { key: 'idiom', label: `Idioms (${idiomCount})` },
                 { key: 'word', label: `Words (${wordCount})` },
@@ -455,7 +558,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                   ? [
                       {
                         key: 'generated' as const,
-                        label: `Studio (${generatedEpisodes.length})`,
+                        label: `Generated (${generatedEpisodes.length})`,
                       },
                     ]
                   : []),
@@ -497,6 +600,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
             {filteredEpisodes.map((ep) => {
               const isSelected = currentEpisode?.id === ep.id;
+              const matchedTerms = matchedTermsByEpisodeId.get(ep.id);
               return (
                 <div
                   key={ep.id}
@@ -525,6 +629,17 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                     <p className="text-xs text-on-surface-variant truncate mt-0.5">
                       {ep.filmTitle}
                     </p>
+                    {matchedTerms && matchedTerms.length > 0 && (
+                      <span className="inline-block mt-1.5 px-1.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-[var(--font-display)] text-[10px] font-semibold">
+                        Marked: {matchedTerms[0]}
+                      </span>
+                    )}
+                    {ep.status === 'generating' && (
+                      <span className="inline-flex items-center gap-1 mt-1.5 ml-1 text-[10px] text-secondary font-[var(--font-display)]">
+                        <Loader2 className="w-3 h-3 animate-spin" />
+                        Rendering MP4
+                      </span>
+                    )}
                   </button>
 
                   <div className="flex items-center justify-between pt-1.5 border-t border-outline-variant/25 text-[11px] text-on-surface-variant">
@@ -570,22 +685,78 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                 )}
               </div>
 
-              {/* Real HTML5 MP4 Video Clip */}
+              {/* Real HTML5 MP4 Video Clip or Pending / Spoken Stage */}
               <div className="bg-[#120e0d] p-3 flex justify-center">
-                <video
-                  ref={videoRef}
-                  key={currentEpisode.videoUrl}
-                  src={currentEpisode.videoUrl}
-                  controls
-                  playsInline
-                  loop={loopClip}
-                  preload="metadata"
-                  className={
-                    currentEpisode.aspectRatio === '9:16'
-                      ? 'w-full max-w-[340px] aspect-[9/16] rounded bg-black object-contain'
-                      : 'w-full aspect-video rounded bg-black object-contain'
-                  }
-                />
+                {currentEpisode.videoUrl ? (
+                  <video
+                    ref={videoRef}
+                    key={currentEpisode.videoUrl}
+                    src={currentEpisode.videoUrl}
+                    controls
+                    playsInline
+                    loop={loopClip}
+                    preload="metadata"
+                    className={
+                      currentEpisode.aspectRatio === '9:16'
+                        ? 'w-full max-w-[340px] aspect-[9/16] rounded bg-black object-contain'
+                        : 'w-full aspect-video rounded bg-black object-contain'
+                    }
+                  />
+                ) : (
+                  <div className="w-full aspect-video rounded bg-gradient-to-br from-[#1f1715] via-[#15100f] to-[#0c0908] flex flex-col items-center justify-center p-6 text-center text-[#fef9f0] border border-white/10">
+                    {currentEpisode.status === 'generating' ? (
+                      <>
+                        <Loader2 className="w-8 h-8 text-[#ffb2bc] animate-spin mb-3" />
+                        <p className="font-[var(--font-display)] text-xl">
+                          Generating Video Clip for “{currentEpisode.targetTerm}”...
+                        </p>
+                        <p className="text-xs text-[#d0c4c0] max-w-md mt-1.5">
+                          Cinema scene dialogue is ready below; MP4 clip is rendering via gemini-omni-1.2-flash and will appear here automatically.
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <Film className="w-8 h-8 text-[#ffb2bc] mb-3" />
+                        <p className="font-[var(--font-display)] text-xl">
+                          Cinema Dialogue Preview · “{currentEpisode.targetTerm}”
+                        </p>
+                        {currentEpisode.generationError && (
+                          <p className="text-xs text-[#ffb2bc]/90 max-w-md mt-1">
+                            {currentEpisode.generationError}
+                          </p>
+                        )}
+                        <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
+                          {currentEpisode.cues[0] && (
+                            <button
+                              type="button"
+                              onClick={() =>
+                                handleSpeak(
+                                  currentEpisode.cues[0].tokens
+                                    .map((t) => t.text)
+                                    .join('')
+                                )
+                              }
+                              className="flex items-center gap-1.5 px-3.5 py-2 rounded bg-secondary text-on-secondary text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold cursor-pointer"
+                            >
+                              <Volume2 className="w-4 h-4" />
+                              <span>Play Spoken Dialogue</span>
+                            </button>
+                          )}
+                          <button
+                            type="button"
+                            onClick={() =>
+                              handleRetryEpisodeVideo(currentEpisode.id)
+                            }
+                            className="flex items-center gap-1.5 px-3.5 py-2 rounded bg-white/10 hover:bg-white/20 text-white text-xs font-[var(--font-display)] uppercase tracking-wider cursor-pointer"
+                          >
+                            <Sparkles className="w-4 h-4 text-[#ffb2bc]" />
+                            <span>Render MP4 Video</span>
+                          </button>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                )}
               </div>
 
               {/* Spoken Line & Subtitle Plaque Directly Beneath Real Video */}
