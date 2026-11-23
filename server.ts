@@ -7,6 +7,9 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { GoogleGenAI, ThinkingLevel, Type } from '@google/genai';
 import {
+  type BoldExtractedEntry,
+  extractBoldEntriesFromHtml,
+  extractBoldEntriesFromMarkdown,
   extractDocxTextComplete,
   extractPdfTextInReadingOrder,
   normalizeFinalDocumentText,
@@ -33,6 +36,7 @@ interface SavedDocument {
   wordCount: number;
   pageCount?: number;
   text: string;
+  boldEntries?: BoldExtractedEntry[];
   truncated?: boolean;
   uploadedAt: number;
 }
@@ -853,18 +857,23 @@ async function createServer() {
     try {
       let extractedRaw = '';
       let pageCount: number | undefined;
+      let boldEntries: BoldExtractedEntry[] | undefined;
 
       if (ext === '.pdf') {
         const result = await extractPdfTextInReadingOrder(buffer);
         extractedRaw = result.text;
         pageCount = result.pageCount;
+        boldEntries = result.boldEntries;
       } else if (ext === '.docx') {
         const result = await extractDocxTextComplete(buffer);
         extractedRaw = result.text;
+        boldEntries = result.boldEntries;
       } else if (ext === '.rtf') {
         extractedRaw = stripRtfToPlainText(buffer.toString('utf-8'));
       } else if (ext === '.html' || ext === '.htm') {
-        extractedRaw = stripHtmlToPlainText(buffer.toString('utf-8'));
+        const htmlRaw = buffer.toString('utf-8');
+        boldEntries = extractBoldEntriesFromHtml(htmlRaw);
+        extractedRaw = stripHtmlToPlainText(htmlRaw);
       } else if (
         ext === '.txt' ||
         ext === '.md' ||
@@ -872,6 +881,7 @@ async function createServer() {
         ext === '.log'
       ) {
         extractedRaw = buffer.toString('utf-8');
+        boldEntries = extractBoldEntriesFromMarkdown(extractedRaw);
       } else {
         res.status(400).json({
           error:
@@ -906,6 +916,7 @@ async function createServer() {
         wordCount,
         ...(pageCount ? { pageCount } : {}),
         text: finalText,
+        ...(boldEntries && boldEntries.length > 0 ? { boldEntries } : {}),
         ...(truncated ? { truncated: true } : {}),
         uploadedAt: Date.now(),
       };
@@ -1085,21 +1096,129 @@ async function createServer() {
     res.json({ ok: true });
   });
 
-  app.post('/api/documents/analyze-words', async (req: Request, res: Response) => {
-    const text = String(req.body?.text ?? '').trim();
-    const title = String(req.body?.title ?? 'Uploaded Document').trim().slice(0, 140) || 'Uploaded Document';
-    const fileName = String(req.body?.fileName ?? 'document.txt').trim().slice(0, 160);
-    const format = String(req.body?.format ?? 'TXT').trim().slice(0, 16);
-    const wordCount = Number(req.body?.wordCount) || text.split(/\s+/).filter(Boolean).length;
-    const pageCount = typeof req.body?.pageCount === 'number' ? req.body.pageCount : undefined;
-    const rawHints = Array.isArray(req.body?.localHints) ? req.body.localHints : [];
+  interface DocumentCandidateWord {
+    key: string;
+    term: string;
+    frequency: number;
+    exampleEn: string;
+    partOfSpeechHint?: string;
+    definitionHint?: string;
+  }
 
-    if (!text) {
-      res.status(400).json({ error: 'Document text is required to extract vocabulary.' });
-      return;
+  function extractGlossaryLineCandidates(text: string): DocumentCandidateWord[] {
+    const lines = text.slice(0, 120_000).split(/\r?\n/);
+    const results: DocumentCandidateWord[] = [];
+    const seen = new Set<string>();
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+      const m = line.match(
+        /^([A-Za-z][A-Za-z'-]{1,40}(?:\s+[A-Za-z'-]{1,25}){0,2})\s*\(\s*(noun|verb|adjective|adj\.?|adverb|adv\.?|preposition|prep\.?|conjunction|pronoun|idiom|phrase|phrasal\s+verb)\s*\)\s*[:\-–—]\s*(.+)$/i
+      );
+      if (!m) continue;
+      const rawTerm = m[1].trim();
+      const key = rawTerm.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      const rawPos = m[2].toLowerCase().replace(/\./g, '').trim();
+      const posMap: Record<string, string> = {
+        noun: 'Noun',
+        verb: 'Verb',
+        adjective: 'Adjective',
+        adj: 'Adjective',
+        adverb: 'Adverb',
+        adv: 'Adverb',
+        preposition: 'Preposition',
+        prep: 'Preposition',
+        conjunction: 'Conjunction',
+        pronoun: 'Pronoun',
+        idiom: 'Phrase',
+        phrase: 'Phrase',
+      };
+      const nextLine = (lines[i + 1] ?? '').trim();
+      const bulletMatch = nextLine.match(/^(?:[•●▪◦▸►*-]|ex(?:ample)?:)\s*(.+)$/i);
+
+      results.push({
+        key,
+        term: rawTerm.charAt(0).toUpperCase() + rawTerm.slice(1),
+        frequency: 1,
+        partOfSpeechHint: posMap[rawPos] ?? rawPos,
+        definitionHint: m[3].trim().slice(0, 300),
+        exampleEn: bulletMatch?.[1]?.trim() || line.slice(0, 260),
+      });
+      if (results.length >= 150) break;
     }
+    return results;
+  }
 
-    const hintMap = new Map<
+  async function fetchWiktionaryAzBatch(words: string[]): Promise<Map<string, string>> {
+    const resultMap = new Map<string, string>();
+    const cleanTitles = Array.from(
+      new Set(
+        words
+          .map((w) => w.trim().toLowerCase())
+          .filter((w) => /^[a-z'-]{2,40}$/.test(w))
+      )
+    );
+    if (cleanTitles.length === 0) return resultMap;
+
+    for (let i = 0; i < cleanTitles.length; i += 50) {
+      const chunk = cleanTitles.slice(i, i + 50);
+      try {
+        const res = await fetch(
+          `https://en.wiktionary.org/w/api.php?action=query&titles=${encodeURIComponent(
+            chunk.join('|')
+          )}&prop=revisions&rvprop=content&format=json&rvslots=main`,
+          {
+            signal: AbortSignal.timeout(5000),
+            headers: { 'User-Agent': 'TheCrownLexicon/1.0' },
+          }
+        );
+        if (!res.ok) continue;
+        const json = (await res.json()) as {
+          query?: {
+            pages?: Record<
+              string,
+              {
+                title?: string;
+                revisions?: Array<{ slots?: { main?: { '*'?: string } } }>;
+              }
+            >;
+          };
+        };
+        const pages = Object.values(json?.query?.pages ?? {});
+        for (const page of pages) {
+          const title = page.title?.trim().toLowerCase();
+          const content = page.revisions?.[0]?.slots?.main?.['*'];
+          if (!title || !content) continue;
+          const matches = [
+            ...content.matchAll(/\{\{t\+?\s*\|\s*az\s*\|\s*([^|}\n<]+)/g),
+          ]
+            .map((m) =>
+              m[1]
+                .replace(/\[\[|\]\]/g, '')
+                .replace(/\|.*$/, '')
+                .trim()
+            )
+            .filter((t) => Boolean(t) && !/^[?=-]+$/.test(t));
+
+          const unique = Array.from(new Set(matches)).slice(0, 3);
+          if (unique.length > 0) {
+            resultMap.set(title, unique.join(', '));
+          }
+        }
+      } catch {
+        // Ignore transient network errors from optional Wiktionary fallback
+      }
+    }
+    return resultMap;
+  }
+
+  async function enrichCandidatesToWords(params: {
+    candidates: DocumentCandidateWord[];
+    title: string;
+    hintMap: Map<
       string,
       {
         ipa?: string;
@@ -1110,21 +1229,25 @@ async function createServer() {
         etymology?: string;
         exampleAz?: string;
       }
-    >();
-    for (const h of rawHints) {
-      if (h && typeof h.term === 'string') {
-        hintMap.set(h.term.trim().toLowerCase(), h);
-      }
-    }
-
-    const candidates = extractDocumentWordCandidates(text, 18);
-    if (candidates.length === 0) {
-      res.status(422).json({
-        error: 'No distinct English vocabulary words could be extracted from this document.',
-      });
-      return;
-    }
-
+    >;
+  }): Promise<{
+    words: Array<{
+      id: string;
+      term: string;
+      ipa: string;
+      level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+      partOfSpeech: string;
+      azTranslation: string;
+      definition: string;
+      etymology?: string;
+      exampleEn: string;
+      exampleAz?: string;
+      frequency: number;
+      approvedToSection1: boolean;
+    }>;
+    warning?: string;
+  }> {
+    const { candidates, title, hintMap } = params;
     const db = await readDb();
     const wordCache = (db.wordCache ?? {}) as Record<
       string,
@@ -1158,40 +1281,59 @@ async function createServer() {
       }
     >();
 
-    const toFetchWithAi: typeof candidates = [];
+    const toFetchWithAi: DocumentCandidateWord[] = [];
     const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 
     for (const c of candidates) {
       const cached = wordCache[c.key];
       const hint = hintMap.get(c.key);
       if (cached && cached.azTranslation) {
-        const lvl = cached.cefrLevel && VALID_LEVELS.has(cached.cefrLevel.toUpperCase())
-          ? (cached.cefrLevel.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2')
-          : estimateCefrLevel(c.term);
+        const lvl =
+          cached.cefrLevel && VALID_LEVELS.has(cached.cefrLevel.toUpperCase())
+            ? (cached.cefrLevel.toUpperCase() as
+                | 'A1'
+                | 'A2'
+                | 'B1'
+                | 'B2'
+                | 'C1'
+                | 'C2')
+            : estimateCefrLevel(c.term);
         enrichedMap.set(c.key, {
           term: c.term,
           ipa: cached.ipa || hint?.ipa || `/${c.key}/`,
           level: lvl,
-          partOfSpeech: cached.partOfSpeech || hint?.partOfSpeech || 'Noun',
+          partOfSpeech:
+            c.partOfSpeechHint ||
+            cached.partOfSpeech ||
+            hint?.partOfSpeech ||
+            'Noun',
           azTranslation: cached.azTranslation,
-          definition: cached.definition || hint?.definition || 'Vocabulary extracted from your document.',
-          etymology: cached.etymology || hint?.etymology,
-          exampleEn: c.exampleEn,
+          definition:
+            c.definitionHint ||
+            cached.definition ||
+            hint?.definition ||
+            'Vocabulary extracted from your document.',
+          etymology: cached.etymology || hint?.etymology || `Extracted from ${title}`,
+          exampleEn: c.exampleEn || cached.exampleEn || `Found in “${title}”.`,
           exampleAz: cached.exampleAz || hint?.exampleAz,
           frequency: c.frequency,
         });
       } else if (hint && hint.azTranslation) {
-        const lvl = hint.level && VALID_LEVELS.has(hint.level.toUpperCase())
-          ? (hint.level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2')
-          : estimateCefrLevel(c.term);
+        const lvl =
+          hint.level && VALID_LEVELS.has(hint.level.toUpperCase())
+            ? (hint.level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2')
+            : estimateCefrLevel(c.term);
         enrichedMap.set(c.key, {
           term: c.term,
           ipa: hint.ipa || `/${c.key}/`,
           level: lvl,
-          partOfSpeech: hint.partOfSpeech || 'Lexicon',
+          partOfSpeech: c.partOfSpeechHint || hint.partOfSpeech || 'Lexicon',
           azTranslation: hint.azTranslation,
-          definition: hint.definition || 'Vocabulary extracted from your document.',
-          etymology: hint.etymology,
+          definition:
+            c.definitionHint ||
+            hint.definition ||
+            'Vocabulary extracted from your document.',
+          etymology: hint.etymology || `Extracted from ${title}`,
           exampleEn: c.exampleEn,
           exampleAz: hint.exampleAz,
           frequency: c.frequency,
@@ -1205,110 +1347,137 @@ async function createServer() {
 
     if (toFetchWithAi.length > 0) {
       const ai = getGenAiClient();
-      let aiSucceeded = false;
+      let aiHitQuotaOrError = false;
       if (ai) {
-        try {
-          const promptItems = toFetchWithAi.map((c) => ({
-            word: c.term,
-            contextSentence: c.exampleEn,
-          }));
-          const batchResult = await generateJsonWithFallback<{
-            words: Array<{
-              word: string;
-              ipa: string;
-              cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
-              partOfSpeech: string;
-              azTranslation: string;
-              definition: string;
-              etymology?: string;
-              exampleAz?: string;
-            }>;
-          }>(ai, {
-            contents: `Analyze these English vocabulary words extracted from the document "${title}". For each word, return accurate British IPA, CEFR level ("A1"-"C2"), primary partOfSpeech, natural Azerbaijani translation(s) (azTranslation), concise English definition, brief origin note (etymology), and Azerbaijani translation of the provided contextSentence (exampleAz).\n\nItems:\n${JSON.stringify(promptItems)}`,
-            systemInstruction:
-              'You are an English-Azerbaijani lexicographer for The Crown app. Return clean JSON matching the schema with accurate Azerbaijani translations and CEFR levels for every word.',
-            responseSchema: {
-              type: Type.OBJECT,
-              properties: {
-                words: {
-                  type: Type.ARRAY,
-                  items: {
-                    type: Type.OBJECT,
-                    properties: {
-                      word: { type: Type.STRING },
-                      ipa: { type: Type.STRING },
-                      cefrLevel: { type: Type.STRING, enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] },
-                      partOfSpeech: { type: Type.STRING },
-                      azTranslation: { type: Type.STRING },
-                      definition: { type: Type.STRING },
-                      etymology: { type: Type.STRING },
-                      exampleAz: { type: Type.STRING },
+        const chunkSize = 28;
+        const cacheUpdates: Record<string, unknown> = {};
+        for (let offset = 0; offset < toFetchWithAi.length; offset += chunkSize) {
+          const chunk = toFetchWithAi.slice(offset, offset + chunkSize);
+          try {
+            const promptItems = chunk.map((c) => ({
+              word: c.term,
+              ...(c.partOfSpeechHint ? { pos: c.partOfSpeechHint } : {}),
+              ...(c.definitionHint ? { definition: c.definitionHint } : {}),
+              contextSentence: c.exampleEn,
+            }));
+            const batchResult = await generateJsonWithFallback<{
+              words: Array<{
+                word: string;
+                ipa: string;
+                cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+                partOfSpeech: string;
+                azTranslation: string;
+                definition: string;
+                etymology?: string;
+                exampleAz?: string;
+              }>;
+            }>(ai, {
+              contents: `Translate and analyze ALL ${chunk.length} bold vocabulary words extracted from "${title}". For EVERY word in Items, return accurate British IPA, CEFR level ("A1"-"C2"), primary partOfSpeech, natural Azerbaijani translation(s) (azTranslation), concise English definition, brief origin note (etymology), and Azerbaijani translation of contextSentence (exampleAz).\n\nItems:\n${JSON.stringify(promptItems)}`,
+              systemInstruction:
+                'You are an English-Azerbaijani lexicographer for The Crown app. Return clean JSON matching the schema with accurate Azerbaijani translations and CEFR levels for every single word requested.',
+              responseSchema: {
+                type: Type.OBJECT,
+                properties: {
+                  words: {
+                    type: Type.ARRAY,
+                    items: {
+                      type: Type.OBJECT,
+                      properties: {
+                        word: { type: Type.STRING },
+                        ipa: { type: Type.STRING },
+                        cefrLevel: {
+                          type: Type.STRING,
+                          enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+                        },
+                        partOfSpeech: { type: Type.STRING },
+                        azTranslation: { type: Type.STRING },
+                        definition: { type: Type.STRING },
+                        etymology: { type: Type.STRING },
+                        exampleAz: { type: Type.STRING },
+                      },
+                      required: [
+                        'word',
+                        'ipa',
+                        'cefrLevel',
+                        'partOfSpeech',
+                        'azTranslation',
+                        'definition',
+                      ],
                     },
-                    required: ['word', 'ipa', 'cefrLevel', 'partOfSpeech', 'azTranslation', 'definition'],
                   },
                 },
+                required: ['words'],
               },
-              required: ['words'],
-            },
-            timeoutMs: 14000,
-          });
-
-          const cacheUpdates: Record<string, unknown> = {};
-          for (const item of batchResult.words ?? []) {
-            const key = item.word.trim().toLowerCase();
-            const cand = toFetchWithAi.find((c) => c.key === key);
-            if (!cand) continue;
-            const lvl = VALID_LEVELS.has(String(item.cefrLevel).toUpperCase())
-              ? (String(item.cefrLevel).toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2')
-              : estimateCefrLevel(cand.term);
-            enrichedMap.set(key, {
-              term: cand.term,
-              ipa: item.ipa || `/${key}/`,
-              level: lvl,
-              partOfSpeech: item.partOfSpeech || 'Noun',
-              azTranslation: item.azTranslation || '',
-              definition: item.definition || 'Vocabulary extracted from your document.',
-              etymology: item.etymology || `Extracted from ${title}`,
-              exampleEn: cand.exampleEn,
-              exampleAz: item.exampleAz,
-              frequency: cand.frequency,
+              timeoutMs: 16000,
             });
-            cacheUpdates[key] = {
-              term: cand.term,
-              category: 'word',
-              cefrLevel: lvl,
-              partOfSpeech: item.partOfSpeech || 'Noun',
-              ipa: item.ipa || `/${key}/`,
-              badge: `${lvl} · ${item.partOfSpeech || 'Noun'}`,
-              azTranslation: item.azTranslation,
-              definition: item.definition,
-              etymology: item.etymology,
-              exampleEn: cand.exampleEn,
-              exampleAz: item.exampleAz,
-            };
-          }
 
-          if (Object.keys(cacheUpdates).length > 0) {
-            await withDbLock(async () => {
-              const freshDb = await readDb();
-              freshDb.wordCache = { ...(freshDb.wordCache ?? {}), ...cacheUpdates };
-              await writeDb(freshDb);
-            });
+            for (const item of batchResult.words ?? []) {
+              const key = item.word.trim().toLowerCase();
+              const cand = chunk.find((c) => c.key === key);
+              if (!cand) continue;
+              const lvl = VALID_LEVELS.has(String(item.cefrLevel).toUpperCase())
+                ? (String(item.cefrLevel).toUpperCase() as
+                    | 'A1'
+                    | 'A2'
+                    | 'B1'
+                    | 'B2'
+                    | 'C1'
+                    | 'C2')
+                : estimateCefrLevel(cand.term);
+              enrichedMap.set(key, {
+                term: cand.term,
+                ipa: item.ipa || `/${key}/`,
+                level: lvl,
+                partOfSpeech:
+                  cand.partOfSpeechHint || item.partOfSpeech || 'Noun',
+                azTranslation: item.azTranslation || '',
+                definition:
+                  cand.definitionHint ||
+                  item.definition ||
+                  'Vocabulary extracted from your document.',
+                etymology: item.etymology || `Extracted from ${title}`,
+                exampleEn: cand.exampleEn,
+                exampleAz: item.exampleAz,
+                frequency: cand.frequency,
+              });
+              cacheUpdates[key] = {
+                term: cand.term,
+                category: 'word',
+                cefrLevel: lvl,
+                partOfSpeech:
+                  cand.partOfSpeechHint || item.partOfSpeech || 'Noun',
+                ipa: item.ipa || `/${key}/`,
+                badge: `${lvl} · ${cand.partOfSpeechHint || item.partOfSpeech || 'Noun'}`,
+                azTranslation: item.azTranslation,
+                definition: cand.definitionHint || item.definition,
+                etymology: item.etymology,
+                exampleEn: cand.exampleEn,
+                exampleAz: item.exampleAz,
+              };
+            }
+          } catch {
+            aiHitQuotaOrError = true;
+            break;
           }
-          aiSucceeded = enrichedMap.size >= candidates.length * 0.7;
-        } catch {
-          aiSucceeded = false;
         }
+
+        if (Object.keys(cacheUpdates).length > 0) {
+          await withDbLock(async () => {
+            const freshDb = await readDb();
+            freshDb.wordCache = { ...(freshDb.wordCache ?? {}), ...cacheUpdates };
+            await writeDb(freshDb);
+          });
+        }
+      } else {
+        aiHitQuotaOrError = true;
       }
 
-      // Free English dictionary fallback for any words still lacking metadata
       const unresolved = toFetchWithAi.filter((c) => !enrichedMap.has(c.key));
       if (unresolved.length > 0) {
-        if (!aiSucceeded) {
-          warning =
-            'Avtomatik Azərbaycan tərcüməsi hazırda məhduddur — sözlər və ingiliscə izahlar sənəddən çıxarıldı. İstədiyiniz sözün tərcüməsini kartda özünüz əlavə edə bilərsiniz.';
-        }
-        const batchSize = 5;
+        const wiktAzMap = await fetchWiktionaryAzBatch(
+          unresolved.map((c) => c.key)
+        );
+        const batchSize = 8;
         for (let i = 0; i < unresolved.length; i += batchSize) {
           const chunk = unresolved.slice(i, i + batchSize);
           const fallbacks = await Promise.all(
@@ -1316,20 +1485,30 @@ async function createServer() {
           );
           chunk.forEach((c, idx) => {
             const fb = fallbacks[idx];
+            const azFromWikt = wiktAzMap.get(c.key) ?? '';
             enrichedMap.set(c.key, {
               term: c.term,
               ipa: fb?.ipa || `/${c.key}/`,
               level: estimateCefrLevel(c.term),
-              partOfSpeech: fb?.partOfSpeech || 'Vocabulary',
-              azTranslation: '',
+              partOfSpeech:
+                c.partOfSpeechHint || fb?.partOfSpeech || 'Vocabulary',
+              azTranslation: azFromWikt,
               definition:
+                c.definitionHint ||
                 fb?.definition ||
-                `Appears ${c.frequency}× in “${title}”. Add its Azerbaijani meaning below.`,
+                `Bold vocabulary extracted from “${title}”.`,
               etymology: `Extracted from ${title}`,
-              exampleEn: c.exampleEn,
+              exampleEn: c.exampleEn || fb?.exampleEn || `Found in “${title}”.`,
               frequency: c.frequency,
             });
           });
+        }
+
+        const missingAzCount = unresolved.filter(
+          (c) => !enrichedMap.get(c.key)?.azTranslation
+        ).length;
+        if (aiHitQuotaOrError && missingAzCount > 0) {
+          warning = `Bütün ${candidates.length} qara (bold) söz sənəddən çıxarıldı. Avtomatik AI tərcümə kvotası hazırda məhdud olduğu üçün ${missingAzCount} sözün Azərbaycan tərcüməsini əl ilə əlavə edə və ya kvota yeniləndikdən sonra «Qalanlarını Tərcümə Et» düyməsinə klikləyə bilərsiniz.`;
         }
       }
     }
@@ -1343,6 +1522,120 @@ async function createServer() {
         approvedToSection1: false,
       }));
 
+    return { words, ...(warning ? { warning } : {}) };
+  }
+
+  app.post('/api/documents/analyze-words', async (req: Request, res: Response) => {
+    const text = String(req.body?.text ?? '').trim();
+    const title = String(req.body?.title ?? 'Uploaded Document').trim().slice(0, 140) || 'Uploaded Document';
+    const fileName = String(req.body?.fileName ?? 'document.txt').trim().slice(0, 160);
+    const format = String(req.body?.format ?? 'TXT').trim().slice(0, 16);
+    const wordCount = Number(req.body?.wordCount) || text.split(/\s+/).filter(Boolean).length;
+    const pageCount = typeof req.body?.pageCount === 'number' ? req.body.pageCount : undefined;
+    const rawHints = Array.isArray(req.body?.localHints) ? req.body.localHints : [];
+    const rawBoldEntries = Array.isArray(req.body?.boldEntries)
+      ? (req.body.boldEntries as BoldExtractedEntry[])
+      : [];
+
+    if (!text) {
+      res.status(400).json({ error: 'Document text is required to extract vocabulary.' });
+      return;
+    }
+
+    const hintMap = new Map<
+      string,
+      {
+        ipa?: string;
+        level?: string;
+        partOfSpeech?: string;
+        azTranslation?: string;
+        definition?: string;
+        etymology?: string;
+        exampleAz?: string;
+      }
+    >();
+    for (const h of rawHints) {
+      if (h && typeof h.term === 'string') {
+        hintMap.set(h.term.trim().toLowerCase(), h);
+      }
+    }
+
+    // 1. Highest priority: ALL bold (qara/bold) words/phrases extracted from PDF/DOCX/HTML/MD
+    let candidates: DocumentCandidateWord[] = [];
+    let extractionMode: 'bold' | 'glossary' | 'keywords' = 'keywords';
+
+    const effectiveBoldEntries =
+      rawBoldEntries.length > 0
+        ? rawBoldEntries
+        : extractBoldEntriesFromMarkdown(text);
+
+    if (effectiveBoldEntries.length > 0) {
+      extractionMode = 'bold';
+      const seen = new Set<string>();
+      const rawSentences = text
+        .slice(0, 120_000)
+        .replace(/\s+/g, ' ')
+        .split(/(?<=[.!?])\s+|\n+/)
+        .map((s) => s.trim())
+        .filter((s) => s.length >= 12 && s.length <= 240);
+
+      for (const b of effectiveBoldEntries) {
+        const cleanTerm = String(b?.term ?? '').trim();
+        const key = cleanTerm.toLowerCase();
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+
+        const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const freqMatches = text.match(new RegExp(`\\b${escaped}\\b`, 'gi'));
+        const matchedSentence =
+          b.exampleHint ||
+          rawSentences.find((s) =>
+            new RegExp(`\\b${escaped}\\b`, 'i').test(s) &&
+            !/^[^:]+:\s/.test(s)
+          ) ||
+          b.lineText ||
+          `Bold term extracted from “${title}”: ${cleanTerm}.`;
+
+        candidates.push({
+          key,
+          term: cleanTerm.charAt(0).toUpperCase() + cleanTerm.slice(1),
+          frequency: Math.max(1, freqMatches?.length ?? 1),
+          exampleEn: matchedSentence,
+          ...(b.partOfSpeechHint ? { partOfSpeechHint: b.partOfSpeechHint } : {}),
+          ...(b.definitionHint ? { definitionHint: b.definitionHint } : {}),
+        });
+        if (candidates.length >= 150) break;
+      }
+    }
+
+    // 2. Fallback: Glossary lines (e.g. plain TXT with "Word (noun): definition")
+    if (candidates.length === 0) {
+      const glossaryCandidates = extractGlossaryLineCandidates(text);
+      if (glossaryCandidates.length >= 3) {
+        extractionMode = 'glossary';
+        candidates = glossaryCandidates;
+      }
+    }
+
+    // 3. Fallback: Top vocabulary keywords for plain prose with zero bold formatting
+    if (candidates.length === 0) {
+      extractionMode = 'keywords';
+      candidates = extractDocumentWordCandidates(text, 35);
+    }
+
+    if (candidates.length === 0) {
+      res.status(422).json({
+        error: 'No distinct English vocabulary words could be extracted from this document.',
+      });
+      return;
+    }
+
+    const { words, warning } = await enrichCandidatesToWords({
+      candidates,
+      title,
+      hintMap,
+    });
+
     const workspace = {
       id: `ws-${crypto.randomUUID()}`,
       title,
@@ -1350,6 +1643,7 @@ async function createServer() {
       format,
       wordCount,
       ...(pageCount ? { pageCount } : {}),
+      extractionMode,
       text: text.slice(0, 200_000),
       words,
       createdAt: Date.now(),
@@ -1366,6 +1660,93 @@ async function createServer() {
 
     res.status(201).json({
       workspace,
+      ...(warning ? { warning } : {}),
+    });
+  });
+
+  app.post('/api/document-workspaces/:id/retry-translations', async (req: Request, res: Response) => {
+    const id = String(req.params.id || '').trim();
+    if (!id) {
+      res.status(400).json({ error: 'Workspace ID is required.' });
+      return;
+    }
+
+    const db = await readDb();
+    const existingList = (db.documentWorkspaces ?? []) as Array<{
+      id: string;
+      title: string;
+      words: Array<{
+        id: string;
+        term: string;
+        ipa: string;
+        level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+        partOfSpeech: string;
+        azTranslation: string;
+        definition: string;
+        etymology?: string;
+        exampleEn: string;
+        exampleAz?: string;
+        frequency: number;
+        approvedToSection1?: boolean;
+      }>;
+    }>;
+
+    const target = existingList.find((w) => w?.id === id);
+    if (!target) {
+      res.status(404).json({ error: 'Workspace not found.' });
+      return;
+    }
+
+    const missing = target.words.filter((w) => !w.azTranslation?.trim());
+    if (missing.length === 0) {
+      res.json({ workspace: target });
+      return;
+    }
+
+    const candidates: DocumentCandidateWord[] = missing.map((w) => ({
+      key: w.term.trim().toLowerCase(),
+      term: w.term,
+      frequency: w.frequency || 1,
+      exampleEn: w.exampleEn,
+      partOfSpeechHint: w.partOfSpeech,
+      definitionHint: w.definition,
+    }));
+
+    const { words: updatedMissing, warning } = await enrichCandidatesToWords({
+      candidates,
+      title: target.title,
+      hintMap: new Map(),
+    });
+
+    const updatedMap = new Map(
+      updatedMissing.map((u) => [u.term.trim().toLowerCase(), u])
+    );
+
+    const mergedWords = target.words.map((orig) => {
+      if (orig.azTranslation?.trim()) return orig;
+      const hit = updatedMap.get(orig.term.trim().toLowerCase());
+      if (!hit || !hit.azTranslation?.trim()) return orig;
+      return {
+        ...orig,
+        azTranslation: hit.azTranslation,
+        ipa: hit.ipa || orig.ipa,
+        level: hit.level || orig.level,
+        exampleAz: hit.exampleAz || orig.exampleAz,
+      };
+    });
+
+    const updatedWorkspace = { ...target, words: mergedWords };
+    await withDbLock(async () => {
+      const freshDb = await readDb();
+      const list = (freshDb.documentWorkspaces ?? []) as Array<{ id?: string }>;
+      freshDb.documentWorkspaces = list.map((w) =>
+        w?.id === id ? updatedWorkspace : w
+      );
+      await writeDb(freshDb);
+    });
+
+    res.json({
+      workspace: updatedWorkspace,
       ...(warning ? { warning } : {}),
     });
   });

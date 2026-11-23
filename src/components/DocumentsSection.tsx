@@ -10,6 +10,7 @@ import {
   FileText,
   HelpCircle,
   Loader2,
+  RefreshCw,
   RotateCcw,
   Trash2,
   UploadCloud,
@@ -17,6 +18,7 @@ import {
   XCircle,
 } from 'lucide-react';
 import {
+  BoldExtractedEntry,
   CefrLevel,
   DocumentExtractedWord,
   DocumentVocabWorkspace,
@@ -109,6 +111,7 @@ export const DocumentsSection: React.FC<DocumentsSectionProps> = ({
 
   const [isDragging, setIsDragging] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [isRetryingTranslations, setIsRetryingTranslations] = useState(false);
   const [processingStage, setProcessingStage] = useState<string>('');
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [analysisWarning, setAnalysisWarning] = useState<string | null>(null);
@@ -476,15 +479,24 @@ export const DocumentsSection: React.FC<DocumentsSectionProps> = ({
         wordCount: number;
         pageCount?: number;
         text: string;
+        boldEntries?: BoldExtractedEntry[];
       };
 
-      setProcessingStage('Sözlər və mənaları hazırlanır...');
+      setProcessingStage(
+        doc.boldEntries && doc.boldEntries.length > 0
+          ? `${doc.boldEntries.length} qara (bold) söz tapıldı, mənaları tərcümə olunur...`
+          : 'Sözlər və mənaları hazırlanır...'
+      );
 
-      // Collect local dictionary hints from WordsData + StoryDictionary so known words resolve immediately
+      // Collect local dictionary hints from WordsData + StoryDictionary (prioritizing all bold entries)
+      const boldTokenKeys = (doc.boldEntries ?? [])
+        .map((b) => b.term.trim().toLowerCase())
+        .filter(Boolean);
       const rawTokens = Array.from(
-        new Set(
-          (doc.text.toLowerCase().match(/\b[a-z]{4,24}\b/g) ?? []).slice(0, 400)
-        )
+        new Set([
+          ...boldTokenKeys,
+          ...(doc.text.toLowerCase().match(/\b[a-z]{4,24}\b/g) ?? []).slice(0, 400),
+        ])
       );
       const localHints: Array<{
         term: string;
@@ -540,6 +552,7 @@ export const DocumentsSection: React.FC<DocumentsSectionProps> = ({
           wordCount: doc.wordCount,
           pageCount: doc.pageCount,
           text: doc.text,
+          boldEntries: doc.boldEntries ?? [],
           localHints,
         }),
       });
@@ -600,6 +613,40 @@ export const DocumentsSection: React.FC<DocumentsSectionProps> = ({
       level: editLevelValue,
     });
     setEditingWordId(null);
+  };
+
+  const handleRetryTranslations = async () => {
+    if (!activeWorkspace || isRetryingTranslations) return;
+    setIsRetryingTranslations(true);
+    setAnalysisWarning(null);
+    setUploadError(null);
+    try {
+      const res = await fetch(
+        `/api/document-workspaces/${encodeURIComponent(activeWorkspace.id)}/retry-translations`,
+        { method: 'POST' }
+      );
+      const payload = await res.json();
+      if (!res.ok || !payload?.workspace) {
+        throw new Error(
+          payload?.error || 'Qalan sözlərin tərcüməsi yenilənə bilmədi.'
+        );
+      }
+      const updated = payload.workspace as DocumentVocabWorkspace;
+      setWorkspaces((prev) =>
+        prev.map((ws) => (ws.id === updated.id ? updated : ws))
+      );
+      if (payload.warning) {
+        setAnalysisWarning(String(payload.warning));
+      }
+    } catch (err) {
+      setAnalysisWarning(
+        err instanceof Error
+          ? err.message
+          : 'Qalan sözlərin tərcüməsi zamanı xəta baş verdi. Zəhmət olmasa tərcüməni əl ilə daxil edin.'
+      );
+    } finally {
+      setIsRetryingTranslations(false);
+    }
   };
 
   const handleSubmitAnswer = () => {
@@ -918,6 +965,30 @@ export const DocumentsSection: React.FC<DocumentsSectionProps> = ({
             </div>
 
             <div className="flex items-center gap-2.5 flex-wrap">
+              {activeWorkspace.extractionMode === 'bold' && (
+                <span className="font-[var(--font-display)] text-xs uppercase tracking-wider text-secondary font-semibold whitespace-nowrap">
+                  Qara (Bold) sözlər: {activeWorkspace.words.length}
+                </span>
+              )}
+
+              {counts.withAz < counts.total && (
+                <button
+                  type="button"
+                  disabled={isRetryingTranslations}
+                  onClick={() => void handleRetryTranslations()}
+                  className="px-3.5 py-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high disabled:opacity-50 font-[var(--font-display)] text-xs uppercase tracking-wider whitespace-nowrap shrink-0 transition-colors cursor-pointer inline-flex items-center gap-1.5"
+                >
+                  <RefreshCw
+                    className={`w-3.5 h-3.5 ${isRetryingTranslations ? 'animate-spin' : ''}`}
+                  />
+                  <span>
+                    {isRetryingTranslations
+                      ? 'Tərcümə olunur...'
+                      : 'Qalanlarını Tərcümə Et'}
+                  </span>
+                </button>
+              )}
+
               <button
                 type="button"
                 disabled={counts.pending === 0}

@@ -162,6 +162,14 @@ export interface FilmEpisode {
   createdAt: number;
 }
 
+export interface BoldExtractedEntry {
+  term: string;
+  partOfSpeechHint?: string;
+  definitionHint?: string;
+  exampleHint?: string;
+  lineText?: string;
+}
+
 export interface DocumentExtractedWord {
   id: string;
   term: string;
@@ -184,6 +192,7 @@ export interface DocumentVocabWorkspace {
   format: string;
   wordCount: number;
   pageCount?: number;
+  extractionMode?: 'bold' | 'glossary' | 'keywords';
   text: string;
   words: DocumentExtractedWord[];
   createdAt: number;

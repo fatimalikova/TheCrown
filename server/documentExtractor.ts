@@ -3,9 +3,18 @@ import { getDocumentProxy, getResolvedPDFJS } from 'unpdf';
 import JSZip from 'jszip';
 import { DOMParser } from '@xmldom/xmldom';
 
+export interface BoldExtractedEntry {
+  term: string;
+  partOfSpeechHint?: string;
+  definitionHint?: string;
+  exampleHint?: string;
+  lineText?: string;
+}
+
 export interface ExtractionResult {
   text: string;
   pageCount?: number;
+  boldEntries?: BoldExtractedEntry[];
 }
 
 interface PositionedItem {
@@ -16,6 +25,7 @@ interface PositionedItem {
   y: number;
   width: number;
   fontSize: number;
+  isBold?: boolean;
 }
 
 interface VisualLine {
@@ -24,6 +34,7 @@ interface VisualLine {
   xStart: number;
   xEnd: number;
   text: string;
+  boldRuns?: Array<{ boldText: string; afterText: string }>;
 }
 
 export function normalizeUnicodeText(raw: string): string {
@@ -247,8 +258,112 @@ function orderItemsIntoZones(
   return strips;
 }
 
-function reconstructZoneText(zoneItems: PositionedItem[]): string {
-  if (zoneItems.length === 0) return '';
+const POS_NORMALIZE_MAP: Record<string, string> = {
+  noun: 'Noun',
+  'n.': 'Noun',
+  n: 'Noun',
+  verb: 'Verb',
+  'v.': 'Verb',
+  v: 'Verb',
+  adjective: 'Adjective',
+  'adj.': 'Adjective',
+  adj: 'Adjective',
+  adverb: 'Adverb',
+  'adv.': 'Adverb',
+  adv: 'Adverb',
+  preposition: 'Preposition',
+  'prep.': 'Preposition',
+  prep: 'Preposition',
+  conjunction: 'Conjunction',
+  'conj.': 'Conjunction',
+  pronoun: 'Pronoun',
+  'pron.': 'Pronoun',
+  idiom: 'Phrase',
+  phrase: 'Phrase',
+  'phrasal verb': 'Verb',
+};
+
+export function parseBoldSpanToEntry(
+  rawBold: string,
+  afterText = '',
+  nextLineText = '',
+  fullLineText = ''
+): BoldExtractedEntry | null {
+  let cleaned = rawBold
+    .replace(/^[\s•●▪◦▸►*\-–—:;,.!?()[\]"'“”‘’]+/, '')
+    .replace(/[\s:;,.!?—–-]+$/, '')
+    .trim();
+  if (!cleaned) return null;
+
+  let partOfSpeechHint: string | undefined;
+  const posMatch = cleaned.match(
+    /^(.+?)\s*\(\s*(noun|verb|adjective|adj\.?|adverb|adv\.?|preposition|prep\.?|conjunction|conj\.?|pronoun|pron\.?|idiom|phrase|phrasal\s+verb|n\.?|v\.?)\s*\)\s*$/i
+  );
+  if (posMatch) {
+    cleaned = posMatch[1].trim();
+    const rawPos = posMatch[2].toLowerCase().replace(/\s+/g, ' ');
+    partOfSpeechHint = POS_NORMALIZE_MAP[rawPos] ?? rawPos;
+  }
+
+  cleaned = cleaned
+    .replace(/[\s:;,.!?—–-]+$/, '')
+    .replace(/^(?:\d+[.)]\s*)/, '')
+    .trim();
+
+  if (!cleaned || cleaned.length < 2 || cleaned.length > 60) return null;
+  if (!/[a-zA-Z]{2,}/.test(cleaned)) return null;
+  if (/^\d+$/.test(cleaned)) return null;
+
+  const words = cleaned.split(/\s+/).filter(Boolean);
+  if (words.length > 4) return null;
+
+  // Skip structural headings like "Unit 9", "Chapter 2", "Page 1", "Vocabulary List"
+  if (
+    /^(?:unit|chapter|lesson|module|part|section|page|vocabulary|glossary|contents|table|figure|exercise)\b/i.test(
+      cleaned
+    ) &&
+    words.length >= 2
+  ) {
+    return null;
+  }
+
+  let definitionHint: string | undefined;
+  let exampleHint: string | undefined;
+
+  const trimmedAfter = afterText.trim();
+  if (trimmedAfter) {
+    const defClean = trimmedAfter.replace(/^[:\-–—\s]+/, '').trim();
+    if (defClean.length >= 4) {
+      definitionHint = defClean.slice(0, 300);
+    }
+  }
+
+  const trimmedNext = nextLineText.trim();
+  if (/^(?:[•●▪◦▸►*-]|ex(?:ample)?:)/i.test(trimmedNext)) {
+    const exClean = trimmedNext
+      .replace(/^(?:[•●▪◦▸►*-]|ex(?:ample)?:)\s*/i, '')
+      .trim();
+    if (exClean.length >= 8) {
+      exampleHint = exClean.slice(0, 300);
+    }
+  } else if (fullLineText && fullLineText.length > cleaned.length + 12 && !definitionHint) {
+    exampleHint = fullLineText.slice(0, 300);
+  }
+
+  return {
+    term: cleaned.charAt(0).toUpperCase() + cleaned.slice(1),
+    ...(partOfSpeechHint ? { partOfSpeechHint } : {}),
+    ...(definitionHint ? { definitionHint } : {}),
+    ...(exampleHint ? { exampleHint } : {}),
+    ...(fullLineText ? { lineText: fullLineText.slice(0, 300) } : {}),
+  };
+}
+
+function reconstructZoneText(zoneItems: PositionedItem[]): {
+  text: string;
+  lines: VisualLine[];
+} {
+  if (zoneItems.length === 0) return { text: '', lines: [] };
 
   // Sort strictly top-to-bottom (y ascending in viewport coords) then left-to-right
   const sorted = [...zoneItems].sort((a, b) => a.y - b.y || a.x - b.x);
@@ -286,6 +401,9 @@ function reconstructZoneText(zoneItems: PositionedItem[]): string {
     let prevTrailingSpace = false;
     let prevFontSize = lineItems[0].fontSize || 11;
 
+    // Also track contiguous bold fragments for exact bold term extraction
+    const lineSegments: Array<{ text: string; isBold: boolean }> = [];
+
     for (const it of lineItems) {
       // Deduplicate fake-bold repeated glyph renders at almost the exact same spot
       if (
@@ -293,6 +411,9 @@ function reconstructZoneText(zoneItems: PositionedItem[]): string {
         it.text === prevText &&
         Math.abs(it.x - prevX) < Math.max(1.5, it.fontSize * 0.15)
       ) {
+        if (lineSegments.length > 0) {
+          lineSegments[lineSegments.length - 1].isBold = true;
+        }
         continue;
       }
 
@@ -305,14 +426,25 @@ function reconstructZoneText(zoneItems: PositionedItem[]): string {
         lineText.length > 0 &&
         (prevTrailingSpace || it.hasLeadingSpace || gap > spaceThresh);
 
+      let spacePrefix = '';
       if (needsSpace) {
         const startsPunct = /^[,.;:!?)\]}'"”’%°]/.test(it.text);
         if (!startsPunct || gap > spaceThresh * 2.2) {
+          spacePrefix = ' ';
           lineText += ' ';
         }
       }
 
       lineText += it.text;
+
+      const isBold = Boolean(it.isBold);
+      const lastSeg = lineSegments[lineSegments.length - 1];
+      if (lastSeg && lastSeg.isBold === isBold) {
+        lastSeg.text += spacePrefix + it.text;
+      } else {
+        lineSegments.push({ text: it.text, isBold });
+      }
+
       prevEnd = Math.max(prevEnd, it.x + it.width);
       prevX = it.x;
       prevText = it.text;
@@ -323,16 +455,28 @@ function reconstructZoneText(zoneItems: PositionedItem[]): string {
     const trimmed = lineText.trim();
     if (!trimmed) continue;
 
+    const boldRuns: Array<{ boldText: string; afterText: string }> = [];
+    for (let sIdx = 0; sIdx < lineSegments.length; sIdx++) {
+      const seg = lineSegments[sIdx];
+      if (!seg.isBold) continue;
+      const afterText = lineSegments
+        .slice(sIdx + 1)
+        .map((s) => s.text)
+        .join(' ')
+        .trim();
+      boldRuns.push({ boldText: seg.text.trim(), afterText });
+    }
+
     const y = lineItems.reduce((s, it) => s + it.y, 0) / lineItems.length;
     const fontSize =
       lineItems.reduce((s, it) => s + it.fontSize, 0) / lineItems.length;
     const xStart = lineItems[0].x;
     const xEnd = Math.max(...lineItems.map((it) => it.x + it.width));
 
-    lines.push({ y, fontSize, xStart, xEnd, text: trimmed });
+    lines.push({ y, fontSize, xStart, xEnd, text: trimmed, boldRuns });
   }
 
-  if (lines.length === 0) return '';
+  if (lines.length === 0) return { text: '', lines: [] };
 
   // Determine median line spacing & zone horizontal bounds for smart paragraph detection
   const lineGaps: number[] = [];
@@ -397,24 +541,65 @@ function reconstructZoneText(zoneItems: PositionedItem[]): string {
     paragraphs.push(currentPara);
   }
 
-  return paragraphs.join('\n\n');
+  return { text: paragraphs.join('\n\n'), lines };
+}
+
+function isPdfFontBold(
+  fontKey: string,
+  page: { commonObjs?: { has: (k: string) => boolean; get: (k: string) => unknown } },
+  styles?: Record<string, { fontFamily?: string }>
+): boolean {
+  if (!fontKey) return false;
+  let descriptor = '';
+  try {
+    if (page.commonObjs?.has(fontKey)) {
+      const obj = page.commonObjs.get(fontKey) as {
+        name?: string;
+        bold?: boolean;
+        black?: boolean;
+      } | null;
+      if (obj?.bold || obj?.black) return true;
+      if (obj?.name) descriptor += ` ${obj.name}`;
+    }
+  } catch {
+    // Ignore missing font object
+  }
+  const styleFamily = styles?.[fontKey]?.fontFamily;
+  if (styleFamily) descriptor += ` ${styleFamily}`;
+  return /bold|black|heavy|semibold|demibold|extrabold|ultrabold|[-_,]bd\b|[-_,]b\b|\b(?:700|800|900)\b/i.test(
+    descriptor
+  );
 }
 
 export async function extractPdfTextInReadingOrder(
   buffer: Buffer
 ): Promise<ExtractionResult> {
   const data = new Uint8Array(buffer.buffer, buffer.byteOffset, buffer.byteLength);
-  const pdf = await getDocumentProxy(data);
   const pdfjs = await getResolvedPDFJS();
+  const loadingTask = pdfjs.getDocument({
+    data,
+    fontExtraProperties: true,
+    verbosity: 0,
+  });
+  const pdf = await loadingTask.promise;
 
   try {
     const pageTexts: string[] = [];
+    const allBoldEntries: BoldExtractedEntry[] = [];
+    const seenBoldKeys = new Set<string>();
 
     for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
       const page = await pdf.getPage(pageNum);
       try {
+        // Trigger operator list so page.commonObjs resolves real font names (e.g. Arial-BoldMT)
+        try {
+          await page.getOperatorList();
+        } catch {
+          // Proceed even if operator list fails on an exotic PDF
+        }
         const viewport = page.getViewport({ scale: 1 });
         const content = await page.getTextContent({ includeMarkedContent: false });
+        const fontBoldCache = new Map<string, boolean>();
         const positioned: PositionedItem[] = [];
 
         for (const rawItem of content.items) {
@@ -422,6 +607,19 @@ export async function extractPdfTextInReadingOrder(
           const norm = normalizeUnicodeText(rawItem.str);
           const trimmed = norm.trim();
           if (!trimmed) continue;
+
+          const fontKey = 'fontName' in rawItem && typeof rawItem.fontName === 'string'
+            ? rawItem.fontName
+            : '';
+          let isBold = fontBoldCache.get(fontKey);
+          if (isBold === undefined) {
+            isBold = isPdfFontBold(
+              fontKey,
+              page as unknown as { commonObjs?: { has: (k: string) => boolean; get: (k: string) => unknown } },
+              content.styles as Record<string, { fontFamily?: string }> | undefined
+            );
+            fontBoldCache.set(fontKey, isBold);
+          }
 
           const tx = pdfjs.Util.transform(viewport.transform, rawItem.transform);
           const fontSize =
@@ -441,13 +639,38 @@ export async function extractPdfTextInReadingOrder(
             y,
             width,
             fontSize,
+            isBold,
           });
         }
 
         const zones = orderItemsIntoZones(positioned, viewport.width);
-        const zoneStrings = zones
-          .map((zone) => reconstructZoneText(zone))
-          .filter(Boolean);
+        const zoneStrings: string[] = [];
+        const pageLines: VisualLine[] = [];
+        for (const zone of zones) {
+          const rebuilt = reconstructZoneText(zone);
+          if (rebuilt.text) zoneStrings.push(rebuilt.text);
+          if (rebuilt.lines.length > 0) pageLines.push(...rebuilt.lines);
+        }
+
+        for (let i = 0; i < pageLines.length; i++) {
+          const curr = pageLines[i];
+          const next = pageLines[i + 1];
+          for (const run of curr.boldRuns ?? []) {
+            const parsed = parseBoldSpanToEntry(
+              run.boldText,
+              run.afterText,
+              next?.text ?? '',
+              curr.text
+            );
+            if (parsed) {
+              const key = parsed.term.toLowerCase();
+              if (!seenBoldKeys.has(key)) {
+                seenBoldKeys.add(key);
+                allBoldEntries.push(parsed);
+              }
+            }
+          }
+        }
 
         if (zoneStrings.length > 0) {
           pageTexts.push(zoneStrings.join('\n\n'));
@@ -460,9 +683,10 @@ export async function extractPdfTextInReadingOrder(
     return {
       text: normalizeFinalDocumentText(pageTexts.join('\n\n')),
       pageCount: pdf.numPages,
+      ...(allBoldEntries.length > 0 ? { boldEntries: allBoldEntries } : {}),
     };
   } finally {
-    await pdf.loadingTask.destroy();
+    await loadingTask.destroy();
   }
 }
 
@@ -531,12 +755,89 @@ function extractParagraphsFromWordXml(xmlString: string): string[] {
   return paragraphs;
 }
 
+export function extractBoldEntriesFromHtml(html: string): BoldExtractedEntry[] {
+  const entries: BoldExtractedEntry[] = [];
+  const seen = new Set<string>();
+
+  const stripTags = (s: string) =>
+    normalizeUnicodeText(
+      s
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/&amp;/gi, '&')
+        .replace(/&lt;/gi, '<')
+        .replace(/&gt;/gi, '>')
+        .replace(/&quot;/gi, '"')
+        .replace(/&#39;/gi, "'")
+    )
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  const blockMatches = html.match(/<(?:p|li|td|th|h[1-6]|div)[^>]*>[\s\S]*?<\/(?:p|li|td|th|h[1-6]|div)>/gi) ?? [html];
+  for (let i = 0; i < blockMatches.length; i++) {
+    const block = blockMatches[i];
+    const nextBlockText = i + 1 < blockMatches.length ? stripTags(blockMatches[i + 1]) : '';
+    const fullLineText = stripTags(block);
+    const boldRe = /<(?:strong|b)(?:\s+[^>]*)?>([\s\S]*?)<\/(?:strong|b)>/gi;
+    let m: RegExpExecArray | null;
+    while ((m = boldRe.exec(block)) !== null) {
+      const boldText = stripTags(m[1]);
+      const afterText = stripTags(block.slice(m.index + m[0].length));
+      const parsed = parseBoldSpanToEntry(boldText, afterText, nextBlockText, fullLineText);
+      if (parsed) {
+        const key = parsed.term.toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
+          entries.push(parsed);
+        }
+      }
+    }
+  }
+  return entries;
+}
+
+export function extractBoldEntriesFromMarkdown(text: string): BoldExtractedEntry[] {
+  const entries: BoldExtractedEntry[] = [];
+  const seen = new Set<string>();
+  const lines = text.split(/\r?\n/);
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const nextLine = lines[i + 1] ?? '';
+    const re = /(?:\*\*|__)([^\n*_]{2,60})(?:\*\*|__)/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(line)) !== null) {
+      const afterText = line
+        .slice(m.index + m[0].length)
+        .replace(/(?:\*\*|__)/g, '')
+        .trim();
+      const parsed = parseBoldSpanToEntry(
+        m[1],
+        afterText,
+        nextLine,
+        line.replace(/(?:\*\*|__)/g, '')
+      );
+      if (parsed) {
+        const key = parsed.term.toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
+          entries.push(parsed);
+        }
+      }
+    }
+  }
+  return entries;
+}
+
 export async function extractDocxTextComplete(
   buffer: Buffer
 ): Promise<ExtractionResult> {
-  // 1. Primary extraction via mammoth
-  const mammothRes = await mammoth.extractRawText({ buffer });
+  // 1. Primary extraction via mammoth (text + HTML bold spans)
+  const [mammothRes, htmlRes] = await Promise.all([
+    mammoth.extractRawText({ buffer }),
+    mammoth.convertToHtml({ buffer }).catch(() => ({ value: '' })),
+  ]);
   const mammothText = normalizeFinalDocumentText(String(mammothRes.value ?? ''));
+  const boldEntries = extractBoldEntriesFromHtml(String(htmlRes.value ?? ''));
 
   // 2. Also inspect OOXML directly to capture textboxes, headers/footers/footnotes,
   // or complex structures that mammoth skips
@@ -565,7 +866,10 @@ export async function extractDocxTextComplete(
           [...xmlParas, ...extraParts].join('\n\n')
         );
         if (combined.length >= mammothText.length) {
-          return { text: combined };
+          return {
+            text: combined,
+            ...(boldEntries.length > 0 ? { boldEntries } : {}),
+          };
         }
       }
 
@@ -574,6 +878,7 @@ export async function extractDocxTextComplete(
           text: normalizeFinalDocumentText(
             `${mammothText}\n\n${extraParts.join('\n\n')}`
           ),
+          ...(boldEntries.length > 0 ? { boldEntries } : {}),
         };
       }
     }
@@ -581,5 +886,8 @@ export async function extractDocxTextComplete(
     // Fallback cleanly to mammoth output if custom XML pass fails
   }
 
-  return { text: mammothText };
+  return {
+    text: mammothText,
+    ...(boldEntries.length > 0 ? { boldEntries } : {}),
+  };
 }
