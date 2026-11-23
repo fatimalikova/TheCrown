@@ -235,19 +235,20 @@ export default function App() {
       // Ignore background sync failure
     });
 
-    if (difficultItems.length > 0) {
-      const excludeTerms = CLASSIC_FILM_EPISODES.map((ep) => ep.targetTerm).filter(
-        Boolean
-      );
-      fetch('/api/episodes/sync-difficult', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          items: difficultItems,
-          excludeTerms,
-        }),
-      }).catch(() => {});
-    }
+    const excludeTerms = CLASSIC_FILM_EPISODES.map((ep) => ep.targetTerm).filter(
+      Boolean
+    );
+    const idiomAndPhrasalItems = difficultItems.filter(
+      (i) => i.category === 'idiom' || i.category === 'phrasal'
+    );
+    fetch('/api/episodes/sync-difficult', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        items: idiomAndPhrasalItems,
+        excludeTerms,
+      }),
+    }).catch(() => {});
   }, [difficultItems]);
 
   const allWords = useMemo(
@@ -319,15 +320,8 @@ export default function App() {
     if (!alreadySaved) {
       const lowerTerm = item.term.trim().toLowerCase();
 
-      // Auto-route to matching main lexicon section (Words / Idioms / Phrasal Verbs)
-      if (item.category === 'word') {
-        const existsInWords = allWords.some(
-          (w) => w.id === item.id || w.term.toLowerCase() === lowerTerm
-        );
-        if (!existsInWords) {
-          setCustomWords((prev) => [toWordEntry(item), ...prev]);
-        }
-      } else if (item.category === 'idiom') {
+      // Words marked as difficult go strictly to Section 04 (Difficult Words), not Section 01.
+      if (item.category === 'idiom') {
         const existsInIdioms = allIdioms.some(
           (i) => i.id === item.id || i.term.toLowerCase() === lowerTerm
         );
@@ -343,27 +337,29 @@ export default function App() {
         }
       }
 
-      // Ensure every newly marked difficult word/idiom/phrasal has a cinema episode in Section 06
-      const inClassicClip = CLASSIC_FILM_EPISODES.some(
-        (ep) => ep.targetTerm?.toLowerCase() === lowerTerm
-      );
-      if (!inClassicClip) {
-        fetch('/api/episodes/from-lexicon', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            id: item.id,
-            term: item.term,
-            category: item.category,
-            badge: item.badge,
-            ipa: item.ipa,
-            azTranslation: item.azTranslation,
-            definition: item.definition,
-            exampleEn: item.exampleEn,
-            exampleAz: item.exampleAz,
-            etymology: item.etymologyNote,
-          }),
-        }).catch(() => {});
+      // Only auto-create cinema episodes in Section 06 for unknown Phrasal Verbs & Idioms
+      if (item.category === 'idiom' || item.category === 'phrasal') {
+        const inClassicClip = CLASSIC_FILM_EPISODES.some(
+          (ep) => ep.targetTerm?.toLowerCase() === lowerTerm
+        );
+        if (!inClassicClip) {
+          fetch('/api/episodes/from-lexicon', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              id: item.id,
+              term: item.term,
+              category: item.category,
+              badge: item.badge,
+              ipa: item.ipa,
+              azTranslation: item.azTranslation,
+              definition: item.definition,
+              exampleEn: item.exampleEn,
+              exampleAz: item.exampleAz,
+              etymology: item.etymologyNote,
+            }),
+          }).catch(() => {});
+        }
       }
     }
   };

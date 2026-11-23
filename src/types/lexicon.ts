@@ -152,6 +152,8 @@ export interface FilmEpisode {
   targetCategory?: LexiconCategory;
   durationSec: number;
   aspectRatio: VideoAspectRatio;
+  videoSource?: 'classic-mp4' | 'youtube-film' | 'studio-mp4';
+  embedUrl?: string;
   posterUrl?: string;
   videoUrl?: string;
   promptUsed?: string;

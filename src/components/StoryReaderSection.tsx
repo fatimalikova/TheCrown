@@ -927,24 +927,26 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                 <p className="text-[11px] text-secondary font-[var(--font-display)]">
                   Synced to{' '}
                   {(activeToken.category || 'word') === 'idiom'
-                    ? '02. Idioms'
+                    ? '02. Idioms, 04. Difficult Words & 06. Film Episodes'
                     : (activeToken.category || 'word') === 'phrasal'
-                      ? '03. Phrasal Verbs'
-                      : '01. Words'}
-                  , 04. Difficult Words &amp; 06. Film Episodes
+                      ? '03. Phrasal Verbs, 04. Difficult Words & 06. Film Episodes'
+                      : '01. Words & 04. Difficult Words'}
                 </p>
-                {onWatchVideoClip && (activeToken.term || activeToken.text) && (
-                  <button
-                    type="button"
-                    onClick={() =>
-                      onWatchVideoClip(activeToken.term || activeToken.text)
-                    }
-                    className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded bg-secondary-fixed hover:bg-secondary hover:text-on-secondary text-on-secondary-fixed text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold transition-colors cursor-pointer"
-                  >
-                    <Film className="w-3.5 h-3.5" />
-                    <span>Watch Video Clip in 06. Film Episodes</span>
-                  </button>
-                )}
+                {onWatchVideoClip &&
+                  (activeToken.category === 'idiom' ||
+                    activeToken.category === 'phrasal') &&
+                  (activeToken.term || activeToken.text) && (
+                    <button
+                      type="button"
+                      onClick={() =>
+                        onWatchVideoClip(activeToken.term || activeToken.text)
+                      }
+                      className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded bg-secondary-fixed hover:bg-secondary hover:text-on-secondary text-on-secondary-fixed text-xs font-[var(--font-display)] uppercase tracking-wider font-semibold transition-colors cursor-pointer"
+                    >
+                      <Film className="w-3.5 h-3.5" />
+                      <span>Watch 4s Film Clip in 06. Film Episodes</span>
+                    </button>
+                  )}
               </div>
             )}
           </div>

@@ -1,3 +1,14 @@
+export function stopSpeaking(): void {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    return;
+  }
+  try {
+    window.speechSynthesis.cancel();
+  } catch {
+    // Ignore speech synthesis cancellation errors
+  }
+}
+
 export function speakEnglish(text: string, onEnd?: () => void): boolean {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
     onEnd?.();

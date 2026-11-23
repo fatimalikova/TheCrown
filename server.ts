@@ -1,5 +1,6 @@
 import 'dotenv/config';
-import express, { Request, Response } from 'express';
+import express from 'express';
+import type { Request, Response } from 'express';
 import fs from 'node:fs';
 import fsp from 'node:fs/promises';
 import path from 'node:path';
@@ -48,6 +49,8 @@ interface StoredDb {
   wordCache?: Record<string, unknown>;
   documents?: SavedDocument[];
   customLexicon?: CustomLexiconStore;
+  deletedClassicEpisodeIds?: string[];
+  dismissedEpisodeTerms?: string[];
 }
 
 fs.mkdirSync(VIDEOS_DIR, { recursive: true });
@@ -61,6 +64,8 @@ if (!fs.existsSync(DB_FILE)) {
         wordCache: {},
         documents: [],
         customLexicon: { words: [], idioms: [], phrasals: [] },
+        deletedClassicEpisodeIds: [],
+        dismissedEpisodeTerms: [],
       },
       null,
       2
@@ -105,6 +110,12 @@ async function readDb(): Promise<StoredDb> {
         idioms: Array.isArray(cl?.idioms) ? cl.idioms : [],
         phrasals: Array.isArray(cl?.phrasals) ? cl.phrasals : [],
       },
+      deletedClassicEpisodeIds: Array.isArray(parsed.deletedClassicEpisodeIds)
+        ? parsed.deletedClassicEpisodeIds.filter((id): id is string => typeof id === 'string')
+        : [],
+      dismissedEpisodeTerms: Array.isArray(parsed.dismissedEpisodeTerms)
+        ? parsed.dismissedEpisodeTerms.filter((t): t is string => typeof t === 'string')
+        : [],
     };
   } catch {
     return {
@@ -113,6 +124,8 @@ async function readDb(): Promise<StoredDb> {
       wordCache: {},
       documents: [],
       customLexicon: { words: [], idioms: [], phrasals: [] },
+      deletedClassicEpisodeIds: [],
+      dismissedEpisodeTerms: [],
     };
   }
 }
@@ -417,8 +430,72 @@ async function createServer() {
   });
 
   app.get('/api/episodes', async (_req: Request, res: Response) => {
-    const db = await readDb();
-    res.json({ episodes: db.episodes });
+    const initialDb = await readDb();
+    const toRepair = initialDb.episodes.filter((ep) => {
+      const item = ep as Record<string, unknown>;
+      return (
+        item.sourceSection === 'reader' &&
+        !item.embedUrl &&
+        !(typeof item.videoUrl === 'string' && item.videoUrl.startsWith('/api/videos/file/'))
+      );
+    }) as Array<Record<string, unknown>>;
+
+    if (toRepair.length > 0) {
+      const updates = new Map<string, RealMovieClipResult>();
+      await Promise.all(
+        toRepair.slice(0, 8).map(async (item) => {
+          const term = String(item.targetTerm || '').trim();
+          const id = String(item.id || '');
+          if (!term || !id) return;
+          const clip = await searchRealMovieClip(term);
+          if (clip) updates.set(id, clip);
+        })
+      );
+
+      if (updates.size > 0) {
+        await withDbLock(async () => {
+          const db = await readDb();
+          db.episodes = db.episodes.map((ep) => {
+            const item = ep as Record<string, unknown>;
+            const clip = updates.get(String(item.id || ''));
+            if (!clip) return ep;
+            const catLabel =
+              item.targetCategory === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+            return {
+              ...item,
+              status: 'ready',
+              videoSource: 'youtube-film',
+              embedUrl: clip.embedUrl,
+              videoUrl: undefined,
+              sceneAudioMode: undefined,
+              filmTitle: clip.filmTitle,
+              releaseYear: clip.releaseYear,
+              durationSec: clip.durationSec,
+              sceneTag: `${catLabel} · Real Film`,
+              directorNote: `Real cinema scene featuring “${String(item.targetTerm || '')}” — ${clip.filmTitle}.`,
+              generationError: undefined,
+            };
+          });
+          await writeDb(db);
+        });
+      }
+    }
+
+    const finalDb = await readDb();
+    res.json({
+      episodes: finalDb.episodes,
+      deletedClassicIds: finalDb.deletedClassicEpisodeIds ?? [],
+      dismissedTerms: finalDb.dismissedEpisodeTerms ?? [],
+    });
+  });
+
+  app.post('/api/episodes/restore-classic', async (_req: Request, res: Response) => {
+    await withDbLock(async () => {
+      const db = await readDb();
+      db.deletedClassicEpisodeIds = [];
+      await writeDb(db);
+    });
+    res.json({ ok: true });
   });
 
   app.delete('/api/episodes/:id', async (req: Request, res: Response) => {
@@ -432,9 +509,17 @@ async function createServer() {
       const db = await readDb();
       const target = db.episodes.find(
         (ep) => (ep as { id?: string }).id === id
-      ) as { videoUrl?: string } | undefined;
+      ) as { videoUrl?: string; targetTerm?: string; sourceSection?: string } | undefined;
 
       if (!target) {
+        if (/^[a-zA-Z0-9_-]{3,80}$/.test(id)) {
+          const deletedSet = new Set(db.deletedClassicEpisodeIds ?? []);
+          deletedSet.add(id);
+          db.deletedClassicEpisodeIds = Array.from(deletedSet);
+          await writeDb(db);
+          res.json({ ok: true, deletedClassicId: id });
+          return;
+        }
         res.status(404).json({ error: 'Episode not found.' });
         return;
       }
@@ -447,6 +532,12 @@ async function createServer() {
             await fsp.unlink(resolved).catch(() => undefined);
           }
         }
+      }
+
+      if (target.targetTerm && target.sourceSection === 'reader') {
+        const dismissed = new Set(db.dismissedEpisodeTerms ?? []);
+        dismissed.add(target.targetTerm.trim().toLowerCase());
+        db.dismissedEpisodeTerms = Array.from(dismissed);
       }
 
       db.episodes = db.episodes.filter(
@@ -793,83 +884,181 @@ async function createServer() {
     return tokens;
   }
 
-  function scheduleEpisodeVideoRender(episodeId: string, prompt: string) {
-    enqueueVideoGeneration(async () => {
-      const ai = getGenAiClient();
-      if (!ai) {
-        await withDbLock(async () => {
-          const db = await readDb();
-          db.episodes = db.episodes.map((ep) => {
-            const item = ep as Record<string, unknown>;
-            if (item.id !== episodeId) return ep;
-            return {
-              ...item,
-              status: 'audio-only',
-              generationError: 'GEMINI_API_KEY is not configured for video generation.',
-            };
-          });
-          await writeDb(db);
-        });
-        return;
-      }
+  interface RealMovieClipResult {
+    videoId: string;
+    embedUrl: string;
+    filmTitle: string;
+    releaseYear: string;
+    durationSec: number;
+  }
 
+  function parseLengthTextToSeconds(lengthText: string): number {
+    const parts = lengthText
+      .split(':')
+      .map((n) => Number(n.trim()))
+      .filter((n) => Number.isFinite(n));
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    return 120;
+  }
+
+  async function searchRealMovieClip(term: string): Promise<RealMovieClipResult | null> {
+    const clean = term.trim();
+    if (!clean) return null;
+
+    const queries = [
+      `"${clean}" movie scene english`,
+      `"${clean}" film scene quote`,
+      `"${clean}" movie clip`,
+    ];
+
+    const seenIds = new Set<string>();
+    const candidates: Array<{
+      id: string;
+      title: string;
+      lengthText: string;
+      secs: number;
+      owner: string;
+      score: number;
+    }> = [];
+
+    for (const q of queries) {
       try {
-        const interaction = await ai.interactions.create(
+        const res = await fetch(
+          `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`,
           {
-            model: 'gemini-omni-1.2-flash',
-            input: prompt,
-            background: false,
-            store: false,
-            stream: false,
-            response_format: {
-              type: 'video',
-              aspect_ratio: '16:9',
-              duration: '10s',
-              resolution: '720p',
+            headers: {
+              'User-Agent':
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+              'Accept-Language': 'en-US,en;q=0.9',
             },
-          },
-          { timeout: 300000 }
+            signal: AbortSignal.timeout(4500),
+          }
         );
+        if (!res.ok) continue;
+        const html = await res.text();
+        const match = html.match(/var ytInitialData = (\{.+?\});<\/script>/);
+        if (!match) continue;
 
-        const { buffer } = await materializeVideoBuffer(interaction);
-        const filename = `${episodeId}.mp4`;
-        const targetPath = path.resolve(VIDEOS_DIR, filename);
-        if (!targetPath.startsWith(VIDEOS_DIR + path.sep)) {
-          throw new Error('Invalid video output path.');
+        const data = JSON.parse(match[1]) as {
+          contents?: {
+            twoColumnSearchResultsRenderer?: {
+              primaryContents?: {
+                sectionListRenderer?: {
+                  contents?: Array<{
+                    itemSectionRenderer?: {
+                      contents?: Array<{
+                        videoRenderer?: {
+                          videoId?: string;
+                          title?: { runs?: Array<{ text?: string }> };
+                          lengthText?: { simpleText?: string };
+                          ownerText?: { runs?: Array<{ text?: string }> };
+                          detailedMetadataSnippets?: Array<{
+                            snippetText?: { runs?: Array<{ text?: string }> };
+                          }>;
+                        };
+                      }>;
+                    };
+                  }>;
+                };
+              };
+            };
+          };
+        };
+
+        const contents =
+          data?.contents?.twoColumnSearchResultsRenderer?.primaryContents
+            ?.sectionListRenderer?.contents?.[0]?.itemSectionRenderer
+            ?.contents ?? [];
+
+        for (const entry of contents) {
+          const v = entry.videoRenderer;
+          if (!v?.videoId || seenIds.has(v.videoId)) continue;
+          seenIds.add(v.videoId);
+
+          const title = v.title?.runs?.map((r) => r.text ?? '').join('') ?? '';
+          const lengthText = v.lengthText?.simpleText ?? '';
+          const owner = v.ownerText?.runs?.map((r) => r.text ?? '').join('') ?? '';
+          const snippet =
+            v.detailedMetadataSnippets?.[0]?.snippetText?.runs
+              ?.map((r) => r.text ?? '')
+              .join('') ?? '';
+          if (!title || !lengthText) continue; // skip live streams
+
+          const secs = parseLengthTextToSeconds(lengthText);
+          const lowerClean = clean.toLowerCase();
+          const combined = `${title} ${owner} ${snippet}`.toLowerCase();
+          let score = 0;
+
+          if (secs <= 25) score += 45;
+          else if (secs <= 95) score += 32;
+          else if (secs <= 240) score += 16;
+          else if (secs > 480) score -= 45;
+
+          if (title.toLowerCase().includes(lowerClean)) score += 45;
+          else if (snippet.toLowerCase().includes(lowerClean)) score += 25;
+
+          if (
+            /(movieclips|joblo|rotten tomatoes|sony pictures|warner|universal|paramount|disney|learn english with clips|movie idioms|idiom scene|netflix|hbo|yarn|classic movie)/i.test(
+              `${owner} ${title}`
+            )
+          ) {
+            score += 30;
+          } else if (/(movie|film|scene|clip|quote|cinema)/i.test(combined)) {
+            score += 12;
+          }
+
+          if (
+            /(tamil|hindi|telugu|malayalam|kannada|bhojpuri|bollywood|tollywood|kollywood|dubbed|whatsapp|status|lyrics|official audio|music video|karaoke|guitar|piano|cover|remix|podcast|ai generated|full movie|teaser|trailer)/i.test(
+              combined
+            )
+          ) {
+            score -= 80;
+          }
+
+          candidates.push({
+            id: v.videoId,
+            title,
+            lengthText,
+            secs,
+            owner,
+            score,
+          });
         }
-        await fsp.writeFile(targetPath, buffer);
 
-        await withDbLock(async () => {
-          const db = await readDb();
-          db.episodes = db.episodes.map((ep) => {
-            const item = ep as Record<string, unknown>;
-            if (item.id !== episodeId) return ep;
-            return {
-              ...item,
-              status: 'ready',
-              videoUrl: `/api/videos/file/${filename}`,
-              generationError: undefined,
-            };
-          });
-          await writeDb(db);
-        });
-      } catch (err) {
-        const formatted = formatApiError(err);
-        await withDbLock(async () => {
-          const db = await readDb();
-          db.episodes = db.episodes.map((ep) => {
-            const item = ep as Record<string, unknown>;
-            if (item.id !== episodeId) return ep;
-            return {
-              ...item,
-              status: 'audio-only',
-              generationError: formatted.message,
-            };
-          });
-          await writeDb(db);
-        });
+        if (candidates.some((c) => c.score >= 85)) break;
+      } catch {
+        // Try next query
       }
-    });
+    }
+
+    candidates.sort((a, b) => b.score - a.score);
+
+    for (const cand of candidates.slice(0, 6)) {
+      try {
+        const oe = await fetch(
+          `https://www.youtube.com/oembed?url=${encodeURIComponent(
+            `https://www.youtube.com/watch?v=${cand.id}`
+          )}&format=json`,
+          { signal: AbortSignal.timeout(3500) }
+        );
+        if (!oe.ok) continue;
+        const oj = (await oe.json()) as { title?: string; author_name?: string };
+        const clipTitle = (oj.title || cand.title).slice(0, 100);
+        const author = (oj.author_name || cand.owner || 'Cinema Archive').slice(0, 60);
+        return {
+          videoId: cand.id,
+          embedUrl: `https://www.youtube.com/embed/${cand.id}?rel=0&playsinline=1&enablejsapi=1`,
+          filmTitle: clipTitle,
+          releaseYear: `${author} · Real Film Clip (${cand.lengthText})`,
+          durationSec: Math.max(3, Math.min(300, cand.secs)),
+        };
+      } catch {
+        // Check next candidate
+      }
+    }
+
+    return null;
   }
 
   app.post('/api/episodes/from-lexicon', async (req: Request, res: Response) => {
@@ -891,6 +1080,14 @@ async function createServer() {
       return;
     }
 
+    if (category !== 'idiom' && category !== 'phrasal') {
+      res.json({
+        skipped: true,
+        reason: 'Only idioms and phrasal verbs are added to Film Episodes.',
+      });
+      return;
+    }
+
     const lowerTerm = term.toLowerCase();
     const existingDb = await readDb();
     const already = existingDb.episodes.find((ep) => {
@@ -902,91 +1099,44 @@ async function createServer() {
       return;
     }
 
-    const ai = getGenAiClient();
-    let filmTitle = 'The Literary Archive';
-    let episodeTitle = `Scene · ${term}`;
-    let speaker = 'NARRATOR';
-    let spokenLine =
-      exampleEn && exampleEn.toLowerCase().includes(lowerTerm)
-        ? exampleEn
-        : `In quiet moments, one comes to appreciate what "${term}" truly means.`;
-    let azSubtitle = exampleAz || azTranslation || term;
-    let videoPrompt = `35mm classic cinema scene in a warm candlelit British library, two thoughtful characters speaking the line "${spokenLine}", film grain, dramatic natural lighting`;
-
-    if (ai) {
-      try {
-        const parsed = await generateJsonWithFallback<{
-          filmTitle?: string;
-          episodeTitle?: string;
-          speaker?: string;
-          spokenLine?: string;
-          azSubtitle?: string;
-          videoPrompt?: string;
-        }>(ai, {
-          contents: `Create a short 1-line classic cinema scene where an actor naturally speaks the English expression "${term}" (${category}). Azerbaijani meaning: "${azTranslation}". Context sentence: "${exampleEn}".`,
-          systemInstruction:
-            'You write concise, natural film dialogue scenes for an English-Azerbaijani learning app. The spokenLine MUST contain the exact target expression naturally inside a 8-18 word movie line, and azSubtitle must translate spokenLine accurately into Azerbaijani.',
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              filmTitle: { type: Type.STRING },
-              episodeTitle: { type: Type.STRING },
-              speaker: { type: Type.STRING },
-              spokenLine: { type: Type.STRING },
-              azSubtitle: { type: Type.STRING },
-              videoPrompt: { type: Type.STRING },
-            },
-            required: [
-              'filmTitle',
-              'episodeTitle',
-              'speaker',
-              'spokenLine',
-              'azSubtitle',
-              'videoPrompt',
-            ],
-          },
-          timeoutMs: 6500,
-        });
-        if (parsed.filmTitle) filmTitle = parsed.filmTitle.slice(0, 90);
-        if (parsed.episodeTitle) episodeTitle = parsed.episodeTitle.slice(0, 90);
-        if (parsed.speaker) speaker = parsed.speaker.slice(0, 50).toUpperCase();
-        if (parsed.spokenLine) spokenLine = parsed.spokenLine.slice(0, 260);
-        if (parsed.azSubtitle) azSubtitle = parsed.azSubtitle.slice(0, 320);
-        if (parsed.videoPrompt) videoPrompt = parsed.videoPrompt.slice(0, 800);
-      } catch {
-        // Fallback smoothly to provided example sentence
-      }
+    const realClip = await searchRealMovieClip(term);
+    if (!realClip) {
+      res.status(502).json({
+        error: `Could not locate an embeddable real film clip for "${term}" right now. Try again shortly.`,
+      });
+      return;
     }
 
     const id = `ep-lex-${crypto.randomUUID()}`;
-    const catLabel =
-      category === 'phrasal'
-        ? 'Phrasal Verb'
-        : category === 'idiom'
-          ? 'Idiom'
-          : 'Word';
+    const catLabel = category === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+    const spokenLine =
+      exampleEn && exampleEn.toLowerCase().includes(lowerTerm)
+        ? exampleEn
+        : `Actors demonstrate “${term}” in this real film clip.`;
+    const azSubtitle = exampleAz || azTranslation || term;
 
     const episode = {
       id,
       kind: 'generated' as const,
       sourceSection: 'reader' as const,
-      status: ai ? ('generating' as const) : ('audio-only' as const),
-      filmTitle,
-      releaseYear: 'Marked Vocabulary · 16:9',
-      directorNote: `Cinema dialogue clip featuring “${term}” from your difficult words.`,
-      episodeTitle,
-      sceneTag: `${catLabel} · Marked Clip`,
+      status: 'ready' as const,
+      videoSource: 'youtube-film' as const,
+      embedUrl: realClip.embedUrl,
+      filmTitle: realClip.filmTitle,
+      releaseYear: realClip.releaseYear,
+      directorNote: `Real cinema scene featuring the ${catLabel.toLowerCase()} “${term}”.`,
+      episodeTitle: `Scene · ${term}`,
+      sceneTag: `${catLabel} · Real Film`,
       targetTerm: term,
       targetCategory: category,
-      durationSec: 5,
+      durationSec: realClip.durationSec,
       aspectRatio: '16:9' as const,
-      promptUsed: videoPrompt,
       cues: [
         {
           id: `${id}-cue-1`,
           startSec: 0,
-          endSec: 5,
-          speaker,
+          endSec: realClip.durationSec,
+          speaker: 'FILM SCENE',
           tokens: splitDialogueAroundTerm(spokenLine, term, {
             lexiconId,
             term,
@@ -994,7 +1144,7 @@ async function createServer() {
             category,
             ipa,
             azTranslation: azTranslation || azSubtitle,
-            definition: definition || `Featured expression: ${term}`,
+            definition: definition || `Featured ${catLabel.toLowerCase()}: ${term}`,
             exampleEn: spokenLine,
             exampleAz: azSubtitle,
             etymology,
@@ -1007,15 +1157,66 @@ async function createServer() {
 
     await withDbLock(async () => {
       const db = await readDb();
+      db.dismissedEpisodeTerms = (db.dismissedEpisodeTerms ?? []).filter(
+        (t) => t !== lowerTerm
+      );
       db.episodes = [episode, ...db.episodes];
       await writeDb(db);
     });
 
-    if (ai) {
-      scheduleEpisodeVideoRender(id, videoPrompt);
+    res.status(201).json({ episode });
+  });
+
+  app.post('/api/episodes/:id/resolve-real-clip', async (req: Request, res: Response) => {
+    const id = String(req.params.id || '').trim();
+    if (!id) {
+      res.status(400).json({ error: 'Episode ID is required.' });
+      return;
     }
 
-    res.status(201).json({ episode });
+    const db = await readDb();
+    const target = db.episodes.find(
+      (ep) => (ep as { id?: string }).id === id
+    ) as Record<string, unknown> | undefined;
+    if (!target) {
+      res.status(404).json({ error: 'Episode not found.' });
+      return;
+    }
+
+    const term = String(target.targetTerm || target.episodeTitle || '').trim();
+    const clip = await searchRealMovieClip(term);
+    if (!clip) {
+      res.status(502).json({ error: `No embeddable movie clip found for "${term}".` });
+      return;
+    }
+
+    let updatedEpisode: unknown = null;
+    await withDbLock(async () => {
+      const currentDb = await readDb();
+      currentDb.episodes = currentDb.episodes.map((ep) => {
+        const item = ep as Record<string, unknown>;
+        if (item.id !== id) return ep;
+        const catLabel =
+          item.targetCategory === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+        updatedEpisode = {
+          ...item,
+          status: 'ready',
+          videoSource: 'youtube-film',
+          embedUrl: clip.embedUrl,
+          videoUrl: undefined,
+          sceneAudioMode: undefined,
+          filmTitle: clip.filmTitle,
+          releaseYear: clip.releaseYear,
+          durationSec: clip.durationSec,
+          sceneTag: `${catLabel} · Real Film`,
+          generationError: undefined,
+        };
+        return updatedEpisode;
+      });
+      await writeDb(currentDb);
+    });
+
+    res.json({ episode: updatedEpisode });
   });
 
   app.post('/api/episodes/sync-difficult', async (req: Request, res: Response) => {
@@ -1026,52 +1227,111 @@ async function createServer() {
         .filter(Boolean)
     );
 
-    const createdEpisodes: unknown[] = [];
+    const snapshotDb = await readDb();
+    const dismissedTerms = new Set(snapshotDb.dismissedEpisodeTerms ?? []);
+    const existingTerms = new Set(
+      snapshotDb.episodes
+        .filter((ep) => {
+          const item = ep as { sourceSection?: string; targetCategory?: string };
+          return !(item.sourceSection === 'reader' && item.targetCategory === 'word');
+        })
+        .map((ep) =>
+          String((ep as { targetTerm?: string }).targetTerm || '').trim().toLowerCase()
+        )
+        .filter(Boolean)
+    );
+
+    const pendingItems: Array<{
+      id: string;
+      term: string;
+      category: 'idiom' | 'phrasal';
+      badge?: string;
+      ipa?: string;
+      azTranslation?: string;
+      definition?: string;
+      exampleEn?: string;
+      exampleAz?: string;
+      etymologyNote?: string;
+    }> = [];
+
+    for (const raw of rawItems.slice(0, 20)) {
+      const item = raw as {
+        id?: string;
+        term?: string;
+        category?: string;
+        badge?: string;
+        ipa?: string;
+        azTranslation?: string;
+        definition?: string;
+        exampleEn?: string;
+        exampleAz?: string;
+        etymologyNote?: string;
+      };
+      if (item.category !== 'idiom' && item.category !== 'phrasal') continue;
+      const term = String(item.term ?? '').trim().slice(0, 100);
+      if (!term) continue;
+      const lower = term.toLowerCase();
+      if (existingTerms.has(lower) || excludeTerms.has(lower) || dismissedTerms.has(lower)) {
+        continue;
+      }
+      existingTerms.add(lower);
+      pendingItems.push({
+        id: String(item.id || `lex-${crypto.randomUUID()}`),
+        term,
+        category: item.category,
+        badge: item.badge,
+        ipa: item.ipa,
+        azTranslation: item.azTranslation,
+        definition: item.definition,
+        exampleEn: item.exampleEn,
+        exampleAz: item.exampleAz,
+        etymologyNote: item.etymologyNote,
+      });
+    }
+
+    const resolvedNew = await Promise.all(
+      pendingItems.slice(0, 8).map(async (item) => {
+        const clip = await searchRealMovieClip(item.term);
+        return { item, clip };
+      })
+    );
+
+    const createdEpisodes: Array<{ id: string }> = [];
+    let purgedWords = false;
 
     await withDbLock(async () => {
       const db = await readDb();
-      const existingTerms = new Set(
+
+      const keptEpisodes = db.episodes.filter((ep) => {
+        const item = ep as { sourceSection?: string; targetCategory?: string };
+        const isAutoWord =
+          item.sourceSection === 'reader' && item.targetCategory === 'word';
+        if (isAutoWord) purgedWords = true;
+        return !isAutoWord;
+      });
+      db.episodes = keptEpisodes;
+
+      const currentExisting = new Set(
         db.episodes
-          .map((ep) => String((ep as { targetTerm?: string }).targetTerm || '').trim().toLowerCase())
+          .map((ep) =>
+            String((ep as { targetTerm?: string }).targetTerm || '').trim().toLowerCase()
+          )
           .filter(Boolean)
       );
 
-      for (const raw of rawItems.slice(0, 40)) {
-        const item = raw as {
-          id?: string;
-          term?: string;
-          category?: string;
-          badge?: string;
-          ipa?: string;
-          azTranslation?: string;
-          definition?: string;
-          exampleEn?: string;
-          exampleAz?: string;
-          etymologyNote?: string;
-        };
-        const term = String(item?.term ?? '').trim().slice(0, 100);
-        if (!term) continue;
-        const lower = term.toLowerCase();
-        if (existingTerms.has(lower) || excludeTerms.has(lower)) continue;
+      for (const { item, clip } of resolvedNew) {
+        if (!clip) continue;
+        const lower = item.term.toLowerCase();
+        if (currentExisting.has(lower)) continue;
+        currentExisting.add(lower);
 
-        existingTerms.add(lower);
-        const category: 'word' | 'idiom' | 'phrasal' =
-          item.category === 'idiom' || item.category === 'phrasal'
-            ? item.category
-            : 'word';
-        const catLabel =
-          category === 'phrasal'
-            ? 'Phrasal Verb'
-            : category === 'idiom'
-              ? 'Idiom'
-              : 'Word';
-        const lexiconId = String(item.id || `lex-${crypto.randomUUID()}`);
-        const azTranslation = String(item.azTranslation || term).trim().slice(0, 300);
+        const catLabel = item.category === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+        const azTranslation = String(item.azTranslation || item.term).trim().slice(0, 300);
         const rawExample = String(item.exampleEn || '').trim().slice(0, 260);
         const spokenLine =
           rawExample && rawExample.toLowerCase().includes(lower)
             ? rawExample
-            : `In tonight’s scene, the true weight of “${term}” becomes unmistakably clear.`;
+            : `Actors use “${item.term}” in this real film clip.`;
         const azSubtitle =
           String(item.exampleAz || '').trim().slice(0, 320) || azTranslation;
         const id = `ep-lex-${crypto.randomUUID()}`;
@@ -1080,31 +1340,32 @@ async function createServer() {
           id,
           kind: 'generated' as const,
           sourceSection: 'reader' as const,
-          status: 'audio-only' as const,
-          filmTitle: 'The Crown Cinema Archive',
-          releaseYear: 'Marked Vocabulary · 16:9',
-          directorNote: `Cinema dialogue study featuring “${term}” (${azTranslation}).`,
-          episodeTitle: `Scene · ${term}`,
-          sceneTag: `${catLabel} · Marked Clip`,
-          targetTerm: term,
-          targetCategory: category,
-          durationSec: 5,
+          status: 'ready' as const,
+          videoSource: 'youtube-film' as const,
+          embedUrl: clip.embedUrl,
+          filmTitle: clip.filmTitle,
+          releaseYear: clip.releaseYear,
+          directorNote: `Real cinema scene featuring the ${catLabel.toLowerCase()} “${item.term}” (${azTranslation}).`,
+          episodeTitle: `Scene · ${item.term}`,
+          sceneTag: `${catLabel} · Real Film`,
+          targetTerm: item.term,
+          targetCategory: item.category,
+          durationSec: clip.durationSec,
           aspectRatio: '16:9' as const,
-          promptUsed: `35mm classic cinema scene in a warm candlelit British library, character speaking the line "${spokenLine}", film grain`,
           cues: [
             {
               id: `${id}-cue-1`,
               startSec: 0,
-              endSec: 5,
-              speaker: 'SCHOLAR',
-              tokens: splitDialogueAroundTerm(spokenLine, term, {
-                lexiconId,
-                term,
+              endSec: clip.durationSec,
+              speaker: 'FILM SCENE',
+              tokens: splitDialogueAroundTerm(spokenLine, item.term, {
+                lexiconId: item.id,
+                term: item.term,
                 badge: String(item.badge || catLabel),
-                category,
+                category: item.category,
                 ipa: String(item.ipa || '/—/'),
                 azTranslation,
-                definition: String(item.definition || `Marked expression: ${term}`),
+                definition: String(item.definition || `Marked ${catLabel.toLowerCase()}: ${item.term}`),
                 exampleEn: spokenLine,
                 exampleAz: azSubtitle,
                 etymology: item.etymologyNote,
@@ -1116,15 +1377,15 @@ async function createServer() {
         };
 
         db.episodes = [ep, ...db.episodes];
-        createdEpisodes.push(ep);
+        createdEpisodes.push({ id });
       }
 
-      if (createdEpisodes.length > 0) {
+      if (createdEpisodes.length > 0 || purgedWords) {
         await writeDb(db);
       }
     });
 
-    res.json({ created: createdEpisodes });
+    res.json({ created: createdEpisodes, purgedWords });
   });
 
   app.post('/api/episodes/:id/retry-video', async (req: Request, res: Response) => {
@@ -1134,45 +1395,52 @@ async function createServer() {
       return;
     }
 
-    const ai = getGenAiClient();
-    if (!ai) {
-      res.status(503).json({
-        error:
-          'GEMINI_API_KEY is not configured in the server environment to render cinema clips.',
-      });
-      return;
-    }
+    const db = await readDb();
+    const target = db.episodes.find(
+      (ep) => (ep as { id?: string }).id === id
+    ) as Record<string, unknown> | undefined;
 
-    let promptToUse = '';
-    let found = false;
-
-    await withDbLock(async () => {
-      const db = await readDb();
-      db.episodes = db.episodes.map((ep) => {
-        const item = ep as Record<string, unknown>;
-        if (item.id !== id) return ep;
-        found = true;
-        promptToUse =
-          String(item.promptUsed || item.directorNote || '') ||
-          `35mm cinema scene featuring the English expression "${String(item.targetTerm || 'eloquence')}"`;
-        return {
-          ...item,
-          status: 'generating',
-          generationError: undefined,
-        };
-      });
-      if (found) {
-        await writeDb(db);
-      }
-    });
-
-    if (!found) {
+    if (!target) {
       res.status(404).json({ error: 'Episode not found.' });
       return;
     }
 
-    scheduleEpisodeVideoRender(id, promptToUse);
-    res.json({ ok: true, status: 'generating' });
+    const term = String(target.targetTerm || target.episodeTitle || '').trim();
+    const clip = await searchRealMovieClip(term);
+    if (!clip) {
+      res.status(502).json({
+        error: `No embeddable real movie clip found for "${term}".`,
+      });
+      return;
+    }
+
+    let updatedEpisode: unknown = null;
+    await withDbLock(async () => {
+      const currentDb = await readDb();
+      currentDb.episodes = currentDb.episodes.map((ep) => {
+        const item = ep as Record<string, unknown>;
+        if (item.id !== id) return ep;
+        const catLabel =
+          item.targetCategory === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+        updatedEpisode = {
+          ...item,
+          status: 'ready',
+          videoSource: 'youtube-film',
+          embedUrl: clip.embedUrl,
+          videoUrl: undefined,
+          sceneAudioMode: undefined,
+          filmTitle: clip.filmTitle,
+          releaseYear: clip.releaseYear,
+          durationSec: clip.durationSec,
+          sceneTag: `${catLabel} · Real Film`,
+          generationError: undefined,
+        };
+        return updatedEpisode;
+      });
+      await writeDb(currentDb);
+    });
+
+    res.json({ ok: true, episode: updatedEpisode });
   });
 
   async function streamMp4File(

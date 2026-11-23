@@ -6,8 +6,6 @@ import {
   Languages,
   Loader2,
   Network,
-  Pause,
-  Play,
   Repeat,
   RotateCcw,
   Search,
@@ -25,7 +23,7 @@ import {
   VideoAspectRatio,
   WordEntry,
 } from '../types/lexicon';
-import { speakEnglish } from '../utils/speech';
+import { speakEnglish, stopSpeaking } from '../utils/speech';
 
 interface FilmEpisodesSectionProps {
   classicEpisodes: FilmEpisode[];
@@ -48,6 +46,8 @@ type EpisodeFilter =
   | 'generated';
 type StudioTab = 'text-to-video' | 'image-to-video';
 
+const DELETED_CLASSIC_STORAGE_KEY = 'crown_deleted_classic_episodes_v1';
+
 export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   classicEpisodes,
   allWords,
@@ -60,20 +60,34 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   onClearFocusTerm,
 }) => {
   const [generatedEpisodes, setGeneratedEpisodes] = useState<FilmEpisode[]>([]);
+  const [deletedClassicIds, setDeletedClassicIds] = useState<string[]>(() => {
+    try {
+      const raw = localStorage.getItem(DELETED_CLASSIC_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) return parsed;
+      }
+    } catch {
+      // Ignore storage error
+    }
+    return [];
+  });
   const [filter, setFilter] = useState<EpisodeFilter>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedId, setSelectedId] = useState<string>(
     classicEpisodes[0]?.id ?? ''
   );
 
-  // Real <video> & Interactive Cinema Stage player state
+  // Real <video> & YouTube real cinema embed player state
   const [loopClip, setLoopClip] = useState(false);
   const [showAzSubtitles, setShowAzSubtitles] = useState(true);
   const [speakingTerm, setSpeakingTerm] = useState<string | null>(null);
   const [customAzNote, setCustomAzNote] = useState('');
-  const [stagePlaying, setStagePlaying] = useState(false);
-  const [stageElapsedSec, setStageElapsedSec] = useState(0);
+  const [resolvingClipId, setResolvingClipId] = useState<string | null>(null);
+  const [resolveClipError, setResolveClipError] = useState<string | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const videoStageRef = useRef<HTMLDivElement>(null);
 
   // Cinema Scene Studio state
   const [studioTab, setStudioTab] = useState<StudioTab>('text-to-video');
@@ -100,22 +114,40 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   const [studioSuccess, setStudioSuccess] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  const fetchEpisodesFromServer = () => {
+    return fetch('/api/episodes')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!data) return;
+        if (Array.isArray(data.episodes)) {
+          setGeneratedEpisodes(data.episodes as FilmEpisode[]);
+        }
+        if (Array.isArray(data.deletedClassicIds)) {
+          const serverDeleted = data.deletedClassicIds as string[];
+          setDeletedClassicIds(serverDeleted);
+          try {
+            localStorage.setItem(
+              DELETED_CLASSIC_STORAGE_KEY,
+              JSON.stringify(serverDeleted)
+            );
+          } catch {
+            // Ignore storage errors
+          }
+        }
+      })
+      .catch(() => {
+        // Ignore silent fetch issue
+      });
+  };
+
   useEffect(() => {
     let active = true;
-    const loadEpisodes = () => {
-      fetch('/api/episodes')
-        .then((res) => (res.ok ? res.json() : null))
-        .then((data) => {
-          if (active && data && Array.isArray(data.episodes)) {
-            setGeneratedEpisodes(data.episodes as FilmEpisode[]);
-          }
-        })
-        .catch(() => {
-          // Ignore silent fetch issue
-        });
+    const load = () => {
+      if (!active) return;
+      void fetchEpisodesFromServer();
     };
-    loadEpisodes();
-    const timer = window.setTimeout(loadEpisodes, 900);
+    load();
+    const timer = window.setTimeout(load, 900);
     return () => {
       active = false;
       window.clearTimeout(timer);
@@ -130,26 +162,25 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   useEffect(() => {
     if (!hasGeneratingEpisodes) return;
     const timer = window.setInterval(() => {
-      fetch('/api/episodes')
-        .then((res) => (res.ok ? res.json() : null))
-        .then((data) => {
-          if (data && Array.isArray(data.episodes)) {
-            setGeneratedEpisodes(data.episodes as FilmEpisode[]);
-          }
-        })
-        .catch(() => {});
+      void fetchEpisodesFromServer();
     }, 4000);
     return () => window.clearInterval(timer);
   }, [hasGeneratingEpisodes]);
 
+  const visibleClassicEpisodes = useMemo(() => {
+    const deletedSet = new Set(deletedClassicIds);
+    return classicEpisodes.filter((ep) => !deletedSet.has(ep.id));
+  }, [classicEpisodes, deletedClassicIds]);
+
   const allEpisodes = useMemo(
-    () => [...generatedEpisodes, ...classicEpisodes],
-    [generatedEpisodes, classicEpisodes]
+    () => [...generatedEpisodes, ...visibleClassicEpisodes],
+    [generatedEpisodes, visibleClassicEpisodes]
   );
 
   const matchedTermsByEpisodeId = useMemo(() => {
     const map = new Map<string, string[]>();
     const markedLower = difficultItems
+      .filter((d) => d.category === 'idiom' || d.category === 'phrasal')
       .map((d) => ({ id: d.id, term: d.term.trim(), lower: d.term.trim().toLowerCase() }))
       .filter((d) => d.lower.length > 0);
 
@@ -262,6 +293,50 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     );
   });
 
+  const sendYouTubeCommand = (func: string, args: unknown[] = []) => {
+    const win = iframeRef.current?.contentWindow;
+    if (!win) return;
+    try {
+      win.postMessage(
+        JSON.stringify({ event: 'command', func, args }),
+        '*'
+      );
+    } catch {
+      // Ignore postMessage failure
+    }
+  };
+
+  const focusAndPlayEpisode = (
+    ep: FilmEpisode | undefined,
+    options?: { seekSec?: number; cueIndex?: number }
+  ) => {
+    if (!ep) return;
+    stopSpeaking();
+    const switching = currentEpisode?.id !== ep.id;
+    if (switching) {
+      setSelectedId(ep.id);
+    }
+
+    window.setTimeout(() => {
+      videoStageRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
+      if (ep.embedUrl) {
+        if (typeof options?.seekSec === 'number') {
+          sendYouTubeCommand('seekTo', [options.seekSec, true]);
+        }
+        sendYouTubeCommand('playVideo');
+      } else if (ep.videoUrl) {
+        const vid = videoRef.current;
+        if (vid) {
+          vid.currentTime = options?.seekSec ?? 0;
+          vid.play().catch(() => {});
+        }
+      }
+    }, switching ? 200 : 40);
+  };
+
   useEffect(() => {
     if (!focusTerm) return;
     const lower = focusTerm.trim().toLowerCase();
@@ -275,14 +350,19 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     if (matched) {
       setFilter('all');
       setSearchQuery('');
-      setSelectedId(matched.id);
+      focusAndPlayEpisode(matched);
       onClearFocusTerm?.();
+    } else {
+      const retry = window.setTimeout(() => {
+        void fetchEpisodesFromServer();
+      }, 400);
+      return () => window.clearTimeout(retry);
     }
   }, [focusTerm, allEpisodes, onClearFocusTerm]);
 
   useEffect(() => {
-    setStagePlaying(false);
-    setStageElapsedSec(0);
+    stopSpeaking();
+    setResolveClipError(null);
     if (!currentEpisode) return;
     const firstAnnotated = currentEpisode.cues
       .flatMap((c) => c.tokens)
@@ -292,52 +372,24 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     }
   }, [currentEpisode?.id]);
 
-  const stageDurationSec = Math.max(4, Math.min(8, currentEpisode?.durationSec || 5));
-
   useEffect(() => {
-    if (!stagePlaying || !currentEpisode || currentEpisode.videoUrl) return;
-    const startedAt = Date.now() - stageElapsedSec * 1000;
-    const interval = window.setInterval(() => {
-      const next = (Date.now() - startedAt) / 1000;
-      if (next >= stageDurationSec) {
-        if (loopClip) {
-          const line = currentEpisode.cues[0]?.tokens.map((t) => t.text).join('') ?? '';
-          if (line) speakEnglish(line);
-          setStageElapsedSec(0);
-        } else {
-          setStageElapsedSec(stageDurationSec);
-          setStagePlaying(false);
-        }
-      } else {
-        setStageElapsedSec(next);
-      }
-    }, 80);
-    return () => window.clearInterval(interval);
-  }, [stagePlaying, currentEpisode?.id, currentEpisode?.videoUrl, stageDurationSec, loopClip]);
-
-  const startStageClip = (restart = false) => {
-    if (!currentEpisode) return;
-    if (restart || stageElapsedSec >= stageDurationSec) {
-      setStageElapsedSec(0);
-    }
-    setStagePlaying(true);
-    const line =
-      currentEpisode.cues[0]?.tokens.map((t) => t.text).join('') ||
-      currentEpisode.targetTerm ||
-      '';
-    if (line) {
-      speakEnglish(line);
-    }
-  };
+    return () => {
+      stopSpeaking();
+    };
+  }, []);
 
   const handleReplayClip = () => {
+    stopSpeaking();
+    if (currentEpisode?.embedUrl) {
+      sendYouTubeCommand('seekTo', [0, true]);
+      sendYouTubeCommand('playVideo');
+      return;
+    }
     if (currentEpisode?.videoUrl) {
       const vid = videoRef.current;
       if (!vid) return;
       vid.currentTime = 0;
       vid.play().catch(() => {});
-    } else {
-      startStageClip(true);
     }
   };
 
@@ -381,6 +433,10 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         exampleAz: idiomMatch.exampleAz,
         etymology: idiomMatch.loreText,
       });
+      const epMatch = allEpisodes.find(
+        (ep) => ep.targetTerm?.toLowerCase() === idiomMatch.term.toLowerCase()
+      );
+      focusAndPlayEpisode(epMatch ?? currentEpisode);
       return;
     }
 
@@ -401,6 +457,10 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         exampleAz: pvMatch.exampleAz,
         etymology: pvMatch.syntaxNote,
       });
+      const epMatch = allEpisodes.find(
+        (ep) => ep.targetTerm?.toLowerCase() === pvMatch.term.toLowerCase()
+      );
+      focusAndPlayEpisode(epMatch ?? currentEpisode);
       return;
     }
 
@@ -543,7 +603,29 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     }
   };
 
-  const handleDeleteGeneratedEpisode = async (id: string) => {
+  const handleDeleteEpisode = async (id: string, kind: FilmEpisode['kind']) => {
+    stopSpeaking();
+    if (kind === 'classic') {
+      const updatedDeleted = Array.from(new Set([...deletedClassicIds, id]));
+      setDeletedClassicIds(updatedDeleted);
+      try {
+        localStorage.setItem(
+          DELETED_CLASSIC_STORAGE_KEY,
+          JSON.stringify(updatedDeleted)
+        );
+      } catch {
+        // Ignore storage error
+      }
+      if (selectedId === id) {
+        const nextEp = allEpisodes.find((ep) => ep.id !== id);
+        setSelectedId(nextEp?.id ?? '');
+      }
+      fetch(`/api/episodes/${encodeURIComponent(id)}`, {
+        method: 'DELETE',
+      }).catch(() => {});
+      return;
+    }
+
     try {
       const res = await fetch(`/api/episodes/${encodeURIComponent(id)}`, {
         method: 'DELETE',
@@ -551,7 +633,8 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
       if (res.ok) {
         setGeneratedEpisodes((prev) => prev.filter((ep) => ep.id !== id));
         if (selectedId === id) {
-          setSelectedId(classicEpisodes[0]?.id ?? '');
+          const nextEp = allEpisodes.find((ep) => ep.id !== id);
+          setSelectedId(nextEp?.id ?? '');
         }
       }
     } catch {
@@ -559,22 +642,45 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     }
   };
 
-  const handleRetryEpisodeVideo = async (id: string) => {
+  const handleRestoreClassicEpisodes = async () => {
+    setDeletedClassicIds([]);
     try {
-      const res = await fetch(`/api/episodes/${encodeURIComponent(id)}/retry-video`, {
-        method: 'POST',
-      });
-      if (res.ok) {
+      localStorage.removeItem(DELETED_CLASSIC_STORAGE_KEY);
+    } catch {
+      // Ignore storage error
+    }
+    try {
+      await fetch('/api/episodes/restore-classic', { method: 'POST' });
+    } catch {
+      // Ignore silent network error
+    }
+  };
+
+  const handleResolveRealClip = async (id: string) => {
+    setResolvingClipId(id);
+    setResolveClipError(null);
+    try {
+      const res = await fetch(
+        `/api/episodes/${encodeURIComponent(id)}/resolve-real-clip`,
+        { method: 'POST' }
+      );
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setResolveClipError(
+          data?.error || 'Could not locate a real movie clip right now.'
+        );
+        return;
+      }
+      if (data?.episode) {
+        const updated = data.episode as FilmEpisode;
         setGeneratedEpisodes((prev) =>
-          prev.map((ep) =>
-            ep.id === id
-              ? { ...ep, status: 'generating', generationError: undefined }
-              : ep
-          )
+          prev.map((ep) => (ep.id === id ? updated : ep))
         );
       }
     } catch {
-      // Ignore silent network error
+      setResolveClipError('Network error while searching for real film clips.');
+    } finally {
+      setResolvingClipId(null);
     }
   };
 
@@ -622,7 +728,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                   ? [
                       {
                         key: 'marked' as const,
-                        label: `From Your Words (${markedCount})`,
+                        label: `Marked Idioms & Phrasals (${markedCount})`,
                       },
                     ]
                   : []),
@@ -654,22 +760,34 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
             ))}
           </div>
 
-          <div className="relative w-full sm:w-64">
-            <Search className="w-3.5 h-3.5 text-on-surface-variant absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search film, idiom, or phrasal verb..."
-              className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-surface-container-lowest border border-outline-variant/50 text-xs text-primary focus:outline-none focus:border-secondary"
-            />
+          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+            <div className="relative flex-1 sm:w-64">
+              <Search className="w-3.5 h-3.5 text-on-surface-variant absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search film, idiom, or phrasal verb..."
+                className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-surface-container-lowest border border-outline-variant/50 text-xs text-primary focus:outline-none focus:border-secondary"
+              />
+            </div>
+
+            {deletedClassicIds.length > 0 && (
+              <button
+                type="button"
+                onClick={handleRestoreClassicEpisodes}
+                className="px-2.5 py-1.5 rounded-lg bg-surface-container hover:bg-secondary-fixed text-xs font-[var(--font-display)] text-secondary cursor-pointer transition-colors whitespace-nowrap"
+              >
+                Restore Classic ({deletedClassicIds.length})
+              </button>
+            )}
           </div>
         </div>
 
         {/* Clip Cards Grid */}
         {filteredEpisodes.length === 0 ? (
           <div className="p-6 rounded-xl bg-surface-container-low border border-outline-variant/40 text-center text-sm text-on-surface-variant italic">
-            No film clips matched your search. Clear the filter to browse all real cinema scenes.
+            No film clips matched your search. Clear the filter or restore deleted clips to browse cinema scenes.
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -687,7 +805,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                 >
                   <button
                     type="button"
-                    onClick={() => setSelectedId(ep.id)}
+                    onClick={() => focusAndPlayEpisode(ep)}
                     className="text-left w-full cursor-pointer"
                   >
                     <div className="flex items-center justify-between gap-1.5 mb-1">
@@ -719,16 +837,18 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
 
                   <div className="flex items-center justify-between pt-1.5 border-t border-outline-variant/25 text-[11px] text-on-surface-variant">
                     <span className="italic truncate">{ep.episodeTitle}</span>
-                    {ep.kind === 'generated' && (
-                      <button
-                        type="button"
-                        onClick={() => handleDeleteGeneratedEpisode(ep.id)}
-                        title="Delete generated scene"
-                        className="text-on-surface-variant hover:text-error p-0.5 rounded cursor-pointer shrink-0"
-                      >
-                        <Trash2 className="w-3.5 h-3.5" />
-                      </button>
-                    )}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        void handleDeleteEpisode(ep.id, ep.kind);
+                      }}
+                      title="Delete film clip"
+                      aria-label={`Delete ${ep.targetTerm || ep.episodeTitle}`}
+                      className="text-on-surface-variant hover:text-error p-0.5 rounded cursor-pointer shrink-0 transition-colors"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
                   </div>
                 </div>
               );
@@ -742,7 +862,10 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           {/* LEFT: Real Film MP4 Video Player & Spoken Line Breakdown (7 cols) */}
           <section className="lg:col-span-7 space-y-6">
-            <div className="bg-surface-container-lowest rounded-xl border border-outline-variant/50 shadow-sm overflow-hidden">
+            <div
+              ref={videoStageRef}
+              className="bg-surface-container-lowest rounded-xl border border-outline-variant/50 shadow-sm overflow-hidden"
+            >
               {/* Film Title Strip */}
               <div className="px-5 py-3.5 bg-surface-container-low border-b border-outline-variant/30 flex flex-wrap items-center justify-between gap-2">
                 <div>
@@ -754,144 +877,85 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                   </h2>
                 </div>
                 {currentEpisode.targetTerm && (
-                  <span className="bg-secondary-fixed text-on-secondary-fixed px-3 py-1 rounded font-[var(--font-display)] text-xs font-bold tracking-wide">
+                  <button
+                    type="button"
+                    onClick={() => focusAndPlayEpisode(currentEpisode)}
+                    title="Play film scene for this expression"
+                    className="bg-secondary-fixed hover:bg-secondary hover:text-on-secondary text-on-secondary-fixed px-3 py-1 rounded font-[var(--font-display)] text-xs font-bold tracking-wide cursor-pointer transition-colors"
+                  >
                     Target: {currentEpisode.targetTerm}
-                  </span>
+                  </button>
                 )}
               </div>
 
-              {/* Real HTML5 MP4 Video Clip or Playable 5s Cinema Stage */}
+              {/* Real Cinema Video Clip (YouTube Film Scene or Classic MP4) */}
               <div className="bg-[#120e0d] p-3 flex justify-center">
-                {currentEpisode.videoUrl ? (
-                  <video
-                    ref={videoRef}
-                    key={currentEpisode.videoUrl}
-                    src={currentEpisode.videoUrl}
-                    controls
-                    playsInline
-                    loop={loopClip}
-                    preload="metadata"
-                    className={
-                      currentEpisode.aspectRatio === '9:16'
-                        ? 'w-full max-w-[340px] aspect-[9/16] rounded bg-black object-contain'
-                        : 'w-full aspect-video rounded bg-black object-contain'
-                    }
-                  />
-                ) : (
-                  <div className="w-full aspect-video rounded relative overflow-hidden bg-[#140e0d] border border-white/10 flex flex-col justify-between">
-                    {/* Atmospheric 35mm Cinema Backdrop */}
-                    <img
-                      src="/src/assets/images/scholar_desk_lexicon_1795336049106.jpg"
-                      alt=""
-                      aria-hidden="true"
-                      className={`absolute inset-0 w-full h-full object-cover opacity-35 transition-transform duration-[5000ms] ease-out ${
-                        stagePlaying ? 'scale-110' : 'scale-100'
-                      }`}
+                {currentEpisode.embedUrl ? (
+                  <div className="w-full">
+                    <iframe
+                      ref={iframeRef}
+                      key={currentEpisode.embedUrl}
+                      src={currentEpisode.embedUrl}
+                      title={`${currentEpisode.filmTitle} — ${currentEpisode.targetTerm || currentEpisode.episodeTitle}`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                      className="w-full aspect-video rounded bg-black border-0"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 to-black/75" />
-
-                    {/* Top Cinema Bar */}
-                    <div className="relative z-10 flex items-center justify-between px-4 pt-3 text-[10px] font-[var(--font-display)] uppercase tracking-[0.2em] text-[#ffb2bc]">
-                      <span>
-                        {currentEpisode.filmTitle} · {currentEpisode.targetCategory?.toUpperCase() || 'SCENE'}
-                      </span>
-                      <div className="flex items-center gap-2">
-                        {currentEpisode.status === 'generating' ? (
-                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-black/60 text-[#ffb2bc] border border-[#ffb2bc]/30">
-                            <Loader2 className="w-3 h-3 animate-spin" />
-                            MP4 Rendering…
-                          </span>
-                        ) : (
-                          <button
-                            type="button"
-                            onClick={() => handleRetryEpisodeVideo(currentEpisode.id)}
-                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-white/10 hover:bg-white/20 text-[#fef9f0] transition-colors cursor-pointer"
-                            title="Render custom AI MP4 video clip"
-                          >
-                            <Sparkles className="w-3 h-3 text-[#ffb2bc]" />
-                            <span>Render AI MP4</span>
-                          </button>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Center Cinema Dialogue Overlay (Matches Classic Film Card) */}
-                    <div className="relative z-10 px-5 py-3 flex flex-col items-center text-center">
-                      <span className="font-[var(--font-display)] text-[10px] uppercase tracking-[0.24em] text-[#ffb2bc] mb-2">
-                        {currentEpisode.cues[0]?.speaker || 'SCHOLAR'}
-                      </span>
-                      <div className="max-w-xl bg-black/70 backdrop-blur-sm px-5 py-3.5 rounded-lg border border-white/10">
-                        <p className="font-[var(--font-display)] text-lg sm:text-xl text-[#fef9f0] leading-snug">
-                          {currentEpisode.cues[0]?.tokens.map((tok, i) =>
-                            tok.term ? (
-                              <span
-                                key={i}
-                                className="inline-block mx-1 px-2 py-0.5 rounded bg-[#8f4955]/75 text-[#ffd9dd] underline decoration-[#ffb2bc] underline-offset-4 font-semibold"
-                              >
-                                {tok.text}
-                              </span>
-                            ) : (
-                              <React.Fragment key={i}>{tok.text}</React.Fragment>
-                            )
-                          )}
+                  </div>
+                ) : currentEpisode.videoUrl ? (
+                  <div className="relative w-full flex justify-center">
+                    <video
+                      ref={videoRef}
+                      key={currentEpisode.videoUrl}
+                      src={currentEpisode.videoUrl}
+                      controls
+                      playsInline
+                      loop={loopClip}
+                      preload="metadata"
+                      onPlay={() => stopSpeaking()}
+                      onPause={() => stopSpeaking()}
+                      onEnded={() => stopSpeaking()}
+                      className={
+                        currentEpisode.aspectRatio === '9:16'
+                          ? 'w-full max-w-[340px] aspect-[9/16] rounded bg-black object-contain'
+                          : 'w-full aspect-video rounded bg-black object-contain'
+                      }
+                    />
+                  </div>
+                ) : (
+                  <div className="w-full aspect-video rounded bg-[#16100f] border border-white/10 flex flex-col items-center justify-center text-center p-6 gap-3">
+                    <Film className="w-8 h-8 text-[#ffb2bc]" />
+                    <div>
+                      <p className="font-[var(--font-display)] text-lg text-[#fef9f0]">
+                        {currentEpisode.targetTerm || currentEpisode.episodeTitle}
+                      </p>
+                      <p className="text-xs text-[#d0c4c0] mt-1">
+                        Locate an authentic film scene with real actor dialogue for this expression.
+                      </p>
+                      {resolveClipError && (
+                        <p className="text-xs text-[#ffb2bc] mt-2">
+                          {resolveClipError}
                         </p>
-                        {showAzSubtitles && currentEpisode.cues[0]?.azSubtitle && (
-                          <p className="mt-2 text-xs sm:text-sm italic text-[#d0c4c0]">
-                            {currentEpisode.cues[0].azSubtitle}
-                          </p>
-                        )}
-                      </div>
+                      )}
                     </div>
-
-                    {/* Bottom Interactive 5s Cinema Transport Bar */}
-                    <div className="relative z-10 px-4 pb-3 flex items-center gap-3">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          if (stagePlaying) {
-                            setStagePlaying(false);
-                          } else {
-                            startStageClip(false);
-                          }
-                        }}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#fef9f0] text-[#191311] font-[var(--font-display)] text-[11px] uppercase tracking-wider font-bold cursor-pointer hover:bg-[#ffd9dd] transition-colors shrink-0"
-                      >
-                        {stagePlaying ? (
-                          <>
-                            <Pause className="w-3.5 h-3.5" />
-                            <span>Pause</span>
-                          </>
-                        ) : (
-                          <>
-                            <Play className="w-3.5 h-3.5" />
-                            <span>Play Clip</span>
-                          </>
-                        )}
-                      </button>
-
-                      <button
-                        type="button"
-                        onClick={() => startStageClip(true)}
-                        aria-label="Replay 5 second scene"
-                        className="p-1.5 rounded bg-white/10 hover:bg-white/20 text-[#fef9f0] cursor-pointer shrink-0"
-                      >
-                        <RotateCcw className="w-3.5 h-3.5" />
-                      </button>
-
-                      <div className="flex-1 h-1.5 rounded-full bg-white/20 overflow-hidden">
-                        <div
-                          className="h-full bg-[#b86977] transition-[width] duration-75"
-                          style={{
-                            width: `${Math.min(100, (stageElapsedSec / stageDurationSec) * 100)}%`,
-                          }}
-                        />
-                      </div>
-
-                      <span className="font-mono text-[11px] text-[#fef9f0]/90 tabular-nums shrink-0">
-                        00:{String(Math.floor(stageElapsedSec)).padStart(2, '0')} / 00:
-                        {String(Math.round(stageDurationSec)).padStart(2, '0')}
-                      </span>
-                    </div>
+                    <button
+                      type="button"
+                      disabled={resolvingClipId === currentEpisode.id}
+                      onClick={() => handleResolveRealClip(currentEpisode.id)}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded bg-[#8f4955] hover:bg-[#a65865] disabled:opacity-60 text-[#fef9f0] font-[var(--font-display)] text-xs uppercase tracking-wider cursor-pointer transition-colors"
+                    >
+                      {resolvingClipId === currentEpisode.id ? (
+                        <>
+                          <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                          <span>Finding Real Movie Clip…</span>
+                        </>
+                      ) : (
+                        <>
+                          <Search className="w-3.5 h-3.5" />
+                          <span>Find Real Movie Clip</span>
+                        </>
+                      )}
+                    </button>
                   </div>
                 )}
               </div>
@@ -914,7 +978,13 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                         <button
                           key={i}
                           type="button"
-                          onClick={() => setActiveToken(tok)}
+                          onClick={() => {
+                            setActiveToken(tok);
+                            focusAndPlayEpisode(currentEpisode, {
+                              seekSec: currentEpisode.cues[0]?.startSec ?? 0,
+                              cueIndex: 0,
+                            });
+                          }}
                           className={`inline mx-0.5 px-2 py-0.5 rounded font-semibold underline decoration-[#ffb2bc] decoration-2 underline-offset-4 transition-colors cursor-pointer ${
                             activeToken.term?.toLowerCase() ===
                             tok.term.toLowerCase()
@@ -1000,7 +1070,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
               </div>
 
               <div className="space-y-3">
-                {currentEpisode.cues.map((cue) => {
+                {currentEpisode.cues.map((cue, cueIndex) => {
                   const plainLine = cue.tokens.map((t) => t.text).join('');
                   const hasPreAnnotatedTokens = cue.tokens.some((t) =>
                     Boolean(t.term)
@@ -1033,7 +1103,13 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                                 <button
                                   key={idx}
                                   type="button"
-                                  onClick={() => setActiveToken(tok)}
+                                  onClick={() => {
+                                    setActiveToken(tok);
+                                    focusAndPlayEpisode(currentEpisode, {
+                                      seekSec: cue.startSec,
+                                      cueIndex,
+                                    });
+                                  }}
                                   className={`inline px-1.5 py-0.5 rounded font-semibold transition-colors cursor-pointer ${
                                     activeToken.term?.toLowerCase() ===
                                     tok.term.toLowerCase()
@@ -1248,7 +1324,10 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                         <button
                           key={tok.term}
                           type="button"
-                          onClick={() => setActiveToken(tok)}
+                          onClick={() => {
+                            setActiveToken(tok);
+                            focusAndPlayEpisode(currentEpisode, { seekSec: 0 });
+                          }}
                           className={`px-2.5 py-1 rounded text-xs font-[var(--font-display)] transition-colors cursor-pointer ${
                             active
                               ? 'bg-secondary text-on-secondary font-semibold'
