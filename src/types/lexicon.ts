@@ -4,7 +4,8 @@ export type SectionId =
   | 'phrasal-verbs'
   | 'difficult-words'
   | 'story-reader'
-  | 'film-episodes';
+  | 'film-episodes'
+  | 'documents';
 
 export type CefrLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
@@ -158,5 +159,32 @@ export interface FilmEpisode {
   videoUrl?: string;
   promptUsed?: string;
   cues: FilmCue[];
+  createdAt: number;
+}
+
+export interface DocumentExtractedWord {
+  id: string;
+  term: string;
+  ipa: string;
+  level: CefrLevel;
+  partOfSpeech: string;
+  azTranslation: string;
+  definition: string;
+  etymology?: string;
+  exampleEn: string;
+  exampleAz?: string;
+  frequency: number;
+  approvedToSection1?: boolean;
+}
+
+export interface DocumentVocabWorkspace {
+  id: string;
+  title: string;
+  fileName: string;
+  format: string;
+  wordCount: number;
+  pageCount?: number;
+  text: string;
+  words: DocumentExtractedWord[];
   createdAt: number;
 }

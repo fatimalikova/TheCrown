@@ -5,28 +5,25 @@
       "kind": "generated",
       "sourceSection": "reader",
       "status": "ready",
-      "filmTitle": "The First Omen Movie Clip - Bad Things Will Start to Happen (2024)",
-      "releaseYear": "Rotten Tomatoes Coming Soon · Real Film Clip (0:47)",
-      "directorNote": "Real cinema scene featuring “Bring about” — The First Omen Movie Clip - Bad Things Will Start to Happen (2024).",
+      "filmTitle": "Avengers: Age Of Ultron | Thor’s Mind-Vision Scene | Disney+ [2015]",
+      "releaseYear": "TopMarvelClips · Real Film Clip (1:18)",
+      "directorNote": "Real cinema scene (Avengers: Age Of Ultron | Thor’s Mind-Vision Scene | Disney+ [2015]) — “Bring about an alliance, bring about permanent peace.”",
       "episodeTitle": "Scene · Bring about",
       "sceneTag": "Phrasal Verb · Real Film",
       "targetTerm": "Bring about",
       "targetCategory": "phrasal",
-      "durationSec": 47,
+      "durationSec": 78,
       "aspectRatio": "16:9",
       "promptUsed": "35mm live-action classic cinema scene, two actors in a dimly lit rain-swept cafe speaking naturally: \"Sometimes you just have to bring about and see what follows.\", warm tungsten film lighting, 4 second movie clip",
       "cues": [
         {
           "id": "ep-lex-58fa9b29-d3c8-4adb-bdbe-e426adaa1ef9-cue-1",
           "startSec": 0,
-          "endSec": 4,
-          "speaker": "ACTOR",
+          "endSec": 78,
+          "speaker": "THOR",
           "tokens": [
             {
-              "text": "Sometimes you just have to "
-            },
-            {
-              "text": "bring about",
+              "text": "Bring about",
               "lexiconId": "lex-e66af093-f38e-4034-ae20-5b0e054cf99e",
               "term": "Bring about",
               "badge": "Phrasal Verb",
@@ -34,44 +31,45 @@
               "ipa": "/—/",
               "azTranslation": "Bring about",
               "definition": "Marked phrasal verb: Bring about",
-              "exampleEn": "Sometimes you just have to bring about and see what follows.",
-              "exampleAz": "Bring about"
+              "exampleEn": "Bring about an alliance, bring about permanent peace.",
+              "exampleAz": "Bir ittifaq yaradın, daimi sülhü bərqərar edin."
             },
             {
-              "text": " and see what follows."
+              "text": " an alliance, bring about permanent peace."
             }
           ],
-          "azSubtitle": "Bring about"
+          "azSubtitle": "Bir ittifaq yaradın, daimi sülhü bərqərar edin."
         }
       ],
       "createdAt": 1795456595227,
       "videoSource": "youtube-film",
-      "embedUrl": "https://www.youtube.com/embed/c18-8ywJcR0?rel=0&playsinline=1&enablejsapi=1"
+      "embedUrl": "https://www.youtube.com/embed/72cMOErcH_c?rel=0&playsinline=1&enablejsapi=1",
+      "videoQuoteVerified": true
     },
     {
       "id": "ep-lex-08fbe56b-8cee-4627-96a7-4262afc2e702",
       "kind": "generated",
       "sourceSection": "reader",
       "status": "ready",
-      "filmTitle": "Napoleon - Break The Ice - Only In Cinemas Now",
-      "releaseYear": "Sony Pictures Releasing UK · Real Film Clip (1:14)",
-      "directorNote": "Real cinema scene featuring “Break the ice” — Napoleon - Break The Ice - Only In Cinemas Now.",
+      "filmTitle": "Ella McCay Movie Clip - Break the Ice (2025)",
+      "releaseYear": "Rotten Tomatoes Coming Soon · Real Film Clip (1:00)",
+      "directorNote": "Real cinema scene (Ella McCay Movie Clip - Break the Ice (2025)) — “Your aunt wanted me to just break the ice today and wait till later on to get around to why it is I needed to see you, but you're too smart for that.”",
       "episodeTitle": "Scene · Break the ice",
       "sceneTag": "Idiom · Real Film",
       "targetTerm": "Break the ice",
       "targetCategory": "idiom",
-      "durationSec": 74,
+      "durationSec": 60,
       "aspectRatio": "16:9",
       "promptUsed": "35mm live-action classic cinema scene, two actors in a dimly lit rain-swept cafe speaking naturally: \"Sometimes you just have to break the ice and see what follows.\", warm tungsten film lighting, 4 second movie clip",
       "cues": [
         {
           "id": "ep-lex-08fbe56b-8cee-4627-96a7-4262afc2e702-cue-1",
           "startSec": 0,
-          "endSec": 4,
-          "speaker": "ACTOR",
+          "endSec": 60,
+          "speaker": "Eddie",
           "tokens": [
             {
-              "text": "Sometimes you just have to "
+              "text": "Your aunt wanted me to just "
             },
             {
               "text": "break the ice",
@@ -82,19 +80,20 @@
               "ipa": "/—/",
               "azTranslation": "Break the ice",
               "definition": "Marked idiom: Break the ice",
-              "exampleEn": "Sometimes you just have to break the ice and see what follows.",
-              "exampleAz": "Break the ice"
+              "exampleEn": "Your aunt wanted me to just break the ice today and wait till later on to get around to why it is I needed to see you, but you're too smart for that.",
+              "exampleAz": "Xalan istəyirdi ki, bu gün sadəcə buzu əridim və səni niyə görmək istədiyimə daha sonra gəlim, amma sən bunun üçün çox ağıllısan."
             },
             {
-              "text": " and see what follows."
+              "text": " today and wait till later on to get around to why it is I needed to see you, but you're too smart for that."
             }
           ],
-          "azSubtitle": "Break the ice"
+          "azSubtitle": "Xalan istəyirdi ki, bu gün sadəcə buzu əridim və səni niyə görmək istədiyimə daha sonra gəlim, amma sən bunun üçün çox ağıllısan."
         }
       ],
       "createdAt": 1795456595227,
       "videoSource": "youtube-film",
-      "embedUrl": "https://www.youtube.com/embed/HvquTUBAXTY?rel=0&playsinline=1&enablejsapi=1"
+      "embedUrl": "https://www.youtube.com/embed/veG9th8kFq0?rel=0&playsinline=1&enablejsapi=1",
+      "videoQuoteVerified": true
     }
   ],
   "difficultItems": [
@@ -242,9 +241,36 @@
       "exampleEn": "She is a resilient woman who rebuilt her life after losing everything in the war.",
       "exampleAz": "O, müharibədə hər şeyini itirdikdən sonra həyatını yenidən quran dayanıqlı bir qadındır.",
       "etymology": "Latin: resilire (to rebound or recoil)"
+    },
+    "ephemeral": {
+      "term": "ephemeral",
+      "category": "word",
+      "cefrLevel": "C2",
+      "partOfSpeech": "Adjective",
+      "ipa": "/ɪˈfem.ər.əl/",
+      "badge": "C2 · Adjective",
+      "azTranslation": "keçici, müvəqqəti, qısaömürlü",
+      "definition": "Lasting for a very short time.",
+      "exampleEn": "The beauty of the cherry blossoms is ephemeral, lasting only a few days each spring.",
+      "exampleAz": "Albalı çiçəklərinin gözəlliyi keçicidir, hər yaz yalnız bir neçə gün davam edir.",
+      "etymology": "Greek: ephēmeros (lasting only a day)"
+    },
+    "bring about": {
+      "term": "bring about",
+      "category": "phrasal",
+      "cefrLevel": "B2",
+      "partOfSpeech": "Verb",
+      "ipa": "/brɪŋ əˈbaʊt/",
+      "badge": "B2 · Verb",
+      "azTranslation": "səbəb olmaq, törətmək, gətirib çıxarmaq",
+      "definition": "To cause something to happen.",
+      "exampleEn": "The new policies brought about significant economic reforms.",
+      "exampleAz": "Yeni siyasət əhəmiyyətli iqtisadi islahatlara səbəb oldu.",
+      "etymology": "Old English: bringan (to bring) + abutan (around)"
     }
   },
   "documents": [],
+  "documentWorkspaces": [],
   "customLexicon": {
     "words": [],
     "idioms": [],

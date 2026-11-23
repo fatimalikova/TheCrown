@@ -400,9 +400,9 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
       };
       remoteWordCacheRef.current.set(lower, resolvedToken);
       setActiveToken(resolvedToken);
-    } catch (err) {
+    } catch {
       setTranslateError(
-        err instanceof Error ? err.message : 'Automatic lookup unavailable.'
+        'Avtomatik tərcümə hazırda əlçatan deyil — zəhmət olmasa tərcüməni aşağıdakı xanaya özünüz daxil edin.'
       );
       setActiveToken({
         ...pendingToken,

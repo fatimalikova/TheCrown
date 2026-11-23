@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  AlertCircle,
   Bookmark,
   BookOpen,
   Check,
@@ -287,11 +288,26 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
         if (!res.ok || !data.entry) {
           if (instantPayload) return instantPayload;
           if (activeLookupRef.current === normalizedKey) {
+            if (data.partialEntry) {
+              const p = data.partialEntry as {
+                ipa?: string;
+                partOfSpeech?: string;
+                definition?: string;
+                exampleEn?: string;
+              };
+              applyDetectedPayload(
+                {
+                  pos: p.partOfSpeech ? normalizePos(p.partOfSpeech) : undefined,
+                  ipa: p.ipa,
+                  definition: p.definition,
+                  exampleEn: p.exampleEn,
+                },
+                false
+              );
+            }
             setAutoStatus('error');
             setAutoNote(
-              typeof data.error === 'string'
-                ? data.error
-                : 'Auto-translate unavailable; you can enter details manually.'
+              'Avtomatik aşkarlama hazırda əlçatan deyil — zəhmət olmasa məlumatları (səviyyə, tərcümə və nümunə) özünüz daxil edin.'
             );
           }
           return null;
@@ -342,7 +358,9 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
         if (instantPayload) return instantPayload;
         if (activeLookupRef.current === normalizedKey) {
           setAutoStatus('error');
-          setAutoNote('Could not reach translator; enter meaning manually.');
+          setAutoNote(
+            'Avtomatik aşkarlama hazırda əlçatan deyil — zəhmət olmasa məlumatları (səviyyə, tərcümə və nümunə) özünüz daxil edin.'
+          );
         }
         return null;
       }
@@ -417,7 +435,9 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
 
     if (!finalAz) {
       setAutoStatus('error');
-      setAutoNote('Please enter the Azerbaijani translation or retry Auto-Detect.');
+      setAutoNote(
+        'Zəhmət olmasa sözün Azərbaycan dilində tərcüməsini və səviyyəsini özünüz daxil edin.'
+      );
       return;
     }
 
@@ -1034,23 +1054,26 @@ export const WordsSection: React.FC<WordsSectionProps> = ({
                   className="w-full px-3 py-2 rounded bg-surface-container-lowest text-on-surface text-sm border border-outline-variant/50 focus:outline-none focus:border-secondary"
                 />
                 {autoNote && (
-                  <p
-                    className={`mt-1.5 text-[11px] flex items-center gap-1.5 ${
+                  <div
+                    className={`mt-2 text-xs flex items-start gap-2 ${
                       autoStatus === 'error'
-                        ? 'text-error'
+                        ? 'px-3 py-2 rounded-lg bg-amber-50 border border-amber-300/80 text-amber-900'
                         : autoStatus === 'loading'
-                          ? 'text-on-surface-variant'
-                          : 'text-secondary font-medium'
+                          ? 'text-on-surface-variant items-center text-[11px]'
+                          : 'text-secondary font-medium items-center text-[11px]'
                     }`}
                   >
                     {autoStatus === 'loading' && (
-                      <Loader2 className="w-3 h-3 animate-spin shrink-0" />
+                      <Loader2 className="w-3.5 h-3.5 animate-spin shrink-0 mt-0.5" />
                     )}
                     {autoStatus === 'ready' && (
-                      <Check className="w-3 h-3 shrink-0" />
+                      <Check className="w-3.5 h-3.5 shrink-0 mt-0.5" />
                     )}
-                    <span>{autoNote}</span>
-                  </p>
+                    {autoStatus === 'error' && (
+                      <AlertCircle className="w-4 h-4 text-amber-700 shrink-0 mt-0.5" />
+                    )}
+                    <span className="leading-relaxed">{autoNote}</span>
+                  </div>
                 )}
               </div>
 

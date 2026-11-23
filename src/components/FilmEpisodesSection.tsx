@@ -676,6 +676,12 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         setGeneratedEpisodes((prev) =>
           prev.map((ep) => (ep.id === id ? updated : ep))
         );
+        const firstAnnotated = updated.cues
+          ?.flatMap((c) => c.tokens)
+          .find((t) => Boolean(t.term));
+        if (firstAnnotated) {
+          setActiveToken(firstAnnotated);
+        }
       }
     } catch {
       setResolveClipError('Network error while searching for real film clips.');
@@ -964,9 +970,17 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
               {currentEpisode.cues[0] && (
                 <div className="px-5 py-4 bg-[#191311] text-[#fef9f0] border-t border-white/10">
                   <div className="flex items-center justify-between gap-2 mb-1.5">
-                    <span className="font-[var(--font-display)] text-[11px] uppercase tracking-[0.2em] text-[#ffb2bc]">
-                      {currentEpisode.cues[0].speaker}
-                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="font-[var(--font-display)] text-[11px] uppercase tracking-[0.2em] text-[#ffb2bc]">
+                        {currentEpisode.cues[0].speaker}
+                      </span>
+                      {currentEpisode.cues[0].startSec > 0 && (
+                        <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-white/10 text-[#ffd9dd]">
+                          @ {Math.floor(currentEpisode.cues[0].startSec / 60)}:
+                          {String(Math.floor(currentEpisode.cues[0].startSec % 60)).padStart(2, '0')}
+                        </span>
+                      )}
+                    </div>
                     <span className="text-[11px] text-[#d0c4c0] italic">
                       Click highlighted phrase to inspect &amp; save
                     </span>
@@ -1000,7 +1014,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                     )}
                   </p>
 
-                  {showAzSubtitles && (
+                  {showAzSubtitles && currentEpisode.cues[0].azSubtitle && (
                     <p className="mt-2 text-xs sm:text-sm italic text-[#d0c4c0]">
                       <span className="not-italic font-semibold text-[#ffb2bc] mr-1.5">
                         AZ:
@@ -1016,7 +1030,24 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                 <p className="text-on-surface-variant italic">
                   {currentEpisode.directorNote}
                 </p>
-                <div className="flex items-center gap-2 shrink-0">
+                <div className="flex flex-wrap items-center gap-2 shrink-0">
+                  {currentEpisode.kind === 'generated' && currentEpisode.targetTerm && (
+                    <button
+                      type="button"
+                      disabled={resolvingClipId === currentEpisode.id}
+                      onClick={() => handleResolveRealClip(currentEpisode.id)}
+                      title="Re-match real film clip and sync spoken quote + Azerbaijani translation"
+                      className="flex items-center gap-1.5 px-2.5 py-1.5 rounded bg-surface-container hover:bg-secondary-fixed text-secondary font-[var(--font-display)] uppercase tracking-wider text-[11px] cursor-pointer disabled:opacity-60"
+                    >
+                      {resolvingClipId === currentEpisode.id ? (
+                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      ) : (
+                        <Search className="w-3.5 h-3.5" />
+                      )}
+                      <span>Sync Clip Quote</span>
+                    </button>
+                  )}
+
                   <button
                     type="button"
                     onClick={handleReplayClip}

@@ -6,6 +6,7 @@ import { PhrasalVerbsSection } from './components/PhrasalVerbsSection';
 import { DifficultWordsSection } from './components/DifficultWordsSection';
 import { StoryReaderSection } from './components/StoryReaderSection';
 import { FilmEpisodesSection } from './components/FilmEpisodesSection';
+import { DocumentsSection } from './components/DocumentsSection';
 import {
   WORDS_DATA,
   IDIOMS_DATA,
@@ -17,6 +18,7 @@ import { CLASSIC_FILM_EPISODES } from './data/filmEpisodesData';
 import {
   CefrLevel,
   DifficultItem,
+  DocumentExtractedWord,
   IdiomEntry,
   PhrasalVerbEntry,
   SectionId,
@@ -303,6 +305,47 @@ export default function App() {
     setCustomWords((prev) => [word, ...prev]);
   };
 
+  // Approved words from Section 07 are added STRICTLY to Section 01 (customWords) only.
+  const handleApproveDocumentWordsToSectionOne = (
+    approvedWords: DocumentExtractedWord[],
+    sourceDocTitle: string
+  ): number => {
+    const existingKeys = new Set(
+      allWords.map((w) => w.term.trim().toLowerCase())
+    );
+    const additions: WordEntry[] = [];
+
+    for (const item of approvedWords) {
+      const key = item.term.trim().toLowerCase();
+      if (!key || existingKeys.has(key)) continue;
+      existingKeys.add(key);
+      additions.push({
+        id: `doc-s1-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+        category: 'word',
+        term: item.term.trim(),
+        ipa: item.ipa || `/${key}/`,
+        level: item.level || 'B2',
+        partOfSpeech: item.partOfSpeech || 'Noun',
+        etymology: item.etymology || `Extracted from “${sourceDocTitle}”`,
+        azTranslation:
+          item.azTranslation.trim() || item.definition || 'Document vocabulary',
+        definition: item.definition || 'Approved from uploaded document.',
+        exampleEn:
+          item.exampleEn || `Found in document “${sourceDocTitle}”.`,
+        exampleAz: item.exampleAz || item.azTranslation || '',
+        relationLabel: 'Collocations',
+        relatedTerms: [],
+        folioRef: `Section 07 · ${sourceDocTitle.slice(0, 24)}`,
+        isCustom: true,
+      });
+    }
+
+    if (additions.length > 0) {
+      setCustomWords((prev) => [...additions, ...prev]);
+    }
+    return additions.length;
+  };
+
   const handleToggleDifficult = (
     item: Omit<DifficultItem, 'addedAt'>,
     options?: { fromReader?: boolean }
@@ -466,6 +509,14 @@ export default function App() {
             onToggleDifficult={handleToggleDifficult}
             focusTerm={focusFilmTerm}
             onClearFocusTerm={() => setFocusFilmTerm(null)}
+          />
+        )}
+
+        {activeSection === 'documents' && (
+          <DocumentsSection
+            allWords={allWords}
+            onApproveWordsToSectionOne={handleApproveDocumentWordsToSectionOne}
+            onJumpToSectionOne={() => handleSelectSection('words')}
           />
         )}
       </main>
