@@ -180,7 +180,6 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   const matchedTermsByEpisodeId = useMemo(() => {
     const map = new Map<string, string[]>();
     const markedLower = difficultItems
-      .filter((d) => d.category === 'idiom' || d.category === 'phrasal')
       .map((d) => ({ id: d.id, term: d.term.trim(), lower: d.term.trim().toLowerCase() }))
       .filter((d) => d.lower.length > 0);
 
@@ -213,7 +212,11 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
         }
       }
 
-      if (ep.sourceSection === 'reader' && matched.length === 0 && ep.targetTerm) {
+      if (
+        (ep.sourceSection === 'reader' || ep.sourceSection === 'difficult-manual') &&
+        matched.length === 0 &&
+        ep.targetTerm
+      ) {
         matched.push(ep.targetTerm);
       }
 

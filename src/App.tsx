@@ -109,6 +109,14 @@ function toPhrasalEntry(item: Omit<DifficultItem, 'addedAt'>): PhrasalVerbEntry 
 export default function App() {
   const [activeSection, setActiveSection] = useState<SectionId>('words');
   const [focusFilmTerm, setFocusFilmTerm] = useState<string | null>(null);
+  const [existingFilmTerms, setExistingFilmTerms] = useState<Set<string>>(
+    () =>
+      new Set(
+        CLASSIC_FILM_EPISODES.map((ep) => ep.targetTerm?.trim().toLowerCase() ?? '').filter(
+          Boolean
+        )
+      )
+  );
 
   const [customWords, setCustomWords] = useState<WordEntry[]>(() => {
     try {
@@ -221,6 +229,36 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    let active = true;
+    fetch('/api/episodes')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!active || !data) return;
+        const deleted = new Set<string>(
+          Array.isArray(data.deletedClassicIds) ? data.deletedClassicIds : []
+        );
+        const terms = new Set<string>();
+        for (const ep of CLASSIC_FILM_EPISODES) {
+          if (!deleted.has(ep.id) && ep.targetTerm) {
+            terms.add(ep.targetTerm.trim().toLowerCase());
+          }
+        }
+        if (Array.isArray(data.episodes)) {
+          for (const ep of data.episodes as Array<{ targetTerm?: string }>) {
+            if (ep?.targetTerm) {
+              terms.add(ep.targetTerm.trim().toLowerCase());
+            }
+          }
+        }
+        setExistingFilmTerms(terms);
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, [activeSection]);
+
+  useEffect(() => {
     try {
       localStorage.setItem(
         STORAGE_DIFFICULT_KEY,
@@ -236,21 +274,6 @@ export default function App() {
     }).catch(() => {
       // Ignore background sync failure
     });
-
-    const excludeTerms = CLASSIC_FILM_EPISODES.map((ep) => ep.targetTerm).filter(
-      Boolean
-    );
-    const idiomAndPhrasalItems = difficultItems.filter(
-      (i) => i.category === 'idiom' || i.category === 'phrasal'
-    );
-    fetch('/api/episodes/sync-difficult', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        items: idiomAndPhrasalItems,
-        excludeTerms,
-      }),
-    }).catch(() => {});
   }, [difficultItems]);
 
   const allWords = useMemo(
@@ -363,7 +386,7 @@ export default function App() {
     if (!alreadySaved) {
       const lowerTerm = item.term.trim().toLowerCase();
 
-      // Words marked as difficult go strictly to Section 04 (Difficult Words), not Section 01.
+      // Only sync custom entries into Idioms / Phrasals; never auto-generate Section 6 videos
       if (item.category === 'idiom') {
         const existsInIdioms = allIdioms.some(
           (i) => i.id === item.id || i.term.toLowerCase() === lowerTerm
@@ -379,31 +402,6 @@ export default function App() {
           setCustomPhrasals((prev) => [toPhrasalEntry(item), ...prev]);
         }
       }
-
-      // Only auto-create cinema episodes in Section 06 for unknown Phrasal Verbs & Idioms
-      if (item.category === 'idiom' || item.category === 'phrasal') {
-        const inClassicClip = CLASSIC_FILM_EPISODES.some(
-          (ep) => ep.targetTerm?.toLowerCase() === lowerTerm
-        );
-        if (!inClassicClip) {
-          fetch('/api/episodes/from-lexicon', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              id: item.id,
-              term: item.term,
-              category: item.category,
-              badge: item.badge,
-              ipa: item.ipa,
-              azTranslation: item.azTranslation,
-              definition: item.definition,
-              exampleEn: item.exampleEn,
-              exampleAz: item.exampleAz,
-              etymology: item.etymologyNote,
-            }),
-          }).catch(() => {});
-        }
-      }
     }
   };
 
@@ -411,6 +409,61 @@ export default function App() {
     setFocusFilmTerm(term);
     setActiveSection('film-episodes');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleGenerateAndWatchVideo = async (
+    item: DifficultItem
+  ): Promise<{ ok: boolean; error?: string }> => {
+    const lowerTerm = item.term.trim().toLowerCase();
+    if (!lowerTerm) {
+      return { ok: false, error: 'Söz boş ola bilməz.' };
+    }
+
+    if (existingFilmTerms.has(lowerTerm)) {
+      setFocusFilmTerm(item.term);
+      setActiveSection('film-episodes');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return { ok: true };
+    }
+
+    try {
+      const res = await fetch('/api/episodes/from-lexicon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: item.id,
+          term: item.term,
+          category: item.category,
+          badge: item.badge,
+          ipa: item.ipa,
+          azTranslation: item.azTranslation,
+          definition: item.definition,
+          exampleEn: item.exampleEn,
+          exampleAz: item.exampleAz,
+          etymology: item.etymologyNote,
+          sourceSection: 'difficult-manual',
+        }),
+      });
+      const payload = await res.json().catch(() => ({}));
+      if (!res.ok || !payload?.episode) {
+        return {
+          ok: false,
+          error:
+            'Bu söz üçün real film səhnəsi tapılmadı. Zəhmət olmasa bir az sonra yenidən cəhd edin.',
+        };
+      }
+
+      setExistingFilmTerms((prev) => new Set(prev).add(lowerTerm));
+      setFocusFilmTerm(item.term);
+      setActiveSection('film-episodes');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return { ok: true };
+    } catch {
+      return {
+        ok: false,
+        error: 'Video axtarışı zamanı şəbəkə xətası baş verdi.',
+      };
+    }
   };
 
   const handleAddCustomDifficult = (item: Omit<DifficultItem, 'addedAt'>) => {
@@ -477,6 +530,8 @@ export default function App() {
           <DifficultWordsSection
             items={difficultItems}
             distractorPool={distractorPool}
+            existingFilmTerms={existingFilmTerms}
+            onWatchInVideo={handleGenerateAndWatchVideo}
             onRemoveItem={handleRemoveDifficult}
             onAddCustomItem={handleAddCustomDifficult}
             onMarkMastered={handleMarkMastered}

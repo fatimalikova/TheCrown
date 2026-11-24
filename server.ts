@@ -2392,9 +2392,14 @@ If NO character speaks "${term}" in this clip, set matchesVideo = false and retu
     clip: RealMovieClipResult
   ): Record<string, unknown> {
     const term = String(item.targetTerm || '').trim();
-    const cat: 'idiom' | 'phrasal' =
-      item.targetCategory === 'phrasal' ? 'phrasal' : 'idiom';
-    const catLabel = cat === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+    const cat: 'word' | 'idiom' | 'phrasal' =
+      item.targetCategory === 'phrasal'
+        ? 'phrasal'
+        : item.targetCategory === 'idiom'
+          ? 'idiom'
+          : 'word';
+    const catLabel =
+      cat === 'phrasal' ? 'Phrasal Verb' : cat === 'idiom' ? 'Idiom' : 'Word';
 
     const existingCues = Array.isArray(item.cues)
       ? (item.cues as Array<{ tokens?: Array<Record<string, unknown>> }>)
@@ -2462,22 +2467,17 @@ If NO character speaks "${term}" in this clip, set matchesVideo = false and retu
     const category: 'word' | 'idiom' | 'phrasal' =
       categoryRaw === 'idiom' || categoryRaw === 'phrasal' ? categoryRaw : 'word';
     const lexiconId = String(req.body?.id ?? '').trim() || `lex-${crypto.randomUUID()}`;
-    const badge = String(req.body?.badge ?? 'Reader Vocabulary').trim().slice(0, 60);
+    const badge = String(req.body?.badge ?? 'Difficult Word').trim().slice(0, 60);
     const ipa = String(req.body?.ipa ?? '/—/').trim().slice(0, 80);
     const azTranslation = String(req.body?.azTranslation ?? '').trim().slice(0, 300);
     const definition = String(req.body?.definition ?? '').trim().slice(0, 500);
     const etymology = String(req.body?.etymology ?? '').trim().slice(0, 400);
+    const sourceSectionRaw = String(req.body?.sourceSection ?? 'difficult-manual').trim();
+    const sourceSection =
+      sourceSectionRaw === 'reader' ? ('reader' as const) : ('difficult-manual' as const);
 
     if (!term) {
       res.status(400).json({ error: 'Term is required.' });
-      return;
-    }
-
-    if (category !== 'idiom' && category !== 'phrasal') {
-      res.json({
-        skipped: true,
-        reason: 'Only idioms and phrasal verbs are added to Film Episodes.',
-      });
       return;
     }
 
@@ -2501,14 +2501,19 @@ If NO character speaks "${term}" in this clip, set matchesVideo = false and retu
     }
 
     const id = `ep-lex-${crypto.randomUUID()}`;
-    const catLabel = category === 'phrasal' ? 'Phrasal Verb' : 'Idiom';
+    const catLabel =
+      category === 'phrasal'
+        ? 'Phrasal Verb'
+        : category === 'idiom'
+          ? 'Idiom'
+          : 'Word';
     const spokenLine = realClip.spokenSentenceEn;
     const azSubtitle = realClip.spokenSentenceAz || azTranslation || term;
 
     const episode = {
       id,
       kind: 'generated' as const,
-      sourceSection: 'reader' as const,
+      sourceSection,
       status: 'ready' as const,
       videoSource: 'youtube-film' as const,
       videoQuoteVerified: realClip.quoteVerified,

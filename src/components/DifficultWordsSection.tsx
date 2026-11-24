@@ -3,6 +3,8 @@ import {
   ArrowRight,
   Award,
   CheckCircle2,
+  Film,
+  Loader2,
   Plus,
   RotateCcw,
   Search,
@@ -24,6 +26,8 @@ interface DifficultWordsSectionProps {
     azTranslation: string;
     category: LexiconCategory;
   }>;
+  existingFilmTerms: Set<string>;
+  onWatchInVideo: (item: DifficultItem) => Promise<{ ok: boolean; error?: string }>;
   onRemoveItem: (id: string) => void;
   onAddCustomItem: (item: Omit<DifficultItem, 'addedAt'>) => void;
   onMarkMastered: (id: string) => void;
@@ -53,6 +57,8 @@ function shuffleArray<T>(arr: T[]): T[] {
 export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
   items,
   distractorPool,
+  existingFilmTerms,
+  onWatchInVideo,
   onRemoveItem,
   onAddCustomItem,
   onMarkMastered,
@@ -66,6 +72,8 @@ export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
   const [newAz, setNewAz] = useState('');
   const [newExample, setNewExample] = useState('');
   const [speakingId, setSpeakingId] = useState<string | null>(null);
+  const [generatingVideoId, setGeneratingVideoId] = useState<string | null>(null);
+  const [videoErrorById, setVideoErrorById] = useState<Record<string, string>>({});
 
   // Quiz state
   const [quizDirection, setQuizDirection] = useState<QuizDirection>('en-to-az');
@@ -208,6 +216,23 @@ export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
     setSpeakingId(id);
     speakEnglish(term, () => setSpeakingId(null));
     setTimeout(() => setSpeakingId((prev) => (prev === id ? null : prev)), 1200);
+  };
+
+  const handleManualVideoClick = async (item: DifficultItem) => {
+    if (generatingVideoId) return;
+    setGeneratingVideoId(item.id);
+    setVideoErrorById((prev) => {
+      if (!prev[item.id]) return prev;
+      const copy = { ...prev };
+      delete copy[item.id];
+      return copy;
+    });
+
+    const result = await onWatchInVideo(item);
+    setGeneratingVideoId(null);
+    if (!result.ok && result.error) {
+      setVideoErrorById((prev) => ({ ...prev, [item.id]: result.error! }));
+    }
   };
 
   const masteredItems = items.filter((i) => (i.masteredCount ?? 0) > 0).length;
@@ -431,6 +456,11 @@ export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
               {filteredItems.map((item) => {
                 const isSpeaking = speakingId === item.id;
                 const isMastered = (item.masteredCount ?? 0) > 0;
+                const isGeneratingVideo = generatingVideoId === item.id;
+                const hasFilmClip = existingFilmTerms.has(
+                  item.term.trim().toLowerCase()
+                );
+                const videoErr = videoErrorById[item.id];
                 return (
                   <article
                     key={item.id}
@@ -455,7 +485,34 @@ export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
                         )}
                       </div>
 
-                      <div className="flex items-center gap-1 shrink-0">
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        <button
+                          type="button"
+                          disabled={Boolean(generatingVideoId)}
+                          onClick={() => void handleManualVideoClick(item)}
+                          title={
+                            hasFilmClip
+                              ? 'Section 06-da videonu izlə'
+                              : 'Section 06-da bu söz üçün real kino səhnəsi yarat və izlə'
+                          }
+                          className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded text-xs font-[var(--font-display)] whitespace-nowrap shrink-0 transition-colors cursor-pointer disabled:opacity-60 ${
+                            hasFilmClip
+                              ? 'bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary hover:text-on-secondary font-semibold'
+                              : 'bg-surface-container text-primary hover:bg-secondary-fixed hover:text-on-secondary-fixed'
+                          }`}
+                        >
+                          {isGeneratingVideo ? (
+                            <>
+                              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                              <span>Hazırlanır...</span>
+                            </>
+                          ) : (
+                            <>
+                              <Film className="w-3.5 h-3.5" />
+                              <span>{hasFilmClip ? 'Videoya keç' : 'Videoda izlə'}</span>
+                            </>
+                          )}
+                        </button>
                         <button
                           type="button"
                           onClick={() => handleSpeak(item.id, item.term)}
@@ -495,6 +552,11 @@ export const DifficultWordsSection: React.FC<DifficultWordsSectionProps> = ({
                     {item.exampleAz && (
                       <p className="text-xs text-on-surface-variant italic">
                         «{item.exampleAz}»
+                      </p>
+                    )}
+                    {videoErr && (
+                      <p className="text-xs text-error bg-error-container/40 px-3 py-2 rounded-lg">
+                        {videoErr}
                       </p>
                     )}
                   </article>

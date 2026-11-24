@@ -141,7 +141,7 @@ export interface FilmCue {
 export interface FilmEpisode {
   id: string;
   kind: 'classic' | 'generated';
-  sourceSection?: 'reader' | 'studio' | 'classic';
+  sourceSection?: 'reader' | 'studio' | 'classic' | 'difficult-manual';
   status?: 'generating' | 'ready' | 'audio-only';
   generationError?: string;
   filmTitle: string;

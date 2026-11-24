@@ -927,10 +927,10 @@ export const StoryReaderSection: React.FC<StoryReaderSectionProps> = ({
                 <p className="text-[11px] text-secondary font-[var(--font-display)]">
                   Synced to{' '}
                   {(activeToken.category || 'word') === 'idiom'
-                    ? '02. Idioms, 04. Difficult Words & 06. Film Episodes'
+                    ? '02. Idioms & 04. Difficult Words'
                     : (activeToken.category || 'word') === 'phrasal'
-                      ? '03. Phrasal Verbs, 04. Difficult Words & 06. Film Episodes'
-                      : '01. Words & 04. Difficult Words'}
+                      ? '03. Phrasal Verbs & 04. Difficult Words'
+                      : '04. Difficult Words'}
                 </p>
                 {onWatchVideoClip &&
                   (activeToken.category === 'idiom' ||
