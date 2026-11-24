@@ -80,7 +80,9 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
 
   // Real <video> & YouTube real cinema embed player state
   const [loopClip, setLoopClip] = useState(false);
+  const [showEnSubtitles, setShowEnSubtitles] = useState(true);
   const [showAzSubtitles, setShowAzSubtitles] = useState(true);
+  const [videoCurrentSec, setVideoCurrentSec] = useState(0);
   const [speakingTerm, setSpeakingTerm] = useState<string | null>(null);
   const [customAzNote, setCustomAzNote] = useState('');
   const [resolvingClipId, setResolvingClipId] = useState<string | null>(null);
@@ -275,6 +277,76 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
     return list;
   }, [currentEpisode]);
 
+  const MAX_CLIP_DURATION_SEC = 40;
+
+  const withEnglishCaptions = (rawUrl: string, enabled: boolean): string => {
+    try {
+      const parsed = new URL(rawUrl);
+      const startSec = Math.max(
+        0,
+        Math.floor(Number(parsed.searchParams.get('start') ?? 0) || 0)
+      );
+      const existingEnd = Number(parsed.searchParams.get('end'));
+      const clampedEnd =
+        Number.isFinite(existingEnd) &&
+        existingEnd > startSec &&
+        existingEnd - startSec <= MAX_CLIP_DURATION_SEC
+          ? Math.floor(existingEnd)
+          : startSec + MAX_CLIP_DURATION_SEC;
+      parsed.searchParams.set('start', String(startSec));
+      parsed.searchParams.set('end', String(clampedEnd));
+      parsed.searchParams.set('cc_load_policy', enabled ? '1' : '0');
+      parsed.searchParams.set('cc_lang_pref', 'en');
+      parsed.searchParams.set('hl', 'en');
+      parsed.searchParams.set('enablejsapi', '1');
+      parsed.searchParams.set('playsinline', '1');
+      parsed.searchParams.set('rel', '0');
+      return parsed.toString();
+    } catch {
+      return rawUrl;
+    }
+  };
+
+  const formatVttTime = (sec: number): string => {
+    const safe = Math.max(0, sec);
+    const hrs = Math.floor(safe / 3600);
+    const mins = Math.floor((safe % 3600) / 60);
+    const secs = Math.floor(safe % 60);
+    const ms = Math.round((safe - Math.floor(safe)) * 1000);
+    return `${String(hrs).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}.${String(ms).padStart(3, '0')}`;
+  };
+
+  const mp4EnglishVttUrl = useMemo(() => {
+    if (!currentEpisode?.videoUrl || !currentEpisode.cues?.length) return null;
+    const blocks = currentEpisode.cues.map((cue) => {
+      const text = cue.tokens.map((t) => t.text).join('').trim();
+      const start = formatVttTime(cue.startSec);
+      const end = formatVttTime(
+        cue.endSec > cue.startSec ? cue.endSec : Math.max(cue.startSec + 4, currentEpisode.durationSec || 6)
+      );
+      return `${start} --> ${end}\n${text}`;
+    });
+    const vttContent = `WEBVTT\n\n${blocks.join('\n\n')}\n`;
+    return URL.createObjectURL(new Blob([vttContent], { type: 'text/vtt' }));
+  }, [currentEpisode]);
+
+  useEffect(() => {
+    return () => {
+      if (mp4EnglishVttUrl) {
+        URL.revokeObjectURL(mp4EnglishVttUrl);
+      }
+    };
+  }, [mp4EnglishVttUrl]);
+
+  const activeMp4EnglishCueText = useMemo(() => {
+    if (!currentEpisode?.videoUrl || !currentEpisode.cues?.length) return '';
+    const matched =
+      currentEpisode.cues.find(
+        (c) => videoCurrentSec >= c.startSec && videoCurrentSec <= c.endSec
+      ) ?? currentEpisode.cues[0];
+    return matched.tokens.map((t) => t.text).join('').trim();
+  }, [currentEpisode, videoCurrentSec]);
+
   const [activeToken, setActiveToken] = useState<ReadingToken>(() => {
     const first = classicEpisodes[0]?.cues
       .flatMap((c) => c.tokens)
@@ -366,6 +438,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
   useEffect(() => {
     stopSpeaking();
     setResolveClipError(null);
+    setVideoCurrentSec(0);
     if (!currentEpisode) return;
     const firstAnnotated = currentEpisode.cues
       .flatMap((c) => c.tokens)
@@ -822,7 +895,7 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                         {ep.sceneTag}
                       </span>
                       <span className="text-[10px] font-mono text-on-surface-variant tabular-nums shrink-0">
-                        {ep.durationSec.toFixed(1)}s
+                        {Math.min(ep.durationSec, MAX_CLIP_DURATION_SEC).toFixed(1)}s
                       </span>
                     </div>
                     <h2 className="font-[var(--font-display)] text-lg text-primary font-bold leading-snug">
@@ -903,11 +976,23 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                   <div className="w-full">
                     <iframe
                       ref={iframeRef}
-                      key={currentEpisode.embedUrl}
-                      src={currentEpisode.embedUrl}
+                      key={`${currentEpisode.embedUrl}-${showEnSubtitles ? 'cc1' : 'cc0'}`}
+                      src={withEnglishCaptions(currentEpisode.embedUrl, showEnSubtitles)}
                       title={`${currentEpisode.filmTitle} — ${currentEpisode.targetTerm || currentEpisode.episodeTitle}`}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
+                      onLoad={() => {
+                        if (showEnSubtitles) {
+                          sendYouTubeCommand('loadModule', ['captions']);
+                          sendYouTubeCommand('setOption', [
+                            'captions',
+                            'track',
+                            { languageCode: 'en' },
+                          ]);
+                        } else {
+                          sendYouTubeCommand('unloadModule', ['captions']);
+                        }
+                      }}
                       className="w-full aspect-video rounded bg-black border-0"
                     />
                   </div>
@@ -924,12 +1009,44 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                       onPlay={() => stopSpeaking()}
                       onPause={() => stopSpeaking()}
                       onEnded={() => stopSpeaking()}
+                      onTimeUpdate={(e) => {
+                        const vid = e.currentTarget;
+                        if (vid.currentTime >= MAX_CLIP_DURATION_SEC) {
+                          if (loopClip) {
+                            vid.currentTime = 0;
+                            void vid.play();
+                          } else {
+                            vid.pause();
+                            vid.currentTime = MAX_CLIP_DURATION_SEC;
+                          }
+                          setVideoCurrentSec(0);
+                          return;
+                        }
+                        setVideoCurrentSec(vid.currentTime);
+                      }}
                       className={
                         currentEpisode.aspectRatio === '9:16'
                           ? 'w-full max-w-[340px] aspect-[9/16] rounded bg-black object-contain'
                           : 'w-full aspect-video rounded bg-black object-contain'
                       }
-                    />
+                    >
+                      {showEnSubtitles && mp4EnglishVttUrl && (
+                        <track
+                          kind="subtitles"
+                          src={mp4EnglishVttUrl}
+                          srcLang="en"
+                          label="English"
+                          default
+                        />
+                      )}
+                    </video>
+                    {showEnSubtitles && activeMp4EnglishCueText && (
+                      <div className="pointer-events-none absolute inset-x-4 bottom-12 flex justify-center">
+                        <span className="bg-black/80 text-white text-xs sm:text-sm md:text-base font-medium px-3 py-1.5 rounded text-center max-w-[90%] leading-snug shadow-sm">
+                          {activeMp4EnglishCueText}
+                        </span>
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <div className="w-full aspect-video rounded bg-[#16100f] border border-white/10 flex flex-col items-center justify-center text-center p-6 gap-3">
@@ -1071,6 +1188,19 @@ export const FilmEpisodesSection: React.FC<FilmEpisodesSectionProps> = ({
                   >
                     <Repeat className="w-3.5 h-3.5" />
                     <span>Loop</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setShowEnSubtitles((v) => !v)}
+                    title="Toggle English subtitles inside video"
+                    className={`flex items-center gap-1 px-2.5 py-1.5 rounded font-[var(--font-display)] uppercase tracking-wider text-[11px] cursor-pointer whitespace-nowrap shrink-0 ${
+                      showEnSubtitles
+                        ? 'bg-primary text-on-primary font-semibold'
+                        : 'bg-surface-container text-on-surface-variant hover:text-primary'
+                    }`}
+                  >
+                    <span>EN CC</span>
                   </button>
 
                   <button

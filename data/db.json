@@ -1,52 +1,6 @@
 {
   "episodes": [
     {
-      "id": "ep-lex-58fa9b29-d3c8-4adb-bdbe-e426adaa1ef9",
-      "kind": "generated",
-      "sourceSection": "reader",
-      "status": "ready",
-      "filmTitle": "Avengers: Age Of Ultron | Thor’s Mind-Vision Scene | Disney+ [2015]",
-      "releaseYear": "TopMarvelClips · Real Film Clip (1:18)",
-      "directorNote": "Real cinema scene (Avengers: Age Of Ultron | Thor’s Mind-Vision Scene | Disney+ [2015]) — “Bring about an alliance, bring about permanent peace.”",
-      "episodeTitle": "Scene · Bring about",
-      "sceneTag": "Phrasal Verb · Real Film",
-      "targetTerm": "Bring about",
-      "targetCategory": "phrasal",
-      "durationSec": 78,
-      "aspectRatio": "16:9",
-      "promptUsed": "35mm live-action classic cinema scene, two actors in a dimly lit rain-swept cafe speaking naturally: \"Sometimes you just have to bring about and see what follows.\", warm tungsten film lighting, 4 second movie clip",
-      "cues": [
-        {
-          "id": "ep-lex-58fa9b29-d3c8-4adb-bdbe-e426adaa1ef9-cue-1",
-          "startSec": 0,
-          "endSec": 78,
-          "speaker": "THOR",
-          "tokens": [
-            {
-              "text": "Bring about",
-              "lexiconId": "lex-e66af093-f38e-4034-ae20-5b0e054cf99e",
-              "term": "Bring about",
-              "badge": "Phrasal Verb",
-              "category": "phrasal",
-              "ipa": "/—/",
-              "azTranslation": "Bring about",
-              "definition": "Marked phrasal verb: Bring about",
-              "exampleEn": "Bring about an alliance, bring about permanent peace.",
-              "exampleAz": "Bir ittifaq yaradın, daimi sülhü bərqərar edin."
-            },
-            {
-              "text": " an alliance, bring about permanent peace."
-            }
-          ],
-          "azSubtitle": "Bir ittifaq yaradın, daimi sülhü bərqərar edin."
-        }
-      ],
-      "createdAt": 1795456595227,
-      "videoSource": "youtube-film",
-      "embedUrl": "https://www.youtube.com/embed/72cMOErcH_c?rel=0&playsinline=1&enablejsapi=1",
-      "videoQuoteVerified": true
-    },
-    {
       "id": "ep-lex-08fbe56b-8cee-4627-96a7-4262afc2e702",
       "kind": "generated",
       "sourceSection": "reader",
