@@ -1,0 +1,3492 @@
+1
+00:00:09,977 --> 00:00:11,563
+I'd like you to take
+a look at this gun.
+
+2
+00:00:12,564 --> 00:00:14,818
+It's handcrafted to my
+specifications.
+
+3
+00:00:15,309 --> 00:00:16,827
+Balance is excellent.
+
+4
+00:00:17,083 --> 00:00:19,207
+The trigger responds to
+a pressure of 1 ounce.
+
+5
+00:00:20,407 --> 00:00:21,144
+I'm...
+
+6
+00:00:21,519 --> 00:00:23,340
+...quite familiar with
+the piece.
+
+7
+00:00:23,586 --> 00:00:25,221
+Perhaps we could
+talk about this?
+
+8
+00:00:25,341 --> 00:00:27,269
+I rarely draw it unless
+I mean to use it.
+
+9
+00:00:27,747 --> 00:00:29,366
+Care for a demonstration?
+
+10
+00:00:33,326 --> 00:00:34,408
+SCOTT:
+Freeze program.
+
+11
+00:00:40,857 --> 00:00:42,566
+Was she everything
+I promised, sir?
+
+12
+00:00:42,862 --> 00:00:43,809
+And more...
+
+13
+00:00:44,808 --> 00:00:47,687
+I've never seen a holographic
+program this detailed before.
+
+14
+00:00:47,751 --> 00:00:49,686
+I swear I can almost
+smell the gun oil.
+
+15
+00:00:49,961 --> 00:00:52,708
+Aye. Well she's still in the experimental
+stage, but once we get the bugs out...
+
+16
+00:00:52,828 --> 00:00:54,053
+[INTERCOM WHISTLES]
+
+17
+00:00:54,302 --> 00:00:56,078
+SPOCK:
+Bridge to Captain Kirk...
+
+18
+00:00:56,198 --> 00:00:56,994
+Kirk here.
+
+19
+00:00:57,114 --> 00:01:00,501
+SPOCK:
+We've arrived at the first of the power
+stations that have gone offline, captain.
+
+20
+00:01:00,545 --> 00:01:01,451
+I'll be right there.
+
+21
+00:01:02,492 --> 00:01:03,343
+All right...
+
+22
+00:01:03,463 --> 00:01:04,518
+Playtime's over...
+
+23
+00:01:04,638 --> 00:01:05,516
+Let's get back to work.
+
+24
+00:01:16,639 --> 00:01:17,693
+KIRK:
+Report, Spock.
+
+25
+00:01:18,688 --> 00:01:20,695
+Starfleet's communique
+was accurate.
+
+26
+00:01:20,722 --> 00:01:23,627
+All 3 power stations in this
+system are completely drained.
+
+27
+00:01:23,848 --> 00:01:25,301
+Any idea what
+caused it?
+
+28
+00:01:25,421 --> 00:01:27,884
+Aye. Likely the Klingons
+stealing fuel cells again.
+
+29
+00:01:28,004 --> 00:01:30,550
+There is no evidence to support
+that theory, Mr. Scott.
+
+30
+00:01:30,670 --> 00:01:31,956
+That's because it
+wasn't a theory.
+
+31
+00:01:32,076 --> 00:01:33,492
+It was a joke.
+
+32
+00:01:35,222 --> 00:01:37,441
+The power stations were
+anchored in this system...
+
+33
+00:01:37,478 --> 00:01:40,614
+...with the purpose of providing energy
+and fuel for passing Federation ships.
+
+34
+00:01:41,073 --> 00:01:42,978
+And what would cause a
+failure on that scale?
+
+35
+00:01:43,330 --> 00:01:44,125
+Unknown.
+
+36
+00:01:44,441 --> 00:01:45,818
+If theft was intended...
+
+37
+00:01:45,938 --> 00:01:48,641
+...it would be far more efficient to
+steal the stations themselves...
+
+38
+00:01:48,761 --> 00:01:50,778
+...as opposed to siphoning
+them one-by-one.
+
+39
+00:01:50,898 --> 00:01:51,923
+SULU:
+Captain...
+
+40
+00:01:52,043 --> 00:01:54,350
+I'm registering a minor
+drain on engine power.
+
+41
+00:01:57,104 --> 00:01:57,899
+Scotty?
+
+42
+00:01:58,019 --> 00:01:58,850
+Checking.
+
+43
+00:01:59,867 --> 00:02:00,595
+Aye.
+
+44
+00:02:00,965 --> 00:02:02,191
+Slight,
+but noticeable.
+
+45
+00:02:02,311 --> 00:02:03,463
+Any danger?
+
+46
+00:02:03,520 --> 00:02:05,069
+Not yet, sir. But I don't like it.
+
+47
+00:02:05,091 --> 00:02:06,490
+I can't even tell you
+what's causing it.
+
+48
+00:02:07,646 --> 00:02:09,056
+All right...
+
+49
+00:02:09,176 --> 00:02:10,051
+Spock.
+
+50
+00:02:11,149 --> 00:02:12,501
+Scan the station...
+
+51
+00:02:13,007 --> 00:02:14,648
+...for any clues to the
+power loss.
+
+52
+00:02:14,899 --> 00:02:15,699
+CHEKOV:
+Captain...
+
+53
+00:02:15,819 --> 00:02:19,171
+I'm reading something 320,000
+kilometers off the starboard bow.
+
+54
+00:02:20,015 --> 00:02:21,032
+Put it on screen.
+
+55
+00:02:25,762 --> 00:02:26,987
+What the devil...
+
+56
+00:02:30,710 --> 00:02:31,519
+Spock?
+
+57
+00:02:31,820 --> 00:02:32,618
+Unknown.
+
+58
+00:02:32,738 --> 00:02:35,129
+Sulu, bring us around.
+Scotty, shields up.
+
+59
+00:02:35,249 --> 00:02:37,866
+Shields not responding.
+Power drain has accelerated.
+
+60
+00:02:38,610 --> 00:02:41,407
+The source of the drain is the
+anomaly directly in front of us.
+
+61
+00:02:42,073 --> 00:02:43,492
+Can we do anything
+about it?
+
+62
+00:02:43,612 --> 00:02:44,374
+Unknown.
+
+63
+00:02:45,234 --> 00:02:48,500
+Ship's systems, including life
+support, at 54 percent and falling.
+
+64
+00:02:49,627 --> 00:02:51,592
+What is it? A machine?
+An organism?
+
+65
+00:02:51,787 --> 00:02:52,632
+Unknown.
+
+66
+00:02:52,657 --> 00:02:55,191
+That's an awful lot of unknowns,
+Mr. Spock. I need answers.
+
+67
+00:02:55,311 --> 00:02:56,326
+Go to red alert.
+
+68
+00:02:56,535 --> 00:02:59,153
+Sulu, put some distance between
+us... Back away...
+
+69
+00:03:00,013 --> 00:03:01,520
+Engines not responding, captain.
+
+70
+00:03:01,826 --> 00:03:02,612
+I can't seem to...
+
+71
+00:03:02,649 --> 00:03:04,360
+Warp drive and impulse
+engines are offline.
+
+72
+00:03:04,480 --> 00:03:05,506
+Uhura, anything?
+
+73
+00:03:05,543 --> 00:03:06,367
+Nothing, sir.
+
+74
+00:03:06,394 --> 00:03:08,671
+I've tried friendship messages on
+all known hailing frequencies!
+
+75
+00:03:08,995 --> 00:03:11,573
+Ship's power now at 29 percent!
+She's fading fast!
+
+76
+00:03:11,693 --> 00:03:12,787
+Not without a fight.
+
+77
+00:03:12,907 --> 00:03:13,596
+Ready phasers...
+
+78
+00:03:13,716 --> 00:03:15,231
+We don't have enough
+power for phasers, sir.
+
+79
+00:03:15,254 --> 00:03:17,392
+I had to divert everything we
+have to life support.
+
+80
+00:03:17,420 --> 00:03:18,453
+Photon torpedos then.
+
+81
+00:03:18,490 --> 00:03:21,117
+Aye... we might be able to get off
+one shot, but there's no telling if...
+
+82
+00:03:21,148 --> 00:03:23,139
+Lock photon torpedo on it.
+Dead center.
+
+83
+00:03:23,494 --> 00:03:24,493
+Torpedo locked.
+
+84
+00:03:24,749 --> 00:03:25,482
+Fire!
+
+85
+00:03:28,190 --> 00:03:29,137
+20 seconds to impact.
+
+86
+00:03:29,588 --> 00:03:31,046
+Power levels at 14 percent.
+
+87
+00:03:31,359 --> 00:03:34,836
+Captain, I'm detecting two life forms
+in the center of the anomaly.
+
+88
+00:03:35,251 --> 00:03:36,116
+Life forms?
+
+89
+00:03:36,236 --> 00:03:36,871
+McCOY:
+Jim...
+
+90
+00:03:36,905 --> 00:03:38,818
+SPOCK:
+Readings are very faint but definite.
+
+91
+00:03:38,873 --> 00:03:40,138
+McCOY:
+Jim, you don't know
+anything about them.
+
+92
+00:03:40,168 --> 00:03:41,107
+They could need
+our help.
+
+93
+00:03:41,152 --> 00:03:42,032
+Scotty. Transporters.
+
+94
+00:03:42,084 --> 00:03:44,134
+No way, sir! Power levels at 9 percent!
+
+95
+00:03:44,363 --> 00:03:45,428
+CHEKOV:
+Impact in 5 seconds.
+
+96
+00:03:45,673 --> 00:03:46,109
+McCOY:
+Jim!
+
+97
+00:03:46,154 --> 00:03:46,812
+We're out of options!
+
+98
+00:03:46,932 --> 00:03:47,500
+MCCOY:
+But you don't know if...
+
+99
+00:03:47,620 --> 00:03:48,562
+Impact!
+
+100
+00:03:57,163 --> 00:03:58,095
+Report.
+
+101
+00:03:58,317 --> 00:03:59,582
+SCOTT:
+Power levels at 12 percent.
+
+102
+00:04:00,434 --> 00:04:01,300
+19 percent.
+
+103
+00:04:01,625 --> 00:04:02,742
+Increasing steadily.
+
+104
+00:04:02,862 --> 00:04:05,302
+All decks reporting in.
+No casualties.
+
+105
+00:04:05,422 --> 00:04:08,420
+Our torpedo broke off small
+pieces of the anomaly.
+
+106
+00:04:08,540 --> 00:04:12,352
+The bulk is still intact,
+but it is no longer a viable threat.
+
+107
+00:04:14,655 --> 00:04:17,003
+I detect no life forms.
+
+108
+00:04:22,831 --> 00:04:24,389
+Cancel red alert.
+
+109
+00:04:27,099 --> 00:04:28,882
+I'm sorry, Bones.
+
+110
+00:04:29,537 --> 00:04:30,763
+But it couldn't be helped.
+
+111
+00:04:30,791 --> 00:04:31,771
+I know, Jim.
+
+112
+00:04:32,086 --> 00:04:35,323
+It's just hard to see the taking of any life,
+even if it's to save our own.
+
+113
+00:04:35,690 --> 00:04:36,661
+SCOTT:
+24 percent.
+
+114
+00:04:36,994 --> 00:04:37,900
+31 percent.
+
+115
+00:04:38,168 --> 00:04:39,019
+Still climbing.
+
+116
+00:04:39,139 --> 00:04:41,470
+Captain, I'm detecting an
+energy buildup.
+
+117
+00:04:44,853 --> 00:04:47,239
+SPOCK:
+Focused within the Enterprise.
+
+118
+00:04:48,802 --> 00:04:50,495
+Can you identify an
+exact location?
+
+119
+00:04:51,447 --> 00:04:52,576
+The bridge.
+
+120
+00:05:23,216 --> 00:05:24,261
+Space...
+
+121
+00:05:24,576 --> 00:05:26,185
+The final frontier.
+
+122
+00:05:34,682 --> 00:05:37,836
+These are the voyages of
+the Starship Enterprise.
+
+123
+00:05:38,585 --> 00:05:39,981
+Its continuing mission...
+
+124
+00:05:40,508 --> 00:05:42,904
+To explore strange new worlds...
+
+125
+00:05:43,579 --> 00:05:46,770
+To seek out new life
+and new civilizations.
+
+126
+00:05:47,482 --> 00:05:50,451
+To boldly go
+where no man has gone before.
+
+127
+00:06:30,242 --> 00:06:33,108
+KIRK (V.O.):
+Captain's log, stardate 6147.3.
+
+128
+00:06:33,228 --> 00:06:36,240
+It's been nearly two years
+since the alien called Apollo...
+
+129
+00:06:36,270 --> 00:06:39,346
+...from Earth's ancient history tried to
+enslave us on Pollux 4.
+
+130
+00:06:39,466 --> 00:06:42,771
+Now, a much older Apollo has
+reappeared. Only this time...
+
+131
+00:06:42,891 --> 00:06:44,548
+...on board the Enterprise.
+
+132
+00:06:44,668 --> 00:06:47,064
+Security to the bridge.
+On the double.
+
+133
+00:06:48,249 --> 00:06:49,231
+Apollo?
+
+134
+00:06:56,236 --> 00:06:58,697
+A thousand years...
+
+135
+00:06:59,194 --> 00:07:00,932
+in a day...
+
+136
+00:07:01,452 --> 00:07:03,551
+Rest dearest.
+
+137
+00:07:03,671 --> 00:07:06,126
+We continue because of you.
+
+138
+00:07:06,667 --> 00:07:08,655
+You continue.
+
+139
+00:07:09,422 --> 00:07:11,183
+I am pleased...
+
+140
+00:07:11,748 --> 00:07:14,683
+The final image my eyes behold...
+
+141
+00:07:15,112 --> 00:07:16,964
+...is that of your face.
+
+142
+00:07:17,084 --> 00:07:18,373
+No...
+
+143
+00:07:18,712 --> 00:07:20,744
+We're safe together.
+
+144
+00:07:21,986 --> 00:07:23,838
+You can't go.
+
+145
+00:07:24,154 --> 00:07:25,734
+I forbid it.
+
+146
+00:07:38,726 --> 00:07:40,194
+Live on...
+
+147
+00:07:40,645 --> 00:07:42,452
+...for us.
+
+148
+00:07:51,133 --> 00:07:52,352
+Sleep...
+
+149
+00:07:52,849 --> 00:07:54,678
+Dwell upon thine eyes.
+
+150
+00:07:55,807 --> 00:07:57,546
+Peace in thy breast.
+
+151
+00:07:58,404 --> 00:08:00,526
+Would I were sleep in peace...
+
+152
+00:08:00,887 --> 00:08:03,078
+...so sweet to rest.
+
+153
+00:08:05,086 --> 00:08:06,689
+Travel gently...
+
+154
+00:08:07,547 --> 00:08:09,196
+...beloved Athena.
+
+155
+00:08:19,560 --> 00:08:20,915
+UHURA:
+Where did she go?
+
+156
+00:08:27,103 --> 00:08:28,726
+I don't know.
+
+157
+00:08:30,737 --> 00:08:33,101
+Emptiness.
+
+158
+00:08:41,074 --> 00:08:43,862
+Don't know what I can do for him.
+But let's get him to sickbay.
+
+159
+00:08:43,982 --> 00:08:45,522
+Sir?
+You're not actually going to...
+
+160
+00:09:16,525 --> 00:09:19,256
+Power's stabilized, sir. Shield
+output is increasing but...
+
+161
+00:09:19,376 --> 00:09:20,138
+But...?
+
+162
+00:09:20,258 --> 00:09:22,566
+Well, pieces of whatever that
+thing out there was, sir.
+
+163
+00:09:22,578 --> 00:09:23,919
+They've hung to the ship's hull.
+
+164
+00:09:24,039 --> 00:09:27,021
+SULU:
+Captain, if that debris clogs the
+intake manifolds...
+
+165
+00:09:27,141 --> 00:09:29,912
+SCOTT:
+I've sealed them, but we are stuck
+here until we can clear that debris.
+
+166
+00:09:30,032 --> 00:09:33,681
+SPOCK:
+Readings indicate the material to
+be innocuous once hardened.
+
+167
+00:09:33,801 --> 00:09:37,042
+There is, however, an unknown corrosive
+substance at their centers.
+
+168
+00:09:37,162 --> 00:09:38,718
+Corrosive enough to eat
+through the hull?
+
+169
+00:09:38,838 --> 00:09:40,106
+Possibly...
+
+170
+00:09:41,088 --> 00:09:43,111
+Suggestions, gentlemen?
+
+171
+00:09:43,231 --> 00:09:44,476
+SCOTTY:
+What a whaup i the raip...
+
+172
+00:09:44,596 --> 00:09:46,853
+We could go out on the hull with
+a couple hand phasers.
+
+173
+00:09:47,189 --> 00:09:49,246
+Cut the residue from
+the ship's exterior.
+
+174
+00:09:49,366 --> 00:09:51,372
+SPOCK:
+Interesting strategy, Mr. Sulu.
+
+175
+00:09:51,492 --> 00:09:53,844
+By setting phasers to the proper
+resonant frequency...
+
+176
+00:09:53,964 --> 00:09:57,359
+...we should be able to easily scrape it
+off the hull without damaging it.
+
+177
+00:09:57,479 --> 00:09:59,151
+SCOTT:
+Aye. Like sandpaper.
+
+178
+00:09:59,271 --> 00:10:01,602
+But it's precision work.
+We can't afford any bumps.
+
+179
+00:10:01,722 --> 00:10:03,219
+I think Chekov can
+handle that.
+
+180
+00:10:04,202 --> 00:10:06,849
+Well, Mr. Sulu?
+Up for a little walk outside?
+
+181
+00:10:06,969 --> 00:10:07,693
+Absolutely.
+
+182
+00:10:07,813 --> 00:10:08,456
+Very well...
+
+183
+00:10:08,576 --> 00:10:11,377
+You and Simone from structural
+engineering suit up and get it done.
+
+184
+00:10:11,497 --> 00:10:14,302
+Mr. Scott will monitor
+the EVA from here.
+
+185
+00:10:17,502 --> 00:10:19,308
+You look...
+
+186
+00:10:19,341 --> 00:10:20,691
+...concerned, Mr. Spock.
+
+187
+00:10:20,811 --> 00:10:21,783
+I am, captain.
+
+188
+00:10:21,903 --> 00:10:23,420
+I think Sulu knows
+what he's doing.
+
+189
+00:10:23,457 --> 00:10:25,214
+It is not Sulu that concerns me.
+
+190
+00:10:25,427 --> 00:10:26,509
+It is Apollo.
+
+191
+00:10:26,915 --> 00:10:27,944
+Yes.
+
+192
+00:10:28,884 --> 00:10:32,551
+I don't like him here one bit but
+I feel somewhat responsible for him...
+
+193
+00:10:32,597 --> 00:10:33,581
+...being here.
+
+194
+00:10:33,618 --> 00:10:36,223
+Curious he has aged so
+rapidly in 2 years.
+
+195
+00:10:36,701 --> 00:10:37,950
+KIRK:
+Computer...
+
+196
+00:10:38,204 --> 00:10:40,644
+Analyze subject's age on screen.
+
+197
+00:10:41,083 --> 00:10:42,135
+COMPUTER (V.O.):
+Working...
+
+198
+00:10:42,157 --> 00:10:44,874
+Subject on screen's physiological age...
+
+199
+00:10:44,895 --> 00:10:46,797
+...based on established norms...
+
+200
+00:10:46,848 --> 00:10:50,082
+...between 38 and 41 Earth years.
+
+201
+00:10:50,304 --> 00:10:53,056
+Now, analyze the age of the
+subject currently in sickbay.
+
+202
+00:10:53,472 --> 00:10:54,686
+COMPUTER (V.O.):
+Working...
+
+203
+00:10:54,806 --> 00:10:57,787
+Subject in sickbay's physiological age...
+
+204
+00:10:57,810 --> 00:10:59,371
+...based on established norms...
+
+205
+00:10:59,394 --> 00:11:02,296
+...between 77 and 82 Earth years.
+
+206
+00:11:03,129 --> 00:11:05,001
+I am at a loss to explain, captain.
+
+207
+00:11:05,013 --> 00:11:07,949
+Well, why don't we pay our guest
+a little visit and get some answers.
+
+208
+00:11:09,001 --> 00:11:10,678
+Scotty.
+You've got the conn.
+
+209
+00:11:24,078 --> 00:11:26,587
+Captain, Dr. Elise McKennah. I
+was recently assigned here...
+
+210
+00:11:26,610 --> 00:11:28,853
+Now's not a good time, doctor.
+
+211
+00:11:29,160 --> 00:11:30,062
+How is he, Bones?
+
+212
+00:11:30,073 --> 00:11:33,299
+It's damn peculiar, Jim. His vitals
+are stable... for now.
+
+213
+00:11:33,419 --> 00:11:36,235
+Can't tell how long though.
+Especially in the condition he's in.
+
+214
+00:11:36,355 --> 00:11:37,091
+Condition?
+
+215
+00:11:37,211 --> 00:11:38,328
+McCOY:
+He's dying.
+
+216
+00:11:38,448 --> 00:11:40,114
+Like any mortal human.
+
+217
+00:11:40,144 --> 00:11:40,967
+SPOCK:
+Fascinating.
+
+218
+00:11:41,087 --> 00:11:43,339
+Oh and that organ I detected
+on Pollux 4?
+
+219
+00:11:43,571 --> 00:11:48,612
+It's still there, but it's barely detectable.
+I had to run two bioscans just to find it.
+
+220
+00:11:49,635 --> 00:11:50,930
+Captain Kirk.
+
+221
+00:11:55,249 --> 00:11:56,682
+KIRK:
+So you remember me.
+
+222
+00:11:57,653 --> 00:11:58,573
+APOLLO:
+Yes.
+
+223
+00:12:00,145 --> 00:12:05,417
+You have extended an undeserved
+kindness considering our history.
+
+224
+00:12:06,064 --> 00:12:07,599
+For that I am grateful.
+
+225
+00:12:07,905 --> 00:12:09,421
+Don't mention it.
+
+226
+00:12:10,235 --> 00:12:12,187
+What's the meaning of
+the attack on my ship?
+
+227
+00:12:13,065 --> 00:12:14,638
+The attack was not my doing.
+
+228
+00:12:15,718 --> 00:12:18,270
+When we sensed your
+weapon approaching.
+
+229
+00:12:18,788 --> 00:12:21,720
+Athena sacrificed her last
+portion of energy...
+
+230
+00:12:22,383 --> 00:12:25,007
+...to allow us both to escape
+the Realm.
+
+231
+00:12:25,735 --> 00:12:26,545
+Realm?
+
+232
+00:12:27,100 --> 00:12:31,377
+It was concieved by our race eons ago
+to be a place of eternal respite.
+
+233
+00:12:32,269 --> 00:12:37,645
+The Realm was to provide the energy
+for us to live on through eternity.
+
+234
+00:12:38,049 --> 00:12:40,581
+Clearly it did not operate
+as intended.
+
+235
+00:12:40,820 --> 00:12:42,010
+No...
+
+236
+00:12:42,457 --> 00:12:44,503
+Hera,
+Poseidon,
+
+237
+00:12:45,671 --> 00:12:47,486
+and my beloved Artemis...
+
+238
+00:12:48,087 --> 00:12:50,098
+...were the first to arrive.
+
+239
+00:12:50,640 --> 00:12:53,750
+The Realm drained them
+of their life energy until...
+
+240
+00:12:54,686 --> 00:12:56,709
+...they were too weak to escape.
+
+241
+00:12:57,491 --> 00:13:02,693
+A malfunction caused it to siphon
+power from any nearby energy source.
+
+242
+00:13:02,813 --> 00:13:05,800
+Whether organic or artificial.
+
+243
+00:13:05,920 --> 00:13:07,264
+The power stations...
+
+244
+00:13:07,384 --> 00:13:09,088
+And your rapid aging.
+
+245
+00:13:09,879 --> 00:13:14,197
+Even a god... without worship...
+
+246
+00:13:14,564 --> 00:13:16,625
+...quickly withers.
+
+247
+00:13:17,161 --> 00:13:22,975
+Because I waited for you, my
+children, I was the last to arrive.
+
+248
+00:13:23,822 --> 00:13:27,096
+I was ill-prepared for
+what I discovered.
+
+249
+00:13:27,216 --> 00:13:28,733
+They were dying.
+
+250
+00:13:28,853 --> 00:13:30,003
+APOLLO:
+Yes.
+
+251
+00:13:30,123 --> 00:13:35,028
+What was meant to be our
+sanctuary... became our prison.
+
+252
+00:13:35,148 --> 00:13:39,417
+One by one, my brothers and sisters
+slipped into oblivion...
+
+253
+00:13:39,537 --> 00:13:42,211
+And I was powerless to save them.
+
+254
+00:13:44,243 --> 00:13:46,417
+I sympathize, Apollo.
+
+255
+00:13:47,179 --> 00:13:48,675
+But nothing has changed.
+
+256
+00:13:49,070 --> 00:13:51,441
+We can't give you the
+worship you want.
+
+257
+00:13:51,561 --> 00:13:53,416
+Much has changed.
+
+258
+00:13:53,536 --> 00:13:55,816
+I no longer seek it.
+
+259
+00:13:56,719 --> 00:13:58,187
+Time...
+
+260
+00:13:58,307 --> 00:14:03,634
+...who never dared to speak my
+name... now pursues me.
+
+261
+00:14:05,819 --> 00:14:09,348
+Does that surprise you?
+Even please you?
+
+262
+00:14:09,799 --> 00:14:12,396
+To know that I fear
+passing into oblivion?
+
+263
+00:14:12,516 --> 00:14:14,598
+No. It doesn't please us...
+
+264
+00:14:14,718 --> 00:14:17,053
+...but your presence on this
+ship is a great concern.
+
+265
+00:14:17,173 --> 00:14:19,170
+Then hear my plea.
+
+266
+00:14:21,061 --> 00:14:25,097
+I ask you to take me to a
+world where mortals exist.
+
+267
+00:14:25,533 --> 00:14:30,218
+So I feel the warmth of the sun...
+the evening breeze on my face...
+
+268
+00:14:30,338 --> 00:14:32,843
+No. So you can play god to
+another unsuspecting race?
+
+269
+00:14:32,963 --> 00:14:35,242
+I swear upon all Olympus...
+
+270
+00:14:35,637 --> 00:14:37,839
+...upon the holy temple itself.
+
+271
+00:14:38,444 --> 00:14:43,412
+I only desire to spend my remaining
+days among them...
+
+272
+00:14:44,004 --> 00:14:45,472
+...as one of them.
+
+273
+00:14:45,592 --> 00:14:49,282
+I'm afraid that's a big risk.
+And not one I'm prepared to take.
+
+274
+00:14:52,331 --> 00:14:58,484
+To be a god for centuries only to
+weaken and die alone...
+
+275
+00:15:00,823 --> 00:15:02,912
+After my actions towards you...
+
+276
+00:15:03,956 --> 00:15:08,021
+...perhaps you believe that is
+what I deserve.
+
+277
+00:15:10,702 --> 00:15:12,791
+Jim.
+Perhaps we should let him rest.
+
+278
+00:15:18,436 --> 00:15:20,384
+KIRK:
+Check on Sulu's progress.
+
+279
+00:15:20,504 --> 00:15:22,105
+Then I want to see the officers
+in the briefing room.
+
+280
+00:15:22,225 --> 00:15:22,924
+SPOCK:
+Yes sir.
+
+281
+00:15:23,044 --> 00:15:24,124
+Bones...
+
+282
+00:15:24,730 --> 00:15:26,710
+Make sure Apollo is
+what he claims.
+
+283
+00:15:26,830 --> 00:15:27,909
+What's that?
+
+284
+00:15:28,834 --> 00:15:30,005
+Powerless.
+
+285
+00:15:35,264 --> 00:15:36,006
+McKENNA:
+Captain...
+
+286
+00:15:36,195 --> 00:15:37,694
+Yes... Doctor McKennah...
+welcome aboard.
+
+287
+00:15:37,731 --> 00:15:39,668
+Thank you, sir. I'm very anxious to
+talk about this new position...
+
+288
+00:15:39,696 --> 00:15:40,319
+Of course you are.
+
+289
+00:15:40,357 --> 00:15:42,936
+For the time being, I need you to help
+Dr. McCoy with our guest.
+
+290
+00:15:43,676 --> 00:15:44,951
+Yes, sir.
+
+291
+00:16:06,791 --> 00:16:11,224
+SULU:
+A few more minutes of this and we can go inside
+and use the shield array to scrape off the rest.
+
+292
+00:16:11,770 --> 00:16:13,839
+SIMONE:
+You love this stuff, don't you.
+
+293
+00:16:13,959 --> 00:16:16,752
+No matter how hard we train, I
+can't get used to assignments like this.
+
+294
+00:16:16,872 --> 00:16:18,935
+Give me artificial gravity any day.
+
+295
+00:16:19,730 --> 00:16:21,663
+SULU:
+Artificial gravity...
+
+296
+00:16:30,210 --> 00:16:31,733
+I'm Doctor McKennah.
+
+297
+00:16:31,853 --> 00:16:33,689
+Are you feeling up for
+some company?
+
+298
+00:16:34,369 --> 00:16:37,325
+The company of a beautiful woman is
+always welcome.
+
+299
+00:16:40,053 --> 00:16:43,167
+You're just as charming as she
+said you were.
+
+300
+00:16:43,287 --> 00:16:44,213
+She?
+
+301
+00:16:45,213 --> 00:16:46,532
+Lt. Palamas.
+
+302
+00:16:48,669 --> 00:16:49,919
+Carolyn.
+
+303
+00:16:50,783 --> 00:16:52,283
+Carolyn!
+
+304
+00:16:54,113 --> 00:16:58,115
+The only mortal woman to
+ever spurn my love.
+
+305
+00:16:58,592 --> 00:17:01,843
+She did so out of dedication
+for her crewmates.
+
+306
+00:17:02,479 --> 00:17:06,298
+She also said it was the most
+difficult thing she'd ever done.
+
+307
+00:17:06,418 --> 00:17:09,117
+Then why does she not
+declare this to me herself?
+
+308
+00:17:10,641 --> 00:17:12,141
+She died.
+
+309
+00:17:13,800 --> 00:17:15,733
+Carolyn, gone as well?
+
+310
+00:17:16,147 --> 00:17:19,625
+After her experience with you she
+decided to leave the ship.
+
+311
+00:17:20,170 --> 00:17:23,671
+She died while helping some colonists
+who were infected by a plague.
+
+312
+00:17:24,422 --> 00:17:26,945
+Such sacrifice by such beauty.
+
+313
+00:17:27,786 --> 00:17:30,946
+She's even more than I immediately
+knew her to be.
+
+314
+00:17:31,628 --> 00:17:33,628
+A rare treasure, McKennah.
+
+315
+00:17:37,632 --> 00:17:38,678
+Elise.
+
+316
+00:17:51,682 --> 00:17:54,341
+SCOTT (V.O.):
+Mr. Sulu. I'm reading increased
+hull temperature in your area.
+
+317
+00:17:54,461 --> 00:17:57,115
+Reduce phaser strength
+by 20 percent to compensate.
+
+318
+00:17:57,903 --> 00:17:59,313
+SULU:
+That's gonna slow us down.
+
+319
+00:17:59,433 --> 00:18:01,154
+SCOTT (V.O.):
+Aye laddie. It will at that.
+
+320
+00:18:01,274 --> 00:18:03,723
+But better to err on the side of
+caution. Wouldn't you agree?
+
+321
+00:18:08,201 --> 00:18:10,429
+SULU:
+Simone. You heard him. Compensate.
+
+322
+00:18:10,549 --> 00:18:12,180
+SIMONE:
+I'm trying it's not working.
+
+323
+00:18:13,589 --> 00:18:15,794
+Enterprise. We may have
+a problem out here.
+
+324
+00:18:15,914 --> 00:18:17,428
+Tell me...
+
+325
+00:18:17,974 --> 00:18:21,429
+Why didn't you and the other gods
+find another planet with humans...
+
+326
+00:18:21,549 --> 00:18:23,316
+...where you could be worshipped?
+
+327
+00:18:24,043 --> 00:18:26,794
+So deep was our love for humanity...
+
+328
+00:18:26,914 --> 00:18:29,886
+...and our heartbreak when
+they rejected us...
+
+329
+00:18:30,386 --> 00:18:33,296
+We couldn't bear the risk of
+such heartbreak again.
+
+330
+00:18:33,682 --> 00:18:36,047
+Our only choice
+was the Realm.
+
+331
+00:18:37,262 --> 00:18:42,082
+Of all of us, none loved
+you humans more than I.
+
+332
+00:18:44,264 --> 00:18:47,492
+You must understand the
+captain's concerns.
+
+333
+00:18:48,811 --> 00:18:51,766
+If only I could open up my
+heart and show him...
+
+334
+00:18:52,130 --> 00:18:53,880
+Show all of you...
+
+335
+00:18:54,812 --> 00:18:57,699
+All I desire is life and peace.
+
+336
+00:19:10,306 --> 00:19:11,898
+SULU:
+Simone!
+
+337
+00:19:17,558 --> 00:19:18,604
+Enterprise!
+
+338
+00:19:18,724 --> 00:19:19,745
+Emergency!
+
+339
+00:19:23,541 --> 00:19:25,655
+Enterprise!
+Emergency beam-out!
+
+340
+00:19:39,738 --> 00:19:40,488
+KIRK:
+Sulu!
+
+341
+00:19:40,608 --> 00:19:41,557
+McCOY:
+Get that helmet off.
+
+342
+00:19:43,762 --> 00:19:45,194
+SCOTT:
+Are you all right, lad?
+
+343
+00:19:49,741 --> 00:19:50,854
+McCOY:
+Slow, easy breaths, Sulu.
+
+344
+00:19:51,627 --> 00:19:52,628
+Better now.
+
+345
+00:19:52,748 --> 00:19:53,446
+Scotty?
+
+346
+00:19:53,566 --> 00:19:56,129
+Drained of power, captain.
+This was no bloody malfunction.
+
+347
+00:19:56,249 --> 00:19:58,175
+That monster lying in sickbay.
+I lay odds on his doing.
+
+348
+00:19:58,295 --> 00:19:59,493
+KIRK:
+Apollo is in no condition...
+
+349
+00:19:59,613 --> 00:20:01,927
+Remember what he did to Carolyn.
+And now he's killed Simone!
+
+350
+00:20:02,314 --> 00:20:04,269
+SULU:
+Everything was going
+as planned, captain.
+
+351
+00:20:04,769 --> 00:20:06,588
+Simone was trying
+to compensate.
+
+352
+00:20:06,929 --> 00:20:07,975
+His phaser...
+
+353
+00:20:08,406 --> 00:20:09,520
+I tried to help him.
+
+354
+00:20:09,884 --> 00:20:11,180
+But there was nothing
+I could do!
+
+355
+00:20:11,300 --> 00:20:12,839
+It's all right, Sulu. It's all right.
+
+356
+00:20:13,521 --> 00:20:14,317
+Bones?
+
+357
+00:20:14,437 --> 00:20:17,500
+He's okay. A bit shaken, but no
+permanent damage.
+
+358
+00:20:17,620 --> 00:20:20,842
+I'm fine, captain.
+But Simone... his body...
+
+359
+00:20:20,962 --> 00:20:22,252
+KIRK:
+We'll bring him home.
+
+360
+00:20:22,638 --> 00:20:24,412
+You get some rest.
+
+361
+00:20:24,843 --> 00:20:27,026
+Return to duty when you're
+feeling up to it. All right?
+
+362
+00:20:28,049 --> 00:20:30,095
+Bones, Scotty. You're with me.
+
+363
+00:20:42,771 --> 00:20:44,749
+SCOTT:
+It's him! He's to blame
+for all of this!
+
+364
+00:20:44,869 --> 00:20:47,954
+KIRK:
+There's no reason to believe that this was
+anything more than a tragic accident.
+
+365
+00:20:48,074 --> 00:20:51,251
+SCOTT:
+I tell ya he's behind it somehow!
+He wants us all on our knees prayin' to him!
+
+366
+00:20:51,371 --> 00:20:54,138
+It would be illogical for
+Apollo to kill us.
+
+367
+00:20:54,258 --> 00:20:57,161
+Especially considering how
+desperate he seems for our help.
+
+368
+00:20:57,525 --> 00:20:58,662
+I agree with Spock.
+
+369
+00:21:01,488 --> 00:21:04,284
+A decision needs to be made about
+Apollo and what do to with him.
+
+370
+00:21:04,716 --> 00:21:08,126
+As my senior officers I'm bringing you
+in on that decision with me.
+
+371
+00:21:08,921 --> 00:21:11,467
+McCOY:
+Right now Apollo's in no
+condition to do anything.
+
+372
+00:21:11,587 --> 00:21:14,014
+Maybe what he claims is true.
+
+373
+00:21:14,134 --> 00:21:16,537
+Dr. McCoy.
+You can't be serious.
+
+374
+00:21:16,657 --> 00:21:19,742
+Simone would be alive right now if
+that creature hadn't come aboard.
+
+375
+00:21:19,862 --> 00:21:21,743
+Dr. McCoy's point is valid.
+
+376
+00:21:21,863 --> 00:21:26,364
+Apollo's appearance here could be --
+as he said -- a matter of survival.
+
+377
+00:21:26,484 --> 00:21:28,410
+He is now the last of his race.
+
+378
+00:21:28,728 --> 00:21:30,365
+I sympathize, gentlemen.
+
+379
+00:21:31,251 --> 00:21:34,002
+But not to the point where the
+safety of the crew is in jeopardy.
+
+380
+00:21:35,343 --> 00:21:37,344
+We have no further facts
+at this time, captain.
+
+381
+00:21:37,464 --> 00:21:40,777
+And he hasn't demonstrated any
+aggressiveness toward anyone, Jim.
+
+382
+00:21:40,897 --> 00:21:43,551
+We're the ones keeping him
+locked up in sickbay.
+
+383
+00:21:44,028 --> 00:21:48,029
+Captain, if our objective is to
+determine Apollo's true intentions...
+
+384
+00:21:48,149 --> 00:21:52,690
+...perhaps it is time we -- what is the
+saying -- "give him enough rope"?
+
+385
+00:21:53,326 --> 00:21:54,667
+Something like that.
+
+386
+00:21:54,787 --> 00:21:55,686
+I don't believe it!
+
+387
+00:21:55,806 --> 00:21:57,278
+That'll be enough, Mr. Scott.
+
+388
+00:22:01,796 --> 00:22:03,683
+Aye, sir.
+
+389
+00:22:04,615 --> 00:22:06,957
+If you'll excuse me.
+
+390
+00:22:07,775 --> 00:22:11,071
+I need to continue repairing the
+damage caused by our guest.
+
+391
+00:22:14,640 --> 00:22:16,709
+McCOY:
+Scotty's not as forgiving
+as some, Jim.
+
+392
+00:22:17,482 --> 00:22:20,801
+Seeing Apollo again has really
+reopened some old deep wounds.
+
+393
+00:22:20,921 --> 00:22:22,729
+He doesn't trust him.
+
+394
+00:22:23,298 --> 00:22:25,071
+Can't say I really
+blame him.
+
+395
+00:22:27,708 --> 00:22:30,572
+Have the security detail
+accompany Apollo.
+
+396
+00:22:30,913 --> 00:22:33,005
+And allow him to walk
+about the ship a bit.
+
+397
+00:22:33,323 --> 00:22:34,232
+And Spock?
+
+398
+00:22:34,352 --> 00:22:35,414
+Yes captain?
+
+399
+00:22:35,801 --> 00:22:37,071
+Make it a short leash.
+
+400
+00:22:48,796 --> 00:22:51,962
+APOLLO:
+Many things have changed on
+your Earth over the centuries.
+
+401
+00:22:53,221 --> 00:22:54,338
+Some things have not.
+
+402
+00:22:54,458 --> 00:22:56,154
+Well one thing has changed...
+
+403
+00:22:56,274 --> 00:22:58,587
+I've one less crewman than
+I did an hour ago.
+
+404
+00:22:58,707 --> 00:23:01,822
+Perhaps you can tell me how your Realm
+managed to kill one of my men.
+
+405
+00:23:01,942 --> 00:23:03,329
+I have little knowledge of this matter...
+
+406
+00:23:03,449 --> 00:23:05,366
+That's not good enough.
+
+407
+00:23:06,122 --> 00:23:09,824
+Look. If you want our help, you're going to
+have to start providing some answers.
+
+408
+00:23:09,944 --> 00:23:12,459
+The Realm thrives on energy...
+
+409
+00:23:13,150 --> 00:23:16,223
+Survival became its sole purpose.
+
+410
+00:23:16,343 --> 00:23:18,715
+Athena and I were its prisoners.
+
+411
+00:23:18,835 --> 00:23:21,224
+Had your ship not been so close...
+
+412
+00:23:21,344 --> 00:23:23,770
+...we would have been
+unable to escape.
+
+413
+00:23:25,637 --> 00:23:28,547
+Perhaps you have reconsidered
+my request.
+
+414
+00:23:29,602 --> 00:23:34,476
+I have a responsibility to my Federation's
+non-interference directive.
+
+415
+00:23:34,596 --> 00:23:39,095
+To allow someone with your history to descend
+upon some planet and set up church...
+
+416
+00:23:39,215 --> 00:23:43,520
+Your history tapes show how humans
+have evolved as a species.
+
+417
+00:23:43,640 --> 00:23:47,066
+Yet your Federation's promise of
+compassion and benevolence...
+
+418
+00:23:47,186 --> 00:23:49,031
+...seem little more than words!
+
+419
+00:23:51,213 --> 00:23:53,684
+Is that all you learned
+from our history?
+
+420
+00:23:54,767 --> 00:23:57,952
+I assure you our decision will be a
+just one. In the meantime...
+
+421
+00:23:58,407 --> 00:24:00,444
+If you're feeling up to it... You may...
+
+422
+00:24:00,753 --> 00:24:02,172
+...walk about the ship.
+
+423
+00:24:02,292 --> 00:24:05,827
+Get to know present-day humanity
+from some of its best representatives...
+
+424
+00:24:05,947 --> 00:24:09,228
+My crew.
+Accompanied by security, of course.
+
+425
+00:24:09,348 --> 00:24:10,374
+Of course.
+
+426
+00:24:11,430 --> 00:24:13,413
+I'm pleased to see...
+
+427
+00:24:14,213 --> 00:24:16,195
+...I was remembered.
+
+428
+00:24:17,414 --> 00:24:20,814
+Yes... you were remembered...
+but not as a deity.
+
+429
+00:24:46,209 --> 00:24:51,517
+UHURA:
+♪ Travel, my love,
+to the end of the stars... ♪
+
+430
+00:24:51,637 --> 00:24:57,022
+♪ ...and know you are with me,
+adored from afar. ♪
+
+431
+00:24:57,883 --> 00:25:02,679
+♪ One starry night,
+on the moon of SaDun... ♪
+
+432
+00:25:03,105 --> 00:25:09,634
+♪ ...we'll meet and we'll fly off,
+forever as one. ♪
+
+433
+00:25:20,677 --> 00:25:24,090
+I knew this was important to you,
+so I wanted to keep it safe.
+
+434
+00:25:24,210 --> 00:25:28,694
+You will honor me,
+if you continue to do so.
+
+435
+00:25:29,989 --> 00:25:32,518
+Y'know, you have the voice of an angel.
+
+436
+00:25:33,525 --> 00:25:34,564
+Thank you.
+
+437
+00:25:34,684 --> 00:25:36,383
+As that of another...
+
+438
+00:25:36,503 --> 00:25:38,514
+My sister, Artemis.
+
+439
+00:25:39,992 --> 00:25:41,981
+Thank you!
+
+440
+00:25:42,493 --> 00:25:46,187
+Wait... You're the Greek god of music.
+
+441
+00:25:46,670 --> 00:25:48,148
+I am.
+
+442
+00:25:50,535 --> 00:25:51,956
+I was.
+
+443
+00:25:52,076 --> 00:25:53,973
+I'm sorry I didn't mean to...
+
+444
+00:25:54,093 --> 00:25:57,099
+No, no.
+It's all right, my child.
+
+445
+00:25:57,549 --> 00:26:02,096
+Even through the centuries,
+music stills echoes in my mind...
+
+446
+00:26:02,216 --> 00:26:06,415
+The battles, heroes,
+bravery... love.
+
+447
+00:26:07,126 --> 00:26:09,371
+To love a mortal was...
+
+448
+00:26:09,491 --> 00:26:12,838
+...to watch the sun rise
+on a perfect day.
+
+449
+00:26:13,463 --> 00:26:16,702
+Only to mourn too
+quickly at setting...
+
+450
+00:26:16,822 --> 00:26:19,260
+...into eternal night.
+
+451
+00:26:22,835 --> 00:26:28,003
+♪ Walk, you and I,
+through the gardens of old... ♪
+
+452
+00:26:28,992 --> 00:26:35,409
+♪ Adorn thou, my love,
+in silver and gold. ♪
+
+453
+00:26:35,529 --> 00:26:42,070
+♪ Drink of sweet wine,
+as brave tales are told. ♪
+
+454
+00:26:42,775 --> 00:26:48,299
+♪ Pray to the gods that we may... ♪
+
+455
+00:26:48,419 --> 00:26:56,280
+♪ Love a thousand years in a day. ♪
+
+456
+00:27:01,288 --> 00:27:04,637
+Thank you. Thank you.
+You are very kind.
+
+457
+00:27:05,092 --> 00:27:08,766
+It pleases me that you still
+enjoy my music, my children.
+
+458
+00:27:09,057 --> 00:27:10,748
+That was just lovely.
+
+459
+00:27:11,075 --> 00:27:12,039
+Y'know...
+
+460
+00:27:12,366 --> 00:27:15,967
+Marsyas once challenged me
+to a contest of music.
+
+461
+00:27:16,087 --> 00:27:17,362
+CREWMAN:
+Who is Marsyas?
+
+462
+00:27:17,482 --> 00:27:23,357
+Marsyas was a satyr who believed he could
+play his flute as proficiently as I my lyre.
+
+463
+00:27:23,902 --> 00:27:27,576
+After we both played,
+the Muses declared...
+
+464
+00:27:27,696 --> 00:27:29,940
+...the contest a tie.
+
+465
+00:27:30,286 --> 00:27:32,050
+Until I decreed...
+
+466
+00:27:32,170 --> 00:27:35,351
+...that we both play and sing at
+the same time!
+
+467
+00:27:36,970 --> 00:27:39,534
+An impossible feat
+for Marsyas!
+
+468
+00:27:43,190 --> 00:27:44,851
+[INTERCOM WHISTLE]
+
+469
+00:27:44,971 --> 00:27:46,996
+SCOTT (V.O.):
+Engineering to Captain Kirk.
+
+470
+00:27:49,551 --> 00:27:50,287
+Kirk here.
+
+471
+00:27:50,340 --> 00:27:51,373
+Scott here, sir.
+
+472
+00:27:51,493 --> 00:27:53,817
+My panels are lighting up
+with malfunctions everywhere.
+
+473
+00:27:53,842 --> 00:27:56,728
+Some of that corrosive junk definitely
+got into some of our systems.
+
+474
+00:27:56,755 --> 00:27:57,813
+How bad is it?
+
+475
+00:27:57,838 --> 00:27:59,219
+I don't know yet.
+
+476
+00:27:59,339 --> 00:28:02,107
+I'm working on a way to rig a ship-wide
+electromagnetic pulse...
+
+477
+00:28:02,227 --> 00:28:04,097
+...to wipe it out all in one shot.
+
+478
+00:28:05,304 --> 00:28:06,386
+Well...
+
+479
+00:28:06,770 --> 00:28:09,273
+Do what you can, Scotty.
+Keep me informed. Kirk out.
+
+480
+00:28:09,610 --> 00:28:10,774
+[DOOR BUZZER]
+
+481
+00:28:10,894 --> 00:28:11,589
+Come.
+
+482
+00:28:12,462 --> 00:28:14,126
+Captain. I thought now...
+
+483
+00:28:17,224 --> 00:28:18,702
+Yes, lieutenant?
+
+484
+00:28:20,332 --> 00:28:23,149
+I thought now would be a good
+time for that little chat.
+
+485
+00:28:24,382 --> 00:28:26,303
+Well, you're certainly persistent.
+
+486
+00:28:27,632 --> 00:28:29,086
+I get that a lot.
+
+487
+00:28:30,937 --> 00:28:32,415
+Give me one minute.
+
+488
+00:28:38,609 --> 00:28:41,344
+I suppose you feel like
+you need to prove yourself...
+
+489
+00:28:41,464 --> 00:28:44,720
+...being Starfleet's first onboard
+ship's counselor.
+
+490
+00:28:44,840 --> 00:28:49,709
+Not, I assume, unlike you feeling you had to
+prove yourself when you became captain at 33.
+
+491
+00:28:50,018 --> 00:28:53,237
+The youngest starship captain
+in Starfleet history.
+
+492
+00:28:53,357 --> 00:28:54,783
+32.
+
+493
+00:28:56,256 --> 00:28:58,166
+But close enough.
+
+494
+00:28:59,366 --> 00:29:00,621
+My mistake.
+
+495
+00:29:01,883 --> 00:29:06,303
+Captain, part of my job is to assess the
+psychological condition of all onboard.
+
+496
+00:29:06,423 --> 00:29:10,776
+Even alien life forms like Apollo.
+And make recommendations.
+
+497
+00:29:11,104 --> 00:29:13,759
+And...
+I'll bet you have one.
+
+498
+00:29:14,086 --> 00:29:15,759
+Yes. I do.
+
+499
+00:29:18,128 --> 00:29:19,983
+I believe him.
+
+500
+00:29:20,438 --> 00:29:23,639
+I believe that he is sincere
+about everything that he says.
+
+501
+00:29:24,042 --> 00:29:26,803
+Whatever Apollo might have
+been once upon a time...
+
+502
+00:29:27,076 --> 00:29:30,349
+...his experiences since
+then have changed him.
+
+503
+00:29:30,469 --> 00:29:32,295
+But changed him how?
+
+504
+00:29:32,983 --> 00:29:37,615
+That's what I need to know before I could
+even consider granting his request.
+
+505
+00:29:37,735 --> 00:29:42,276
+If I'm wrong, there's no telling
+what he's liable to do.
+
+506
+00:29:42,396 --> 00:29:45,544
+But can't that be said
+about any one of us?
+
+507
+00:29:45,664 --> 00:29:49,096
+In each of us there's the
+potential to do great things...
+
+508
+00:29:49,216 --> 00:29:52,733
+And to do dangerous and
+unpredictable things.
+
+509
+00:29:52,853 --> 00:29:54,893
+How is Apollo any different?
+
+510
+00:29:55,013 --> 00:29:59,070
+Last time I checked, neither you nor I
+where ever worshipped as gods.
+
+511
+00:29:59,433 --> 00:30:01,593
+I'd call that a big difference.
+
+512
+00:30:02,048 --> 00:30:06,452
+He watched his friends die
+in that Realm.
+
+513
+00:30:07,277 --> 00:30:09,777
+And now he's here.
+
+514
+00:30:09,897 --> 00:30:15,262
+Alone.
+And he's facing death himself.
+
+515
+00:30:16,029 --> 00:30:18,405
+I truly believe that if
+we let the...
+
+516
+00:30:18,435 --> 00:30:20,604
+[INTERCOM WHISTLES]
+
+517
+00:30:22,139 --> 00:30:22,963
+Kirk here.
+
+518
+00:30:23,083 --> 00:30:24,213
+SPOCK (V.O.):
+Spock here, Captain.
+
+519
+00:30:24,333 --> 00:30:27,551
+I suggest you come to rec room 6
+as soon as possible.
+
+520
+00:30:27,671 --> 00:30:28,716
+Why? What is it?
+
+521
+00:30:28,836 --> 00:30:31,558
+I think you should see for yourself.
+
+522
+00:30:32,788 --> 00:30:33,746
+On my way.
+
+523
+00:30:36,053 --> 00:30:41,603
+When Troilus, the young Trojan prince,
+rejected Achilles' lustful advances...
+
+524
+00:30:41,723 --> 00:30:45,377
+He sealed the fate of
+himself and his city.
+
+525
+00:30:45,497 --> 00:30:48,929
+Achilles arrived at Troy
+with 50 ships.
+
+526
+00:30:49,049 --> 00:30:52,792
+His arrogance only
+matched by his rage.
+
+527
+00:30:52,912 --> 00:30:56,700
+On that fateful day,
+when Paris fired his arrow...
+
+528
+00:30:56,820 --> 00:31:00,563
+It was I who guided it
+into Achilles' heel.
+
+529
+00:31:00,683 --> 00:31:04,803
+Payment for the sacrilege of
+murdering Troilus, my son!
+
+530
+00:31:04,923 --> 00:31:06,153
+On the very altar of...
+
+531
+00:31:06,180 --> 00:31:07,072
+Apollo!
+
+532
+00:31:12,147 --> 00:31:14,478
+I'd like a word, please.
+
+533
+00:31:15,200 --> 00:31:16,522
+Outside.
+
+534
+00:31:38,566 --> 00:31:41,563
+What was that back there?
+Your idea of Olympian honor?
+
+535
+00:31:41,683 --> 00:31:44,615
+You assured us you
+had no desire for worship.
+
+536
+00:31:44,735 --> 00:31:47,834
+This is a pretty poor way of proving
+yourself worthy of our help.
+
+537
+00:31:47,954 --> 00:31:49,372
+It is you who are not worthy.
+
+538
+00:31:49,492 --> 00:31:51,037
+If you expect us to...
+
+539
+00:32:23,518 --> 00:32:27,069
+Is this a preview of what you'll do
+to some unsuspecting planet?
+
+540
+00:32:27,723 --> 00:32:31,331
+Well you'll never get there! And you'll
+die alone! Is that what you want?
+
+541
+00:32:31,451 --> 00:32:34,838
+I want what is mine! 
+Humanity's worship and love!
+
+542
+00:32:34,958 --> 00:32:36,404
+Humanity never loved you!
+
+543
+00:32:37,400 --> 00:32:38,761
+They feared you!
+
+544
+00:32:38,881 --> 00:32:40,552
+No god should survive on fear!
+
+545
+00:32:40,672 --> 00:32:41,402
+Enough!
+
+546
+00:32:41,837 --> 00:32:44,321
+Receive the wage of your blasphemy!
+
+547
+00:33:12,815 --> 00:33:14,140
+You're going to the brig.
+
+548
+00:33:14,178 --> 00:33:15,253
+Take him to sickbay.
+
+549
+00:33:15,819 --> 00:33:18,734
+Tell McCoy to put him in restraints 
+and sedate him if he has to.
+
+550
+00:33:19,155 --> 00:33:20,108
+Aye sir.
+
+551
+00:33:30,993 --> 00:33:32,188
+Help Dr. McKennah.
+
+552
+00:33:33,186 --> 00:33:34,973
+Come with me, Elise.
+
+553
+00:33:35,736 --> 00:33:38,221
+All right, everyone.
+Back to your stations.
+
+554
+00:33:43,453 --> 00:33:45,106
+I guess Scotty was right.
+
+555
+00:33:45,226 --> 00:33:45,988
+How so?
+
+556
+00:33:46,500 --> 00:33:48,584
+You were here, Spock,
+You saw what just happened.
+
+557
+00:33:48,704 --> 00:33:49,626
+Yes sir.
+
+558
+00:33:49,746 --> 00:33:53,350
+While Apollo clearly had influence on 
+those in the recreation room, I...
+
+559
+00:33:53,669 --> 00:33:55,924
+...do not believe he intended to
+behave as he did.
+
+560
+00:33:56,733 --> 00:33:58,499
+So you think he 
+can't control it?
+
+561
+00:33:58,619 --> 00:34:02,684
+He's been this divine parasite for so long
+that he just can't help himself, is that it?
+
+562
+00:34:02,804 --> 00:34:06,071
+It has been my experience that 
+humans -- if not most beings --
+
+563
+00:34:06,114 --> 00:34:10,190
+...are unable to change their behaviors 
+that are deeply embedded by choice.
+
+564
+00:34:10,466 --> 00:34:13,637
+It is often forced by tragedy 
+or outside intervention.
+
+565
+00:34:13,757 --> 00:34:17,072
+Well Apollo's therapy will not be at the 
+expense of the crew of the Enterprise.
+
+566
+00:34:17,098 --> 00:34:18,485
+I can promise you that.
+
+567
+00:34:18,989 --> 00:34:21,948
+Apparently you can't teach
+an old god new tricks.
+
+568
+00:34:31,557 --> 00:34:33,784
+Easy, Jim.
+He's restrained.
+
+569
+00:34:33,904 --> 00:34:36,577
+He offered his wrists for the straps.
+
+570
+00:34:42,993 --> 00:34:44,955
+What words can I offer, captain?
+
+571
+00:34:45,075 --> 00:34:46,827
+How about an explanation?
+
+572
+00:34:46,947 --> 00:34:48,988
+Even a god can lose control.
+
+573
+00:34:49,108 --> 00:34:51,282
+But you said you weren't a god anmyore.
+
+574
+00:34:51,402 --> 00:34:52,711
+I'm not.
+
+575
+00:34:54,174 --> 00:34:56,235
+I'm a fool.
+
+576
+00:34:57,100 --> 00:35:00,424
+I believed I could control the
+deepest ancient drives...
+
+577
+00:35:00,956 --> 00:35:03,150
+...by sheer force of my will.
+
+578
+00:35:03,270 --> 00:35:05,345
+I see now I cannot.
+
+579
+00:35:06,705 --> 00:35:08,667
+You will not help me then, will you?
+
+580
+00:35:08,787 --> 00:35:12,490
+That little show of yours demonstrated
+exactly why I can't.
+
+581
+00:35:12,610 --> 00:35:13,920
+Nor should you.
+
+582
+00:35:15,748 --> 00:35:17,244
+I'm sorry.
+
+583
+00:35:18,341 --> 00:35:20,170
+So am I.
+
+584
+00:35:21,666 --> 00:35:24,791
+But I don't see any alternative.
+
+585
+00:35:25,255 --> 00:35:26,652
+Wait!
+
+586
+00:35:29,444 --> 00:35:32,369
+The organ in my body.
+
+587
+00:35:32,489 --> 00:35:35,228
+That's what allows you to channel the
+power from that temple of yours.
+
+588
+00:35:35,348 --> 00:35:40,082
+Yes. Yes.
+But it is serves another purpose.
+
+589
+00:35:42,812 --> 00:35:43,806
+I'm listening.
+
+590
+00:35:43,926 --> 00:35:46,964
+It's what converts mortal
+worship into energy.
+
+591
+00:35:47,535 --> 00:35:50,660
+An energy that defies your understanding.
+
+592
+00:35:51,325 --> 00:35:54,682
+I cannot control it as I first believed.
+
+593
+00:35:56,012 --> 00:35:58,240
+Neither will I let it control me.
+
+594
+00:35:58,360 --> 00:36:02,196
+"If thine eye offends thee, 
+then pluck it out..."
+
+595
+00:36:02,595 --> 00:36:05,022
+It's a quote from one of 
+our greatest Earth books.
+
+596
+00:36:05,142 --> 00:36:08,516
+You want me to remove the organ.
+
+597
+00:36:08,636 --> 00:36:10,345
+Yes.
+
+598
+00:36:10,810 --> 00:36:12,339
+Can you do it, Bones?
+
+599
+00:36:12,459 --> 00:36:14,334
+Well I dunno, Jim. It's...
+
+600
+00:36:14,454 --> 00:36:17,154
+Removing an organ is straightforward
+enough stuff, but considering...
+
+601
+00:36:17,217 --> 00:36:18,528
+I accept any risk.
+
+602
+00:36:19,975 --> 00:36:22,953
+My powers must be extinguished permanently.
+
+603
+00:36:23,073 --> 00:36:25,320
+If I am to survive.
+
+604
+00:36:25,826 --> 00:36:27,368
+And no god...
+
+605
+00:36:28,352 --> 00:36:29,549
+...no one...
+
+606
+00:36:30,879 --> 00:36:32,475
+...should survive on fear.
+
+607
+00:36:34,017 --> 00:36:35,214
+It's your call.
+
+608
+00:36:35,719 --> 00:36:37,209
+Please, doctor...
+
+609
+00:36:38,805 --> 00:36:40,640
+I have faith in you.
+
+610
+00:36:48,885 --> 00:36:50,507
+KIRK (V.O.):
+Captain's log, supplemental.
+
+611
+00:36:50,627 --> 00:36:53,518
+While ship's surgeon McCoy performs
+elective surgery on Apollo...
+
+612
+00:36:53,638 --> 00:36:56,838
+...to remove what the medical staff has
+deemed the "God Organ"...
+
+613
+00:36:56,958 --> 00:36:59,901
+...Mr. Scott has come up with a
+solution to our other problem.
+
+614
+00:37:00,021 --> 00:37:02,486
+He and his engineering team
+begin within the hour.
+
+615
+00:37:02,606 --> 00:37:03,677
+[INTERCOM WHISTLE]
+
+616
+00:37:03,797 --> 00:37:05,841
+McCOY:
+Sickbay to Captain Kirk.
+
+617
+00:37:10,358 --> 00:37:11,486
+Kirk here, Bones.
+
+618
+00:37:11,606 --> 00:37:12,996
+Well... it's done, Jim.
+
+619
+00:37:13,815 --> 00:37:16,943
+He's very weak and I couldn't give you 
+a guess about a recovery.
+
+620
+00:37:17,432 --> 00:37:18,453
+But it's out.
+
+621
+00:37:18,751 --> 00:37:19,609
+Understood.
+
+622
+00:37:19,658 --> 00:37:21,921
+Join us in the briefing room
+as soon as you're able.
+
+623
+00:37:39,132 --> 00:37:40,749
+Well, gentlemen.
+
+624
+00:37:40,869 --> 00:37:43,617
+Thanks to some skillful work
+by our good doctor...
+
+625
+00:37:43,737 --> 00:37:48,340
+...it is probable that Apollo no longer has 
+the urge to thrive on the worship of others.
+
+626
+00:37:48,744 --> 00:37:51,659
+I would therefore like to revisit 
+the question of resettling him.
+
+627
+00:37:51,779 --> 00:37:54,534
+As with any surgery, we'll have 
+to wait and see for a while...
+
+628
+00:37:54,556 --> 00:37:56,455
+...but I'm fairly sure he's harmless now.
+
+629
+00:37:56,575 --> 00:38:00,627
+I believe Apollo's sincerity and intention
+were demonstrated by his willingness...
+
+630
+00:38:00,658 --> 00:38:04,099
+...to have an organ that he has relied
+for centuries removed.
+
+631
+00:38:04,423 --> 00:38:06,295
+SCOTT:
+Forgive me for saying so, gentlemen.
+
+632
+00:38:06,415 --> 00:38:08,690
+But it seems like a lot 
+of wishful thinking.
+
+633
+00:38:08,810 --> 00:38:13,424
+We've nothing but Apollo's word that removing
+that thing will make a wee bit of difference.
+
+634
+00:38:13,544 --> 00:38:15,525
+And what would you suggest, Scotty?
+
+635
+00:38:17,652 --> 00:38:19,089
+I don't know.
+
+636
+00:38:19,913 --> 00:38:24,304
+I just feel that turning him loose
+somewhere is certain disaster.
+
+637
+00:38:24,424 --> 00:38:27,443
+So we still have no consensus.
+
+638
+00:38:29,384 --> 00:38:34,012
+Bones. Keep observing Apollo.
+Let me know if there're any changes.
+
+639
+00:38:35,315 --> 00:38:37,522
+What's the status of your operation?
+
+640
+00:38:37,642 --> 00:38:40,478
+We're ready to trigger the surge and
+sweep the ship's systems of that gunk.
+
+641
+00:38:40,598 --> 00:38:43,962
+I will monitor Mr. Scott's
+progress from the bridge.
+
+642
+00:38:44,082 --> 00:38:45,105
+How long?
+
+643
+00:38:45,225 --> 00:38:46,914
+I can have it for
+you in 10 minutes.
+
+644
+00:38:48,084 --> 00:38:51,406
+10 minutes it is.
+Dismissed, gentlemen.
+
+645
+00:38:56,725 --> 00:38:59,385
+Offering himself up for major surgery...
+
+646
+00:39:00,874 --> 00:39:02,709
+Maybe he is sincere, Bones.
+
+647
+00:39:02,829 --> 00:39:05,662
+Maybe.
+Maybe not.
+
+648
+00:39:05,782 --> 00:39:10,648
+One thing's for certain, Jim. If we can't come
+to a consensus soon it won't matter.
+
+649
+00:39:11,073 --> 00:39:16,385
+Rather than feel the warmth of the sun,
+Apollo will probably die in sickbay.
+
+650
+00:39:26,343 --> 00:39:29,053
+Scott to bridge.
+We're ready to begin.
+
+651
+00:39:29,173 --> 00:39:31,172
+KIRK:
+At your discretion, Mr. Scott.
+
+652
+00:39:39,774 --> 00:39:40,909
+It's working, captain. 
+
+653
+00:39:41,029 --> 00:39:43,990
+The pulse has so far eliminated
+30 percent of the foreign substance.
+
+654
+00:39:44,258 --> 00:39:46,216
+Well done, Scotty.
+
+655
+00:39:47,274 --> 00:39:48,728
+Good riddance.
+
+656
+00:39:48,848 --> 00:39:50,723
+Get off my ship.
+
+657
+00:39:57,871 --> 00:40:01,071
+Bridge, I'm reading a buildup of
+electrostatic energy in your systems.
+
+658
+00:40:01,191 --> 00:40:04,770
+I advise that you step away from your stations
+as a precaution while I try to compensate.
+
+659
+00:40:12,375 --> 00:40:13,372
+Uhura!
+
+660
+00:40:14,535 --> 00:40:16,075
+Uhura?
+
+661
+00:40:18,361 --> 00:40:19,067
+Sulu!
+
+662
+00:40:19,187 --> 00:40:21,893
+Tell McCoy we're coming.
+You've got the conn.
+
+663
+00:40:28,584 --> 00:40:30,163
+Bones!
+
+664
+00:40:37,195 --> 00:40:38,883
+Stay with me, lieutenant.
+
+665
+00:40:41,545 --> 00:40:44,532
+Stay with me.
+Cortical stimulator.
+
+666
+00:40:46,214 --> 00:40:47,253
+Bones.
+
+667
+00:41:01,165 --> 00:41:02,441
+Jim, I...
+
+668
+00:41:21,654 --> 00:41:22,611
+No, dammit!
+
+669
+00:41:22,628 --> 00:41:23,200
+Doctor...
+
+670
+00:41:23,237 --> 00:41:24,718
+No!
+Get me the bypass...
+
+671
+00:41:24,838 --> 00:41:25,578
+Bones.
+
+672
+00:42:09,982 --> 00:42:12,709
+Apollo, I do not know what 
+you hope to accomplish.
+
+673
+00:42:12,829 --> 00:42:15,956
+But your recovery will require what 
+little energy you have remaining.
+
+674
+00:42:28,899 --> 00:42:30,003
+Nyota!
+
+675
+00:42:36,366 --> 00:42:37,470
+What happened?
+
+676
+00:42:37,590 --> 00:42:38,639
+It's all right.
+
+677
+00:42:52,472 --> 00:42:55,521
+Removing that organ was supposed
+to render him powerless.
+
+678
+00:42:56,309 --> 00:42:57,404
+How did he do that?
+
+679
+00:42:57,524 --> 00:42:59,807
+I can't tell you that if I was
+from Mount Olympus myself.
+
+680
+00:42:59,927 --> 00:43:03,378
+But he has more energy now
+than he did before the surgery.
+
+681
+00:43:03,498 --> 00:43:04,937
+Something, Spock?
+
+682
+00:43:05,057 --> 00:43:06,308
+Is it possible...
+
+683
+00:43:06,346 --> 00:43:11,245
+...that Apollo's species are able to draw
+power from something other than worship?
+
+684
+00:43:12,109 --> 00:43:16,888
+Well, Apollo himself said that it was the 
+organ that converted worship into energy.
+
+685
+00:43:17,008 --> 00:43:18,655
+Life energy, he said.
+
+686
+00:43:18,775 --> 00:43:20,577
+What are you getting at, Spock?
+
+687
+00:43:21,965 --> 00:43:23,901
+Sacrifice.
+
+688
+00:43:25,511 --> 00:43:27,278
+Why not?
+
+689
+00:43:27,398 --> 00:43:32,940
+We've seen species throughout the galaxy
+that draw energy from many different sources.
+
+690
+00:43:33,060 --> 00:43:36,316
+Well if that's the case,
+why all this insistence on worship?
+
+691
+00:43:36,436 --> 00:43:38,273
+Perhaps the gods assumed...
+
+692
+00:43:38,327 --> 00:43:43,125
+...that since worship from humans empowered them,
+that was the only thing that did so.
+
+693
+00:43:43,449 --> 00:43:45,511
+Let's find out.
+
+694
+00:43:46,290 --> 00:43:47,329
+How's he doing?
+
+695
+00:43:47,449 --> 00:43:49,251
+He is fine.
+
+696
+00:43:49,371 --> 00:43:51,225
+What you did... 
+
+697
+00:43:51,345 --> 00:43:52,731
+That was really something.
+
+698
+00:43:52,851 --> 00:43:55,900
+I don't fully understand it myself.
+
+699
+00:43:56,020 --> 00:44:01,666
+But when I saw Lt. Uhura lying there...
+and the grief on all your faces...
+
+700
+00:44:01,786 --> 00:44:05,614
+...I realized the universe was a
+better place with her in it.
+
+701
+00:44:05,734 --> 00:44:09,302
+So you thought saving her would kill you.
+
+702
+00:44:10,415 --> 00:44:12,040
+Well, not only did you not die...
+
+703
+00:44:12,081 --> 00:44:18,252
+...but we believe the energy you gained
+actually came from your act of sacrifice.
+
+704
+00:44:19,142 --> 00:44:20,701
+Do you mean to say that...?
+
+705
+00:44:20,821 --> 00:44:23,246
+All those centuries demanding worship...
+
+706
+00:44:23,366 --> 00:44:26,778
+Forcing adoration.
+Striking those that resisted.
+
+707
+00:44:26,898 --> 00:44:31,765
+You never considered there 
+may be another way. A better way.
+
+708
+00:44:32,440 --> 00:44:36,129
+No.
+We did not.
+
+709
+00:44:36,249 --> 00:44:38,990
+It is unlikely that sacrificial acts alone...
+
+710
+00:44:39,013 --> 00:44:41,271
+...will provide you with the
+energy you once enjoyed.
+
+711
+00:44:41,391 --> 00:44:43,713
+So... no more thunderbolts.
+
+712
+00:44:43,833 --> 00:44:46,371
+But if you continue in this manner...
+
+713
+00:44:46,491 --> 00:44:50,285
+...it is conceivable that you could
+prolong your life indefinitely.
+
+714
+00:44:52,465 --> 00:44:55,270
+We never knew.
+
+715
+00:44:55,842 --> 00:44:59,634
+I'd like to see the senior officers
+in the briefing room.
+
+716
+00:45:00,480 --> 00:45:04,049
+And... 
+Keep an eye on him.
+
+717
+00:45:12,826 --> 00:45:14,946
+And that, gentlemen,
+is where we stand.
+
+718
+00:45:15,066 --> 00:45:20,099
+I believe Apollo has demonstrated that he can
+live peaceably among humanoids...
+
+719
+00:45:20,219 --> 00:45:21,429
+...as one of them.
+
+720
+00:45:21,549 --> 00:45:25,792
+Our present course will take us
+past the Basilean Epsilon system.
+
+721
+00:45:25,912 --> 00:45:29,989
+The second planet is a simple
+humanoid population.
+
+722
+00:45:30,832 --> 00:45:34,282
+Apollo sacrificed himself to save
+one of our own...
+
+723
+00:45:34,822 --> 00:45:37,481
+...and now he's placed 
+his fate in our hands.
+
+724
+00:45:38,188 --> 00:45:41,388
+All those in favor of finding
+him a new home?
+
+725
+00:46:09,013 --> 00:46:11,506
+This will be a 
+new experience for you.
+
+726
+00:46:11,626 --> 00:46:13,459
+And I am eager for it.
+
+727
+00:46:13,579 --> 00:46:17,864
+Captain Kirk. 
+You and your crew have my deepest thanks.
+
+728
+00:46:17,984 --> 00:46:21,230
+None of this would have been
+possible without your enlightenment.
+
+729
+00:46:21,350 --> 00:46:23,765
+Well... that's what we mortals do.
+
+730
+00:46:23,885 --> 00:46:27,464
+You'll find the inhabitants of this
+planet to be a simple people...
+
+731
+00:46:27,584 --> 00:46:31,370
+...at a cultural development stage similar
+to the Earth's 14th century.
+
+732
+00:46:31,490 --> 00:46:35,895
+Which means you'll have plenty of opportunities
+to practice that new-found gift of yours.
+
+733
+00:46:36,015 --> 00:46:40,051
+And I shall do so with all of my heart.
+I swear it.
+
+734
+00:46:50,676 --> 00:46:52,172
+Thank you.
+
+735
+00:46:55,953 --> 00:46:57,740
+Thank you.
+
+736
+00:46:59,652 --> 00:47:01,647
+God speed, Apollo.
+
+737
+00:47:05,761 --> 00:47:06,966
+Energize.
+
+738
+00:47:21,164 --> 00:47:24,115
+KIRK (V.O.):
+Captain's log, stardate 6147.9.
+
+739
+00:47:24,235 --> 00:47:28,894
+Mr. Scott reports that repairs have begun on the
+3 affected power stations in this quadrant.
+
+740
+00:47:29,014 --> 00:47:31,927
+They are scheduled to be back
+online in 3 weeks' time.
+
+741
+00:47:32,047 --> 00:47:33,465
+On a personal note...
+
+742
+00:47:33,585 --> 00:47:36,457
+It's good to have Lt. Uhura
+back on duty.
+
+743
+00:47:37,341 --> 00:47:40,208
+Well, Dr. Leonard McCoy.
+
+744
+00:47:40,328 --> 00:47:42,037
+Surgeon to the gods.
+
+745
+00:47:42,157 --> 00:47:45,943
+Who would have thought.
+Just an old country doctor like me.
+
+746
+00:47:46,063 --> 00:47:47,273
+You must be quite proud.
+
+747
+00:47:47,393 --> 00:47:49,351
+Darn tootin'.
+I may write a paper.
+
+748
+00:47:49,750 --> 00:47:53,926
+I find it highly unlikely that Starfleet would
+allow such a paper to be published.
+
+749
+00:47:55,915 --> 00:47:59,665
+Based on the highly sensitive subject matter,
+of course.
+
+750
+00:47:59,785 --> 00:48:01,394
+Well regardless, gentlemen.
+
+751
+00:48:01,514 --> 00:48:05,224
+Apollo learned what it took our respective
+peoples centuries to discover.
+
+752
+00:48:05,603 --> 00:48:08,954
+Self sacrifice is the best way to live.
+
+753
+00:48:09,074 --> 00:48:11,321
+Benefitting both the giver and the receiver.
+
+754
+00:48:11,441 --> 00:48:14,594
+If I had an entire culture worshipping
+at my feet on bended knee...
+
+755
+00:48:14,606 --> 00:48:17,970
+...I'm not so sure I'd be in a hurry
+to change things either.
+
+756
+00:48:18,090 --> 00:48:21,374
+Well, one thing's clear.
+They sure did love humanity.
+
+757
+00:48:21,494 --> 00:48:23,408
+Apollo still does.
+
+758
+00:48:23,528 --> 00:48:26,919
+Just something about us lovable humans. 
+Don't you think, Jim?
+
+759
+00:48:27,903 --> 00:48:30,483
+Oh now. Don't pout Mr. Spock.
+
+760
+00:48:30,603 --> 00:48:34,658
+I'm sure they would have loved the Vulcans
+just as much had they landed there.
+
+761
+00:48:34,778 --> 00:48:36,812
+What's not to love?
+
+762
+00:48:36,932 --> 00:48:38,955
+I wasn't...
+
+763
+00:48:39,486 --> 00:48:41,827
+Captain, I'll be at my station.
+
+764
+00:48:43,795 --> 00:48:46,827
+Take us out of here, Mr. Sulu.
+Ahead warp 2.
+
+765
+00:48:46,947 --> 00:48:47,784
+Aye, sir.
+
+766
+00:49:43,073 --> 00:49:45,488
+Thank you! Thank you! 
+
+767
+00:49:45,608 --> 00:49:48,016
+You can't know what this means!
+
+768
+00:49:48,136 --> 00:49:52,489
+You've done my family a great service!
+Thank you! Thank you!
+
+769
+00:51:14,073 --> 00:51:16,073
+English subtitles by:
+Peter Goundrill
+

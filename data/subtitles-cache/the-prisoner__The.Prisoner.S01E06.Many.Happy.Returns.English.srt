@@ -1,0 +1,990 @@
+2
+00:02:06,720 --> 00:02:08,678
+<i>Where am I?
+
+3
+00:02:08,960 --> 00:02:11,399
+<i>In the village.
+
+4
+00:02:11,640 --> 00:02:13,478
+<i>What do you want?
+
+5
+00:02:13,599 --> 00:02:15,479
+<i>Information.
+
+6
+00:02:15,519 --> 00:02:17,599
+<i>Whose side are you on?
+
+7
+00:02:17,679 --> 00:02:19,879
+<i>That would be telling.
+
+8
+00:02:19,959 --> 00:02:23,238
+<i>We want information...
+
+9
+00:02:23,840 --> 00:02:25,679
+<i>Information...
+
+10
+00:02:26,240 --> 00:02:28,118
+<i>Information.
+
+11
+00:02:28,280 --> 00:02:30,239
+<i>You won't get it.
+
+12
+00:02:32,600 --> 00:02:36,199
+<i>By hook or by crook...</i>
+<i>...we will.
+
+13
+00:02:38,079 --> 00:02:39,758
+<i>Who are you?
+
+14
+00:02:39,800 --> 00:02:41,639
+<i>The new Number Two.
+
+15
+00:02:41,720 --> 00:02:43,838
+<i>Who is Number One?
+
+16
+00:02:44,319 --> 00:02:47,119
+<i>You are Number Six.
+
+17
+00:02:48,759 --> 00:02:51,998
+<i>I am not a number.</i>
+<i>I am a free man!
+
+18
+00:21:49,839 --> 00:21:51,559
+Where is this?
+
+19
+00:23:44,120 --> 00:23:46,399
+- Where is this place?
+- Eh?
+
+20
+00:23:46,520 --> 00:23:49,399
+A road. Where is there a road?
+
+21
+00:24:45,840 --> 00:24:48,679
+<i>Going down</i>
+<i>Water Lane now...
+
+22
+00:26:28,599 --> 00:26:30,158
+Hold it!
+
+23
+00:27:35,439 --> 00:27:36,679
+Yes?
+
+24
+00:27:36,840 --> 00:27:39,679
+- Who owns this house?
+- I beg your pardon?!
+
+25
+00:27:39,759 --> 00:27:43,319
+I'm sorry, I meant
+I'd like to see your master.
+
+26
+00:27:43,400 --> 00:27:46,799
+- My mistress is not at home.
+- Could I wait...?
+
+27
+00:28:21,000 --> 00:28:22,958
+What's the number of that car?
+
+28
+00:28:30,600 --> 00:28:35,518
+- Terribly interesting.
+- KAR 1 20 C.
+
+29
+00:28:35,840 --> 00:28:38,039
+- What's the engine number?
+- Do tell me.
+
+30
+00:28:38,120 --> 00:28:41,518
+- 461 034 TZ.
+- Marvellous.
+
+31
+00:28:41,600 --> 00:28:45,599
+I know every nut and bolt.
+I built it myself!
+
+32
+00:28:46,479 --> 00:28:50,879
+Then you're just the man I need.
+It keeps overheating in traffic.
+
+33
+00:28:50,960 --> 00:28:53,798
+Perhaps you'd care to advise me.
+
+34
+00:28:56,280 --> 00:28:57,998
+Come in.
+
+35
+00:29:15,759 --> 00:29:17,318
+This way.
+
+36
+00:29:20,199 --> 00:29:22,199
+Make yourself at home.
+
+37
+00:29:22,920 --> 00:29:24,998
+I'll organise tea.
+
+38
+00:29:25,080 --> 00:29:27,198
+- You would like tea?
+- Very much.
+
+39
+00:29:27,279 --> 00:29:30,799
+I'm Mrs Butterworth.
+And you are?
+
+40
+00:29:31,440 --> 00:29:34,958
+- An exile.
+- A nameless exile?
+
+41
+00:29:35,880 --> 00:29:37,639
+Er, Smith.
+
+42
+00:29:39,800 --> 00:29:42,079
+Peter Smith.
+
+43
+00:29:42,159 --> 00:29:45,239
+Enchanting. I'll only be a moment.
+
+44
+00:29:45,399 --> 00:29:50,238
+Then you can enlighten me
+on the intricacies of KAR 1 20 C.
+
+45
+00:30:43,280 --> 00:30:46,879
+Refreshments on the way.
+Now, tell me more.
+
+46
+00:30:46,959 --> 00:30:49,999
+- What's the date?
+- Saturday, March the 1 8th.
+
+47
+00:30:50,319 --> 00:30:53,318
+- Tomorrow's my birthday.
+- You're an odd fellow.
+
+48
+00:30:53,360 --> 00:30:58,399
+- Sorry. You must think I'm crazy.
+- Who isn't these days?
+
+49
+00:30:58,680 --> 00:31:02,678
+You know, this, er,
+this was my house.
+
+50
+00:31:02,760 --> 00:31:04,679
+Really? In better days?
+
+51
+00:31:04,760 --> 00:31:07,598
+- Before I went away.
+- You must miss it.
+
+52
+00:31:08,199 --> 00:31:11,078
+The lease had six months to run.
+
+53
+00:31:11,160 --> 00:31:14,639
+Well, I have it
+for ten years, furnished.
+
+54
+00:31:14,880 --> 00:31:16,799
+- Is the inventory in order?
+- I'll bet. Except for a missing body.
+
+55
+00:31:16,880 --> 00:31:18,839
+Except for a missing body.
+
+56
+00:31:18,920 --> 00:31:22,238
+Have you been prying
+into my private affairs?
+
+57
+00:31:25,560 --> 00:31:27,559
+Forgive me. I'm very sorry.
+
+58
+00:31:28,359 --> 00:31:31,639
+- Can you do me a favour?
+- Are you growing a beard?
+
+59
+00:31:31,959 --> 00:31:33,559
+- No.
+- Pity.
+
+60
+00:31:33,840 --> 00:31:38,518
+I do like bearded men.
+I couldn't get Arthur to grow one.
+
+61
+00:31:38,600 --> 00:31:40,598
+- Arthur?
+- My late husband.
+
+62
+00:31:40,680 --> 00:31:43,879
+A navy man.
+Unhappily, now deceased.
+
+63
+00:31:43,959 --> 00:31:46,118
+- Come in.
+
+64
+00:31:46,800 --> 00:31:49,358
+Oh, thank you, Martha.
+
+65
+00:31:50,840 --> 00:31:54,799
+Is this the, erm, gentlemen
+you said called earlier?
+
+66
+00:31:55,599 --> 00:31:56,959
+It is, madam.
+
+67
+00:31:57,120 --> 00:31:59,798
+The description was not flattering.
+
+68
+00:31:59,880 --> 00:32:04,639
+Delve deeper, Martha. Who knows
+what treasures lie there?
+
+69
+00:32:04,719 --> 00:32:07,079
+- All right.
+- Thank you, madam.
+
+70
+00:32:07,159 --> 00:32:09,198
+Sit down, Mr Smith.
+
+71
+00:32:15,080 --> 00:32:18,079
+- Sandwich?
+- Thank you very much.
+
+72
+00:32:27,159 --> 00:32:29,719
+- You're very kind.
+- It's a pleasure.
+
+73
+00:32:42,560 --> 00:32:45,439
+I've never tasted better fruitcake.
+
+74
+00:32:45,560 --> 00:32:49,039
+I'm a very good cook.
+It's a hobby of mine.
+
+75
+00:32:50,799 --> 00:32:54,439
+Mrs Butterworth, I asked
+if you'd do me a very great favour.
+
+76
+00:32:54,519 --> 00:32:56,119
+Certainly.
+
+77
+00:32:58,040 --> 00:33:04,358
+Behind this desk was an area of rot,
+it was made good some 1 2 months ago.
+
+78
+00:33:04,440 --> 00:33:10,159
+The bathroom door slides open to
+the left. The sink is on the right.
+
+79
+00:33:10,200 --> 00:33:13,319
+The hot and cold taps
+are the wrong way round.
+
+80
+00:33:13,400 --> 00:33:15,998
+I had them changed.
+
+81
+00:33:16,080 --> 00:33:20,039
+You needn't prove anything.
+I believe you.
+
+82
+00:33:21,920 --> 00:33:23,917
+I'm sorry. I'm not used to that.
+
+83
+00:33:24,000 --> 00:33:29,279
+- How can I help?
+- Could I see the lease of the house
+
+84
+00:33:29,840 --> 00:33:32,078
+and the logbook of the car?
+
+85
+00:33:32,199 --> 00:33:34,159
+How mysterious.
+
+86
+00:33:38,840 --> 00:33:40,319
+Thank you.
+
+87
+00:33:46,800 --> 00:33:48,518
+This is a new one.
+
+88
+00:33:48,878 --> 00:33:52,159
+Yours is, er, the first name on it.
+
+89
+00:33:52,239 --> 00:33:54,479
+No previous owner is shown.
+
+90
+00:33:54,560 --> 00:33:59,879
+The estate agents arranged it all.
+The car was a reasonable price.
+
+91
+00:33:59,960 --> 00:34:02,518
+I've always had a taste for speed.
+
+92
+00:34:02,640 --> 00:34:03,839
+Yes.
+
+93
+00:34:07,440 --> 00:34:12,038
+The, erm, estate agents were
+Stumbell and Croydon?
+
+94
+00:34:12,120 --> 00:34:17,359
+Most reputable. Mr Croydon
+was charming. Did you meet him?
+
+95
+00:34:17,439 --> 00:34:21,239
+No. That wasn't the firm
+I did business with.
+
+96
+00:34:21,320 --> 00:34:22,919
+How odd!
+
+97
+00:34:23,199 --> 00:34:24,919
+Yes, indeed.
+
+98
+00:34:25,880 --> 00:34:31,279
+Mrs Butterworth, you've been
+most kind, allowing me to intrude.
+
+99
+00:34:31,359 --> 00:34:35,678
+I have to make two calls -
+one in the country, one in town.
+
+100
+00:34:35,760 --> 00:34:38,119
+So I'll say goodbye.
+
+101
+00:34:38,199 --> 00:34:41,359
+Mr Smith, you mustn't go like that!
+
+102
+00:34:42,360 --> 00:34:47,438
+Some of Arthur's things, you're
+very welcome. I've kept them all.
+
+103
+00:34:48,279 --> 00:34:52,399
+It's stupid, but even if
+there isn't a man about the place,
+
+104
+00:34:52,479 --> 00:34:55,879
+I like to feel there is.
+Do you understand?
+
+105
+00:34:55,880 --> 00:34:56,839
+Yes, I...
+
+106
+00:34:56,880 --> 00:35:00,559
+I know you're in trouble.
+Have you any money?
+
+107
+00:35:00,639 --> 00:35:02,879
+- No.
+- How will you get about?
+
+108
+00:35:02,960 --> 00:35:07,558
+- I can manage. Thank you...
+- Don't be so silly and proud.
+
+109
+00:35:07,640 --> 00:35:11,959
+Come on, I'll hunt some clothes out.
+
+110
+00:35:12,560 --> 00:35:14,879
+As long as you stop
+the overheating.
+
+111
+00:35:14,919 --> 00:35:16,799
+- It's a deal.
+- Bon voyage.
+
+112
+00:35:16,838 --> 00:35:20,279
+- Mrs Butterworth, you've been...
+- No speeches. Off you go.
+
+113
+00:35:21,479 --> 00:35:23,599
+- Don't forget to come back.
+- I won't.
+
+114
+00:35:23,679 --> 00:35:27,319
+- I'll bake you a birthday cake.
+- I'll hold you to it.
+
+115
+00:35:53,960 --> 00:35:56,039
+Anyone at home?
+
+116
+00:36:00,479 --> 00:36:05,318
+Pretty spot. Mixed architecture.
+Italianate. Difficult.
+
+117
+00:36:05,400 --> 00:36:09,439
+Mediterranean?
+What do you think, Thorpe?
+
+118
+00:36:09,560 --> 00:36:15,158
+I'd like a fortnight's leave there.
+A life prison? Not like Sing Sing.
+
+119
+00:36:15,560 --> 00:36:19,879
+Sorry to stop your golf,
+Colonel, but this is no joke.
+
+120
+00:36:19,959 --> 00:36:23,238
+My dear fellow,
+you mustn't blame Thorpe.
+
+121
+00:36:23,679 --> 00:36:27,998
+After all, you yourself
+were often... sceptical.
+
+122
+00:36:28,119 --> 00:36:32,798
+That's why you were a good man.
+Why we were sorry to lose you.
+
+123
+00:36:32,919 --> 00:36:34,558
+The evidence is there.
+
+124
+00:36:34,680 --> 00:36:38,359
+A set of photographs
+of a holiday resort.
+
+125
+00:36:39,279 --> 00:36:43,238
+And a rough navigational log
+on a newspaper.
+
+126
+00:36:43,320 --> 00:36:48,359
+It was the best I could do - The
+Village store did not stock sextants.
+
+127
+00:36:48,479 --> 00:36:52,759
+Indeed, indeed.
+If the place was as you say.
+
+128
+00:36:54,519 --> 00:36:57,319
+- "The Tally Ho".
+-  A daily issue.
+
+129
+00:36:57,399 --> 00:37:00,359
+- Morning or evening?
+- Daily, at noon.
+
+130
+00:37:01,400 --> 00:37:04,598
+The Facts Behind Town Hall.
+Town Hall?
+
+131
+00:37:04,680 --> 00:37:07,159
+- That's right.
+- Town Council?
+
+132
+00:37:07,239 --> 00:37:08,678
+Correct.
+
+133
+00:37:09,440 --> 00:37:13,358
+- Were you a member?
+- I could have been. It's democratic.
+
+134
+00:37:13,440 --> 00:37:15,599
+- Democratic?
+- So they claim.
+
+135
+00:37:15,680 --> 00:37:18,799
+And they're all numbers.
+No names.
+
+136
+00:37:18,878 --> 00:37:22,399
+- No names at all.
+- Just numbers.
+
+137
+00:37:22,599 --> 00:37:23,759
+I see.
+
+138
+00:37:23,840 --> 00:37:27,559
+A complete unit of our own society,
+
+139
+00:37:27,600 --> 00:37:32,599
+a place to put people
+who know too much or too little.
+
+140
+00:37:32,880 --> 00:37:35,959
+A place with ways to break a man.
+
+141
+00:37:36,080 --> 00:37:37,519
+Intriguing.
+
+142
+00:37:37,599 --> 00:37:40,639
+It has its own cinema, newspaper,
+
+143
+00:37:41,079 --> 00:37:44,438
+its own TV station
+and credit cards.
+
+144
+00:37:44,519 --> 00:37:50,438
+And if you spill your secrets you are
+retired into the old people's home.
+
+145
+00:37:51,080 --> 00:37:55,958
+- But no escape?
+- They have an impressive graveyard.
+
+146
+00:37:56,040 --> 00:38:00,959
+- Which you avoided?
+- The Village was deserted.
+
+147
+00:38:01,680 --> 00:38:05,839
+Perhaps they were on
+the democratic annual outing.
+
+148
+00:38:09,080 --> 00:38:13,118
+The Town Hall.
+Number Two's residence. My house...
+
+149
+00:38:13,239 --> 00:38:16,118
+Now don't get excited.
+
+150
+00:38:16,200 --> 00:38:19,519
+You must forgive us,
+but we have a problem.
+
+151
+00:38:19,599 --> 00:38:21,679
+Tell him, Thorpe.
+
+152
+00:38:22,520 --> 00:38:25,558
+You resign... You disappear...
+
+153
+00:38:26,240 --> 00:38:28,039
+You return...
+
+154
+00:38:28,479 --> 00:38:33,119
+...with a yarn that Hans Christian
+Andersen would call a fairy tale.
+
+155
+00:38:33,320 --> 00:38:36,638
+And we must be sure.
+People defect.
+
+156
+00:38:37,080 --> 00:38:39,719
+An unhappy thought, but a fact.
+
+157
+00:38:39,800 --> 00:38:43,639
+They defect from one side
+to the other.
+
+158
+00:38:43,719 --> 00:38:49,079
+I also have a problem. I'm not sure
+which side runs this village.
+
+159
+00:38:49,719 --> 00:38:51,998
+A mutual problem.
+
+160
+00:38:53,000 --> 00:38:55,319
+Which I will solve.
+
+161
+00:38:55,640 --> 00:38:57,518
+Quite.
+
+162
+00:38:57,560 --> 00:39:01,279
+If not here, then elsewhere.
+
+163
+00:39:05,199 --> 00:39:06,959
+- Thorpe!
+- Sir?
+
+164
+00:39:07,040 --> 00:39:09,079
+- Check.
+- Yes, sir.
+
+165
+00:39:09,560 --> 00:39:14,039
+Check every detail
+in our ex-colleague's report.
+
+166
+00:39:14,439 --> 00:39:16,679
+Of course I helped him.
+
+167
+00:39:16,800 --> 00:39:19,919
+I'd help anyone in trouble.
+
+168
+00:39:22,359 --> 00:39:23,999
+Wouldn't you?
+
+169
+00:39:35,960 --> 00:39:39,158
+Keep checking.
+Report when you find anything.
+
+170
+00:39:40,280 --> 00:39:43,199
+- All corroborated except the boat.
+- The beach?
+
+171
+00:39:43,280 --> 00:39:44,599
+- Gypsies.
+- Romanies.
+
+172
+00:39:44,720 --> 00:39:48,877
+- The roadblock?
+- Not for you. An escaped convict.
+
+173
+00:39:48,999 --> 00:39:51,319
+Was there no name on the boat?
+
+174
+00:39:51,440 --> 00:39:53,518
+Would you advertise gunrunning?
+
+175
+00:39:53,600 --> 00:39:58,079
+No, I most certainly would not.
+Would you, Thorpe?
+
+176
+00:39:58,800 --> 00:40:00,158
+No.
+
+177
+00:40:00,279 --> 00:40:01,919
+You satisfied?
+
+178
+00:40:02,199 --> 00:40:06,559
+Let us say the dice
+are loaded in your favour.
+
+179
+00:40:07,200 --> 00:40:11,479
+All right. Let's get to work.
+Commander, how's it going?
+
+180
+00:40:12,560 --> 00:40:17,639
+On the basis of your log, allowing
+for your primitive device
+
+181
+00:40:17,720 --> 00:40:20,119
+and your laggard craft,
+
+182
+00:40:20,120 --> 00:40:24,359
+I estimate average speed
+at three and a half knots.
+
+183
+00:40:24,639 --> 00:40:28,238
+- You had fair winds?
+- Mostly.
+
+184
+00:40:28,320 --> 00:40:30,998
+There is no allowance for tides.
+
+185
+00:40:31,080 --> 00:40:34,279
+No. I had no charts
+nor any means to assess them.
+
+186
+00:40:34,359 --> 00:40:37,718
+Precisely.
+You slept for how long?
+
+187
+00:40:37,800 --> 00:40:40,399
+Four hours out of each twenty-four.
+
+188
+00:40:40,479 --> 00:40:44,879
+Remarkable. So,
+in your 25 days at sea
+
+189
+00:40:44,960 --> 00:40:49,759
+you averaged three and a half
+knots for 20 hours out of 24,
+
+190
+00:40:49,838 --> 00:40:52,679
+on a northeasterly course,
+putting us at...
+
+191
+00:40:52,760 --> 00:40:58,759
+20 hours under fair sail, maximum
+travel on true course... 1 ,750 miles.
+
+192
+00:40:58,838 --> 00:41:00,959
+Where was the lighthouse?
+
+193
+00:41:02,319 --> 00:41:03,198
+Here.
+
+194
+00:41:03,279 --> 00:41:06,719
+250 miles to the inch.
+
+195
+00:41:17,280 --> 00:41:21,919
+That is my maximum possible travel.
+What about minimum?
+
+196
+00:41:21,999 --> 00:41:25,079
+At least 400 miles differential.
+
+197
+00:41:25,159 --> 00:41:28,279
+Say 500, with drift and tide.
+
+198
+00:41:29,559 --> 00:41:34,039
+Yes, on a north-easterly course
+in an equable climate,
+
+199
+00:41:42,960 --> 00:41:45,079
+somewhere about here.
+
+200
+00:41:51,440 --> 00:41:56,438
+Coast of Morocco,
+southwest of Portugal and Spain.
+
+201
+00:41:56,679 --> 00:41:58,279
+An island?
+
+202
+00:42:10,479 --> 00:42:15,877
+You've got 500 by 1 ,500 to sweep.
+750,000 square miles.
+
+203
+00:42:16,400 --> 00:42:18,198
+Quite an area.
+
+204
+00:42:18,199 --> 00:42:20,719
+We just heard
+we can refuel in Gibraltar.
+
+205
+00:42:20,799 --> 00:42:25,399
+Good. We'll sweep as far as we can
+today, and again tomorrow.
+
+206
+00:42:26,120 --> 00:42:29,959
+And tomorrow and tomorrow...
+Very stubborn, Number Six.
+
+207
+00:42:30,039 --> 00:42:32,839
+James, call me that again
+and there'll be trouble.
+
+208
+00:42:32,919 --> 00:42:34,879
+Won't be a minute.
+
+209
+00:42:36,399 --> 00:42:37,799
+Good luck.
+
+210
+00:42:37,920 --> 00:42:39,359
+Thanks.
+
+211
+00:43:41,960 --> 00:43:43,279
+Interesting fellow.
+
+212
+00:43:43,320 --> 00:43:47,279
+He's an old, old friend,
+who never gives up.
+
+213
+00:44:00,800 --> 00:44:04,958
+Turn. Sweep back.
+1 5 degrees southwest.
+
+214
+00:44:13,400 --> 00:44:16,919
+Sweep nine degrees southwest.
+
+215
+00:44:31,479 --> 00:44:33,998
+That could be it. Go closer.
+
+216
+00:44:37,440 --> 00:44:39,198
+There it is.
+
+217
+00:44:39,800 --> 00:44:42,239
+We've found it. That's it.
+
+218
+00:44:50,480 --> 00:44:52,478
+Be seeing you!
+
+219
+00:46:50,480 --> 00:46:52,838
+Many happy returns!

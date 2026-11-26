@@ -1,0 +1,3558 @@
+1
+00:00:21,180 --> 00:00:22,557
+[INTERCOM WHISTLE]
+
+2
+00:00:22,677 --> 00:00:24,677
+UHURA (V.O.):
+Bridge to Captain Kirk.
+
+3
+00:00:28,173 --> 00:00:30,187
+Bridge to Captain Kirk.
+
+4
+00:00:34,319 --> 00:00:36,545
+Yes, lieutenant.
+
+5
+00:00:36,665 --> 00:00:39,512
+UHURA (V.O.):
+We've recieved a distress signal
+from an unidentified vessel.
+
+6
+00:00:39,632 --> 00:00:42,585
+Mr. Spock has requested your
+presence on the bridge.
+
+7
+00:00:45,128 --> 00:00:46,823
+I'll be right there.
+
+8
+00:00:49,049 --> 00:00:51,168
+We'll continue this later.
+
+9
+00:01:03,460 --> 00:01:05,356
+KIRK:
+Uhura? Anything new?
+
+10
+00:01:05,476 --> 00:01:07,204
+Not yet, sir.
+Signal's automated.
+
+11
+00:01:07,324 --> 00:01:08,770
+No live contact's been made.
+
+12
+00:01:08,890 --> 00:01:09,606
+Sulu?
+
+13
+00:01:10,042 --> 00:01:12,102
+The ship is coming into
+range now, captain.
+
+14
+00:01:16,608 --> 00:01:18,304
+The vessel's Tellarite in design.
+
+15
+00:01:18,527 --> 00:01:20,588
+Looks like a G'buqoff-class
+private transport.
+
+16
+00:01:20,941 --> 00:01:21,683
+Australian?
+
+17
+00:01:21,930 --> 00:01:22,860
+New Zealand, sir.
+
+18
+00:01:22,980 --> 00:01:23,979
+Ensign Tongaroa.
+
+19
+00:01:24,202 --> 00:01:25,827
+I just transferred
+from the Hood.
+
+20
+00:01:25,947 --> 00:01:28,406
+Spent some time studying ship
+designs of different cultures.
+
+21
+00:01:28,526 --> 00:01:29,430
+Very good.
+
+22
+00:01:30,431 --> 00:01:31,891
+There should be a crew.
+
+23
+00:01:32,703 --> 00:01:35,718
+Typically 3 or 4. 6 maximum.
+
+24
+00:01:35,838 --> 00:01:37,578
+SPOCK:
+Scanning now, captain.
+
+25
+00:01:39,532 --> 00:01:41,769
+I'm reading a single humanoid lifeform.
+
+26
+00:01:42,293 --> 00:01:45,154
+Vital signs are erratic.
+Life support systems are failing.
+
+27
+00:01:45,274 --> 00:01:46,272
+Understood.
+
+28
+00:01:47,544 --> 00:01:49,157
+Uhura, have the sickbay
+standing by.
+
+29
+00:01:49,196 --> 00:01:49,793
+Aye, sir.
+
+30
+00:01:49,913 --> 00:01:52,654
+It may not be prudent to beam
+aboard an unknown lifeform, captain.
+
+31
+00:01:53,152 --> 00:01:54,855
+But you said vital signs were erratic.
+
+32
+00:01:55,240 --> 00:01:56,406
+Yes, sir. I did.
+
+33
+00:01:56,526 --> 00:01:58,513
+And... life support systems failing.
+
+34
+00:01:58,772 --> 00:01:59,537
+Yes, sir.
+
+35
+00:02:00,668 --> 00:02:02,834
+Uhura, send security to
+the transporter room.
+
+36
+00:02:04,769 --> 00:02:05,769
+Transporter room.
+
+37
+00:02:05,889 --> 00:02:06,511
+TRANSPORTER (V.O.):
+Go ahead, sir.
+
+38
+00:02:06,631 --> 00:02:09,549
+Stand by to receive coordinates from
+Mr. Spock and beam the lifeform abaoard.
+
+39
+00:02:09,669 --> 00:02:11,397
+Mr. Spock, would you care to join me?
+
+40
+00:02:13,799 --> 00:02:15,671
+KIRK & SPOCK:
+Mr. Scott, you have the bridge.
+
+41
+00:02:17,320 --> 00:02:18,238
+KIRK:
+That was strange.
+
+42
+00:02:21,442 --> 00:02:22,902
+[TRANSPORTER ENERGIZING]
+
+43
+00:02:40,370 --> 00:02:41,206
+Jinx, Captain?
+
+44
+00:02:41,326 --> 00:02:43,446
+Jinx, Mr. Spock.
+It's something people used to shout...
+
+45
+00:02:43,566 --> 00:02:45,322
+...when they said the same
+thing at the same time.
+
+46
+00:02:45,442 --> 00:02:46,194
+Indeed.
+
+47
+00:02:46,314 --> 00:02:48,009
+The life form could not be
+confirmed as Tellarite...
+
+48
+00:02:48,129 --> 00:02:51,176
+...but knowing the volatile nature of
+that species I would recommend...
+
+49
+00:02:51,200 --> 00:02:52,212
+KIRK & SPOCK:
+Caution.
+
+50
+00:02:52,479 --> 00:02:53,204
+Jinx?
+
+51
+00:02:53,324 --> 00:02:54,809
+See... you've got it already.
+
+52
+00:02:57,845 --> 00:02:58,787
+Crewman?
+
+53
+00:03:03,312 --> 00:03:05,960
+[GRUNTING]
+
+54
+00:03:07,232 --> 00:03:11,574
+Security alert! Intruder aboard!
+Seal off deck 4 section 12A through F!
+
+55
+00:03:25,980 --> 00:03:28,310
+[DRAMATIC MUSIC STING]
+
+56
+00:03:33,924 --> 00:03:38,002
+Space.
+The final frontier.
+
+57
+00:03:45,310 --> 00:03:48,982
+These are the voyages of the
+Starship Enterprise.
+
+58
+00:03:49,441 --> 00:03:51,383
+Its continuing mission...
+
+59
+00:03:51,503 --> 00:03:54,137
+To explore strange new worlds.
+
+60
+00:03:54,257 --> 00:03:58,056
+To seek out new life
+and new civilizations.
+
+61
+00:03:58,586 --> 00:04:01,199
+To boldly go where no
+man has gone before.
+
+62
+00:04:34,988 --> 00:04:37,707
+KIRK V.O.:
+Captain's log, stardate 6154.1.
+
+63
+00:04:37,827 --> 00:04:40,814
+Due to a serious breach in
+transporter room protocol...
+
+64
+00:04:40,934 --> 00:04:43,674
+...the Enterprise has acquired
+an unexpected stowaway.
+
+65
+00:04:43,794 --> 00:04:45,153
+We won't harm you.
+
+66
+00:04:45,273 --> 00:04:46,636
+We're your friends.
+
+67
+00:04:46,756 --> 00:04:48,790
+You're on the Federation
+starship Enterprise.
+
+68
+00:04:48,910 --> 00:04:50,202
+I'm Captain Kirk.
+
+69
+00:04:50,322 --> 00:04:52,356
+It's all right.
+It's all right.
+
+70
+00:04:53,239 --> 00:04:56,099
+He's our chief of secuirty, Drake.
+He won't harm you either.
+
+71
+00:04:56,840 --> 00:04:58,535
+Give me the knife.
+
+72
+00:05:01,183 --> 00:05:03,302
+It's always best not to
+stab your friends.
+
+73
+00:05:13,506 --> 00:05:15,730
+Well that could've gone...
+smoother.
+
+74
+00:05:15,850 --> 00:05:19,367
+Weaponry often complicates
+negotiations.
+
+75
+00:05:20,461 --> 00:05:24,239
+What was an Orion slave girl
+doing on a Tellarite ship?
+
+76
+00:05:35,470 --> 00:05:37,447
+KIRK:
+Bones, did she give you any trouble?
+
+77
+00:05:37,567 --> 00:05:41,189
+She was confused when she came to.
+But she settled down during our tests.
+
+78
+00:05:41,309 --> 00:05:45,073
+The bruising and contusions indicate
+she has been in a scrap.
+
+79
+00:05:45,193 --> 00:05:48,992
+I also detected traces of
+blood that are not hers.
+
+80
+00:05:49,112 --> 00:05:51,888
+Not that I can get a word out
+of her to confirm any of that.
+
+81
+00:05:52,008 --> 00:05:55,983
+DRAKE:
+Captain, further scans of the transport
+revealed the bodies of 3 Tellarites.
+
+82
+00:05:56,103 --> 00:05:58,314
+The answers we're looking
+for are over there.
+
+83
+00:05:58,434 --> 00:06:01,032
+Agreed. You and Mr. Spock beam over
+and see what you can find out.
+
+84
+00:06:01,152 --> 00:06:05,234
+Also, the Orion girl has been tattooed
+with an index symbol.
+
+85
+00:06:05,354 --> 00:06:08,642
+We were able to use the symbol
+to obtain a partial trace.
+
+86
+00:06:08,762 --> 00:06:09,596
+KIRK:
+And?
+
+87
+00:06:09,716 --> 00:06:14,433
+She was sold 4 days ago to a Tellarite
+merchant by the name "Sev Bim Jor."
+
+88
+00:06:14,553 --> 00:06:16,657
+The ship set out with 4 passengers.
+
+89
+00:06:16,777 --> 00:06:19,800
+She was purchased directly from
+one of Orion's wealthiest traders.
+
+90
+00:06:19,920 --> 00:06:22,554
+Apparently someone wasn't
+too happy with the transaction.
+
+91
+00:06:22,674 --> 00:06:26,084
+There is the only one still
+alive able to confirm that.
+
+92
+00:06:27,144 --> 00:06:30,533
+Careful, captain.
+The power of the Orion pheromones is...
+
+93
+00:06:30,653 --> 00:06:32,157
+Spock, it's all right.
+
+94
+00:06:36,076 --> 00:06:37,453
+What's your name?
+
+95
+00:06:39,219 --> 00:06:42,149
+We'd like to help you.
+
+96
+00:06:42,269 --> 00:06:45,916
+But we need to know your
+name and what happened.
+
+97
+00:06:50,506 --> 00:06:52,095
+You're losing your touch, Jim.
+
+98
+00:06:52,215 --> 00:06:56,332
+I know she can hear.
+Maybe she can't understand us.
+
+99
+00:06:56,452 --> 00:06:58,309
+Maybe she can't speak.
+
+100
+00:06:58,429 --> 00:07:00,639
+Most likely discouraged from doing so.
+
+101
+00:07:00,759 --> 00:07:04,876
+Approximately 70 years ago Orion
+women held dominion over the men.
+
+102
+00:07:04,996 --> 00:07:09,396
+But in a revolt and after a civil war,
+the men gained control.
+
+103
+00:07:09,516 --> 00:07:12,291
+Rather than abolish the slave
+trade, they continued it...
+
+104
+00:07:12,411 --> 00:07:15,257
+...and in many ways made it worse.
+
+105
+00:07:15,377 --> 00:07:18,823
+The women are bred with
+no education or opportunity.
+
+106
+00:07:18,943 --> 00:07:22,459
+In part to keep them subservient.
+And in part out of revenge.
+
+107
+00:07:22,579 --> 00:07:26,615
+First, the men are slaves to the women.
+Then, the women slaves to the men.
+
+108
+00:07:26,735 --> 00:07:29,315
+Why does anyone have to
+be a slave to anyone?
+
+109
+00:07:29,435 --> 00:07:30,692
+McKENNAH:
+Gentlemen.
+
+110
+00:07:30,812 --> 00:07:32,740
+Dr. McCoy requested my presence.
+
+111
+00:07:32,860 --> 00:07:36,765
+I thought her expertise would be useful in
+establishing communication with our patient.
+
+112
+00:07:36,885 --> 00:07:38,248
+KIRK:
+Yes, of course.
+
+113
+00:07:38,368 --> 00:07:40,508
+Either she can't speak
+or won't speak.
+
+114
+00:07:40,628 --> 00:07:43,615
+Well it's hard to believe she spent
+years around slave traders...
+
+115
+00:07:43,735 --> 00:07:46,440
+...without picking up any
+language at all.
+
+116
+00:07:48,276 --> 00:07:49,794
+Lolani.
+
+117
+00:07:51,948 --> 00:07:53,713
+My name is Lolani.
+
+118
+00:07:54,207 --> 00:07:55,973
+Please don't be angry with me.
+
+119
+00:07:56,093 --> 00:07:58,428
+I apologize if I've harmed anyone.
+
+120
+00:07:58,548 --> 00:08:02,524
+Not knowing if you were friend or
+foe I remained silent and listened.
+
+121
+00:08:02,644 --> 00:08:03,442
+Logical.
+
+122
+00:08:03,562 --> 00:08:05,948
+I was born and raised off-world.
+
+123
+00:08:06,068 --> 00:08:10,644
+When my parents died suddenly, I was
+returned back to Orion and forced into slavery.
+
+124
+00:08:12,057 --> 00:08:13,928
+The things they did to me.
+
+125
+00:08:14,987 --> 00:08:17,176
+The things I was forced to do.
+
+126
+00:08:17,918 --> 00:08:19,648
+I'm so sorry.
+
+127
+00:08:19,768 --> 00:08:22,649
+Please don't send me back there.
+You have no idea what it's like.
+
+128
+00:08:22,769 --> 00:08:24,873
+Easy.
+Easy, Lolani.
+
+129
+00:08:24,993 --> 00:08:28,616
+We'll do anything we can to help you.
+
+130
+00:08:28,736 --> 00:08:30,840
+For now you're safe and...
+
+131
+00:08:31,829 --> 00:08:33,912
+You're free.
+
+132
+00:08:45,919 --> 00:08:47,507
+Bones?
+
+133
+00:08:48,673 --> 00:08:52,062
+If she's medically cleared
+maybe we could...
+
+134
+00:08:52,182 --> 00:08:54,322
+Move her to guest quarters?
+
+135
+00:08:54,442 --> 00:08:55,769
+SPOCK:
+Are you sure, Captain?
+
+136
+00:08:55,889 --> 00:08:57,591
+It's fine, Spock.
+
+137
+00:08:57,711 --> 00:08:59,724
+McCOY:
+It sounds like a wonderful idea.
+
+138
+00:08:59,844 --> 00:09:01,277
+This is Dr. McKennah.
+
+139
+00:09:01,397 --> 00:09:03,996
+Doctor, if you would accompany her?
+
+140
+00:09:04,116 --> 00:09:05,726
+It would be my pleasure.
+
+141
+00:09:13,099 --> 00:09:16,771
+So according to Chief Drake's report you
+have an Orion girl on your ship...
+
+142
+00:09:16,891 --> 00:09:19,066
+...and 3 dead Tellarites aboard another.
+
+143
+00:09:19,186 --> 00:09:20,761
+That's correct.
+
+144
+00:09:20,881 --> 00:09:24,150
+The girl was the property of one of the
+Tellarties at the time of their death.
+
+145
+00:09:24,270 --> 00:09:27,222
+She was wounded in some
+sort of assault.
+
+146
+00:09:28,387 --> 00:09:31,106
+If we can confirm that the
+Tellarites were culpable...
+
+147
+00:09:31,226 --> 00:09:33,754
+...could she be granted
+some sort of asylum?
+
+148
+00:09:33,874 --> 00:09:37,179
+The Orion system is not a
+member of the Federation.
+
+149
+00:09:37,299 --> 00:09:42,387
+Their law clearly states that the girl
+reverts back to the one who sold her.
+
+150
+00:09:42,846 --> 00:09:46,024
+We cannot participate in any act
+that would be perceived...
+
+151
+00:09:46,144 --> 00:09:47,826
+...as a challenge to
+their sovereignty.
+
+152
+00:09:47,946 --> 00:09:50,251
+Yes. But for the time being she can...
+
+153
+00:09:50,371 --> 00:09:53,617
+The girl's owner has already been
+notified and is en route to you.
+
+154
+00:09:53,888 --> 00:09:57,171
+He will rendezvous with the Enterprise
+in approximately 32 hours.
+
+155
+00:09:58,572 --> 00:10:04,504
+Captain. The Federation does not
+condone the slavery of any life form.
+
+156
+00:10:04,963 --> 00:10:09,694
+But we cannot risk an interstellar
+incident over one girl.
+
+157
+00:10:10,577 --> 00:10:15,167
+Continue your investigation.
+But I can make no promises.
+
+158
+00:10:16,191 --> 00:10:20,322
+I understand, Commodore.
+Enterprise out.
+
+159
+00:10:27,411 --> 00:10:32,328
+McKENNAH:
+Those are some pretty nasty bruises.
+Are you sure you're okay for a walk?
+
+160
+00:10:32,448 --> 00:10:36,567
+LOLANI:
+You are kind to ask. But we
+Orions are built quite steardily.
+
+161
+00:10:36,687 --> 00:10:38,771
+Of that I have no doubt.
+
+162
+00:10:38,891 --> 00:10:40,890
+What a beautiful ship.
+
+163
+00:10:41,010 --> 00:10:43,857
+And men and women working
+alongside each other equally.
+
+164
+00:10:43,977 --> 00:10:48,350
+Well, the Federation sees no difference between
+the rights and abilities of men and women.
+
+165
+00:10:48,470 --> 00:10:50,893
+But biologically and chemically we're different...
+
+166
+00:10:51,013 --> 00:10:54,115
+One gender isn't stronger than the other?
+
+167
+00:10:54,235 --> 00:10:58,014
+We're each individuals with our
+own strengths and weaknesses...
+
+168
+00:10:58,134 --> 00:11:01,405
+...but we're not defined by our gender.
+
+169
+00:11:03,524 --> 00:11:05,983
+That sounds like a dream.
+
+170
+00:11:06,103 --> 00:11:09,269
+One I've had many a night.
+
+171
+00:11:09,389 --> 00:11:15,203
+It's a good dream, Lolani.
+One worth holding onto.
+
+172
+00:11:19,272 --> 00:11:21,307
+[LAUGHTER]
+
+173
+00:11:21,427 --> 00:11:23,172
+McKENNAH:
+And this is the command bridge.
+
+174
+00:11:25,206 --> 00:11:27,325
+Usually everyone is working.
+
+175
+00:11:27,445 --> 00:11:30,377
+Doctor.
+What brings you to the bridge?
+
+176
+00:11:30,497 --> 00:11:32,751
+I was just giving Lolani a
+small tour of the ship.
+
+177
+00:11:32,871 --> 00:11:36,566
+But I hadn't anticipated it would
+be such a distraction.
+
+178
+00:11:43,178 --> 00:11:46,569
+Not at all. Just another day at the office.
+Feel free to have a look around.
+
+179
+00:11:48,010 --> 00:11:51,312
+Well, hello there. I'm Montgomery Scott.
+Chief Engineer of this entire ship.
+
+180
+00:11:51,432 --> 00:11:53,940
+I make sure everything
+functions correctly.
+
+181
+00:11:54,308 --> 00:11:56,653
+That sounds like a very important job.
+
+182
+00:11:56,773 --> 00:11:59,337
+Aye, it is.
+Would you care to see my station, lassie?
+
+183
+00:12:06,261 --> 00:12:08,013
+Did you hear from Starfleet?
+
+184
+00:12:08,133 --> 00:12:08,917
+I did.
+
+185
+00:12:09,037 --> 00:12:10,443
+And what did they say?
+
+186
+00:12:10,563 --> 00:12:13,852
+We're allowed to continue our investigation.
+But as far as she's concerned...
+
+187
+00:12:14,247 --> 00:12:15,971
+...our hands appear to be tied.
+
+188
+00:12:16,508 --> 00:12:17,892
+So you're... giving up.
+
+189
+00:12:18,260 --> 00:12:19,277
+I'm not giving up.
+
+190
+00:12:19,397 --> 00:12:21,198
+- Sounds like you're giving up.
+- I'm not giving up.
+
+191
+00:12:21,318 --> 00:12:22,866
+There was resignation in
+your voice, captain.
+
+192
+00:12:22,986 --> 00:12:27,415
+Sir, we cannot simply return this girl to
+a life of servitude and slavery.
+
+193
+00:12:27,535 --> 00:12:29,845
+Dr. McKennah.
+You're new to this ship.
+
+194
+00:12:29,965 --> 00:12:31,908
+So I'll excuse you for
+not understanding...
+
+195
+00:12:32,028 --> 00:12:35,101
+...that when I say I'll do everything I can.
+I'll do everything I can.
+
+196
+00:12:35,221 --> 00:12:37,983
+LOLANI:
+Do you always challenge each
+other in this manner?
+
+197
+00:12:39,029 --> 00:12:39,961
+Err...
+
+198
+00:12:40,329 --> 00:12:42,561
+No.
+Not always.
+
+199
+00:12:42,681 --> 00:12:44,012
+Why do you ask?
+
+200
+00:12:44,132 --> 00:12:45,990
+Well I read... in some cultures...
+
+201
+00:12:46,110 --> 00:12:48,646
+...such challenging between males and
+females is considered a...
+
+202
+00:12:49,127 --> 00:12:50,342
+...mating ritual.
+
+203
+00:12:52,546 --> 00:12:53,591
+No.
+
+204
+00:12:54,552 --> 00:12:55,626
+Not in this culture.
+
+205
+00:12:55,746 --> 00:12:57,095
+Yes. I mean, no. No.
+
+206
+00:12:57,215 --> 00:12:58,847
+Yes to the no. No.
+
+207
+00:12:59,384 --> 00:13:02,238
+UHURA:
+Captain. Chief Drake is hailing
+from the Tellarite ship.
+
+208
+00:13:03,142 --> 00:13:05,375
+Pipe it down to the briefing room.
+I'll take it there.
+
+209
+00:13:05,495 --> 00:13:05,968
+Aye, sir.
+
+210
+00:13:06,088 --> 00:13:07,466
+Ladies. If you'll excuse me.
+
+211
+00:13:07,586 --> 00:13:08,653
+Of course, captain.
+
+212
+00:13:11,394 --> 00:13:12,920
+Did I say something wrong?
+
+213
+00:13:13,040 --> 00:13:16,373
+Oh no. You were simply...
+making an observation.
+
+214
+00:13:17,051 --> 00:13:19,001
+I observed something else as well...
+
+215
+00:13:19,121 --> 00:13:20,244
+You did?
+
+216
+00:13:20,364 --> 00:13:23,013
+Women in uniform command
+the respect of their peers.
+
+217
+00:13:23,776 --> 00:13:27,054
+You can tell a lot about someone
+from what they wear.
+
+218
+00:13:29,541 --> 00:13:32,451
+I've got something for you I
+think you're really gonna like.
+
+219
+00:13:33,045 --> 00:13:34,345
+What is it?
+
+220
+00:13:36,746 --> 00:13:38,922
+DRAKE (V.O.):
+The mercenaries were engaged
+in a firefight...
+
+221
+00:13:39,042 --> 00:13:42,596
+...which compromised both the navigational
+and life support systems.
+
+222
+00:13:43,048 --> 00:13:45,673
+And what about the merchant?
+Sev... Bin...?
+
+223
+00:13:45,793 --> 00:13:47,057
+SPOCK (V.O.):
+Sev Bim Jor.
+
+224
+00:13:47,177 --> 00:13:48,640
+Therein lies the mystery.
+
+225
+00:13:48,760 --> 00:13:53,189
+He did not die from a phaser... but from a
+deep puncture wound to his throat.
+
+226
+00:13:53,867 --> 00:13:55,280
+From something like a dagger?
+
+227
+00:13:55,400 --> 00:13:59,660
+SPOCK (V.O.):
+The mercenaries also had daggers
+but neither appears to have been used.
+
+228
+00:13:59,780 --> 00:14:02,486
+There are traces of Lolani's DNA
+under their fingernails.
+
+229
+00:14:02,606 --> 00:14:06,357
+I believe she was more involved in
+this incident than she has revealed.
+
+230
+00:14:06,477 --> 00:14:07,911
+All right.
+
+231
+00:14:08,335 --> 00:14:11,472
+See what other information you
+can gather and return to the ship.
+
+232
+00:14:12,037 --> 00:14:13,591
+I'll see what I can gather from here.
+
+233
+00:14:13,711 --> 00:14:15,061
+SPOCK (V.O.):
+Aye, captain.
+
+234
+00:14:22,926 --> 00:14:23,915
+[DOOR BUZZES]
+
+235
+00:14:24,035 --> 00:14:25,017
+LOLANI:
+Come in.
+
+236
+00:14:32,760 --> 00:14:34,540
+How are you enjoying your quarters?
+
+237
+00:14:35,303 --> 00:14:36,264
+They're lovely.
+
+238
+00:14:36,829 --> 00:14:39,089
+I'm feeling very spoiled, captain.
+
+239
+00:14:39,209 --> 00:14:41,604
+I'm glad.
+I've brought you a book.
+
+240
+00:14:41,724 --> 00:14:44,204
+You said on the bridge that you read.
+I thought you might enjoy it.
+
+241
+00:14:44,324 --> 00:14:45,447
+A gift?
+
+242
+00:14:46,549 --> 00:14:48,216
+Thank you.
+What's it about?
+
+243
+00:14:48,615 --> 00:14:50,791
+It's about a once-great
+Earth civilization...
+
+244
+00:14:50,911 --> 00:14:54,068
+...that collapsed from within
+due to its own moral decay.
+
+245
+00:14:54,492 --> 00:14:56,809
+That sounds like something that
+could happen on Orion.
+
+246
+00:14:56,929 --> 00:15:01,161
+That could happen in any culture where
+people forget the ideals that made them great.
+
+247
+00:15:02,376 --> 00:15:04,156
+I also have some questions.
+
+248
+00:15:04,665 --> 00:15:05,682
+I'm sure.
+
+249
+00:15:05,802 --> 00:15:07,180
+Please sit...
+
+250
+00:15:08,310 --> 00:15:10,373
+It's in my nature to be
+a good hostess.
+
+251
+00:15:10,493 --> 00:15:13,001
+And since you've given me
+such a beautiful room to host...
+
+252
+00:15:13,121 --> 00:15:15,403
+...what's the use in
+fighting our natures?
+
+253
+00:15:16,900 --> 00:15:19,868
+We learned that the mercenaries
+were killed at each others' hands.
+
+254
+00:15:20,686 --> 00:15:22,494
+That's not a question, captain.
+
+255
+00:15:24,020 --> 00:15:28,231
+We also learned that the merchant was
+killed by a knife wound to the throat.
+
+256
+00:15:28,351 --> 00:15:30,265
+Also not a question...
+
+257
+00:15:30,385 --> 00:15:32,639
+You're bad at this, captain.
+
+258
+00:15:32,759 --> 00:15:35,267
+From a knife like the one
+you brought onboard.
+
+259
+00:15:37,019 --> 00:15:38,827
+You need to tell me
+what happened.
+
+260
+00:15:41,653 --> 00:15:43,744
+What happened?
+
+261
+00:15:49,500 --> 00:15:52,411
+They began...
+touching me.
+
+262
+00:15:54,078 --> 00:15:57,441
+The one who bought me got angry
+and they started fighting.
+
+263
+00:16:00,464 --> 00:16:03,601
+I hid in the corner
+and closed my eyes.
+
+264
+00:16:03,721 --> 00:16:05,438
+There was so much yelling and...
+
+265
+00:16:05,558 --> 00:16:07,020
+...fighting.
+
+266
+00:16:11,567 --> 00:16:14,845
+And when the noise stopped.
+I opened my eyes and they were all dead.
+
+267
+00:16:15,551 --> 00:16:17,755
+I'm glad you're all right. But...
+
+268
+00:16:17,875 --> 00:16:20,609
+...that story isn't consistant
+with the facts.
+
+269
+00:16:20,729 --> 00:16:23,068
+What does it matter what happened?
+Really?
+
+270
+00:16:23,188 --> 00:16:26,261
+If you were enslaved wouldn't you
+be grateful just to be free?
+
+271
+00:16:26,381 --> 00:16:29,228
+I would. But the truth always matters.
+
+272
+00:16:31,884 --> 00:16:34,710
+The one who sold you
+is on his way here.
+
+273
+00:16:35,958 --> 00:16:37,202
+Zaminhon?
+
+274
+00:16:37,322 --> 00:16:38,897
+Please. No!
+
+275
+00:16:39,017 --> 00:16:40,705
+He is a brutal man.
+
+276
+00:16:41,214 --> 00:16:44,209
+A brutal vicious monster
+who abuses his slaves!
+
+277
+00:16:44,329 --> 00:16:46,611
+- There's still maybe time...
+- Please don't send me back to him!
+
+278
+00:16:46,731 --> 00:16:48,844
+I was bound and...
+
+279
+00:16:48,964 --> 00:16:50,822
+...now I'm free.
+
+280
+00:16:50,942 --> 00:16:53,252
+I was numb and now...
+
+281
+00:16:53,372 --> 00:16:54,665
+...I can feel.
+
+282
+00:16:54,785 --> 00:16:58,112
+I was paralyzed and now
+I can dance.
+
+283
+00:17:18,351 --> 00:17:20,923
+- This is a bad idea.
+- This is the best idea.
+
+284
+00:17:21,686 --> 00:17:24,314
+A free man.
+A free woman.
+
+285
+00:17:24,434 --> 00:17:26,376
+We can go anywhere
+and do anything.
+
+286
+00:17:26,496 --> 00:17:30,710
+We are free to do
+whatever we like.
+
+287
+00:17:35,684 --> 00:17:38,227
+[MUSIC SWELLS]
+
+288
+00:17:43,341 --> 00:17:44,754
+You'll protect me, won't you captain?
+
+289
+00:17:44,874 --> 00:17:46,930
+Please don't let him take me away.
+[INTERCOM CHIMES]
+
+290
+00:17:47,050 --> 00:17:48,965
+UHURA (V.O.):
+Bridge to Captain Kirk.
+
+291
+00:17:49,558 --> 00:17:51,028
+Bridge to Captain Kirk.
+
+292
+00:17:58,253 --> 00:17:59,751
+Bridge to Captain Kirk.
+
+293
+00:18:00,853 --> 00:18:02,661
+Kirk here.
+What is it, lieutenant?
+
+294
+00:18:03,142 --> 00:18:05,826
+Mr. Spock and Chief Drake have
+returned from the Tellarite ship.
+
+295
+00:18:07,041 --> 00:18:08,935
+Have them meet me
+on the bridge.
+
+296
+00:18:09,055 --> 00:18:09,952
+Aye, sir.
+
+297
+00:18:11,930 --> 00:18:13,993
+That was wrong of me.
+
+298
+00:18:15,547 --> 00:18:17,807
+I know what you're
+trying to do, but...
+
+299
+00:18:17,927 --> 00:18:19,446
+Seducing me is not the answer.
+
+300
+00:18:19,566 --> 00:18:21,750
+No, captain.
+That was wrong of me.
+
+301
+00:18:22,598 --> 00:18:23,700
+I'm sorry.
+
+302
+00:18:24,180 --> 00:18:27,232
+Some habits...
+die hard.
+
+303
+00:18:27,352 --> 00:18:29,578
+You're right about one
+thing, Lolani.
+
+304
+00:18:31,019 --> 00:18:33,449
+Everyone has the
+right to be free.
+
+305
+00:18:33,816 --> 00:18:37,292
+I wish it didn't matter what
+happened on that ship. But...
+
+306
+00:18:38,083 --> 00:18:40,089
+Unfortunately it does.
+
+307
+00:18:42,943 --> 00:18:45,006
+I'll do whatever I
+can to help you.
+
+308
+00:18:45,769 --> 00:18:47,041
+I promise.
+
+309
+00:19:02,090 --> 00:19:03,192
+[DOORS OPEN]
+
+310
+00:19:05,339 --> 00:19:06,724
+You.
+
+311
+00:19:07,854 --> 00:19:09,380
+Hello.
+
+312
+00:19:10,171 --> 00:19:12,206
+Are you lost? Do you need...
+
+313
+00:19:12,326 --> 00:19:14,297
+...help with anything?
+
+314
+00:19:14,417 --> 00:19:17,151
+This is where I'm gonna have to
+leave your ship forever.
+
+315
+00:19:19,129 --> 00:19:20,626
+I'm sorry... I...
+
+316
+00:19:20,746 --> 00:19:24,133
+It's not your fault.
+I should be the one apologizing to you.
+
+317
+00:19:24,783 --> 00:19:26,366
+I held a knife to
+your throat.
+
+318
+00:19:27,807 --> 00:19:29,898
+You remember me?
+
+319
+00:19:30,018 --> 00:19:31,932
+I cannot forget this face...
+
+320
+00:19:32,052 --> 00:19:34,476
+...or the man attached to it.
+
+321
+00:19:34,843 --> 00:19:36,708
+Does this man have a name?
+
+322
+00:19:37,330 --> 00:19:39,505
+Er...
+Kenway.
+
+323
+00:19:39,625 --> 00:19:40,749
+Matthew.
+
+324
+00:19:40,869 --> 00:19:45,016
+Matthew, a monster is coming
+to take me back to Orion.
+
+325
+00:19:45,411 --> 00:19:47,107
+Please don't let him.
+
+326
+00:19:48,604 --> 00:19:50,667
+I will go anywhere as long
+it's away from him.
+
+327
+00:19:52,640 --> 00:19:55,437
+I would feel much
+safer here with you.
+
+328
+00:19:56,991 --> 00:19:59,591
+I cannot deny the
+attraction I felt...
+
+329
+00:19:59,711 --> 00:20:02,162
+...the moment I saw you.
+
+330
+00:20:03,519 --> 00:20:04,960
+How can I help you?
+
+331
+00:20:06,090 --> 00:20:08,718
+What if we were to
+fly away together?
+
+332
+00:20:09,679 --> 00:20:11,459
+Just the two of us?
+
+333
+00:20:13,956 --> 00:20:17,234
+A more detailed forensic analysis
+of the crime scene...
+
+334
+00:20:17,354 --> 00:20:20,822
+...reveals that only one of the
+Tellarites was killed by another.
+
+335
+00:20:20,942 --> 00:20:24,016
+The merchant Sev Bim Jor and
+the second mercenary...
+
+336
+00:20:24,136 --> 00:20:26,276
+...were killed by a
+4th participant.
+
+337
+00:20:27,011 --> 00:20:28,198
+You're certain?
+
+338
+00:20:28,318 --> 00:20:32,521
+There is no evidence of any recent docking
+or transport from another ship.
+
+339
+00:20:33,736 --> 00:20:36,505
+It appears to be the only
+logical explanation.
+
+340
+00:20:37,014 --> 00:20:39,868
+I know that Orion women can
+be very persuasive.
+
+341
+00:20:39,988 --> 00:20:42,607
+And we mustn't allow ourselves
+to be deceived.
+
+342
+00:20:42,727 --> 00:20:44,924
+She is no longer an
+unfortunate slave, captain.
+
+343
+00:20:45,044 --> 00:20:46,732
+She could be a murderer.
+
+344
+00:21:10,968 --> 00:21:13,765
+Captain. The shuttlecraft bay doors
+have been activated!
+
+345
+00:21:13,885 --> 00:21:14,952
+On whose authority?
+
+346
+00:21:15,072 --> 00:21:16,308
+None that I'm aware.
+
+347
+00:21:16,428 --> 00:21:17,580
+Could it be?
+
+348
+00:21:17,700 --> 00:21:19,954
+Seal the doors. Have security meet
+me at the hangar deck.
+
+349
+00:21:20,074 --> 00:21:21,197
+Mr. Drake.
+
+350
+00:21:39,903 --> 00:21:41,119
+Captain.
+
+351
+00:21:41,239 --> 00:21:43,238
+I'll deal with you
+in a minute.
+
+352
+00:21:43,864 --> 00:21:45,390
+Some habits die hard.
+
+353
+00:21:45,510 --> 00:21:48,668
+I would do anything to keep
+from going back to Orion.
+
+354
+00:21:48,788 --> 00:21:51,042
+This isn't his fault. He was
+only trying to protect me.
+
+355
+00:21:51,162 --> 00:21:52,737
+Confine her to quarters.
+
+356
+00:21:53,472 --> 00:21:56,410
+Post a guard there.
+I'm revoking her free roaming privleges.
+
+357
+00:21:57,286 --> 00:21:59,123
+Matthew.
+Forgive me.
+
+358
+00:21:59,632 --> 00:22:00,423
+Lolani!
+
+359
+00:22:00,543 --> 00:22:02,232
+Stand down, crewman.
+
+360
+00:22:02,352 --> 00:22:03,531
+Please, you gotta
+let me help her!
+
+361
+00:22:03,651 --> 00:22:05,848
+Please, captain! We can't let
+her be a slave again to anyone!
+
+362
+00:22:05,968 --> 00:22:07,713
+Get a hold of yourself, mister!
+
+363
+00:22:08,872 --> 00:22:11,302
+I may have to tolerate the
+soverignty of alien worlds...
+
+364
+00:22:11,867 --> 00:22:15,230
+...but what I won't tolerate is
+insubordination on my ship.
+
+365
+00:22:16,064 --> 00:22:18,523
+You're confined to quarters until
+your next duty shift.
+
+366
+00:22:18,519 --> 00:22:20,388
+And you're not to go near
+that girl again.
+
+367
+00:22:20,393 --> 00:22:21,952
+- Do you understand?
+- But captain...
+
+368
+00:22:21,977 --> 00:22:23,050
+Do you understand?!
+
+369
+00:22:24,152 --> 00:22:25,678
+Yes, sir.
+
+370
+00:22:26,525 --> 00:22:28,221
+Chief.
+See that he gets there.
+
+371
+00:22:29,068 --> 00:22:31,103
+Captain, please no...
+
+372
+00:22:35,790 --> 00:22:37,401
+Kirk to sickbay.
+
+373
+00:22:37,521 --> 00:22:39,351
+Sickbay. McCoy here, captain.
+
+374
+00:22:39,471 --> 00:22:43,504
+Bones, is there anything that can protect our
+crewman against the effects of the Orion pheromones?
+
+375
+00:22:43,624 --> 00:22:45,200
+Actually there is.
+
+376
+00:22:45,320 --> 00:22:47,574
+Shipwide innoculation can be
+ready at your command.
+
+377
+00:22:47,694 --> 00:22:49,269
+Why? What's up, Jim?
+
+378
+00:22:49,389 --> 00:22:52,490
+Never mind.
+Just start innoculating immediatley.
+
+379
+00:22:52,610 --> 00:22:53,677
+Kirk out.
+
+380
+00:23:01,307 --> 00:23:03,341
+Where's Lolani?
+
+381
+00:23:06,308 --> 00:23:09,445
+Isn't it lovely?
+Dr. McKennah gave it to me.
+
+382
+00:23:09,565 --> 00:23:14,023
+She said it's what ladies wear
+on other exotic worlds.
+
+383
+00:23:15,209 --> 00:23:17,329
+I feel almost like a princess.
+
+384
+00:23:17,449 --> 00:23:19,363
+You look lovely...
+
+385
+00:23:20,211 --> 00:23:23,093
+Captain, I'm sorry
+for what I did.
+
+386
+00:23:23,213 --> 00:23:25,806
+Even though I'm desperate
+to remain free...
+
+387
+00:23:25,926 --> 00:23:29,112
+...I shouldn't have manipulated your
+crewman. It won't happen again.
+
+388
+00:23:29,232 --> 00:23:30,299
+No, it won't.
+
+389
+00:23:30,419 --> 00:23:35,300
+Dr. McCoy has innoculated the crew
+against the effects of your pheromones.
+
+390
+00:23:35,420 --> 00:23:37,082
+That really isn't necessary.
+
+391
+00:23:37,202 --> 00:23:38,778
+We think it was.
+
+392
+00:23:38,898 --> 00:23:41,830
+We've pieced together most of what
+happened on the Tellarite ship...
+
+393
+00:23:41,950 --> 00:23:44,288
+...but there's one important piece
+of information still missing.
+
+394
+00:23:44,408 --> 00:23:48,188
+I told you everything I know.
+I told them everything I remember.
+
+395
+00:23:48,308 --> 00:23:52,172
+Captain. It's not uncommon for
+someone who's been traumatized...
+
+396
+00:23:52,292 --> 00:23:55,054
+...to block out memories
+that are just too painful.
+
+397
+00:23:55,174 --> 00:23:58,954
+It's entirely possible she's simply not
+conscious of everything that happened.
+
+398
+00:23:59,074 --> 00:24:01,582
+That's why Mr. Spock is here.
+
+399
+00:24:01,702 --> 00:24:03,616
+I don't understand.
+
+400
+00:24:03,736 --> 00:24:07,600
+If you will permit me.
+I will connect with your mind...
+
+401
+00:24:07,720 --> 00:24:09,720
+...and reveal any additional
+information.
+
+402
+00:24:10,737 --> 00:24:14,721
+It won't hurt you in any way.
+I'll be here with you the whole time.
+
+403
+00:24:15,569 --> 00:24:18,536
+Please trust us, Lolani.
+
+404
+00:24:21,249 --> 00:24:22,944
+I trust you.
+
+405
+00:24:45,220 --> 00:24:49,120
+Our minds are coming
+together...
+
+406
+00:24:50,137 --> 00:24:52,765
+Closer...
+
+407
+00:24:54,206 --> 00:24:57,597
+I see what you see.
+
+408
+00:24:57,717 --> 00:25:01,242
+I feel what you feel.
+
+409
+00:25:08,617 --> 00:25:12,347
+They're looking at me.
+
+410
+00:25:15,738 --> 00:25:17,688
+They come towards me.
+
+411
+00:25:21,757 --> 00:25:23,453
+One touches me.
+
+412
+00:25:25,657 --> 00:25:27,691
+Then the other.
+
+413
+00:25:31,859 --> 00:25:34,317
+They're fighting.
+
+414
+00:25:34,437 --> 00:25:37,623
+Sev Bim Jor protests, but...
+
+415
+00:25:38,556 --> 00:25:41,099
+They overpower him.
+
+416
+00:25:45,253 --> 00:25:47,711
+One is on top of me.
+
+417
+00:25:47,831 --> 00:25:50,339
+[LOLANI SCREAMS]
+
+418
+00:25:53,306 --> 00:25:55,256
+I reach for his gun.
+
+419
+00:25:58,562 --> 00:25:59,749
+I fire.
+
+420
+00:26:06,446 --> 00:26:09,159
+Sev Bim Jor is wounded.
+
+421
+00:26:10,769 --> 00:26:12,550
+Begging for help.
+
+422
+00:26:12,670 --> 00:26:13,955
+SEV BIM JOR:
+Help me.
+
+423
+00:26:14,075 --> 00:26:16,025
+There's a knife in my hand.
+
+424
+00:26:16,463 --> 00:26:17,603
+SEV BIM JOR:
+Help me.
+
+425
+00:26:27,385 --> 00:26:30,691
+What will you report?
+That I'm a murderer?
+
+426
+00:26:30,811 --> 00:26:32,895
+Will you send me to some
+Federation prison?
+
+427
+00:26:33,015 --> 00:26:34,251
+No.
+
+428
+00:26:34,371 --> 00:26:36,455
+You're not subject
+to our laws.
+
+429
+00:26:36,575 --> 00:26:41,203
+And besides... you were defending yourself
+as anyone in your situation would do.
+
+430
+00:26:41,323 --> 00:26:43,661
+But you will send me back!
+
+431
+00:26:43,781 --> 00:26:46,289
+The bruises on my body are not
+from the Tellarites!
+
+432
+00:26:46,409 --> 00:26:48,578
+Zaminhon beats his slaves.
+
+433
+00:26:48,698 --> 00:26:50,770
+What is he gonna do to me
+when I go back there?
+
+434
+00:26:50,808 --> 00:26:53,664
+And the others like me?
+They don't even know any better!
+
+435
+00:26:54,015 --> 00:26:55,541
+They think they deserve it!
+
+436
+00:26:55,661 --> 00:26:58,141
+We are not diplomats, Lolani.
+
+437
+00:26:59,186 --> 00:27:00,966
+We do not have the authroity to...
+
+438
+00:27:01,086 --> 00:27:02,153
+To do what?
+
+439
+00:27:02,273 --> 00:27:06,703
+To make a difference in the unbearable hell
+that is the slave trade on my planet?
+
+440
+00:27:06,823 --> 00:27:07,748
+Well, I could!
+
+441
+00:27:07,868 --> 00:27:10,913
+I could be the voice for
+women who have none!
+
+442
+00:27:11,506 --> 00:27:14,163
+Not if you send me
+back in chains.
+
+443
+00:27:15,830 --> 00:27:17,582
+Please, captain.
+
+444
+00:27:25,349 --> 00:27:27,157
+How long before Zaminhon's
+ship arrives?
+
+445
+00:27:27,277 --> 00:27:29,371
+His course and speed puts him
+here at any moment.
+
+446
+00:27:29,597 --> 00:27:30,529
+And then what?
+
+447
+00:27:30,649 --> 00:27:33,367
+We just hand her over as
+if she's property?
+
+448
+00:27:33,487 --> 00:27:35,232
+Under Orion law...
+
+449
+00:27:35,352 --> 00:27:36,334
+...she is.
+
+450
+00:27:36,454 --> 00:27:37,888
+We do not have the right...
+
+451
+00:27:38,008 --> 00:27:39,781
+Spock.
+You of all people.
+
+452
+00:27:40,318 --> 00:27:41,929
+You saw what happeneded to her.
+
+453
+00:27:42,296 --> 00:27:43,427
+You felt it.
+
+454
+00:27:43,992 --> 00:27:46,620
+Isn't that bigger than some
+planet's immoral law?
+
+455
+00:27:47,213 --> 00:27:48,965
+I confess I...
+
+456
+00:27:50,755 --> 00:27:53,204
+...was unprepared for the anguish I...
+
+457
+00:27:53,324 --> 00:27:56,116
+...experienced during my
+mind meld with Lolani.
+
+458
+00:27:57,397 --> 00:27:58,828
+I empathize with her.
+
+459
+00:27:58,948 --> 00:28:00,995
+There are many more like her.
+
+460
+00:28:01,798 --> 00:28:04,803
+And don't we empathize with all beings
+who are forced into slavery?
+
+461
+00:28:04,839 --> 00:28:06,610
+But there are other things to consider.
+
+462
+00:28:07,429 --> 00:28:08,277
+Such as?
+
+463
+00:28:08,397 --> 00:28:09,858
+She's dangerous.
+
+464
+00:28:10,321 --> 00:28:12,308
+She's brandished a
+knife at the captain.
+
+465
+00:28:12,713 --> 00:28:14,578
+She attempted to steal
+a shuttlecraft.
+
+466
+00:28:14,937 --> 00:28:18,403
+Dr. McCoy had to innoculate the
+entire crew to protect against her.
+
+467
+00:28:18,523 --> 00:28:19,552
+That's true.
+
+468
+00:28:19,672 --> 00:28:23,018
+But you can't condemn her for
+her body's own natural physiology.
+
+469
+00:28:23,138 --> 00:28:25,845
+Especially if she's only using
+it to try to gain her freedom.
+
+470
+00:28:25,965 --> 00:28:29,010
+And can you imagine what will happen
+to her when she's returned?
+
+471
+00:28:29,811 --> 00:28:32,354
+Considering all that she's
+done just to escape?
+
+472
+00:28:33,569 --> 00:28:36,667
+The Orions are not known for
+their civility, gentlemen.
+
+473
+00:28:37,487 --> 00:28:39,720
+She could be beaten to death.
+
+474
+00:28:40,624 --> 00:28:42,461
+Starfleet isn't here.
+
+475
+00:28:43,026 --> 00:28:45,851
+If they were, perhaps they'd
+see things differently.
+
+476
+00:28:45,971 --> 00:28:47,095
+But...
+
+477
+00:28:47,215 --> 00:28:49,500
+...they'd still be bound by the same
+laws that we are.
+
+478
+00:28:49,537 --> 00:28:50,627
+[INTERCOM WHISTLES]
+
+479
+00:28:50,747 --> 00:28:53,990
+UHURA (V.O.):
+Captain. Orion vessel approaching
+with one passenger onboard.
+
+480
+00:28:54,110 --> 00:28:55,713
+He's signaling he's
+ready for transport.
+
+481
+00:28:55,833 --> 00:28:58,285
+Have the transporter room stand by.
+We're on our way.
+
+482
+00:28:58,652 --> 00:29:00,432
+Isn't there something we can do?
+
+483
+00:29:06,941 --> 00:29:08,000
+Dinner.
+
+484
+00:29:09,159 --> 00:29:11,589
+We'll treat him with all
+the proper courtesy and...
+
+485
+00:29:11,709 --> 00:29:14,234
+...serve him a civilized dinner
+he won't soon forget.
+
+486
+00:29:20,434 --> 00:29:22,054
+All right, gentlemen.
+Are we ready?
+
+487
+00:29:22,174 --> 00:29:24,522
+Aye. Something's not sitting
+right in my gut about this, sir.
+
+488
+00:29:24,560 --> 00:29:27,470
+Your gut may be right, Scotty.
+We'll find out soon enough.
+
+489
+00:29:27,590 --> 00:29:29,139
+Treating someone with respect...
+
+490
+00:29:29,167 --> 00:29:32,492
+...with whom we philosophically
+disagree is an intriguing strategy.
+
+491
+00:29:32,897 --> 00:29:34,866
+It will be interesting to see
+how he responds...
+
+492
+00:29:34,894 --> 00:29:36,735
+...should we not return
+his property.
+
+493
+00:29:37,042 --> 00:29:38,511
+We may have no
+choice, Spock.
+
+494
+00:29:40,224 --> 00:29:41,156
+Locked on, sir.
+
+495
+00:29:41,947 --> 00:29:42,870
+Energize.
+
+496
+00:29:43,756 --> 00:29:45,659
+[TRANSPORTER ENERGIZING]
+
+497
+00:30:02,330 --> 00:30:03,687
+[MUSIC SWELLS]
+
+498
+00:30:11,062 --> 00:30:13,012
+I'm Captain James Kirk.
+
+499
+00:30:13,054 --> 00:30:14,882
+Welcome aboard the
+Enterprise, Zaminhon.
+
+500
+00:30:14,919 --> 00:30:16,257
+Captain Kirk!
+
+501
+00:30:16,377 --> 00:30:18,220
+It is an honor to board
+your fair ship.
+
+502
+00:30:18,257 --> 00:30:19,746
+It's an honor to have you, sir.
+
+503
+00:30:19,778 --> 00:30:21,381
+Oh no, no.
+You're the captain.
+
+504
+00:30:21,501 --> 00:30:24,518
+I'm just but a small, simple
+businessman.
+
+505
+00:30:24,638 --> 00:30:26,779
+It's a shame I can't stay longer.
+
+506
+00:30:26,811 --> 00:30:28,223
+I'm delighted to
+hear you say that.
+
+507
+00:30:28,255 --> 00:30:30,961
+We've prepared a dinner in
+anticipation of your arrival.
+
+508
+00:30:31,081 --> 00:30:33,052
+We'd love to know more about
+you and your people.
+
+509
+00:30:33,172 --> 00:30:33,984
+[LAUGHS]
+
+510
+00:30:34,493 --> 00:30:37,036
+I've never been the one to
+turn down a free meal.
+
+511
+00:30:37,156 --> 00:30:40,979
+Much less in the company
+of these revered men.
+
+512
+00:30:41,929 --> 00:30:45,150
+This is my chief medical officer,
+Dr. Leonard McCoy.
+
+513
+00:30:45,270 --> 00:30:48,315
+My chief engineer,
+Lieutenant Commander Montgomery Scott.
+
+514
+00:30:48,435 --> 00:30:50,773
+And my first officer,
+Commander Spock...
+
+515
+00:30:50,893 --> 00:30:53,090
+...will escort you to
+dinner personally.
+
+516
+00:30:53,966 --> 00:30:56,764
+Vulcan?
+Very good.
+
+517
+00:30:56,884 --> 00:30:58,827
+Lead on, Mister...?
+
+518
+00:30:58,947 --> 00:30:59,787
+Spock.
+
+519
+00:30:59,907 --> 00:31:02,415
+Spock.
+Yes, of course.
+
+520
+00:31:02,535 --> 00:31:04,535
+I'll join you shortly.
+
+521
+00:31:04,958 --> 00:31:07,275
+Take as much time as
+you want, captain.
+
+522
+00:31:12,233 --> 00:31:14,183
+Well that was unexpected.
+
+523
+00:31:14,303 --> 00:31:15,765
+He seems nice...
+
+524
+00:31:15,885 --> 00:31:17,574
+...for a slave trader.
+
+525
+00:31:22,119 --> 00:31:24,719
+Kenway. You're supposed to
+be in your quarters.
+
+526
+00:31:24,839 --> 00:31:26,584
+I've been cleared to
+return to duty.
+
+527
+00:31:26,704 --> 00:31:29,297
+Besdies, we've all been inoculated
+anyway, so...
+
+528
+00:31:29,417 --> 00:31:31,388
+The Orion woman?
+She's not a threat.
+
+529
+00:31:33,055 --> 00:31:34,468
+All right.
+
+530
+00:31:34,588 --> 00:31:37,265
+I have to deliver a message
+regarding her owner.
+
+531
+00:31:37,633 --> 00:31:41,108
+I can show you a copy
+of my orders if you'd like.
+
+532
+00:31:41,476 --> 00:31:43,397
+That's not necessary.
+
+533
+00:31:43,517 --> 00:31:45,336
+I'll be right outside.
+
+534
+00:31:49,386 --> 00:31:50,375
+Matthew.
+
+535
+00:31:50,495 --> 00:31:52,438
+I had to see you.
+
+536
+00:31:52,862 --> 00:31:54,699
+You did?
+
+537
+00:31:54,819 --> 00:31:57,129
+I was hoping to see you again as well.
+
+538
+00:31:57,249 --> 00:31:59,926
+I wish there was some way
+I could help you.
+
+539
+00:32:00,046 --> 00:32:02,130
+Can you make me disappear?
+
+540
+00:32:02,918 --> 00:32:04,840
+Can you make Zaminhon disappear?
+
+541
+00:32:06,139 --> 00:32:09,672
+When he takes me away, my dream
+of ending the horror...
+
+542
+00:32:09,792 --> 00:32:12,328
+...of Orion slave
+trade will die.
+
+543
+00:32:12,950 --> 00:32:15,267
+And your captain is
+gonna let that happen!
+
+544
+00:32:15,387 --> 00:32:17,273
+Captain Kirk is a good man.
+
+545
+00:32:17,393 --> 00:32:20,833
+But he can't disobey Starfleet orders.
+He'd lose his command.
+
+546
+00:32:20,953 --> 00:32:21,924
+I read once...
+
+547
+00:32:21,942 --> 00:32:25,213
+The only thing necessary for
+evil to triumph...
+
+548
+00:32:25,333 --> 00:32:27,587
+...is for good men to
+do nothing.
+
+549
+00:32:29,000 --> 00:32:30,215
+Can you let that happen?
+
+550
+00:32:30,335 --> 00:32:32,343
+How can someone like
+me prevent it?
+
+551
+00:32:32,463 --> 00:32:33,671
+Someone like you?
+
+552
+00:32:33,791 --> 00:32:36,017
+I hate what's
+happening to you...
+
+553
+00:32:36,137 --> 00:32:37,768
+...and those on your planet.
+
+554
+00:32:37,888 --> 00:32:39,407
+But what can I do about it?
+
+555
+00:32:39,527 --> 00:32:41,781
+What can I do?
+I'm nobody.
+
+556
+00:32:41,901 --> 00:32:45,681
+If I've learned anything... it's
+that everyone is someone.
+
+557
+00:32:46,331 --> 00:32:49,608
+That's the message that needs
+to reach others like me.
+
+558
+00:32:51,191 --> 00:32:54,893
+I feel like I'm screaming
+and no one can hear me!
+
+559
+00:32:55,458 --> 00:32:56,884
+I hear you!
+
+560
+00:32:59,409 --> 00:33:00,351
+I hear you.
+
+561
+00:33:10,438 --> 00:33:11,502
+I'm sorry.
+
+562
+00:33:15,086 --> 00:33:16,113
+I'm sorry.
+
+563
+00:33:20,328 --> 00:33:21,505
+Matthew.
+
+564
+00:33:23,747 --> 00:33:24,472
+Wait.
+
+565
+00:33:27,988 --> 00:33:29,138
+[LAUGHTER]
+
+566
+00:33:33,162 --> 00:33:34,066
+Mmm...
+
+567
+00:33:34,471 --> 00:33:36,280
+What is this delicious meat?
+
+568
+00:33:36,478 --> 00:33:39,336
+It is an Earth vegetable.
+It is called eggplant.
+
+569
+00:33:39,614 --> 00:33:40,811
+Wonderful.
+
+570
+00:33:40,931 --> 00:33:42,789
+It tastes almost like
+a wing-slug.
+
+571
+00:33:43,356 --> 00:33:45,419
+Does it also scream
+when it's boiled?
+
+572
+00:33:45,539 --> 00:33:46,718
+[SURPRISED COUGH]
+
+573
+00:33:47,962 --> 00:33:49,827
+No. It does not.
+
+574
+00:33:51,268 --> 00:33:52,935
+And what is this beverage?
+
+575
+00:33:53,055 --> 00:33:55,054
+It's an Earth wine
+called Shiraz.
+
+576
+00:33:55,563 --> 00:33:57,145
+I can't taste the alcohol.
+
+577
+00:33:57,445 --> 00:33:58,632
+I sure can.
+
+578
+00:34:00,225 --> 00:34:02,543
+So I'm curious, Zaminhon...
+
+579
+00:34:02,663 --> 00:34:04,304
+The females of your species...
+
+580
+00:34:04,424 --> 00:34:07,547
+...release a powerful pheromone that I
+had to inoculate the entire crew against.
+
+581
+00:34:07,588 --> 00:34:08,966
+It's good you did that, doctor.
+
+582
+00:34:09,086 --> 00:34:10,746
+Are the males of your species...
+
+583
+00:34:10,866 --> 00:34:13,318
+...gifted with a similar
+biochemical control?
+
+584
+00:34:13,438 --> 00:34:16,765
+Being under the oppression of
+females for decades hindered us...
+
+585
+00:34:16,885 --> 00:34:19,336
+...from developing it to their
+level of potency.
+
+586
+00:34:19,456 --> 00:34:22,417
+But yes. We do have a
+certain natural scent...
+
+587
+00:34:22,537 --> 00:34:24,423
+...that can attract the
+desired mate.
+
+588
+00:34:30,912 --> 00:34:33,511
+Lolani says you're a
+brutal monster.
+
+589
+00:34:37,891 --> 00:34:39,558
+[LAUGHTER]
+
+590
+00:34:39,901 --> 00:34:41,084
+Captain.
+
+591
+00:34:41,204 --> 00:34:43,288
+She's a very troubled girl.
+
+592
+00:34:43,408 --> 00:34:46,595
+I don't expect you to know any more about
+her history than she wishes you too.
+
+593
+00:34:47,358 --> 00:34:49,138
+I treat her well.
+
+594
+00:34:49,258 --> 00:34:51,933
+All my girls.
+They're all well cared for.
+
+595
+00:34:52,053 --> 00:34:54,985
+Please forgive Mr. Scott for
+his lack of sensitivity.
+
+596
+00:34:55,409 --> 00:34:57,472
+No apology necessary.
+
+597
+00:34:58,093 --> 00:35:03,123
+I've got 218 slaves.
+More than any other on Orion.
+
+598
+00:35:03,243 --> 00:35:04,734
+Beautiful girls.
+Beautiful!
+
+599
+00:35:04,854 --> 00:35:07,983
+They provide pleasure and passion
+throughout the galaxy.
+
+600
+00:35:08,103 --> 00:35:11,826
+I surmised that our business practices
+would be of interest to you.
+
+601
+00:35:11,946 --> 00:35:14,906
+I'm happy to be an ambassador
+for my culture.
+
+602
+00:35:15,026 --> 00:35:17,478
+Don't hold back.
+Just ask me any question.
+
+603
+00:35:19,734 --> 00:35:21,904
+It's my understanding
+that the Orion people...
+
+604
+00:35:22,024 --> 00:35:24,961
+...have practiced slavery since
+the discovery of fire.
+
+605
+00:35:25,081 --> 00:35:25,837
+Correct.
+
+606
+00:35:25,957 --> 00:35:28,917
+Surely it wasn't a universally
+accepted concept?
+
+607
+00:35:29,341 --> 00:35:32,789
+Perhaps it even caused a war or
+two in your early tribal culture?
+
+608
+00:35:32,909 --> 00:35:34,089
+Possibily.
+
+609
+00:35:34,209 --> 00:35:37,819
+The Orions never cared to chronicle
+our history in great detail.
+
+610
+00:35:37,939 --> 00:35:39,910
+How do you ever expect
+to learn from it?
+
+611
+00:35:40,030 --> 00:35:41,125
+KIRK:
+Easy, doctor.
+
+612
+00:35:41,492 --> 00:35:45,872
+Who are we to judge a system that has
+worked for the Orions for hundreds of years.
+
+613
+00:35:45,992 --> 00:35:50,438
+I've heard that your females are actually quite
+comfortable and happy in their standing.
+
+614
+00:35:50,558 --> 00:35:52,161
+That's right, captain.
+
+615
+00:35:52,281 --> 00:35:56,004
+You know after the civil war,
+our women had no purpose.
+
+616
+00:35:56,124 --> 00:35:58,378
+It fell upon the men
+to give them direction.
+
+617
+00:35:58,498 --> 00:36:00,243
+They're next to animals
+without us.
+
+618
+00:36:00,363 --> 00:36:02,984
+Now that I can understand...
+
+619
+00:36:03,527 --> 00:36:05,816
+Take Dr. McKennah here...
+
+620
+00:36:06,296 --> 00:36:09,122
+She's obstinate when she
+doesn't get her own way.
+
+621
+00:36:09,242 --> 00:36:11,509
+She certainly benefits from my...
+
+622
+00:36:11,782 --> 00:36:12,827
+...guidance as a man.
+
+623
+00:36:16,356 --> 00:36:18,249
+I'm wondering...
+
+624
+00:36:20,142 --> 00:36:22,464
+How much would you pay for her?
+
+625
+00:36:24,466 --> 00:36:25,822
+Excuse me?
+
+626
+00:36:25,942 --> 00:36:29,643
+How much is she worth?
+She could be your 219th.
+
+627
+00:36:29,763 --> 00:36:32,610
+No.
+I couldn't put a price on it.
+
+628
+00:36:32,730 --> 00:36:35,860
+This woman is educated,
+refined, civilized.
+
+629
+00:36:35,980 --> 00:36:37,640
+Slavery is not for her kind.
+
+630
+00:36:37,760 --> 00:36:39,901
+But she challenges me, Zaminhon...
+
+631
+00:36:40,021 --> 00:36:41,907
+She questions my authority on and on...
+
+632
+00:36:42,027 --> 00:36:43,772
+Captain, don't be unreasonable!
+
+633
+00:36:43,892 --> 00:36:46,259
+She's clearly learned and capable.
+
+634
+00:36:46,379 --> 00:36:47,615
+And what about Lolani?
+
+635
+00:36:49,664 --> 00:36:52,998
+She's as learned and capable as
+any Starfleet officer.
+
+636
+00:36:53,394 --> 00:36:57,095
+Animals do not thirst for knowledge
+and strive to better themselves.
+
+637
+00:36:57,215 --> 00:37:01,447
+She's consumed a wealth of learning as
+you've consumed your food, Zaminhon.
+
+638
+00:37:01,567 --> 00:37:03,171
+She's not a slave. She's a woman.
+
+639
+00:37:04,651 --> 00:37:07,580
+And even without the
+knowledge, education...
+
+640
+00:37:07,976 --> 00:37:10,990
+...beauty, talent.
+She is still a woman.
+
+641
+00:37:11,319 --> 00:37:13,618
+With a fundamental
+right to be free.
+
+642
+00:37:20,821 --> 00:37:21,697
+Captain.
+
+643
+00:37:22,092 --> 00:37:23,647
+You're a shrewd one.
+
+644
+00:37:23,767 --> 00:37:24,931
+I like you.
+
+645
+00:37:26,048 --> 00:37:28,055
+But, the hour's late...
+
+646
+00:37:28,175 --> 00:37:31,078
+...and we're not gonna change
+each other's minds over a fine dinner.
+
+647
+00:37:31,198 --> 00:37:34,611
+With your permission, captain,
+I'd like to take my leave...
+
+648
+00:37:34,731 --> 00:37:39,054
+...and return with my sl...
+Lolani.
+
+649
+00:37:44,762 --> 00:37:45,977
+Fascinating.
+
+650
+00:37:46,097 --> 00:37:48,209
+But not unexpected.
+
+651
+00:37:48,329 --> 00:37:49,565
+Captain...
+
+652
+00:37:49,685 --> 00:37:51,374
+I'm sorry, doctor.
+
+653
+00:37:52,306 --> 00:37:54,115
+I was simply trying to
+illustrate a point.
+
+654
+00:37:54,235 --> 00:37:56,121
+What did you hope to
+accomplish, sir?
+
+655
+00:37:56,241 --> 00:37:59,512
+Well I hoped if he saw
+Lolani the way we do...
+
+656
+00:38:00,134 --> 00:38:02,507
+Perhaps he wouldn't take
+her away.
+
+657
+00:38:02,627 --> 00:38:05,418
+Well it didn't appear to work.
+
+658
+00:38:05,538 --> 00:38:08,898
+Any other ideas?
+
+659
+00:38:09,746 --> 00:38:10,749
+Nothing.
+
+660
+00:38:11,477 --> 00:38:14,747
+I believe it may be time
+to say goodbye.
+
+661
+00:38:20,894 --> 00:38:22,269
+I'll tell her.
+
+662
+00:38:37,682 --> 00:38:38,926
+Greetings, friend.
+
+663
+00:38:39,632 --> 00:38:41,723
+Thank you for caring
+for my dear girl.
+
+664
+00:38:41,843 --> 00:38:42,712
+You're free to go.
+
+665
+00:38:42,832 --> 00:38:44,040
+I'll take care of her.
+
+666
+00:38:45,001 --> 00:38:46,725
+I'm gonna have to check with
+the captain first.
+
+667
+00:38:46,845 --> 00:38:49,011
+Certainly. Whatever
+pleases you, friend.
+
+668
+00:38:57,121 --> 00:38:58,986
+Well, well, well.
+
+669
+00:38:59,579 --> 00:39:00,483
+Look at you.
+
+670
+00:39:01,218 --> 00:39:03,789
+You have them eating
+out of your hand.
+
+671
+00:39:05,428 --> 00:39:07,519
+I'm a brutal monster?
+
+672
+00:39:08,452 --> 00:39:10,854
+How dare you humiliate me.
+
+673
+00:39:11,334 --> 00:39:15,431
+When I get you back you're gonna regret
+the day you ever imagined yourself as anything...
+
+674
+00:39:15,551 --> 00:39:17,296
+...but a slave!
+
+675
+00:39:17,919 --> 00:39:19,219
+And this...
+
+676
+00:39:19,339 --> 00:39:21,253
+...this Earther's costume?
+
+677
+00:39:21,373 --> 00:39:24,220
+Changing the cover doesn't
+change what's underneath.
+
+678
+00:39:24,675 --> 00:39:26,452
+[LOLANI SHRIEKS]
+And you'll be punished...
+
+679
+00:39:26,572 --> 00:39:28,657
+...until you learn your place.
+
+680
+00:39:28,777 --> 00:39:29,533
+[LOLANI SCREAMS]
+
+681
+00:39:29,653 --> 00:39:30,352
+Please.
+
+682
+00:39:43,972 --> 00:39:44,989
+[GRUNT]
+
+683
+00:39:48,003 --> 00:39:50,075
+Do it!
+Bleed me out.
+
+684
+00:39:50,629 --> 00:39:53,559
+Reveal to them the animal
+you really are!
+
+685
+00:39:54,924 --> 00:39:57,015
+Go on!
+Go on... go on.
+
+686
+00:39:57,737 --> 00:39:59,687
+[CRYING]
+
+687
+00:40:06,732 --> 00:40:08,447
+You're lucky you're
+still alive captain.
+
+688
+00:40:08,567 --> 00:40:10,363
+You had no right to interfere.
+
+689
+00:40:10,404 --> 00:40:11,572
+This is my property.
+
+690
+00:40:11,614 --> 00:40:13,999
+Civilized men do not treat
+people as property.
+
+691
+00:40:14,856 --> 00:40:16,288
+But if that's all you understand...
+
+692
+00:40:19,501 --> 00:40:20,425
+How much do you want for her?
+
+693
+00:40:21,135 --> 00:40:21,875
+What?
+
+694
+00:40:21,995 --> 00:40:22,817
+Lolani...
+
+695
+00:40:22,937 --> 00:40:24,258
+I wish to buy her from you.
+
+696
+00:40:24,378 --> 00:40:26,133
+First, you condemn my trade.
+
+697
+00:40:26,253 --> 00:40:27,728
+Then you wish to partake in it?
+
+698
+00:40:27,765 --> 00:40:29,866
+I wish her free from you,
+by any means.
+
+699
+00:40:30,492 --> 00:40:31,095
+No.
+
+700
+00:40:31,924 --> 00:40:32,645
+Why?
+
+701
+00:40:32,682 --> 00:40:34,783
+Because it pleases me
+to deny you!
+
+702
+00:40:34,903 --> 00:40:37,201
+I perceive that you win
+too much, captain.
+
+703
+00:40:37,230 --> 00:40:38,539
+You will not win this one!
+
+704
+00:40:38,577 --> 00:40:40,602
+Whatever the Tellarites
+paid you, I'll match it!
+
+705
+00:40:40,640 --> 00:40:43,768
+I will not sell her to you for all the
+gold in the mines of Deneva!
+
+706
+00:40:43,805 --> 00:40:47,272
+Now, Captain Kirk, you stand aside
+and beam us back to my ship!
+
+707
+00:40:47,392 --> 00:40:49,679
+Or when I'm done with you
+and your Starfleet...
+
+708
+00:40:49,717 --> 00:40:52,415
+...you'll be lucky to command
+a garbage scow!
+
+709
+00:40:53,635 --> 00:40:54,859
+[MUSIC SWELLS]
+
+710
+00:40:57,985 --> 00:41:02,243
+I shouldn't have to tell you what you
+did was completely irresponsible.
+
+711
+00:41:02,723 --> 00:41:05,379
+It was practically akin to
+striking a political figure.
+
+712
+00:41:05,499 --> 00:41:07,913
+Zaminhon is a powerful man.
+
+713
+00:41:08,033 --> 00:41:11,106
+His actions proved that we are
+condemning this girl to a life of...
+
+714
+00:41:11,226 --> 00:41:12,886
+...physical and mental torture.
+
+715
+00:41:13,006 --> 00:41:15,684
+That is a matter for
+the diplomats, captain.
+
+716
+00:41:15,804 --> 00:41:18,792
+And what about the families
+of the slain Tellarites?
+
+717
+00:41:19,225 --> 00:41:21,260
+Do they not deserve
+justice as well?
+
+718
+00:41:21,380 --> 00:41:22,588
+Commodore...
+
+719
+00:41:22,708 --> 00:41:25,159
+The Tellarites were abusing her.
+
+720
+00:41:25,279 --> 00:41:27,589
+She was fighting for her safety.
+Her freedom!
+
+721
+00:41:27,709 --> 00:41:31,602
+The Federation will not commit an
+act of war over one slave.
+
+722
+00:41:32,619 --> 00:41:33,947
+"Lolani."
+
+723
+00:41:34,682 --> 00:41:38,949
+Captain, you will return Zaminhon and the
+slave girl -- Lolani -- to his ship immediately.
+
+724
+00:41:39,570 --> 00:41:42,990
+You have your orders.
+Starfleet out.
+
+725
+00:41:58,566 --> 00:42:00,685
+Thank you for the fine dinner, captain.
+
+726
+00:42:00,805 --> 00:42:03,455
+And the sense to follow orders.
+
+727
+00:42:03,970 --> 00:42:07,229
+May our paths never cross again.
+
+728
+00:42:08,477 --> 00:42:09,645
+Likewise.
+
+729
+00:42:27,791 --> 00:42:29,232
+Energize.
+
+730
+00:42:41,107 --> 00:42:43,453
+[TRANSPORTER ENGERGIZING]
+
+731
+00:42:51,365 --> 00:42:53,964
+Permission to leave my post, captain.
+
+732
+00:42:55,151 --> 00:42:55,971
+Granted.
+
+733
+00:42:58,090 --> 00:43:00,492
+McCoy told me he inoculated the crew.
+
+734
+00:43:04,975 --> 00:43:06,557
+He did, sir.
+
+735
+00:43:28,129 --> 00:43:31,323
+KIRK (V.O.):
+I'll do whatever I can
+too help you. I promise.
+
+736
+00:43:31,443 --> 00:43:34,092
+LOLANI (V.O.):
+Please don't send me back there!
+You have no idea what it's like!
+
+737
+00:43:34,212 --> 00:43:36,946
+KIRK (V.O.):
+She's a woman with a fundamental
+right to be free.
+
+738
+00:43:37,066 --> 00:43:40,527
+COMMODORE GRAY (V.O.):
+The Federation will not commit an act
+of war over one slave.
+
+739
+00:43:40,647 --> 00:43:42,597
+KIRK (V.O.):
+Her name is "Lolani."
+
+740
+00:43:59,763 --> 00:44:02,448
+All hands, 
+this is the captain.
+
+741
+00:44:02,568 --> 00:44:06,206
+I'm about to violate a direct order
+from Starfleet Command.
+
+742
+00:44:11,010 --> 00:44:13,497
+I take full responsibility for this action.
+
+743
+00:44:13,617 --> 00:44:17,770
+And my log will reflect that none of
+the crew are complicit.
+
+744
+00:44:20,907 --> 00:44:25,880
+Many of you had the opportunity over the last few
+days to meet the young Orion girl that was aboard.
+
+745
+00:44:26,587 --> 00:44:29,073
+Her name was "Lolani."
+
+746
+00:44:30,391 --> 00:44:31,927
+Mr. Sulu.
+
+747
+00:44:32,047 --> 00:44:34,640
+Three-quarter impulse speed.
+
+748
+00:44:34,760 --> 00:44:37,042
+Close the distance to
+Zaminhon's ship.
+
+749
+00:44:38,285 --> 00:44:40,207
+Bring us within transporter range.
+
+750
+00:44:41,055 --> 00:44:43,909
+Transporter room.
+Stand by to beam Lolani aboard.
+
+751
+00:44:50,790 --> 00:44:52,994
+We're in transporter 
+range now, captain.
+
+752
+00:44:53,616 --> 00:44:54,859
+Transporter room!
+
+753
+00:46:58,262 --> 00:47:01,342
+If you've found this recording,
+it means I have failed.
+
+754
+00:47:01,936 --> 00:47:03,942
+I am dead.
+
+755
+00:47:04,535 --> 00:47:07,022
+I did not wish for my life to end this way.
+
+756
+00:47:07,142 --> 00:47:11,656
+But I thought it was the only means left to send
+a message to those who enslave others.
+
+757
+00:47:11,776 --> 00:47:13,421
+My death will mean nothing.
+
+758
+00:47:13,541 --> 00:47:18,648
+But... perhaps Zaminhon's death will light
+a fire in my people and their allies.
+
+759
+00:47:18,768 --> 00:47:22,181
+Those who witness in humanity 
+and do not act.
+
+760
+00:47:24,865 --> 00:47:28,284
+The message of hope must go on.
+
+761
+00:47:28,404 --> 00:47:30,686
+It must reach Orion.
+
+762
+00:47:30,806 --> 00:47:35,744
+Thousands of young Orion girls are
+longing... desperate to live free.
+
+763
+00:47:35,864 --> 00:47:37,400
+To dream.
+
+764
+00:47:37,870 --> 00:47:39,728
+To fly.
+
+765
+00:47:39,848 --> 00:47:43,939
+It is obvious I will not be the one to
+carry that message, though I pray...
+
+766
+00:47:44,059 --> 00:47:46,115
+...another will.
+
+767
+00:47:46,474 --> 00:47:50,034
+If we remain silent to the cruelties
+that surround us...
+
+768
+00:47:50,154 --> 00:47:52,153
+...we will lose a part of ourselves.
+
+769
+00:47:52,273 --> 00:47:54,216
+The part that feels.
+
+770
+00:47:54,336 --> 00:47:57,268
+That stands up for injustice.
+
+771
+00:47:57,388 --> 00:47:59,585
+The part that loves.
+
+772
+00:47:59,705 --> 00:48:03,033
+May this be the end...
+but a beginning.
+
+773
+00:48:03,880 --> 00:48:07,497
+Freedom at all costs.
+
+774
+00:48:12,923 --> 00:48:16,285
+[DOORS OPEN]
+
+775
+00:48:24,095 --> 00:48:27,764
+Permission to take an extended
+leave, captain. To...
+
+776
+00:48:28,193 --> 00:48:31,386
+...visit family.
+
+777
+00:48:33,184 --> 00:48:35,087
+Would this family...
+
+778
+00:48:35,455 --> 00:48:38,959
+...happen to be anywhere near
+the Orion system?
+
+779
+00:48:45,769 --> 00:48:49,131
+Yes, sir.
+Yes it would.
+
+780
+00:48:52,001 --> 00:48:54,233
+Granted.
+
+781
+00:48:55,053 --> 00:48:57,455
+Thank you, sir.
+
+782
+00:48:59,422 --> 00:49:00,355
+Kenway?
+
+783
+00:49:04,039 --> 00:49:05,673
+You may need this.
+
+784
+00:49:29,901 --> 00:49:32,811
+[FANFARE]
+
+785
+00:50:42,901 --> 00:50:47,811
+English subtitles by:
+Peter Goundrill
+

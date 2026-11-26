@@ -14,6 +14,10 @@ import {
   extractPdfTextInReadingOrder,
   normalizeFinalDocumentText,
 } from './server/documentExtractor.ts';
+import {
+  findBestClassicCinemaMatch,
+  sliceArchiveClipToMp4,
+} from './server/classicCinemaCorpus.ts';
 
 const PORT = Number(process.env.PORT) || 3000;
 const DATA_DIR = path.resolve(process.cwd(), 'data');
@@ -605,9 +609,27 @@ async function createServer() {
 
     const finalDb = await readDb();
     res.json({
-      episodes: finalDb.episodes.map((ep) =>
-        enforceMaxClipDuration(ep as Record<string, unknown>)
-      ),
+      episodes: finalDb.episodes
+        .filter((ep) => {
+          const item = ep as Record<string, unknown>;
+          if (
+            item.videoSource !== 'youtube-film' &&
+            item.videoSource !== 'classic-mp4'
+          ) {
+            return true;
+          }
+          const cueText = Array.isArray(item.cues)
+            ? (item.cues as Array<{ tokens?: Array<{ text?: string }> }>)
+                .flatMap((c) => (c.tokens ?? []).map((t) => t.text ?? ''))
+                .join(' ')
+            : '';
+          const combined = `${String(item.filmTitle ?? '')} ${String(item.releaseYear ?? '')} ${String(item.directorNote ?? '')} ${cueText}`;
+          return (
+            !UNETHICAL_CONTENT_RE.test(combined) &&
+            !NON_FILM_BLOCK_RE.test(combined)
+          );
+        })
+        .map((ep) => enforceMaxClipDuration(ep as Record<string, unknown>)),
       deletedClassicIds: finalDb.deletedClassicEpisodeIds ?? [],
       dismissedTerms: finalDb.dismissedEpisodeTerms ?? [],
     });
@@ -1882,8 +1904,10 @@ async function createServer() {
   }
 
   interface RealMovieClipResult {
+    videoSource: 'youtube-film' | 'classic-mp4';
     videoId: string;
-    embedUrl: string;
+    embedUrl?: string;
+    videoUrl?: string;
     filmTitle: string;
     releaseYear: string;
     durationSec: number;
@@ -1951,6 +1975,49 @@ async function createServer() {
     }
   }
 
+  async function fetchSubzinQuotes(term: string): Promise<QuoDbQuote[]> {
+    try {
+      const res = await fetch(
+        `https://www.subzin.com/api/search?q=${encodeURIComponent(term.trim())}&sort=rating`,
+        { signal: AbortSignal.timeout(4500) }
+      );
+      if (!res.ok) return [];
+      const data = (await res.json()) as {
+        results?: Array<{
+          movie?: { title?: string; year?: number; genres?: string[] };
+          topQuote?: { text?: string };
+        }>;
+      };
+      const results: QuoDbQuote[] = [];
+      for (const r of data.results ?? []) {
+        const title = String(r.movie?.title ?? '').split('—')[0].trim();
+        const phrase = String(r.topQuote?.text ?? '')
+          .replace(/^[-–—\s]+/, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+        if (!title || !phrase) continue;
+        const genres = (r.movie?.genres ?? []).join(' ');
+        if (/(animation|anime|horror|music|documentary|reality)/i.test(genres)) {
+          continue;
+        }
+        const combined = `${title} ${phrase}`;
+        if (UNETHICAL_CONTENT_RE.test(combined) || NON_FILM_BLOCK_RE.test(combined)) {
+          continue;
+        }
+        if (!lineContainsTermOrInflection(phrase, term)) continue;
+        results.push({
+          title,
+          year: Number(r.movie?.year) || 2010,
+          phrase,
+        });
+        if (results.length >= 12) break;
+      }
+      return results;
+    } catch {
+      return [];
+    }
+  }
+
   async function translateSentenceToAz(sentenceEn: string): Promise<string> {
     const cleanEn = sentenceEn.trim();
     if (!cleanEn) return '';
@@ -1999,32 +2066,74 @@ async function createServer() {
       }
     }
 
+    try {
+      const gtxUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=az&dt=t&q=${encodeURIComponent(cleanEn)}`;
+      const res = await fetch(gtxUrl, { signal: AbortSignal.timeout(4500) });
+      if (res.ok) {
+        const data = (await res.json()) as unknown[];
+        const segs = Array.isArray(data?.[0]) ? (data[0] as unknown[][]) : [];
+        const az = segs
+          .map((s) => (typeof s?.[0] === 'string' ? s[0] : ''))
+          .join('')
+          .trim();
+        if (az) return az;
+      }
+    } catch {
+      // Return empty so caller keeps fallback
+    }
+
     return '';
   }
+
+  const MOVIE_ACRONYMS: Array<[RegExp, string]> = [
+    [/\bthe lord of the rings\b/i, 'lotr'],
+    [/\bstar wars\b/i, 'sw'],
+    [/\bharry potter\b/i, 'hp'],
+    [/\bpirates of the caribbean\b/i, 'potc'],
+    [/\bgame of thrones\b/i, 'got'],
+    [/\bback to the future\b/i, 'bttf'],
+  ];
 
   function titleMatchesMovieName(clipTitle: string, movieTitle: string): boolean {
     const cleanMovie = movieTitle.trim();
     if (!cleanMovie || cleanMovie.length < 2) return false;
-    const escaped = cleanMovie.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    // For single-word movie titles (e.g. "Teeth", "Up"), require the clip title to start with that movie title
-    if (!/\s/.test(cleanMovie)) {
-      return new RegExp(`^\\s*${escaped}(?:$|\\s*[(:\\-–—|]|\\s+\\d{4}\\b)`, 'i').test(
+
+    const candidates = [cleanMovie];
+    const withoutThe = cleanMovie.replace(/^the\s+/i, '').trim();
+    if (withoutThe && withoutThe !== cleanMovie && /\s/.test(withoutThe)) {
+      candidates.push(withoutThe);
+    }
+    for (const [re, acr] of MOVIE_ACRONYMS) {
+      if (re.test(cleanMovie)) {
+        candidates.push(acr);
+      }
+    }
+
+    return candidates.some((cand) => {
+      const escaped = cand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      if (!/\s/.test(cand)) {
+        if (cand.length <= 4 && /^(lotr|potc|bttf)$/i.test(cand)) {
+          return new RegExp(`\\b${escaped}\\b`, 'i').test(clipTitle);
+        }
+        return new RegExp(
+          `^\\s*${escaped}(?:$|\\s*[(:\\-–—|]|\\s+\\d{4}\\b)`,
+          'i'
+        ).test(clipTitle);
+      }
+      return new RegExp(`(?:^|[\\s(:\\-–—|"])${escaped}(?:$|[\\s):\\-–—|"])`, 'i').test(
         clipTitle
       );
-    }
-    return new RegExp(`(?:^|[\\s(:\\-–—|"])${escaped}(?:$|[\\s):\\-–—|"])`, 'i').test(
-      clipTitle
-    );
+    });
   }
 
   const UNETHICAL_CONTENT_RE =
-    /(\bsex\b|\bsexy\b|\bsexual|\bnude\b|\bnudity|\bnaked|\berotic|\berotica|\bporn|\bporno|\bhentai|\becchi|\bnsfw|\b18\+|\b21\+|r-rated|x-rated|nc-17|uncensored|\bexplicit\b|onlyfans|playboy|hustler|brazzers|xvideos|\bstrip\b|\bstripper|striptease|lap dance|pole dance|lingerie|bikini|underwear|panties|\bbra\b|cleavage|boobs|\btits\b|breasts|nipple|\bpenis|\bvagina|\bdick\b|\bcock\b|\bpussy|\bclit|cunnilingus|blowjob|handjob|fellatio|orgasm|masturbat|horny|\bfetish|\bbdsm|dominatrix|prostitute|hooker|escort|brothel|\bpimp\b|seduce|seduction|seductive|steamy|sensual|make out|making out|makeout|french kiss|kissing scene|bed scene|bedroom scene|love scene|shower scene|skin scene|hot scene|intimate scene|one night stand|infidelity|cheating on|virginity|cunning linguist|that's what she said|dirty joke|\bfuck|\bf\*ck|f\*\*k|\bshit\b|\bsh\*t|\bbitch|\bb\*tch|bastard|asshole|a\*\*hole|\bslut\b|\bwhore\b|\bcunt\b|\bdouche|\bskank|\bfag\b|\bfaggot|\bretard|\bnigg|\bwtf\b|\bstfu\b|\bgore\b|\bgory\b|bloodbath|behead|decapitat|dismember|torture|\brape\b|\braping\b|sexual assault|molest|child abuse|suicide|self-harm|self harm|overdose|heroin|methamphetamine|cocaine|crackhead|massacre|serial killer|cannibal|gruesome|incest|necrophilia|\bfart\b|\bpoop\b|earrape|shitpost|american pie|fifty shades|basic instinct|365 days|magic mike|euphoria|showgirls|wolf of wall street|caligula|nymphomaniac|blue is the warmest|eyes wide shut|fight club|pulp fiction|american beauty|clockwork orange|human centipede|hostel\b|saw \d|wrong turn|sex and the city|bridgerton|spartacus|californication|shameless|the idol|poor things|saltburn|anora|challengers|babygirl|don jon|friends with benefits|no strings attached|the hangover|superbad|borat|sausage party|south park|family guy|rick and morty|bojack horseman|deadpool|the boys|django unchained|the departed|sin city|the counselor|wedding crashers|pretty woman|vacancy)/i;
+    /(\bsex\b|\bsexy\b|\bsexual|\bnude\b|\bnudity|\bnaked|\berotic|\berotica|\bporn|\bporno|\bhentai|\becchi|\bnsfw|\b18\+|\b21\+|r-rated|x-rated|nc-17|uncensored|\bexplicit\b|onlyfans|playboy|hustler|brazzers|xvideos|\bstrip\b|\bstripper|striptease|lap dance|pole dance|lingerie|bikini|underwear|panties|\bbra\b|cleavage|boobs|\btits\b|breasts|nipple|\bpenis|\bvagina|\bdick\b|\bcock\b|\bpussy|\bclit|cunnilingus|blowjob|handjob|fellatio|orgasm|masturbat|horny|\bfetish|\bbdsm|dominatrix|prostitute|hooker|escort|brothel|\bpimp\b|seduce|seduction|seductive|steamy|sensual|make out|making out|makeout|french kiss|kissing scene|bed scene|bedroom scene|love scene|shower scene|skin scene|hot scene|intimate scene|one night stand|infidelity|cheating on|virginity|cunning linguist|that's what she said|dirty joke|\bfuck|\bf\*ck|f\*\*k|\bshit\b|\bsh\*t|\bbitch|\bb\*tch|bastard|asshole|a\*\*hole|\bslut\b|\bwhore\b|\bcunt\b|\bdouche|\bskank|\bfag\b|\bfaggot|\bretard|\bnigg|\bwtf\b|\bstfu\b|\bgore\b|\bgory\b|bloodbath|bloodstained|behead|decapitat|dismember|torture|\brape\b|\braping\b|sexual assault|molest|\bmolester\b|child abuse|\babuse\b|tampering with|crime scene|cut up a corpse|shooting a corpse|beating it with|necroph|mutilat|autopsy|suicide|self-harm|self harm|razors pain you|acid stains|might as well live|kill yourself|shoot yourself|slit my|overdose|heroin|methamphetamine|cocaine|crackhead|massacre|serial killer|cannibal|gruesome|incest|necrophilia|\bfart\b|\bpoop\b|earrape|shitpost|lord of the gay|american pie|fifty shades|basic instinct|365 days|magic mike|euphoria|showgirls|wolf of wall street|caligula|nymphomaniac|blue is the warmest|eyes wide shut|fight club|pulp fiction|american beauty|clockwork orange|human centipede|hostel\b|saw \d|wrong turn|sex and the city|bridgerton|spartacus|californication|shameless|the idol|poor things|saltburn|anora|challengers|babygirl|don jon|friends with benefits|no strings attached|the hangover|superbad|borat|sausage party|south park|family guy|rick and morty|bojack horseman|deadpool|the boys|django unchained|the departed|sin city|the counselor|wedding crashers|pretty woman|vacancy)/i;
 
   const NON_FILM_BLOCK_RE =
-    /(#anime|\banime\b|\bamv\b|\bgmv\b|\bmmv\b|\bmanga\b|\bcosplay\b|weathering with you|your name|kimi no na wa|demon slayer|naruto|one piece|attack on titan|jujutsu|chainsaw man|bleach|dragon ball|gacha|roblox|minecraft|fortnite|valorant|pubg|battlefront|playstation|xbox|nintendo|video game|gameplay|walkthrough|speedrun|fan edit|velocity edit|twixtor|capcut|after effects|alight motion|whatsapp status|#fyp|#viral|#trending|#shorts|\bshorts\b|\btiktok\b|\breels\b|\blyrics\b|lyric video|official audio|official music|music video|karaoke|nightcore|phonk|slowed|reverb|cover by|instrumental|piano cover|guitar cover|soundtrack|worship|gospel|sermon|hymn|psalm|praise|church|bible|devotional|choir|quran|ascribe greatness|vocabulary|word of the day|learn vocabulary|english lesson|vocabulary quiz|idiom quiz|meaning and examples|how to pronounce|pronunciation|dictionary|definition of|what does .* mean|video depiction|depiction of|part of speech|includes sentence|sentence example|use .* in a sentence|flashcard|\bgre\b|\bsat\b|\bielts\b|\btoefl\b|explained|podcast|interview|startup|debate|news|trailer|teaser|full movie|movie recap|recap|ending explained|reacts|reaction|review|summary|essay|audition|guide vocals|behind the scenes|making of|deleted scene|bloopers|blooper|spongebob|cartoon|animated series|vhs|opening & closing|retail tape|dvd menu|parody|spoof|ytp|asmr|vlog|live stream|like and subscribe|like and ascribe|subscribe to my channel|tamil|hindi|telugu|malayalam|kannada|bhojpuri|bollywood|tollywood|kollywood|dubbed|crochet|knitting)/i;
+    /(#anime|\banime\b|\bamv\b|\bgmv\b|\bmmv\b|\bmanga\b|\bcosplay\b|weathering with you|your name|kimi no na wa|demon slayer|naruto|one piece|attack on titan|jujutsu|chainsaw man|bleach|dragon ball|gacha|roblox|minecraft|fortnite|valorant|pubg|battlefront|playstation|xbox|nintendo|video game|gameplay|walkthrough|speedrun|fan edit|velocity edit|twixtor|capcut|after effects|alight motion|whatsapp status|clip of the week|round \d+\s+special|\bmontage\b|\bhighlights?\b|\besports\b|\b1v1\b|\bpvp\b|\bfrag\b|\bfancam\b|spudfella|#fyp|#viral|#trending|#shorts|\bshorts\b|\btiktok\b|\breels\b|\blyrics\b|lyric video|official audio|official music|music video|karaoke|nightcore|phonk|slowed|reverb|cover by|guitar cover|bass cover|drum cover|piano cover|vocal cover|song cover|album cover|instrumental|soundtrack|backing track|bonus track|title track|tracklist|\bbass\b|bass\s*line|bassline|\bguitar\b|\bdrum\b|\bdrums\b|drumming|\bpiano\b|\bviolin\b|\bcello\b|\bsaxophone\b|\btrumpet\b|\bflute\b|\bukulele\b|\bsynth\b|\briff\b|guitar solo|bass solo|drum solo|piano solo|\bchords?\b|\btabs?\b|\*loop\*|\bloop\b|rough arrangement|\brehearsal\b|jam session|\bunplugged\b|\bacoustic\b|\bmusic\b|\bmusical\b|\bsong\b|\bsongs\b|\bband\b|\balbum\b|\bsingle\b|\bmixtape\b|\bremix\b|\bmashup\b|\bvocal\b|\bvocals\b|\bsinging\b|\bsinger\b|\bconcert\b|\blive at\b|death metal|black metal|thrash|grindcore|hardcore|metalcore|\bpunk\b|\bhip[\s-]?hop\b|\brap\b|\bjazz\b|\bblues\b|\bedm\b|\btechno\b|\bdubstep\b|\blo-?fi\b|slam\s+mosh|\bmosh\b|bandcamp|spotify|soundcloud|distrokid|tunecore|provided to youtube|auto-generated by youtube|visualizer|audio only|type beat|worship|gospel|sermon|hymn|psalm|praise|church|bible|devotional|choir|quran|ascribe greatness|vocabulary|word of the day|learn vocabulary|english lesson|vocabulary quiz|idiom quiz|meaning and examples|how to pronounce|pronunciation|dictionary|definition of|what does .* mean|video depiction|depiction of|part of speech|includes sentence|sentence example|use .* in a sentence|flashcard|\bgre\b|\bsat\b|\bielts\b|\btoefl\b|explained|podcast|interview|startup|debate|news|trailer|teaser|full movie|movie recap|recap|ending explained|reacts|reaction|review|summary|essay|audition|guide vocals|behind the scenes|making of|deleted scene|bloopers|blooper|spongebob|cartoon|animated series|vhs|opening & closing|retail tape|dvd menu|parody|spoof|ytp|asmr|vlog|live stream|like and subscribe|like and ascribe|subscribe to my channel|tamil|hindi|telugu|malayalam|kannada|bhojpuri|bollywood|tollywood|kollywood|dubbed|crochet|knitting)/i;
 
   const TRUSTED_FILM_CHANNEL_RE =
-    /(learn english with clips|movie idioms|idiom scene|sbs|movieclips|joblo|rotten tomatoes|sony pictures|warner|universal|paramount|disney|netflix|hbo|mgm|20th century|fox|lionsgate|a24|miramax|bbc)/i;
+    /\b(learn english with clips|movie idioms|idiom scene|movieclips|joblo|rotten tomatoes|sony pictures|warner bros|universal pictures|paramount pictures|walt disney|netflix|hbo|mgm|20th century|searchlight|lionsgate|a24|miramax|bbc|screen clips|criterion)\b/i;
 
   async function inspectYouTubeClipWithGemini(
     videoId: string,
@@ -2183,10 +2292,10 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
     for (const part of parts) {
       if (
         lineContainsTermOrInflection(part, term) &&
-        !/^(idiom|learn|example|examples|definition|meaning|subscribe|check out|watch|hi guys|hey guys)/i.test(
+        !/^(idiom|learn|example|examples|definition|meaning|subscribe|check out|watch|hi guys|hey guys|round \d+|clip of)/i.test(
           part
         ) &&
-        !/(like and subscribe|like and ascribe|subscribe|my video|my channel|comment below|link in bio|in the film|directed by|starring|created by|in this video|explore more|check out|buy tickets|find out what|meaning of|idiom explained|what does|idiom quiz|video depiction|depiction of|part of speech|includes sentence|is a \d{4} film|vhs|opening & closing|retail tape|dvd menu|soundtrack)/i.test(
+        !/(like and subscribe|like and ascribe|subscribe|my video|my channel|comment below|link in bio|in the film|directed by|starring|created by|in this video|explore more|check out|buy tickets|find out what|meaning of|idiom explained|what does|idiom quiz|video depiction|depiction of|part of speech|includes sentence|is a \d{4} film|vhs|opening & closing|retail tape|dvd menu|soundtrack|round \d+ special|clip of the week)/i.test(
           part
         )
       ) {
@@ -2238,25 +2347,46 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
     const clean = term.trim();
     if (!clean) return null;
 
-    const quodbQuotes = await fetchQuoDbQuotes(clean);
-    const safetyExclusions =
-      '-sex -nude -nsfw -18+ -porn -anime -shorts -lyrics -pronunciation';
+    const [quodbRaw, subzinRaw] = await Promise.all([
+      fetchQuoDbQuotes(clean),
+      fetchSubzinQuotes(clean),
+    ]);
+    const seenQuoteKeys = new Set<string>();
+    const quodbQuotes: QuoDbQuote[] = [];
+    for (const q of [...quodbRaw, ...subzinRaw]) {
+      const k = `${q.title.toLowerCase()}::${q.phrase.toLowerCase().slice(0, 40)}`;
+      if (seenQuoteKeys.has(k)) continue;
+      seenQuoteKeys.add(k);
+      quodbQuotes.push(q);
+    }
 
-    const queries = [
-      ...quodbQuotes.slice(0, 4).map((q) => {
-        const shortMovie = q.title.split(':')[0].trim();
+    const safetyExclusions =
+      '-sex -nude -nsfw -18+ -porn -anime -shorts -lyrics -music -guitar -bass -song';
+
+    const queries: Array<{ q: string; shortOnly?: boolean }> = [
+      ...quodbQuotes.slice(0, 5).map((q, idx) => {
+        const movieSearchName = q.title.includes(':')
+          ? q.title.split(':')[1].trim() || q.title.split(':')[0].trim()
+          : q.title.trim();
         const shortPhrase = q.phrase
           .replace(/[^\w\s'-]/g, ' ')
           .trim()
           .split(/\s+/)
-          .slice(0, 6)
+          .slice(0, 7)
           .join(' ');
-        return `"${shortPhrase}" ${shortMovie} ${safetyExclusions}`;
+        return {
+          q: `"${shortPhrase}" ${movieSearchName} ${safetyExclusions}`,
+          shortOnly: idx >= 2,
+        };
       }),
-      ...quodbQuotes
-        .slice(0, 3)
-        .map((q) => `${q.title.split(':')[0].trim()} "${clean}" clip OR scene ${safetyExclusions}`),
-      `"${clean}" ("movie quote" OR "movie clip" OR "film scene" OR "Learn English with Clips") ${safetyExclusions}`,
+      ...quodbQuotes.slice(0, 3).map((q) => ({
+        q: `${q.title.split(':')[0].trim()} "${clean}" clip OR scene ${safetyExclusions}`,
+        shortOnly: true,
+      })),
+      {
+        q: `"${clean}" ("Learn English with Clips" OR "Movie Idioms" OR "Movieclips" OR "movie clip") ${safetyExclusions}`,
+        shortOnly: true,
+      },
     ];
 
     const seenIds = new Set<string>();
@@ -2272,12 +2402,13 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
       isTrustedChannel: boolean;
     }> = [];
 
-    const queryBatches = [queries.slice(0, 4), queries.slice(4)];
+    const queryBatches = [queries.slice(0, 5), queries.slice(5)];
     for (const batch of queryBatches) {
       const results = await Promise.allSettled(
-        batch.map(async (q) => {
+        batch.map(async (item) => {
+          const spParam = item.shortOnly ? '&sp=EgIYAQ%3D%3D' : '';
           const res = await fetch(
-            `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`,
+            `https://www.youtube.com/results?search_query=${encodeURIComponent(item.q)}${spParam}`,
             {
               headers: {
                 'User-Agent':
@@ -2305,6 +2436,7 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
                             title?: { runs?: Array<{ text?: string }> };
                             lengthText?: { simpleText?: string };
                             ownerText?: { runs?: Array<{ text?: string }> };
+                            ownerBadges?: unknown[];
                             detailedMetadataSnippets?: Array<{
                               snippetText?: { runs?: Array<{ text?: string }> };
                             }>;
@@ -2329,6 +2461,10 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
             if (!v?.videoId || seenIds.has(v.videoId)) continue;
             seenIds.add(v.videoId);
 
+            if (JSON.stringify(v.ownerBadges ?? '').includes('OFFICIAL_ARTIST_BADGE')) {
+              continue;
+            }
+
             const title = v.title?.runs?.map((r) => r.text ?? '').join('') ?? '';
             const lengthText = v.lengthText?.simpleText ?? '';
             const owner = v.ownerText?.runs?.map((r) => r.text ?? '').join('') ?? '';
@@ -2339,12 +2475,16 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
             if (!title || !lengthText) continue;
 
             const combined = `${title} ${owner} ${snippet}`.toLowerCase();
-            if (UNETHICAL_CONTENT_RE.test(combined) || NON_FILM_BLOCK_RE.test(combined)) {
+            if (
+              UNETHICAL_CONTENT_RE.test(combined) ||
+              NON_FILM_BLOCK_RE.test(combined) ||
+              /(?:@\w+|#\w{3,})/.test(title)
+            ) {
               continue;
             }
 
             const secs = parseLengthTextToSeconds(lengthText);
-            const isTrustedChannel = TRUSTED_FILM_CHANNEL_RE.test(`${owner} ${title}`);
+            const isTrustedChannel = TRUSTED_FILM_CHANNEL_RE.test(owner);
             if (secs < 3 || secs > 480) continue;
 
             let score = 0;
@@ -2356,12 +2496,16 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
             if (lineContainsTermOrInflection(sceneOnlyTitle, clean)) score += 50;
             else if (lineContainsTermOrInflection(cleanYouTubeSnippet(snippet), clean)) score += 25;
 
-            const matchedQuoDb = quodbQuotes.find(
-              (qq) =>
+            const matchedQuoDb = quodbQuotes.find((qq) => {
+              const shortMovie = qq.title.split(':')[0].trim();
+              const subMovie = qq.title.includes(':') ? qq.title.split(':')[1].trim() : '';
+              return (
                 titleMatchesMovieName(title, qq.title) ||
-                titleMatchesMovieName(title, qq.title.split(':')[0].trim()) ||
-                titleMatchesMovieName(snippet, qq.title.split(':')[0].trim())
-            );
+                titleMatchesMovieName(title, shortMovie) ||
+                (subMovie.length >= 4 && titleMatchesMovieName(title, subMovie)) ||
+                titleMatchesMovieName(snippet, shortMovie)
+              );
+            });
             if (matchedQuoDb) {
               score += 55;
               const qWords = matchedQuoDb.phrase
@@ -2381,7 +2525,7 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
 
             if (isTrustedChannel) {
               score += 35;
-            } else if (/(movie|film|scene|clip|cinema|tv show|series)/i.test(combined)) {
+            } else if (/(movie|film|clip|cinema|tv show|series|(?<!crime\s)\bscene\b)/i.test(combined)) {
               score += 14;
             }
 
@@ -2430,7 +2574,11 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
         const clipTitle = (oj.title || cand.title).slice(0, 140);
         const author = (oj.author_name || cand.owner || 'Cinema Archive').slice(0, 60);
         const fullMeta = `${clipTitle} ${author} ${cand.snippet}`;
-        if (UNETHICAL_CONTENT_RE.test(fullMeta) || NON_FILM_BLOCK_RE.test(fullMeta)) {
+        if (
+          UNETHICAL_CONTENT_RE.test(fullMeta) ||
+          NON_FILM_BLOCK_RE.test(fullMeta) ||
+          /(?:@\w+|#\w{3,})/.test(clipTitle)
+        ) {
           continue;
         }
 
@@ -2481,6 +2629,7 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
             ? `start=${clipStart}&end=${clipEnd}&`
             : '';
         return {
+          videoSource: 'youtube-film',
           videoId: item.cand.id,
           embedUrl: `https://www.youtube.com/embed/${item.cand.id}?${rangeParams}cc_load_policy=1&cc_lang_pref=en&hl=en&rel=0&playsinline=1&enablejsapi=1`,
           filmTitle: item.clipTitle,
@@ -2496,17 +2645,24 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
     }
 
     // Strict fallback ONLY when Gemini did not reject the clip:
-    // Require short duration (<= 65s so the spoken word is inside the 40s window), 100% clean content,
+    // Require short duration (<= 55s so the spoken word is inside the 40s window), 100% clean content,
     // AND concrete proof that the target word is spoken in THIS clip (never just the movie's title!).
     for (const item of oembedVerified) {
       if (geminiRejectedIds.has(item.cand.id)) continue;
-      if (item.cand.secs > 65) continue;
+      if (item.cand.secs > 55) continue;
 
       const cleanedSnippet = cleanYouTubeSnippet(item.cand.snippet);
 
-      // Proof 1: QuoDB exact movie + quote words OR exact multi-word QuoDB quote phrase in short <=45s clip title
+      // Proof 1: QuoDB/Subzin exact movie + quote words OR exact multi-word quote in <=45s clip title matching the movie or a film context
       const matchedQuoDbExact = quodbQuotes.find((qq) => {
         const shortMovie = qq.title.split(':')[0].trim();
+        const subMovie = qq.title.includes(':') ? qq.title.split(':')[1].trim() : '';
+        const movieMatch =
+          titleMatchesMovieName(item.clipTitle, qq.title) ||
+          titleMatchesMovieName(item.clipTitle, shortMovie) ||
+          (subMovie.length >= 4 && titleMatchesMovieName(item.clipTitle, subMovie)) ||
+          titleMatchesMovieName(cleanedSnippet, shortMovie);
+
         const normalizedPhrase = qq.phrase
           .toLowerCase()
           .replace(/[^a-z\s'-]/g, ' ')
@@ -2516,6 +2672,9 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
         const exactMultiWordTitleMatch =
           item.cand.secs <= 45 &&
           phraseWords.length >= 3 &&
+          (movieMatch ||
+            item.cand.isTrustedChannel ||
+            /\b(movie|film|scene|clip)\b/i.test(`${item.clipTitle} ${cleanedSnippet}`)) &&
           item.clipTitle
             .toLowerCase()
             .replace(/[^a-z\s'-]/g, ' ')
@@ -2523,11 +2682,6 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
             .includes(normalizedPhrase);
 
         if (exactMultiWordTitleMatch) return true;
-
-        const movieMatch =
-          titleMatchesMovieName(item.clipTitle, qq.title) ||
-          titleMatchesMovieName(item.clipTitle, shortMovie) ||
-          titleMatchesMovieName(cleanedSnippet, shortMovie);
         if (!movieMatch) return false;
 
         const scenePart = isolateSceneQuotePart(item.clipTitle, qq.title);
@@ -2545,31 +2699,24 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
         );
       });
 
-      // Proof 2: Explicit multi-word spoken quote in YouTube title (NOT a single word or movie name) with real film evidence
+      // Proof 2: ONLY trusted official film/clip channels with a verified multi-word spoken sentence containing the target term
       const scenePartGeneric = isolateSceneQuotePart(item.clipTitle);
-      const quotedMatch = item.clipTitle.match(/["“]([^"”]{8,})["”]/);
-      const quotedText = quotedMatch ? quotedMatch[1].trim() : '';
-      const hasMultiWordQuotedDialogue =
-        Boolean(quotedText) &&
-        quotedText.split(/\s+/).filter(Boolean).length >= 3 &&
-        lineContainsTermOrInflection(quotedText, clean) &&
-        /(movie|film|scene|clip|star wars|lord of the rings|disney|warner|universal|paramount|\b(?:19|20)\d{2}\b)/i.test(
-          `${item.clipTitle} ${item.author} ${cleanedSnippet}`
-        );
+      const trustedExtractedSentence =
+        extractSentenceFromText(scenePartGeneric, clean) ||
+        extractSentenceFromText(cleanedSnippet, clean);
       const hasTrustedSceneQuote =
         item.cand.isTrustedChannel &&
         item.cand.secs <= 60 &&
-        lineContainsTermOrInflection(scenePartGeneric, clean);
+        Boolean(trustedExtractedSentence) &&
+        trustedExtractedSentence!.split(/\s+/).filter(Boolean).length >= 4 &&
+        lineContainsTermOrInflection(trustedExtractedSentence!, clean);
 
-      if (!matchedQuoDbExact && !hasMultiWordQuotedDialogue && !hasTrustedSceneQuote) {
+      if (!matchedQuoDbExact && !hasTrustedSceneQuote) {
         continue;
       }
 
       const verifiedQuote =
-        matchedQuoDbExact?.phrase ||
-        (hasMultiWordQuotedDialogue ? quotedText : null) ||
-        extractSentenceFromText(scenePartGeneric, clean) ||
-        extractSentenceFromText(cleanedSnippet, clean);
+        matchedQuoDbExact?.phrase || trustedExtractedSentence;
 
       if (
         !verifiedQuote ||
@@ -2586,6 +2733,7 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
       const rangeParams =
         item.cand.secs > MAX_CLIP_DURATION_SEC ? `start=0&end=${clipEnd}&` : '';
       return {
+        videoSource: 'youtube-film',
         videoId: item.cand.id,
         embedUrl: `https://www.youtube.com/embed/${item.cand.id}?${rangeParams}cc_load_policy=1&cc_lang_pref=en&hl=en&rel=0&playsinline=1&enablejsapi=1`,
         filmTitle: item.clipTitle,
@@ -2599,6 +2747,33 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
         startSec: 0,
         quoteVerified: true,
       };
+    }
+
+    // Tier 2: Curated Clean Classic Cinema & Classic TV Subtitle Corpus + ffmpeg exact-timestamp MP4 slice
+    const classicMatch = findBestClassicCinemaMatch(clean, {
+      isUnsafeText: (txt) =>
+        UNETHICAL_CONTENT_RE.test(txt) || NON_FILM_BLOCK_RE.test(txt),
+      lineContainsTerm: lineContainsTermOrInflection,
+    });
+    if (classicMatch) {
+      const sliced = await sliceArchiveClipToMp4(classicMatch, VIDEOS_DIR);
+      if (sliced) {
+        const az = (await translateSentenceToAz(classicMatch.sentence)) || '';
+        const yearPart = classicMatch.year ? ` (${classicMatch.year})` : '';
+        return {
+          videoSource: 'classic-mp4',
+          videoId: sliced.filename,
+          videoUrl: sliced.videoUrl,
+          filmTitle: `${classicMatch.title}${yearPart}`,
+          releaseYear: `Real Cinema Scene (${sliced.durationSec}s)`,
+          durationSec: sliced.durationSec,
+          spokenSentenceEn: classicMatch.sentence,
+          spokenSentenceAz: az,
+          speaker: classicMatch.title.split('·')[0].trim().toUpperCase() || 'FILM SCENE',
+          startSec: 0,
+          quoteVerified: true,
+        };
+      }
     }
 
     return null;
@@ -2639,18 +2814,19 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
     const epId = String(item.id || `ep-${crypto.randomUUID()}`);
 
     const cappedDuration = Math.min(MAX_CLIP_DURATION_SEC, Math.max(3, clip.durationSec));
-    const cappedEmbedUrl = clampYouTubeEmbedToMaxDuration(
-      clip.embedUrl,
-      MAX_CLIP_DURATION_SEC
-    );
+    const isLocalMp4 = clip.videoSource === 'classic-mp4' && Boolean(clip.videoUrl);
+    const cappedEmbedUrl =
+      !isLocalMp4 && clip.embedUrl
+        ? clampYouTubeEmbedToMaxDuration(clip.embedUrl, MAX_CLIP_DURATION_SEC)
+        : undefined;
 
     return {
       ...item,
       status: 'ready',
-      videoSource: 'youtube-film',
+      videoSource: isLocalMp4 ? 'classic-mp4' : 'youtube-film',
       videoQuoteVerified: clip.quoteVerified,
       embedUrl: cappedEmbedUrl,
-      videoUrl: undefined,
+      videoUrl: isLocalMp4 ? clip.videoUrl : undefined,
       sceneAudioMode: undefined,
       filmTitle: clip.filmTitle,
       releaseYear: clip.releaseYear,
@@ -2739,19 +2915,22 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
       MAX_CLIP_DURATION_SEC,
       Math.max(3, realClip.durationSec)
     );
-    const cappedEmbedUrl = clampYouTubeEmbedToMaxDuration(
-      realClip.embedUrl,
-      MAX_CLIP_DURATION_SEC
-    );
+    const isLocalMp4 =
+      realClip.videoSource === 'classic-mp4' && Boolean(realClip.videoUrl);
+    const cappedEmbedUrl =
+      !isLocalMp4 && realClip.embedUrl
+        ? clampYouTubeEmbedToMaxDuration(realClip.embedUrl, MAX_CLIP_DURATION_SEC)
+        : undefined;
 
     const episode = {
       id,
       kind: 'generated' as const,
       sourceSection,
       status: 'ready' as const,
-      videoSource: 'youtube-film' as const,
+      videoSource: isLocalMp4 ? ('classic-mp4' as const) : ('youtube-film' as const),
       videoQuoteVerified: realClip.quoteVerified,
-      embedUrl: cappedEmbedUrl,
+      ...(cappedEmbedUrl ? { embedUrl: cappedEmbedUrl } : {}),
+      ...(isLocalMp4 ? { videoUrl: realClip.videoUrl } : {}),
       filmTitle: realClip.filmTitle,
       releaseYear: realClip.releaseYear,
       directorNote: `Real cinema scene (${realClip.filmTitle}) — “${spokenLine}”`,
@@ -2947,14 +3126,25 @@ If ANY of the three is NO, set matchesVideo = false and return empty strings.`,
         const azSubtitle = clip.spokenSentenceAz || azTranslation;
         const id = `ep-lex-${crypto.randomUUID()}`;
 
+        const isLocalMp4 =
+          clip.videoSource === 'classic-mp4' && Boolean(clip.videoUrl);
         const ep = {
           id,
           kind: 'generated' as const,
           sourceSection: 'reader' as const,
           status: 'ready' as const,
-          videoSource: 'youtube-film' as const,
+          videoSource: isLocalMp4 ? ('classic-mp4' as const) : ('youtube-film' as const),
           videoQuoteVerified: clip.quoteVerified,
-          embedUrl: clip.embedUrl,
+          ...(isLocalMp4
+            ? { videoUrl: clip.videoUrl }
+            : clip.embedUrl
+              ? {
+                  embedUrl: clampYouTubeEmbedToMaxDuration(
+                    clip.embedUrl,
+                    MAX_CLIP_DURATION_SEC
+                  ),
+                }
+              : {}),
           filmTitle: clip.filmTitle,
           releaseYear: clip.releaseYear,
           directorNote: `Real cinema scene (${clip.filmTitle}) — “${spokenLine}”`,

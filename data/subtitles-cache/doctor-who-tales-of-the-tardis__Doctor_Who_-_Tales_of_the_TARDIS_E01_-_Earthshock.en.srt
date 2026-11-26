@@ -1,0 +1,6104 @@
+1
+00:01:09,800 --> 00:01:12,080
+<font color="#ffff00">OK...</font>
+
+2
+00:01:13,280 --> 00:01:15,600
+<font color="#ffffff">I think there must be...</font>
+
+3
+00:01:16,800 --> 00:01:18,680
+<font color="#ffffff">..a kettle in here!</font>
+
+4
+00:01:18,680 --> 00:01:20,160
+<font color="#ffffff">There's everything else!</font>
+
+5
+00:01:20,160 --> 00:01:22,840
+<font color="#ffffff">I can't remember,</font>
+<font color="#ffffff">did we ever do tea?</font>
+
+6
+00:01:22,840 --> 00:01:25,200
+<font color="#ffffff">We had a pineapple once, remember?</font>
+
+7
+00:01:26,600 --> 00:01:29,440
+<font color="#ffff00">I was fast asleep,</font>
+
+8
+00:01:29,440 --> 00:01:31,760
+<font color="#ffff00">in bed,</font>
+
+9
+00:01:31,760 --> 00:01:34,760
+<font color="#ffff00">I said goodbye to Nyssa</font>
+
+10
+00:01:34,760 --> 00:01:36,240
+<font color="#ffff00">and...</font>
+
+11
+00:01:41,920 --> 00:01:45,040
+<font color="#ffff00">Oh, it's good to see you!</font>
+
+12
+00:01:45,040 --> 00:01:46,880
+<font color="#ffffff">Oh.</font>
+
+13
+00:01:46,880 --> 00:01:49,240
+<font color="#ffffff">We never really did</font>
+<font color="#ffffff">this sort of thing, did we?</font>
+
+14
+00:01:49,240 --> 00:01:50,800
+<font color="#ffff00">We do now!</font>
+
+15
+00:01:52,360 --> 00:01:56,840
+<font color="#ffff00">Oh...you got old.</font><font color="#ffffff"> You didn't.</font>
+
+16
+00:01:56,840 --> 00:01:59,560
+<font color="#ffffff">Not one line.</font><font color="#ffff00"> Don't get clever.</font>
+
+17
+00:01:59,560 --> 00:02:01,280
+<font color="#ffffff">Oh, there's one...</font>
+
+18
+00:02:01,280 --> 00:02:03,760
+<font color="#ffffff">..hundred!</font><font color="#ffff00"> That's enough!</font>
+
+19
+00:02:05,240 --> 00:02:07,160
+<font color="#ffff00">But it's good to see you.</font>
+
+20
+00:02:08,440 --> 00:02:11,120
+<font color="#ffff00">I mean, how...?</font>
+
+21
+00:02:11,120 --> 00:02:15,000
+<font color="#ffff00">What kind of</font>
+<font color="#ffff00">gimcrack TARDIS is this?!</font>
+
+22
+00:02:16,240 --> 00:02:18,840
+<font color="#ffff00">Don't tell me.</font>
+
+23
+00:02:18,840 --> 00:02:20,920
+<font color="#ffff00">You had an accident.</font>
+
+24
+00:02:22,600 --> 00:02:26,040
+<font color="#ffffff">Believe it or not,</font>
+<font color="#ffffff">I woke up in here myself.</font>
+
+25
+00:02:28,520 --> 00:02:31,840
+<font color="#ffffff">I think...it's a memory.</font>
+
+26
+00:02:31,840 --> 00:02:34,360
+<font color="#ffffff">It's a remembered TARDIS.</font>
+
+27
+00:02:34,360 --> 00:02:37,040
+<font color="#ffff00">I don't remember</font>
+<font color="#ffff00">it being such a mess.</font>
+
+28
+00:02:37,040 --> 00:02:41,880
+<font color="#ffffff">No, but time is memory,</font>
+<font color="#ffffff">and memory is time.</font>
+
+29
+00:02:41,880 --> 00:02:46,360
+<font color="#ffffff">So this is the memory</font>
+<font color="#ffffff">of a time machine,</font>
+
+30
+00:02:46,360 --> 00:02:50,200
+<font color="#ffffff">and it's reached out</font>
+<font color="#ffffff">and remembered...</font>
+
+31
+00:02:51,240 --> 00:02:52,320
+<font color="#ffffff">..us.</font>
+
+32
+00:02:53,560 --> 00:02:56,800
+<font color="#ffff00">I've missed you.</font><font color="#ffffff"> I missed you too.</font>
+
+33
+00:02:56,800 --> 00:02:58,800
+<font color="#ffffff">Once or twice.</font>
+
+34
+00:02:58,800 --> 00:03:01,360
+<font color="#ffffff">But that's not the point.</font>
+
+35
+00:03:01,360 --> 00:03:05,600
+<font color="#ffffff">I think this thing...needs feeding.</font>
+
+36
+00:03:05,600 --> 00:03:07,360
+<font color="#ffff00">Oh, great!</font>
+
+37
+00:03:08,880 --> 00:03:11,440
+<font color="#ffff00">I knew we'd be in trouble.</font>
+
+38
+00:03:11,440 --> 00:03:14,440
+<font color="#ffff00">Don't tell me,</font>
+<font color="#ffff00">it's going to eat our brains.</font>
+
+39
+00:03:14,440 --> 00:03:17,320
+<font color="#ffffff">No! Well, not literally.</font>
+
+40
+00:03:17,320 --> 00:03:21,160
+<font color="#ffffff">But this is a remembered TARDIS,</font>
+
+41
+00:03:21,160 --> 00:03:24,960
+<font color="#ffffff">and memories thrive on stories.</font>
+
+42
+00:03:24,960 --> 00:03:30,280
+<font color="#ffffff">That's what it wants -</font>
+<font color="#ffffff">stories being told.</font>
+
+43
+00:03:30,280 --> 00:03:35,760
+<font color="#ffffff">Around a fire, like every</font>
+<font color="#ffffff">storyteller across creation.</font>
+
+44
+00:03:41,840 --> 00:03:44,200
+<font color="#ffff00">What sort of stories?</font>
+
+45
+00:03:44,200 --> 00:03:48,080
+<font color="#ffffff">Tegan, we lived through</font>
+<font color="#ffffff">the most extraordinary times!</font>
+
+46
+00:03:48,080 --> 00:03:51,680
+<font color="#ffffff">We've got the best stories ever!</font>
+
+47
+00:03:51,680 --> 00:03:56,600
+<font color="#ffff00">Well, do you mean we sit</font>
+<font color="#ffff00">and tell stories about ourselves?</font>
+
+48
+00:03:56,600 --> 00:03:57,920
+<font color="#ffffff">I think so.</font>
+
+49
+00:03:59,800 --> 00:04:02,040
+<font color="#ffff00">Oh, that's not so mad!</font>
+
+50
+00:04:04,920 --> 00:04:06,800
+<font color="#ffff00">I do that every day.</font>
+
+51
+00:04:08,000 --> 00:04:10,080
+<font color="#ffff00">All the things we did, Doctor.</font>
+
+52
+00:04:11,680 --> 00:04:15,400
+<font color="#ffff00">Truth be told,</font>
+<font color="#ffff00">I think of nothing else!</font>
+
+53
+00:04:22,560 --> 00:04:25,160
+<font color="#ffffff">Maybe we should tell the story</font>
+<font color="#ffffff">of...</font>
+
+54
+00:04:25,160 --> 00:04:29,320
+<font color="#ffffff">I'm sorry, Tegan,</font>
+<font color="#ffffff">but if we're going to tell a story,</font>
+
+55
+00:04:29,320 --> 00:04:32,200
+<font color="#ffffff">maybe it should be</font>
+<font color="#ffffff">the strongest of all.</font>
+
+56
+00:04:34,000 --> 00:04:36,200
+<font color="#ffffff">The day we met the Cybermen.</font>
+
+57
+00:04:38,680 --> 00:04:40,160
+<font color="#ffff00">I can't.</font>
+
+58
+00:04:46,800 --> 00:04:47,880
+<font color="#ffff00">OK.</font>
+
+59
+00:04:49,600 --> 00:04:51,720
+<font color="#ffff00">I'll do it for him.</font>
+
+60
+00:04:51,720 --> 00:04:53,480
+<font color="#ffffff">Brave heart.</font>
+
+61
+00:04:56,280 --> 00:04:59,680
+<font color="#ffffff">I wonder...where to begin.</font>
+
+62
+00:04:59,680 --> 00:05:02,920
+<font color="#ffff00">Well, it began with Adric,</font>
+
+63
+00:05:02,920 --> 00:05:07,240
+<font color="#ffff00">cos he was travelling in the TARDIS</font>
+<font color="#ffff00">before I ever met you.</font>
+
+64
+00:05:07,240 --> 00:05:10,160
+<font color="#ffff00">He stowed away</font>
+<font color="#ffff00">from a different planet.</font>
+
+65
+00:05:11,360 --> 00:05:15,520
+<font color="#ffff00">But then, he told you</font>
+<font color="#ffff00">that he wanted to go home.</font>
+
+66
+00:05:17,360 --> 00:05:19,880
+<font color="#ffffff">No, but before that.</font>
+
+67
+00:05:19,880 --> 00:05:23,400
+<font color="#ffffff">It's hard to tell where a story</font>
+<font color="#ffffff">begins, isn't it?</font>
+
+68
+00:05:23,400 --> 00:05:27,320
+<font color="#ffffff">But before we came blundering in,</font>
+<font color="#ffffff">it began on Earth.</font>
+
+69
+00:05:28,320 --> 00:05:30,960
+<font color="#ffffff">Think back, Tegan.</font>
+
+70
+00:05:30,960 --> 00:05:33,920
+<font color="#ffffff">It all started with</font>
+<font color="#ffffff">those mysterious deaths...</font>
+
+71
+00:05:35,000 --> 00:05:36,680
+<font color="#ffffff">..in the caves.</font>
+
+72
+00:05:50,760 --> 00:05:52,440
+<font color="#ffff00">Oh!</font>
+
+73
+00:06:16,680 --> 00:06:18,360
+<font color="#00ffff">Nothing.</font>
+
+74
+00:06:25,400 --> 00:06:27,280
+<font color="#ffff00">How does this thing work?</font>
+
+75
+00:06:27,280 --> 00:06:30,760
+<font color="#00ff00">It focuses upon the electrical</font>
+<font color="#00ff00">activity of the body.</font>
+
+76
+00:06:30,760 --> 00:06:32,960
+<font color="#00ff00">Heartbeat, things like that.</font>
+
+77
+00:06:32,960 --> 00:06:36,400
+<font color="#ffff00">But only of mammalian life form.</font>
+<font color="#ffff00">Everything else is excluded.</font>
+
+78
+00:06:44,640 --> 00:06:46,800
+<font color="#ffffff">LOW HUM</font>
+
+79
+00:06:53,600 --> 00:06:55,480
+<font color="#00ff00">Nothing.</font>
+
+80
+00:06:56,520 --> 00:06:59,880
+<font color="#ffff00">Could they be shielded</font>
+<font color="#ffff00">from the scanner in any way?</font>
+
+81
+00:06:59,880 --> 00:07:01,960
+<font color="#00ff00">A lead screen.</font>
+
+82
+00:07:01,960 --> 00:07:03,320
+<font color="#00ff00">Some of the newer alloys.</font>
+
+83
+00:07:04,640 --> 00:07:07,520
+<font color="#00ffff">There isn't anything like that</font>
+<font color="#00ffff">in the cavern.</font>
+
+84
+00:07:14,040 --> 00:07:17,920
+<font color="#00ffff">They're dead, aren't they?</font>
+<font color="#ffff00">It does seem likely.</font>
+
+85
+00:07:17,920 --> 00:07:20,240
+<font color="#00ffff">Such a pointless waste.</font>
+
+86
+00:07:20,240 --> 00:07:22,320
+<font color="#ffff00">Yeah, well, we'll find out.</font>
+
+87
+00:07:22,320 --> 00:07:26,560
+<font color="#00ffff">They can't be far. I radioed</font>
+<font color="#00ffff">immediately I left the cavern.</font>
+
+88
+00:07:26,560 --> 00:07:30,040
+<font color="#ffff00">You've done all you can.</font>
+<font color="#ffff00">Don't upset yourself.</font>
+
+89
+00:07:30,040 --> 00:07:33,960
+<font color="#ffff00">Walters, scan again.</font>
+<font color="#ffff00">Maximum amplification.</font>
+
+90
+00:07:33,960 --> 00:07:35,600
+<font color="#00ff00">Right, sir.</font>
+
+91
+00:07:35,600 --> 00:07:37,920
+<font color="#ffffff">How many of you were down there?</font>
+
+92
+00:07:37,920 --> 00:07:39,880
+<font color="#00ffff">Eight of us.</font>
+
+93
+00:07:39,880 --> 00:07:43,080
+<font color="#ffffff">What were you doing?</font><font color="#00ffff"> A survey.</font>
+
+94
+00:07:43,080 --> 00:07:46,400
+<font color="#00ffff">The particular cave system we were</font>
+<font color="#00ffff">in has just been discovered.</font>
+
+95
+00:07:46,400 --> 00:07:48,120
+<font color="#00ffff">It's proven to be rich in fossils.</font>
+
+96
+00:07:49,400 --> 00:07:53,520
+<font color="#ffff00">Are you all palaeontologists?</font>
+<font color="#00ffff">And geologists.</font>
+
+97
+00:07:53,520 --> 00:07:55,480
+<font color="#ffff00">It doesn't make sense.</font>
+
+98
+00:07:55,480 --> 00:07:57,480
+<font color="#00ff00">Scan complete, sir.</font>
+
+99
+00:07:57,480 --> 00:07:59,960
+<font color="#00ff00">Negative. No sign of life.</font>
+
+100
+00:08:08,880 --> 00:08:11,600
+<font color="#ffff00">Right, get your gear together!</font>
+
+101
+00:08:11,600 --> 00:08:13,480
+<font color="#ffff00">We're going down!</font>
+
+102
+00:08:17,800 --> 00:08:20,720
+<font color="#ffff00">I realise going down again</font>
+<font color="#ffff00">must be hard.</font>
+
+103
+00:08:20,720 --> 00:08:22,880
+<font color="#00ffff">The caves are uncharted.</font>
+
+104
+00:08:22,880 --> 00:08:25,440
+<font color="#00ffff">You'll never find the bodies</font>
+<font color="#00ffff">without my help.</font>
+
+105
+00:08:25,440 --> 00:08:26,840
+<font color="#ffff00">I'm grateful!</font>
+
+106
+00:08:28,040 --> 00:08:32,000
+<font color="#ffff00">Snyder! I want you to stay here</font>
+<font color="#ffff00">with Walters.</font><font color="#ffffff"> Sir.</font>
+
+107
+00:08:32,000 --> 00:08:35,880
+<font color="#ffff00">Walters, I want a constant scan.</font>
+<font color="#00ff00">Right, sir.</font>
+
+108
+00:08:35,880 --> 00:08:38,480
+<font color="#ffff00">Let me know the instant</font>
+<font color="#ffff00">you see anything, all right?</font>
+
+109
+00:08:39,840 --> 00:08:41,400
+<font color="#ffffff">Troops ready, sir!</font>
+
+110
+00:08:41,400 --> 00:08:43,400
+<font color="#ffff00">Oh, Sergeant Mitchell.</font>
+
+111
+00:08:49,440 --> 00:08:51,120
+<font color="#ffff00">Do you believe Professor Kyle?</font>
+
+112
+00:08:53,680 --> 00:08:56,440
+<font color="#ffffff">I think she's telling the truth.</font>
+
+113
+00:08:56,440 --> 00:08:58,920
+<font color="#ffffff">As far as she knows it, that is.</font>
+
+114
+00:08:58,920 --> 00:09:00,520
+<font color="#ffff00">I agree.</font>
+
+115
+00:09:00,520 --> 00:09:03,720
+<font color="#ffff00">All right. Put the troop</font>
+<font color="#ffff00">on full alert.</font><font color="#ffffff"> Yes, sir.</font>
+
+116
+00:09:03,720 --> 00:09:06,720
+<font color="#ffff00">And just in case she is lying,</font>
+
+117
+00:09:06,720 --> 00:09:09,160
+<font color="#ffff00">we'll have her up front</font>
+<font color="#ffff00">where we can see her.</font>
+
+118
+00:09:30,560 --> 00:09:32,760
+<font color="#ffff00">The party's making good progress.</font>
+
+119
+00:09:32,760 --> 00:09:34,280
+<font color="#ffffff">SHARP CLANG</font>
+
+120
+00:09:34,280 --> 00:09:36,400
+<font color="#ffff00">Is that supposed to happen?</font>
+<font color="#00ffff">What?</font>
+
+121
+00:09:36,400 --> 00:09:39,760
+<font color="#ffff00">It was a sort of flare -</font>
+<font color="#ffff00">it only lasted a second.</font>
+
+122
+00:09:39,760 --> 00:09:43,160
+<font color="#00ffff">Probably nothing.</font>
+<font color="#00ffff">This equipment's ancient.</font>
+
+123
+00:09:44,680 --> 00:09:46,280
+<font color="#ffff00">There!</font>
+
+124
+00:09:46,280 --> 00:09:48,000
+<font color="#00ffff">Ghosting.</font>
+
+125
+00:09:48,000 --> 00:09:50,040
+<font color="#ffff00">Shouldn't we tell Lieutenant Scott?</font>
+
+126
+00:09:50,040 --> 00:09:51,720
+<font color="#00ffff">It isn't worth it.</font>
+
+127
+00:10:03,360 --> 00:10:06,320
+<font color="#ffffff">You must read this, Adric!</font>
+<font color="#ffffff">The Black Orchid.</font>
+
+128
+00:10:06,320 --> 00:10:09,640
+<font color="#ffff00">Why?</font><font color="#ffffff"> It's fascinating.</font>
+<font color="#ffffff">Such scholarship!</font>
+
+129
+00:10:11,160 --> 00:10:13,720
+<font color="#ffff00">Why should that interest me?</font>
+
+130
+00:10:13,720 --> 00:10:17,000
+<font color="#ffffff">What's the matter?</font><font color="#ffff00"> I'm fed up.</font><font color="#ffffff"> Why?</font>
+
+131
+00:10:17,000 --> 00:10:19,000
+<font color="#ffff00">I'm tired of being</font>
+<font color="#ffff00">considered a joke.</font>
+
+132
+00:10:19,000 --> 00:10:20,280
+<font color="#ffffff">No-one thinks that.</font>
+
+133
+00:10:20,280 --> 00:10:22,440
+<font color="#ffff00">Then why am I constantly teased?</font>
+
+134
+00:10:22,440 --> 00:10:24,440
+<font color="#ffffff">Everyone's teased from time to time.</font>
+
+135
+00:10:24,440 --> 00:10:26,080
+<font color="#ffff00">Yeah, but not as often as me.</font>
+
+136
+00:10:26,080 --> 00:10:27,880
+<font color="#ffffff">That's not true!</font>
+
+137
+00:10:27,880 --> 00:10:30,560
+<font color="#ffff00">No, and I suppose neither is</font>
+<font color="#ffff00">the fact that when Nyssa or Tegan</font>
+
+138
+00:10:30,560 --> 00:10:33,960
+<font color="#ffff00">ask you a question,</font>
+<font color="#ffff00">you find time to answer it,</font>
+
+139
+00:10:33,960 --> 00:10:36,440
+<font color="#ffff00">but hardly ever with me.</font>
+
+140
+00:10:36,440 --> 00:10:40,200
+<font color="#ffff00">Doctor, how am I to learn</font>
+<font color="#ffff00">if you never find time to explain?</font>
+
+141
+00:10:41,240 --> 00:10:42,560
+<font color="#ffffff">Time?</font>
+
+142
+00:10:42,560 --> 00:10:46,440
+<font color="#ffffff">We have spent many hours discussing</font>
+<font color="#ffffff">and debating endless topics.</font>
+
+143
+00:10:46,440 --> 00:10:50,160
+<font color="#ffff00">I'm just fitted in</font>
+<font color="#ffff00">when it's convenient for you.</font>
+
+144
+00:10:50,160 --> 00:10:51,880
+<font color="#ffffff">All right, I'll make more time.</font>
+
+145
+00:10:51,880 --> 00:10:53,880
+<font color="#ffff00">No, you've said that too often.</font>
+
+146
+00:10:53,880 --> 00:10:57,400
+<font color="#ffff00">Some distraction</font>
+<font color="#ffff00">always prevents it happening.</font>
+
+147
+00:10:57,400 --> 00:11:00,760
+<font color="#ffffff">I give you my word.</font>
+<font color="#ffff00">Just as you gave your word to Tegan.</font>
+
+148
+00:11:02,720 --> 00:11:06,040
+<font color="#ffffff">That's not fair.</font>
+<font color="#ffff00">I'm not allowed to criticise you,</font>
+
+149
+00:11:06,040 --> 00:11:09,160
+<font color="#ffff00">and it's never your fault</font>
+<font color="#ffff00">when things go wrong.</font>
+
+150
+00:11:09,160 --> 00:11:11,360
+<font color="#ffffff">Have you finished?</font>
+<font color="#ffff00">There's lots more.</font>
+
+151
+00:11:11,360 --> 00:11:13,440
+<font color="#ffffff">Well, it can wait!</font>
+<font color="#ffff00">Yes, but I can't.</font>
+
+152
+00:11:15,440 --> 00:11:18,160
+<font color="#ffff00">I'm tired of being an outsider,</font>
+<font color="#ffff00">Doctor.</font>
+
+153
+00:11:19,880 --> 00:11:21,800
+<font color="#ffff00">I want to go back to my own people.</font>
+
+154
+00:11:23,800 --> 00:11:26,400
+<font color="#ffffff">RUNNING WATER</font>
+
+155
+00:11:31,560 --> 00:11:34,240
+<font color="#00ffff">Is this the only way down?</font>
+<font color="#ffff00">The only known way.</font>
+
+156
+00:11:34,240 --> 00:11:37,520
+<font color="#00ffff">It must have been fun</font>
+<font color="#00ffff">getting the gear through there!</font>
+
+157
+00:11:37,520 --> 00:11:40,120
+<font color="#ffff00">We were cursed from the beginning.</font>
+<font color="#00ffff">Oh?</font>
+
+158
+00:11:40,120 --> 00:11:42,600
+<font color="#ffff00">Even lighting the tunnels</font>
+<font color="#ffff00">was a nightmare.</font>
+
+159
+00:11:42,600 --> 00:11:45,000
+<font color="#00ff00">In what way?</font><font color="#ffff00"> All sorts of things.</font>
+
+160
+00:11:45,000 --> 00:11:49,640
+<font color="#ffff00">Tools went missing, important</font>
+<font color="#ffff00">components were discovered smashed.</font>
+
+161
+00:11:49,640 --> 00:11:53,000
+<font color="#00ffff">Sabotage?</font>
+<font color="#ffff00">I didn't think so at the time.</font>
+
+162
+00:11:53,000 --> 00:11:55,320
+<font color="#ffff00">Someone who wanted to wreck</font>
+<font color="#ffff00">the expedition</font>
+
+163
+00:11:55,320 --> 00:11:59,200
+<font color="#ffff00">could have been more positive.</font>
+<font color="#00ffff">As ultimately they were.</font>
+
+164
+00:12:05,880 --> 00:12:09,240
+<font color="#ffff00">There.</font><font color="#00ffff"> I'll never be able</font>
+<font color="#00ffff">to do that properly.</font>
+
+165
+00:12:09,240 --> 00:12:10,880
+<font color="#ffff00">It isn't difficult.</font>
+
+166
+00:12:10,880 --> 00:12:13,320
+<font color="#ffffff">No, Adric, I will not do it!</font>
+<font color="#00ff00">You've done it before!</font>
+
+167
+00:12:13,320 --> 00:12:16,160
+<font color="#ffffff">The TARDIS is not designed</font>
+<font color="#ffffff">for E-Space! Tell him!</font>
+
+168
+00:12:16,160 --> 00:12:18,440
+<font color="#ffff00">Tell him what?</font><font color="#ffffff"> He wants to go home.</font>
+
+169
+00:12:18,440 --> 00:12:22,720
+<font color="#ffff00">To Alzarius?</font><font color="#00ff00"> No, to Terradon.</font>
+<font color="#ffffff">That means going back into E-Space.</font>
+
+170
+00:12:22,720 --> 00:12:26,360
+<font color="#ffff00">It would be very dangerous.</font>
+<font color="#00ff00">I could plot a course.</font>
+
+171
+00:12:26,360 --> 00:12:28,400
+<font color="#ffffff">Using negative co-ordinates?</font>
+
+172
+00:12:28,400 --> 00:12:31,640
+<font color="#00ff00">I have the mathematical skill!</font>
+
+173
+00:12:31,640 --> 00:12:33,160
+<font color="#ffffff">We'd have to pass through the CVE.</font>
+
+174
+00:12:33,160 --> 00:12:35,400
+<font color="#ffffff">You can't calculate</font>
+<font color="#ffffff">random co-ordinates!</font>
+
+175
+00:12:35,400 --> 00:12:38,560
+<font color="#00ff00">The monitor indicated</font>
+<font color="#00ff00">they were not random.</font>
+
+176
+00:12:38,560 --> 00:12:41,560
+<font color="#ffffff">You don't have the monitor's skill,</font>
+<font color="#ffffff">and even if you did,</font>
+
+177
+00:12:41,560 --> 00:12:45,560
+<font color="#ffffff">I am not going back into E-Space!</font>
+<font color="#00ff00">I'll find someone who will!</font>
+
+178
+00:12:45,560 --> 00:12:49,800
+<font color="#ffffff">E-Space is another universe, there</font>
+<font color="#ffffff">aren't taxis going back and forth!</font>
+
+179
+00:12:49,800 --> 00:12:52,840
+<font color="#00ff00">Once I calculate the course,</font>
+<font color="#00ff00">the journey will be simple.</font>
+
+180
+00:12:52,840 --> 00:12:55,640
+<font color="#ffff00">It won't.</font>
+<font color="#00ff00">Romana's still in E-Space.</font>
+
+181
+00:12:55,640 --> 00:12:58,280
+<font color="#00ff00">Once I get there, she can help me.</font>
+
+182
+00:12:58,280 --> 00:13:00,800
+<font color="#00ffff">Is it really that dangerous?</font>
+
+183
+00:13:00,800 --> 00:13:03,360
+<font color="#ffffff">Would I make this fuss</font>
+<font color="#ffffff">if it weren't?</font>
+
+184
+00:13:03,360 --> 00:13:06,560
+<font color="#00ff00">Can I use your computer?</font>
+<font color="#ffffff">Oh, help yourself.</font>
+
+185
+00:13:06,560 --> 00:13:09,760
+<font color="#ffffff">I'm not waiting around</font>
+<font color="#ffffff">while you plot your own destruction!</font>
+
+186
+00:13:18,200 --> 00:13:21,280
+<font color="#ffffff">SCOTT:</font><font color="#ffff00"> How much further?</font>
+
+187
+00:13:18,200 --> 00:13:21,280
+<font color="#ffffff">HIGH-PITCHED SCREECHING</font>
+
+188
+00:13:24,440 --> 00:13:27,600
+<font color="#ffff00">What caused that?</font><font color="#00ffff"> I don't know.</font>
+
+189
+00:13:27,600 --> 00:13:30,480
+<font color="#00ff00">Trooper Bane's hurt, sir.</font>
+<font color="#ffffff">It's my shoulder.</font>
+
+190
+00:13:30,480 --> 00:13:33,120
+<font color="#00ff00">Nothing broken.</font><font color="#ffff00"> Can you walk?</font>
+
+191
+00:13:33,120 --> 00:13:35,280
+<font color="#ffffff">I think so.</font><font color="#ffff00"> Good.</font>
+
+192
+00:13:35,280 --> 00:13:38,360
+<font color="#ffffff">OVER RADIO:</font><font color="#00ff00"> Walters.</font><font color="#ffff00"> Bane's had</font>
+<font color="#ffff00">an accident. I'm sending her up.</font>
+
+193
+00:13:38,360 --> 00:13:40,120
+<font color="#ffff00">She'll need medical treatment...</font>
+
+194
+00:13:40,120 --> 00:13:42,080
+<font color="#ffffff">SIGNAL DISTORTS</font>
+
+195
+00:13:42,080 --> 00:13:43,160
+<font color="#ffff00">What's that?</font>
+
+196
+00:13:45,560 --> 00:13:49,320
+<font color="#00ff00">I don't know - it's making</font>
+<font color="#00ff00">the scanner flare as well.</font>
+
+197
+00:13:49,320 --> 00:13:51,400
+<font color="#ffff00">See if you can trace it.</font>
+
+198
+00:13:51,400 --> 00:13:53,400
+<font color="#ffffff">DISTORTION FADES AWAY</font>
+
+199
+00:13:54,880 --> 00:13:56,920
+<font color="#ffff00">Too late.</font>
+
+200
+00:13:56,920 --> 00:13:59,560
+<font color="#00ffff">I've heard that noise before.</font>
+
+201
+00:13:59,560 --> 00:14:01,680
+<font color="#ffff00">When?</font>
+
+202
+00:14:01,680 --> 00:14:04,080
+<font color="#00ffff">A few minutes</font>
+<font color="#00ffff">before we were attacked.</font>
+
+203
+00:14:12,520 --> 00:14:16,320
+<font color="#ffffff">METALLIC THRUMMING</font>
+
+204
+00:14:21,920 --> 00:14:24,960
+<font color="#ffff00">Where are we?</font><font color="#ffffff"> Earth!</font>
+
+205
+00:14:24,960 --> 00:14:27,480
+<font color="#ffff00">Oh, not again!</font><font color="#ffffff"> 26th century.</font>
+
+206
+00:14:27,480 --> 00:14:32,080
+<font color="#00ff00">The year is 2526 in the time scale</font>
+<font color="#00ff00">you call Anno Domini.</font>
+
+207
+00:14:32,080 --> 00:14:33,760
+<font color="#ffffff">Thank you.</font>
+
+208
+00:14:33,760 --> 00:14:36,840
+<font color="#00ffff">Why have we materialised</font>
+<font color="#00ffff">underground?</font>
+
+209
+00:14:36,840 --> 00:14:41,000
+<font color="#ffffff">Why not? Adric wants to use the</font>
+<font color="#ffffff">computer, I want to go for a walk!</font>
+
+210
+00:14:41,000 --> 00:14:44,200
+<font color="#ffff00">Why not help Adric?</font>
+<font color="#00ff00">I don't need his help, thank you!</font>
+
+211
+00:14:44,200 --> 00:14:47,400
+<font color="#ffffff">You see?</font>
+<font color="#ffff00">Please, it's gone far enough.</font>
+
+212
+00:14:47,400 --> 00:14:50,560
+<font color="#00ff00">Since his regeneration,</font>
+<font color="#00ff00">he's become decidedly immature!</font>
+
+213
+00:14:53,920 --> 00:14:57,320
+<font color="#ffffff">I'm going outside now.</font>
+<font color="#ffffff">I might be gone some time.</font>
+
+214
+00:15:02,000 --> 00:15:04,240
+<font color="#00ffff">I'm going to talk some sense</font>
+<font color="#00ffff">into the Doctor.</font>
+
+215
+00:15:07,400 --> 00:15:10,400
+<font color="#ffff00">It's all getting rather silly,</font>
+<font color="#ffff00">isn't it?</font>
+
+216
+00:15:10,400 --> 00:15:14,440
+<font color="#00ff00">I didn't mean to be so rude.</font><font color="#ffff00"> Why</font>
+<font color="#ffff00">don't you calculate the course home?</font>
+
+217
+00:15:14,440 --> 00:15:16,440
+<font color="#ffff00">Show the Doctor it can be done.</font>
+
+218
+00:15:16,440 --> 00:15:18,880
+<font color="#ffff00">When he's calmed down,</font>
+<font color="#ffff00">we'll talk to him.</font>
+
+219
+00:15:18,880 --> 00:15:21,400
+<font color="#00ff00">Will he listen?</font><font color="#ffff00"> Of course he will.</font>
+
+220
+00:15:35,240 --> 00:15:39,240
+<font color="#00ffff">This is the main group.</font>
+<font color="#00ffff">This is the wounded party.</font>
+
+221
+00:15:41,120 --> 00:15:44,120
+<font color="#ffff00">Where have they come from?</font>
+<font color="#00ffff">I don't know.</font>
+
+222
+00:15:46,680 --> 00:15:50,440
+<font color="#ffff00">We have three unidentified</font>
+<font color="#ffff00">life forms on the scanner.</font>
+
+223
+00:15:50,440 --> 00:15:53,400
+<font color="#00ffff">One of the readings is ectopic, sir.</font>
+<font color="#00ff00">What does that mean?</font>
+
+224
+00:15:55,520 --> 00:15:59,840
+<font color="#00ffff">That one of the life forms</font>
+<font color="#00ffff">has two hearts.</font>
+
+225
+00:16:03,200 --> 00:16:05,920
+<font color="#ffffff">It's so peaceful and cool down here.</font>
+
+226
+00:16:05,920 --> 00:16:09,280
+<font color="#00ffff">Breathe deeply and relax.</font>
+
+227
+00:16:09,280 --> 00:16:11,560
+<font color="#00ffff">Now, go and make it up with Adric.</font>
+
+228
+00:16:11,560 --> 00:16:12,800
+<font color="#00ffff">Please?</font>
+
+229
+00:16:14,560 --> 00:16:18,000
+<font color="#ffffff">All right, but I'm not</font>
+<font color="#ffffff">taking him back into E-Space,</font>
+
+230
+00:16:18,000 --> 00:16:20,320
+<font color="#ffffff">and that's my final word</font>
+<font color="#ffffff">on the matter!</font>
+
+231
+00:16:20,320 --> 00:16:23,720
+<font color="#ffff00">Look at his calculations.</font>
+<font color="#ffff00">It may be possible.</font>
+
+232
+00:16:23,720 --> 00:16:27,680
+<font color="#ffffff">All right, I'll look,</font>
+<font color="#ffffff">but I'm not promising anything!</font>
+
+233
+00:16:27,680 --> 00:16:30,320
+<font color="#ffff00">Of course not, Doctor.</font>
+
+234
+00:16:30,320 --> 00:16:32,480
+<font color="#00ff00">You're sure the life form's alien?</font>
+
+235
+00:16:32,480 --> 00:16:35,600
+<font color="#00ffff">Positive, sir. The reading's true.</font>
+
+236
+00:16:37,160 --> 00:16:40,080
+<font color="#00ff00">Let me have their position</font>
+<font color="#00ff00">as soon as possible.</font>
+
+237
+00:16:40,080 --> 00:16:42,080
+<font color="#00ffff">Working it out now, sir.</font>
+
+238
+00:16:43,480 --> 00:16:44,960
+<font color="#00ff00">Unshoulder arms.</font>
+
+239
+00:16:46,600 --> 00:16:48,400
+<font color="#00ff00">Set them on stun.</font>
+
+240
+00:16:54,280 --> 00:16:55,920
+<font color="#ffffff">HE MUTTERS TO HIMSELF</font>
+
+241
+00:16:55,920 --> 00:16:58,640
+<font color="#ffff00">Doctor?</font>
+
+242
+00:16:58,640 --> 00:17:01,280
+<font color="#ffff00">There's something wrong.</font>
+<font color="#ffffff">What?</font>
+
+243
+00:17:01,280 --> 00:17:03,680
+<font color="#ffff00">Haven't you noticed?</font>
+<font color="#00ffff">What are you talking about?</font>
+
+244
+00:17:03,680 --> 00:17:06,520
+<font color="#ffff00">It should be totally dark,</font>
+<font color="#ffff00">but we can see.</font>
+
+245
+00:17:09,240 --> 00:17:11,040
+<font color="#ffffff">Phosphorescence.</font>
+
+246
+00:17:11,040 --> 00:17:13,520
+<font color="#00ffff">And something else.</font><font color="#ffffff"> Hmm?</font>
+
+247
+00:17:13,520 --> 00:17:15,760
+<font color="#00ffff">Lots of bones.</font>
+
+248
+00:17:25,360 --> 00:17:28,080
+<font color="#00ff00">I've worked out the position</font>
+<font color="#00ff00">of the three intruders.</font>
+
+249
+00:17:28,080 --> 00:17:32,440
+<font color="#00ff00">Their lateral co-ordinates</font>
+<font color="#00ff00">are 039 by 401.</font>
+
+250
+00:17:32,440 --> 00:17:36,520
+<font color="#00ff00">Depth co-ordinates, 23.336 metres.</font>
+
+251
+00:17:36,520 --> 00:17:39,680
+<font color="#00ff00">Reference 1-9 by 74.9.</font>
+
+252
+00:17:43,400 --> 00:17:46,480
+<font color="#ffff00">By my reckoning,</font>
+<font color="#ffff00">your alien life form is in a tunnel</font>
+
+253
+00:17:46,480 --> 00:17:49,320
+<font color="#ffff00">alongside the cavern</font>
+<font color="#ffff00">where we were attacked.</font>
+
+254
+00:17:55,160 --> 00:17:57,520
+<font color="#00ffff">I must rest for a moment.</font>
+
+255
+00:18:04,520 --> 00:18:06,800
+<font color="#ffff00">Look at the wounded party.</font>
+
+256
+00:18:06,800 --> 00:18:08,800
+<font color="#ffff00">They've hardly moved.</font>
+
+257
+00:18:08,800 --> 00:18:11,160
+<font color="#ffff00">I'm going down.</font><font color="#00ffff"> Why?</font>
+
+258
+00:18:11,160 --> 00:18:15,120
+<font color="#ffff00">They may need help.</font>
+<font color="#00ffff">I'll let them know you're coming.</font>
+
+259
+00:18:18,120 --> 00:18:21,000
+<font color="#ffffff">DOCTOR: Fascinating.</font>
+<font color="#ffff00">They're huge!</font>
+
+260
+00:18:21,000 --> 00:18:22,880
+<font color="#ffff00">Which creature had such bones?</font>
+
+261
+00:18:22,880 --> 00:18:25,560
+<font color="#00ffff">Dinosaurs.</font><font color="#ffffff"> An amazing species.</font>
+
+262
+00:18:25,560 --> 00:18:28,160
+<font color="#ffff00">Are they your ancestors?</font><font color="#00ffff"> I hope not!</font>
+
+263
+00:18:28,160 --> 00:18:30,520
+<font color="#ffffff">You should be proud if they were.</font>
+
+264
+00:18:30,520 --> 00:18:32,400
+<font color="#00ffff">They had a brain the size of a pea!</font>
+
+265
+00:18:32,400 --> 00:18:36,880
+<font color="#ffffff">They were the most successful</font>
+<font color="#ffffff">creature on the earth.</font><font color="#ffff00"> How?</font>
+
+266
+00:18:36,880 --> 00:18:39,160
+<font color="#ffffff">Fossilised remains</font>
+<font color="#ffffff">are all over the planet.</font>
+
+267
+00:18:39,160 --> 00:18:42,800
+<font color="#ffffff">Not bad adaptation for a creature</font>
+<font color="#ffffff">with a brain the size of a pea!</font>
+
+268
+00:18:42,800 --> 00:18:46,040
+<font color="#ffff00">How long did they exist?</font>
+<font color="#ffffff">100 million years or so.</font>
+
+269
+00:18:46,040 --> 00:18:49,400
+<font color="#ffffff">They seemed so secure</font>
+<font color="#ffffff">yet died out virtually overnight.</font>
+
+270
+00:18:56,040 --> 00:18:57,480
+<font color="#00ff00">Come on, Professor!</font>
+
+271
+00:18:59,360 --> 00:19:01,120
+<font color="#00ffff">It's like a graveyard.</font>
+
+272
+00:19:01,120 --> 00:19:04,840
+<font color="#ffff00">How could such a successful species</font>
+<font color="#ffff00">die out so quickly?</font>
+
+273
+00:19:04,840 --> 00:19:07,080
+<font color="#ffffff">Initially hypothermia,</font>
+<font color="#ffffff">then starvation.</font>
+
+274
+00:19:07,080 --> 00:19:11,400
+<font color="#ffff00">Caused by what, an Ice Age?</font>
+<font color="#ffffff">Something equally as devastating.</font>
+
+275
+00:19:11,400 --> 00:19:14,880
+<font color="#ffffff">The Earth collided with something</font>
+<font color="#ffffff">from space.</font><font color="#00ffff"> An asteroid?</font>
+
+276
+00:19:14,880 --> 00:19:17,280
+<font color="#ffffff">Could be, I don't know.</font>
+
+277
+00:19:17,280 --> 00:19:20,440
+<font color="#ffffff">I've always meant to slip back</font>
+<font color="#ffffff">and find out.</font>
+
+278
+00:19:24,920 --> 00:19:28,160
+<font color="#00ff00">Snyder?</font><font color="#00ffff"> You should be near</font>
+<font color="#00ffff">the wounded party.</font>
+
+279
+00:19:28,160 --> 00:19:29,960
+<font color="#00ff00">I can't see anyone.</font>
+
+280
+00:19:29,960 --> 00:19:32,960
+<font color="#00ffff">They're on your level,</font>
+<font color="#00ffff">about 30 metres away.</font>
+
+281
+00:19:32,960 --> 00:19:36,240
+<font color="#00ff00">Advancing now.</font>
+<font color="#00ff00">Will leave communicator on.</font>
+
+282
+00:19:45,120 --> 00:19:46,880
+<font color="#ffff00">Is that you, Snyder?</font>
+
+283
+00:19:53,200 --> 00:19:55,600
+<font color="#00ff00">Are you sure they're on this level?</font>
+
+284
+00:19:55,600 --> 00:19:58,560
+<font color="#00ffff">Positive! They should be very close.</font>
+
+285
+00:19:58,560 --> 00:20:01,120
+<font color="#00ffff">Hang on... The scanner's flaring.</font>
+
+286
+00:20:03,200 --> 00:20:05,360
+<font color="#00ffff">The flaring's very heavy.</font>
+
+287
+00:20:05,360 --> 00:20:07,760
+<font color="#00ff00">See if you can get a fix on it.</font>
+
+288
+00:20:12,920 --> 00:20:14,520
+<font color="#ffff00">Come on, keep up!</font>
+
+289
+00:20:14,520 --> 00:20:17,760
+<font color="#ffff00">The exercise will do you all good!</font>
+
+290
+00:20:20,920 --> 00:20:23,800
+<font color="#00ff00">Snyder, do you hear me?</font><font color="#00ffff"> Just.</font>
+
+291
+00:20:23,800 --> 00:20:25,280
+<font color="#00ff00">It's no-go.</font>
+
+292
+00:20:25,280 --> 00:20:28,320
+<font color="#00ff00">The scanner registers the flare,</font>
+<font color="#00ff00">but the computer doesn't.</font>
+
+293
+00:20:28,320 --> 00:20:29,520
+<font color="#00ff00">It's weird.</font>
+
+294
+00:20:29,520 --> 00:20:32,760
+<font color="#00ffff">Keep trying.</font>
+<font color="#00ff00">You're very close to the source.</font>
+
+295
+00:20:32,760 --> 00:20:34,640
+<font color="#ffffff">WOMAN SCREAMS</font>
+
+296
+00:20:34,640 --> 00:20:37,640
+<font color="#00ff00">Snyder? Snyder!</font>
+
+297
+00:20:40,680 --> 00:20:42,400
+<font color="#00ff00">Negative emission!</font>
+
+298
+00:20:42,400 --> 00:20:44,400
+<font color="#00ff00">Snyder, do you hear me?</font>
+
+299
+00:20:44,400 --> 00:20:47,440
+<font color="#00ff00">Get out of there!</font>
+<font color="#00ff00">Bane and Collis are dead!</font>
+
+300
+00:20:47,440 --> 00:20:52,000
+<font color="#00ff00">Do you hear me? Snyder! Snyder!</font>
+<font color="#00ff00">Get out of there! Snyder!</font>
+
+301
+00:21:03,400 --> 00:21:05,760
+<font color="#00ffff">Things have collided</font>
+<font color="#00ffff">with Earth before.</font>
+
+302
+00:21:05,760 --> 00:21:08,360
+<font color="#00ffff">What was so different</font>
+<font color="#00ffff">about this one?</font>
+
+303
+00:21:08,360 --> 00:21:10,320
+<font color="#ffffff">Its size, it was gigantic.</font>
+
+304
+00:21:10,320 --> 00:21:14,160
+<font color="#00ffff">How could one asteroid</font>
+<font color="#00ffff">wipe out all the dinosaurs?</font>
+
+305
+00:21:14,160 --> 00:21:16,680
+<font color="#ffff00">You're forgetting displacement.</font>
+
+306
+00:21:16,680 --> 00:21:18,440
+<font color="#ffffff">Millions of tonnes of earth and rock</font>
+
+307
+00:21:18,440 --> 00:21:21,520
+<font color="#ffffff">would have been hurled up</font>
+<font color="#ffffff">into the atmosphere,</font>
+
+308
+00:21:21,520 --> 00:21:23,520
+<font color="#ffffff">enveloping the whole planet.</font>
+
+309
+00:21:23,520 --> 00:21:25,840
+<font color="#ffff00">Would it have blocked out the sun?</font>
+
+310
+00:21:25,840 --> 00:21:29,560
+<font color="#ffffff">Such that the temperature would</font>
+<font color="#ffffff">have dropped radically.</font>
+
+311
+00:21:29,560 --> 00:21:32,800
+<font color="#ffff00">And without warmth,</font>
+<font color="#ffff00">reptiles cease to function.</font>
+
+312
+00:21:32,800 --> 00:21:34,440
+<font color="#00ffff">Poor old dinosaur!</font>
+
+313
+00:21:38,200 --> 00:21:40,880
+<font color="#00ff00">All right, take it easy.</font>
+
+314
+00:21:40,880 --> 00:21:42,920
+<font color="#00ffff">I can't keep the pace up!</font>
+
+315
+00:21:42,920 --> 00:21:45,400
+<font color="#00ff00">We'll rest here for a minute.</font>
+
+316
+00:21:45,400 --> 00:21:47,560
+<font color="#00ff00">Scott.</font>
+
+317
+00:21:47,560 --> 00:21:52,440
+<font color="#ffff00">Snyder and the others have...</font>
+<font color="#ffff00">just gone off the scanner.</font>
+
+318
+00:21:52,440 --> 00:21:54,000
+<font color="#00ff00">What?</font>
+
+319
+00:21:54,000 --> 00:21:57,400
+<font color="#ffff00">The screen flared again,</font>
+<font color="#ffff00">then their scan lights went out.</font>
+
+320
+00:21:58,880 --> 00:22:01,280
+<font color="#ffff00">They're dead.</font>
+
+321
+00:22:01,280 --> 00:22:03,280
+<font color="#00ff00">Have you checked the scanner?</font>
+
+322
+00:22:03,280 --> 00:22:06,080
+<font color="#ffff00">Yes. It's working perfectly.</font>
+
+323
+00:22:06,080 --> 00:22:08,080
+<font color="#00ffff">Could be a rock fall</font>
+<font color="#00ffff">that killed them.</font>
+
+324
+00:22:09,840 --> 00:22:12,600
+<font color="#00ff00">Any change in position</font>
+<font color="#00ff00">of our alien friends?</font>
+
+325
+00:22:12,600 --> 00:22:14,600
+<font color="#ffff00">None.</font>
+
+326
+00:22:14,600 --> 00:22:17,560
+<font color="#00ffff">Shall I take a couple of troopers</font>
+<font color="#00ffff">and go back, sir?</font>
+
+327
+00:22:17,560 --> 00:22:20,320
+<font color="#00ff00">Carry on, Sergeant.</font>
+<font color="#00ffff">Carter, Bailey!</font>
+
+328
+00:22:23,080 --> 00:22:25,080
+<font color="#ffff00">Don't wander too far, Doctor!</font>
+
+329
+00:22:26,800 --> 00:22:29,600
+<font color="#00ff00">Professor Kyle, we must go on.</font>
+
+330
+00:22:29,600 --> 00:22:31,600
+<font color="#00ffff">I'm fine now.</font>
+
+331
+00:22:33,600 --> 00:22:36,080
+<font color="#00ff00">Right. Prepare to move out.</font>
+
+332
+00:22:36,080 --> 00:22:39,480
+<font color="#ffffff">TEGAN:</font><font color="#ffff00"> It's weird.</font>
+<font color="#ffff00">All happened so long ago.</font>
+
+333
+00:22:39,480 --> 00:22:41,760
+<font color="#ffffff">65 million years.</font>
+
+334
+00:22:41,760 --> 00:22:45,720
+<font color="#ffff00">I wonder what evolutionary stage</font>
+<font color="#ffff00">my ancestors were at?</font>
+
+335
+00:22:45,720 --> 00:22:48,760
+<font color="#ffffff">Primitive, Tegan. Very primitive.</font>
+
+336
+00:22:53,120 --> 00:22:55,280
+<font color="#ffffff">MITCHELL:</font><font color="#00ff00"> Come on!</font>
+
+337
+00:23:06,520 --> 00:23:09,160
+<font color="#00ffff">Not again! Please, not again!</font>
+
+338
+00:23:12,040 --> 00:23:13,680
+<font color="#ffffff">SHARP BEEP</font>
+
+339
+00:23:13,680 --> 00:23:17,600
+<font color="#00ff00">Mitchell.</font>
+<font color="#00ffff">The scanner's flared again, Sarge.</font>
+
+340
+00:23:17,600 --> 00:23:20,680
+<font color="#00ff00">Whereabouts?</font><font color="#00ffff"> Very close to you.</font>
+
+341
+00:23:25,040 --> 00:23:28,520
+<font color="#00ffff">There's been a rock fall.</font>
+<font color="#ffff00">Where are the three aliens?</font>
+
+342
+00:23:28,520 --> 00:23:31,000
+<font color="#00ffff">In the tunnel down here.</font>
+
+343
+00:23:31,000 --> 00:23:33,040
+<font color="#ffff00">Right, take cover!</font>
+
+344
+00:23:51,720 --> 00:23:53,720
+<font color="#00ffff">Come on.</font>
+
+345
+00:24:01,920 --> 00:24:06,240
+<font color="#00ff00">Look, Sarge. What sort of weapon</font>
+<font color="#00ff00">could do that to a person?</font>
+
+346
+00:24:06,240 --> 00:24:08,880
+<font color="#00ffff">I don't know and I don't care.</font>
+
+347
+00:24:08,880 --> 00:24:11,560
+<font color="#00ffff">I just want the people who did this.</font>
+
+348
+00:24:20,760 --> 00:24:23,760
+<font color="#ffffff">MITCHELL:</font><font color="#00ffff"> We've company.</font>
+<font color="#00ffff">Two of them.</font>
+
+349
+00:24:23,760 --> 00:24:26,920
+<font color="#00ff00">That's not possible.</font>
+<font color="#00ff00">There's no reading.</font>
+
+350
+00:24:26,920 --> 00:24:29,200
+<font color="#00ffff">Take my word for it.</font>
+
+351
+00:24:29,200 --> 00:24:31,520
+<font color="#00ffff">They're here and they don't look...</font>
+
+352
+00:24:31,520 --> 00:24:33,360
+<font color="#ffffff">AGONISED SCREAM</font>
+
+353
+00:24:35,160 --> 00:24:39,520
+<font color="#00ff00">Sergeant Mitchell? Sergeant!</font>
+
+354
+00:24:39,520 --> 00:24:41,280
+<font color="#00ff00">Sergeant Mitchell!</font>
+
+355
+00:24:44,280 --> 00:24:46,640
+<font color="#ffff00">Look, Doctor. Mining equipment!</font>
+
+356
+00:24:46,640 --> 00:24:49,120
+<font color="#ffffff">I don't think we should go</font>
+<font color="#ffffff">any further.</font>
+
+357
+00:24:49,120 --> 00:24:51,360
+<font color="#00ffff">I can't see anyone.</font>
+
+358
+00:24:51,360 --> 00:24:53,400
+<font color="#00ff00">Hold it there!</font>
+
+359
+00:24:53,400 --> 00:24:56,360
+<font color="#ffff00">What's going on?</font><font color="#00ff00"> Shut up!</font>
+
+360
+00:24:56,360 --> 00:24:58,080
+<font color="#00ff00">Do you recognise any of them?</font>
+
+361
+00:25:00,120 --> 00:25:03,040
+<font color="#ffff00">No.</font><font color="#ffffff"> How do you do? I'm the Doctor.</font>
+
+362
+00:25:03,040 --> 00:25:04,640
+<font color="#ffffff">This is Tegan and Nyssa.</font>
+
+363
+00:25:04,640 --> 00:25:06,640
+<font color="#00ff00">I said shut up!</font>
+
+364
+00:25:06,640 --> 00:25:08,800
+<font color="#ffffff">What are we supposed to have done?</font>
+
+365
+00:25:08,800 --> 00:25:11,200
+<font color="#ffffff">SHARP BEEP</font>
+
+366
+00:25:08,800 --> 00:25:11,200
+<font color="#00ff00">Scott?</font>
+
+367
+00:25:11,200 --> 00:25:14,400
+<font color="#ffffff">WALTERS:</font><font color="#00ffff"> Sergeant Mitchell</font>
+<font color="#00ffff">and her troops are dead.</font>
+
+368
+00:25:14,400 --> 00:25:16,240
+<font color="#00ff00">Are you sure?</font>
+
+369
+00:25:16,240 --> 00:25:18,880
+<font color="#00ffff">Yes. She was reporting in</font>
+<font color="#00ffff">when she was killed.</font>
+
+370
+00:25:20,160 --> 00:25:22,720
+<font color="#00ff00">How many hostiles were there?</font>
+<font color="#00ffff">Two, sir.</font>
+
+371
+00:25:22,720 --> 00:25:26,840
+<font color="#00ff00">Where are they now?</font><font color="#00ffff"> They're not</font>
+<font color="#00ffff">showing up on the scanner.</font>
+
+372
+00:25:26,840 --> 00:25:29,760
+<font color="#00ff00">That's impossible!</font><font color="#00ffff"> I know, sir.</font>
+
+373
+00:25:29,760 --> 00:25:32,200
+<font color="#00ff00">All right. Keep searching.</font>
+
+374
+00:25:32,200 --> 00:25:34,920
+<font color="#00ff00">Let me know when you find anything.</font>
+
+375
+00:25:34,920 --> 00:25:36,320
+<font color="#ffffff">Anything we can do?</font>
+
+376
+00:25:37,560 --> 00:25:39,680
+<font color="#ffffff">Oh! Obviously not!</font>
+
+377
+00:25:44,400 --> 00:25:47,240
+<font color="#00ff00">Too many people have died</font>
+<font color="#00ff00">for you to play the fool!</font>
+
+378
+00:25:51,920 --> 00:25:53,840
+<font color="#00ffff">Now where have you gone?</font>
+
+379
+00:25:53,840 --> 00:25:56,040
+<font color="#00ff00">Where have you hidden the bodies?</font>
+
+380
+00:25:56,040 --> 00:25:59,720
+<font color="#ffffff">What bodies?</font><font color="#00ff00"> Seven people were</font>
+<font color="#00ff00">murdered here!</font><font color="#ffff00"> We didn't do it!</font>
+
+381
+00:25:59,720 --> 00:26:03,040
+<font color="#ffffff">We only just arrived.</font>
+<font color="#00ffff">I'll show you how we got here.</font>
+
+382
+00:26:03,040 --> 00:26:04,760
+<font color="#00ff00">Don't waste my time!</font>
+
+383
+00:26:04,760 --> 00:26:07,360
+<font color="#00ff00">Where have you hidden the bodies?</font>
+
+384
+00:26:07,360 --> 00:26:10,840
+<font color="#00ffff">The rock fall!</font><font color="#00ff00"> What?</font>
+<font color="#00ffff">The bodies must be here!</font>
+
+385
+00:26:13,000 --> 00:26:14,480
+<font color="#00ff00">Shall we look?</font>
+
+386
+00:26:17,040 --> 00:26:19,000
+<font color="#ffffff">HIGH PITCHED TRILLING</font>
+
+387
+00:26:20,120 --> 00:26:21,640
+<font color="#ffff00">What is it?</font>
+
+388
+00:26:23,600 --> 00:26:25,520
+<font color="#ffff00">Where's it coming from?</font>
+
+389
+00:26:29,360 --> 00:26:30,960
+<font color="#00ff00">What's that?</font>
+
+390
+00:26:33,680 --> 00:26:35,600
+<font color="#00ffff">I don't know.</font>
+
+391
+00:26:35,600 --> 00:26:38,840
+<font color="#00ff00">Seaton, Foster!</font>
+<font color="#00ff00">Help them clear the rocks away.</font>
+
+392
+00:26:38,840 --> 00:26:40,440
+<font color="#ffff00">Lieutenant!</font>
+
+393
+00:26:43,000 --> 00:26:45,720
+<font color="#ffff00">These belong to Dr Khan.</font>
+<font color="#ffff00">My assistant.</font>
+
+394
+00:26:45,720 --> 00:26:48,000
+<font color="#ffffff">TRILLING</font>
+
+395
+00:26:53,600 --> 00:26:55,400
+<font color="#00ff00">Is this why you killed them?</font>
+
+396
+00:26:55,400 --> 00:26:58,400
+<font color="#ffffff">I know nothing about it.</font>
+<font color="#ffff00">We're telling the truth.</font>
+
+397
+00:26:58,400 --> 00:27:00,280
+<font color="#00ff00">Open the hatch.</font><font color="#ffffff"> I can't.</font>
+
+398
+00:27:00,280 --> 00:27:02,240
+<font color="#00ff00">I said open it!</font><font color="#00ffff"> I'll try.</font>
+
+399
+00:27:02,240 --> 00:27:04,840
+<font color="#ffffff">Nyssa...</font><font color="#00ff00"> Stay where you are!</font>
+
+400
+00:27:04,840 --> 00:27:06,960
+<font color="#00ff00">I want him to do it.</font>
+
+401
+00:27:16,240 --> 00:27:17,800
+<font color="#ffffff">SHOUTING</font>
+
+402
+00:27:19,400 --> 00:27:21,480
+<font color="#00ff00">Behind the rocks!</font>
+
+403
+00:27:29,120 --> 00:27:30,520
+<font color="#00ffff">Who are they?</font>
+
+404
+00:27:30,520 --> 00:27:33,640
+<font color="#ffffff">Androids. That's why they didn't</font>
+<font color="#ffffff">register on your scanners.</font>
+
+405
+00:27:33,640 --> 00:27:36,120
+<font color="#00ff00">Androids? Are they yours?</font>
+
+406
+00:27:36,120 --> 00:27:40,160
+<font color="#ffffff">No. They'll kill me as</font>
+<font color="#ffffff">willingly as they'll kill you.</font>
+
+407
+00:27:43,040 --> 00:27:44,240
+<font color="#ffffff">See what I mean?</font>
+
+408
+00:27:47,640 --> 00:27:49,760
+<font color="#00ffff">That's them. I recognise that sound.</font>
+
+409
+00:27:49,760 --> 00:27:52,520
+<font color="#00ff00">Those are the things</font>
+<font color="#00ff00">that attacked you?</font><font color="#00ffff"> Yes.</font>
+
+410
+00:27:52,520 --> 00:27:55,360
+<font color="#ffffff">Do you know why?</font>
+<font color="#00ffff">No. There isn't a reason.</font>
+
+411
+00:27:55,360 --> 00:27:57,440
+<font color="#ffffff">Whoever controls them</font>
+<font color="#ffffff">thinks there is.</font>
+
+412
+00:28:10,760 --> 00:28:12,840
+<font color="#00ff00">Destroy them!</font>
+
+413
+00:28:12,840 --> 00:28:16,200
+<font color="#00ff00">Destroy them at once!</font>
+
+414
+00:28:28,920 --> 00:28:30,320
+<font color="#00ffff">Our weapons have no effect on them.</font>
+
+415
+00:28:30,320 --> 00:28:32,680
+<font color="#ffffff">Yes, they will, but you must</font>
+<font color="#ffffff">concentrate your fire.</font>
+
+416
+00:28:33,800 --> 00:28:36,480
+<font color="#00ffff">All right. Hold your fire!</font>
+
+417
+00:28:36,480 --> 00:28:39,800
+<font color="#00ffff">When I give the word,</font>
+<font color="#00ffff">go for the one on the right.</font>
+
+418
+00:28:41,920 --> 00:28:42,960
+<font color="#00ffff">Now!</font>
+
+419
+00:28:53,280 --> 00:28:55,120
+<font color="#00ffff">Got him!</font>
+
+420
+00:28:55,120 --> 00:28:56,520
+<font color="#ffffff">No, it's only damaged!</font>
+
+421
+00:29:01,000 --> 00:29:03,160
+<font color="#00ff00">The androids are too</font>
+<font color="#00ff00">valuable to waste.</font>
+
+422
+00:29:03,160 --> 00:29:05,120
+<font color="#00ff00">We may still need them.</font>
+
+423
+00:29:05,120 --> 00:29:07,640
+<font color="#00ffff">They are programmed</font>
+<font color="#00ffff">for self-preservation.</font>
+
+424
+00:29:07,640 --> 00:29:10,600
+<font color="#00ffff">They will not take</font>
+<font color="#00ffff">any more unnecessary risks.</font>
+
+425
+00:29:14,200 --> 00:29:17,080
+<font color="#ffff00">Will they attack again?</font>
+<font color="#ffffff">Undoubtedly.</font>
+
+426
+00:29:20,000 --> 00:29:21,280
+<font color="#00ffff">They've covered the exit.</font>
+
+427
+00:29:21,280 --> 00:29:24,160
+<font color="#00ff00">Well, won't someone on the surface</font>
+<font color="#00ff00">realise that something's wrong?</font>
+
+428
+00:29:24,160 --> 00:29:26,800
+<font color="#00ffff">Sooner or later.</font>
+<font color="#00ff00">Let's hope it's sooner.</font>
+
+429
+00:29:40,560 --> 00:29:43,360
+<font color="#00ffff">What are they doing?</font><font color="#ffffff"> Waiting.</font>
+
+430
+00:29:43,360 --> 00:29:45,440
+<font color="#ffff00">What can they possibly want?</font>
+
+431
+00:29:45,440 --> 00:29:47,080
+<font color="#00ff00">Isn't it obvious?</font>
+
+432
+00:29:47,080 --> 00:29:48,480
+<font color="#00ff00">Us dead.</font>
+
+433
+00:29:48,480 --> 00:29:50,040
+<font color="#ffff00">But why?</font>
+
+434
+00:29:50,040 --> 00:29:53,040
+<font color="#ffffff">Were you working near the rock fall</font>
+<font color="#ffffff">the first time you were attacked?</font>
+
+435
+00:29:53,040 --> 00:29:56,440
+<font color="#ffff00">Yes.</font><font color="#ffffff"> Well, maybe their function is</font>
+<font color="#ffffff">to protect that hatch.</font>
+
+436
+00:29:56,440 --> 00:29:59,360
+<font color="#ffff00">What can be in there</font>
+<font color="#ffff00">that's worth so many lives?</font>
+
+437
+00:29:59,360 --> 00:30:00,760
+<font color="#ffffff">Well, let's find out.</font>
+
+438
+00:30:03,720 --> 00:30:06,560
+<font color="#00ffff">I haven't had much experience</font>
+<font color="#00ffff">of fighting androids.</font>
+
+439
+00:30:06,560 --> 00:30:08,400
+<font color="#ffffff">They're just like people.</font>
+
+440
+00:30:08,400 --> 00:30:11,920
+<font color="#ffff00">Only they function</font>
+<font color="#ffff00">much more logically.</font>
+
+441
+00:30:11,920 --> 00:30:14,040
+<font color="#ffffff">Which can be their weakness.</font>
+
+442
+00:30:15,880 --> 00:30:17,040
+<font color="#00ff00">Doctor!</font>
+
+443
+00:30:19,880 --> 00:30:21,080
+<font color="#00ff00">Doctor!</font>
+
+444
+00:30:22,520 --> 00:30:25,400
+<font color="#ffff00">Oh, no...</font><font color="#00ff00"> Adric!</font><font color="#ffffff"> Adric!</font>
+
+445
+00:30:26,920 --> 00:30:28,280
+<font color="#ffffff">Lieutenant!</font>
+
+446
+00:30:34,560 --> 00:30:37,280
+<font color="#00ffff">The power packs in the rifles</font>
+<font color="#00ffff">are almost finished.</font><font color="#00ff00"> So are we!</font>
+
+447
+00:30:37,280 --> 00:30:38,720
+<font color="#ffffff">Brave heart, Tegan.</font>
+
+448
+00:30:38,720 --> 00:30:41,320
+<font color="#ffffff">Now, the androids are programmed</font>
+<font color="#ffffff">to protect that hatch.</font>
+
+449
+00:30:41,320 --> 00:30:43,320
+<font color="#ffffff">In order to carry out</font>
+<font color="#ffffff">that duty successfully,</font>
+
+450
+00:30:43,320 --> 00:30:45,200
+<font color="#ffffff">it's important</font>
+<font color="#ffffff">they remain operational.</font>
+
+451
+00:30:45,200 --> 00:30:47,960
+<font color="#00ffff">Go on.</font><font color="#ffffff"> Well, the androids now know</font>
+<font color="#ffffff">we have the ability</font>
+
+452
+00:30:47,960 --> 00:30:49,520
+<font color="#ffffff">to inflict serious damage on them,</font>
+
+453
+00:30:49,520 --> 00:30:52,000
+<font color="#ffffff">so if we attack that hatch,</font>
+<font color="#ffffff">we create a dilemma.</font>
+
+454
+00:30:52,000 --> 00:30:53,960
+<font color="#00ff00">We attack what</font>
+<font color="#00ff00">they're programmed to defend?</font>
+
+455
+00:30:53,960 --> 00:30:55,920
+<font color="#ffff00">Why should they care</font>
+<font color="#ffff00">if we attack the hatch?</font>
+
+456
+00:30:55,920 --> 00:30:58,800
+<font color="#00ff00">They won't care, they'll react.</font>
+<font color="#00ff00">They've no choice.</font>
+
+457
+00:30:58,800 --> 00:31:01,400
+<font color="#ffffff">The conflict between duty</font>
+<font color="#ffffff">and survival should cause confusion</font>
+
+458
+00:31:01,400 --> 00:31:03,520
+<font color="#ffffff">in their logic circuits</font>
+<font color="#ffffff">to start making mistakes,</font>
+
+459
+00:31:03,520 --> 00:31:05,680
+<font color="#ffffff">which is exactly what we want.</font>
+<font color="#00ffff">I hope you're right.</font>
+
+460
+00:31:05,680 --> 00:31:07,400
+<font color="#ffffff">Well, let's find out.</font>
+
+461
+00:31:07,400 --> 00:31:09,600
+<font color="#00ffff">Right. Stand by.</font>
+
+462
+00:31:12,880 --> 00:31:13,920
+<font color="#00ffff">Fire!</font>
+
+463
+00:31:18,760 --> 00:31:21,240
+<font color="#00ffff">The Earthlings are attempting</font>
+<font color="#00ffff">to break through the hatch.</font>
+
+464
+00:31:21,240 --> 00:31:23,400
+<font color="#00ff00">Are their weapons capable?</font>
+
+465
+00:31:23,400 --> 00:31:24,880
+<font color="#00ffff">Yes, Leader.</font>
+
+466
+00:31:24,880 --> 00:31:27,520
+<font color="#00ff00">They must be stopped immediately.</font>
+
+467
+00:31:39,560 --> 00:31:41,040
+<font color="#ffffff">Well done!</font>
+
+468
+00:31:42,480 --> 00:31:45,240
+<font color="#00ffff">Who's that boy?</font><font color="#ffffff"> It's Adric!</font>
+
+469
+00:31:46,600 --> 00:31:49,800
+<font color="#00ff00">Is the second android</font>
+<font color="#00ff00">fitted with visual monitoring?</font>
+
+470
+00:31:49,800 --> 00:31:52,560
+<font color="#00ffff">Yes, Leader.</font><font color="#00ff00"> Then activate.</font>
+
+471
+00:32:07,960 --> 00:32:09,600
+<font color="#00ff00">We must act quickly.</font>
+
+472
+00:32:09,600 --> 00:32:12,240
+<font color="#00ff00">Prepare to activate the device.</font>
+
+473
+00:32:12,240 --> 00:32:13,840
+<font color="#00ffff">It's too soon, Leader.</font>
+
+474
+00:32:13,840 --> 00:32:16,080
+<font color="#00ff00">We must be prepared.</font>
+
+475
+00:32:17,080 --> 00:32:19,320
+<font color="#00ffff">Very good shooting. Well done.</font>
+
+476
+00:32:19,320 --> 00:32:22,640
+<font color="#ffff00">It's fairly primitive.</font>
+<font color="#ffffff">You think so?</font>
+
+477
+00:32:22,640 --> 00:32:24,360
+<font color="#ffff00">Look at this.</font>
+
+478
+00:32:24,360 --> 00:32:26,200
+<font color="#ffffff">Lieutenant.</font><font color="#00ffff"> Yes, Doctor?</font>
+
+479
+00:32:26,200 --> 00:32:29,000
+<font color="#ffffff">I think you should curtail the</font>
+<font color="#ffffff">celebrations for the time being.</font>
+
+480
+00:32:29,000 --> 00:32:31,200
+<font color="#00ffff">Oh, something wrong?</font>
+<font color="#ffffff">We must get this hatch open.</font>
+
+481
+00:32:31,200 --> 00:32:32,400
+<font color="#00ffff">What's the hurry?</font>
+
+482
+00:32:32,400 --> 00:32:35,400
+<font color="#ffff00">One of the androids was</font>
+<font color="#ffff00">a massive ultrasonic transmitter.</font>
+
+483
+00:32:35,400 --> 00:32:37,840
+<font color="#00ff00">So that was the signal</font>
+<font color="#00ff00">I picked up in the TARDIS.</font>
+
+484
+00:32:40,160 --> 00:32:41,800
+<font color="#00ffff">What does that mean?</font>
+
+485
+00:32:41,800 --> 00:32:44,840
+<font color="#ffffff">Whoever built this hatch now knows</font>
+<font color="#ffffff">we've destroyed its guardians.</font>
+
+486
+00:32:45,920 --> 00:32:48,320
+<font color="#00ffff">Carrier signal now</font>
+<font color="#00ffff">being transmitted.</font>
+
+487
+00:32:48,320 --> 00:32:49,920
+<font color="#00ffff">Beam locked on.</font>
+
+488
+00:32:51,960 --> 00:32:54,400
+<font color="#ffffff">Your troopers got quite</font>
+<font color="#ffffff">carried away, didn't they?</font>
+
+489
+00:32:54,400 --> 00:32:56,600
+<font color="#ffffff">I would suggest you</font>
+<font color="#ffffff">get your people well back.</font>
+
+490
+00:32:56,600 --> 00:32:58,920
+<font color="#ffffff">The hatch may be booby-trapped.</font>
+<font color="#00ffff">What about you?</font>
+
+491
+00:32:58,920 --> 00:33:01,480
+<font color="#ffffff">Well, my arms are only this long.</font>
+<font color="#ffffff">I can't get any further away.</font>
+
+492
+00:33:01,480 --> 00:33:04,000
+<font color="#ffff00">Can you see what it is?</font>
+<font color="#ffffff">No. You'd better get back too.</font>
+
+493
+00:33:04,000 --> 00:33:06,360
+<font color="#00ffff">Right, everybody, back!</font>
+
+494
+00:33:06,360 --> 00:33:08,160
+<font color="#00ff00">Activate the computer.</font>
+
+495
+00:33:09,160 --> 00:33:11,720
+<font color="#00ffff">It's too early, Leader.</font>
+<font color="#00ffff">It will be wasted.</font>
+
+496
+00:33:11,720 --> 00:33:13,880
+<font color="#00ff00">The device is already lost.</font>
+
+497
+00:33:13,880 --> 00:33:18,240
+<font color="#00ff00">Let the Earth see the effectiveness</font>
+<font color="#00ff00">of Cyber technology.</font>
+
+498
+00:33:18,240 --> 00:33:20,440
+<font color="#00ff00">Explode the bomb!</font>
+
+499
+00:33:24,000 --> 00:33:27,120
+<font color="#ffffff">Ah, got it - the release mechanism.</font>
+<font color="#ffffff">You'd better get back too.</font>
+
+500
+00:33:27,120 --> 00:33:28,720
+<font color="#00ff00">You've checked for booby traps.</font>
+
+501
+00:33:28,720 --> 00:33:31,000
+<font color="#ffffff">I'm not in the mood to argue.</font>
+<font color="#00ffff">Come on, lad.</font>
+
+502
+00:33:32,800 --> 00:33:34,120
+<font color="#ffffff">Further than that!</font>
+
+503
+00:33:41,920 --> 00:33:43,640
+<font color="#00ffff">The Earthlings have broken in!</font>
+
+504
+00:33:43,640 --> 00:33:46,200
+<font color="#00ff00">They are too late!</font>
+
+505
+00:33:46,200 --> 00:33:49,960
+<font color="#00ffff">Are you all right?</font><font color="#ffffff"> Yes.</font>
+<font color="#00ffff">I thought a booby-trap had gone off.</font>
+
+506
+00:33:53,400 --> 00:33:55,920
+<font color="#ffff00">What is it?</font><font color="#ffffff"> A bomb!</font>
+
+507
+00:33:55,920 --> 00:33:59,120
+<font color="#ffffff">My opening the hatch has started</font>
+<font color="#ffffff">off the arming procedure.</font>
+
+508
+00:33:59,120 --> 00:34:01,800
+<font color="#ffffff">You'd better let your people on</font>
+<font color="#ffffff">the surface know what's happened.</font>
+
+509
+00:34:01,800 --> 00:34:04,600
+<font color="#00ffff">How much time have we got?</font><font color="#ffffff"> No idea.</font>
+<font color="#ffffff">Tegan, get everyone in the TARDIS!</font>
+
+510
+00:34:04,600 --> 00:34:06,360
+<font color="#00ffff">Scott to Walters. Scott to Walters.</font>
+
+511
+00:34:06,360 --> 00:34:08,760
+<font color="#00ffff">Walters, come in, please.</font>
+<font color="#00ff00">Some on, you can't stay behind!</font>
+
+512
+00:34:08,760 --> 00:34:11,760
+<font color="#ffffff">It was my own stupidity that started</font>
+<font color="#ffffff">it off, the least I can do is...</font>
+
+513
+00:34:14,080 --> 00:34:15,720
+<font color="#ffffff">Of course! Come on!</font>
+
+514
+00:34:17,280 --> 00:34:19,640
+<font color="#00ff00">How much longer before activation?</font>
+
+515
+00:34:21,040 --> 00:34:22,320
+<font color="#00ffff">One minute.</font>
+
+516
+00:34:23,760 --> 00:34:25,920
+<font color="#ffffff">Set the co-ordinates at zero!</font>
+
+517
+00:34:28,000 --> 00:34:29,760
+<font color="#00ff00">It would be nice to know</font>
+<font color="#00ff00">what you're doing.</font>
+
+518
+00:34:29,760 --> 00:34:32,680
+<font color="#ffffff">The arming procedure on the bomb</font>
+<font color="#ffffff">is being operated by remote control.</font>
+
+519
+00:34:32,680 --> 00:34:35,760
+<font color="#00ff00">Can you jam it?</font><font color="#ffffff"> Yes, but not till</font>
+<font color="#ffffff">I know where it's coming from.</font>
+
+520
+00:34:49,760 --> 00:34:52,280
+<font color="#00ffff">Master detonator engaged.</font>
+
+521
+00:34:54,680 --> 00:34:56,680
+<font color="#ffffff">Well, that isn't right. Or is it?</font>
+
+522
+00:34:56,680 --> 00:34:58,920
+<font color="#00ff00">How long does an</font>
+<font color="#00ff00">arming procedure take?</font>
+
+523
+00:34:58,920 --> 00:34:59,960
+<font color="#ffffff">Not long.</font>
+
+524
+00:34:59,960 --> 00:35:02,880
+<font color="#00ff00">Well, shouldn't we move the TARDIS</font>
+<font color="#00ff00">in case the bomb goes off?</font>
+
+525
+00:35:02,880 --> 00:35:04,600
+<font color="#00ffff">30 seconds.</font>
+
+526
+00:35:18,920 --> 00:35:20,400
+<font color="#ffffff">BEEPING</font>
+
+527
+00:35:20,400 --> 00:35:22,040
+<font color="#00ff00">What's happening?</font>
+
+528
+00:35:22,040 --> 00:35:23,760
+<font color="#00ffff">Our signal is being jammed.</font>
+
+529
+00:35:24,800 --> 00:35:27,120
+<font color="#00ff00">More power!</font>
+
+530
+00:35:27,120 --> 00:35:28,600
+<font color="#ffffff">Come on, Adric!</font>
+
+531
+00:35:28,600 --> 00:35:30,760
+<font color="#00ff00">But you've already</font>
+<font color="#00ff00">jammed the signal!</font>
+
+532
+00:35:30,760 --> 00:35:32,840
+<font color="#ffffff">If they increase power,</font>
+<font color="#ffffff">they could break through.</font>
+
+533
+00:35:35,440 --> 00:35:38,160
+<font color="#00ffff">Supplementary power on.</font><font color="#00ff00"> Hurry!</font>
+
+534
+00:35:38,160 --> 00:35:40,040
+<font color="#00ffff">Power building.</font>
+
+535
+00:35:40,040 --> 00:35:41,600
+<font color="#ffffff">Magnetic clamp.</font>
+
+536
+00:35:41,600 --> 00:35:43,520
+<font color="#00ff00">Magnetic clamp.</font>
+
+537
+00:35:43,520 --> 00:35:45,240
+<font color="#00ff00">How much damage could this bomb do?</font>
+
+538
+00:35:45,240 --> 00:35:47,000
+<font color="#ffffff">Enough.</font><font color="#00ff00"> Enough for what?</font>
+
+539
+00:35:47,000 --> 00:35:49,640
+<font color="#ffffff">To make life intolerable for</font>
+<font color="#ffffff">the few who survived.</font>
+
+540
+00:35:51,960 --> 00:35:54,720
+<font color="#ffffff">RINGING</font>
+
+541
+00:35:54,720 --> 00:35:56,920
+<font color="#ffff00">Oh, no.</font><font color="#00ff00"> What's the matter?</font>
+
+542
+00:35:56,920 --> 00:36:00,040
+<font color="#ffff00">Whoever they are,</font>
+<font color="#ffff00">they're fighting back.</font>
+
+543
+00:36:00,040 --> 00:36:01,760
+<font color="#ffffff">Probe.</font><font color="#00ff00"> Probe.</font>
+
+544
+00:36:05,960 --> 00:36:08,440
+<font color="#00ff00">Do you know, I find this</font>
+<font color="#00ff00">whole situation so bizarre.</font>
+
+545
+00:36:08,440 --> 00:36:10,680
+<font color="#00ff00">I mean,</font>
+<font color="#00ff00">there's just no purpose to it!</font>
+
+546
+00:36:10,680 --> 00:36:13,360
+<font color="#ffffff">There is somewhere. We just</font>
+<font color="#ffffff">don't have enough of the pieces yet.</font>
+
+547
+00:36:13,360 --> 00:36:15,560
+<font color="#00ff00">Professor Kyle said</font>
+<font color="#00ff00">she'd been down here four weeks</font>
+
+548
+00:36:15,560 --> 00:36:17,160
+<font color="#00ff00">before the androids attacked.</font>
+
+549
+00:36:17,160 --> 00:36:19,000
+<font color="#ffffff">Laser cutter.</font><font color="#00ff00"> Laser cutter.</font>
+
+550
+00:36:21,800 --> 00:36:24,040
+<font color="#ffffff">You think they should have</font>
+<font color="#ffffff">attacked earlier?</font>
+
+551
+00:36:24,040 --> 00:36:27,120
+<font color="#00ff00">It would have made more sense</font>
+<font color="#00ff00">if they had.</font><font color="#ffffff"> Oh, I don't think so.</font>
+
+552
+00:36:27,120 --> 00:36:29,520
+<font color="#ffffff">The androids are programmed</font>
+<font color="#ffffff">to protect this hatch.</font>
+
+553
+00:36:29,520 --> 00:36:31,480
+<font color="#ffffff">Now, the cave system is enormous.</font>
+
+554
+00:36:31,480 --> 00:36:35,360
+<font color="#ffffff">Why draw attention to yourselves</font>
+<font color="#ffffff">by attacking on the first day?</font>
+
+555
+00:36:35,360 --> 00:36:37,560
+<font color="#00ff00">Yes, I suppose</font>
+<font color="#00ff00">that has a certain logic.</font>
+
+556
+00:36:37,560 --> 00:36:39,960
+<font color="#ffffff">Magnetic drone.</font><font color="#00ff00"> Magnetic drone.</font>
+
+557
+00:36:51,800 --> 00:36:53,560
+<font color="#ffffff">There was power in that circuit!</font>
+
+558
+00:36:53,560 --> 00:36:55,240
+<font color="#00ff00">What's happening?</font>
+
+559
+00:36:55,240 --> 00:36:57,160
+<font color="#ffffff">The signal's breaking through.</font>
+
+560
+00:36:58,240 --> 00:37:00,400
+<font color="#ffff00">That's it. Maximum output.</font>
+
+561
+00:37:00,400 --> 00:37:01,960
+<font color="#00ff00">There must be more!</font>
+
+562
+00:37:01,960 --> 00:37:04,040
+<font color="#00ff00">The TARDIS has limitless power.</font>
+
+563
+00:37:04,040 --> 00:37:05,720
+<font color="#ffff00">But the transmitter doesn't!</font>
+
+564
+00:37:06,640 --> 00:37:08,600
+<font color="#ffffff">I think drastic action</font>
+<font color="#ffffff">is called for.</font>
+
+565
+00:37:08,600 --> 00:37:10,720
+<font color="#00ff00">There can't be much time left.</font>
+<font color="#00ff00">What can we do?</font>
+
+566
+00:37:10,720 --> 00:37:12,920
+<font color="#ffffff">Abandon methodical procedure</font>
+<font color="#ffffff">for blind instinct.</font>
+
+567
+00:37:12,920 --> 00:37:15,280
+<font color="#ffffff">Laser cutter!</font><font color="#00ff00"> Laser cutter.</font>
+<font color="#00ffff">Full power.</font>
+
+568
+00:37:15,280 --> 00:37:19,520
+<font color="#00ff00">We proceed towards</font>
+<font color="#00ff00">the destruction of Earth!</font>
+
+569
+00:37:22,320 --> 00:37:25,840
+<font color="#ffffff">Hmm, right or wrong, here we go.</font>
+
+570
+00:37:29,560 --> 00:37:33,680
+<font color="#00ffff">Our signal has broken through.</font>
+<font color="#00ff00">Excellent.</font>
+
+571
+00:37:33,680 --> 00:37:35,080
+<font color="#ffffff">RINGING</font>
+
+572
+00:37:35,080 --> 00:37:36,520
+<font color="#00ff00">A fault?</font>
+
+573
+00:37:36,520 --> 00:37:40,120
+<font color="#00ffff">No, Leader!</font>
+<font color="#00ffff">The bomb has been deactivated!</font>
+
+574
+00:37:40,120 --> 00:37:45,000
+<font color="#00ff00">That can't be. Cyber technology</font>
+<font color="#00ff00">is too advanced for Earthlings!</font>
+
+575
+00:37:46,320 --> 00:37:48,160
+<font color="#ffff00">It's stopped.</font><font color="#00ff00"> What?</font>
+
+576
+00:37:53,000 --> 00:37:58,200
+<font color="#ffff00">It's stopped! They've stopped</font>
+<font color="#ffff00">transmitting! The Doctor's done it!</font>
+
+577
+00:37:58,200 --> 00:38:00,880
+<font color="#00ffff">But how did they succeed, Leader?</font>
+
+578
+00:38:00,880 --> 00:38:05,480
+<font color="#00ff00">They have been helped.</font>
+<font color="#00ff00">We have been betrayed!</font>
+
+579
+00:38:05,480 --> 00:38:10,560
+<font color="#00ff00">Whoever has done this must</font>
+<font color="#00ff00">be found and destroyed at once!</font>
+
+580
+00:38:10,560 --> 00:38:12,960
+<font color="#ffffff">Tell me, Adric, why a bomb?</font><font color="#00ff00"> Doctor?</font>
+
+581
+00:38:12,960 --> 00:38:15,480
+<font color="#ffffff">Why a bomb and not a missile</font>
+<font color="#ffffff">or some other device?</font>
+
+582
+00:38:15,480 --> 00:38:19,240
+<font color="#ffffff">And why these particular caves?</font>
+<font color="#ffffff">There's a reason!</font>
+
+583
+00:38:19,240 --> 00:38:21,640
+<font color="#00ffff">It's not our problem, Doctor.</font>
+
+584
+00:38:21,640 --> 00:38:24,440
+<font color="#ffffff">Oh, isn't it?</font>
+
+585
+00:38:24,440 --> 00:38:28,600
+<font color="#00ff00">I should have realised sooner</font>
+<font color="#00ff00">that the Earthlings had help.</font>
+
+586
+00:38:28,600 --> 00:38:31,520
+<font color="#00ffff">There's nothing on this replay</font>
+<font color="#00ffff">to indicate who it might be.</font>
+
+587
+00:38:37,520 --> 00:38:39,120
+<font color="#00ff00">What is that?</font>
+
+588
+00:38:39,120 --> 00:38:42,240
+<font color="#00ff00">I know that object.</font>
+
+589
+00:38:44,640 --> 00:38:46,600
+<font color="#ffffff">Right, the bomb is deactivated.</font>
+
+590
+00:38:46,600 --> 00:38:48,800
+<font color="#ffffff">Your scientists can dismantle it.</font>
+<font color="#ffffff">Good luck.</font>
+
+591
+00:38:48,800 --> 00:38:50,240
+<font color="#00ffff">But you must stay, Doctor.</font>
+
+592
+00:38:50,240 --> 00:38:52,440
+<font color="#ffff00">You've done so much.</font>
+<font color="#ffff00">We want to show you our gratitude.</font>
+
+593
+00:38:52,440 --> 00:38:55,120
+<font color="#ffffff">Well, thank you, thank you, but we</font>
+<font color="#ffffff">must go. Still a great deal to do.</font>
+
+594
+00:38:55,120 --> 00:38:56,920
+<font color="#00ffff">Haven't we done enough for one day?</font>
+
+595
+00:38:56,920 --> 00:38:59,680
+<font color="#00ff00">We could afford to spare them</font>
+<font color="#00ff00">a few hours.</font><font color="#ffffff"> No, there isn't time.</font>
+
+596
+00:38:59,680 --> 00:39:02,120
+<font color="#00ffff">Where are we rushing off to?</font>
+<font color="#ffffff">Sector 16.</font>
+
+597
+00:39:02,120 --> 00:39:04,040
+<font color="#ffff00">That's deep space.</font><font color="#00ffff"> Sounds great fun.</font>
+
+598
+00:39:04,040 --> 00:39:07,120
+<font color="#00ff00">The Doctor wants to meet</font>
+<font color="#00ff00">the people who built the androids.</font>
+
+599
+00:39:07,120 --> 00:39:08,520
+<font color="#00ffff">Do you know where they are?</font>
+
+600
+00:39:08,520 --> 00:39:11,280
+<font color="#ffffff">Er, no, just from where</font>
+<font color="#ffffff">their signal originated.</font>
+
+601
+00:39:11,280 --> 00:39:13,120
+<font color="#00ffff">Then you must let us come with you.</font>
+
+602
+00:39:13,120 --> 00:39:15,120
+<font color="#ffff00">We can't fight androids</font>
+<font color="#ffff00">by ourselves.</font>
+
+603
+00:39:15,120 --> 00:39:17,040
+<font color="#ffffff">Well, I'm hoping</font>
+<font color="#ffffff">that won't be necessary.</font>
+
+604
+00:39:17,040 --> 00:39:19,160
+<font color="#00ffff">If my planet is being threatened,</font>
+
+605
+00:39:19,160 --> 00:39:20,880
+<font color="#00ffff">I would like to do</font>
+<font color="#00ffff">something to help.</font>
+
+606
+00:39:20,880 --> 00:39:22,000
+<font color="#ffff00">Indeed.</font>
+
+607
+00:39:23,000 --> 00:39:24,160
+<font color="#ffffff">All right.</font>
+
+608
+00:39:30,960 --> 00:39:33,480
+<font color="#00ffff">What is it?</font><font color="#00ff00"> A TARDIS.</font>
+
+609
+00:39:33,480 --> 00:39:36,960
+<font color="#00ffff">A Time Lord?</font>
+<font color="#00ffff">But they're forbidden to interfere!</font>
+
+610
+00:39:36,960 --> 00:39:39,360
+<font color="#00ff00">This one calls himself the Doctor</font>
+
+611
+00:39:39,360 --> 00:39:42,680
+<font color="#00ff00">and does nothing else but interfere!</font>
+
+612
+00:39:42,680 --> 00:39:46,880
+<font color="#ffffff">Emotions! Love, pride, hate, fear!</font>
+
+613
+00:39:46,880 --> 00:39:49,040
+<font color="#ffffff">Have you no emotions, then?</font>
+
+614
+00:39:50,440 --> 00:39:52,360
+<font color="#00ff00">It was in this regenerated form</font>
+
+615
+00:39:52,360 --> 00:39:56,160
+<font color="#00ff00">that he confined the Cybermen</font>
+<font color="#00ff00">to their ice tomb on Telos.</font>
+
+616
+00:39:57,600 --> 00:40:00,400
+<font color="#ffffff">I imagine you have orders</font>
+<font color="#ffffff">to destroy me.</font>
+
+617
+00:40:02,120 --> 00:40:07,480
+<font color="#00ff00">And as this, he defeated us</font>
+<font color="#00ff00">in our attempts to destroy Voga,</font>
+
+618
+00:40:07,480 --> 00:40:09,120
+<font color="#00ff00">the planet of gold.</font>
+
+619
+00:40:09,120 --> 00:40:12,400
+<font color="#ffffff">You've no home planet,</font>
+<font color="#ffffff">no influence, nothing!</font>
+
+620
+00:40:12,400 --> 00:40:16,760
+<font color="#ffffff">You're just a pathetic bunch of tin</font>
+<font color="#ffffff">soldiers skulking about the galaxy.</font>
+
+621
+00:40:16,760 --> 00:40:19,160
+<font color="#00ffff">I did not see any of</font>
+<font color="#00ffff">these men in the cave.</font>
+
+622
+00:40:19,160 --> 00:40:21,640
+<font color="#00ff00">It appears he has regenerated again,</font>
+
+623
+00:40:21,640 --> 00:40:24,040
+<font color="#00ff00">but whatever his form,</font>
+
+624
+00:40:24,040 --> 00:40:26,360
+<font color="#00ff00">he must be found...</font>
+
+625
+00:40:26,360 --> 00:40:28,520
+<font color="#00ff00">..and destroyed.</font>
+
+626
+00:40:30,880 --> 00:40:32,960
+<font color="#00ffff">Bigger than you think!</font>
+
+627
+00:40:32,960 --> 00:40:36,040
+<font color="#ffffff">Er, Adric.</font><font color="#00ff00"> Yes, Doctor?</font>
+<font color="#ffffff">Do you have a moment?</font>
+
+628
+00:40:36,040 --> 00:40:39,040
+<font color="#00ff00">I'm hungry!</font>
+<font color="#ffffff">Well, you can join the others later.</font>
+
+629
+00:40:41,760 --> 00:40:43,920
+<font color="#00ff00">Well?</font>
+
+630
+00:40:43,920 --> 00:40:45,520
+<font color="#ffffff">Look...</font>
+
+631
+00:40:45,520 --> 00:40:48,560
+<font color="#ffffff">..I'm very grateful for your help</font>
+<font color="#ffffff">with deactivating the bomb.</font>
+
+632
+00:40:48,560 --> 00:40:50,600
+<font color="#00ff00">That's all right.</font>
+<font color="#ffffff">It was very brave of you.</font>
+
+633
+00:40:50,600 --> 00:40:53,040
+<font color="#ffffff">Also the way you</font>
+<font color="#ffffff">tackled the android.</font>
+
+634
+00:40:53,040 --> 00:40:54,600
+<font color="#00ff00">All part of the daily routine!</font>
+
+635
+00:40:55,880 --> 00:40:57,280
+<font color="#ffffff">Hmm...</font>
+
+636
+00:40:57,280 --> 00:41:00,400
+<font color="#ffffff">Look, I've been thinking about</font>
+<font color="#ffffff">your wish to return home.</font>
+
+637
+00:41:00,400 --> 00:41:01,680
+<font color="#00ff00">And?</font>
+
+638
+00:41:01,680 --> 00:41:05,080
+<font color="#ffffff">Well, I thought that if we could</font>
+<font color="#ffffff">work out a satisfactory course,</font>
+
+639
+00:41:05,080 --> 00:41:06,760
+<font color="#ffffff">I might give it a try.</font>
+
+640
+00:41:06,760 --> 00:41:10,080
+<font color="#00ff00">Well, I've already done so, Doctor.</font>
+<font color="#ffffff">Really?</font>
+
+641
+00:41:10,080 --> 00:41:12,640
+<font color="#00ff00">As you can see here, I've even</font>
+<font color="#00ff00">managed to calculate the way into</font>
+
+642
+00:41:12,640 --> 00:41:15,400
+<font color="#00ff00">the CVE, the gateway</font>
+<font color="#00ff00">through E-Space.</font>
+
+643
+00:41:15,400 --> 00:41:18,480
+<font color="#ffffff">You've done extremely well.</font>
+<font color="#00ff00">Thank you.</font>
+
+644
+00:41:18,480 --> 00:41:20,480
+<font color="#ffffff">Look, er...</font>
+
+645
+00:41:20,480 --> 00:41:22,760
+<font color="#ffffff">I'm sorry about our argument</font>
+<font color="#ffffff">earlier.</font>
+
+646
+00:41:22,760 --> 00:41:24,320
+<font color="#00ff00">So am I.</font>
+
+647
+00:41:24,320 --> 00:41:26,800
+<font color="#00ff00">I over-reacted.</font>
+
+648
+00:41:26,800 --> 00:41:28,680
+<font color="#ffffff">Do you really want to go home?</font>
+
+649
+00:41:28,680 --> 00:41:32,040
+<font color="#00ff00">No, of course not. There's nothing</font>
+<font color="#00ff00">there for me any more.</font>
+
+650
+00:41:32,040 --> 00:41:34,320
+<font color="#ffffff">So you've done all these</font>
+<font color="#ffffff">calculations for nothing!</font>
+
+651
+00:41:35,560 --> 00:41:37,320
+<font color="#00ff00">Well, it made a point, didn't it?</font>
+
+652
+00:41:37,320 --> 00:41:40,160
+<font color="#00ff00">Besides, who knows?</font>
+<font color="#00ff00">I might change my mind again!</font>
+
+653
+00:41:44,760 --> 00:41:48,520
+<font color="#00ffff">Our deep-space probes</font>
+<font color="#00ffff">have identified the TARDIS.</font>
+
+654
+00:41:48,520 --> 00:41:50,280
+<font color="#00ff00">Its destination?</font>
+
+655
+00:41:50,280 --> 00:41:51,720
+<font color="#00ffff">The freighter.</font>
+
+656
+00:41:51,720 --> 00:41:55,480
+<font color="#00ff00">Excellent.</font>
+<font color="#00ff00">Our contingency plans can go ahead.</font>
+
+657
+00:41:56,560 --> 00:41:59,480
+<font color="#00ff00">The attack on Earth</font>
+<font color="#00ff00">will proceed accordingly.</font>
+
+658
+00:42:08,440 --> 00:42:10,880
+<font color="#ffff00">The captain's been on</font>
+<font color="#ffff00">the space station a long time.</font>
+
+659
+00:42:10,880 --> 00:42:14,160
+<font color="#00ffff">Everything will be all right.</font>
+<font color="#ffff00">Well, I wish I had your confidence.</font>
+
+660
+00:42:14,160 --> 00:42:16,640
+<font color="#ffff00">Three men have disappeared</font>
+<font color="#ffff00">in the last two weeks.</font>
+
+661
+00:42:16,640 --> 00:42:19,880
+<font color="#ffff00">It would take just one word from</font>
+<font color="#ffff00">a disgruntled member of the crew</font>
+
+662
+00:42:19,880 --> 00:42:23,200
+<font color="#ffff00">and this ship would stuck here</font>
+<font color="#ffff00">for months, pending an inquiry.</font>
+
+663
+00:42:23,200 --> 00:42:25,640
+<font color="#00ffff">They won't say anything.</font>
+
+664
+00:42:25,640 --> 00:42:28,840
+<font color="#00ffff">They know if we don't deliver on</font>
+<font color="#00ffff">time, it'll cost them their bonus.</font>
+
+665
+00:42:28,840 --> 00:42:31,800
+<font color="#ffff00">Well, I wouldn't be so certain.</font>
+<font color="#ffff00">Morale is very low.</font>
+
+666
+00:42:31,800 --> 00:42:36,240
+<font color="#00ffff">And with every negative thought you</font>
+<font color="#00ffff">have, Ringway, it sinks even lower.</font>
+
+667
+00:42:36,240 --> 00:42:38,520
+<font color="#00ffff">You're supposed to be an officer!</font>
+
+668
+00:42:38,520 --> 00:42:42,480
+<font color="#00ffff">Smile when you talk to the crew.</font>
+<font color="#00ffff">Reassure them.</font>
+
+669
+00:42:42,480 --> 00:42:46,120
+<font color="#ffff00">Security scan in Section 15</font>
+<font color="#ffff00">is still non-functional.</font>
+
+670
+00:42:46,120 --> 00:42:48,280
+<font color="#00ffff">Oh, for heaven's sake!</font>
+
+671
+00:42:48,280 --> 00:42:49,600
+<font color="#ffffff">BEEPING</font>
+
+672
+00:42:49,600 --> 00:42:50,880
+<font color="#00ffff">Bridge.</font>
+
+673
+00:42:50,880 --> 00:42:52,400
+<font color="#00ff00">The captain is about to come aboard.</font>
+
+674
+00:42:52,400 --> 00:42:54,160
+<font color="#00ffff">Thank you.</font>
+
+675
+00:42:54,160 --> 00:42:56,480
+<font color="#00ffff">Now, isn't that good news?</font>
+
+676
+00:43:04,760 --> 00:43:06,520
+<font color="#ffff00">This is where the beam came from?</font>
+
+677
+00:43:06,520 --> 00:43:09,120
+<font color="#ffffff">As near as I've been</font>
+<font color="#ffffff">able to trace it.</font>
+
+678
+00:43:09,120 --> 00:43:12,080
+<font color="#ffff00">The freighter could be nothing</font>
+<font color="#ffff00">more than a relay point.</font>
+
+679
+00:43:12,080 --> 00:43:14,440
+<font color="#ffffff">And the crew entirely innocent</font>
+<font color="#ffffff">of what's going on.</font>
+
+680
+00:43:14,440 --> 00:43:17,160
+<font color="#ffffff">So we'll start with a recce.</font>
+
+681
+00:43:18,160 --> 00:43:19,720
+<font color="#00ff00">May I come?</font>
+
+682
+00:43:19,720 --> 00:43:21,520
+<font color="#ffffff">You're sure?</font><font color="#00ff00"> Yes.</font>
+
+683
+00:43:25,160 --> 00:43:26,760
+<font color="#00ff00">Excellent.</font>
+
+684
+00:43:36,360 --> 00:43:37,920
+<font color="#00ff00">Which way?</font>
+
+685
+00:43:37,920 --> 00:43:40,160
+<font color="#ffffff">Oh, I don't think it really matters.</font>
+
+686
+00:43:46,400 --> 00:43:49,800
+<font color="#ffffff">Take that straight to my cabin.</font>
+<font color="#00ff00">Captain.</font><font color="#ffff00"> Welcome aboard, ma'am.</font>
+
+687
+00:43:49,800 --> 00:43:52,720
+<font color="#ffffff">Don't call me "ma'am" on the bridge.</font>
+<font color="#ffff00">Sorry, Captain.</font>
+
+688
+00:43:52,720 --> 00:43:55,120
+<font color="#ffffff">And get that transponder code</font>
+
+689
+00:43:55,120 --> 00:43:57,840
+<font color="#ffffff">fed into the navigational</font>
+<font color="#ffffff">computer at once.</font>
+
+690
+00:43:57,840 --> 00:44:00,720
+<font color="#ffffff">I want to get under way.</font>
+<font color="#ffff00">Yes, Captain.</font>
+
+691
+00:44:00,720 --> 00:44:03,920
+<font color="#ffffff">Seven hours they kept me waiting.</font>
+<font color="#ffffff">Seven hours!</font>
+
+692
+00:44:03,920 --> 00:44:05,600
+<font color="#ffffff">I'm exhausted.</font>
+
+693
+00:44:05,600 --> 00:44:07,560
+<font color="#00ffff">Were there problems with security?</font>
+
+694
+00:44:07,560 --> 00:44:11,120
+<font color="#ffffff">Earth's on red alert.</font>
+<font color="#ffffff">Some interstellar conference.</font>
+
+695
+00:44:11,120 --> 00:44:13,600
+<font color="#ffffff">That's why they're checking</font>
+<font color="#ffffff">that bit more carefully.</font>
+
+696
+00:44:13,600 --> 00:44:15,720
+<font color="#00ffff">Explains why we were scanned</font>
+<font color="#00ffff">half a dozen times.</font>
+
+697
+00:44:15,720 --> 00:44:18,160
+<font color="#ffffff">Well, there'll be</font>
+<font color="#ffffff">no more problems from now on.</font>
+
+698
+00:44:18,160 --> 00:44:21,480
+<font color="#ffffff">I've got a clearance straight</font>
+<font color="#ffffff">through to Earth. Our bonus is safe.</font>
+
+699
+00:44:21,480 --> 00:44:25,200
+<font color="#ffff00">There was no mention of</font>
+<font color="#ffff00">the missing crew members?</font>
+
+700
+00:44:25,200 --> 00:44:29,400
+<font color="#00ffff">Mr Ringway was concerned that might</font>
+<font color="#00ffff">be the reason for you being delayed.</font>
+
+701
+00:44:29,400 --> 00:44:31,320
+<font color="#ffffff">Oh, panicking again, was he?</font>
+
+702
+00:44:31,320 --> 00:44:33,560
+<font color="#ffffff">No, no mention, Mr Ringway.</font>
+
+703
+00:44:33,560 --> 00:44:36,480
+<font color="#ffff00">I just happen to think that the</font>
+<font color="#ffff00">disappearance of three crew members,</font>
+
+704
+00:44:36,480 --> 00:44:38,080
+<font color="#ffff00">rather important, that's all.</font>
+
+705
+00:44:38,080 --> 00:44:41,360
+<font color="#ffffff">So do I, mister, but it's</font>
+<font color="#ffffff">something that can be settled</font>
+
+706
+00:44:41,360 --> 00:44:44,880
+<font color="#ffffff">when we get back to Earth</font>
+<font color="#ffffff">and our cargo's delivered safely.</font>
+
+707
+00:44:44,880 --> 00:44:46,720
+<font color="#ffffff">Understood?</font>
+
+708
+00:44:46,720 --> 00:44:48,440
+<font color="#ffffff">Make ready to get under way.</font>
+
+709
+00:44:50,080 --> 00:44:54,000
+<font color="#ffffff">If it makes you any happier,</font>
+<font color="#ffffff">double the patrols.</font>
+
+710
+00:44:54,000 --> 00:44:56,120
+<font color="#ffffff">I don't want any mention of this.</font>
+
+711
+00:44:57,680 --> 00:45:00,120
+<font color="#ffffff">You're beginning to bore me.</font>
+
+712
+00:45:02,320 --> 00:45:03,560
+<font color="#00ffff">I should have gone with him.</font>
+
+713
+00:45:03,560 --> 00:45:04,960
+<font color="#ffff00">The Doctor'll be all right.</font>
+
+714
+00:45:04,960 --> 00:45:06,960
+<font color="#ffffff">RINGING</font>
+
+715
+00:45:04,960 --> 00:45:06,960
+<font color="#00ff00">What's that?</font>
+
+716
+00:45:10,960 --> 00:45:12,920
+<font color="#ffff00">The freighter's gone</font>
+<font color="#ffff00">into warp drive.</font>
+
+717
+00:45:19,000 --> 00:45:20,960
+<font color="#00ff00">I don't fancy walking</font>
+<font color="#00ff00">around that lot.</font>
+
+718
+00:45:23,960 --> 00:45:26,240
+<font color="#ffffff">Who's on first watch?</font>
+<font color="#00ffff">I am, Captain.</font>
+
+719
+00:45:26,240 --> 00:45:28,560
+<font color="#ffffff">Oh, I wish you luck.</font>
+<font color="#ffffff">I'm going to my cabin.</font>
+
+720
+00:45:28,560 --> 00:45:29,600
+<font color="#ffffff">KNOCKING</font>
+
+721
+00:45:33,520 --> 00:45:35,680
+<font color="#ffff00">I thought I'd check</font>
+<font color="#ffff00">the security patrols.</font>
+
+722
+00:45:35,680 --> 00:45:38,120
+<font color="#ffffff">You do that, mister.</font>
+<font color="#ffffff">I'm sure they'd appreciate it.</font>
+
+723
+00:45:40,360 --> 00:45:42,520
+<font color="#ffff00">Why is she always running me down?</font>
+
+724
+00:45:42,520 --> 00:45:44,080
+<font color="#00ffff">I'll give you a bit of advice -</font>
+
+725
+00:45:44,080 --> 00:45:46,200
+<font color="#00ffff">you shouldn't sound</font>
+<font color="#00ffff">so earnest all the time.</font>
+
+726
+00:45:51,520 --> 00:45:54,160
+<font color="#00ff00">You could hide an army down here,</font>
+<font color="#00ff00">and no-one would find it.</font>
+
+727
+00:46:02,960 --> 00:46:04,000
+<font color="#00ffff">What's that?</font>
+
+728
+00:46:06,080 --> 00:46:08,160
+<font color="#00ff00">What?</font><font color="#00ffff"> It's gone.</font>
+
+729
+00:46:08,160 --> 00:46:09,880
+<font color="#00ffff">I'm sure I saw something move.</font>
+<font color="#00ff00">Where?</font>
+
+730
+00:46:09,880 --> 00:46:11,720
+<font color="#00ffff">By Silo 16.</font><font color="#00ff00"> Are you sure?</font>
+
+731
+00:46:11,720 --> 00:46:12,920
+<font color="#00ffff">Let's look.</font>
+
+732
+00:46:21,960 --> 00:46:23,840
+<font color="#ffff00">Look, aren't we being</font>
+<font color="#ffff00">a bit casual about this?</font>
+
+733
+00:46:23,840 --> 00:46:26,240
+<font color="#ffffff">Oh, there's no-one about.</font>
+<font color="#ffffff">The ship's totally automated.</font>
+
+734
+00:46:26,240 --> 00:46:29,000
+<font color="#ffff00">There must be a crew.</font>
+<font color="#ffffff">A small one somewhere.</font>
+
+735
+00:46:29,000 --> 00:46:30,600
+<font color="#ffff00">Yeah, but not down here.</font>
+
+736
+00:46:30,600 --> 00:46:32,560
+<font color="#ffff00">What's the point in going on?</font>
+
+737
+00:46:32,560 --> 00:46:36,320
+<font color="#ffffff">I want to announce my presence!</font>
+<font color="#ffffff">And see what the reaction is.</font>
+
+738
+00:46:37,960 --> 00:46:39,600
+<font color="#ffff00">And how will they know we're here?</font>
+
+739
+00:46:46,760 --> 00:46:47,920
+<font color="#00ff00">Report.</font>
+
+740
+00:46:47,920 --> 00:46:50,160
+<font color="#00ffff">The freighter has received</font>
+<font color="#00ffff">full security clearance</font>
+
+741
+00:46:50,160 --> 00:46:52,040
+<font color="#00ffff">for its journey to Earth.</font>
+
+742
+00:46:52,040 --> 00:46:54,680
+<font color="#00ff00">Excellent.</font><font color="#00ffff"> There is one problem.</font>
+
+743
+00:46:54,680 --> 00:46:57,720
+<font color="#00ffff">The disappearance of the three crew</font>
+<font color="#00ffff">members has caused a lot of unrest.</font>
+
+744
+00:46:57,720 --> 00:47:00,000
+<font color="#00ff00">Get your minions to search the hold.</font>
+
+745
+00:47:00,000 --> 00:47:02,160
+<font color="#00ff00">You will find a scapegoat there.</font>
+
+746
+00:47:02,160 --> 00:47:04,680
+<font color="#00ffff">Leader?</font><font color="#00ff00"> You have intruders!</font>
+
+747
+00:47:07,160 --> 00:47:09,600
+<font color="#ffff00">I don't like being</font>
+<font color="#ffff00">so far from the TARDIS.</font>
+
+748
+00:47:09,600 --> 00:47:11,520
+<font color="#ffffff">Someone should have seen us by now.</font>
+
+749
+00:47:11,520 --> 00:47:13,560
+<font color="#ffff00">Look, why don't we go back?</font>
+
+750
+00:47:13,560 --> 00:47:15,040
+<font color="#ffffff">Minute or two more.</font>
+
+751
+00:47:28,000 --> 00:47:30,280
+<font color="#ffff00">Ringway to Vance. Report, please.</font>
+
+752
+00:47:34,400 --> 00:47:36,760
+<font color="#00ffff">This is Vance, sir.</font><font color="#ffff00"> Report position.</font>
+
+753
+00:47:38,040 --> 00:47:41,440
+<font color="#00ffff">Low walkway, just passing Silo 529.</font>
+
+754
+00:47:41,440 --> 00:47:43,320
+<font color="#00ffff">We've spotted someone, sir.</font>
+
+755
+00:47:43,320 --> 00:47:45,760
+<font color="#ffff00">Then apprehend him.</font>
+<font color="#ffff00">I'll be down directly.</font>
+
+756
+00:47:53,600 --> 00:47:55,760
+<font color="#ffffff">What's the matter?</font>
+
+757
+00:47:55,760 --> 00:47:58,920
+<font color="#ffff00">I've got the feeling we were spotted</font>
+<font color="#ffff00">rather a long time ago.</font>
+
+758
+00:47:58,920 --> 00:48:00,440
+<font color="#ffffff">We're being followed?</font>
+
+759
+00:48:22,960 --> 00:48:24,360
+<font color="#00ffff">We've lost him.</font>
+
+760
+00:48:30,440 --> 00:48:31,480
+<font color="#00ff00">No, we haven't!</font>
+
+761
+00:48:34,480 --> 00:48:37,960
+<font color="#00ffff">Sorry to disturb you, Captain,</font>
+<font color="#00ffff">but we have intruders in the hold.</font>
+
+762
+00:48:37,960 --> 00:48:39,480
+<font color="#ffffff">I'll come up right away.</font>
+
+763
+00:48:42,240 --> 00:48:44,680
+<font color="#00ffff">Where did he go?</font><font color="#00ff00"> This way.</font>
+
+764
+00:48:46,760 --> 00:48:47,880
+<font color="#00ff00">There!</font>
+
+765
+00:48:52,840 --> 00:48:54,920
+<font color="#ffff00">Why won't they show themselves?</font>
+
+766
+00:48:54,920 --> 00:48:57,560
+<font color="#ffffff">DISTANT SCREAMING</font>
+
+767
+00:48:57,560 --> 00:48:59,120
+<font color="#ffff00">What's happening?!</font><font color="#ffffff"> Over there!</font>
+
+768
+00:49:00,720 --> 00:49:02,440
+<font color="#ffffff">Have you got them yet?</font><font color="#00ffff"> No, Captain.</font>
+
+769
+00:49:02,440 --> 00:49:04,800
+<font color="#ffffff">Why not?</font>
+<font color="#00ffff">They're out of camera range.</font>
+
+770
+00:49:04,800 --> 00:49:07,240
+<font color="#ffffff">I don't want to lose them.</font>
+<font color="#ffffff">Sound the general alarm.</font>
+
+771
+00:49:07,240 --> 00:49:08,640
+<font color="#ffffff">I want them caught!</font>
+
+772
+00:49:09,760 --> 00:49:11,680
+<font color="#ffffff">KLAXON WAILS</font>
+
+773
+00:49:23,280 --> 00:49:25,720
+<font color="#ffff00">Doctor! Doctor, over here!</font>
+
+774
+00:49:31,440 --> 00:49:33,080
+<font color="#ffffff">They're finished.</font>
+
+775
+00:49:33,080 --> 00:49:35,360
+<font color="#ffff00">Look, let's go before</font>
+<font color="#ffff00">we're caught and blamed.</font>
+
+776
+00:49:35,360 --> 00:49:37,840
+<font color="#ffffff">I've seen wounds inflicted</font>
+<font color="#ffffff">this way before.</font>
+
+777
+00:49:37,840 --> 00:49:39,440
+<font color="#ffff00">Doctor, we have got</font>
+<font color="#ffff00">to get out of here!</font>
+
+778
+00:49:39,440 --> 00:49:40,480
+<font color="#ffffff">Yes.</font>
+
+779
+00:49:41,600 --> 00:49:43,840
+<font color="#00ffff">On this ship, we execute murderers!</font>
+
+780
+00:49:45,240 --> 00:49:48,000
+<font color="#ffffff">Then make sure you kill</font>
+<font color="#ffffff">the right people. Look at them!</font>
+
+781
+00:49:48,000 --> 00:49:50,560
+<font color="#00ffff">No tricks.</font><font color="#ffffff"> Look at the state</font>
+<font color="#ffffff">they're in.</font>
+
+782
+00:49:50,560 --> 00:49:53,120
+<font color="#ffffff">WAILING KLAXON</font>
+
+783
+00:49:50,560 --> 00:49:53,120
+<font color="#00ffff">Turn that off.</font>
+
+784
+00:49:53,120 --> 00:49:55,600
+<font color="#00ffff">What's the delay? Where's Ringway?</font>
+
+785
+00:49:55,600 --> 00:49:58,080
+<font color="#ffffff">TRILLING BEEP</font>
+
+786
+00:49:55,600 --> 00:49:58,080
+<font color="#00ff00">Bridge.</font>
+
+787
+00:49:58,080 --> 00:50:01,240
+<font color="#ffffff">RINGWAY:</font><font color="#ffff00"> I've apprehended two</font>
+<font color="#ffff00">stowaways.</font>
+
+788
+00:50:01,240 --> 00:50:05,600
+<font color="#00ffff">"Apprehended"! Why can't he say</font>
+<font color="#00ffff">"caught"? So melodramatic!</font>
+
+789
+00:50:05,600 --> 00:50:08,520
+<font color="#00ff00">Take them to the brig.</font>
+<font color="#00ffff">Bring them up here.</font>
+
+790
+00:50:08,520 --> 00:50:12,640
+<font color="#ffff00">Vance and Carson are dead,</font>
+<font color="#ffff00">murdered by the stowaways.</font>
+
+791
+00:50:12,640 --> 00:50:16,240
+<font color="#00ffff">That's all we need!</font>
+<font color="#ffff00">Their bodies are by silo 941.</font>
+
+792
+00:50:16,240 --> 00:50:18,600
+<font color="#00ffff">Get a stretcher party down there.</font>
+
+793
+00:50:18,600 --> 00:50:21,440
+<font color="#00ffff">You've done well. You'll get an</font>
+<font color="#00ffff">extra bonus.</font>
+
+794
+00:50:21,440 --> 00:50:24,080
+<font color="#ffff00">I'd rather have Vance and Carson</font>
+<font color="#ffff00">alive.</font>
+
+795
+00:50:25,240 --> 00:50:29,760
+<font color="#00ffff">Which one is the Doctor?</font>
+<font color="#00ff00">The tall one with fair hair.</font>
+
+796
+00:50:29,760 --> 00:50:34,080
+<font color="#00ff00">Even under the threat of death</font>
+<font color="#00ff00">he has the arrogance of a Time Lord.</font>
+
+797
+00:50:34,080 --> 00:50:37,960
+<font color="#00ffff">Now that he is a prisoner,</font>
+<font color="#00ffff">we must secure the freighter.</font>
+
+798
+00:50:37,960 --> 00:50:41,080
+<font color="#00ff00">Indeed, but the Doctor must be taken</font>
+<font color="#00ff00">alive.</font>
+
+799
+00:50:41,080 --> 00:50:45,320
+<font color="#00ff00">He must suffer for our past defeats.</font>
+
+800
+00:50:45,320 --> 00:50:49,480
+<font color="#ffff00">I should go and look for him.</font>
+<font color="#00ffff">Wait. You might spoil things.</font>
+
+801
+00:50:49,480 --> 00:50:51,520
+<font color="#00ff00">The Doctor's quite capable.</font>
+
+802
+00:50:51,520 --> 00:50:55,040
+<font color="#00ff00">Nyssa's right. A show of force</font>
+<font color="#00ff00">might ruin everything.</font>
+
+803
+00:50:57,040 --> 00:50:58,760
+<font color="#ffff00">I hope you're right.</font>
+
+804
+00:51:05,160 --> 00:51:09,440
+<font color="#00ffff">There's no hurry.</font>
+<font color="#00ffff">They're quite dead, aren't they?</font>
+
+805
+00:51:09,440 --> 00:51:12,760
+<font color="#ffff00">How can we convince you</font>
+<font color="#ffff00">that we're not stowaways?</font>
+
+806
+00:51:12,760 --> 00:51:14,920
+<font color="#00ffff">You can't.</font>
+
+807
+00:51:14,920 --> 00:51:18,560
+<font color="#ffffff">Let me show you how we got here.</font>
+<font color="#ffffff">We have a ship of our own.</font>
+
+808
+00:51:18,560 --> 00:51:21,480
+<font color="#00ffff">Stowaways or pirates,</font>
+<font color="#00ffff">you're still murderers. Keep moving!</font>
+
+809
+00:51:24,760 --> 00:51:28,960
+<font color="#00ff00">Activate my personal guard.</font>
+<font color="#00ffff">Will that be enough, Leader?</font>
+
+810
+00:51:28,960 --> 00:51:31,720
+<font color="#00ff00">The crew is small.</font>
+<font color="#00ff00">They will offer little resistance.</font>
+
+811
+00:51:34,440 --> 00:51:37,800
+<font color="#00ff00">You've caused me a great deal</font>
+<font color="#00ff00">of trouble.</font>
+
+812
+00:51:37,800 --> 00:51:41,080
+<font color="#ffffff">You have the wrong people.</font>
+<font color="#00ffff">Don't answer the captain back!</font>
+
+813
+00:51:41,080 --> 00:51:44,680
+<font color="#00ff00">I can fight my own battles,</font>
+<font color="#00ff00">thank you.</font>
+
+814
+00:51:44,680 --> 00:51:46,280
+<font color="#00ff00">I suppose you know nothing</font>
+
+815
+00:51:46,280 --> 00:51:49,000
+<font color="#00ff00">about the disappearance of three of</font>
+<font color="#00ff00">my crew?</font>
+
+816
+00:51:49,000 --> 00:51:51,840
+<font color="#ffffff">How can we? We've only just arrived</font>
+<font color="#ffffff">on your ship.</font>
+
+817
+00:51:51,840 --> 00:51:54,520
+<font color="#00ff00">Someone's responsible.</font>
+<font color="#ffff00">It isn't us.</font>
+
+818
+00:51:54,520 --> 00:51:58,120
+<font color="#ffffff">TRILLING BEEP</font>
+
+819
+00:51:54,520 --> 00:51:58,120
+<font color="#00ff00">A power surge.</font>
+
+820
+00:52:01,440 --> 00:52:02,960
+<font color="#00ffff">Is this your work?</font>
+
+821
+00:52:02,960 --> 00:52:04,680
+<font color="#ffff00">I don't understand this.</font>
+
+822
+00:52:04,680 --> 00:52:07,960
+<font color="#ffff00">There's a strong electromagnetic</font>
+<font color="#ffff00">field nearby.</font>
+
+823
+00:52:07,960 --> 00:52:09,520
+<font color="#00ff00">So what?</font>
+
+824
+00:52:09,520 --> 00:52:13,280
+<font color="#ffff00">It's massive!</font>
+<font color="#00ff00">Could it harm the Doctor and Adric?</font>
+
+825
+00:52:13,280 --> 00:52:15,640
+<font color="#ffff00">I can't tell until I know what's</font>
+<font color="#ffff00">happening.</font>
+
+826
+00:52:16,560 --> 00:52:20,480
+<font color="#00ffff">Receptors fully charged.</font>
+<font color="#00ff00">Excellent. Activate.</font>
+
+827
+00:52:35,480 --> 00:52:38,520
+<font color="#00ffff">Reaction readings steady.</font>
+<font color="#00ff00">Continue.</font>
+
+828
+00:52:45,320 --> 00:52:48,680
+<font color="#00ffff">A bomb on Earth, controlled from</font>
+<font color="#00ffff">this ship?</font>
+
+829
+00:52:48,680 --> 00:52:50,720
+<font color="#ffff00">It's all true!</font>
+<font color="#ffffff">Every word.</font>
+
+830
+00:52:50,720 --> 00:52:54,480
+<font color="#00ff00">At least it's original!</font>
+<font color="#00ffff">Are you making a fool of me?</font>
+
+831
+00:52:54,480 --> 00:52:57,400
+<font color="#ffffff">I wouldn't dare.</font>
+<font color="#ffff00">He's just wasting time.</font>
+
+832
+00:52:57,400 --> 00:52:59,240
+<font color="#ffffff">Things have occurred you can't</font>
+<font color="#ffffff">explain.</font>
+
+833
+00:52:59,240 --> 00:53:03,720
+<font color="#00ffff">It doesn't follow</font>
+<font color="#00ffff">that conspirators are on the ship.</font>
+
+834
+00:53:03,720 --> 00:53:07,040
+<font color="#ffffff">Your missing men</font>
+<font color="#ffffff">may have discovered otherwise.</font>
+
+835
+00:53:07,040 --> 00:53:10,280
+<font color="#00ff00">That fool will say anything to</font>
+<font color="#00ff00">wriggle out of it.</font>
+
+836
+00:53:10,280 --> 00:53:12,920
+<font color="#ffffff">TRILLING BEEP</font>
+
+837
+00:53:12,920 --> 00:53:16,560
+<font color="#00ff00">It's happening again. A power surge.</font>
+
+838
+00:53:18,880 --> 00:53:22,040
+<font color="#ffff00">We've waited long enough!</font>
+<font color="#00ffff">The lieutenant's right.</font>
+
+839
+00:53:22,040 --> 00:53:23,400
+<font color="#00ffff">The Doctor could be in trouble.</font>
+
+840
+00:53:23,400 --> 00:53:26,160
+<font color="#ffff00">I'm concerned, too, but we should</font>
+<font color="#ffff00">wait.</font>
+
+841
+00:53:26,160 --> 00:53:28,840
+<font color="#00ffff">Why?</font>
+<font color="#ffff00">Things don't feel right.</font>
+
+842
+00:53:28,840 --> 00:53:31,720
+<font color="#00ff00">The electromagnetic field?</font>
+<font color="#ffff00">Yes.</font>
+
+843
+00:53:31,720 --> 00:53:34,240
+<font color="#ffff00">I want things to settle down before</font>
+<font color="#ffff00">we go out.</font>
+
+844
+00:53:37,280 --> 00:53:41,200
+<font color="#00ffff">The power loss is enormous.</font>
+<font color="#ffffff">How often has this happened?</font>
+
+845
+00:53:41,200 --> 00:53:44,240
+<font color="#00ff00">A few times, but never on this</font>
+<font color="#00ff00">scale.</font>
+
+846
+00:53:46,080 --> 00:53:50,120
+<font color="#00ff00">The power loss is in hold number</font>
+<font color="#00ff00">four.</font><font color="#00ffff"> Get a squad down there.</font>
+
+847
+00:53:50,120 --> 00:53:54,200
+<font color="#ffffff">Can't you isolate the power line?</font>
+<font color="#00ff00">No, it's a main cable.</font>
+
+848
+00:53:54,200 --> 00:53:56,840
+<font color="#ffffff">It's the only way to stop them.</font>
+<font color="#00ffff">Who?</font>
+
+849
+00:53:56,840 --> 00:53:58,680
+<font color="#ffffff">I don't know,</font>
+
+850
+00:53:58,680 --> 00:54:02,440
+<font color="#ffffff">but I have the feeling</font>
+<font color="#ffffff">that they want considerably more</font>
+
+851
+00:54:02,440 --> 00:54:04,960
+<font color="#ffffff">than control of this ship.</font>
+
+852
+00:54:04,960 --> 00:54:09,120
+<font color="#00ffff">Personal guard fully activated.</font>
+<font color="#00ff00">Excellent.</font>
+
+853
+00:54:09,120 --> 00:54:13,040
+<font color="#00ffff">The captain will see that his</font>
+<font color="#00ffff">power lines have been tapped.</font>
+
+854
+00:54:13,040 --> 00:54:15,640
+<font color="#00ff00">Why did you not jam their</font>
+<font color="#00ff00">instruments?</font>
+
+855
+00:54:15,640 --> 00:54:18,560
+<font color="#00ffff">Our demand on their electrical</font>
+<font color="#00ffff">supply was too great.</font>
+
+856
+00:54:18,560 --> 00:54:22,520
+<font color="#00ffff">The ship's computer was alerted.</font>
+<font color="#00ff00">We will take the bridge at once.</font>
+
+857
+00:54:22,520 --> 00:54:24,640
+<font color="#00ff00">Continue the reactivation.</font>
+
+858
+00:54:41,440 --> 00:54:44,280
+<font color="#00ffff">Ringway! Stand fast.</font>
+
+859
+00:54:44,280 --> 00:54:46,760
+<font color="#00ffff">We must come out of warp drive.</font>
+<font color="#00ff00">No!</font>
+
+860
+00:54:46,760 --> 00:54:49,400
+<font color="#00ff00">Our engines could misphase.</font>
+
+861
+00:54:49,400 --> 00:54:53,840
+<font color="#00ffff">I will not risk losing my bonus</font>
+<font color="#00ffff">for a few miserable stowaways!</font>
+
+862
+00:54:53,840 --> 00:54:56,320
+<font color="#ffffff">She's right. You must listen to her.</font>
+
+863
+00:54:56,320 --> 00:54:58,480
+<font color="#00ffff">No!</font><font color="#ffff00"> Why not?!</font>
+
+864
+00:54:58,480 --> 00:55:01,000
+<font color="#00ff00">If we deviate from flight schedule</font>
+
+865
+00:55:01,000 --> 00:55:04,400
+<font color="#00ff00">and Earth IS on red alert, we will</font>
+<font color="#00ff00">be stopped.</font>
+
+866
+00:55:04,400 --> 00:55:07,960
+<font color="#00ffff">We haven't got time.</font>
+<font color="#00ffff">If I'm late delivering my cargo,</font>
+
+867
+00:55:07,960 --> 00:55:12,160
+<font color="#00ffff">I not only lose my bonus,</font>
+<font color="#00ffff">I have to pay a heavy fine.</font>
+
+868
+00:55:12,160 --> 00:55:17,400
+<font color="#ffffff">The story about the bomb is true.</font>
+<font color="#ffffff">Whoever planted it is in your hold!</font>
+
+869
+00:55:17,400 --> 00:55:18,800
+<font color="#00ffff">I will not stop this ship!</font>
+
+870
+00:55:18,800 --> 00:55:20,520
+<font color="#ffffff">You've got clearance through to</font>
+<font color="#ffffff">Earth.</font>
+
+871
+00:55:20,520 --> 00:55:22,280
+<font color="#ffffff">That's where they want to go!</font>
+
+872
+00:55:22,280 --> 00:55:26,520
+<font color="#00ffff">Position your men on the high</font>
+<font color="#00ffff">walkway.</font>
+
+873
+00:55:26,520 --> 00:55:28,760
+<font color="#00ffff">What's down there, stays there!</font>
+<font color="#00ff00">Yes, Captain.</font>
+
+874
+00:55:28,760 --> 00:55:33,320
+<font color="#ffff00">You must listen to the Doctor.</font>
+<font color="#00ffff">Why should I believe either of you?</font>
+
+875
+00:55:33,320 --> 00:55:36,800
+<font color="#00ff00">Then, believe your own instruments,</font>
+<font color="#00ff00">Captain.</font>
+
+876
+00:55:36,800 --> 00:55:39,520
+<font color="#00ffff">We will go on.</font>
+
+877
+00:55:41,000 --> 00:55:43,240
+<font color="#ffff00">The magnetic field is reducing.</font>
+
+878
+00:55:43,240 --> 00:55:47,560
+<font color="#ffff00">It should be safe to go out.</font>
+<font color="#00ffff">Right. We're moving out.</font>
+
+879
+00:55:47,560 --> 00:55:51,520
+<font color="#00ff00">I want to come with you.</font>
+<font color="#00ffff">No, it could be rough.</font>
+
+880
+00:55:51,520 --> 00:55:54,840
+<font color="#00ff00">I'd find it rougher waiting!</font>
+<font color="#00ffff">Are you sure?</font>
+
+881
+00:55:54,840 --> 00:55:58,320
+<font color="#00ffff">You're not even dressed for it.</font>
+<font color="#00ff00">Are you going out?</font>
+
+882
+00:55:58,320 --> 00:56:00,640
+<font color="#00ffff">No.</font>
+<font color="#00ff00">Then, lend me your overalls.</font>
+
+883
+00:56:00,640 --> 00:56:02,840
+<font color="#00ffff">Er...</font>
+<font color="#ffff00">Don't bother to argue!</font>
+
+884
+00:56:04,480 --> 00:56:06,640
+<font color="#00ffff">If the Doctor returns, call me.</font>
+
+885
+00:56:06,640 --> 00:56:09,720
+<font color="#00ffff">I don't want to be out there</font>
+<font color="#00ffff">any longer than I have to.</font>
+
+886
+00:56:16,960 --> 00:56:19,120
+<font color="#00ffff">Bring some more down here.</font>
+
+887
+00:56:19,120 --> 00:56:20,640
+<font color="#00ffff">Down here.</font>
+
+888
+00:56:38,920 --> 00:56:41,880
+<font color="#00ffff">Is there nothing positive we can do?</font>
+
+889
+00:56:41,880 --> 00:56:43,440
+<font color="#ffff00">Try not to worry.</font>
+
+890
+00:56:44,560 --> 00:56:49,200
+<font color="#00ff00">Power loss has stabilised.</font>
+<font color="#00ffff">Can we hold warp speed?</font>
+
+891
+00:56:49,200 --> 00:56:51,360
+<font color="#00ff00">Just about.</font>
+
+892
+00:56:51,360 --> 00:56:54,560
+<font color="#00ffff">I knew it. We'll make it yet.</font>
+
+893
+00:56:56,120 --> 00:57:00,280
+<font color="#ffff00">Do you remember what you said</font>
+<font color="#ffff00">after we'd deactivated the bomb?</font>
+
+894
+00:57:00,280 --> 00:57:03,000
+<font color="#ffffff">Why a bomb and not some other</font>
+<font color="#ffffff">device?</font>
+
+895
+00:57:03,000 --> 00:57:07,400
+<font color="#ffff00">Well, with the Earth on red alert,</font>
+<font color="#ffff00">a missile wouldn't get through.</font>
+
+896
+00:57:07,400 --> 00:57:11,040
+<font color="#ffffff">Hmm... We still don't know</font>
+<font color="#ffffff">what they're really after.</font>
+
+897
+00:57:31,800 --> 00:57:33,160
+<font color="#00ff00">Captain, look.</font>
+
+898
+00:57:35,400 --> 00:57:37,560
+<font color="#00ffff">This could be it!</font>
+
+899
+00:57:37,560 --> 00:57:40,360
+<font color="#ffffff">TRILLING BEEP</font>
+
+900
+00:57:37,560 --> 00:57:40,360
+<font color="#ffff00">Ringway.</font>
+
+901
+00:57:40,360 --> 00:57:44,000
+<font color="#00ffff">Stand by. The security cameras are</font>
+<font color="#00ffff">on the blink.</font>
+
+902
+00:57:44,000 --> 00:57:47,160
+<font color="#ffffff">Perhaps I could help?</font>
+<font color="#00ffff">Stay where you are!</font>
+
+903
+00:57:47,160 --> 00:57:49,320
+<font color="#00ff00">We should secure them in the brig.</font>
+<font color="#00ffff">Not yet.</font>
+
+904
+00:57:49,320 --> 00:57:51,680
+<font color="#00ffff">I want them where I can see</font>
+<font color="#00ffff">them.</font>
+
+905
+00:57:51,680 --> 00:57:53,760
+<font color="#ffff00">To your positions. Take cover.</font>
+
+906
+00:58:11,960 --> 00:58:14,120
+<font color="#00ffff">We've regained full power.</font>
+
+907
+00:58:14,120 --> 00:58:17,160
+<font color="#00ffff">On your feet, you two.</font>
+<font color="#ffffff">About time!</font>
+
+908
+00:58:17,160 --> 00:58:18,600
+<font color="#00ffff">Be quiet!</font>
+
+909
+00:58:32,960 --> 00:58:37,280
+<font color="#00ff00">It's vast! We'll never find them.</font>
+
+910
+00:58:37,280 --> 00:58:41,360
+<font color="#00ffff">You wanted to come.</font>
+<font color="#00ff00">I know. I'm just a mouth on legs.</font>
+
+911
+00:58:48,160 --> 00:58:51,560
+<font color="#ffffff">RINGWAY:</font><font color="#ffff00"> Something's on the move.</font>
+<font color="#00ffff">I can't see anything yet.</font>
+
+912
+00:58:58,360 --> 00:59:00,800
+<font color="#00ffff">Are these your friends?</font>
+
+913
+00:59:00,800 --> 00:59:02,840
+<font color="#ffffff">Definitely not.</font>
+
+914
+00:59:04,560 --> 00:59:06,600
+<font color="#ffff00">What are they?</font>
+
+915
+00:59:11,560 --> 00:59:13,400
+<font color="#ffffff">Cybermen.</font>
+
+916
+00:59:35,760 --> 00:59:38,920
+<font color="#00ff00">Are they robots?</font>
+<font color="#ffffff">Far worse. Withdraw your men.</font>
+
+917
+00:59:38,920 --> 00:59:42,880
+<font color="#ffffff">They don't stand a chance.</font>
+<font color="#00ffff">Neither will we if they get up here!</font>
+
+918
+00:59:49,200 --> 00:59:51,360
+<font color="#ffffff">NEARBY FIRING</font>
+
+919
+00:59:51,360 --> 00:59:54,520
+<font color="#ffff00">Could that be the Doctor?</font>
+<font color="#00ff00">I hope not.</font>
+
+920
+00:59:54,520 --> 00:59:56,680
+<font color="#00ff00">Guns are not his style at all.</font>
+
+921
+00:59:56,680 --> 00:59:59,440
+<font color="#ffff00">All right. Set weapons on kill.</font>
+
+922
+00:59:59,440 --> 01:00:01,440
+<font color="#ffff00">I'm not taking any chances.</font>
+
+923
+01:00:04,960 --> 01:00:06,440
+<font color="#ffff00">Slowly now.</font>
+
+924
+01:00:36,680 --> 01:00:38,640
+<font color="#00ffff">Our defences are crumbling.</font>
+
+925
+01:00:38,640 --> 01:00:41,320
+<font color="#00ffff">We must help!</font>
+<font color="#00ff00">We can't leave these two.</font>
+
+926
+01:00:41,320 --> 01:00:45,040
+<font color="#00ffff">We'll take them with us.</font>
+<font color="#ffff00">No. You'll stay where you are.</font>
+
+927
+01:00:45,040 --> 01:00:47,520
+<font color="#00ffff">Ringway!</font>
+<font color="#ffff00">Yes, Captain?</font>
+
+928
+01:00:47,520 --> 01:00:50,200
+<font color="#00ffff">The enemy's outside, mister!</font>
+
+929
+01:00:50,200 --> 01:00:52,400
+<font color="#00ffff">You're pointing</font>
+<font color="#00ffff">your gun in the wrong direction!</font>
+
+930
+01:00:52,400 --> 01:00:55,640
+<font color="#ffff00">I'm relieving you of command.</font>
+<font color="#00ffff">Oh, come off it!</font>
+
+931
+01:00:55,640 --> 01:00:58,400
+<font color="#ffff00">Shut up! I'm tired of your bullying</font>
+<font color="#ffff00">ways.</font>
+
+932
+01:00:58,400 --> 01:01:02,320
+<font color="#ffffff">You haven't seen anything.</font>
+<font color="#ffffff">Wait until the Cybermen start!</font>
+
+933
+01:01:02,320 --> 01:01:07,200
+<font color="#ffff00">You know them?</font>
+<font color="#ffffff">Oh, yes. We go back a long way.</font>
+
+934
+01:01:22,720 --> 01:01:24,400
+<font color="#ffffff">This slaughter is pointless!</font>
+
+935
+01:01:24,400 --> 01:01:26,120
+<font color="#00ff00">Your crew is redundant.</font>
+
+936
+01:01:26,120 --> 01:01:28,520
+<font color="#00ff00">The Cybermen will soon be in</font>
+<font color="#00ff00">command.</font>
+
+937
+01:01:28,520 --> 01:01:31,720
+<font color="#00ffff">You traitor!</font>
+<font color="#ffffff">It's the Cybermen's way.</font>
+
+938
+01:01:31,720 --> 01:01:34,280
+<font color="#00ffff">They must have paid you a lot for</font>
+<font color="#00ffff">this.</font>
+
+939
+01:01:34,280 --> 01:01:36,520
+<font color="#ffffff">I bet it isn't in gold!</font>
+<font color="#00ff00">Shut up!</font>
+
+940
+01:01:36,520 --> 01:01:39,600
+<font color="#ffffff">It brings Cybermen out in a cold</font>
+<font color="#ffffff">sweat.</font><font color="#ffff00"> Why?</font>
+
+941
+01:01:39,600 --> 01:01:42,680
+<font color="#ffffff">Clogs up their chest units.</font>
+<font color="#ffffff">Suffocates them.</font>
+
+942
+01:01:42,680 --> 01:01:46,800
+<font color="#00ff00">Keep talking. When the time comes,</font>
+<font color="#00ff00">killing you is going to be a joy!</font>
+
+943
+01:01:58,400 --> 01:02:00,400
+<font color="#00ffff">Where are these Cybermen from?</font>
+
+944
+01:02:00,400 --> 01:02:03,080
+<font color="#ffffff">Originally Mondas,</font>
+<font color="#ffffff">but it was destroyed.</font>
+
+945
+01:02:03,080 --> 01:02:05,640
+<font color="#ffffff">I'm surprised they</font>
+<font color="#ffffff">didn't mention me.</font>
+
+946
+01:02:05,640 --> 01:02:08,520
+<font color="#00ff00">Perhaps you overestimate your</font>
+<font color="#00ff00">importance.</font>
+
+947
+01:02:08,520 --> 01:02:11,800
+<font color="#ffffff">I doubt it, especially as I confined</font>
+<font color="#ffffff">them to a frozen tomb on Telos.</font>
+
+948
+01:02:13,480 --> 01:02:16,080
+<font color="#ffffff">Did they forget to mention that?</font>
+
+949
+01:02:16,080 --> 01:02:18,240
+<font color="#00ff00">What's that?</font>
+<font color="#ffff00">A badge.</font>
+
+950
+01:02:18,240 --> 01:02:21,560
+<font color="#00ff00">What's it made of?</font>
+<font color="#ffff00">I don't know.</font>
+
+951
+01:02:21,560 --> 01:02:23,240
+<font color="#00ff00">It's gold.</font>
+
+952
+01:02:23,240 --> 01:02:25,640
+<font color="#ffff00">Only the edge.</font>
+<font color="#ffff00">It couldn't do any harm.</font>
+
+953
+01:02:25,640 --> 01:02:28,040
+<font color="#00ff00">Trying to hide it from me, were you?</font>
+
+954
+01:02:28,040 --> 01:02:31,680
+<font color="#ffffff">The firing's stopped.</font>
+<font color="#00ff00">Where's Berger?</font>
+
+955
+01:02:43,760 --> 01:02:45,560
+<font color="#ffffff">Berger!</font>
+
+956
+01:02:51,640 --> 01:02:55,280
+<font color="#ffffff">The shields won't last.</font>
+<font color="#00ffff">They will until we get to Earth.</font>
+
+957
+01:02:55,280 --> 01:02:57,840
+<font color="#ffffff">And then?</font>
+<font color="#00ffff">There's only a few of them.</font>
+
+958
+01:02:57,840 --> 01:03:01,240
+<font color="#00ffff">Security will cope.</font>
+<font color="#ffffff">They're an invasion force.</font>
+
+959
+01:03:01,240 --> 01:03:04,720
+<font color="#ffffff">There are considerably more</font>
+<font color="#ffffff">than a few on board.</font>
+
+960
+01:03:04,720 --> 01:03:09,560
+<font color="#ffff00">How many silos are you carrying?</font>
+<font color="#00ffff">15,000.</font>
+
+961
+01:03:12,560 --> 01:03:14,320
+<font color="#00ffff">No. It's not possible!</font>
+
+962
+01:03:16,320 --> 01:03:19,240
+<font color="#00ff00">Have you tested the defences?</font>
+<font color="#00ffff">Yes, Leader.</font>
+
+963
+01:03:19,240 --> 01:03:22,680
+<font color="#00ffff">We are able to break through them.</font>
+<font color="#00ff00">Excellent.</font>
+
+964
+01:03:22,680 --> 01:03:26,120
+<font color="#00ff00">Prepare to break through the</font>
+<font color="#00ff00">bulkhead shields.</font>
+
+965
+01:03:26,120 --> 01:03:29,240
+<font color="#00ff00">Is the Doctor on the bridge?</font>
+<font color="#00ffff">He is.</font>
+
+966
+01:03:29,240 --> 01:03:32,320
+<font color="#00ff00">He must be taken alive.</font>
+
+967
+01:03:34,280 --> 01:03:37,560
+<font color="#ffffff">TEGAN:</font><font color="#00ff00"> I'm exhausted.</font>
+<font color="#ffff00">Ssh! Keep your voice down.</font>
+
+968
+01:03:40,960 --> 01:03:44,320
+<font color="#ffff00">He's dead.</font>
+<font color="#00ff00">It's a massacre.</font>
+
+969
+01:03:44,320 --> 01:03:46,880
+<font color="#ffff00">The Doctor and Adric?</font>
+<font color="#00ff00">No.</font>
+
+970
+01:03:48,360 --> 01:03:50,600
+<font color="#00ff00">Look!</font><font color="#ffff00"> Take cover!</font>
+
+971
+01:03:52,320 --> 01:03:54,360
+<font color="#ffff00">Get back!</font>
+
+972
+01:03:59,560 --> 01:04:03,280
+<font color="#ffffff">BERGER:</font><font color="#00ff00"> We could pump all the air</font>
+<font color="#00ff00">out of the hold.</font><font color="#ffffff"> Mm-hm.</font>
+
+973
+01:04:03,280 --> 01:04:07,760
+<font color="#ffffff">Cybermen don't need it. Is there</font>
+<font color="#ffffff">any way you could jettison the hold?</font>
+
+974
+01:04:07,760 --> 01:04:09,320
+<font color="#00ffff">None.</font>
+
+975
+01:04:09,320 --> 01:04:12,240
+<font color="#ffff00">I think Mr Ringway is recovering.</font>
+<font color="#00ffff">Pity.</font>
+
+976
+01:04:12,240 --> 01:04:15,920
+<font color="#00ffff">I've just composed a particularly</font>
+<font color="#00ffff">nasty epitaph for him.</font>
+
+977
+01:04:18,560 --> 01:04:22,400
+<font color="#ffff00">Whatever they are, they're going</font>
+<font color="#ffff00">to be difficult to kill.</font>
+
+978
+01:04:22,400 --> 01:04:24,080
+<font color="#00ff00">You haven't tried yet.</font>
+
+979
+01:04:24,080 --> 01:04:26,920
+<font color="#ffff00">Look at those bodies.</font>
+<font color="#ffff00">Same rifles as ours.</font>
+
+980
+01:04:26,920 --> 01:04:28,560
+<font color="#00ff00">So?</font>
+
+981
+01:04:28,560 --> 01:04:31,720
+<font color="#ffff00">Have you seen any of those silver</font>
+<font color="#ffff00">things dead?</font>
+
+982
+01:04:31,720 --> 01:04:34,880
+<font color="#00ffff">Would threatening to kill him stop</font>
+<font color="#00ffff">those things?</font>
+
+983
+01:04:34,880 --> 01:04:37,440
+<font color="#ffffff">Not at all.</font>
+<font color="#00ff00">Why don't you surrender?</font>
+
+984
+01:04:37,440 --> 01:04:40,920
+<font color="#ffffff">Not yet. There may be a way to</font>
+<font color="#ffffff">neutralise that.</font>
+
+985
+01:04:42,960 --> 01:04:46,680
+<font color="#00ff00">Do we go on?</font>
+<font color="#ffff00">Past them?</font>
+
+986
+01:04:48,680 --> 01:04:50,440
+<font color="#00ff00">Is there another way?</font>
+
+987
+01:04:52,160 --> 01:04:54,320
+<font color="#00ff00">Ready?</font>
+<font color="#00ffff">Yes, Leader.</font>
+
+988
+01:04:54,320 --> 01:04:57,480
+<font color="#00ff00">Then activate the thermal lance.</font>
+
+989
+01:05:04,960 --> 01:05:07,520
+<font color="#ffff00">Doctor!</font>
+
+990
+01:05:07,520 --> 01:05:11,320
+<font color="#ffffff">They've started. I see the ship</font>
+<font color="#ffffff">is powered by antimatter.</font>
+
+991
+01:05:11,320 --> 01:05:15,240
+<font color="#ffffff">How is the antimatter contained?</font>
+<font color="#00ffff">A stabilised vessel.</font>
+
+992
+01:05:15,240 --> 01:05:19,840
+<font color="#ffffff">Could we tap the stabilising device?</font>
+<font color="#00ff00">Yes. The machinery's here.</font>
+
+993
+01:05:20,960 --> 01:05:24,320
+<font color="#ffff00">Are we going to stabilise the</font>
+<font color="#ffff00">shield?</font><font color="#ffffff"> Yes.</font>
+
+994
+01:05:24,320 --> 01:05:28,080
+<font color="#00ffff">Will it work?</font>
+<font color="#00ff00">It might. It's worth a try.</font>
+
+995
+01:05:28,080 --> 01:05:30,160
+<font color="#00ffff">Shall we call them?</font><font color="#ffff00"> No.</font>
+
+996
+01:05:34,880 --> 01:05:37,320
+<font color="#ffff00">I'm sure everything's all right.</font>
+
+997
+01:05:40,960 --> 01:05:43,720
+<font color="#ffff00">Explain what you're doing!</font>
+
+998
+01:05:43,720 --> 01:05:47,280
+<font color="#ffffff">We are under attack, Adric!</font>
+<font color="#ffff00">Well, tell me quickly!</font>
+
+999
+01:05:47,280 --> 01:05:50,360
+<font color="#ffffff">All right. What is the square root</font>
+<font color="#ffffff">of 3.69873?</font>
+
+1000
+01:05:50,360 --> 01:05:51,960
+<font color="#ffff00">About 1.92321.</font>
+
+1001
+01:05:53,160 --> 01:05:57,880
+<font color="#00ff00">That's not possible.</font><font color="#ffffff"> Oh,</font>
+<font color="#ffffff">he's very good. And almost right!</font>
+
+1002
+01:05:57,880 --> 01:06:01,440
+<font color="#ffff00">What are you doing?</font>
+<font color="#ffffff">Antimatter powers the ship.</font>
+
+1003
+01:06:01,440 --> 01:06:05,760
+<font color="#ffffff">It has to be contained in a vessel</font>
+<font color="#ffffff">with a stable molecular structure,</font>
+
+1004
+01:06:05,760 --> 01:06:09,760
+<font color="#ffffff">otherwise it would blow to bits.</font>
+<font color="#00ff00">No such material exists.</font>
+
+1005
+01:06:09,760 --> 01:06:14,240
+<font color="#ffffff">Computer-controlled electronics can</font>
+<font color="#ffffff">simulate it.</font>
+
+1006
+01:06:14,240 --> 01:06:16,960
+<font color="#ffff00">So that machine readjusts the</font>
+<font color="#ffff00">molecular</font>
+
+1007
+01:06:16,960 --> 01:06:19,360
+<font color="#ffff00">structure of the antimatter vessel?</font>
+
+1008
+01:06:19,360 --> 01:06:23,800
+<font color="#ffffff">Right. However destructive the</font>
+<font color="#ffffff">antimatter, the vessel is stable.</font>
+
+1009
+01:06:23,800 --> 01:06:27,480
+<font color="#00ff00">But will the device work to</font>
+<font color="#00ff00">stabilise the shield?</font>
+
+1010
+01:06:27,480 --> 01:06:30,440
+<font color="#ffffff">If it doesn't, we're dead.</font>
+
+1011
+01:06:33,920 --> 01:06:37,480
+<font color="#00ff00">Can you cope with the two of them?</font>
+<font color="#ffff00">I hope so.</font>
+
+1012
+01:06:37,480 --> 01:06:40,560
+<font color="#ffff00">We've got to get a clear shot at</font>
+<font color="#ffff00">both of them.</font>
+
+1013
+01:06:40,560 --> 01:06:43,720
+<font color="#00ffff">This shield won't last much longer.</font>
+
+1014
+01:06:43,720 --> 01:06:47,680
+<font color="#00ff00">I'll tell the computer what we're</font>
+<font color="#00ff00">up to.</font><font color="#ffffff"> Right. Hurry!</font>
+
+1015
+01:06:50,040 --> 01:06:52,720
+<font color="#00ff00">Now?</font><font color="#ffff00"> No!</font>
+
+1016
+01:06:52,720 --> 01:06:55,480
+<font color="#ffff00">I want that second one just a bit</font>
+<font color="#ffff00">closer.</font>
+
+1017
+01:06:58,280 --> 01:06:59,720
+<font color="#ffff00">Fire!</font>
+
+1018
+01:07:02,360 --> 01:07:03,880
+<font color="#00ff00">Come back!</font>
+
+1019
+01:07:11,560 --> 01:07:13,960
+<font color="#ffff00">Don't take risks like that again!</font>
+
+1020
+01:07:20,920 --> 01:07:23,080
+<font color="#00ff00">One of them got away.</font>
+
+1021
+01:07:23,080 --> 01:07:26,480
+<font color="#ffff00">We should get back to the TARDIS.</font>
+<font color="#00ff00">Not without the Doctor and Adric.</font>
+
+1022
+01:07:27,720 --> 01:07:29,760
+<font color="#00ff00">Ready.</font>
+<font color="#ffffff">Right.</font>
+
+1023
+01:07:29,760 --> 01:07:31,960
+<font color="#00ffff">Hurry, Doctor!</font>
+<font color="#ffffff">Just a second.</font>
+
+1024
+01:07:31,960 --> 01:07:36,080
+<font color="#00ff00">The shield is now soft enough.</font>
+<font color="#00ff00">Break through!</font>
+
+1025
+01:07:36,080 --> 01:07:37,600
+<font color="#ffffff">Now!</font>
+
+1026
+01:07:41,000 --> 01:07:44,040
+<font color="#ffff00">It worked!</font>
+<font color="#00ffff">Well done, Doctor!</font>
+
+1027
+01:07:45,000 --> 01:07:48,560
+<font color="#00ffff">You are right, Leader.</font>
+<font color="#00ffff">The Doctor is a formidable opponent.</font>
+
+1028
+01:07:48,560 --> 01:07:52,200
+<font color="#00ff00">I anticipated as much. Activate the</font>
+<font color="#00ff00">charge.</font>
+
+1029
+01:07:55,120 --> 01:07:57,160
+<font color="#00ffff">Leader!</font>
+
+1030
+01:07:58,240 --> 01:08:00,480
+<font color="#00ff00">He has been damaged by gunfire.</font>
+
+1031
+01:08:00,480 --> 01:08:02,640
+<font color="#00ff00">There is still resistance.</font>
+
+1032
+01:08:02,640 --> 01:08:05,960
+<font color="#00ffff">According to the Earthling,</font>
+<font color="#00ffff">there were only ten crew members.</font>
+
+1033
+01:08:05,960 --> 01:08:08,320
+<font color="#00ffff">They have all been accounted for.</font>
+
+1034
+01:08:08,320 --> 01:08:10,360
+<font color="#00ff00">Then he has lied.</font>
+
+1035
+01:08:10,360 --> 01:08:13,840
+<font color="#00ff00">Order the activation of</font>
+<font color="#00ff00">reinforcements.</font>
+
+1036
+01:08:19,720 --> 01:08:23,040
+<font color="#00ff00">Charges primed?</font>
+<font color="#00ffff">Yes, Leader.</font>
+
+1037
+01:08:29,440 --> 01:08:30,880
+<font color="#00ff00">Fire!</font>
+
+1038
+01:08:33,440 --> 01:08:35,080
+<font color="#ffffff">I should have realised!</font>
+
+1039
+01:08:37,760 --> 01:08:39,800
+<font color="#00ffff">No!</font>
+
+1040
+01:08:58,640 --> 01:09:04,200
+<font color="#00ff00">So, we meet again, Doctor.</font>
+
+1041
+01:09:14,600 --> 01:09:16,000
+<font color="#ffffff">No...</font>
+
+1042
+01:09:24,720 --> 01:09:27,280
+<font color="#00ff00">He deceived us.</font>
+
+1043
+01:09:27,280 --> 01:09:32,200
+<font color="#ffffff">You never change.</font>
+<font color="#ffffff">Always the perfect guests!</font>
+
+1044
+01:09:32,200 --> 01:09:35,600
+<font color="#00ffff">What happens to us</font>
+<font color="#00ffff">if the Doctor doesn't come back?</font>
+
+1045
+01:09:35,600 --> 01:09:39,120
+<font color="#ffff00">It depends where the ship's going.</font>
+<font color="#00ffff">You can't fly the TARDIS?</font>
+
+1046
+01:09:39,120 --> 01:09:41,920
+<font color="#ffff00">I understand some of the</font>
+<font color="#ffff00">principles.</font>
+
+1047
+01:09:41,920 --> 01:09:45,480
+<font color="#00ffff">Could you get us back to Earth?</font>
+<font color="#ffff00">Not without difficulty.</font>
+
+1048
+01:09:47,280 --> 01:09:51,040
+<font color="#00ff00">Our records indicate</font>
+<font color="#00ff00">that you have a fondness for Earth.</font>
+
+1049
+01:09:51,040 --> 01:09:54,200
+<font color="#ffffff">Fondness? I'm surprised your</font>
+<font color="#ffffff">emotionless brain</font>
+
+1050
+01:09:54,200 --> 01:09:55,640
+<font color="#ffffff">understands the word.</font>
+
+1051
+01:09:55,640 --> 01:09:57,800
+<font color="#00ff00">It is a word like any other,</font>
+
+1052
+01:09:57,800 --> 01:09:59,760
+<font color="#00ff00">and so is "destruction",</font>
+
+1053
+01:09:59,760 --> 01:10:02,960
+<font color="#00ff00">which is what we will do to that</font>
+<font color="#00ff00">planet.</font>
+
+1054
+01:10:02,960 --> 01:10:06,680
+<font color="#ffffff">You've tried before.</font>
+<font color="#00ff00">This time we shall succeed,</font>
+
+1055
+01:10:06,680 --> 01:10:09,960
+<font color="#00ff00">and you will live just long enough</font>
+<font color="#00ff00">to witness it.</font>
+
+1056
+01:10:09,960 --> 01:10:13,400
+<font color="#00ffff">Reactivation completed.</font>
+<font color="#00ff00">Excellent.</font>
+
+1057
+01:10:13,400 --> 01:10:16,600
+<font color="#00ff00">Now you will see our strength.</font>
+
+1058
+01:10:16,600 --> 01:10:18,800
+<font color="#ffffff">METALLIC CLANG</font>
+
+1059
+01:10:23,800 --> 01:10:26,040
+<font color="#ffffff">METALLIC CLANG</font>
+
+1060
+01:10:23,800 --> 01:10:26,040
+<font color="#ffff00">Let's move!</font>
+
+1061
+01:10:26,040 --> 01:10:29,280
+<font color="#00ff00">Whatever it is, it's between us and</font>
+<font color="#00ff00">the TARDIS.</font>
+
+1062
+01:10:33,240 --> 01:10:36,520
+<font color="#ffffff">CLANGING</font>
+
+1063
+01:10:42,560 --> 01:10:44,600
+<font color="#ffff00">Take cover!</font>
+
+1064
+01:11:14,760 --> 01:11:19,160
+<font color="#00ff00">My army awakes, Doctor!</font>
+
+1065
+01:11:27,160 --> 01:11:29,920
+<font color="#ffff00">This is piracy!</font>
+<font color="#00ffff">It is war.</font>
+
+1066
+01:11:29,920 --> 01:11:33,040
+<font color="#ffff00">The ship is in warp drive. Interfere</font>
+<font color="#ffff00">with the navigational system</font>
+
+1067
+01:11:33,040 --> 01:11:35,600
+<font color="#ffff00">and we will disintegrate!</font>
+<font color="#00ffff">Your technology is primitive</font>
+
+1068
+01:11:35,600 --> 01:11:39,160
+<font color="#00ffff">compared to ours.</font>
+<font color="#00ffff">Mistakes will not be made.</font>
+
+1069
+01:12:08,560 --> 01:12:10,720
+<font color="#00ff00">What was that?</font>
+
+1070
+01:12:10,720 --> 01:12:13,880
+<font color="#ffff00">I don't know. A robot.</font>
+
+1071
+01:12:14,800 --> 01:12:16,480
+<font color="#00ff00">They're huge!</font>
+
+1072
+01:12:25,080 --> 01:12:26,520
+<font color="#00ffff">Where's Tegan?</font>
+
+1073
+01:12:28,920 --> 01:12:31,280
+<font color="#00ff00">What are they doing?</font>
+<font color="#ffff00">I don't know.</font>
+
+1074
+01:12:31,280 --> 01:12:34,040
+<font color="#ffff00">They've incorporated</font>
+<font color="#ffff00">a machine of their own.</font>
+
+1075
+01:12:34,040 --> 01:12:36,960
+<font color="#ffffff">I suspect the ship is now on</font>
+<font color="#ffffff">a locked-off, fixed co-ordinate.</font>
+
+1076
+01:12:36,960 --> 01:12:39,600
+<font color="#00ffff">Are we still going to Earth?</font>
+<font color="#ffffff">Yes.</font>
+
+1077
+01:12:39,600 --> 01:12:42,000
+<font color="#00ff00">Why lock off the co-ordinates?</font>
+
+1078
+01:12:42,000 --> 01:12:45,320
+<font color="#ffffff">Because I think they're turning us</font>
+<font color="#ffffff">into a flying bomb.</font>
+
+1079
+01:12:59,000 --> 01:13:03,440
+<font color="#00ffff">Your TARDIS has been found, Doctor.</font>
+<font color="#ffffff">I didn't know it was lost.</font>
+
+1080
+01:13:03,440 --> 01:13:05,920
+<font color="#00ff00">You're mad if you think</font>
+<font color="#00ff00">Earth's security will let you</font>
+
+1081
+01:13:05,920 --> 01:13:08,400
+<font color="#00ff00">crash into the planet.</font>
+<font color="#00ff00">They'd shoot the ship down.</font>
+
+1082
+01:13:08,400 --> 01:13:11,120
+<font color="#00ffff">There will not be time.</font>
+<font color="#00ffff">You have the security transpond</font>
+
+1083
+01:13:11,120 --> 01:13:14,480
+<font color="#00ffff">with clearance for Earth.</font>
+<font color="#00ff00">Yes, but WHY do it? On impact,</font>
+
+1084
+01:13:14,480 --> 01:13:17,840
+<font color="#00ff00">this ship will destroy everything.</font>
+<font color="#00ff00">The planet will be useless.</font>
+
+1085
+01:13:17,840 --> 01:13:20,520
+<font color="#00ffff">There is a conference</font>
+<font color="#00ffff">about to take place on Earth.</font>
+
+1086
+01:13:20,520 --> 01:13:22,680
+<font color="#ffffff">The reason for the red alert!</font>
+
+1087
+01:13:22,680 --> 01:13:26,480
+<font color="#00ffff">Yes. The heads of many powerful</font>
+<font color="#00ffff">planets will be present.</font>
+
+1088
+01:13:26,480 --> 01:13:30,360
+<font color="#ffffff">So you destroy a few presidents</font>
+<font color="#ffffff">in a needlessly destructive way.</font>
+
+1089
+01:13:30,360 --> 01:13:35,200
+<font color="#00ffff">It is more than that. The purpose</font>
+<font color="#00ffff">of the conference is to sign a pact</font>
+
+1090
+01:13:35,200 --> 01:13:39,880
+<font color="#00ffff">uniting their military forces</font>
+<font color="#00ffff">in a war against the Cyber race.</font>
+
+1091
+01:13:39,880 --> 01:13:43,320
+<font color="#ffffff">Of course. A war</font>
+<font color="#ffffff">you couldn't possibly win.</font>
+
+1092
+01:13:43,320 --> 01:13:46,920
+<font color="#00ffff">Their combined forces</font>
+<font color="#00ffff">would be too great.</font>
+
+1093
+01:13:46,920 --> 01:13:50,320
+<font color="#ffffff">Destroy the conference</font>
+<font color="#ffffff">and you destroy the unity.</font>
+
+1094
+01:13:50,320 --> 01:13:53,160
+<font color="#00ffff">It will be a great</font>
+<font color="#00ffff">psychological victory.</font>
+
+1095
+01:13:53,160 --> 01:13:56,760
+<font color="#00ffff">The strength and might of</font>
+<font color="#00ffff">the Cyber race will be confirmed.</font>
+
+1096
+01:13:56,760 --> 01:14:00,160
+<font color="#ffffff">So the freighter replaces</font>
+<font color="#ffffff">the bomb?</font><font color="#00ffff"> Yes, Doctor.</font>
+
+1097
+01:14:00,160 --> 01:14:05,400
+<font color="#00ffff">In spite of your interference,</font>
+<font color="#00ffff">we will still triumph.</font>
+
+1098
+01:14:23,360 --> 01:14:26,240
+<font color="#00ff00">Scott to TARDIS. Come in, please.</font>
+<font color="#ffff00">This is Nyssa.</font>
+
+1099
+01:14:26,240 --> 01:14:30,600
+<font color="#00ff00">We're coming back to the TARDIS.</font>
+<font color="#00ff00">The hold is crawling with robots.</font>
+
+1100
+01:14:30,600 --> 01:14:32,960
+<font color="#ffff00">Any of you hurt?</font>
+<font color="#00ff00">No...</font>
+
+1101
+01:14:32,960 --> 01:14:35,200
+<font color="#00ff00">..but we've got separated</font>
+<font color="#00ff00">from Tegan.</font>
+
+1102
+01:14:36,720 --> 01:14:39,720
+<font color="#ffffff">If the freighter crashes into Earth</font>
+<font color="#ffffff">with you on board, won't that</font>
+
+1103
+01:14:39,720 --> 01:14:42,000
+<font color="#ffffff">make it rather difficult</font>
+<font color="#ffffff">for you to carry out your task?</font>
+
+1104
+01:14:42,000 --> 01:14:44,120
+<font color="#ffffff">I mean, you would be very crumpled.</font>
+
+1105
+01:14:44,120 --> 01:14:47,240
+<font color="#00ffff">I shall not be on board, Doctor.</font>
+<font color="#ffffff">You don't surprise me.</font>
+
+1106
+01:14:47,240 --> 01:14:49,080
+<font color="#00ffff">My function as leader of the squad -</font>
+
+1107
+01:14:49,080 --> 01:14:51,640
+<font color="#00ffff">to eliminate</font>
+<font color="#00ffff">those who survived the bomb.</font>
+
+1108
+01:14:51,640 --> 01:14:55,360
+<font color="#ffff00">Now your transport</font>
+<font color="#ffff00">has replaced the bomb.</font>
+
+1109
+01:14:55,360 --> 01:14:58,760
+<font color="#00ffff">I shall join a secondary force</font>
+<font color="#00ffff">to complete my task.</font>
+
+1110
+01:14:58,760 --> 01:15:00,880
+<font color="#00ff00">Are they all so dedicated?</font>
+
+1111
+01:15:00,880 --> 01:15:03,720
+<font color="#ffffff">Compared to some,</font>
+<font color="#ffffff">this one is positively flippant.</font>
+
+1112
+01:15:25,440 --> 01:15:26,880
+<font color="#ffffff">SHE CRIES OUT</font>
+
+1113
+01:15:30,640 --> 01:15:32,680
+<font color="#00ff00">Gently.</font>
+
+1114
+01:15:43,040 --> 01:15:46,440
+<font color="#00ff00">They're safe!</font>
+<font color="#ffff00">And those two robots have gone.</font>
+
+1115
+01:15:52,160 --> 01:15:53,720
+<font color="#ffffff">SHE CRIES OUT</font>
+
+1116
+01:15:53,720 --> 01:15:57,560
+<font color="#00ff00">Wait till it's near,</font>
+<font color="#00ff00">then concentrate your fire.</font>
+
+1117
+01:16:02,080 --> 01:16:03,760
+<font color="#00ff00">Now!</font>
+
+1118
+01:16:07,640 --> 01:16:09,680
+<font color="#00ff00">There's another one!</font>
+
+1119
+01:16:13,520 --> 01:16:15,640
+<font color="#ffff00">Nyssa, get back!</font>
+
+1120
+01:16:25,760 --> 01:16:27,800
+<font color="#ffff00">No!</font>
+
+1121
+01:16:30,800 --> 01:16:32,880
+<font color="#00ff00">It's no use.</font>
+
+1122
+01:16:34,560 --> 01:16:36,520
+<font color="#00ff00">She's dead.</font>
+
+1123
+01:16:44,280 --> 01:16:47,240
+<font color="#ffff00">Doctor! Adric!</font>
+<font color="#ffffff">Where did you come from?</font>
+
+1124
+01:16:47,240 --> 01:16:49,800
+<font color="#ffff00">That thing caught me.</font>
+<font color="#00ff00">Where's Nyssa?</font>
+
+1125
+01:16:49,800 --> 01:16:51,960
+<font color="#ffff00">She's safe. She's in the TARDIS.</font>
+<font color="#00ffff">Who is this woman?</font>
+
+1126
+01:16:51,960 --> 01:16:54,680
+<font color="#ffffff">An Earthling. No-one of consequence.</font>
+<font color="#ffff00">Thanks a lot!</font><font color="#ffffff"> Be quiet.</font>
+
+1127
+01:16:54,680 --> 01:16:57,680
+<font color="#00ffff">She is one of your crew?</font>
+<font color="#ffffff">In a manner of speaking.</font>
+
+1128
+01:16:57,680 --> 01:17:01,080
+<font color="#00ffff">I see that Time Lords have</font>
+<font color="#00ffff">emotional feelings.</font><font color="#ffffff"> Of sorts.</font>
+
+1129
+01:17:01,080 --> 01:17:04,000
+<font color="#00ffff">Surely a great weakness</font>
+<font color="#00ffff">in one so powerful?</font>
+
+1130
+01:17:04,000 --> 01:17:06,840
+<font color="#ffffff">Emotions have their uses.</font>
+<font color="#00ffff">They restrict and curtail</font>
+
+1131
+01:17:06,840 --> 01:17:10,720
+<font color="#00ffff">the intellect and logic of the mind.</font>
+<font color="#ffffff">They also enhance life!</font>
+
+1132
+01:17:10,720 --> 01:17:13,120
+<font color="#ffffff">When did you last have the pleasure</font>
+<font color="#ffffff">of smelling a flower,</font>
+
+1133
+01:17:13,120 --> 01:17:15,240
+<font color="#ffffff">watching a sunset,</font>
+<font color="#ffffff">eating a well-prepared meal?</font>
+
+1134
+01:17:15,240 --> 01:17:17,320
+<font color="#00ffff">These things are irrelevant!</font>
+
+1135
+01:17:17,320 --> 01:17:21,000
+<font color="#ffffff">For some people, small, beautiful</font>
+<font color="#ffffff">events is what life is all about!</font>
+
+1136
+01:17:21,960 --> 01:17:25,960
+<font color="#00ffff">You have affection for this woman?</font>
+<font color="#ffffff">She's a friend.</font>
+
+1137
+01:17:25,960 --> 01:17:30,320
+<font color="#00ffff">And you do not consider friendship</font>
+<font color="#00ffff">a weakness?</font><font color="#ffffff"> I do not.</font>
+
+1138
+01:17:31,880 --> 01:17:33,400
+<font color="#00ffff">Kill her.</font>
+
+1139
+01:17:46,200 --> 01:17:48,240
+<font color="#ffffff">No!</font>
+
+1140
+01:17:51,080 --> 01:17:54,440
+<font color="#00ffff">Such a reaction</font>
+<font color="#00ffff">is not a disadvantage?</font>
+
+1141
+01:17:54,440 --> 01:18:00,400
+<font color="#ffffff">No.</font><font color="#00ffff"> You are mistaken.</font>
+<font color="#00ffff">I now have control over you, Doctor.</font>
+
+1142
+01:18:00,400 --> 01:18:05,000
+<font color="#00ffff">All I need do is threaten the</font>
+<font color="#00ffff">woman's death for you to obey me.</font>
+
+1143
+01:18:06,160 --> 01:18:08,320
+<font color="#00ff00">..unless we have</font>
+<font color="#00ff00">two of their weapons.</font>
+
+1144
+01:18:08,320 --> 01:18:10,120
+<font color="#00ff00">Might make them easier to kill.</font>
+
+1145
+01:18:10,120 --> 01:18:13,440
+<font color="#ffff00">You're not going out again?</font>
+<font color="#00ff00">I haven't much choice.</font>
+
+1146
+01:18:13,440 --> 01:18:15,920
+<font color="#ffff00">The Doctor won't thank you</font>
+<font color="#ffff00">for throwing away your life.</font>
+
+1147
+01:18:22,960 --> 01:18:26,400
+<font color="#00ffff">I return your ship to you,</font>
+<font color="#00ffff">Captain.</font><font color="#00ff00"> Really?</font>
+
+1148
+01:18:26,400 --> 01:18:28,360
+<font color="#00ffff">You will continue</font>
+<font color="#00ffff">your journey to Earth.</font>
+
+1149
+01:18:28,360 --> 01:18:31,560
+<font color="#00ffff">The ship will function normally.</font>
+<font color="#00ff00">We're to stay on board?</font>
+
+1150
+01:18:31,560 --> 01:18:34,720
+<font color="#00ffff">Yes, although your presence</font>
+<font color="#00ffff">isn't needed, of course.</font>
+
+1151
+01:18:34,720 --> 01:18:37,840
+<font color="#00ffff">The control of your ship</font>
+<font color="#00ffff">is now totally automatic.</font>
+
+1152
+01:18:37,840 --> 01:18:42,240
+<font color="#ffffff">This isn't necessary. Let them go.</font>
+<font color="#00ffff">And deny them the feeling of fear,</font>
+
+1153
+01:18:42,240 --> 01:18:45,480
+<font color="#00ffff">the ultimate in emotional response?</font>
+
+1154
+01:18:46,440 --> 01:18:49,520
+<font color="#ffffff">You've already proved your point</font>
+<font color="#ffffff">quite adequately.</font>
+
+1155
+01:18:49,520 --> 01:18:53,240
+<font color="#00ffff">A final demonstration</font>
+<font color="#00ffff">might convince any doubters.</font>
+
+1156
+01:18:53,240 --> 01:18:56,200
+<font color="#00ff00">We have finished, Leader.</font>
+<font color="#00ffff">Excellent.</font>
+
+1157
+01:18:56,200 --> 01:18:59,720
+<font color="#00ffff">Instruct all regenerated Cybermen</font>
+<font color="#00ffff">to evacuate the ship.</font>
+
+1158
+01:18:59,720 --> 01:19:05,200
+<font color="#00ffff">You will return to Cyber control and</font>
+<font color="#00ffff">inform main fleet of our intention.</font>
+
+1159
+01:19:05,200 --> 01:19:06,960
+<font color="#00ff00">At once.</font>
+
+1160
+01:19:32,240 --> 01:19:34,440
+<font color="#ffffff">SCOTT:</font><font color="#00ff00"> They're leaving.</font>
+
+1161
+01:19:34,440 --> 01:19:37,600
+<font color="#00ffff">You two will remain on the bridge.</font>
+<font color="#00ffff">Should any of the crew attempt</font>
+
+1162
+01:19:37,600 --> 01:19:39,760
+<font color="#00ffff">to interfere</font>
+<font color="#00ffff">with navigational equipment,</font>
+
+1163
+01:19:39,760 --> 01:19:42,640
+<font color="#00ffff">they are to be restrained.</font>
+<font color="#00ff00">Why don't you kill us now?</font>
+
+1164
+01:19:42,640 --> 01:19:45,960
+<font color="#00ffff">I want my guards</font>
+<font color="#00ffff">to observe your reactions.</font>
+
+1165
+01:19:45,960 --> 01:19:50,600
+<font color="#ffff00">That's sadistic!</font><font color="#00ffff"> No, scientific.</font>
+<font color="#00ffff">If we are to fight Earthlings,</font>
+
+1166
+01:19:50,600 --> 01:19:53,920
+<font color="#00ffff">it is better we understand</font>
+<font color="#00ffff">their weaknesses.</font>
+
+1167
+01:19:59,440 --> 01:20:02,760
+<font color="#00ffff">We leave for your TARDIS.</font>
+<font color="#00ffff">The Earth woman, as well.</font>
+
+1168
+01:20:02,760 --> 01:20:04,800
+<font color="#ffff00">The name is Tegan!</font>
+
+1169
+01:20:07,080 --> 01:20:09,720
+<font color="#ffffff">I want Adric, too.</font>
+<font color="#00ffff">The boy stays here.</font>
+
+1170
+01:20:09,720 --> 01:20:12,040
+<font color="#ffff00">No!</font><font color="#ffffff"> I need him to help me</font>
+<font color="#ffffff">fly the TARDIS.</font>
+
+1171
+01:20:12,040 --> 01:20:14,920
+<font color="#00ffff">I know that it requires one person</font>
+<font color="#00ffff">to pilot the TARDIS.</font>
+
+1172
+01:20:14,920 --> 01:20:18,400
+<font color="#ffffff">I'm not going without him.</font>
+<font color="#00ffff">The boy will stay here.</font>
+
+1173
+01:20:18,400 --> 01:20:21,880
+<font color="#00ffff">If you do not cooperate, I shall</font>
+<font color="#00ffff">have the Earth woman destroyed.</font>
+
+1174
+01:20:21,880 --> 01:20:23,720
+<font color="#00ff00">We can't leave without him!</font>
+
+1175
+01:20:23,720 --> 01:20:28,960
+<font color="#ffff00">Take Tegan with you.</font>
+<font color="#ffff00">I'll find my own way. Please.</font>
+
+1176
+01:20:28,960 --> 01:20:33,640
+<font color="#00ff00">The boy's right.</font>
+<font color="#00ff00">There's a chance. Leave now.</font>
+
+1177
+01:20:33,640 --> 01:20:36,240
+<font color="#ffff00">Please, Doctor.</font>
+<font color="#00ffff">There is no chance.</font>
+
+1178
+01:20:36,240 --> 01:20:38,120
+<font color="#ffff00">Just leave!</font>
+
+1179
+01:20:44,160 --> 01:20:46,360
+<font color="#ffffff">Good luck, Adric.</font>
+
+1180
+01:20:47,560 --> 01:20:49,360
+<font color="#ffff00">Goodbye, Doctor.</font>
+
+1181
+01:20:49,360 --> 01:20:53,720
+<font color="#ffffff">Good luck to you all!</font>
+<font color="#ffff00">Goodbye, Tegan. I'll see you soon.</font>
+
+1182
+01:21:15,160 --> 01:21:19,320
+<font color="#00ff00">Nice to see where we're going.</font>
+<font color="#ffff00">We know where we're going.</font>
+
+1183
+01:21:19,320 --> 01:21:21,120
+<font color="#00ff00">Nice to see when we arrive.</font>
+
+1184
+01:21:24,800 --> 01:21:29,160
+<font color="#00ff00">The freighter has been evacuated.</font>
+<font color="#ffffff">LEADER:</font><font color="#00ffff"> Excellent.</font>
+
+1185
+01:21:29,160 --> 01:21:33,640
+<font color="#00ff00">And a ship is being dispatched</font>
+<font color="#00ff00">from the main fleet to collect you.</font>
+
+1186
+01:21:33,640 --> 01:21:36,040
+<font color="#00ffff">The fleet is too far away.</font>
+
+1187
+01:21:36,040 --> 01:21:40,600
+<font color="#00ffff">I will use the Doctor's TARDIS</font>
+<font color="#00ffff">to observe the impact.</font>
+
+1188
+01:21:40,600 --> 01:21:44,520
+<font color="#00ff00">Leader.</font>
+<font color="#00ffff">You will meet me there.</font>
+
+1189
+01:22:02,680 --> 01:22:04,840
+<font color="#ffffff">TEGAN:</font><font color="#ffff00"> You won't like Earth.</font>
+
+1190
+01:22:04,840 --> 01:22:08,000
+<font color="#ffffff">LEADER:</font><font color="#00ffff"> Like or dislike</font>
+<font color="#00ffff">does not come into my consideration.</font>
+
+1191
+01:22:08,000 --> 01:22:10,800
+<font color="#ffff00">It will when you start going rusty.</font>
+
+1192
+01:22:12,760 --> 01:22:15,920
+<font color="#00ff00">This is Scott.</font>
+<font color="#ffff00">What's happening out there?</font>
+
+1193
+01:22:15,920 --> 01:22:20,080
+<font color="#00ff00">I don't know. Those robot things</font>
+<font color="#00ff00">seem to have left the ship.</font>
+
+1194
+01:22:20,080 --> 01:22:23,040
+<font color="#ffff00">Is there any sign of the Doctor?</font>
+<font color="#00ff00">No, not yet.</font>
+
+1195
+01:22:23,040 --> 01:22:27,600
+<font color="#ffff00">Well, be careful. That magnetic</font>
+<font color="#ffff00">field is functioning again.</font>
+
+1196
+01:22:28,720 --> 01:22:33,560
+<font color="#00ffff">How much time have we got?</font><font color="#ffff00"> Not long.</font>
+<font color="#ffff00">The ship is on maximum drive.</font>
+
+1197
+01:22:33,560 --> 01:22:38,080
+<font color="#00ffff">Could we undo what the Cybermen</font>
+<font color="#00ffff">have done?</font><font color="#00ff00"> Given time, I'm sure.</font>
+
+1198
+01:22:38,080 --> 01:22:40,840
+<font color="#00ffff">Well, even if we could just</font>
+<font color="#00ffff">divert the ship a degree or two,</font>
+
+1199
+01:22:40,840 --> 01:22:44,800
+<font color="#00ffff">at least we'd miss Earth.</font><font color="#00ff00"> We have to</font>
+<font color="#00ff00">cope with those things first.</font>
+
+1200
+01:22:46,040 --> 01:22:49,960
+<font color="#00ff00">Leader, the main fleet</font>
+<font color="#00ff00">has acknowledged your intentions.</font>
+
+1201
+01:22:49,960 --> 01:22:53,640
+<font color="#00ffff">Do they agree?</font><font color="#00ff00"> Yes, Leader.</font>
+<font color="#00ff00">As soon as the freighter impacts,</font>
+
+1202
+01:22:53,640 --> 01:22:56,800
+<font color="#00ff00">a small force will follow through</font>
+<font color="#00ff00">and, under your instruction,</font>
+
+1203
+01:22:56,800 --> 01:23:00,200
+<font color="#00ff00">subdue survivors.</font>
+<font color="#00ffff">Excellent.</font>
+
+1204
+01:23:07,480 --> 01:23:13,240
+<font color="#00ff00">Marshall, you stay here</font>
+<font color="#00ff00">and cover us. Brooks, come with me.</font>
+
+1205
+01:23:24,280 --> 01:23:27,000
+<font color="#00ff00">Doctor! Where's Adric?</font>
+
+1206
+01:23:27,000 --> 01:23:29,440
+<font color="#ffffff">He's safe.</font>
+<font color="#ffff00">For the time being.</font>
+
+1207
+01:24:07,560 --> 01:24:10,240
+<font color="#00ff00">Lieutenant Scott, Captain.</font>
+
+1208
+01:24:10,240 --> 01:24:13,280
+<font color="#ffffff">METALLIC THRUMMING</font>
+
+1209
+01:24:28,880 --> 01:24:32,840
+<font color="#00ffff">Have you logged on</font>
+<font color="#00ffff">to the freighter's co-ordinates?</font>
+
+1210
+01:24:32,840 --> 01:24:35,760
+<font color="#ffffff">Yes.</font><font color="#00ffff"> You will follow</font>
+<font color="#00ffff">the freighter to Earth.</font>
+
+1211
+01:24:35,760 --> 01:24:38,520
+<font color="#00ffff">I wish to witness</font>
+<font color="#00ffff">the planet's final destruction.</font>
+
+1212
+01:24:38,520 --> 01:24:41,320
+<font color="#ffff00">You'll ruin your own plan</font>
+<font color="#ffff00">doing that.</font>
+
+1213
+01:24:41,320 --> 01:24:43,680
+<font color="#ffff00">The radar on Earth</font>
+<font color="#ffff00">will pick up the TARDIS.</font>
+
+1214
+01:24:43,680 --> 01:24:47,560
+<font color="#00ffff">It is too small. Its image will be</font>
+<font color="#00ffff">swamped by that of the freighter.</font>
+
+1215
+01:24:47,560 --> 01:24:51,720
+<font color="#00ff00">Everything has been considered.</font>
+<font color="#00ffff">Search this ship.</font>
+
+1216
+01:24:54,000 --> 01:24:56,960
+<font color="#ffff00">There's an override</font>
+<font color="#ffff00">on the navigational control.</font>
+
+1217
+01:24:56,960 --> 01:24:59,320
+<font color="#ffff00">My instructions are</font>
+<font color="#ffff00">instantly countermanded.</font>
+
+1218
+01:24:59,320 --> 01:25:02,520
+<font color="#00ffff">It's this thing that's causing it.</font>
+<font color="#00ff00">Can't you disconnect it?</font>
+
+1219
+01:25:02,520 --> 01:25:07,160
+<font color="#00ffff">It's probably booby-trapped.</font><font color="#ffff00"> Maybe</font>
+<font color="#ffff00">so, but it can be disconnected.</font>
+
+1220
+01:25:07,160 --> 01:25:09,840
+<font color="#00ff00">How?</font>
+<font color="#ffff00">Solve the three logic codes.</font>
+
+1221
+01:25:09,840 --> 01:25:13,720
+<font color="#00ff00">That could take for ever!</font><font color="#ffff00"> Well,</font>
+<font color="#ffff00">then I suggest we start at once.</font>
+
+1222
+01:25:34,080 --> 01:25:36,720
+<font color="#00ff00">It seems we have</font>
+<font color="#00ff00">very little time, Captain.</font>
+
+1223
+01:25:44,680 --> 01:25:48,400
+<font color="#00ffff">The time draws near!</font>
+<font color="#ffffff">It isn't necessary to taunt her.</font>
+
+1224
+01:25:48,400 --> 01:25:50,680
+<font color="#00ffff">It is simply a fact, Doctor.</font>
+
+1225
+01:25:50,680 --> 01:25:52,720
+<font color="#ffff00">Can't you do something?</font>
+
+1226
+01:25:52,720 --> 01:25:56,120
+<font color="#ffffff">Not at the moment.</font>
+<font color="#00ffff">Do not mislead the Earthling.</font>
+
+1227
+01:25:56,120 --> 01:25:59,840
+<font color="#00ffff">This time, we will not fail.</font>
+
+1228
+01:26:00,800 --> 01:26:05,840
+<font color="#ffff00">Is that right?</font><font color="#00ffff"> It has to be.</font>
+<font color="#00ffff">It's the only logical answer.</font>
+
+1229
+01:26:07,080 --> 01:26:10,720
+<font color="#ffff00">I don't have to watch this!</font>
+<font color="#00ff00">She doesn't have to be here.</font>
+
+1230
+01:26:10,720 --> 01:26:15,880
+<font color="#ffffff">Gently, Tegan.</font><font color="#ffff00"> Gently?! This is</font>
+<font color="#ffff00">my planet they're about to destroy!</font>
+
+1231
+01:26:15,880 --> 01:26:17,560
+<font color="#ffffff">No!</font>
+
+1232
+01:26:22,440 --> 01:26:25,200
+<font color="#ffffff">You do things like that,</font>
+<font color="#ffffff">we'll all finish up dead!</font>
+
+1233
+01:26:27,760 --> 01:26:30,880
+<font color="#00ffff">That's it. The first one's solved.</font>
+
+1234
+01:26:32,680 --> 01:26:35,640
+<font color="#00ff00">We're running out of time. The</font>
+<font color="#00ff00">troopers can't hold the Cybermen</font>
+
+1235
+01:26:35,640 --> 01:26:39,720
+<font color="#00ff00">much longer.</font><font color="#ffff00"> We're working as hard</font>
+<font color="#ffff00">as we can. It's very complex.</font>
+
+1236
+01:26:39,720 --> 01:26:42,920
+<font color="#00ffff">It worked! See if</font>
+<font color="#00ffff">it's released anything.</font>
+
+1237
+01:26:49,360 --> 01:26:51,480
+<font color="#00ff00">The power in these things</font>
+<font color="#00ff00">is running out.</font>
+
+1238
+01:26:52,800 --> 01:26:54,840
+<font color="#ffff00">Stand by.</font>
+
+1239
+01:27:01,480 --> 01:27:03,640
+<font color="#ffff00">What's happening?</font>
+<font color="#ffff00">Where have they gone?</font>
+
+1240
+01:27:03,640 --> 01:27:07,000
+<font color="#ffff00">The freighter's jumped time warps.</font>
+<font color="#00ffff">You will follow.</font><font color="#ffffff"> Where?</font>
+
+1241
+01:27:07,000 --> 01:27:08,440
+<font color="#00ffff">Follow them!</font>
+
+1242
+01:27:18,240 --> 01:27:21,920
+<font color="#ffffff">BERGER:</font><font color="#ffff00"> We're travelling backwards</font>
+<font color="#ffff00">in time.</font><font color="#00ff00"> That's not possible!</font>
+
+1243
+01:27:21,920 --> 01:27:25,360
+<font color="#00ffff">It is when you have an alien machine</font>
+<font color="#00ffff">overriding your computer.</font>
+
+1244
+01:27:26,320 --> 01:27:29,120
+<font color="#00ffff">You will board the freighter.</font>
+<font color="#ffffff">I can't.</font>
+
+1245
+01:27:29,120 --> 01:27:33,760
+<font color="#00ffff">You will do as I say!</font>
+<font color="#ffffff">It's physically impossible!</font>
+
+1246
+01:27:33,760 --> 01:27:35,680
+<font color="#ffffff">The freighter is no longer</font>
+<font color="#ffffff">on a fixed course.</font>
+
+1247
+01:27:35,680 --> 01:27:37,600
+<font color="#ffffff">The co-ordinates</font>
+<font color="#ffffff">are constantly changing!</font>
+
+1248
+01:27:37,600 --> 01:27:41,440
+<font color="#ffffff">That's why it keeps fading.</font>
+<font color="#ffffff">I've got nothing to lock on to.</font>
+
+1249
+01:27:41,440 --> 01:27:43,480
+<font color="#00ff00">Rest there a minute.</font>
+
+1250
+01:27:44,440 --> 01:27:47,080
+<font color="#00ff00">Some bump!</font>
+<font color="#ffff00">It's bigger than you think.</font>
+
+1251
+01:27:47,080 --> 01:27:49,200
+<font color="#00ffff">Well, if we crack</font>
+<font color="#00ffff">the remaining two logic circuits,</font>
+
+1252
+01:27:49,200 --> 01:27:51,280
+<font color="#00ffff">we may be able to do</font>
+<font color="#00ffff">something about it.</font>
+
+1253
+01:27:52,400 --> 01:27:54,440
+<font color="#ffff00">At least the Earth is safe now.</font>
+
+1254
+01:27:55,480 --> 01:27:57,040
+<font color="#00ff00">Doctor?</font>
+
+1255
+01:27:58,400 --> 01:28:01,560
+<font color="#ffff00">Don't tell me it isn't!</font><font color="#ffffff"> Although the</font>
+<font color="#ffffff">freighter is spiralling backwards</font>
+
+1256
+01:28:01,560 --> 01:28:04,360
+<font color="#ffffff">in time, it's still locked on</font>
+<font color="#ffffff">to the same spatial co-ordinates.</font>
+
+1257
+01:28:04,360 --> 01:28:06,520
+<font color="#ffff00">Earth?</font>
+
+1258
+01:28:06,520 --> 01:28:08,760
+<font color="#00ffff">This is excellent news, Doctor!</font>
+
+1259
+01:28:08,760 --> 01:28:14,120
+<font color="#00ffff">Earth will be destroyed. It will</font>
+<font color="#00ffff">never exist as you have known it.</font>
+
+1260
+01:28:14,120 --> 01:28:15,800
+<font color="#ffff00">Is that true?</font>
+
+1261
+01:28:15,800 --> 01:28:17,240
+<font color="#ffffff">Yes.</font>
+
+1262
+01:28:31,920 --> 01:28:35,000
+<font color="#00ffff">That's it! The second logic code!</font>
+
+1263
+01:28:35,000 --> 01:28:36,760
+<font color="#00ff00">We've come out of warp drive!</font>
+
+1264
+01:28:37,680 --> 01:28:41,920
+<font color="#ffffff">Earth.</font><font color="#00ffff"> Excellent.</font>
+<font color="#00ffff">Hold this position.</font>
+
+1265
+01:28:41,920 --> 01:28:43,840
+<font color="#00ffff">We shall observe from here.</font>
+
+1266
+01:28:43,840 --> 01:28:45,520
+<font color="#ffff00">No!</font>
+
+1267
+01:28:55,960 --> 01:29:00,080
+<font color="#00ff00">Come on. We've done all we can do.</font>
+<font color="#00ffff">This is your planet!</font><font color="#00ff00"> I know,</font>
+
+1268
+01:29:00,080 --> 01:29:03,600
+<font color="#00ff00">and I realise the consequences</font>
+<font color="#00ff00">of this freighter crashing into it.</font>
+
+1269
+01:29:03,600 --> 01:29:06,760
+<font color="#00ffff">There is still time to crack</font>
+<font color="#00ffff">this last logic code.</font><font color="#00ff00"> There isn't.</font>
+
+1270
+01:29:06,760 --> 01:29:09,080
+<font color="#00ff00">Come on! It's only a few minutes</font>
+<font color="#00ff00">before we enter</font>
+
+1271
+01:29:09,080 --> 01:29:11,680
+<font color="#00ff00">Earth's gravitational pull.</font>
+<font color="#ffff00">You've done all you can, Adric.</font>
+
+1272
+01:29:11,680 --> 01:29:16,080
+<font color="#00ffff">I CAN crack this code!</font><font color="#00ff00"> Come on,</font>
+<font color="#00ff00">Lieutenant. And you, Berger.</font>
+
+1273
+01:29:16,080 --> 01:29:18,640
+<font color="#ffff00">Adric!</font>
+<font color="#00ffff">You board.</font>
+
+1274
+01:29:18,640 --> 01:29:20,680
+<font color="#00ff00">Come on, lad!</font>
+
+1275
+01:29:22,360 --> 01:29:25,200
+<font color="#ffff00">And that is an order, Adric!</font>
+
+1276
+01:29:32,680 --> 01:29:34,720
+<font color="#00ffff">Of course! That's it!</font>
+
+1277
+01:29:41,480 --> 01:29:45,080
+<font color="#ffffff">NYSSA:</font><font color="#00ff00"> An escape pod.</font>
+<font color="#00ffff">My guards, evacuating the ship.</font>
+
+1278
+01:29:46,040 --> 01:29:49,040
+<font color="#ffffff">It may be of some small consequence</font>
+<font color="#ffffff">to know we've travelled</font>
+
+1279
+01:29:49,040 --> 01:29:51,160
+<font color="#ffffff">backwards in time</font>
+<font color="#ffffff">some 65 million years.</font>
+
+1280
+01:29:51,160 --> 01:29:53,080
+<font color="#ffff00">Big deal.</font>
+<font color="#ffffff">Think about it.</font>
+
+1281
+01:29:53,080 --> 01:29:56,840
+<font color="#00ff00">Do you recall the fossil dinosaur</font>
+<font color="#00ff00">bones in the cave on Earth...</font><font color="#ffff00"> What?</font>
+
+1282
+01:29:56,840 --> 01:29:59,280
+<font color="#00ff00">..and why it's believed</font>
+<font color="#00ff00">they died out so quickly?</font>
+
+1283
+01:29:59,280 --> 01:30:02,640
+<font color="#ffff00">Earth collided with a meteorite.</font>
+<font color="#00ff00">Or something.</font>
+
+1284
+01:30:03,920 --> 01:30:05,480
+<font color="#ffff00">The freighter?!</font>
+
+1285
+01:30:05,480 --> 01:30:08,040
+<font color="#ffffff">The antimatter vessel</font>
+<font color="#ffffff">will split open on impact.</font>
+
+1286
+01:30:08,040 --> 01:30:10,280
+<font color="#ffffff">There will be</font>
+<font color="#ffffff">a tremendous explosion.</font>
+
+1287
+01:30:10,280 --> 01:30:12,920
+<font color="#ffff00">The freighter was the meteorite?</font>
+<font color="#ffffff">It seems inevitable,</font>
+
+1288
+01:30:12,920 --> 01:30:14,520
+<font color="#ffffff">as is your history as we know it.</font>
+
+1289
+01:30:14,520 --> 01:30:18,400
+<font color="#00ffff">You lie, Doctor.</font>
+<font color="#ffffff">Not at all! You've lost.</font>
+
+1290
+01:30:19,360 --> 01:30:21,680
+<font color="#ffffff">The Earth is safe.</font>
+
+1291
+01:30:23,120 --> 01:30:25,640
+<font color="#00ffff">I CAN do it!</font>
+
+1292
+01:30:27,680 --> 01:30:29,520
+<font color="#00ffff">I must do it!</font>
+
+1293
+01:30:36,560 --> 01:30:41,120
+<font color="#00ffff">Scott to TARDIS. Scott to TARDIS!</font>
+<font color="#00ffff">Come in, please.</font><font color="#00ff00"> This is the TARDIS.</font>
+
+1294
+01:30:41,120 --> 01:30:44,040
+<font color="#00ff00">We have Cybermen on board!</font>
+<font color="#00ffff">We've managed to escape</font>
+
+1295
+01:30:44,040 --> 01:30:48,040
+<font color="#00ffff">from the freighter,</font>
+<font color="#00ffff">but Adric's still on board.</font>
+
+1296
+01:31:02,560 --> 01:31:04,600
+<font color="#00ff00">Scott to TARDIS. Scott to...</font>
+
+1297
+01:31:02,560 --> 01:31:04,600
+<font color="#ffffff">VOICE DISTORTS</font>
+
+1298
+01:31:06,160 --> 01:31:08,640
+<font color="#ffffff">You've failed, Leader.</font>
+
+1299
+01:31:08,640 --> 01:31:11,800
+<font color="#00ffff">But you will not enjoy the victory.</font>
+
+1300
+01:31:11,800 --> 01:31:14,320
+<font color="#00ffff">I shall now kill you, Doctor!</font>
+
+1301
+01:31:24,080 --> 01:31:27,520
+<font color="#ffffff">LEADER GASPS AND GROANS</font>
+
+1302
+01:31:30,400 --> 01:31:31,920
+<font color="#ffffff">Get down!</font>
+
+1303
+01:31:39,160 --> 01:31:41,800
+<font color="#ffffff">LEADER CRIES OUT</font>
+
+1304
+01:31:56,960 --> 01:32:01,680
+<font color="#00ffff">There's something missing.</font>
+<font color="#00ffff">There's something I've forgotten.</font>
+
+1305
+01:32:02,880 --> 01:32:05,760
+<font color="#00ff00">Please hurry, Doctor. We must</font>
+<font color="#00ff00">get Adric off the freighter!</font>
+
+1306
+01:32:05,760 --> 01:32:09,360
+<font color="#ffffff">The console's damaged.</font><font color="#00ff00"> We must save</font>
+<font color="#00ff00">Adric. There's so little time!</font>
+
+1307
+01:32:23,360 --> 01:32:26,240
+<font color="#00ffff">Of course! That's it!</font>
+
+1308
+01:32:32,560 --> 01:32:35,560
+<font color="#ffffff">CYBERMAN GROANS</font>
+
+1309
+01:32:41,880 --> 01:32:44,080
+<font color="#00ffff">Now I'll never know if I was right.</font>
+
+1310
+01:32:45,720 --> 01:32:48,120
+<font color="#ffff00">Look out!</font>
+<font color="#ffffff">I must save Adric!</font>
+
+1311
+01:32:54,200 --> 01:32:55,640
+<font color="#ffff00">Look!</font>
+
+1312
+01:32:57,720 --> 01:32:59,160
+<font color="#00ff00">Adric!</font>
+
+1313
+01:33:25,880 --> 01:33:28,360
+<font color="#ffff00">Adric?</font>
+
+1314
+01:33:28,360 --> 01:33:30,440
+<font color="#ffff00">Doctor!</font>
+
+1315
+01:33:54,520 --> 01:33:55,560
+<font color="#ffff00">Poor soul!</font>
+
+1316
+01:33:58,000 --> 01:34:01,680
+<font color="#ffffff">And here it is. Remembered.</font>
+
+1317
+01:34:05,040 --> 01:34:06,400
+<font color="#ffffff">He was so...</font>
+
+1318
+01:34:08,080 --> 01:34:13,000
+<font color="#ffff00">Oh, he was a nightmare!</font><font color="#ffffff"> He was</font>
+<font color="#ffffff">daft and silly and sulky and...</font>
+
+1319
+01:34:14,200 --> 01:34:15,400
+<font color="#ffffff">HE SIGHS</font>
+
+1320
+01:34:15,400 --> 01:34:16,440
+<font color="#ffffff">He was just a kid.</font>
+
+1321
+01:34:17,640 --> 01:34:21,960
+<font color="#ffff00">He loved you.</font><font color="#ffffff"> Yes.</font>
+<font color="#ffffff">I realise that now.</font>
+
+1322
+01:34:23,320 --> 01:34:27,800
+<font color="#ffff00">Looking back, I think wow!</font>
+
+1323
+01:34:29,040 --> 01:34:32,080
+<font color="#ffff00">We never stopped running.</font>
+
+1324
+01:34:32,080 --> 01:34:38,240
+<font color="#ffff00">He died, we sailed on, we had</font>
+<font color="#ffff00">more adventures. We never stopped.</font>
+
+1325
+01:34:38,240 --> 01:34:40,040
+<font color="#ffff00">We never stopped to think!</font>
+
+1326
+01:34:44,920 --> 01:34:46,040
+<font color="#ffffff">That's because of me.</font>
+
+1327
+01:34:47,920 --> 01:34:49,640
+<font color="#ffffff">I never look back.</font>
+
+1328
+01:34:51,560 --> 01:34:54,520
+<font color="#ffff00">Well, maybe that's what</font>
+<font color="#ffff00">a Memory TARDIS is for.</font>
+
+1329
+01:34:55,960 --> 01:34:58,920
+<font color="#ffffff">Therapy.</font><font color="#ffff00"> About time.</font>
+
+1330
+01:35:02,240 --> 01:35:03,520
+<font color="#ffffff">I think it's done me good.</font>
+
+1331
+01:35:05,640 --> 01:35:07,600
+<font color="#ffffff">And telling the story</font>
+<font color="#ffffff">keeps him alive.</font>
+
+1332
+01:35:12,480 --> 01:35:17,880
+<font color="#ffffff">Now, tell me stories about you,</font>
+<font color="#ffffff">about life, about everyday things.</font>
+
+1333
+01:35:19,000 --> 01:35:24,280
+<font color="#ffff00">Little tiny boring human things,</font>
+<font color="#ffff00">you mean?</font><font color="#ffffff"> They are the jewels.</font>
+
+1334
+01:35:24,280 --> 01:35:26,040
+<font color="#ffffff">In this vault of memories,</font>
+
+1335
+01:35:26,040 --> 01:35:29,360
+<font color="#ffffff">an ordinary life is one of the</font>
+<font color="#ffffff">most shining things of all.</font>
+
+1336
+01:35:31,040 --> 01:35:33,200
+<font color="#ffff00">Well, OK.</font>
+
+1337
+01:35:35,200 --> 01:35:36,360
+<font color="#ffff00">I left you, remember?</font>
+
+1338
+01:35:38,680 --> 01:35:43,000
+<font color="#ffff00">Found myself on the bank of the</font>
+<font color="#ffff00">Thames with a load of dead Daleks.</font>
+
+1339
+01:35:45,280 --> 01:35:50,240
+<font color="#ffff00">Long story but, in the end,</font>
+<font color="#ffff00">I got myself back to Brisbane,</font>
+
+1340
+01:35:50,240 --> 01:35:51,880
+<font color="#ffff00">and it took a while.</font>
+
+1341
+01:35:52,960 --> 01:35:55,160
+<font color="#ffff00">I think I was in shock.</font>
+
+1342
+01:35:57,200 --> 01:35:59,440
+<font color="#ffff00">I thought, "What can</font>
+<font color="#ffff00">I do with my life?</font>
+
+1343
+01:35:59,440 --> 01:36:02,960
+<font color="#ffff00">"What can I do that would</font>
+<font color="#ffff00">make the Doctor proud?"</font>
+
+1344
+01:36:06,320 --> 01:36:10,720
+<font color="#ffff00">So I started campaigning</font>
+<font color="#ffff00">for the environment,</font>
+
+1345
+01:36:10,720 --> 01:36:13,600
+<font color="#ffff00">and I used every trick</font>
+<font color="#ffff00">you taught me...</font>
+
+1346
+01:36:15,000 --> 01:36:19,080
+<font color="#ffff00">..to never give up,</font>
+<font color="#ffff00">to never be defeated,</font>
+
+1347
+01:36:19,080 --> 01:36:22,400
+<font color="#ffff00">to keep fighting, even</font>
+<font color="#ffff00">in the darkest of times.</font>
+
+1348
+01:36:23,600 --> 01:36:28,280
+<font color="#ffff00">And, oh! There were</font>
+<font color="#ffff00">some times I thought,</font>
+
+1349
+01:36:28,280 --> 01:36:30,040
+<font color="#ffff00">"He would be proud of me."</font>
+
+1350
+01:36:32,480 --> 01:36:39,080
+<font color="#ffffff">METALLIC THRUMMING</font>
+

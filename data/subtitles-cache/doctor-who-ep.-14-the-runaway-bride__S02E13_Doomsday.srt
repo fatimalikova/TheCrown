@@ -1,0 +1,3372 @@
+1
+00:01:42,936 --> 00:01:44,598
+<i>Attention. Attention.</i>
+
+2
+00:01:44,905 --> 00:01:47,932
+<i>All personnel continue
+emergency evacuation.</i>
+
+3
+00:01:48,008 --> 00:01:50,910
+<i>Clear through your security
+checkpoints immediately.</i>
+
+4
+00:01:50,978 --> 00:01:52,947
+<i>Continue emergency evacuation.</i>
+
+5
+00:02:03,090 --> 00:02:04,149
+<i>Doctor.</i>
+
+6
+00:02:05,659 --> 00:02:09,926
+<i>Doctor, the complex has now
+been completely evacuated.</i>
+
+7
+00:02:10,097 --> 00:02:13,192
+<i>The last technician just cleared
+through the perimeter security.</i>
+
+8
+00:02:14,568 --> 00:02:15,763
+<i>Doctor?</i>
+
+9
+00:02:18,538 --> 00:02:19,836
+Thank you, Alex.
+
+10
+00:02:20,641 --> 00:02:23,110
+<i>You're quite sure you
+want to go through with this?</i>
+
+11
+00:02:23,276 --> 00:02:24,369
+Quite sure.
+
+12
+00:02:38,358 --> 00:02:40,259
+We're locked on to the ComSat?
+
+13
+00:02:40,327 --> 00:02:41,420
+<i>Yes, Dr. Cooper.</i>
+
+14
+00:02:41,928 --> 00:02:45,797
+<i>Communication satellite Athena
+18 standing by for transmission.</i>
+
+15
+00:02:53,540 --> 00:02:55,941
+<i>Transmission will
+begin in 30 seconds.</i>
+
+16
+00:03:02,282 --> 00:03:05,810
+<i>All right then, now that
+we've gotten the tomatoes...</i>
+
+17
+00:03:06,086 --> 00:03:07,782
+Who's got the
+tomatoes mashed up?
+
+18
+00:03:07,854 --> 00:03:08,913
+I don't have the...
+
+19
+00:03:08,989 --> 00:03:11,151
+<i>we're going to move
+on to the next step.</i>
+
+20
+00:03:11,925 --> 00:03:16,192
+<i>Set it over a low burner
+and simmer while we peel...</i>
+
+21
+00:03:16,263 --> 00:03:19,199
+Julia's always lights. How come
+you don't light without a match?
+
+22
+00:03:19,266 --> 00:03:21,394
+<i>Don't forget to check
+on the pie crust.</i>
+
+23
+00:03:21,601 --> 00:03:24,469
+<i>To be certain it's
+only light brown.</i>
+
+24
+00:03:24,538 --> 00:03:26,370
+<i>And very flaky.</i>
+
+25
+00:03:26,440 --> 00:03:27,806
+The potatoes. Okay.
+
+26
+00:03:28,508 --> 00:03:31,137
+<i>The three potatoes
+should be very firm</i>
+
+27
+00:03:31,211 --> 00:03:33,510
+<i>and a little larger
+than your fist.</i>
+
+28
+00:03:33,847 --> 00:03:35,975
+<i>Once they're peeled,
+we halve them...</i>
+
+29
+00:03:36,183 --> 00:03:37,378
+Will you please slow down?
+
+30
+00:03:37,451 --> 00:03:39,283
+<i>No smaller than quarters, mind.</i>
+
+31
+00:03:39,853 --> 00:03:41,651
+<i>Now we do the same
+to the green peppers...</i>
+
+32
+00:03:41,722 --> 00:03:43,666
+Come on, I haven't even
+finished the potatoes yet.
+
+33
+00:03:43,690 --> 00:03:45,750
+I've got to be Bionic
+just to keep up with you!
+
+34
+00:03:48,528 --> 00:03:52,488
+<i>Once we get all the vegetables
+prepared, the crust is taken piping...</i>
+
+35
+00:03:58,839 --> 00:03:59,966
+Swell.
+
+36
+00:04:07,214 --> 00:04:08,876
+<i>Good evening, my friends.</i>
+
+37
+00:04:09,850 --> 00:04:12,649
+<i>Please forgive me for
+interrupting your television viewing,</i>
+
+38
+00:04:13,353 --> 00:04:15,754
+<i>but it is a matter of
+the utmost importance.</i>
+
+39
+00:04:16,690 --> 00:04:19,319
+<i>Although a few of
+you may recognize me,</i>
+
+40
+00:04:19,392 --> 00:04:21,759
+<i>I am sure the
+majority of you do not.</i>
+
+41
+00:04:22,362 --> 00:04:24,558
+<i>My name is Elijah Cooper,</i>
+
+42
+00:04:25,365 --> 00:04:28,028
+<i>and I have the dubious
+distinction of being called</i>
+
+43
+00:04:28,101 --> 00:04:31,435
+<i>"The Father of the Cobalt
+Bomb," among other things.</i>
+
+44
+00:04:32,205 --> 00:04:34,902
+<i>As I speak to you in English,
+I am simultaneously speaking</i>
+
+45
+00:04:34,975 --> 00:04:37,535
+<i>in nine different languages to
+the other peoples of the world</i>
+
+46
+00:04:37,611 --> 00:04:40,479
+<i>by way of the Athena 18
+Communication satellite.</i>
+
+47
+00:04:49,222 --> 00:04:50,747
+<i>As you may know,</i>
+
+48
+00:04:50,824 --> 00:04:54,852
+<i>the cobalt bomb is the most
+diabolical instrument of destruction</i>
+
+49
+00:04:54,928 --> 00:04:56,521
+<i>ever conceived by man.</i>
+
+50
+00:04:57,697 --> 00:05:01,361
+<i>But for those of you who have
+never seen firsthand what it can do,</i>
+
+51
+00:05:02,269 --> 00:05:04,431
+<i>I've arranged a
+live demonstration</i>
+
+52
+00:05:04,504 --> 00:05:06,405
+<i>in the Pacific test area.</i>
+
+53
+00:05:24,891 --> 00:05:26,189
+Yes, I've got it on here, too.
+
+54
+00:05:26,259 --> 00:05:27,887
+Just a minute.
+
+55
+00:05:28,929 --> 00:05:29,988
+Yes?
+
+56
+00:05:31,231 --> 00:05:32,631
+Yes. Put him on.
+
+57
+00:05:34,634 --> 00:05:38,765
+No, Mr. Secretary, the Commission
+doesn't know anything about this, either.
+
+58
+00:05:39,472 --> 00:05:41,839
+Well, you know I didn't
+authorize such a detonation.
+
+59
+00:05:42,209 --> 00:05:45,702
+What in God's green Earth
+does Elijah think he's doing?
+
+60
+00:05:49,850 --> 00:05:51,318
+<i>It is awesome, isn't it?</i>
+
+61
+00:05:51,918 --> 00:05:53,682
+<i>Supreme devastation.</i>
+
+62
+00:05:54,487 --> 00:05:56,683
+<i>But let me tell you
+this, my friends.</i>
+
+63
+00:05:56,890 --> 00:06:00,918
+<i>It is only a very small scale
+compared to what will happen</i>
+
+64
+00:06:00,994 --> 00:06:04,158
+<i>the next time such a
+nuclear detonation occurs.</i>
+
+65
+00:06:05,165 --> 00:06:09,330
+<i>Because I have
+now created a device</i>
+
+66
+00:06:09,970 --> 00:06:13,134
+<i>that can render the
+entire world lifeless.</i>
+
+67
+00:06:15,008 --> 00:06:18,172
+<i>I realize that is a
+sweeping statement.</i>
+
+68
+00:06:18,478 --> 00:06:20,379
+<i>There must be
+doubters among you.</i>
+
+69
+00:06:20,614 --> 00:06:24,107
+<i>Therefore, I want
+the United Nations</i>
+
+70
+00:06:24,184 --> 00:06:26,983
+<i>to deliver to me at
+8:00 tomorrow morning,</i>
+
+71
+00:06:27,287 --> 00:06:29,552
+<i>these four eminent scientists</i>
+
+72
+00:06:29,623 --> 00:06:32,593
+<i>to confirm that I do
+have this capability.</i>
+
+73
+00:06:33,627 --> 00:06:35,596
+<i>Dr. Toshiro Kurosawa,</i>
+
+74
+00:06:36,129 --> 00:06:37,392
+<i>Dr. Rudy Wells,</i>
+
+75
+00:06:37,998 --> 00:06:42,333
+<i>Dr. Margueritte Perry
+and Dr. Victor Evtuhov.</i>
+
+76
+00:06:43,670 --> 00:06:46,538
+<i>And let me warn all governments</i>
+
+77
+00:06:46,806 --> 00:06:50,140
+<i>that any military attack
+upon my research complex</i>
+
+78
+00:06:50,210 --> 00:06:53,044
+<i>will immediately set
+the device in motion</i>
+
+79
+00:06:53,713 --> 00:06:57,707
+<i>and bring an end to
+all life on this planet.</i>
+
+80
+00:07:03,690 --> 00:07:06,524
+<i>This message is now concluded.</i>
+
+81
+00:07:26,880 --> 00:07:29,281
+<i>Reactions to Dr. Cooper's
+claim have been varied.</i>
+
+82
+00:07:29,349 --> 00:07:32,012
+<i>The Defense Department denies
+that the technology even exists</i>
+
+83
+00:07:32,085 --> 00:07:34,850
+<i>for such a Doomsday Device,
+but Elijah Cooper's preeminence</i>
+
+84
+00:07:34,921 --> 00:07:36,253
+<i>in the field of nuclear physics</i>
+
+85
+00:07:36,323 --> 00:07:37,689
+<i>leaves room enough for doubt.</i>
+
+86
+00:07:37,757 --> 00:07:41,592
+<i>There are many who believe that the
+aging doctor has become mentally unstable.</i>
+
+87
+00:07:41,661 --> 00:07:43,459
+<i>The United Nations
+Security Council has been</i>
+
+88
+00:07:43,530 --> 00:07:45,692
+<i>in a closed-door session
+since early this morning.</i>
+
+89
+00:07:45,765 --> 00:07:47,961
+<i>We'll have a report from
+there as soon as possible.</i>
+
+90
+00:07:48,201 --> 00:07:50,432
+Then we will
+proceed immediately.
+
+91
+00:07:50,503 --> 00:07:53,132
+Mr. Goldman will
+coordinate the operation
+
+92
+00:07:53,206 --> 00:07:55,971
+and the strictest
+security is to be observed.
+
+93
+00:07:56,042 --> 00:07:58,876
+This meeting of the
+Security Council is adjourned.
+
+94
+00:07:58,945 --> 00:08:00,777
+What's the situation
+profile? Serious.
+
+95
+00:08:00,847 --> 00:08:02,975
+They agreed to honor Cooper's
+demands. Unanimously?
+
+96
+00:08:03,049 --> 00:08:05,382
+Satari voted no for his country,
+walked out of the meeting.
+
+97
+00:08:05,452 --> 00:08:07,921
+He would. Cooper got
+what he wanted, though.
+
+98
+00:08:07,988 --> 00:08:09,966
+We deliver to him the four
+scientists he requested?
+
+99
+00:08:09,990 --> 00:08:12,050
+Kurosawa's en route from Japan,
+
+100
+00:08:12,125 --> 00:08:15,493
+and the Soviets are flying
+in Evtuhov over the Pole.
+
+101
+00:08:18,264 --> 00:08:21,928
+Are you not reacting a
+bit strongly, Mr. Goldman?
+
+102
+00:08:22,702 --> 00:08:23,965
+Overdramatizing?
+
+103
+00:08:24,037 --> 00:08:26,006
+I think not, Mr. Satari.
+
+104
+00:08:26,072 --> 00:08:28,735
+We have the potential of a
+very dangerous situation here.
+
+105
+00:08:28,942 --> 00:08:30,205
+I don't know.
+
+106
+00:08:30,276 --> 00:08:33,075
+Somehow I have the feeling
+you have everything under control.
+
+107
+00:08:33,146 --> 00:08:34,307
+As a matter of fact,
+
+108
+00:08:34,714 --> 00:08:36,273
+I'm quite sure of it.
+
+109
+00:08:36,783 --> 00:08:40,049
+At any rate, I have very important
+business in my own country.
+
+110
+00:08:40,120 --> 00:08:44,490
+And so, I will leave this little
+problem in your capable hands.
+
+111
+00:08:46,126 --> 00:08:48,220
+How can he be so blasé
+about what's going on?
+
+112
+00:08:48,294 --> 00:08:50,740
+He never cooperated with the
+Russians or the United States before.
+
+113
+00:08:50,764 --> 00:08:53,063
+How can we expect
+to now? Where's Rudy?
+
+114
+00:08:53,133 --> 00:08:55,398
+He's already aboard Air Force
+One at JFK, waiting for us.
+
+115
+00:08:55,468 --> 00:08:56,595
+Good. Now wait a minute.
+
+116
+00:08:56,669 --> 00:08:58,748
+What about that fourth
+scientist that Cooper requested?
+
+117
+00:08:58,772 --> 00:09:00,934
+The French physicist,
+Margueritte Perry?
+
+118
+00:09:03,109 --> 00:09:04,133
+Let's go.
+
+119
+00:09:13,386 --> 00:09:15,082
+<i>Merci, Monsieur</i> Goldman.
+
+120
+00:09:15,555 --> 00:09:18,252
+I thank you very much
+for arranging to escort me.
+
+121
+00:09:18,324 --> 00:09:20,953
+It is quite an honor for me to
+be aboard your Air Force One.
+
+122
+00:09:21,027 --> 00:09:23,724
+Even though I have no
+idea what I am doing here.
+
+123
+00:09:24,397 --> 00:09:25,524
+Good.
+
+124
+00:09:26,399 --> 00:09:28,368
+Now, uh, do you speak French?
+
+125
+00:09:28,435 --> 00:09:30,165
+<i>Ah, oui. Un peu.</i>
+
+126
+00:09:30,236 --> 00:09:32,148
+The tennis circuit took
+me to France a few times.
+
+127
+00:09:32,172 --> 00:09:34,164
+At least enough to learn
+more than "Thank you."
+
+128
+00:09:34,240 --> 00:09:36,436
+"Where's the ladies
+room?" and <i>"Non."</i>
+
+129
+00:09:37,610 --> 00:09:39,545
+Boy, are you glum!
+What is this all about?
+
+130
+00:09:39,612 --> 00:09:40,790
+I mean, I know it's
+Elijah Cooper, but...
+
+131
+00:09:40,814 --> 00:09:43,045
+Dr. Elijah Cooper
+requested a team of
+
+132
+00:09:43,116 --> 00:09:45,847
+four nuclear scientists
+to be taken to his complex
+
+133
+00:09:45,919 --> 00:09:48,616
+to prove that the Doomsday
+Device is indeed a reality.
+
+134
+00:09:49,222 --> 00:09:50,902
+He's never met these
+scientists personally,
+
+135
+00:09:50,957 --> 00:09:55,122
+so NATO has approved for you to
+take the place of Dr. Margueritte Perry.
+
+136
+00:09:55,995 --> 00:09:58,726
+NATO? Oscar, wait a second.
+
+137
+00:09:58,798 --> 00:10:00,076
+Now, speaking a little
+French is one thing,
+
+138
+00:10:00,100 --> 00:10:01,310
+but I don't know anything
+about nuclear physics.
+
+139
+00:10:01,334 --> 00:10:03,245
+You don't have to know
+anything about nuclear physics.
+
+140
+00:10:03,269 --> 00:10:05,238
+All you have to do is
+hang back, stay loose
+
+141
+00:10:05,305 --> 00:10:07,049
+and let the scientists
+take care of the physics.
+
+142
+00:10:07,073 --> 00:10:08,336
+Here you are, Dr. Perry.
+
+143
+00:10:08,408 --> 00:10:09,408
+Thank you.
+
+144
+00:10:09,476 --> 00:10:12,605
+You're not sending Jaime in there
+to strong arm Dr. Cooper, are you?
+
+145
+00:10:12,679 --> 00:10:14,545
+Mmm-mmm. Of course he's not.
+
+146
+00:10:14,614 --> 00:10:16,913
+Once she gets inside,
+she's gonna have to wing it.
+
+147
+00:10:16,983 --> 00:10:20,215
+A man of Dr. Cooper's genius, no
+telling what she'll have to do to stop him.
+
+148
+00:10:20,286 --> 00:10:21,564
+Oscar, wait a second. I'm not...
+
+149
+00:10:21,588 --> 00:10:22,998
+Jaime, we don't know
+what's going on in there.
+
+150
+00:10:23,022 --> 00:10:24,650
+Maybe he's mentally unbalanced.
+
+151
+00:10:24,724 --> 00:10:26,158
+I can't believe that, Oscar.
+
+152
+00:10:26,226 --> 00:10:30,163
+Rudy, if the Doomsday Device
+does work, who knows what he'll do?
+
+153
+00:10:30,230 --> 00:10:32,995
+He might blackmail world governments
+for enormous amounts of money.
+
+154
+00:10:33,066 --> 00:10:35,934
+And if he finds out that Jaime's
+an agent, no telling what he'll do.
+
+155
+00:10:36,202 --> 00:10:37,568
+Wonderful.
+
+156
+00:10:38,738 --> 00:10:40,263
+One thing is clear, though.
+
+157
+00:10:41,174 --> 00:10:42,506
+Blackmailer,
+
+158
+00:10:42,575 --> 00:10:44,601
+whatever else he
+may have become,
+
+159
+00:10:44,677 --> 00:10:47,408
+Elijah Cooper is a
+consummate research scientist.
+
+160
+00:10:48,014 --> 00:10:52,076
+And if he says he has a device
+that'll destroy life on this planet,
+
+161
+00:10:53,319 --> 00:10:54,810
+it probably can.
+
+162
+00:11:19,412 --> 00:11:22,473
+Remember, you're probably
+dealing with a madman.
+
+163
+00:11:22,549 --> 00:11:23,778
+Be careful.
+
+164
+00:11:32,492 --> 00:11:34,085
+<i>Good afternoon.</i>
+
+165
+00:11:35,128 --> 00:11:37,859
+Doctors Margueritte
+Perry and Rudy Wells.
+
+166
+00:11:40,166 --> 00:11:43,659
+<i>Thank you for holding your
+identification up to the television camera.</i>
+
+167
+00:11:43,736 --> 00:11:46,137
+<i>Please follow the signs
+along the main road.</i>
+
+168
+00:11:46,206 --> 00:11:48,368
+<i>Dr. Cooper is
+awaiting your arrival.</i>
+
+169
+00:11:54,614 --> 00:11:57,259
+Too bad they couldn't find a
+more remote area for this complex.
+
+170
+00:11:57,283 --> 00:11:58,342
+How far is it?
+
+171
+00:11:58,418 --> 00:12:01,752
+We've been driving over
+part of it for the last six miles.
+
+172
+00:12:01,821 --> 00:12:03,153
+You mean it's underground?
+
+173
+00:12:03,223 --> 00:12:04,851
+Yes, a lot of it.
+
+174
+00:12:04,924 --> 00:12:08,793
+It's the largest government research
+facility in the central United States.
+
+175
+00:12:08,861 --> 00:12:12,457
+Rudy, do you think that
+Dr. Cooper could have gone insane?
+
+176
+00:12:12,532 --> 00:12:14,626
+It is a dangerous possibility.
+
+177
+00:12:14,834 --> 00:12:17,167
+What if he asks me
+about nuclear physics?
+
+178
+00:12:17,237 --> 00:12:19,263
+Just let me do the talking.
+
+179
+00:12:28,815 --> 00:12:29,942
+Hello?
+
+180
+00:12:30,950 --> 00:12:32,316
+Dr. Cooper?
+
+181
+00:12:34,520 --> 00:12:35,579
+Dr. Cooper?
+
+182
+00:12:35,655 --> 00:12:37,647
+<i>Welcome to the main complex.</i>
+
+183
+00:12:37,724 --> 00:12:41,217
+<i>Dr. Cooper is temporarily
+occupied in the adjacent laboratory.</i>
+
+184
+00:12:41,294 --> 00:12:42,922
+<i>Please make
+yourselves comfortable.</i>
+
+185
+00:12:42,996 --> 00:12:44,624
+<i>He will join you shortly.</i>
+
+186
+00:12:46,232 --> 00:12:48,167
+I thought Dr. Cooper
+was alone here.
+
+187
+00:12:48,968 --> 00:12:50,630
+That's what the
+communication said.
+
+188
+00:12:50,703 --> 00:12:52,535
+I wonder who that
+voice belongs to.
+
+189
+00:12:53,473 --> 00:12:55,374
+Can you hear anything
+in the other rooms?
+
+190
+00:13:00,580 --> 00:13:01,604
+No.
+
+191
+00:13:01,748 --> 00:13:04,081
+Stay here, I'll go do a
+little snooping, okay?
+
+192
+00:13:05,084 --> 00:13:06,084
+You be careful.
+
+193
+00:13:06,152 --> 00:13:08,383
+Like my life depended on it.
+
+194
+00:13:58,905 --> 00:14:00,669
+Who are you?
+
+195
+00:14:01,374 --> 00:14:02,814
+Margueritte Perry.
+
+196
+00:14:03,142 --> 00:14:04,235
+Dr. Perry!
+
+197
+00:14:05,244 --> 00:14:06,712
+How did you get in here?
+
+198
+00:14:07,580 --> 00:14:08,604
+Well...
+
+199
+00:14:09,582 --> 00:14:11,312
+I thought I left that closed.
+
+200
+00:14:11,751 --> 00:14:14,414
+I must tell Alex to
+be more vigilant.
+
+201
+00:14:14,487 --> 00:14:15,487
+Alex?
+
+202
+00:14:15,555 --> 00:14:16,648
+Yes.
+
+203
+00:14:17,256 --> 00:14:19,054
+Are you all right, Doctor?
+
+204
+00:14:19,125 --> 00:14:23,722
+Yes. Yes. Just my 78 years
+finally catching up to me.
+
+205
+00:14:24,831 --> 00:14:26,697
+I'll be all right in a moment.
+
+206
+00:14:32,238 --> 00:14:34,400
+From reading your publications,
+
+207
+00:14:34,474 --> 00:14:37,342
+I'd assumed you were
+considerably older, Dr. Perry.
+
+208
+00:14:38,010 --> 00:14:40,502
+Your research work
+has fascinated me.
+
+209
+00:14:41,147 --> 00:14:42,274
+Oh, my work?
+
+210
+00:14:42,615 --> 00:14:43,674
+Yes.
+
+211
+00:14:43,816 --> 00:14:45,444
+I read your theories concerning
+
+212
+00:14:45,518 --> 00:14:49,250
+the linear acceleration of
+positrons through neutrino plasma,
+
+213
+00:14:49,555 --> 00:14:52,150
+and I've been very anxious
+to discuss them with you.
+
+214
+00:14:52,225 --> 00:14:56,060
+Oh, yes, that... Well, it
+was very interesting work.
+
+215
+00:14:58,097 --> 00:14:59,190
+Uh...
+
+216
+00:14:59,899 --> 00:15:01,765
+But you would like to discuss
+
+217
+00:15:01,968 --> 00:15:05,598
+<i>the linear acceleration of positrons
+through the neutrino plasma?</i>
+
+218
+00:15:05,671 --> 00:15:08,436
+<i>Yes. Your experiments
+are astounding.</i>
+
+219
+00:15:08,574 --> 00:15:11,009
+Well, then, let me try to talk
+you through them. All right?
+
+220
+00:15:11,210 --> 00:15:12,769
+Talk him through it?
+
+221
+00:15:12,845 --> 00:15:15,337
+I can hear her, but
+how's she gonna...
+
+222
+00:15:16,449 --> 00:15:17,508
+Her bionic ear.
+
+223
+00:15:18,351 --> 00:15:19,351
+Jaime?
+
+224
+00:15:21,254 --> 00:15:22,534
+<i>Jaime, can you hear me in there?</i>
+
+225
+00:15:22,955 --> 00:15:24,116
+<i>Ah, oui.</i>
+
+226
+00:15:24,190 --> 00:15:25,385
+<i>Well, tell me,</i>
+
+227
+00:15:25,458 --> 00:15:27,188
+did you start with the
+hydrogen super-heated
+
+228
+00:15:27,260 --> 00:15:30,389
+or did the electric arc
+serve as a transducer?
+
+229
+00:15:30,863 --> 00:15:32,957
+Tell him you used
+deionized hydrogen
+
+230
+00:15:33,032 --> 00:15:34,660
+<i>with a 20,000 degree Kelvin arc.</i>
+
+231
+00:15:34,934 --> 00:15:39,030
+I used deionized hydrogen
+with a 20,000 degree Kelvin arc.
+
+232
+00:15:40,273 --> 00:15:41,400
+Really? <i>Oui.</i>
+
+233
+00:15:42,141 --> 00:15:43,973
+And the hydrogen didn't mutate?
+
+234
+00:15:44,310 --> 00:15:47,906
+No. Tell him you employed a
+high-intensity helium injection.
+
+235
+00:15:48,314 --> 00:15:51,079
+No. I employed a
+high-intensity helium injection.
+
+236
+00:15:52,518 --> 00:15:53,577
+Extraordinary.
+
+237
+00:15:55,054 --> 00:15:58,183
+Jaime, the Japanese and
+Soviet scientists are coming.
+
+238
+00:15:58,257 --> 00:15:59,350
+<i>I've gotta stop now.</i>
+
+239
+00:15:59,492 --> 00:16:01,324
+Well, I am most
+anxious to hear more.
+
+240
+00:16:01,394 --> 00:16:03,556
+Now, what about the positrons
+themselves? Dr. Cooper,
+
+241
+00:16:03,629 --> 00:16:05,029
+I would be very honored
+
+242
+00:16:05,097 --> 00:16:06,963
+to answer your
+questions all day long.
+
+243
+00:16:07,500 --> 00:16:10,732
+But there are more pressing
+matters we must get on to. Yeah?
+
+244
+00:16:10,803 --> 00:16:12,601
+Oh, yes. Yes, of
+course. You are right.
+
+245
+00:16:12,672 --> 00:16:15,972
+Come. We'll see if our
+fellow scientists have arrived.
+
+246
+00:16:18,444 --> 00:16:22,973
+Oh, Dr. Wells,
+Dr. Kurosawa, Dr. Evtuhov.
+
+247
+00:16:23,149 --> 00:16:25,380
+Welcome to my research facility.
+
+248
+00:16:25,451 --> 00:16:28,148
+This is not a social
+call, Dr. Cooper.
+
+249
+00:16:28,221 --> 00:16:29,553
+My government is most upset
+
+250
+00:16:29,622 --> 00:16:31,500
+with the cobalt bomb you
+have detonated in the Pacific.
+
+251
+00:16:31,524 --> 00:16:34,050
+There will be no fallout.
+It was completely clean.
+
+252
+00:16:34,126 --> 00:16:36,652
+Designed only to get your
+attention, which it obviously has.
+
+253
+00:16:36,729 --> 00:16:38,220
+There is no excuse
+for your actions!
+
+254
+00:16:38,297 --> 00:16:40,108
+You are clearly in violation
+of the SALT agreements.
+
+255
+00:16:40,132 --> 00:16:41,310
+I must register the strongest...
+
+256
+00:16:41,334 --> 00:16:43,098
+Gentlemen, please, please.
+
+257
+00:16:44,003 --> 00:16:46,302
+I will answer all your
+questions in a moment.
+
+258
+00:16:46,739 --> 00:16:49,538
+Now, you know each
+other by reputation, at least.
+
+259
+00:16:49,842 --> 00:16:52,209
+And this is
+Dr. Margueritte Perry.
+
+260
+00:16:52,278 --> 00:16:54,372
+<i>Bonjour.</i> Dr. Perry?
+
+261
+00:16:57,383 --> 00:17:01,753
+You look much younger than
+when we met in Paris last year.
+
+262
+00:17:03,523 --> 00:17:04,684
+<i>Merci.</i>
+
+263
+00:17:04,924 --> 00:17:07,519
+Dr. Cooper, we're very
+concerned about what you're doing.
+
+264
+00:17:08,294 --> 00:17:09,853
+As well you should be.
+
+265
+00:17:10,196 --> 00:17:13,496
+What is this Doomsday
+Device you've spoken of?
+
+266
+00:17:13,933 --> 00:17:15,697
+Does it really exist?
+
+267
+00:17:16,802 --> 00:17:20,295
+You come with me, my
+friends, and judge for yourselves.
+
+268
+00:17:30,816 --> 00:17:33,877
+Most of you are aware that I've
+concerned myself in recent years
+
+269
+00:17:33,953 --> 00:17:36,548
+with a new isotope. Uthenium J.
+
+270
+00:17:37,490 --> 00:17:39,789
+As you can see, I
+have determined that
+
+271
+00:17:39,859 --> 00:17:43,352
+it has a radioactive
+half-life of 507 years
+
+272
+00:17:43,729 --> 00:17:45,493
+and is extremely toxic.
+
+273
+00:17:46,499 --> 00:17:49,594
+Now, my Doomsday
+Device is deceptively simple.
+
+274
+00:17:50,369 --> 00:17:55,637
+A casing of Uthenium J around a single
+cobalt bomb of sufficient megatonnage
+
+275
+00:17:56,409 --> 00:17:58,776
+becomes the ultimate
+weapon of destruction.
+
+276
+00:18:00,179 --> 00:18:03,308
+Creating a shroud of radioactive
+particles in the upper atmosphere.
+
+277
+00:18:03,382 --> 00:18:06,784
+Precisely. Bringing an
+end to all life on this planet.
+
+278
+00:18:07,820 --> 00:18:10,153
+I have made such a device.
+
+279
+00:18:12,391 --> 00:18:13,984
+And it is here.
+
+280
+00:18:16,462 --> 00:18:20,092
+In that vault, at the
+lowest level of the complex.
+
+281
+00:18:20,499 --> 00:18:23,264
+It is impenetrable and failsafe.
+
+282
+00:18:23,469 --> 00:18:27,600
+Dr. Cooper, you were always
+known as a man of peace.
+
+283
+00:18:27,974 --> 00:18:30,603
+Why have you done
+this, Dr. Cooper?
+
+284
+00:18:31,744 --> 00:18:34,213
+It should be obvious.
+It's blackmail.
+
+285
+00:18:34,413 --> 00:18:35,472
+Blackmail?
+
+286
+00:18:37,149 --> 00:18:38,242
+What do you want?
+
+287
+00:18:38,618 --> 00:18:39,881
+How much money?
+
+288
+00:18:40,152 --> 00:18:42,986
+Oh, no, it's not money
+that I want, my friends.
+
+289
+00:18:43,422 --> 00:18:46,756
+It's peace. World peace.
+
+290
+00:18:47,026 --> 00:18:48,153
+What?
+
+291
+00:18:49,028 --> 00:18:52,487
+How does creating the
+ultimate weapon of destruction
+
+292
+00:18:52,565 --> 00:18:53,863
+lead to peace?
+
+293
+00:18:54,700 --> 00:18:55,963
+Because...
+
+294
+00:19:01,107 --> 00:19:04,202
+Because the only thing
+that can trigger the device
+
+295
+00:19:04,644 --> 00:19:07,876
+is an air burst of
+a nuclear bomb.
+
+296
+00:19:11,617 --> 00:19:15,019
+I have established the necessary
+sensors to receive all data.
+
+297
+00:19:16,088 --> 00:19:19,616
+Seismic, radioactive, heat,
+shock wave and megatonnage.
+
+298
+00:19:19,859 --> 00:19:23,057
+I have also made careful
+allowances for underground testing
+
+299
+00:19:23,129 --> 00:19:25,655
+and the peaceful
+uses of nuclear energy.
+
+300
+00:19:26,065 --> 00:19:28,933
+But if any country anywhere
+
+301
+00:19:29,035 --> 00:19:32,301
+explodes a thermonuclear
+bomb in the atmosphere,
+
+302
+00:19:32,371 --> 00:19:35,102
+either for testing,
+or for warfare,
+
+303
+00:19:35,474 --> 00:19:38,501
+it will trigger an irreversible
+chain of events here.
+
+304
+00:19:39,345 --> 00:19:40,938
+And in six hours,
+
+305
+00:19:41,247 --> 00:19:43,216
+the Doomsday
+Device will detonate
+
+306
+00:19:43,849 --> 00:19:45,545
+and life on earth will be ended.
+
+307
+00:19:46,852 --> 00:19:49,913
+So you intend to blackmail
+the world into peace.
+
+308
+00:19:49,989 --> 00:19:52,083
+I hope so, Dr. Wells.
+
+309
+00:19:52,358 --> 00:19:55,795
+I have felt the same pangs
+that my friends Einstein,
+
+310
+00:19:55,895 --> 00:19:57,830
+Oppenheimer and Fermi felt.
+
+311
+00:19:58,264 --> 00:20:01,826
+Well, how many of us have
+watched our scientific discoveries
+
+312
+00:20:01,901 --> 00:20:03,870
+twisted into war machines?
+
+313
+00:20:04,403 --> 00:20:07,862
+I have felt the same things that
+Alfred Nobel felt a century ago,
+
+314
+00:20:07,940 --> 00:20:12,776
+when he saw his dynamite being
+used to blow up human beings.
+
+315
+00:20:15,047 --> 00:20:17,175
+Well, I'm... I'm an old man now,
+
+316
+00:20:17,249 --> 00:20:20,083
+as this tired heart of
+mine keeps reminding me,
+
+317
+00:20:20,152 --> 00:20:23,919
+and this will be my final chance
+to bring a lasting peace to mankind.
+
+318
+00:20:23,989 --> 00:20:25,457
+This is outrageous!
+
+319
+00:20:25,524 --> 00:20:27,925
+No matter how
+benevolent your goals are!
+
+320
+00:20:28,227 --> 00:20:32,289
+Dr. Cooper, no one man
+can be allowed to play God.
+
+321
+00:20:39,405 --> 00:20:40,429
+It is done.
+
+322
+00:20:48,514 --> 00:20:49,641
+Dr. Cooper,
+
+323
+00:20:50,950 --> 00:20:52,441
+I understand.
+
+324
+00:20:53,285 --> 00:20:54,651
+But there will be those people
+
+325
+00:20:54,720 --> 00:20:57,212
+who will insist that you
+deactivate your system.
+
+326
+00:20:57,289 --> 00:21:00,487
+They will not respect
+your age or position,
+
+327
+00:21:01,694 --> 00:21:03,458
+even if it came to torture.
+
+328
+00:21:04,230 --> 00:21:06,893
+Yes, Dr. Evtuhov,
+I've thought of that,
+
+329
+00:21:07,333 --> 00:21:09,700
+but it's completely
+out of my hands now.
+
+330
+00:21:09,769 --> 00:21:12,967
+The Doomsday Device
+is controlled by Alex.
+
+331
+00:21:13,405 --> 00:21:14,498
+Alex?
+
+332
+00:21:14,707 --> 00:21:15,868
+Who's Alex?
+
+333
+00:21:16,242 --> 00:21:20,077
+We spoke to him when we came in
+here. Now who is he? Where is he?
+
+334
+00:21:20,713 --> 00:21:23,182
+You are standing inside of him.
+
+335
+00:21:24,016 --> 00:21:28,147
+Alex is the master computer that
+controls every phase of this complex.
+
+336
+00:21:28,220 --> 00:21:31,782
+He's the highest form of
+computer art and design.
+
+337
+00:21:31,857 --> 00:21:33,485
+Until this very moment,
+
+338
+00:21:33,559 --> 00:21:36,495
+I've had him operating
+on only half efficiency.
+
+339
+00:21:36,562 --> 00:21:39,930
+But from here on, his eyes
+and ears will watch over
+
+340
+00:21:39,999 --> 00:21:44,095
+and govern this
+complex and its defenses.
+
+341
+00:21:44,236 --> 00:21:47,365
+He is supremely
+intelligent, yet passionless.
+
+342
+00:21:48,073 --> 00:21:49,336
+Aren't you, Alex?
+
+343
+00:21:49,942 --> 00:21:51,467
+<i>Yes, Dr. Cooper.</i>
+
+344
+00:21:52,812 --> 00:21:54,838
+The perfect
+guardian of the peace.
+
+345
+00:21:55,648 --> 00:21:58,709
+So now, if any nation
+detonates a nuclear bomb,
+
+346
+00:21:58,784 --> 00:22:01,720
+not even I could stop
+the Doomsday Device.
+
+347
+00:22:01,787 --> 00:22:03,983
+The choice is clear
+and simple, my friends.
+
+348
+00:22:04,056 --> 00:22:05,752
+It is peace
+
+349
+00:22:06,759 --> 00:22:08,057
+or oblivion.
+
+350
+00:22:12,565 --> 00:22:14,431
+Are there any other questions?
+
+351
+00:22:16,335 --> 00:22:18,497
+Then you are free to go now.
+
+352
+00:22:25,110 --> 00:22:26,271
+Then we are agreed.
+
+353
+00:22:26,579 --> 00:22:29,743
+Until the situation can
+be more closely analyzed,
+
+354
+00:22:29,815 --> 00:22:34,981
+we shall institute a worldwide
+ban on any and all nuclear testing.
+
+355
+00:22:36,755 --> 00:22:39,224
+The UN has complied with
+Elijah Cooper's demands.
+
+356
+00:22:39,959 --> 00:22:41,120
+Good.
+
+357
+00:22:41,193 --> 00:22:43,094
+Not every one of them, Oscar.
+
+358
+00:22:43,162 --> 00:22:46,041
+The intelligence sources in the Mid-East
+have just picked up on something bad.
+
+359
+00:22:46,065 --> 00:22:47,397
+I've just checked it out.
+
+360
+00:22:47,466 --> 00:22:48,764
+This is Oscar Goldman speaking.
+
+361
+00:22:49,034 --> 00:22:51,594
+Mr. Goldman? This is Satari.
+
+362
+00:22:51,871 --> 00:22:55,603
+I am speaking to you from the
+desert testing center in my country.
+
+363
+00:22:55,674 --> 00:22:58,803
+I want to advise you
+that my government
+
+364
+00:22:58,944 --> 00:23:03,405
+has officially labeled the Elijah
+Cooper matter as a superpower plot.
+
+365
+00:23:04,116 --> 00:23:05,209
+What?
+
+366
+00:23:05,451 --> 00:23:07,545
+A superpower plot,
+
+367
+00:23:07,620 --> 00:23:12,081
+to keep Third World countries from
+expanding their nuclear capabilities.
+
+368
+00:23:12,625 --> 00:23:14,093
+Don't be ridiculous.
+
+369
+00:23:14,159 --> 00:23:17,323
+We do not intend to
+be made ridiculous.
+
+370
+00:23:17,396 --> 00:23:21,026
+We will continue with our
+nuclear research on schedule,
+
+371
+00:23:21,901 --> 00:23:26,999
+including the plan for an
+atmospheric thermonuclear bomb test
+
+372
+00:23:27,806 --> 00:23:29,274
+five hours from now.
+
+373
+00:23:29,375 --> 00:23:31,606
+But that will trigger
+the Doomsday Device!
+
+374
+00:23:32,978 --> 00:23:35,379
+I want to be clearly understood.
+
+375
+00:23:36,215 --> 00:23:38,775
+We do not believe
+there is such a device.
+
+376
+00:23:40,519 --> 00:23:42,044
+Have a good day, Mr. Goldman.
+
+377
+00:23:42,121 --> 00:23:43,419
+<i>Mr. Satari...</i>
+
+378
+00:23:50,529 --> 00:23:52,430
+<i>This is Reconnaissance One.</i>
+
+379
+00:23:52,831 --> 00:23:56,268
+<i>Advise Mr. Goldman that we're now
+crossing over the Dakota test area.</i>
+
+380
+00:24:05,344 --> 00:24:08,678
+<i>Mayday! Mayday! This is Recon
+One. We've been hit. Mayday!</i>
+
+381
+00:24:09,515 --> 00:24:12,576
+The UN is sending an
+emergency force to Satari's country.
+
+382
+00:24:12,651 --> 00:24:13,731
+Can they get there in time?
+
+383
+00:24:13,786 --> 00:24:15,584
+I don't think so. Rudy,
+you got anything?
+
+384
+00:24:15,654 --> 00:24:19,113
+No. All communication with
+Cooper's complex have been cut off.
+
+385
+00:24:19,325 --> 00:24:21,624
+Oscar, the reconnaissance
+helicopter we sent
+
+386
+00:24:21,694 --> 00:24:23,754
+towards Cooper's
+complex has been fired on.
+
+387
+00:24:23,829 --> 00:24:25,525
+Were they hit? Yeah.
+
+388
+00:24:25,664 --> 00:24:27,428
+They ditched just
+outside the test area,
+
+389
+00:24:27,599 --> 00:24:30,569
+and apparently the Alex 7000
+computer has activated the total
+
+390
+00:24:30,636 --> 00:24:32,298
+air defense system
+of the complex.
+
+391
+00:24:32,871 --> 00:24:35,602
+All right. Then we don't have any
+choice. We have to go in over land.
+
+392
+00:24:35,674 --> 00:24:37,575
+We've got to disarm
+that Doomsday Device
+
+393
+00:24:37,643 --> 00:24:39,737
+before Satari's
+nuclear test triggers it.
+
+394
+00:24:40,312 --> 00:24:43,146
+Oscar, even if we had the
+troops right here ready to go,
+
+395
+00:24:43,449 --> 00:24:46,647
+the Dakota complex has a
+class 16 automatic fortification.
+
+396
+00:24:46,719 --> 00:24:49,159
+Do you know how many lives
+we'd lose trying to storm in there?
+
+397
+00:24:49,221 --> 00:24:51,713
+Besides, Satari is set to
+detonate in less than five hours.
+
+398
+00:24:51,790 --> 00:24:53,088
+We don't have time.
+
+399
+00:24:53,592 --> 00:24:55,527
+Oscar, is Steve still
+aboard the Skylab?
+
+400
+00:24:55,594 --> 00:24:56,594
+Yes.
+
+401
+00:24:56,829 --> 00:24:58,340
+Well, then he won't
+be able to help us.
+
+402
+00:24:58,364 --> 00:25:01,232
+Rudy, is there any way
+that I could stop the device?
+
+403
+00:25:01,300 --> 00:25:03,326
+Now, hold on there,
+Jaime. Is there?
+
+404
+00:25:05,037 --> 00:25:06,266
+I don't know, Jaime.
+
+405
+00:25:06,338 --> 00:25:08,283
+Maybe if you could disable the
+computer's main memory banks.
+
+406
+00:25:08,307 --> 00:25:11,004
+But Elijah's probably even
+built in defenses against that.
+
+407
+00:25:11,610 --> 00:25:13,841
+Well, it's worth a try. Jaime...
+
+408
+00:25:13,912 --> 00:25:16,211
+Oscar, we're a little
+short on options right now.
+
+409
+00:25:16,281 --> 00:25:18,593
+Russ, where do you think would be
+the best spot for me to get through?
+
+410
+00:25:18,617 --> 00:25:19,617
+It's hard to say.
+
+411
+00:25:19,685 --> 00:25:22,154
+There's automatic weaponry
+on the outer perimeter
+
+412
+00:25:22,221 --> 00:25:24,053
+and electronic mines closer in.
+
+413
+00:25:24,323 --> 00:25:26,485
+The defenses were
+designed to keep an army out.
+
+414
+00:25:26,558 --> 00:25:28,390
+I don't know if you
+have much of a chance.
+
+415
+00:25:28,460 --> 00:25:30,271
+But the roughest terrain
+is the least protected.
+
+416
+00:25:30,295 --> 00:25:32,375
+Now, I'd say the rock cliffs
+along the south quadrant
+
+417
+00:25:32,431 --> 00:25:34,093
+on the other side of this hill.
+
+418
+00:25:35,134 --> 00:25:36,432
+Okay.
+
+419
+00:25:37,002 --> 00:25:39,301
+It's the computer's
+main memory bank?
+
+420
+00:25:40,839 --> 00:25:41,863
+Maybe.
+
+421
+00:25:41,940 --> 00:25:43,374
+All right. Let's hope so.
+
+422
+00:27:08,760 --> 00:27:09,921
+Hello.
+
+423
+00:27:10,863 --> 00:27:12,092
+How did you get here?
+
+424
+00:27:12,164 --> 00:27:14,565
+By crawling up
+this drainage ditch.
+
+425
+00:27:14,633 --> 00:27:17,296
+My people have satellite
+photographs of this complex.
+
+426
+00:27:17,369 --> 00:27:19,338
+I knew you...
+
+427
+00:27:19,938 --> 00:27:23,067
+I knew you weren't Dr. Perry,
+but you're not even French.
+
+428
+00:27:23,175 --> 00:27:26,304
+No. Why didn't you
+expose me, Dr. Evtuhov?
+
+429
+00:27:26,378 --> 00:27:29,974
+Because I am not
+Dr. Evtuhov. Look out!
+
+430
+00:27:34,286 --> 00:27:35,948
+What are you doing here?
+
+431
+00:27:36,021 --> 00:27:38,388
+The same thing you are,
+I imagine. Who are you?
+
+432
+00:27:38,457 --> 00:27:40,688
+Trying to disarm the
+Doomsday Device
+
+433
+00:27:40,759 --> 00:27:42,955
+before that Mid-Eastern
+bomb detonates.
+
+434
+00:27:46,331 --> 00:27:47,959
+That's fine, very noble.
+
+435
+00:27:48,033 --> 00:27:50,153
+Now just turn right around
+and crawl back out of here.
+
+436
+00:27:50,802 --> 00:27:53,601
+The lives of my people
+are in danger here, too.
+
+437
+00:27:54,673 --> 00:27:56,073
+So I will continue.
+
+438
+00:27:56,141 --> 00:27:59,634
+And in the interest of time,
+may I suggest we work together?
+
+439
+00:28:00,245 --> 00:28:01,508
+Here.
+
+440
+00:28:11,890 --> 00:28:14,223
+I think we're past
+the artillery perimeter.
+
+441
+00:28:15,394 --> 00:28:18,159
+This place is loaded with
+other automatic defenses.
+
+442
+00:28:18,564 --> 00:28:19,964
+I don't see anything.
+
+443
+00:28:20,098 --> 00:28:23,000
+We didn't see those artillery
+shells coming down on us, either.
+
+444
+00:28:24,469 --> 00:28:27,200
+Look, why don't you stay here
+and let me scout around, huh?
+
+445
+00:28:27,272 --> 00:28:29,173
+No, we will go together.
+
+446
+00:28:29,608 --> 00:28:31,634
+How fast could you
+run to those rocks?
+
+447
+00:28:32,411 --> 00:28:33,606
+Faster than you can.
+
+448
+00:28:34,580 --> 00:28:37,379
+All right, let's go.
+
+449
+00:29:07,379 --> 00:29:08,403
+All right?
+
+450
+00:29:08,480 --> 00:29:09,743
+You're hit?
+
+451
+00:29:09,915 --> 00:29:11,383
+No, it just caught my pack.
+
+452
+00:29:14,152 --> 00:29:16,678
+I'll do something
+about those laser guns.
+
+453
+00:29:31,370 --> 00:29:33,965
+Nothing's happening.
+Patience, woman.
+
+454
+00:29:40,779 --> 00:29:42,645
+How did you do that?
+
+455
+00:29:43,448 --> 00:29:47,749
+It's a little toy I've designed
+for the Soviet Army.
+
+456
+00:29:48,387 --> 00:29:49,912
+So you are a scientist.
+
+457
+00:29:49,988 --> 00:29:51,012
+Yes.
+
+458
+00:29:51,423 --> 00:29:53,585
+I am Dimitri Muskov.
+
+459
+00:29:53,659 --> 00:29:56,720
+My friend Victor is too
+old for this sort of thing.
+
+460
+00:29:58,297 --> 00:29:59,595
+What is your name?
+
+461
+00:30:00,232 --> 00:30:01,860
+Jaime. Jaime.
+
+462
+00:30:03,435 --> 00:30:04,562
+Hmm.
+
+463
+00:30:06,638 --> 00:30:08,197
+You brought no equipment, huh?
+
+464
+00:30:08,473 --> 00:30:10,772
+Oh, well, I lost it in
+the mortar barrage.
+
+465
+00:30:11,310 --> 00:30:13,176
+All right. Then
+we will use mine.
+
+466
+00:30:13,245 --> 00:30:14,245
+Come on.
+
+467
+00:30:18,617 --> 00:30:21,485
+I don't have the right
+style piton for this type rock.
+
+468
+00:30:21,553 --> 00:30:23,579
+I will be diligent, however.
+
+469
+00:30:28,593 --> 00:30:29,891
+Yeah, and slow.
+
+470
+00:30:56,054 --> 00:30:57,454
+Snow White, can you hear me?
+
+471
+00:30:57,522 --> 00:30:58,546
+Jaime?
+
+472
+00:30:58,623 --> 00:31:01,889
+Victor Evtuhov is in here with
+me, only he's not Victor Evtuhov.
+
+473
+00:31:01,960 --> 00:31:04,327
+He's Dimitri Muskov.
+
+474
+00:31:06,064 --> 00:31:08,226
+What? Well, how did
+he... <i>Never mind that.</i>
+
+475
+00:31:08,300 --> 00:31:10,578
+His government sent him in
+here on the same mission I'm on.
+
+476
+00:31:10,602 --> 00:31:12,764
+The question now is, should
+I leave him behind or not?
+
+477
+00:31:13,505 --> 00:31:14,529
+I've heard of Muskov.
+
+478
+00:31:14,606 --> 00:31:16,017
+He's also one of
+the Soviets' top men.
+
+479
+00:31:16,041 --> 00:31:17,475
+He could help her immeasurably.
+
+480
+00:31:22,614 --> 00:31:25,243
+All right, Jaime, take him
+along if he can keep up.
+
+481
+00:31:26,485 --> 00:31:28,477
+What about letting
+him see the bionics?
+
+482
+00:31:29,421 --> 00:31:33,085
+Well, I'm always concerned about
+revealing bionics to the Soviets, Jaime.
+
+483
+00:31:34,993 --> 00:31:37,155
+Oh, I'll do the best
+I can. All right?
+
+484
+00:31:37,329 --> 00:31:38,388
+Bye.
+
+485
+00:31:44,736 --> 00:31:45,965
+Dimitri?
+
+486
+00:31:52,043 --> 00:31:53,636
+How do you come to be up there?
+
+487
+00:31:54,112 --> 00:31:55,808
+I found a short cut.
+
+488
+00:31:55,881 --> 00:31:57,406
+Here, just take the rope.
+
+489
+00:32:04,322 --> 00:32:05,322
+Come on up.
+
+490
+00:32:08,360 --> 00:32:09,453
+Hang on tight.
+
+491
+00:32:18,470 --> 00:32:19,699
+Fine, fine.
+
+492
+00:32:20,739 --> 00:32:23,573
+How you get up here?
+How you pull me up like that?
+
+493
+00:32:23,775 --> 00:32:25,539
+Oh, just a little
+leverage, that's all.
+
+494
+00:32:25,610 --> 00:32:26,634
+Little leverage?
+
+495
+00:32:26,711 --> 00:32:29,977
+Woman, you're speaking to a man
+very familiar with the laws of physics.
+
+496
+00:32:30,048 --> 00:32:31,880
+Now, I'd like to know
+how you do that!
+
+497
+00:32:31,950 --> 00:32:34,215
+Doctor, I am a little
+stronger than I look.
+
+498
+00:32:34,286 --> 00:32:35,652
+So let's just leave it at that.
+
+499
+00:32:35,720 --> 00:32:37,165
+Now, the most
+important thing right now
+
+500
+00:32:37,189 --> 00:32:40,023
+is to stop Dr. Cooper's device.
+
+501
+00:32:41,426 --> 00:32:42,553
+Agreed.
+
+502
+00:32:43,361 --> 00:32:46,923
+But I'll be very curious to see
+how you get up this next cliff.
+
+503
+00:32:58,443 --> 00:32:59,502
+Are we on schedule?
+
+504
+00:32:59,578 --> 00:33:01,672
+Yes, the testing area is ready.
+
+505
+00:33:02,380 --> 00:33:06,010
+Detonation tower, telemetric
+sensors, film and television cameras.
+
+506
+00:33:06,084 --> 00:33:08,019
+A mock-up town, everything.
+
+507
+00:33:08,086 --> 00:33:10,612
+Good. Personnel
+are all moving out?
+
+508
+00:33:10,689 --> 00:33:11,748
+Yes.
+
+509
+00:33:12,190 --> 00:33:14,318
+Then we are ready for
+countdown to detonation?
+
+510
+00:33:14,392 --> 00:33:15,485
+Yes, sir.
+
+511
+00:33:16,461 --> 00:33:17,986
+<i>This is Operations Control.</i>
+
+512
+00:33:18,063 --> 00:33:20,225
+<i>Stand by for countdown
+commencement.</i>
+
+513
+00:33:23,168 --> 00:33:24,636
+They thought they
+could frighten us
+
+514
+00:33:24,703 --> 00:33:27,969
+with their ridiculous story
+about a Doomsday Device.
+
+515
+00:33:29,307 --> 00:33:30,741
+They think we are fools?
+
+516
+00:33:34,713 --> 00:33:35,737
+Begin.
+
+517
+00:33:52,831 --> 00:33:55,232
+This air gun I developed will
+get us up much more quickly
+
+518
+00:33:55,300 --> 00:33:57,735
+than conventional
+climbing techniques.
+
+519
+00:33:57,802 --> 00:33:59,566
+Yes, but will it be fast enough?
+
+520
+00:34:01,139 --> 00:34:03,233
+<i>Jaime, where are you now?</i>
+
+521
+00:34:05,377 --> 00:34:06,606
+We're still on the cliff,
+
+522
+00:34:06,912 --> 00:34:08,778
+<i>about three miles
+from the complex.</i>
+
+523
+00:34:08,914 --> 00:34:11,440
+<i>You've got to cover those
+last three miles very quickly.</i>
+
+524
+00:34:11,583 --> 00:34:12,846
+Now, listen to me carefully.
+
+525
+00:34:12,918 --> 00:34:16,082
+We're moving to the Communications
+Center at Brantley Air Force Base.
+
+526
+00:34:16,388 --> 00:34:17,948
+<i>Now, I'll give you
+some update material.</i>
+
+527
+00:34:17,989 --> 00:34:20,288
+Satari's people have already
+started their countdown
+
+528
+00:34:20,358 --> 00:34:22,384
+and the UN forces
+can't get there in time.
+
+529
+00:34:22,594 --> 00:34:23,687
+Oh, boy.
+
+530
+00:34:24,729 --> 00:34:25,958
+How much time do we have?
+
+531
+00:34:27,566 --> 00:34:30,058
+You've got three
+hours and 37 minutes.
+
+532
+00:34:31,102 --> 00:34:33,799
+Okay. I'm just gonna
+have to blow my cover then.
+
+533
+00:34:33,872 --> 00:34:35,101
+I'll get back to you.
+
+534
+00:34:35,440 --> 00:34:37,033
+Dimitri? What?
+
+535
+00:34:37,108 --> 00:34:38,586
+We're gonna have
+to move a lot faster.
+
+536
+00:34:38,610 --> 00:34:40,203
+Jaime, there is no way we can.
+
+537
+00:34:40,612 --> 00:34:42,672
+Well, maybe there is.
+Now, I'm coming up.
+
+538
+00:34:42,781 --> 00:34:43,805
+You?
+
+539
+00:34:43,882 --> 00:34:45,908
+Yes, move over now, here I come.
+
+540
+00:35:00,432 --> 00:35:02,833
+Okay, give me some of
+these metal spikes now.
+
+541
+00:35:22,854 --> 00:35:25,016
+I guess a little
+foothold wouldn't hurt.
+
+542
+00:35:33,331 --> 00:35:35,527
+Okay. Come on, Dimitri,
+follow me. Here we go.
+
+543
+00:35:52,083 --> 00:35:53,346
+You okay?
+
+544
+00:35:58,990 --> 00:36:00,083
+You are a cyborg.
+
+545
+00:36:00,525 --> 00:36:01,618
+A what?
+
+546
+00:36:01,926 --> 00:36:04,953
+A cyborg. A cybernetic organism.
+
+547
+00:36:05,597 --> 00:36:07,197
+Well, I prefer to
+call it bionics myself.
+
+548
+00:36:07,232 --> 00:36:09,133
+It has a much nicer ring to it.
+
+549
+00:36:09,300 --> 00:36:11,860
+Somebody has finally
+succeeded with a human.
+
+550
+00:36:11,936 --> 00:36:15,373
+I mean, in my country we
+succeeded with lower animals,
+
+551
+00:36:15,440 --> 00:36:19,536
+but our two attempts with
+humans ended tragically in death.
+
+552
+00:36:19,844 --> 00:36:21,288
+Yeah. Well, everybody's
+gonna end up dead
+
+553
+00:36:21,312 --> 00:36:23,474
+if we don't get
+inside that complex
+
+554
+00:36:23,548 --> 00:36:25,574
+and disarm that Doomsday
+Device, so come on.
+
+555
+00:36:27,452 --> 00:36:28,562
+What is it? What's the matter?
+
+556
+00:36:28,586 --> 00:36:30,680
+You've put me in a
+very awkward position.
+
+557
+00:36:31,022 --> 00:36:34,720
+I wonder how my government
+would react to learn of your existence.
+
+558
+00:36:39,330 --> 00:36:41,196
+We've only got a
+couple miles to go.
+
+559
+00:36:49,407 --> 00:36:50,875
+All right, Russ,
+let's get cracking.
+
+560
+00:36:50,975 --> 00:36:53,968
+I want to establish a priority
+com link to the Pentagon,
+
+561
+00:36:54,045 --> 00:36:55,645
+the State Department
+and the White House.
+
+562
+00:36:55,714 --> 00:36:56,909
+What about the UN? Good.
+
+563
+00:36:56,981 --> 00:36:59,382
+Set it up so that we can
+use a scrambler if we have to.
+
+564
+00:36:59,451 --> 00:37:03,479
+Oh, and if you get any more
+signals from the Athena 18 ComSat,
+
+565
+00:37:03,621 --> 00:37:07,217
+I want them jammed and coded so
+that nobody sees them except me.
+
+566
+00:37:07,292 --> 00:37:09,261
+How about a microwave
+relay to Washington?
+
+567
+00:37:09,394 --> 00:37:10,692
+Fine.
+
+568
+00:37:10,795 --> 00:37:12,957
+Send a feed to the
+world government leaders,
+
+569
+00:37:13,531 --> 00:37:15,261
+but not to the general public.
+
+570
+00:37:15,567 --> 00:37:18,503
+If Elijah Cooper has any
+more messages to send,
+
+571
+00:37:18,570 --> 00:37:20,903
+I'd like the world leaders
+to monitor them first.
+
+572
+00:37:20,972 --> 00:37:23,305
+Right. It might prevent a lot
+of panic if things get worse.
+
+573
+00:37:23,708 --> 00:37:26,940
+If things get much
+worse, it may not matter.
+
+574
+00:37:27,112 --> 00:37:31,243
+Oscar, can you set up a data
+link to my computer at the OSI?
+
+575
+00:37:31,316 --> 00:37:32,793
+There's something
+I'd like to check out.
+
+576
+00:37:32,817 --> 00:37:34,843
+Okay. I'll take
+care of that, Rudy.
+
+577
+00:37:34,919 --> 00:37:37,081
+Russ, what's the news
+on the Satari countdown?
+
+578
+00:37:37,155 --> 00:37:38,384
+I'm getting it now.
+
+579
+00:37:39,524 --> 00:37:41,891
+Their nuclear device
+is set to detonate in
+
+580
+00:37:42,227 --> 00:37:44,219
+one hour, 41 minutes.
+
+581
+00:37:45,597 --> 00:37:47,623
+Jaime and Dimitri
+don't have much time.
+
+582
+00:37:50,935 --> 00:37:52,495
+The complex is
+just beyond there.
+
+583
+00:37:53,004 --> 00:37:54,302
+Okay. Come on. Wait!
+
+584
+00:37:58,443 --> 00:37:59,706
+It's a mine field.
+
+585
+00:38:00,512 --> 00:38:01,912
+What?
+
+586
+00:38:01,980 --> 00:38:03,691
+They told me there was
+an electronic mine field here.
+
+587
+00:38:03,715 --> 00:38:05,809
+How do you know? I can
+hear it with my bionic ear.
+
+588
+00:38:05,884 --> 00:38:07,284
+Perhaps I can jam it.
+
+589
+00:38:14,559 --> 00:38:15,720
+Uh-uh.
+
+590
+00:38:20,231 --> 00:38:21,426
+It isn't working.
+
+591
+00:38:22,534 --> 00:38:25,231
+So your electronics are more
+sophisticated than I expected.
+
+592
+00:38:25,303 --> 00:38:26,781
+It's over for me
+then. I cannot cross it.
+
+593
+00:38:26,805 --> 00:38:28,205
+Wait a minute.
+
+594
+00:38:29,140 --> 00:38:30,140
+Wait a second.
+
+595
+00:38:37,715 --> 00:38:39,684
+Okay. Come on.
+Get down. Get down.
+
+596
+00:38:55,333 --> 00:38:57,053
+Okay. I think I can get
+us through. Come on.
+
+597
+00:38:57,101 --> 00:38:58,296
+Not possible.
+
+598
+00:38:59,370 --> 00:39:01,236
+Well, I can hear the
+electronic hum change
+
+599
+00:39:01,306 --> 00:39:02,583
+when I get close
+to one of the mines.
+
+600
+00:39:02,607 --> 00:39:03,851
+So if you just stay
+right in my footsteps...
+
+601
+00:39:03,875 --> 00:39:05,595
+Jaime, I can't do it!
+We can get through.
+
+602
+00:39:07,879 --> 00:39:09,142
+I can't.
+
+603
+00:39:09,614 --> 00:39:12,243
+I was almost killed in a
+mine field in Manchuria.
+
+604
+00:39:13,351 --> 00:39:15,843
+I can't do it, it's
+over a mile across.
+
+605
+00:39:15,920 --> 00:39:17,821
+We've got to try,
+Dimitri. Now come on.
+
+606
+00:39:17,889 --> 00:39:18,948
+<i>Nyet!</i>
+
+607
+00:39:19,457 --> 00:39:20,755
+It's impossible.
+
+608
+00:39:21,226 --> 00:39:24,219
+Wouldn't you rather die trying
+than wait for that Doomsday Device?
+
+609
+00:39:25,163 --> 00:39:26,893
+Think of your people, Dimitri.
+
+610
+00:40:22,787 --> 00:40:26,747
+<i>Attention. Attention. Attention.</i>
+
+611
+00:40:26,824 --> 00:40:29,589
+<i>All personnel, clear Sector Two.</i>
+
+612
+00:40:30,895 --> 00:40:33,763
+<i>Gain potential to 0-1-0.</i>
+
+613
+00:40:34,666 --> 00:40:37,898
+<i>The countdown is at
+T-minus 60 minutes.</i>
+
+614
+00:40:38,369 --> 00:40:39,701
+<i>Mark.</i>
+
+615
+00:40:57,655 --> 00:40:58,748
+Jaime.
+
+616
+00:40:59,657 --> 00:41:01,683
+Dimitri, come, we're
+almost through now.
+
+617
+00:41:16,207 --> 00:41:17,207
+Dimitri?
+
+618
+00:41:33,391 --> 00:41:34,689
+Jaime!
+
+619
+00:41:42,633 --> 00:41:44,602
+<i>Detonation tower circuits check.</i>
+
+620
+00:41:44,669 --> 00:41:46,638
+<i>D-C manual override ready.</i>
+
+621
+00:41:46,938 --> 00:41:48,873
+<i>All systems condition green.</i>
+
+622
+00:41:49,440 --> 00:41:50,567
+<i>Stand by.</i>
+
+623
+00:41:50,842 --> 00:41:52,777
+<i>Detonation is in mark.</i>
+
+624
+00:41:53,277 --> 00:41:55,576
+<i>T-minus 15 minutes.</i>
+
+625
+00:41:55,780 --> 00:41:57,339
+Are you all right?
+
+626
+00:41:57,815 --> 00:41:59,408
+Oh, my leg.
+
+627
+00:41:59,484 --> 00:42:00,611
+Can you move it at all?
+
+628
+00:42:00,685 --> 00:42:02,551
+It's my kneecap, I think.
+
+629
+00:42:03,755 --> 00:42:05,223
+The laser triggered the mine.
+
+630
+00:42:05,289 --> 00:42:07,417
+The explosion must have
+taken out the laser gun.
+
+631
+00:42:07,492 --> 00:42:09,620
+The laser gun
+almost took me out.
+
+632
+00:42:10,895 --> 00:42:12,056
+Thank you.
+
+633
+00:42:15,466 --> 00:42:18,561
+Look, I think we're almost
+through these mines here.
+
+634
+00:42:18,636 --> 00:42:20,628
+Let me help you. Come on, okay?
+
+635
+00:42:23,374 --> 00:42:25,070
+I don't know if I can make it.
+
+636
+00:42:25,143 --> 00:42:26,372
+Come on.
+
+637
+00:42:31,649 --> 00:42:34,016
+<i>High speed cameras to test mode.</i>
+
+638
+00:42:35,286 --> 00:42:36,379
+<i>Check.</i>
+
+639
+00:42:36,921 --> 00:42:40,915
+<i>Detonation at T-minus
+eight minutes and counting.</i>
+
+640
+00:42:45,163 --> 00:42:46,654
+Easy.
+
+641
+00:42:46,731 --> 00:42:48,199
+Dimitri?
+
+642
+00:42:48,766 --> 00:42:51,395
+Jaime, I must
+stop this bleeding.
+
+643
+00:42:51,836 --> 00:42:52,929
+You go.
+
+644
+00:42:53,004 --> 00:42:56,236
+You try to disable the main logic
+and memory banks of the computer.
+
+645
+00:42:57,341 --> 00:42:58,400
+Please.
+
+646
+00:42:58,843 --> 00:43:02,473
+You carry the torch for my
+country now as well as yours.
+
+647
+00:43:12,623 --> 00:43:13,623
+Dr. Cooper!
+
+648
+00:43:13,991 --> 00:43:15,831
+<i>How did you get
+through that locked door?</i>
+
+649
+00:43:16,961 --> 00:43:19,692
+<i>How did you get through the
+automatic outside defenses?</i>
+
+650
+00:43:19,764 --> 00:43:21,926
+<i>You're not Dr. Perry.
+Who are you?</i>
+
+651
+00:43:25,970 --> 00:43:28,166
+<i>What is your name? Who are you?</i>
+
+652
+00:43:29,874 --> 00:43:31,809
+<i>Won't you at least
+tell me your name?</i>
+
+653
+00:43:32,543 --> 00:43:33,704
+It's Jaime.
+
+654
+00:43:33,778 --> 00:43:35,872
+<i>Unusual and pleasant.</i>
+
+655
+00:43:35,947 --> 00:43:38,678
+<i>I am the Alex 7000
+Master Computer.</i>
+
+656
+00:43:41,385 --> 00:43:43,479
+<i>What exactly are you
+trying to do, Jaime?</i>
+
+657
+00:43:44,956 --> 00:43:48,188
+<i>It would seem that you are trying
+to damage some of my components.</i>
+
+658
+00:43:48,259 --> 00:43:49,921
+<i>But anything you do
+to these components</i>
+
+659
+00:43:49,994 --> 00:43:51,860
+<i>will have no effect
+on me whatsoever.</i>
+
+660
+00:43:58,436 --> 00:44:00,405
+<i>I'll prove it to
+you, if you like.</i>
+
+661
+00:44:01,072 --> 00:44:02,131
+How?
+
+662
+00:44:02,507 --> 00:44:05,602
+<i>The main breaker is by
+the door where you came in.</i>
+
+663
+00:44:05,743 --> 00:44:08,269
+<i>It turns off this entire
+component section.</i>
+
+664
+00:44:13,251 --> 00:44:15,152
+<i>There, you see?</i>
+
+665
+00:44:15,820 --> 00:44:19,154
+<i>There's really a great deal
+more to me than meets the eye.</i>
+
+666
+00:44:22,727 --> 00:44:24,855
+<i>Automatic sequencer stand by.</i>
+
+667
+00:44:24,929 --> 00:44:27,091
+<i>Automatic sequence start.</i>
+
+668
+00:44:28,666 --> 00:44:30,897
+<i>T-minus three minutes.</i>
+
+669
+00:44:31,969 --> 00:44:33,028
+Dr. Coop...
+
+670
+00:44:33,905 --> 00:44:34,998
+Dr. Cooper.
+
+671
+00:44:35,773 --> 00:44:38,038
+Here, Elijah. Come
+on. Are you all right?
+
+672
+00:44:39,243 --> 00:44:40,973
+I guess this old heart of mine
+
+673
+00:44:41,045 --> 00:44:43,708
+is tired of the schedule
+I've been making it keep.
+
+674
+00:44:43,848 --> 00:44:45,680
+Easy. There we go.
+
+675
+00:44:51,756 --> 00:44:54,316
+You're not Dr. Perry.
+
+676
+00:44:54,692 --> 00:44:56,627
+What are you, government?
+
+677
+00:44:56,694 --> 00:44:57,787
+Yes.
+
+678
+00:44:58,663 --> 00:45:00,222
+No matter now anyway.
+
+679
+00:45:00,665 --> 00:45:02,691
+How can I help
+you? What can I do?
+
+680
+00:45:02,867 --> 00:45:06,326
+Oh, you could
+stay by, young lady.
+
+681
+00:45:08,406 --> 00:45:10,341
+It's funny how people
+
+682
+00:45:11,075 --> 00:45:15,843
+never feel closer to life than
+when death is right there upon them.
+
+683
+00:45:15,980 --> 00:45:18,745
+I always appreciated
+life most dearly
+
+684
+00:45:19,350 --> 00:45:21,410
+when I was at someone's funeral.
+
+685
+00:45:21,819 --> 00:45:23,913
+Yes, I understand
+that feeling, believe me.
+
+686
+00:45:23,988 --> 00:45:26,321
+But, Dr. Cooper,
+I need your help.
+
+687
+00:45:26,390 --> 00:45:27,858
+Now, the world needs your help.
+
+688
+00:45:27,925 --> 00:45:29,169
+There are some
+men in the Mid-East
+
+689
+00:45:29,193 --> 00:45:31,271
+who don't believe that you've
+created this Doomsday Device
+
+690
+00:45:31,295 --> 00:45:33,264
+and they're about to
+test a hydrogen bomb.
+
+691
+00:45:33,331 --> 00:45:35,391
+You must tell me how
+to stop your device.
+
+692
+00:45:35,466 --> 00:45:39,130
+I'm greatly saddened that
+this has come to pass so soon.
+
+693
+00:45:40,805 --> 00:45:42,330
+But I warned you.
+
+694
+00:45:43,274 --> 00:45:46,642
+There is no way to
+reverse the device.
+
+695
+00:45:46,711 --> 00:45:48,703
+Oh, please, you can't...
+
+696
+00:45:48,779 --> 00:45:50,304
+My child,
+
+697
+00:45:51,249 --> 00:45:55,209
+the people of the world have
+persisted in their warring ways
+
+698
+00:45:55,286 --> 00:45:57,084
+and they must
+learn their lesson.
+
+699
+00:45:58,556 --> 00:46:00,821
+God help you, my child.
+
+700
+00:46:01,459 --> 00:46:03,928
+God help us all.
+
+701
+00:46:12,236 --> 00:46:13,534
+Dr. Cooper?
+
+702
+00:46:27,985 --> 00:46:29,920
+<i>T-minus 10 seconds.</i>
+
+703
+00:46:29,987 --> 00:46:31,922
+<i>Nine, eight,</i>
+
+704
+00:46:31,989 --> 00:46:33,753
+<i>seven, six,</i>
+
+705
+00:46:34,258 --> 00:46:36,056
+<i>five, four,</i>
+
+706
+00:46:36,394 --> 00:46:39,990
+<i>three, two, one, zero.</i>
+
+707
+00:47:06,490 --> 00:47:10,427
+<i>The Doomsday Device has been
+activated by a nuclear explosion.</i>
+
+708
+00:47:10,628 --> 00:47:13,860
+<i>Detonation of the Doomsday
+Device will be in six hours.</i>
+
+709
+00:47:22,039 --> 00:47:23,317
+We're not certain,
+Mr. President.
+
+710
+00:47:23,341 --> 00:47:25,776
+We have no
+confirmation that any...
+
+711
+00:47:26,477 --> 00:47:28,742
+We're getting a signal
+now, Mr. President.
+
+712
+00:47:29,113 --> 00:47:31,912
+No, the public can't see
+it. Only the world leaders.
+
+713
+00:47:34,719 --> 00:47:35,914
+<i>My friends,</i>
+
+714
+00:47:36,487 --> 00:47:39,651
+<i>I had hoped this taped message
+would never be broadcast.</i>
+
+715
+00:47:40,691 --> 00:47:44,128
+<i>But somewhere in the world, a
+nuclear bomb has just been exploded.</i>
+
+716
+00:47:45,129 --> 00:47:49,590
+<i>Thus, the Doomsday Device
+has been activated automatically</i>
+
+717
+00:47:50,134 --> 00:47:53,434
+<i>and it will detonate
+in just under six hours.</i>
+
+718
+00:48:01,178 --> 00:48:02,510
+<i>Three hours from now,</i>
+
+719
+00:48:02,580 --> 00:48:04,947
+<i>several large rockets
+will be launched to seed</i>
+
+720
+00:48:05,015 --> 00:48:10,147
+<i>the upper atmosphere with a chemical
+to make the Uthenium J even more lethal.</i>
+
+721
+00:48:11,222 --> 00:48:12,690
+<i>Believe me,</i>
+
+722
+00:48:12,757 --> 00:48:16,558
+<i>I am profoundly grieved that
+these events shall come to pass.</i>
+
+723
+00:48:17,495 --> 00:48:18,622
+<i>But they shall.</i>
+
+724
+00:48:20,598 --> 00:48:26,230
+<i>In six hours, all life will
+begin to die on this planet.</i>
+
+725
+00:48:36,781 --> 00:48:40,013
+Alex, can you hear me?
+
+726
+00:48:40,951 --> 00:48:42,681
+<i>Of course, Jaime.</i>
+
+727
+00:48:44,455 --> 00:48:46,890
+You realize that I have
+to get to the central core
+
+728
+00:48:46,957 --> 00:48:49,756
+of this complex and stop this
+from happening, don't you?
+
+729
+00:48:49,827 --> 00:48:52,126
+<i>It is foolish to even
+make the attempt.</i>
+
+730
+00:48:53,330 --> 00:48:54,764
+Well, I'm going to.
+
+731
+00:48:55,499 --> 00:48:57,661
+<i>The central core housing
+the Doomsday Device</i>
+
+732
+00:48:57,735 --> 00:48:59,226
+<i>is more than a mile underground</i>
+
+733
+00:48:59,303 --> 00:49:02,000
+<i>and I have sufficient
+defenses to stop you.</i>
+
+734
+00:49:02,072 --> 00:49:04,098
+<i>I am programmed
+to show no mercy.</i>
+
+735
+00:49:04,175 --> 00:49:06,644
+<i>You will die if you
+make the attempt.</i>
+
+736
+00:49:07,178 --> 00:49:08,339
+So...
+
+737
+00:49:10,548 --> 00:49:13,643
+Then it is a duel
+between you and me.
+
+738
+00:49:14,952 --> 00:49:15,976
+<i>Yes.</i>
+
+739
+00:49:17,855 --> 00:49:22,316
+<i>May the best one win.</i>

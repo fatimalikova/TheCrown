@@ -1,0 +1,2498 @@
+1
+00:00:02,550 --> 00:00:06,030
+KIRK (VO):
+Captain's log, stardate 6892.3. Admiral McGuinness...
+
+2
+00:00:06,370 --> 00:00:09,620
+has ordered us to respond to a
+distress call from Hyalinus,
+
+3
+00:00:09,960 --> 00:00:13,957
+an inhabited asteroid with a
+limited warp-capable society.
+
+4
+00:00:14,290 --> 00:00:17,250
+Admiral, isn't the Yorktown near
+the Banneker Belt?
+
+5
+00:00:17,610 --> 00:00:22,000
+She was scheduled to patrol near that system,
+but Command rerouted her to Aldebaran --
+
+6
+00:00:22,350 --> 00:00:25,100
+along with the Republic --
+to investigate the loss of the Hood.
+
+7
+00:00:25,440 --> 00:00:27,090
+They find anything?
+
+8
+00:00:27,430 --> 00:00:32,060
+Never got the chance. Both ships suffered
+baffle plate ruptures shortly after they arrived.
+
+9
+00:00:32,400 --> 00:00:34,780
+Both ships?
+
+10
+00:00:35,120 --> 00:00:36,630
+Fortunately, there were no fatalities.
+
+11
+00:00:37,030 --> 00:00:38,180
+They'll have to be rebuilt.
+
+12
+00:00:38,520 --> 00:00:41,360
+The crews'll need to be treated
+for radiation exposure.
+
+13
+00:00:41,700 --> 00:00:45,100
+Funny... We've got a student here at
+Starfleet Medical who insists we try a new
+
+14
+00:00:45,440 --> 00:00:49,870
+bexarotene-G treatment she heard about
+from an old mentor of hers.
+
+15
+00:00:50,210 --> 00:00:53,360
+Well, not THAT old.
+
+16
+00:00:53,900 --> 00:00:56,130
+How is Ms. Chapel's doctorate
+coming along?
+
+17
+00:00:56,470 --> 00:01:02,410
+She's one of our best and brightest. But be
+careful. She just might take your job one day.
+
+18
+00:01:02,750 --> 00:01:05,200
+[LAUGHS] I might just let her have it.
+
+19
+00:01:05,540 --> 00:01:09,160
+Admiral, did the Hyalini specify
+the nature of their crisis?
+
+20
+00:01:09,500 --> 00:01:14,780
+Something of global proportions. Diplomacy
+is of utmost importance, but so is caution.
+
+21
+00:01:15,120 --> 00:01:20,240
+They've refused outside contact for centuries.
+We know almost nothing about them.
+
+22
+00:01:20,580 --> 00:01:25,160
+So, you want us to speak softly
+and keep a big stick handy.
+
+23
+00:01:25,490 --> 00:01:30,466
+And Jim... Take good care of that ship
+and her outstanding crew, you hear?
+
+24
+00:01:31,860 --> 00:01:34,000
+With everything I've got, admiral.
+
+25
+00:01:38,830 --> 00:01:41,690
+What the devil was he wearing?
+
+26
+00:01:42,030 --> 00:01:44,770
+No idea. But you'll never get me
+in one of those things.
+
+27
+00:01:45,110 --> 00:01:48,970
+Oh, it's not so bad.
+Drab, boring color palette...
+
+28
+00:01:49,310 --> 00:01:53,700
+I think it would complement Mr. Spock
+quite well, don't you think?
+
+29
+00:02:00,600 --> 00:02:02,500
+What is it, Bones?
+
+30
+00:02:04,310 --> 00:02:05,900
+She's in my spot.
+
+31
+00:02:06,280 --> 00:02:07,750
+I'm sorry! I...
+
+32
+00:02:08,060 --> 00:02:14,000
+It's all right, counselor. There's always
+plenty of room on the bridge for one more
+to keep Spock in line.
+
+33
+00:02:31,360 --> 00:02:35,800
+Whatever this is about, it's gotta be pretty serious
+for a hermit race to ask for outside help.
+
+34
+00:02:36,140 --> 00:02:38,950
+- "Hermit race," doctor?
+- That's right, Spock. Hermit race.
+
+35
+00:02:39,290 --> 00:02:41,240
+Don't tell me there's a term that
+computer brain of yours doesn't know.
+
+36
+00:02:41,680 --> 00:02:44,890
+I am merely surprised at your use
+of an abstruse and antiquated
+colloquialism.
+
+37
+00:02:45,230 --> 00:02:48,100
+The more obvious and accurate word
+is clearly "xenophobic."
+
+38
+00:02:48,440 --> 00:02:52,450
+- Tomato, tomahto.
+- I fail to see how pronouncing...
+- Call it off, gentlemen. We've got work to do.
+
+39
+00:02:55,200 --> 00:02:56,330
+Coordinates locked, Scotty?
+
+40
+00:02:56,670 --> 00:02:58,730
+SCOTT:
+Can you believe they only use
+text transmissions?
+
+41
+00:02:59,090 --> 00:03:00,860
+I'm still waitin' for an open
+transporter window!
+
+42
+00:03:01,000 --> 00:03:01,900
+"Transporter window"?
+
+43
+00:03:02,050 --> 00:03:06,860
+Aye! In their orbital defense system.
+Without a window, matter-energy beams to
+the surface are automatically scrambled.
+
+44
+00:03:07,200 --> 00:03:09,880
+"Scrambled"? As in "turned into
+a pile of mush"?
+
+45
+00:03:10,180 --> 00:03:12,840
+Aye. Their global defense grid is
+downright impractical.
+
+46
+00:03:13,220 --> 00:03:16,760
+It's a miracle they can see the stars
+at night with all the weapon-barges
+they've got flyin' about!
+
+47
+00:03:17,800 --> 00:03:20,040
+And can you imagine the
+maintenance, lads?
+
+48
+00:03:20,380 --> 00:03:21,730
+Gee, I hope they're friendly.
+
+49
+00:03:22,090 --> 00:03:25,750
+They would be well-served to hope the
+same of you, doctor.
+
+50
+00:03:26,490 --> 00:03:27,940
+Ah! There's the green light!
+
+51
+00:03:28,280 --> 00:03:29,740
+Energize.
+
+52
+00:03:30,100 --> 00:03:31,300
+Please.
+
+53
+00:04:07,630 --> 00:04:12,020
+KIRK (VO):
+Space. The final frontier.
+
+54
+00:04:18,380 --> 00:04:22,070
+These are the voyages of the
+Starship Enterprise.
+
+55
+00:04:22,410 --> 00:04:25,000
+Its continuing mission:
+
+56
+00:04:25,393 --> 00:04:27,111
+to explore strange
+new worlds.
+
+57
+00:04:27,210 --> 00:04:31,250
+To seek out new life
+and new civilizations.
+
+58
+00:04:31,610 --> 00:04:34,640
+To boldly go
+where no man has gone before.
+
+59
+00:05:15,000 --> 00:05:17,650
+- Fascinating.
+- Are you seeing what I'm seeing?
+
+60
+00:05:18,020 --> 00:05:20,800
+Or, more accurately, what we are
+NOT seeing.
+
+61
+00:05:21,000 --> 00:05:22,780
+Could our eyes have been
+affected during transport?
+
+62
+00:05:23,120 --> 00:05:27,270
+Readings are normal, Jim. But I'm
+not ruling out that damn thing
+putting us back together wrong.
+
+63
+00:05:27,610 --> 00:05:31,800
+GALISTI:
+Greetings! Welcome, my friends, to Hyalinus.
+
+64
+00:05:36,440 --> 00:05:38,310
+We are honored by your visit
+to our world.
+
+65
+00:05:38,650 --> 00:05:41,580
+I am Galisti -- leader of the Inner Council.
+
+66
+00:05:41,920 --> 00:05:46,190
+And this is Thaius, our newly-appointed
+ambassador to the Federation.
+
+67
+00:05:46,330 --> 00:05:49,670
+You see! I told you they'd be
+Hyanoid bipeds.
+
+68
+00:05:50,010 --> 00:05:55,192
+I must admit, I was expecting a tentacle or two.
+[LAUGHTER]
+
+69
+00:05:56,300 --> 00:06:00,220
+And you must be the commander of
+that magnificent ship orbiting above.
+
+70
+00:06:00,560 --> 00:06:03,780
+James Kirk. Captain of the
+United Starship Enterprise.
+
+71
+00:06:07,440 --> 00:06:10,010
+This is my chief surgeon,
+Dr. Leonard McCoy.
+
+72
+00:06:11,350 --> 00:06:12,360
+A pleasure to meet you both.
+
+73
+00:06:12,700 --> 00:06:15,000
+And my first officer, Commander Spock.
+
+74
+00:06:16,700 --> 00:06:19,660
+You're different from the others!
+
+75
+00:06:22,700 --> 00:06:25,000
+Are you an Earth female?
+
+76
+00:06:28,000 --> 00:06:31,870
+Madam, my appearance differs from
+the others because I am Vulcan.
+
+77
+00:06:33,000 --> 00:06:35,840
+If our human females
+looked like THAT, we'd go extinct!
+
+78
+00:06:36,180 --> 00:06:41,871
+Oh! Please forgive my foolishness.
+I apologize if I've caused any offense.
+
+79
+00:06:42,150 --> 00:06:47,137
+Madam, since I do not believe
+differences in gender render one
+inferior to the other,
+
+80
+00:06:47,170 --> 00:06:50,490
+...not only would it be illogical for
+me to find offense in your comment,
+
+81
+00:06:50,830 --> 00:06:55,000
+...but to do so itself would
+represent a grievous insult to YOU.
+
+82
+00:06:55,970 --> 00:06:58,450
+What an improbable contradiction!
+
+83
+00:06:58,930 --> 00:07:03,920
+Kindness and gallantry revealed by pure,
+calculated reason. Remarkable!
+
+84
+00:07:04,290 --> 00:07:11,100
+And I... too caught up with the excitement of
+the moment to notice anything but your ears.
+
+85
+00:07:11,540 --> 00:07:15,370
+How often we look,
+but forget to see.
+
+86
+00:07:16,610 --> 00:07:20,540
+Oh, Galisti. You might be wise to
+replace your ambassador to the
+Federation immediately.
+
+87
+00:07:21,480 --> 00:07:25,440
+Don't be so hard on yourself,
+my dear. They ARE still here.
+
+88
+00:07:26,000 --> 00:07:31,280
+I hope I do not offend by asking, but do all
+Hyalini politicians get along so well?
+
+89
+00:07:31,620 --> 00:07:37,590
+Sadly, no. But Galisti and I have
+the advantage of being very old friends.
+
+90
+00:07:38,580 --> 00:07:42,210
+Who one day realized that
+we had fallen in love.
+
+91
+00:07:42,550 --> 00:07:47,535
+What a fortunate man I am... to be
+able to call my "friend" my "wife."
+
+92
+00:07:48,880 --> 00:07:53,876
+Council leader, I must ask. Has your world
+always looked... like this?
+
+93
+00:07:55,060 --> 00:07:57,290
+- Like what?
+- Well...
+
+94
+00:07:57,630 --> 00:08:01,080
+It is as it has always been.
+
+95
+00:08:01,920 --> 00:08:05,990
+Gentlemen. As the first outsiders ever to be
+invited to our world, your presence...
+
+96
+00:08:06,360 --> 00:08:13,100
+...should be a momentous occasion for my
+people. But alas, it is a regrettable one.
+
+97
+00:08:13,440 --> 00:08:18,590
+Regrettable because this is not
+when our isolation was meant to end...
+nor HOW it was to end.
+
+98
+00:08:19,680 --> 00:08:24,660
+Hundreds of years ago, the people
+of Hyalinus united in a single purpose...
+
+99
+00:08:25,110 --> 00:08:29,210
+...to one day become worthy to join
+the community of stars.
+
+100
+00:08:29,570 --> 00:08:34,548
+THAIUS:
+To us, that meant seeking out the
+best in each other and ourselves.
+
+101
+00:08:34,590 --> 00:08:37,520
+Laying down arms against each other...
+erasing our borders...
+
+102
+00:08:37,870 --> 00:08:42,850
+and refusing to be defined by
+distinctions like "us" and "them."
+
+103
+00:08:43,210 --> 00:08:48,193
+A sublime hope:
+The Hope of the Hyalini.
+
+104
+00:08:49,590 --> 00:08:54,960
+But alas, fate has intervened. And so today
+the hand of my people is not one that is
+
+105
+00:08:55,500 --> 00:09:01,000
+held up proudly to the stars,
+but merely is a hand held OUT.
+
+106
+00:09:01,600 --> 00:09:05,200
+Please, come. The Inner Council
+is waiting.
+
+107
+00:09:06,130 --> 00:09:08,640
+Spock, can you explain our vision?
+
+108
+00:09:08,980 --> 00:09:11,780
+In fact, I can. An unusual form of
+radiation emitted by their sun...
+
+109
+00:09:12,120 --> 00:09:17,119
+...unlike anything I've encountered.
+It impairs the function of cone
+cells in humanoid eyes.
+
+110
+00:09:17,780 --> 00:09:20,040
+- Cone cells allow us to see color.
+- Correct, doctor.
+
+111
+00:09:20,380 --> 00:09:24,380
+- Makes sense, Jim.
+- Good work, Spock. Continue scanning.
+
+112
+00:09:49,200 --> 00:09:53,450
+The Inner Council is the uppermost
+tier of the United Parliament,
+
+113
+00:09:53,810 --> 00:09:57,740
+representing all regions on Hyalinus.
+Its five members are chosen by...
+
+114
+00:09:58,080 --> 00:10:00,850
+They just got here, and already
+you're torturing them with civics!
+
+115
+00:10:01,210 --> 00:10:04,000
+Oh, dear...
+
+116
+00:10:04,370 --> 00:10:09,580
+This woman is the meanest, toughest teacher
+there is. I have the scars to prove it.
+
+117
+00:10:09,920 --> 00:10:14,912
+Sekara started out as my most obstinate
+student... and soon became my finest.
+
+118
+00:10:16,340 --> 00:10:18,340
+She now interns for
+the Inner Council.
+
+119
+00:10:18,680 --> 00:10:22,800
+And she likes to credit her teaching as
+the root of all my achievements.
+
+120
+00:10:23,390 --> 00:10:26,126
+KIRK:
+What a great privilege for your first guests
+
+121
+00:10:26,400 --> 00:10:29,519
+...to be greeted by such an
+intelligent and beautiful woman.
+
+122
+00:10:31,810 --> 00:10:35,000
+You had no right, Galisti!
+
+123
+00:10:35,680 --> 00:10:40,170
+You had no right to bring them here!
+You've destroyed us all!
+
+124
+00:10:48,540 --> 00:10:51,560
+Do you hear me?!
+You've destroyed your entire race!
+
+125
+00:10:51,910 --> 00:10:55,050
+We will be destroyed only if
+we refuse to accept help!
+
+126
+00:10:55,390 --> 00:10:56,670
+She may be right, Tomiat.
+
+127
+00:10:56,990 --> 00:11:01,570
+Shame, Thaius! A true believer would
+rather die than see the Hope corrupted!
+
+128
+00:11:09,250 --> 00:11:10,100
+Will he live?
+
+129
+00:11:10,440 --> 00:11:15,000
+Tomiat is unharmed, I assure you. He is
+merely unconscious, and shall awaken shortly.
+
+130
+00:11:22,290 --> 00:11:25,150
+I apologize. You should never have
+witnessed that.
+
+131
+00:11:27,310 --> 00:11:28,990
+Show them.
+
+132
+00:11:37,420 --> 00:11:42,789
+It's the first symptom. The disease
+progresses rapidly. Sekara will...
+
+133
+00:11:45,780 --> 00:11:47,510
+I will not live beyond the year.
+
+134
+00:11:49,910 --> 00:11:52,000
+This is why you sent the distress call.
+
+135
+00:11:55,900 --> 00:11:58,050
+We are on a path to extinction.
+
+136
+00:11:58,690 --> 00:12:02,990
+From disease... and soon starvation.
+
+137
+00:12:03,330 --> 00:12:05,050
+Our crops have stopped growing.
+
+138
+00:12:05,390 --> 00:12:09,780
+- May I? 
+- It's not contagious. That much we know.
+
+139
+00:12:10,120 --> 00:12:12,000
+We don't know what it is... only
+what it is NOT.
+
+140
+00:12:13,380 --> 00:12:15,690
+It's not the result of any known poison.
+It's not a virus...
+
+141
+00:12:15,970 --> 00:12:19,760
+...and it's not a bacterium, spore, or
+parasitic organism.
+
+142
+00:12:21,180 --> 00:12:24,680
+I've been doing research on the
+disease as part of my medical training.
+
+143
+00:12:24,980 --> 00:12:29,954
+I'm... I was going to be a
+physician.
+
+144
+00:12:34,310 --> 00:12:35,410
+Bones?
+
+145
+00:12:36,070 --> 00:12:38,770
+It's definitely related to
+the radiation that Spock detected,
+
+146
+00:12:39,110 --> 00:12:42,110
+but I can't confirm a prognosis
+without running more tests.
+
+147
+00:12:42,450 --> 00:12:43,560
+And for that, we need to be
+in sickbay.
+
+148
+00:12:44,910 --> 00:12:48,050
+Sickbay? On your vessel?
+
+149
+00:12:48,390 --> 00:12:49,850
+Is that a problem?
+
+150
+00:12:50,190 --> 00:12:53,810
+GALISTI:
+We would prefer that she stay here.
+Our medical facilities...
+
+151
+00:12:54,150 --> 00:12:59,127
+If she returns to the ship with us,
+she'll be shielded from the radiation.
+
+152
+00:12:59,820 --> 00:13:01,050
+Will she see color?
+
+153
+00:13:01,390 --> 00:13:06,392
+- Unknown, captain.
+- If she does, the results could be traumatic.
+
+154
+00:13:09,980 --> 00:13:11,890
+McCOY:
+Besides... If your medical
+facilities were sufficient,
+
+155
+00:13:12,230 --> 00:13:14,800
+you'd already know what was
+killing your people.
+
+156
+00:13:20,250 --> 00:13:23,860
+Take good care of her.
+She is precious to us.
+
+157
+00:13:24,200 --> 00:13:25,180
+You have my word.
+
+158
+00:13:39,000 --> 00:13:43,820
+With your permission, I'd like Mr. Spock
+to remain behind and continue gathering
+information.
+
+159
+00:13:44,160 --> 00:13:48,200
+Of course. I will keep the transporter
+window open until his departure.
+
+160
+00:13:48,940 --> 00:13:51,840
+- They love you very much.
+- We are like family.
+
+161
+00:13:52,180 --> 00:13:53,493
+Dr. McCoy...
+
+162
+00:13:53,700 --> 00:14:01,798
+Sekara. When you arrive on board our ship,
+your eyes may work differently.
+
+163
+00:14:03,700 --> 00:14:08,000
+It may frighten you, but I promise
+you'll be safe. Do you understand?
+
+164
+00:14:42,800 --> 00:14:44,160
+KIRK:
+Are you all right, Sekara?
+
+165
+00:14:50,500 --> 00:14:52,420
+Do you see anything... strange?
+
+166
+00:14:53,160 --> 00:14:58,000
+No. Everything looks...
+
+167
+00:15:03,590 --> 00:15:08,560
+Wha.... What...
+
+168
+00:15:11,640 --> 00:15:12,640
+What is that?!
+
+169
+00:15:12,980 --> 00:15:15,200
+I'm Chief Engineer Scott, lass!
+
+170
+00:15:18,000 --> 00:15:19,790
+Captain!
+
+171
+00:15:20,150 --> 00:15:23,200
+- It's all right! It's called "color."
+- Just try to stay calm.
+
+172
+00:15:23,550 --> 00:15:27,000
+I... I don't... I...
+
+173
+00:15:28,320 --> 00:15:30,170
+Is it alive?
+
+174
+00:15:32,710 --> 00:15:37,700
+Look at me! Look at me. Keep your eyes on
+me. I know it's strange and frightening...
+
+175
+00:15:38,140 --> 00:15:40,000
+...but you're completely safe.
+
+176
+00:15:41,800 --> 00:15:43,150
+I promised, didn't I?
+
+177
+00:15:43,910 --> 00:15:46,000
+[SOBS]
+
+178
+00:15:58,130 --> 00:16:01,850
+So the cause of the illness and
+the monochromatic vision are
+one and the same?
+
+179
+00:16:02,190 --> 00:16:04,700
+Took a millenium or so for the
+star's radiotoxins to reach
+
+180
+00:16:05,040 --> 00:16:08,830
+levels high enough to induce acute
+radiation syndrome.
+
+181
+00:16:09,170 --> 00:16:12,920
+I've started Sekara's treatment...
+but it's too soon to tell.
+
+182
+00:16:13,260 --> 00:16:14,370
+How is she otherwise?
+
+183
+00:16:14,710 --> 00:16:19,705
+She's a million questions a minute.
+[LAUGHTER]
+"Color" this and "color" that!
+
+184
+00:16:20,510 --> 00:16:23,880
+I might have to sedate her just so
+I can get some peace and quiet.
+
+185
+00:16:24,220 --> 00:16:29,215
+Sekara is likely the first resident of Hyalinus
+to see color in over a millenium.
+
+186
+00:16:29,400 --> 00:16:32,550
+Even with their limited space travel,
+their shielding technology does not
+
+187
+00:16:32,890 --> 00:16:36,610
+filter out the solar radiation
+responsible for suppressing color vision.
+
+188
+00:16:36,950 --> 00:16:41,030
+As for its effects on the population,
+the illness will reoccur unless further
+
+189
+00:16:41,370 --> 00:16:44,170
+exposure to the solar radiation
+can be prevented.
+
+190
+00:16:44,510 --> 00:16:49,900
+The spectral signature of the
+Hyalinus sun can be altered using
+a modified stellar probe.
+
+191
+00:16:50,600 --> 00:16:52,940
+After that, we'll need to
+decontaminate the asteroid.
+
+192
+00:16:53,280 --> 00:16:56,200
+I recommend scanning their
+ecosystem -- starting with the plants.
+
+193
+00:16:56,740 --> 00:16:59,800
+Determine how deeply the
+radiation's permeated their food chain.
+
+194
+00:17:00,140 --> 00:17:05,130
+Mr. Sulu... You and Mr. Spock head
+back down to the surface. Take
+charge of the scans.
+
+195
+00:17:05,680 --> 00:17:07,090
+I understand you have a
+knack for botany.
+
+196
+00:17:07,430 --> 00:17:12,422
+Oh yes sir! I should introduce you to my
+carnivorous weeper, Gertrude.
+She's a beaut!
+
+197
+00:17:12,840 --> 00:17:16,870
+I'll also need to repair the cellular
+damage the radiotoxins have caused.
+
+198
+00:17:17,210 --> 00:17:19,100
+If Sekara's treatment works,
+I'll be able to synthesize
+
+199
+00:17:19,440 --> 00:17:22,370
+enough medicine for the
+entire population.
+
+200
+00:17:22,730 --> 00:17:26,150
+Captain, there is a new
+development.
+
+201
+00:17:26,490 --> 00:17:30,000
+While on Hyalinus, I captured
+several images with my tricorder.
+
+202
+00:17:31,850 --> 00:17:34,000
+SPOCK:
+This is how the Hyalini
+appear to each other.
+
+203
+00:17:37,240 --> 00:17:41,000
+Unlike eyes, however, the
+tricorder does not rely on cone cells.
+
+204
+00:17:51,180 --> 00:17:56,970
+The native inhabitants of this world all share
+the same genotype for pigmentation. However...
+
+205
+00:18:05,850 --> 00:18:09,190
+Are you saying Sekara is not
+from Hyalinus?
+
+206
+00:18:09,830 --> 00:18:16,810
+She is an alien. Furthermore, a global
+bioscan indicates 27.2 percent of the
+population are as well.
+
+207
+00:18:18,450 --> 00:18:22,330
+Maybe it's a rare genetic
+anomaly, Spock?
+
+208
+00:18:22,690 --> 00:18:26,160
+No, doctor. This is but one of
+numerous disparities.
+
+209
+00:18:26,510 --> 00:18:30,080
+They share a common
+ancestor with the Hyalini, but
+these individuals
+
+210
+00:18:30,420 --> 00:18:35,100
+are unquestionably a race not
+currently native to Hyalinus.
+
+211
+00:18:36,800 --> 00:18:37,810
+Kirk to bridge.
+
+212
+00:18:38,150 --> 00:18:41,210
+- Uhura here.
+- Lieutenant, search the belt for any indication
+
+213
+00:18:41,550 --> 00:18:46,130
+of another inhabited asteroid.
+Anything our sensors may have missed.
+
+214
+00:18:46,470 --> 00:18:49,390
+We'll have to run a full sweep...
+including non-subspace carrier waves.
+
+215
+00:18:49,770 --> 00:18:52,780
+- How long?
+- Could be days. Maybe more.
+
+216
+00:18:53,360 --> 00:18:55,750
+Palmer's an expert at countering
+solar interference.
+
+217
+00:18:56,100 --> 00:18:59,050
+I'll have her modify the sensors.
+Create a targeted scan.
+
+218
+00:18:59,510 --> 00:19:01,000
+Thank you. Get on it.
+
+219
+00:19:03,730 --> 00:19:06,640
+SPOCK:
+Captain, a word. Counselor?
+
+220
+00:19:07,980 --> 00:19:11,580
+I have found Dr. McKennah's
+insight to be... beneficial.
+
+221
+00:19:11,920 --> 00:19:14,090
+Sekara appears to trust the captain.
+
+222
+00:19:14,430 --> 00:19:19,100
+Do you believe it would be wise to
+confront her about her origins?
+
+223
+00:19:19,710 --> 00:19:25,250
+Not yet. We don't know who she is...
+or what she knows. And she might not
+even know herself.
+
+224
+00:19:26,750 --> 00:19:29,820
+Well... a civilization like the
+Hyalini -- bent on self-imposed
+
+225
+00:19:30,160 --> 00:19:33,910
+moral isolation -- would never allow
+aliens to live on their world.
+
+226
+00:19:34,250 --> 00:19:37,580
+Unless they don't know there ARE
+aliens living on their world.
+
+227
+00:19:43,120 --> 00:19:45,180
+KIRK (VO):
+Captain's log, supplemental.
+
+228
+00:19:45,520 --> 00:19:49,940
+After two days of treatment,
+Dr. McCoy reports that Sekara has
+responded exceptionally well.
+
+229
+00:19:50,280 --> 00:19:52,420
+But our search for
+her people's origin continues.
+
+230
+00:19:52,760 --> 00:19:54,900
+Hoping to find some clues to the mystery,
+
+231
+00:19:55,240 --> 00:20:00,210
+I've engaged Sekara in
+several conversations about her
+past... learning only that she was
+
+232
+00:20:00,750 --> 00:20:05,723
+born on Hyalinus, and orphaned at an 
+early age. [DOOR CHIME] Come.
+
+233
+00:20:11,650 --> 00:20:17,710
+I, um... I wanted you to know where to find
+me in case you desired to talk again.
+
+234
+00:20:17,950 --> 00:20:22,940
+Yes. Dr. McCoy said he moved you
+to guest quarters. Better than
+being trapped in sickbay.
+
+235
+00:20:24,120 --> 00:20:30,380
+Well... better for HIM, I'm certain.
+I had many questions.
+
+236
+00:20:30,720 --> 00:20:32,570
+Would you like to come in?
+
+237
+00:20:33,110 --> 00:20:42,540
+Oh, no. I mean yes... but no if
+you're busy. But as for wanting to... yes.
+
+238
+00:20:42,880 --> 00:20:48,250
+But of course no if you don't
+also, but... but if you do then yes
+I... I would very a lot.
+
+239
+00:20:50,460 --> 00:20:52,450
+Please come in.
+
+240
+00:20:57,610 --> 00:20:59,440
+You must think I'm ridiculous.
+
+241
+00:20:59,780 --> 00:21:07,390
+I like ridiculous. I like it "very a lot."
+[LAUGHTER]
+How have you been enjoying color?
+
+242
+00:21:08,370 --> 00:21:16,210
+Oh, color! Color is incredible! At first,
+I couldn't make sense of it. But now...
+
+243
+00:21:16,550 --> 00:21:18,440
+it astounds me!
+
+244
+00:21:18,880 --> 00:21:23,160
+There are so many of them!
+I'm learning their names.
+
+245
+00:21:24,310 --> 00:21:35,300
+That is called "green." And the door is "blue."
+ And... and this is "yellow."
+
+246
+00:21:44,260 --> 00:21:45,750
+"Red."
+
+247
+00:21:48,690 --> 00:21:50,270
+"Red."
+
+248
+00:21:51,870 --> 00:21:56,260
+Once we repair your sun, everyone
+on Hyalinus will see color.
+
+249
+00:21:56,890 --> 00:21:59,830
+The initial shock may cause a
+great deal of chaos.
+
+250
+00:22:00,170 --> 00:22:04,340
+We'll work with your people
+to prepare them so they won't be afraid.
+
+251
+00:22:04,680 --> 00:22:09,652
+And I can help! I want to share my
+experiences with everyone.
+
+252
+00:22:10,060 --> 00:22:19,040
+But there's still so much I don't understand.
+Like... what is it for?
+What is the purpose of color?
+
+253
+00:22:20,670 --> 00:22:29,350
+Well... color provides variety.
+Vibrance. Beauty.
+
+254
+00:22:31,410 --> 00:22:39,380
+It arouses the senses...
+stirs the emotions.
+
+255
+00:22:42,300 --> 00:22:47,180
+Like poetry for the eyes.
+
+256
+00:23:11,250 --> 00:23:15,500
+- Purple. 
+- Hm?
+
+257
+00:23:16,040 --> 00:23:19,030
+The color of your hair.
+
+258
+00:23:21,880 --> 00:23:23,037
+[INTERCOM WHISTLES]
+
+259
+00:23:23,200 --> 00:23:26,812
+SMITH:
+Captain Kirk to the bridge!
+Captain Kirk to the bridge.
+
+260
+00:23:30,620 --> 00:23:33,990
+I'll be back.
+You're welcome to stay.
+
+261
+00:23:44,470 --> 00:23:45,880
+Purple.
+
+262
+00:23:57,040 --> 00:24:00,780
+- She found them, sir.
+- Radio signals coming from an asteroid in the inner belt.
+
+263
+00:24:01,120 --> 00:24:02,600
+Do you know anything
+about it? Population?
+
+264
+00:24:02,940 --> 00:24:04,500
+Not yet.
+I'm working on it, sir.
+
+265
+00:24:04,840 --> 00:24:05,810
+Captain, proximity alert!
+
+266
+00:24:06,150 --> 00:24:09,740
+SMITH:
+Confirmed. I'm reading two small shuttlepods
+approaching Hyalinus at half impulse.
+
+267
+00:24:10,080 --> 00:24:11,060
+On screen.
+
+268
+00:24:16,140 --> 00:24:18,850
+Trajectory suggests they're from
+the other asteroid.
+
+269
+00:24:19,190 --> 00:24:22,400
+Scans indicate wessels don't
+have any "big sticks," sir.
+
+270
+00:24:22,600 --> 00:24:25,400
+- What was that, lieutenant?
+- Uh... they are unarmed.
+
+271
+00:24:25,527 --> 00:24:28,189
+They barely look space-worthy!
+
+272
+00:24:29,490 --> 00:24:33,440
+Captain, I read six humanoid
+life forms... in EACH.
+
+273
+00:24:33,780 --> 00:24:38,420
+Six in each? At half impulse? My God!
+How long have they been...?
+
+274
+00:24:38,760 --> 00:24:42,000
+Captain, Hyalinus' automated platforms have 
+activated. They're charging weapons!
+
+275
+00:24:42,340 --> 00:24:43,680
+Red alert.
+
+276
+00:25:02,110 --> 00:25:03,220
+Uhura, hail the Hyalini.
+
+277
+00:25:03,560 --> 00:25:07,300
+One of the weapons platforms is
+targeting the shuttlepods, captain.
+
+278
+00:25:08,050 --> 00:25:09,400
+Lieutenant?
+
+279
+00:25:09,940 --> 00:25:12,800
+No response from the council, sir.
+
+280
+00:25:14,360 --> 00:25:17,020
+Charge phaser banks.
+Lock onto that platform.
+
+281
+00:25:17,860 --> 00:25:18,850
+Platform firing!
+
+282
+00:25:31,830 --> 00:25:33,210
+Phasers locked.
+
+283
+00:25:33,750 --> 00:25:34,610
+Fire.
+
+284
+00:25:46,660 --> 00:25:49,000
+Defense platform destroyed.
+
+285
+00:25:49,720 --> 00:25:53,540
+SMITH:
+The shuttlepods are turning around.
+They're retreating, sir.
+
+286
+00:25:53,880 --> 00:25:58,140
+Cancel red alert.
+Uhura, get me Hyalinus.
+
+287
+00:25:58,480 --> 00:26:03,220
+They're hailing US, captain. They demand
+an explanation for the destruction
+of their platform.
+
+288
+00:26:03,560 --> 00:26:05,600
+THEY demand...?!
+
+289
+00:26:05,952 --> 00:26:11,400
+I'll meet with them in an hour. In the meantime,
+get me information on that other asteroid.
+
+290
+00:26:11,510 --> 00:26:13,484
+Smith, you've got the conn.
+
+291
+00:26:29,020 --> 00:26:33,998
+Why did your people try to destroy
+two unarmed shuttles carrying
+twelve passengers?
+
+292
+00:26:42,440 --> 00:26:45,800
+They are Abicians.
+For decades, they've been trying to
+
+293
+00:26:46,140 --> 00:26:51,000
+sneak onto Hyalinus to escape the
+consequences of their own savagery.
+
+294
+00:26:51,340 --> 00:26:55,050
+They lie and conceal their identities
+so that they can benefit from the
+
+295
+00:26:55,390 --> 00:26:58,460
+peace and prosperity that we've
+worked to achieve.
+
+296
+00:26:59,070 --> 00:27:01,340
+One which they have NOT
+earned themselves.
+
+297
+00:27:01,680 --> 00:27:05,020
+Is it a crime to want to live
+peacefully, Sekara?
+
+298
+00:27:05,560 --> 00:27:09,230
+Are they criminals?
+Or are they refugees?
+
+299
+00:27:10,670 --> 00:27:12,560
+They are INVADERS.
+
+300
+00:27:13,000 --> 00:27:15,670
+Who attack in tiny, unarmed ships.
+
+301
+00:27:15,990 --> 00:27:20,160
+We are not heartless, captain. They have
+given us reason to fear them.
+
+302
+00:27:20,500 --> 00:27:23,600
+I find that hard to believe.
+
+303
+00:27:24,270 --> 00:27:31,150
+How can you stand in judgment of me...
+of my people... for something
+that you know NOTHING about?!
+
+304
+00:27:32,590 --> 00:27:35,760
+My parents were MURDERED by Abicians!
+
+305
+00:27:39,890 --> 00:27:41,040
+I'm sorry.
+
+306
+00:27:44,880 --> 00:27:48,050
+It's all too easy to criticize
+the policies of another...
+
+307
+00:27:49,060 --> 00:27:52,800
+...until you lose someone
+those policies could have saved.
+
+308
+00:27:55,390 --> 00:28:01,480
+Please tell me, Sekara. I want to understand.
+I need to understand.
+
+309
+00:28:02,090 --> 00:28:05,000
+Their world is in turmoil.
+
+310
+00:28:05,480 --> 00:28:09,460
+Territories perpetually at war.
+Technological innovation fueled solely
+
+311
+00:28:09,800 --> 00:28:13,660
+by the desire to build better,
+more lethal weapons.
+
+312
+00:28:14,290 --> 00:28:19,000
+They have squandered their natural resources
+and polluted their world in the process.
+
+313
+00:28:20,310 --> 00:28:22,280
+And your parents?
+
+314
+00:28:22,620 --> 00:28:29,590
+My parents were part of a diplomatic
+envoy sent to help. To show the
+Abicians a better way to live.
+
+315
+00:28:31,480 --> 00:28:39,440
+Their ship returned to Hyalinus on
+auto-pilot... and all eighteen people
+on board were killed.
+
+316
+00:28:43,160 --> 00:28:48,143
+I was ten years old.
+[SOBS]
+
+317
+00:28:49,380 --> 00:28:51,000
+I can't imagine.
+
+318
+00:28:54,260 --> 00:29:00,260
+Those people who killed your
+parents are barbarians...
+
+319
+00:29:02,600 --> 00:29:06,000
+...but that doesn't mean they
+ALL are, does it?
+
+320
+00:29:06,590 --> 00:29:11,561
+You assume that they think like
+us, captain. They do not.
+
+321
+00:29:11,960 --> 00:29:15,710
+They do not respect our laws.
+They do not value knowledge or honesty...
+
+322
+00:29:16,050 --> 00:29:20,280
+...and they do not question their
+conscience before turning to violence.
+
+323
+00:29:20,620 --> 00:29:22,450
+Have you ever met an Abician?
+
+324
+00:29:22,790 --> 00:29:27,100
+No. We've managed to keep them off
+our world, thankfully.
+
+325
+00:29:30,600 --> 00:29:35,000
+You're wrong.
+There are many on Hyalinus.
+
+326
+00:29:36,420 --> 00:29:39,000
+"Many"? That's impossible.
+
+327
+00:29:39,340 --> 00:29:42,000
+Hundreds of thousands.
+
+328
+00:29:42,540 --> 00:29:48,130
+They look like the Hyalini... unless you see color.
+
+329
+00:29:55,330 --> 00:29:59,000
+Your hair, your skin...
+
+330
+00:29:59,830 --> 00:30:06,800
+YOU are Abician.
+Your parents were Abician.
+
+331
+00:30:07,900 --> 00:30:11,690
+She is no stranger.
+You're still you!
+
+332
+00:30:12,030 --> 00:30:14,000
+N... no! No!
+
+333
+00:30:14,960 --> 00:30:17,540
+If you don't trust what you see,
+trust what I see!
+
+334
+00:30:18,880 --> 00:30:21,100
+The woman in that mirror is brilliant!
+
+335
+00:30:21,980 --> 00:30:24,130
+She's curious, honest, kind...
+
+336
+00:30:25,870 --> 00:30:32,420
+...beautiful inside and out.
+Look. Look at her.
+
+337
+00:30:34,760 --> 00:30:41,210
+She's you, Sekara! And you are the
+opposite of what you believe --
+
+338
+00:30:41,550 --> 00:30:45,990
+of what you've been told --
+Abicians are.
+
+339
+00:31:05,000 --> 00:31:10,250
+Captain. Hyalinus has the most amazing
+plant life, sir. Look!
+
+340
+00:31:10,990 --> 00:31:14,650
+I've never seen a flower with
+anthers like this one before. You
+can't actually SEE the anthers...
+
+341
+00:31:14,990 --> 00:31:19,140
+Not now, Sulu. There's been an
+incident. They'll fill you in on
+the ship. Both of you.
+
+342
+00:31:19,480 --> 00:31:21,070
+- I apologize, sir.
+- It's all right. What have you found?
+
+343
+00:31:21,410 --> 00:31:26,510
+Well, according to Mr. Sulu's readings,
+the Hyalini food chain has been
+affected at almost every level.
+
+344
+00:31:26,850 --> 00:31:28,500
+But there is no
+permanent mutation.
+
+345
+00:31:28,840 --> 00:31:33,350
+Exactly. Once we're through here,
+future generations should grow
+healthy and normal.
+
+346
+00:31:33,690 --> 00:31:36,290
+Good work. Prepare a
+decontamination sweep.
+
+347
+00:31:36,660 --> 00:31:39,600
+- Aye, sir. 
+- And Sulu...
+
+348
+00:31:40,720 --> 00:31:42,500
+...You forgot something.
+
+349
+00:31:53,700 --> 00:31:57,700
+KIRK:
+If we modify your star, you'll see
+your world in a whole new way.
+
+350
+00:31:58,510 --> 00:32:02,550
+And -- based on what we've just
+witnessed -- I'm not sure you're ready for it.
+
+351
+00:32:06,690 --> 00:32:11,540
+Must we justify our actions to you?
+Are we obliged to meet some
+
+352
+00:32:11,880 --> 00:32:16,180
+arbitrary moral standard set by
+Starfleet in order to receive your help?
+
+353
+00:32:16,520 --> 00:32:21,990
+No. But killing defenseless people seems to
+contradict the moral standard you've
+set for yourselves.
+
+354
+00:32:22,990 --> 00:32:29,840
+Captain, we didn't kill them.
+Perhaps we... we just wanted to give
+them an incentive to turn back.
+
+355
+00:32:30,230 --> 00:32:32,000
+And what if they hadn't?
+
+356
+00:32:32,680 --> 00:32:38,410
+Those twelve Abicians are but a fraction of the
+unrelenting hoard assaulting our world every day.
+
+357
+00:32:38,750 --> 00:32:43,790
+"Assaulting"? They're willing to DIE for the
+chance to live where they can be
+safe and free!
+
+358
+00:32:44,430 --> 00:32:47,000
+Why not help them instead of
+shooting at them?
+
+359
+00:32:47,340 --> 00:32:53,000
+Because granting entrance to some
+is an invitation for all. They would
+overrun our world.
+
+360
+00:32:53,650 --> 00:32:58,635
+Captain, we have limited resources.
+We're struggling to feed our own people.
+
+361
+00:32:59,410 --> 00:33:04,000
+I appreciate your dilemma, madam.
+And I'm not suggesting that you
+open your borders
+
+362
+00:33:04,340 --> 00:33:08,500
+to just anyone... especially those
+who pose a legitimate threat.
+
+363
+00:33:09,610 --> 00:33:12,000
+But your defense system is excessive.
+
+364
+00:33:12,340 --> 00:33:15,190
+You are not qualified to make that
+judgment, captain.
+
+365
+00:33:15,530 --> 00:33:20,410
+Abicians are vulgar, selfish, and
+violent. They are a scourge...
+
+366
+00:33:20,920 --> 00:33:24,000
+...and we've gone to great lengths to
+keep them off our world.
+
+367
+00:33:25,000 --> 00:33:27,100
+What if they were already here?
+
+368
+00:33:27,440 --> 00:33:28,600
+But they're NOT here.
+
+369
+00:33:30,290 --> 00:33:33,430
+But what if they were?
+How would you know?
+
+370
+00:33:34,270 --> 00:33:38,760
+There was a time -- decades ago -- when
+we suspected the Abicians had come...
+
+371
+00:33:39,100 --> 00:33:45,160
+...because there was a dramatic rise in violent crime.
+But, once we activated our defense grid,
+
+372
+00:33:45,500 --> 00:33:49,130
+the crime rate receded.
+That is a FACT, captain. Not opinion.
+
+373
+00:33:49,470 --> 00:33:55,700
+Which only proves that SOME Abicians
+are criminals. You can't condemn
+the many for the crimes of the few!
+
+374
+00:33:56,040 --> 00:33:59,340
+I don't "condemn." The Abicians
+are free to live wherever they please...
+
+375
+00:33:59,680 --> 00:34:04,060
+...as long as it's on their own world.
+But if they come here, I will do
+what is necessary
+
+376
+00:34:04,400 --> 00:34:09,290
+to keep my people safe. Just as YOU would
+if it were your crew or your family.
+
+377
+00:34:09,630 --> 00:34:14,700
+Safety and compassion are not mutually exclusive.
+Conscience requires balance.
+
+378
+00:34:14,940 --> 00:34:17,650
+That's fundamental to the
+philosophy of the Federation!
+
+379
+00:34:17,990 --> 00:34:19,000
+Captain.
+
+380
+00:34:20,940 --> 00:34:26,300
+What is Starfleet's
+"General Order Number One"?
+
+381
+00:34:28,000 --> 00:34:32,650
+The non-interference directive.
+The ethical principle that prohibits
+
+382
+00:34:32,990 --> 00:34:35,650
+members of Starfleet from interfering with
+
+383
+00:34:35,990 --> 00:34:38,350
+the natural development of
+pre-warp civilizations.
+
+384
+00:34:38,690 --> 00:34:42,800
+And does it apply even if you know
+your interference would be beneficial?
+
+385
+00:34:44,500 --> 00:34:45,130
+Yes.
+
+386
+00:34:45,470 --> 00:34:50,160
+Yes. And have there been cases
+in which upholding this
+"ethical principle" resulted
+
+387
+00:34:50,500 --> 00:34:54,000
+in the death of an entire population...
+even though you could have saved them?
+
+388
+00:34:54,340 --> 00:34:55,260
+Yes, but...
+
+389
+00:34:55,600 --> 00:35:02,580
+So for you, this abstract idea is more
+important than a planet full of living,
+breathing people.
+
+390
+00:35:04,320 --> 00:35:09,710
+And you stand here before me, lecturing
+me about "compassion." About "balance."
+
+391
+00:35:10,690 --> 00:35:15,000
+You condemn the many for the
+crimes of NONE.
+
+392
+00:35:16,600 --> 00:35:18,780
+Who do you think you are?
+
+393
+00:35:29,990 --> 00:35:33,600
+KIRK (VO):
+Captain's log, supplemental. The stellar probe
+will be ready to launch shortly,
+
+394
+00:35:33,940 --> 00:35:37,560
+and Mr. Spock and Sulu are
+preparing their decontamination
+sweep of Hyalinus.
+
+395
+00:35:37,900 --> 00:35:40,590
+The Inner Council is overjoyed to
+hear of our success.
+
+396
+00:35:40,930 --> 00:35:44,500
+Yet I find myself unable to
+share in that joy.
+
+397
+00:35:45,260 --> 00:35:47,570
+Captain, are you angry because you
+think the Hyalini are wrong?
+
+398
+00:35:47,990 --> 00:35:51,790
+Or because they might be right about the
+threat the Abicians pose?
+
+399
+00:35:52,130 --> 00:35:55,200
+The threat THEY pose? Doctor, when
+we launch that probe,
+
+400
+00:35:55,540 --> 00:35:59,470
+the Hyalini will see in full,
+revealing color.
+
+401
+00:36:00,110 --> 00:36:02,380
+What'll happen to the Abicians
+once they can be identified?
+
+402
+00:36:02,720 --> 00:36:06,990
+Do you really believe they're capable
+of harming Abicians who've lived
+among them for years?
+
+403
+00:36:07,330 --> 00:36:11,943
+They don't have to be. All they have to do
+is round them up and send them back...
+
+404
+00:36:12,260 --> 00:36:16,200
+...and wash their hands of what
+happens next. THAT'S why I'm angry.
+
+405
+00:36:17,330 --> 00:36:26,310
+Sir, you've been in situations
+like this before. But I wonder if
+this time it's not more... personal.
+
+406
+00:36:28,600 --> 00:36:34,480
+I don't think you're angry. I think you're afraid.
+
+407
+00:36:36,360 --> 00:36:38,050
+Afraid for Sekara.
+
+408
+00:36:40,410 --> 00:36:45,570
+You care for her. Perhaps more deeply
+than you want to admit.
+
+409
+00:36:50,560 --> 00:36:55,650
+With all their piety, they've no problem
+turning their backs on
+
+410
+00:36:55,990 --> 00:36:59,420
+desperate people with
+nowhere else to go.
+
+411
+00:36:59,760 --> 00:37:01,990
+They take help, but they
+refuse to give it.
+
+412
+00:37:05,690 --> 00:37:09,220
+Begs the question of whether they
+deserve our aid at all.
+
+413
+00:37:11,240 --> 00:37:14,390
+So, is it justice for us to
+deny THEM aid?
+
+414
+00:37:14,730 --> 00:37:18,910
+To turn OUR backs on desperate
+people with nowhere else to go?
+
+415
+00:37:23,030 --> 00:37:25,400
+Nowhere else to go...
+
+416
+00:37:28,620 --> 00:37:29,900
+Thank you, doctor.
+
+417
+00:37:36,680 --> 00:37:38,750
+Damn. I'm good.
+
+418
+00:37:51,990 --> 00:37:57,150
+And here we have engineering.
+This is where Mr. Scott lives.
+
+419
+00:37:58,000 --> 00:38:02,520
+I dunnah spend all my time here.
+There's also the transporter room.
+
+420
+00:38:03,490 --> 00:38:06,000
+Sekara asked me to show her around.
+
+421
+00:38:06,590 --> 00:38:08,800
+Is this the device that will fix
+our star?
+
+422
+00:38:09,150 --> 00:38:13,000
+Aye. It's the only solar probe I've got,
+so we're leaving nothing to chance.
+
+423
+00:38:13,340 --> 00:38:15,300
+How'd ya like to see
+the warp engines?
+
+424
+00:38:15,640 --> 00:38:18,640
+No... I can show her, commander.
+You've got work to do.
+
+425
+00:38:19,000 --> 00:38:20,800
+I've always got time for a
+lovely lass, lieutenant.
+
+426
+00:38:21,140 --> 00:38:23,170
+Yes... the engines are this way!
+
+427
+00:38:29,690 --> 00:38:31,650
+Young lady, that's a very
+dangerous tool.
+
+428
+00:38:32,990 --> 00:38:37,660
+I know. Stay back! I'll fire!
+
+429
+00:38:38,010 --> 00:38:42,650
+If something were to happen to
+that probe, it would take a great
+deal of time to get another.
+
+430
+00:38:42,990 --> 00:38:47,562
+SEKARA ON COMM: Yes. It will.
+SCOTT ON COMM: Your people cannae afford to wait!
+
+431
+00:38:47,990 --> 00:38:52,440
+Sekara! Why destroy something that
+will save your world?
+
+432
+00:38:52,780 --> 00:38:54,750
+Because of what
+will happen next!
+
+433
+00:38:56,000 --> 00:39:00,800
+People will turn on each other,
+afraid of what they don't understand.
+
+434
+00:39:01,140 --> 00:39:03,450
+They won't see friends and neighbors.
+
+435
+00:39:03,990 --> 00:39:07,040
+They'll see the brutes and thieves
+they've heard about.
+
+436
+00:39:08,180 --> 00:39:10,220
+They'll see Abicians.
+
+437
+00:39:12,260 --> 00:39:13,800
+We need more time!
+
+438
+00:39:18,030 --> 00:39:23,930
+Help us find another way to fix our sun.
+One that won't change how we see...
+or who we are...
+
+439
+00:39:25,270 --> 00:39:27,500
+There is no other way.
+
+440
+00:39:29,640 --> 00:39:34,350
+Destroying the probe will only delay the inevitable.
+[SOBS]
+
+441
+00:39:35,690 --> 00:39:38,900
+And could you really go back to a
+world without color?
+
+442
+00:39:49,660 --> 00:39:52,000
+I feel so powerless!
+
+443
+00:39:52,970 --> 00:39:57,000
+So terrified of the people I will
+return home to.
+
+444
+00:39:58,560 --> 00:40:01,000
+Their eyes will change,
+
+445
+00:40:01,670 --> 00:40:04,630
+but their hearts may not.
+
+446
+00:40:07,520 --> 00:40:09,470
+You're not powerless.
+
+447
+00:40:11,810 --> 00:40:16,990
+You're the one person with the
+power to change the hearts of your leaders.
+
+448
+00:40:19,000 --> 00:40:22,700
+Galisti and Thaius love you very much.
+
+449
+00:40:24,110 --> 00:40:31,110
+Sekara... you're living proof that the
+Abicians aren't a race of savages.
+
+450
+00:40:32,630 --> 00:40:37,210
+That they, too, have the same hopes
+and dreams of becoming more.
+
+451
+00:40:55,700 --> 00:40:59,130
+Friends, the Hyalini offer their
+heartfelt gratitude.
+
+452
+00:40:59,570 --> 00:41:04,000
+Today is the beginning of a bright
+new future for all of my people. We...
+
+453
+00:41:04,340 --> 00:41:07,220
+- Some.
+- I beg your pardon?
+
+454
+00:41:07,560 --> 00:41:10,260
+Today is the beginning of a bright
+new future for SOME of your people.
+
+455
+00:41:10,600 --> 00:41:14,000
+For others, it may be the
+beginning of the end.
+
+456
+00:41:15,990 --> 00:41:19,040
+There are Abicians among you.
+Many of them.
+
+457
+00:41:19,580 --> 00:41:22,750
+If we repair your sun, you'll see
+for yourself.
+
+458
+00:41:26,690 --> 00:41:32,650
+You would have us doubt our
+resolve. Is the captain trying to
+hold our salvation hostage?
+
+459
+00:41:32,990 --> 00:41:38,350
+Refusing to launch the stellar
+probe until you've had the final word?
+Is that your plan?
+
+460
+00:41:38,710 --> 00:41:44,610
+No... but it's a pretty good one.
+I think I'll borrow it.
+
+461
+00:41:50,740 --> 00:41:55,180
+I wonder if you realize the
+peace... prosperity...
+
+462
+00:41:55,520 --> 00:41:58,660
+...the unity of your people is
+truly extraordinary.
+
+463
+00:41:59,000 --> 00:42:03,800
+You've accomplished in a few short
+centuries what took our people millenia.
+
+464
+00:42:04,140 --> 00:42:07,500
+Indeed, council leader. Such is
+the fact with many worlds we
+encounter.
+
+465
+00:42:07,840 --> 00:42:12,360
+Your people were unified...
+transformed by the hope that, one day,
+
+466
+00:42:12,700 --> 00:42:16,400
+they would be worthy enough to
+join the community of the stars.
+
+467
+00:42:17,340 --> 00:42:19,130
+KIRK:
+The Hope of the Hyalini.
+
+468
+00:42:22,100 --> 00:42:25,800
+How will your people know when
+they've achieved worthiness?
+
+469
+00:42:26,140 --> 00:42:29,000
+What does it mean to be "worthy"?
+
+470
+00:42:30,140 --> 00:42:33,700
+Well, that's the problem.
+There is no ONE answer.
+
+471
+00:42:34,490 --> 00:42:37,800
+An undefined finish line means
+you never have to finish!
+
+472
+00:42:38,140 --> 00:42:42,000
+Your people will never have to
+leave the safety -- the comfort --
+of what they know.
+
+473
+00:42:44,000 --> 00:42:52,660
+There's an old saying: "A ship in the harbor
+is safe. But that's not what ships are for."
+
+474
+00:42:54,540 --> 00:42:59,530
+The greatest fear of all is the fear of the
+unknown. Will you let that fear define you?
+
+475
+00:42:59,870 --> 00:43:03,790
+Hide behind weapons and barriers? Vilify strangers?
+
+476
+00:43:04,130 --> 00:43:09,000
+The very people that your Hope
+calls upon you to strive to embrace?
+
+477
+00:43:09,400 --> 00:43:15,400
+Do you serve the Hope? Or have you
+twisted it to serve YOU?
+
+478
+00:43:18,460 --> 00:43:24,190
+There comes a moment in the life of every
+world when its people must choose
+whom they wish to become.
+
+479
+00:43:27,120 --> 00:43:30,800
+This is your moment.
+
+480
+00:43:37,600 --> 00:43:39,920
+NOW will you launch the probe?
+
+481
+00:43:49,740 --> 00:43:52,500
+We launched the probe
+twenty minutes ago.
+
+482
+00:43:53,830 --> 00:43:58,420
+If it was successful, the effects
+should become apparent any moment now.
+
+483
+00:44:00,070 --> 00:44:04,040
+Our world is about to
+change forever.
+
+484
+00:44:06,550 --> 00:44:11,950
+But my love for you will
+never, ever, ever change.
+
+485
+00:44:12,670 --> 00:44:15,510
+Oh, my dearest.
+
+486
+00:44:38,530 --> 00:44:40,830
+Oh! Oh... it's magnificent!
+
+487
+00:44:53,380 --> 00:45:01,990
+Long have I wanted to tell you.
+But the thought of you forsaking
+me was too much to bear.
+
+488
+00:45:04,310 --> 00:45:05,760
+This has all been a lie!
+
+489
+00:45:06,100 --> 00:45:10,347
+No! Oh, no. It's not a lie. I'm still me!
+
+490
+00:45:10,600 --> 00:45:16,977
+My love for you is not a lie!
+I'm still the same person!
+[SOBS]
+
+491
+00:45:19,910 --> 00:45:24,297
+No! NO!
+[SOBS]
+
+492
+00:45:26,710 --> 00:45:28,260
+This changes nothing!
+
+493
+00:45:29,600 --> 00:45:31,910
+Even with new vision,
+do you still not see?
+
+494
+00:45:32,250 --> 00:45:36,250
+Captain, commence the
+decontamination sweep of Hyalinus!
+
+495
+00:45:37,090 --> 00:45:40,120
+About that... I'm afraid we won't have the time.
+
+496
+00:45:41,460 --> 00:45:45,040
+The Enterprise has been called
+away to urgent business on Daran Five.
+
+497
+00:45:46,380 --> 00:45:48,000
+You would let us all die?
+
+498
+00:45:49,110 --> 00:45:52,200
+As it turns out, our scans
+indicate that the Abicians have the
+
+499
+00:45:52,540 --> 00:45:55,660
+decontamination technology
+that you require.
+
+500
+00:45:56,000 --> 00:45:57,950
+And why would they help us?
+
+501
+00:45:58,990 --> 00:46:02,960
+Because you have something they need.
+We fixed your sun...
+
+502
+00:46:03,300 --> 00:46:06,700
+...and they have the ability to sweep the
+residual effects of the radiation
+
+503
+00:46:07,040 --> 00:46:11,470
+from both worlds. But their people
+need medicine just like yours do.
+
+504
+00:46:11,810 --> 00:46:14,050
+I took the liberty of synthesizing
+double the amount.
+
+505
+00:46:14,390 --> 00:46:17,990
+There's enough here to
+cure both worlds -- Abicius and Hyalinus.
+
+506
+00:46:18,340 --> 00:46:22,140
+Has it ever occurred to you that
+their civilization could be
+suffering the same fate as yours?
+
+507
+00:46:22,480 --> 00:46:26,600
+Given the Abicians' proximity to your sun,
+they experienced the radiation's ill effects
+
+508
+00:46:27,040 --> 00:46:31,680
+generations before Hyalinus.
+Illness, food shortage...
+
+509
+00:46:32,020 --> 00:46:37,300
+It is no wonder their world has fallen into
+chaos and war. They are what you
+would become.
+
+510
+00:46:39,320 --> 00:46:41,280
+Please!
+
+511
+00:46:41,820 --> 00:46:47,110
+Don't make us
+beg help from THEM!
+
+512
+00:47:11,760 --> 00:47:16,010
+There is no "them" any more, my dear.
+
+513
+00:47:16,350 --> 00:47:18,000
+Only "us."
+
+514
+00:48:59,300 --> 00:49:01,300
+[English subtitles by:
+Lisa Hansell]
+

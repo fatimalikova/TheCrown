@@ -1,0 +1,7343 @@
+1
+00:00:43,040 --> 00:00:44,560
+Niagara Falls.
+
+2
+00:00:44,600 --> 00:00:49,280
+Is there a better demonstration of the sheer power of nature?
+
+3
+00:00:49,320 --> 00:00:51,040
+When I first saw this view,
+
+4
+00:00:51,080 --> 00:00:54,360
+I was inspired to build my Niagara Generator,
+
+5
+00:00:54,400 --> 00:00:58,200
+and now these waters power a city.
+
+6
+00:00:59,160 --> 00:01:01,600
+But there's so much more in nature
+
+7
+00:01:01,640 --> 00:01:04,080
+that cannot be seen by the naked eye,
+
+8
+00:01:04,120 --> 00:01:08,040
+forces invisible to us which animate the universe.
+
+9
+00:01:08,080 --> 00:01:12,400
+And they were hidden from our understanding... until now.
+
+10
+00:01:13,560 --> 00:01:16,840
+Gentlemen, I, Nikola Tesla...
+
+11
+00:01:17,560 --> 00:01:20,960
+...have invited you here to pull back the curtain.
+
+12
+00:01:22,960 --> 00:01:24,040
+Shall we begin?
+
+13
+00:01:25,600 --> 00:01:28,360
+- Observe, ladies and gentlemen.
+
+14
+00:01:31,040 --> 00:01:33,200
+I plan to harness these forces of nature
+
+15
+00:01:33,240 --> 00:01:35,480
+on a scale never seen before.
+
+16
+00:01:39,600 --> 00:01:41,760
+A world wireless system.
+
+17
+00:01:42,480 --> 00:01:46,600
+A way for each of us to reach beyond our immediate sphere
+
+18
+00:01:46,640 --> 00:01:49,440
+into every corner of the Earth.
+
+19
+00:01:51,240 --> 00:01:55,320
+I only require the small investment of 50,000.
+
+20
+00:01:55,360 --> 00:01:57,760
+50,000?
+
+21
+00:01:57,800 --> 00:02:00,040
+A small price to pay to transmit energy
+
+22
+00:02:00,080 --> 00:02:02,040
+through the ether with no wires.
+
+23
+00:02:02,080 --> 00:02:03,880
+You mean flying around in the air?
+
+24
+00:02:03,880 --> 00:02:06,440
+Poppycock! They're even more far-fetched than those
+
+25
+00:02:06,480 --> 00:02:08,480
+Mars stories that we've all been hearing about.
+
+26
+00:02:08,520 --> 00:02:10,120
+I'm sure you gentlemen know better than to believe
+
+27
+00:02:10,160 --> 00:02:11,360
+everything you read
+
+28
+00:02:11,400 --> 00:02:12,800
+- in the Times. - Thank you, Miss Skerritt,
+
+29
+00:02:12,800 --> 00:02:15,280
+but I did in fact receive a feeble electrical signal,
+
+30
+00:02:15,320 --> 00:02:18,520
+and I calculate it comes from Mars.
+
+31
+00:02:20,160 --> 00:02:23,880
+But that's not the focus of this project.
+
+32
+00:02:23,880 --> 00:02:28,000
+Mr Tesla, I'm not in the habit of investing in fairy tales.
+
+33
+00:02:28,040 --> 00:02:29,360
+Good day to you.
+
+34
+00:02:29,400 --> 00:02:33,320
+Mr Brady, sir, please! My work is not a fairy... tale.
+
+35
+00:02:37,000 --> 00:02:39,320
+I promise you, within about a year,
+
+36
+00:02:39,360 --> 00:02:41,760
+my Wardenclyffe project will be as real and functioning
+
+37
+00:02:41,800 --> 00:02:43,640
+as this very generator!
+
+38
+00:02:47,360 --> 00:02:49,080
+Mr Tesla?
+
+39
+00:02:50,080 --> 00:02:51,600
+We have an emergency.
+
+40
+00:02:58,280 --> 00:03:00,920
+Oh, dear. How did this happen?
+
+41
+00:03:00,960 --> 00:03:02,840
+I think an electric shock, miss.
+
+42
+00:03:02,880 --> 00:03:04,080
+What?
+
+43
+00:03:05,080 --> 00:03:06,800
+One of these machines must have killed him.
+
+44
+00:03:06,840 --> 00:03:07,680
+That's impossible.
+
+45
+00:03:07,720 --> 00:03:09,720
+All the apparatus here is perfectly safe.
+
+46
+00:03:11,200 --> 00:03:14,320
+Nonetheless, Mr Tesla will be happy to take a look.
+
+47
+00:03:14,360 --> 00:03:16,040
+After all, we can't have people thinking
+
+48
+00:03:16,080 --> 00:03:18,640
+there's some deadly flaw in your designs.
+
+49
+00:03:18,640 --> 00:03:19,920
+Can we, sir?
+
+50
+00:03:21,600 --> 00:03:22,640
+Very well.
+
+51
+00:03:23,960 --> 00:03:25,160
+I work alone!
+
+52
+00:03:42,480 --> 00:03:44,560
+Ah, Miss Skerritt!
+
+53
+00:03:44,600 --> 00:03:46,480
+I have solved the riddle!
+
+54
+00:03:46,520 --> 00:03:49,400
+Of course there is no flaw with my machinery.
+
+55
+00:03:49,440 --> 00:03:51,160
+Parts are missing.
+
+56
+00:03:51,160 --> 00:03:52,640
+We have a thief at work!
+
+57
+00:03:57,240 --> 00:03:58,480
+Miss Skerritt?
+
+58
+00:04:09,080 --> 00:04:10,240
+Hello?
+
+59
+00:04:11,280 --> 00:04:12,480
+Anybody there?
+
+60
+00:04:30,360 --> 00:04:31,760
+Incredible.
+
+61
+00:04:36,360 --> 00:04:38,080
+What is it?
+
+62
+00:04:39,080 --> 00:04:40,320
+I... I have no idea.
+
+63
+00:04:42,960 --> 00:04:44,480
+I thought the foreman went home.
+
+64
+00:04:44,480 --> 00:04:47,240
+Miss Skerritt, we need to leave now.
+
+65
+00:04:55,040 --> 00:04:56,280
+It's locked!
+
+66
+00:05:04,320 --> 00:05:05,440
+Oh. Hi!
+
+67
+00:05:05,480 --> 00:05:07,920
+I don't suppose you've seen anything weird around here?
+
+68
+00:05:07,960 --> 00:05:09,720
+Agh! I'll take that as a yes.
+
+69
+00:05:09,760 --> 00:05:11,040
+Mind if I join you?
+
+70
+00:05:15,520 --> 00:05:16,800
+It's Mr Brady.
+
+71
+00:05:16,840 --> 00:05:19,480
+Why would a potential investor be shooting at us?
+
+72
+00:05:19,480 --> 00:05:21,680
+More urgently, who shot him?
+
+73
+00:05:22,760 --> 00:05:23,760
+Run!
+
+74
+00:05:23,800 --> 00:05:26,720
+- Who are you? - Someone with a fast way out of here!
+
+75
+00:05:30,480 --> 00:05:33,600
+Here we go, perfect getaway vehicle!
+
+76
+00:05:33,600 --> 00:05:35,960
+Full speed, straight to New York.
+
+77
+00:05:36,000 --> 00:05:37,600
+What did I say?
+
+78
+00:05:37,640 --> 00:05:39,880
+Night train, right on schedule.
+
+79
+00:05:39,880 --> 00:05:41,960
+Did you find out what was causing this energy thing, then?
+
+80
+00:05:42,000 --> 00:05:44,080
+No, but I found these two.
+
+81
+00:05:44,880 --> 00:05:47,880
+Welcome aboard the Orient Express! We travel in style.
+
+82
+00:05:47,920 --> 00:05:50,920
+This is Graham, Yaz and Ryan. We were doing the sights
+
+83
+00:05:50,920 --> 00:05:52,560
+when I picked up a funny energy reading.
+
+84
+00:05:52,560 --> 00:05:53,920
+Thought I'd check it out.
+
+85
+00:05:53,960 --> 00:05:55,480
+Ran into a tiny bit of trouble at the plant.
+
+86
+00:05:55,520 --> 00:05:57,800
+Nothing to worry about. We've lost them.
+
+87
+00:05:57,840 --> 00:05:59,000
+So, here we are.
+
+88
+00:05:59,040 --> 00:06:00,720
+I'm The Doctor, by the way.
+
+89
+00:06:00,760 --> 00:06:03,560
+Why don't you tell me who you are and who's shooting at you?
+
+90
+00:06:03,600 --> 00:06:05,680
+Dorothy. Dorothy Skerritt.
+
+91
+00:06:06,840 --> 00:06:10,440
+I am Nikola Tesla, and I assure you I have no idea.
+
+92
+00:06:10,440 --> 00:06:11,680
+Tesla!
+
+93
+00:06:12,360 --> 00:06:13,600
+I knew you looked familiar!
+
+94
+00:06:13,640 --> 00:06:15,080
+It's only Nikola Tesla!
+
+95
+00:06:15,120 --> 00:06:16,920
+- Who? - Nicholas something.
+
+96
+00:06:16,960 --> 00:06:18,400
+Total genius!
+
+97
+00:06:18,440 --> 00:06:20,440
+I always wanted to meet you!
+
+98
+00:06:20,480 --> 00:06:22,000
+Shame you're a big, fat liar.
+
+99
+00:06:22,040 --> 00:06:23,680
+- Pardon?
+
+100
+00:06:23,720 --> 00:06:25,000
+YAZ: Doctor!
+
+101
+00:06:25,040 --> 00:06:26,280
+And we're off again!
+
+102
+00:06:26,280 --> 00:06:28,360
+Look out! Go, go, go!
+
+103
+00:06:28,400 --> 00:06:30,400
+- RYAN: Who's that? - I don't know!
+
+104
+00:06:32,520 --> 00:06:34,560
+Locked it! Keep going!
+
+105
+00:06:39,360 --> 00:06:40,400
+Go!
+
+106
+00:06:40,440 --> 00:06:41,680
+- No way! - Go on, Ryan!
+
+107
+00:06:41,720 --> 00:06:44,440
+You've got this! Agh!
+
+108
+00:06:44,440 --> 00:06:46,040
+Now!
+
+109
+00:06:51,240 --> 00:06:52,760
+It's quiet.
+
+110
+00:06:52,800 --> 00:06:54,920
+Why has it gone quiet?
+
+111
+00:07:08,000 --> 00:07:09,080
+I'll take that!
+
+112
+00:07:11,560 --> 00:07:12,920
+Keep it moving, then.
+
+113
+00:07:17,440 --> 00:07:18,920
+Missing something?
+
+114
+00:07:26,760 --> 00:07:29,480
+Come on! Argh! It's rusted together.
+
+115
+00:07:29,480 --> 00:07:31,080
+Got you!
+
+116
+00:07:42,720 --> 00:07:45,840
+Silurian Blaster. Nasty, deadly thing.
+
+117
+00:07:45,880 --> 00:07:47,040
+But here's the funny part,
+
+118
+00:07:47,080 --> 00:07:50,360
+whatever was firing it wasn't Silurian. So, Nikola Tesla,
+
+119
+00:07:50,400 --> 00:07:52,920
+why is someone chasing you with an alien gun?
+
+120
+00:07:52,960 --> 00:07:54,480
+You believe this is alien?
+
+121
+00:07:54,520 --> 00:07:56,360
+Not so fast, you big, fat liar.
+
+122
+00:07:56,400 --> 00:07:57,440
+Why do you keep saying that?
+
+123
+00:07:57,480 --> 00:07:58,920
+Is she always this impertinent?
+
+124
+00:07:58,960 --> 00:08:00,600
+- OTHERS: Yes. - First thing I asked you,
+
+125
+00:08:00,640 --> 00:08:02,680
+I said, "Have you seen anything weird?"
+
+126
+00:08:02,720 --> 00:08:05,160
+And there's one important thing you've failed to mention.
+
+127
+00:08:05,200 --> 00:08:06,600
+See, I started this evening
+
+128
+00:08:06,600 --> 00:08:08,880
+chasing an unusual energy reading.
+
+129
+00:08:08,920 --> 00:08:11,200
+I followed that signal, loud and clear,
+
+130
+00:08:11,240 --> 00:08:12,800
+to the Niagara Generator.
+
+131
+00:08:12,840 --> 00:08:18,000
+So why am I still detecting it on board this train with you?
+
+132
+00:08:18,000 --> 00:08:20,600
+Whatever it is, hand it over.
+
+133
+00:08:20,640 --> 00:08:22,240
+This is one of the most miraculous things
+
+134
+00:08:22,280 --> 00:08:23,440
+I've seen in my life.
+
+135
+00:08:23,480 --> 00:08:25,760
+It's a mystery I intend to solve.
+
+136
+00:08:25,760 --> 00:08:28,200
+And I have no intention of handing it to total strangers.
+
+137
+00:08:28,240 --> 00:08:30,080
+Strangers who just saved your life.
+
+138
+00:08:30,120 --> 00:08:32,440
+Whatever you found is putting you in danger.
+
+139
+00:08:32,480 --> 00:08:35,760
+Yeah. Both of you. You all right with that?
+
+140
+00:08:38,280 --> 00:08:40,200
+I agree with Mr Tesla.
+
+141
+00:08:40,240 --> 00:08:42,880
+If anyone can make sense of this, it's him.
+
+142
+00:08:46,360 --> 00:08:49,880
+Well, then, if you won't hand it over,
+
+143
+00:08:49,880 --> 00:08:51,720
+you leave us no choice.
+
+144
+00:08:54,760 --> 00:08:56,920
+We're not letting you out of our sights
+
+145
+00:08:56,920 --> 00:08:59,080
+until we've worked this out.
+
+146
+00:09:01,720 --> 00:09:03,040
+So, where's this lab, then?
+
+147
+00:09:13,720 --> 00:09:15,600
+Now, this is a bit of all right.
+
+148
+00:09:15,640 --> 00:09:17,000
+Gilded Age New York!
+
+149
+00:09:17,040 --> 00:09:19,840
+This is when the modern world begins!
+
+150
+00:09:19,880 --> 00:09:23,520
+New ideas, new technologies, new skyscrapers.
+
+151
+00:09:23,560 --> 00:09:25,120
+More people getting rich quick,
+
+152
+00:09:25,160 --> 00:09:27,640
+and more poor people than ever before.
+
+153
+00:09:27,680 --> 00:09:29,920
+I always wanted to visit New York, see Times Square.
+
+154
+00:09:29,920 --> 00:09:31,680
+Yeah, bit early for that.
+
+155
+00:09:31,720 --> 00:09:32,880
+- Empire State Building? - Not yet.
+
+156
+00:09:32,920 --> 00:09:34,200
+- Central Park? - Yeah!
+
+157
+00:09:34,240 --> 00:09:36,280
+Now, that has been around for ages.
+
+158
+00:09:36,320 --> 00:09:38,080
+Can you hear yelling?
+
+159
+00:09:38,120 --> 00:09:40,360
+CROWD: No to the death current, no AC!
+
+160
+00:09:40,360 --> 00:09:42,600
+No to the death current, no AC!
+
+161
+00:09:42,640 --> 00:09:45,640
+No to the death current, no AC!
+
+162
+00:09:45,680 --> 00:09:49,080
+- Who are they? - Protesters.
+
+163
+00:09:49,120 --> 00:09:51,200
+What are they protesting about?
+
+164
+00:09:51,200 --> 00:09:53,040
+- Me. - WOMAN: There he is!
+
+165
+00:09:53,040 --> 00:09:55,680
+Do you have any idea what you're doing?
+
+166
+00:09:55,720 --> 00:09:57,520
+- Shame on you! - He's dangerous!
+
+167
+00:09:57,560 --> 00:09:59,320
+- Go back to Mars! - How many more people
+
+168
+00:09:59,360 --> 00:10:01,560
+have to die before you admit your machines aren't safe?
+
+169
+00:10:01,600 --> 00:10:02,880
+My inventions never hurt anyone!
+
+170
+00:10:02,920 --> 00:10:05,120
+Isn't it true your last invention caused an earthquake?
+
+171
+00:10:05,160 --> 00:10:06,960
+Those were only mild tremors.
+
+172
+00:10:07,000 --> 00:10:08,640
+Why are you building weapons on Long Island?
+
+173
+00:10:08,640 --> 00:10:10,320
+Mr Tesla isn't building any kind of weapon
+
+174
+00:10:10,320 --> 00:10:11,960
+or going to answer any questions!
+
+175
+00:10:12,000 --> 00:10:13,480
+- Excuse me! - Foreign lunatic!
+
+176
+00:10:13,480 --> 00:10:14,760
+You don't belong in America.
+
+177
+00:10:14,800 --> 00:10:15,880
+Yeah!
+
+178
+00:10:17,920 --> 00:10:19,600
+I'm an American citizen!
+
+179
+00:10:20,800 --> 00:10:24,160
+And you are trespassing in front of my lab.
+
+180
+00:10:29,800 --> 00:10:31,280
+Me? A lunatic?
+
+181
+00:10:31,320 --> 00:10:34,040
+They wouldn't recognise genius if it hit them in the face.
+
+182
+00:10:34,040 --> 00:10:35,480
+Are you all right?
+
+183
+00:10:35,520 --> 00:10:38,000
+Oh. Absolutely, yeah.
+
+184
+00:10:38,040 --> 00:10:39,800
+Their opinions do not affect me.
+
+185
+00:10:46,640 --> 00:10:48,000
+He'll just be a moment.
+
+186
+00:10:49,480 --> 00:10:51,040
+Why don't you go on through?
+
+187
+00:10:53,800 --> 00:10:55,040
+Tesla's lab.
+
+188
+00:10:56,160 --> 00:10:58,040
+This is going to be something special!
+
+189
+00:11:03,560 --> 00:11:05,040
+I won't lie.
+
+190
+00:11:05,080 --> 00:11:07,000
+I was expecting more.
+
+191
+00:11:08,040 --> 00:11:09,680
+Well, let's have a look about.
+
+192
+00:11:10,600 --> 00:11:12,200
+Mm.
+
+193
+00:11:12,240 --> 00:11:15,160
+So, Tesla, is he something to do with the cars, then?
+
+194
+00:11:15,200 --> 00:11:16,520
+Yeah, well, they're named after him.
+
+195
+00:11:16,560 --> 00:11:18,600
+He's a famous inventor, ain't he, Doc?
+
+196
+00:11:18,640 --> 00:11:19,760
+Yeah?
+
+197
+00:11:20,280 --> 00:11:22,280
+And what did he invent?
+
+198
+00:11:23,480 --> 00:11:25,760
+Well, he invented the, erm...
+
+199
+00:11:27,080 --> 00:11:29,760
+The whatchamacallit. Tell 'em, Doc.
+
+200
+00:11:29,800 --> 00:11:35,080
+Nikola Tesla dreams up the 20th century before it happens.
+
+201
+00:11:35,120 --> 00:11:38,000
+Before you have X-rays, Tesla has shadowgraphs.
+
+202
+00:11:38,040 --> 00:11:40,800
+Before you have drones, Tesla has automatons.
+
+203
+00:11:40,840 --> 00:11:44,120
+Before Marconi gets the patent for radio,
+
+204
+00:11:44,160 --> 00:11:47,560
+they have to take it from Tesla because he invents it first!
+
+205
+00:11:47,600 --> 00:11:50,800
+His work on alternating currents
+
+206
+00:11:50,840 --> 00:11:54,160
+helps electrify the world.
+
+207
+00:11:54,200 --> 00:11:56,360
+He should have been the first billionaire by now,
+
+208
+00:11:56,400 --> 00:11:58,200
+if he hadn't have torn up his contract.
+
+209
+00:11:58,240 --> 00:11:59,800
+Business isn't his strong point.
+
+210
+00:12:02,400 --> 00:12:03,720
+Doctor.
+
+211
+00:12:07,200 --> 00:12:09,480
+I believe you wanted to see this.
+
+212
+00:12:13,400 --> 00:12:15,760
+Is this what you found in the generator?
+
+213
+00:12:15,800 --> 00:12:18,600
+Giving off all that energy, but why?
+
+214
+00:12:19,840 --> 00:12:21,600
+Whoa!
+
+215
+00:12:25,080 --> 00:12:27,200
+You see how it moves independently?
+
+216
+00:12:27,240 --> 00:12:30,160
+I believe this is something I like to call "remote control".
+
+217
+00:12:30,200 --> 00:12:32,360
+Remote control? You came up with that?
+
+218
+00:12:32,360 --> 00:12:34,960
+I believe this is operating on a similar principle.
+
+219
+00:12:34,960 --> 00:12:37,000
+If we could just work out its purpose...
+
+220
+00:12:37,040 --> 00:12:38,520
+I know what it is.
+
+221
+00:12:39,640 --> 00:12:41,480
+It's an Orb of Thassor.
+
+222
+00:12:41,480 --> 00:12:43,280
+But I've no idea what it's doing here.
+
+223
+00:12:49,080 --> 00:12:51,080
+The Thassor were one of the ancient races.
+
+224
+00:12:51,120 --> 00:12:54,680
+Amazing storytellers. Inventors, explorers.
+
+225
+00:12:54,680 --> 00:12:57,560
+They built these orbs as a way to spread information,
+
+226
+00:12:57,600 --> 00:13:01,880
+to send out among the stars as a way to share their legacy
+
+227
+00:13:01,920 --> 00:13:03,560
+long after they were gone.
+
+228
+00:13:04,560 --> 00:13:07,080
+Why would someone try to kill us to get their hands on that?
+
+229
+00:13:08,200 --> 00:13:09,320
+I've no idea.
+
+230
+00:13:10,160 --> 00:13:11,480
+But maybe I can find out.
+
+231
+00:13:14,560 --> 00:13:16,160
+I think it's been repurposed.
+
+232
+00:13:16,200 --> 00:13:18,400
+But I can't work out what it's doing instead.
+
+233
+00:13:18,440 --> 00:13:20,720
+This is all wrong! Something this elegant
+
+234
+00:13:20,760 --> 00:13:22,840
+shouldn't be giving off this kind of noise.
+
+235
+00:13:22,880 --> 00:13:25,040
+Its energy readings are off the charts!
+
+236
+00:13:26,120 --> 00:13:29,760
+That instrument detects energy? Is-is this your own design?
+
+237
+00:13:29,760 --> 00:13:31,680
+I made it! Mainly out of spoons.
+
+238
+00:13:32,400 --> 00:13:33,640
+You're an inventor!
+
+239
+00:13:33,680 --> 00:13:35,040
+I have my moments.
+
+240
+00:13:35,080 --> 00:13:36,320
+I knew it!
+
+241
+00:13:36,360 --> 00:13:38,800
+So... So you can understand how it feels,
+
+242
+00:13:38,840 --> 00:13:42,000
+you know, when you have an idea and... and to make it real.
+
+243
+00:13:42,040 --> 00:13:44,040
+I don't think there's any greater thrill!
+
+244
+00:13:45,520 --> 00:13:47,040
+I couldn't agree more.
+
+245
+00:13:49,040 --> 00:13:50,720
+You... You spoke of aliens.
+
+246
+00:13:50,760 --> 00:13:53,000
+People, you know, laugh at the very idea!
+
+247
+00:13:53,040 --> 00:13:54,920
+- But not you. - Well, apparently,
+
+248
+00:13:54,960 --> 00:13:56,280
+I'm not like other people.
+
+249
+00:13:56,320 --> 00:13:59,120
+It can be difficult, you know,
+
+250
+00:13:59,160 --> 00:14:01,760
+to feel no-one else sees the world the way you do.
+
+251
+00:14:01,800 --> 00:14:03,680
+It's like you're, er...
+
+252
+00:14:03,680 --> 00:14:05,240
+Out of place.
+
+253
+00:14:06,440 --> 00:14:07,440
+Yeah.
+
+254
+00:14:09,000 --> 00:14:12,560
+I... I thought... I thought things would be different.
+
+255
+00:14:12,600 --> 00:14:15,320
+You know, when I first arrived in America,
+
+256
+00:14:15,360 --> 00:14:17,960
+I had four cents to my name, I was robbed on the journey,
+
+257
+00:14:18,000 --> 00:14:20,640
+but still I thought, "This is the beginning!"
+
+258
+00:14:20,680 --> 00:14:22,480
+Here I would prosper, my ideas would live!
+
+259
+00:14:22,520 --> 00:14:25,920
+Changing the world takes time. You have to be patient.
+
+260
+00:14:25,920 --> 00:14:28,480
+I try. But you saw them outside.
+
+261
+00:14:28,520 --> 00:14:32,920
+They... They talk as if I was dangerous or mad, or...
+
+262
+00:14:32,960 --> 00:14:35,280
+So prove them wrong!
+
+263
+00:14:36,800 --> 00:14:40,800
+Sir, this was just delivered, it's from Mr Morgan.
+
+264
+00:14:42,280 --> 00:14:43,680
+Excellent.
+
+265
+00:14:44,880 --> 00:14:48,880
+Mr Morgan is the investor behind my Wardenclyffe project.
+
+266
+00:14:48,920 --> 00:14:51,000
+With his help, we...
+
+267
+00:14:58,680 --> 00:15:01,000
+- He's pulling the funding. - What?
+
+268
+00:15:02,400 --> 00:15:06,080
+I, er... can't complete Wardenclyffe without it.
+
+269
+00:15:06,120 --> 00:15:08,160
+I'm never going to be able to prove it works.
+
+270
+00:15:08,200 --> 00:15:10,840
+Who's that?
+
+271
+00:15:12,560 --> 00:15:15,040
+That was Harold Green, one of Edison's men.
+
+272
+00:15:15,080 --> 00:15:18,280
+- As in Thomas Edison? Light-bulb guy? - All right.
+
+273
+00:15:18,280 --> 00:15:20,960
+We all know Edison. It's Tesla you've never heard of.
+
+274
+00:15:21,000 --> 00:15:23,480
+- He's literally standing right there. - Yeah, sorry, son.
+
+275
+00:15:23,520 --> 00:15:26,200
+Edison, Edison. Of course it's Edison.
+
+276
+00:15:26,240 --> 00:15:28,640
+He's plagued me every step of my career!
+
+277
+00:15:28,680 --> 00:15:30,920
+Edison champions a rival form of electric current
+
+278
+00:15:30,960 --> 00:15:32,400
+to Mr Tesla's AC.
+
+279
+00:15:32,440 --> 00:15:34,320
+Direct current, of course, he would champion
+
+280
+00:15:34,360 --> 00:15:35,960
+something so slow and inefficient.
+
+281
+00:15:36,000 --> 00:15:38,920
+That man is a liar and a thief.
+
+282
+00:15:38,960 --> 00:15:42,080
+Are we saying Thomas Edison is after the Orb of Thassor?
+
+283
+00:15:42,120 --> 00:15:44,400
+Don't be daft, how's Edison's men going to get their hands on
+
+284
+00:15:44,440 --> 00:15:46,480
+a Slymurian laser blaster?
+
+285
+00:15:46,520 --> 00:15:48,360
+Silurian. Let's go and find out.
+
+286
+00:15:48,400 --> 00:15:50,400
+You three stay here and guard the Orb.
+
+287
+00:15:50,440 --> 00:15:52,440
+You two, with me.
+
+288
+00:15:52,480 --> 00:15:54,640
+Time we paid a visit to Mr Thomas Edison.
+
+289
+00:15:57,040 --> 00:15:58,840
+Ladies and gentlemen,
+
+290
+00:15:58,880 --> 00:16:02,560
+AC is the most deadly force known to science.
+
+291
+00:16:02,600 --> 00:16:04,640
+For the public's safety,
+
+292
+00:16:04,680 --> 00:16:07,560
+the Niagara Generator should be shut down.
+
+293
+00:16:07,560 --> 00:16:08,640
+And let me guess.
+
+294
+00:16:09,480 --> 00:16:11,920
+An Edison Generator built in its place.
+
+295
+00:16:11,960 --> 00:16:13,560
+Couldn't have put it better myself.
+
+296
+00:16:13,600 --> 00:16:15,360
+Thomas Edison, we need to talk.
+
+297
+00:16:15,360 --> 00:16:16,520
+- As I was saying... - We could talk here,
+
+298
+00:16:16,560 --> 00:16:18,720
+but I think you'd prefer to go somewhere more private.
+
+299
+00:16:18,760 --> 00:16:21,280
+You want to make an appointment, speak to my secretary.
+
+300
+00:16:21,320 --> 00:16:22,520
+Alien weapons.
+
+301
+00:16:23,400 --> 00:16:25,200
+How are you getting your hands on them?
+
+302
+00:16:25,240 --> 00:16:27,560
+Alien weapons!
+
+303
+00:16:27,600 --> 00:16:29,440
+You have the wrong inventor, ma'am.
+
+304
+00:16:30,160 --> 00:16:33,480
+It's Nikola Tesla's been talking to Mars.
+
+305
+00:16:33,520 --> 00:16:35,560
+I keep my feet on the ground.
+
+306
+00:16:35,600 --> 00:16:37,760
+So... you don't recognise this?
+
+307
+00:16:42,080 --> 00:16:43,640
+Let's take this inside.
+
+308
+00:16:45,600 --> 00:16:48,440
+GRAHAM: Whoa! This is some set-up he's got.
+
+309
+00:16:48,480 --> 00:16:50,040
+See, this guy I've definitely heard of,
+
+310
+00:16:50,080 --> 00:16:51,760
+he's got to be America's most famous inventor.
+
+311
+00:16:51,760 --> 00:16:54,400
+Yeah. But not exactly a shrinking violet, is he?
+
+312
+00:16:54,440 --> 00:16:56,240
+I mean, he's plastered his name all over the shop!
+
+313
+00:16:56,280 --> 00:16:58,400
+Talk about tooting your own horn!
+
+314
+00:16:59,720 --> 00:17:03,440
+I have never seen anything like this in my life.
+
+315
+00:17:03,480 --> 00:17:04,960
+Is it your design?
+
+316
+00:17:05,560 --> 00:17:06,680
+Who has the patent?
+
+317
+00:17:06,720 --> 00:17:09,400
+This isn't a business opportunity, someone tried to shoot us with it
+
+318
+00:17:09,440 --> 00:17:11,440
+just before we caught an employee of yours
+
+319
+00:17:11,480 --> 00:17:12,920
+spying on Nikola Tesla.
+
+320
+00:17:12,960 --> 00:17:15,520
+Someone's trying to steal from him, and he seems pretty sure it's you.
+
+321
+00:17:15,560 --> 00:17:17,000
+Does he, now?
+
+322
+00:17:17,960 --> 00:17:19,280
+Ma'am,
+
+323
+00:17:19,320 --> 00:17:22,400
+I may keep an eye on my rivals, but I do not steal.
+
+324
+00:17:22,400 --> 00:17:23,760
+I have no need to.
+
+325
+00:17:24,800 --> 00:17:28,040
+There are a thousand patents in the Edison name.
+
+326
+00:17:28,080 --> 00:17:29,560
+You might have seen it on the building.
+
+327
+00:17:29,560 --> 00:17:32,800
+- That's not how Tesla sees it. - He's sore about the past.
+
+328
+00:17:32,840 --> 00:17:34,560
+You know, I gave him a job
+
+329
+00:17:34,560 --> 00:17:36,040
+when he first arrived in this country
+
+330
+00:17:36,080 --> 00:17:37,800
+on the factory floor.
+
+331
+00:17:37,840 --> 00:17:40,760
+He ended up digging ditches for two bucks a day.
+
+332
+00:17:40,800 --> 00:17:42,360
+Tesla?!
+
+333
+00:17:43,040 --> 00:17:44,680
+Dapper dude who dresses for the opera?
+
+334
+00:17:44,720 --> 00:17:46,400
+How did he end up digging a ditch?
+
+335
+00:17:46,440 --> 00:17:48,320
+He heard me say I'd pay 50,000
+
+336
+00:17:48,360 --> 00:17:51,040
+to the man who could fix my generator.
+
+337
+00:17:52,080 --> 00:17:55,960
+He worked on that thing day and night for a year.
+
+338
+00:17:56,000 --> 00:17:57,600
+And he did it.
+
+339
+00:17:57,600 --> 00:17:59,920
+And you, being the upstanding businessman,
+
+340
+00:17:59,920 --> 00:18:01,680
+paid every last cent, I presume.
+
+341
+00:18:02,240 --> 00:18:04,400
+I offered him a ten-buck raise.
+
+342
+00:18:04,440 --> 00:18:06,600
+He quit and chose to dig.
+
+343
+00:18:07,440 --> 00:18:10,880
+Man just didn't understand the American sense of humour.
+
+344
+00:18:25,680 --> 00:18:27,360
+I thought you'd have more stuff.
+
+345
+00:18:27,360 --> 00:18:30,720
+Sketches, blueprints, you know. For all your inventions.
+
+346
+00:18:31,720 --> 00:18:33,800
+- All in here.
+
+347
+00:18:33,840 --> 00:18:36,280
+Before anything else, I...
+
+348
+00:18:36,320 --> 00:18:38,200
+...I build things here.
+
+349
+00:18:43,040 --> 00:18:45,240
+Tell me about this Wardenclyffe project.
+
+350
+00:18:47,960 --> 00:18:49,240
+Er...
+
+351
+00:18:50,320 --> 00:18:52,680
+Imagine if, er...
+
+352
+00:18:52,720 --> 00:18:55,880
+...wherever you were, you were able to hear music
+
+353
+00:18:55,920 --> 00:18:59,200
+or, er, the speech of a great leader, or, er...
+
+354
+00:18:59,240 --> 00:19:02,120
+...conjure a map of what lay beyond.
+
+355
+00:19:02,160 --> 00:19:04,160
+That's what I propose with Wardenclyffe,
+
+356
+00:19:04,200 --> 00:19:06,760
+all of human knowledge shared freely.
+
+357
+00:19:06,800 --> 00:19:08,880
+Now, that sounds like the future.
+
+358
+00:19:09,680 --> 00:19:11,360
+Yeah. Yeah...
+
+359
+00:19:11,360 --> 00:19:13,520
+It will change the world.
+
+360
+00:19:14,840 --> 00:19:16,720
+Why can't anyone else see that?
+
+361
+00:19:18,120 --> 00:19:20,360
+There must be someone who'll invest in it.
+
+362
+00:19:21,120 --> 00:19:23,120
+Well, if there is, I can't find them,
+
+363
+00:19:23,160 --> 00:19:25,800
+and, er, without the money, I have no power source,
+
+364
+00:19:25,840 --> 00:19:27,240
+and without power...
+
+365
+00:19:32,840 --> 00:19:34,600
+SCIENTIST: Sir, if you'll just permit me...
+
+366
+00:19:34,600 --> 00:19:38,360
+No! No, the grounding coil goes in separately.
+
+367
+00:19:44,360 --> 00:19:45,600
+- I said don't touch! - Sorry.
+
+368
+00:19:46,600 --> 00:19:48,760
+Really? Go over there!
+
+369
+00:20:18,960 --> 00:20:20,320
+Something's wrong.
+
+370
+00:20:20,360 --> 00:20:21,880
+Oh, I should say.
+
+371
+00:20:21,920 --> 00:20:24,080
+We've done this dance for long enough.
+
+372
+00:20:24,080 --> 00:20:26,920
+Now, what have you done with my man, huh?
+
+373
+00:20:28,320 --> 00:20:31,400
+Oh, don't play dumb. He was keeping tabs
+
+374
+00:20:31,440 --> 00:20:34,560
+on that dog-and-pony show of Tesla's at Niagara.
+
+375
+00:20:34,600 --> 00:20:37,960
+Now he's gone quiet, the very day you show up
+
+376
+00:20:37,960 --> 00:20:39,680
+pointing the finger. Huh?
+
+377
+00:20:40,680 --> 00:20:42,480
+Trust me, Mr Edison,
+
+378
+00:20:42,520 --> 00:20:44,560
+we're not the people you should be worried about.
+
+379
+00:20:44,600 --> 00:20:45,600
+He is.
+
+380
+00:20:46,600 --> 00:20:48,280
+Behind me!
+
+381
+00:20:48,320 --> 00:20:50,800
+Harold? What's the matter with him?
+
+382
+00:20:50,800 --> 00:20:52,240
+That's not Harold Green.
+
+383
+00:20:53,120 --> 00:20:56,000
+No human readings. What is that? Not possession.
+
+384
+00:20:56,040 --> 00:20:58,360
+Psionic image cloaking? Hologram?
+
+385
+00:20:58,360 --> 00:21:00,000
+What are you talking about?
+
+386
+00:21:00,040 --> 00:21:01,120
+No guns, Ryan!
+
+387
+00:21:01,120 --> 00:21:03,360
+Whatever you are, whatever you've come for,
+
+388
+00:21:03,360 --> 00:21:04,800
+nobody else needs to get hurt.
+
+389
+00:21:04,840 --> 00:21:06,760
+Desk!
+
+390
+00:21:06,800 --> 00:21:07,840
+Run!
+
+391
+00:21:10,960 --> 00:21:12,480
+Oh, my God.
+
+392
+00:21:12,520 --> 00:21:13,640
+No time.
+
+393
+00:21:13,680 --> 00:21:14,920
+This way.
+
+394
+00:21:17,320 --> 00:21:18,600
+In here.
+
+395
+00:21:19,080 --> 00:21:20,400
+GRAHAM: Doc, look!
+
+396
+00:21:25,000 --> 00:21:26,560
+Oh, he's dead.
+
+397
+00:21:27,240 --> 00:21:28,840
+He's the real Harold Green.
+
+398
+00:21:28,840 --> 00:21:31,880
+Whatever's chasing us is projecting his image
+
+399
+00:21:31,920 --> 00:21:34,200
+and using it to keep his true self hidden.
+
+400
+00:21:35,760 --> 00:21:37,840
+You'd better not be hiding anything.
+
+401
+00:21:37,840 --> 00:21:39,160
+People have died.
+
+402
+00:21:39,200 --> 00:21:40,600
+My workers!
+
+403
+00:21:41,280 --> 00:21:44,000
+All those men work for me. They had families.
+
+404
+00:21:44,040 --> 00:21:46,400
+I had dinner with this guy and his wife last week.
+
+405
+00:21:46,440 --> 00:21:48,680
+I have to tell her, tell the families.
+
+406
+00:21:48,680 --> 00:21:50,160
+- Now give me the gun. - Definitely not.
+
+407
+00:21:50,200 --> 00:21:51,320
+We're not shooting it!
+
+408
+00:21:51,360 --> 00:21:53,640
+We need to contain it, work out what it wants.
+
+409
+00:21:55,480 --> 00:21:57,280
+This is your chemical lab.
+
+410
+00:21:57,320 --> 00:21:58,880
+Perfect!
+
+411
+00:22:00,040 --> 00:22:02,000
+Ammonium nitrate, bit of green stuff.
+
+412
+00:22:03,000 --> 00:22:04,400
+- Where's your zinc? - Zinc?
+
+413
+00:22:04,440 --> 00:22:06,000
+Have you lost your damn mi...?
+
+414
+00:22:06,920 --> 00:22:09,760
+- Oh! - Finally thinking like a scientist.
+
+415
+00:22:14,040 --> 00:22:15,720
+YAZ: What is that?
+
+416
+00:22:15,760 --> 00:22:16,960
+Power!
+
+417
+00:22:17,000 --> 00:22:19,560
+Waiting to be harnessed. Your... your Doctor was right.
+
+418
+00:22:19,600 --> 00:22:22,120
+The Orb is emitting huge amounts of energy.
+
+419
+00:22:22,160 --> 00:22:26,000
+It's pulsing, like a siren. Or radar.
+
+420
+00:22:26,880 --> 00:22:27,960
+Radar?
+
+421
+00:22:27,960 --> 00:22:30,400
+Using energy waves to work out what's around you.
+
+422
+00:22:32,120 --> 00:22:33,560
+It's just a theory.
+
+423
+00:22:33,600 --> 00:22:36,160
+I've been working on a similar theory myself.
+
+424
+00:22:36,200 --> 00:22:38,680
+I call it my exploring ray.
+
+425
+00:22:38,720 --> 00:22:40,600
+But, anyway, the Orb is emitting
+
+426
+00:22:40,640 --> 00:22:42,120
+distinct waves of energy.
+
+427
+00:22:42,160 --> 00:22:45,840
+It's... It's like it's, ah, sensing its surroundings.
+
+428
+00:22:46,440 --> 00:22:47,880
+YAZ: Or scanning.
+
+429
+00:22:47,920 --> 00:22:49,880
+Which makes me wonder...
+
+430
+00:22:49,920 --> 00:22:51,480
+What is it looking for?
+
+431
+00:23:19,360 --> 00:23:20,960
+There'll be more where that came from.
+
+432
+00:23:21,000 --> 00:23:23,720
+How about we try this again? Who are you?
+
+433
+00:23:23,760 --> 00:23:25,720
+Show your true form.
+
+434
+00:23:35,200 --> 00:23:37,200
+What in God's name?
+
+435
+00:23:39,080 --> 00:23:41,040
+Yaz! It's not Edison!
+
+436
+00:23:41,040 --> 00:23:43,680
+I mean, it was, but it turns out it's aliens, too.
+
+437
+00:23:43,720 --> 00:23:46,600
+They can look like anyone, so don't let anyone in!
+
+438
+00:23:46,640 --> 00:23:48,240
+Tell Tesla! Tell Dorothy!
+
+439
+00:23:48,280 --> 00:23:49,680
+Lock every door!
+
+440
+00:23:51,560 --> 00:23:52,560
+I'm sorry.
+
+441
+00:23:52,600 --> 00:23:56,240
+Yaz? Yaz, are you all right?
+
+442
+00:23:56,280 --> 00:23:59,760
+- You are dead. - We know you want the Orb.
+
+443
+00:23:59,800 --> 00:24:01,600
+Let her go.
+
+444
+00:24:01,640 --> 00:24:04,960
+Exactly, you don't have to hurt her.
+
+445
+00:24:05,760 --> 00:24:07,560
+With your levels of technology,
+
+446
+00:24:07,600 --> 00:24:10,160
+you must understand there is no need for violence.
+
+447
+00:24:11,080 --> 00:24:13,440
+DISTORTED: We did not come for the Orb.
+
+448
+00:24:15,040 --> 00:24:17,960
+We came... for you.
+
+449
+00:24:18,000 --> 00:24:19,680
+No!
+
+450
+00:24:42,840 --> 00:24:45,080
+Welcome, Nikola Tesla.
+
+451
+00:24:55,920 --> 00:24:58,680
+You're all right. You've probably got questions.
+
+452
+00:24:59,440 --> 00:25:00,840
+They took them.
+
+453
+00:25:02,240 --> 00:25:03,640
+Where did they take them?
+
+454
+00:25:03,680 --> 00:25:05,600
+We know they've got cloaking tech,
+
+455
+00:25:05,640 --> 00:25:07,160
+but if I rig a bypass...
+
+456
+00:25:08,400 --> 00:25:11,480
+Luckily, high-speed inventing is one of my specialisms.
+
+457
+00:25:19,640 --> 00:25:21,600
+First time here can be a lot.
+
+458
+00:25:21,640 --> 00:25:24,640
+It certainly is... a lot.
+
+459
+00:25:24,680 --> 00:25:26,880
+But you take it in your stride.
+
+460
+00:25:26,920 --> 00:25:28,840
+Where do you even come from?
+
+461
+00:25:28,880 --> 00:25:31,160
+Yorkshire, England.
+
+462
+00:25:31,200 --> 00:25:34,760
+I was at home, you know, normal life, work,
+
+463
+00:25:34,760 --> 00:25:37,000
+then, boom, The Doctor.
+
+464
+00:25:37,040 --> 00:25:38,480
+Changed my whole life.
+
+465
+00:25:38,520 --> 00:25:41,240
+I was the same before I met Mr Tesla.
+
+466
+00:25:41,280 --> 00:25:44,600
+I wanted my own career, something steady,
+
+467
+00:25:44,640 --> 00:25:48,040
+then he showed me all these discoveries that could be made.
+
+468
+00:25:48,080 --> 00:25:50,360
+But it seemed like impossible things.
+
+469
+00:25:50,400 --> 00:25:54,680
+And now, something normal, steady...
+
+470
+00:25:54,720 --> 00:25:55,960
+Doesn't seem so important.
+
+471
+00:25:57,880 --> 00:25:59,320
+We'll get him back.
+
+472
+00:26:00,120 --> 00:26:02,160
+She's good at impossible, too.
+
+473
+00:26:03,480 --> 00:26:04,760
+Right, then.
+
+474
+00:26:06,200 --> 00:26:07,640
+On you pop.
+
+475
+00:26:10,360 --> 00:26:13,160
+This is the most extraordinary thing.
+
+476
+00:26:14,040 --> 00:26:16,800
+Is it a single machine or some kind of, er...
+
+477
+00:26:16,840 --> 00:26:18,640
+...mechanical factory?
+
+478
+00:26:20,360 --> 00:26:21,680
+GRAHAM: Oi!
+
+479
+00:26:21,720 --> 00:26:23,720
+You're in here strictly on the QT, right?
+
+480
+00:26:23,760 --> 00:26:25,680
+So get those dollar signs out of your eyes
+
+481
+00:26:25,720 --> 00:26:28,640
+cos this little lot ain't for sale. Copyright, her!
+
+482
+00:26:28,680 --> 00:26:30,880
+- That's a British accent, isn't it? - Yes.
+
+483
+00:26:30,920 --> 00:26:33,600
+Now there's a country who's never understood business.
+
+484
+00:26:34,320 --> 00:26:35,560
+Please work.
+
+485
+00:26:36,440 --> 00:26:37,840
+Have you got something, Doc?
+
+486
+00:26:39,880 --> 00:26:41,120
+Of course!
+
+487
+00:26:41,160 --> 00:26:43,000
+That's why they left it behind.
+
+488
+00:26:43,040 --> 00:26:45,680
+It's been hacked. It's not broadcasting any more,
+
+489
+00:26:45,720 --> 00:26:46,960
+it's receiving.
+
+490
+00:26:47,000 --> 00:26:49,760
+You mean it's a bugging device.
+
+491
+00:26:49,800 --> 00:26:51,200
+Thought so.
+
+492
+00:26:51,240 --> 00:26:52,680
+Moment I saw it.
+
+493
+00:26:52,720 --> 00:26:56,640
+Exactly. Repurposed from its original intent.
+
+494
+00:26:57,600 --> 00:27:00,040
+It's been scanning the Earth since it got here.
+
+495
+00:27:03,400 --> 00:27:06,800
+And it must have finally found what it's been looking for.
+
+496
+00:27:10,720 --> 00:27:12,200
+What is this place?
+
+497
+00:27:12,240 --> 00:27:15,400
+You stand in the Throne Ship of the Skithra.
+
+498
+00:27:15,440 --> 00:27:17,640
+High above your meagre city.
+
+499
+00:27:21,000 --> 00:27:23,520
+You can see your city.
+
+500
+00:27:23,560 --> 00:27:26,520
+But your city cannot see us.
+
+501
+00:27:28,680 --> 00:27:30,120
+We have been watching,
+
+502
+00:27:30,160 --> 00:27:33,680
+hidden from human eyes while we searched.
+
+503
+00:27:33,720 --> 00:27:37,200
+This is an electrical condenser, from my generator.
+
+504
+00:27:37,240 --> 00:27:40,440
+We have gathered supplies. Now you will work.
+
+505
+00:27:41,720 --> 00:27:42,920
+Work on what?
+
+506
+00:27:42,960 --> 00:27:46,360
+Our ship. Our weapons. Everything.
+
+507
+00:27:47,360 --> 00:27:49,400
+They're hiding their real faces behind projections,
+
+508
+00:27:49,400 --> 00:27:53,160
+they could look like anything, be anywhere. There's no trail!
+
+509
+00:27:53,200 --> 00:27:54,680
+If we're looking for a trail to follow,
+
+510
+00:27:54,680 --> 00:27:56,600
+what if Tesla already found it?
+
+511
+00:27:56,640 --> 00:27:58,160
+DOROTHY: But he did.
+
+512
+00:27:59,400 --> 00:28:00,800
+The Mars signal.
+
+513
+00:28:02,120 --> 00:28:04,160
+I didn't believe him, not really.
+
+514
+00:28:04,200 --> 00:28:06,600
+But he records all his observations.
+
+515
+00:28:06,640 --> 00:28:09,000
+We have to go to Wardenclyffe.
+
+516
+00:28:14,440 --> 00:28:16,600
+Wow. Now, this is a lab.
+
+517
+00:28:16,640 --> 00:28:18,920
+Mr Tesla started transferring all of his work
+
+518
+00:28:18,960 --> 00:28:20,640
+to Wardenclyffe months ago.
+
+519
+00:28:22,160 --> 00:28:25,040
+He intercepted the Mars signal with this.
+
+520
+00:28:25,720 --> 00:28:27,200
+He calls it his Teslascope.
+
+521
+00:28:27,240 --> 00:28:28,640
+Here are all the readings he took.
+
+522
+00:28:28,680 --> 00:28:30,040
+They must have increased the cloaking
+
+523
+00:28:30,080 --> 00:28:32,080
+when they realised he'd spotted them.
+
+524
+00:28:32,120 --> 00:28:33,600
+Hey! Don't take your eyes off him,
+
+525
+00:28:33,640 --> 00:28:35,600
+and don't let him touch anything!
+
+526
+00:28:35,640 --> 00:28:37,200
+We're on Long Island.
+
+527
+00:28:38,400 --> 00:28:41,640
+This box transported us halfway across New York.
+
+528
+00:28:41,680 --> 00:28:43,200
+Unbelievable.
+
+529
+00:28:43,240 --> 00:28:44,480
+Yeah, well, keep it to yourself,
+
+530
+00:28:44,520 --> 00:28:46,600
+or people'll say you're as crazy as Tesla.
+
+531
+00:28:46,600 --> 00:28:48,560
+That, my friend, will never happen.
+
+532
+00:28:48,560 --> 00:28:51,040
+Yeah, still, bet you'd jump at the chance to have him back working
+
+533
+00:28:51,040 --> 00:28:52,400
+- for you, wouldn't you? - Yeah?
+
+534
+00:28:52,400 --> 00:28:53,720
+- Yeah! - How'd you figure that?
+
+535
+00:28:53,760 --> 00:28:56,360
+Cos I had a supervisor like you at my old depot.
+
+536
+00:28:56,400 --> 00:28:59,880
+And men like you don't pay a bloke that much attention
+
+537
+00:28:59,920 --> 00:29:02,840
+unless you think there's a pay-out coming.
+
+538
+00:29:02,880 --> 00:29:04,520
+It must be here somewhere.
+
+539
+00:29:04,560 --> 00:29:07,800
+Ah, I've found it! The signal readout.
+
+540
+00:29:07,840 --> 00:29:09,320
+Now we're in business.
+
+541
+00:29:10,280 --> 00:29:12,760
+One of these must be good for getting out of here.
+
+542
+00:29:12,800 --> 00:29:14,360
+Got to find a way off the ship.
+
+543
+00:29:14,360 --> 00:29:15,840
+Well, we're hundreds of feet above New York.
+
+544
+00:29:15,880 --> 00:29:17,560
+What do you suggest we do, open a door?
+
+545
+00:29:17,600 --> 00:29:20,880
+I'd suggest we don't surrender to the giant alien scorpion.
+
+546
+00:29:22,280 --> 00:29:26,720
+You're right. I'm sorry. This is all my fault.
+
+547
+00:29:26,760 --> 00:29:28,840
+You shouldn't even be here.
+
+548
+00:29:28,880 --> 00:29:30,640
+Just cos you're a genius doesn't mean
+
+549
+00:29:30,680 --> 00:29:32,920
+you have to figure everything out on your own.
+
+550
+00:29:32,960 --> 00:29:34,720
+We're in this together.
+
+551
+00:29:36,200 --> 00:29:38,600
+You have examined the equipment?
+
+552
+00:29:42,680 --> 00:29:44,360
+Yes, I have.
+
+553
+00:29:44,400 --> 00:29:46,840
+There are more secrets on this ship
+
+554
+00:29:46,880 --> 00:29:49,240
+than I could discover in a lifetime. Er...
+
+555
+00:29:49,280 --> 00:29:51,280
+It... It is a scientist's dream.
+
+556
+00:29:51,280 --> 00:29:52,920
+Then your work shall begin.
+
+557
+00:29:52,920 --> 00:29:54,640
+You will prepare us for battle.
+
+558
+00:29:54,680 --> 00:29:55,800
+No, I won't.
+
+559
+00:30:00,760 --> 00:30:03,240
+Your work would burn a path across the galaxies.
+
+560
+00:30:03,280 --> 00:30:05,000
+On Earth, you are nothing.
+
+561
+00:30:05,040 --> 00:30:06,920
+Perhaps I will achieve nothing,
+
+562
+00:30:06,960 --> 00:30:09,200
+but if I achieve anything,
+
+563
+00:30:09,240 --> 00:30:11,040
+it will be in the name of progress,
+
+564
+00:30:11,080 --> 00:30:13,360
+and you are not my idea of progress.
+
+565
+00:30:17,440 --> 00:30:18,960
+Kill the stowaway.
+
+566
+00:30:21,840 --> 00:30:23,440
+I knew I had one in my tool box.
+
+567
+00:30:24,640 --> 00:30:26,200
+Braxium Bouncer, Mark III.
+
+568
+00:30:26,240 --> 00:30:27,600
+Found it at a bazaar.
+
+569
+00:30:27,640 --> 00:30:29,840
+Bit wonky, but I can't take the TARDIS.
+
+570
+00:30:29,880 --> 00:30:32,680
+This should give us enough power to transport me,
+
+571
+00:30:32,720 --> 00:30:34,480
+Yaz and Tesla back here.
+
+572
+00:30:34,520 --> 00:30:36,240
+But once I'm there,
+
+573
+00:30:36,280 --> 00:30:38,680
+I can't jump back until it recharges itself.
+
+574
+00:30:38,720 --> 00:30:40,680
+Which, you know, I'm not worried about.
+
+575
+00:30:40,720 --> 00:30:42,920
+Definitely. And you shouldn't be worried about it either.
+
+576
+00:30:42,960 --> 00:30:44,360
+Not in the least.
+
+577
+00:30:44,400 --> 00:30:47,080
+This is the price of refusal.
+
+578
+00:30:47,120 --> 00:30:50,120
+First, she dies, then everyone down there.
+
+579
+00:30:50,120 --> 00:30:51,720
+Stop.
+
+580
+00:30:51,720 --> 00:30:53,480
+She's my assistant, I need her.
+
+581
+00:30:55,000 --> 00:30:57,200
+She's not important.
+
+582
+00:30:57,240 --> 00:30:59,720
+THE DOCTOR: I'm going to have to disagree with that.
+
+583
+00:30:59,760 --> 00:31:00,760
+Ah.
+
+584
+00:31:01,480 --> 00:31:03,520
+Nice place you've got here.
+
+585
+00:31:03,560 --> 00:31:05,240
+Probably.
+
+586
+00:31:05,280 --> 00:31:07,800
+If you cleaned up a bit. I mean, I'm messy, but this?
+
+587
+00:31:07,840 --> 00:31:10,200
+Are you guys all right?
+
+588
+00:31:10,240 --> 00:31:11,800
+Better now you're here.
+
+589
+00:31:11,840 --> 00:31:14,160
+I'm The Doctor. I don't believe we've met.
+
+590
+00:31:14,200 --> 00:31:16,040
+You address the Queen of the Skithra?
+
+591
+00:31:16,080 --> 00:31:18,440
+You trespass on my ship?
+
+592
+00:31:18,480 --> 00:31:20,200
+Oh, this is your ship?
+
+593
+00:31:20,240 --> 00:31:22,120
+Because it looks Venusian to me,
+
+594
+00:31:22,160 --> 00:31:24,560
+and I'm pretty sure that's a Klendov warp drive.
+
+595
+00:31:26,120 --> 00:31:27,920
+Is there a single thing on this ship
+
+596
+00:31:27,960 --> 00:31:29,720
+that you've built yourselves?
+
+597
+00:31:30,760 --> 00:31:32,680
+This one is clever.
+
+598
+00:31:32,720 --> 00:31:34,640
+She will assist Tesla.
+
+599
+00:31:34,640 --> 00:31:36,360
+I've had worse jobs.
+
+600
+00:31:36,360 --> 00:31:38,160
+Or she will die.
+
+601
+00:31:40,720 --> 00:31:42,480
+Stolen tech,
+
+602
+00:31:42,520 --> 00:31:43,800
+stolen faces,
+
+603
+00:31:43,840 --> 00:31:46,360
+and now all your stolen gear is breaking down.
+
+604
+00:31:46,400 --> 00:31:47,680
+And what do you do?
+
+605
+00:31:47,720 --> 00:31:50,240
+Steal someone else to fix it.
+
+606
+00:31:50,280 --> 00:31:52,480
+All this killing and looting! Did it never occur to you
+
+607
+00:31:52,520 --> 00:31:55,880
+to try thinking or building something instead?
+
+608
+00:31:56,960 --> 00:32:00,480
+Why would we build when all there is is ours to take?
+
+609
+00:32:01,560 --> 00:32:02,800
+Tesla...
+
+610
+00:32:03,600 --> 00:32:04,720
+Why Tesla?
+
+611
+00:32:04,760 --> 00:32:07,280
+Why send the sphere to track him,
+
+612
+00:32:07,320 --> 00:32:09,360
+an inventor from 1900?
+
+613
+00:32:10,280 --> 00:32:12,960
+We required an engineer.
+
+614
+00:32:18,000 --> 00:32:19,520
+I was talking!
+
+615
+00:32:21,360 --> 00:32:22,960
+We required an engineer.
+
+616
+00:32:23,640 --> 00:32:27,200
+Tesla showed superior signs of intelligence.
+
+617
+00:32:27,200 --> 00:32:29,000
+He discovered our signal.
+
+618
+00:32:29,040 --> 00:32:30,880
+But how did you know that?
+
+619
+00:32:30,920 --> 00:32:32,600
+He signalled back.
+
+620
+00:32:34,600 --> 00:32:36,080
+You didn't think to mention that?
+
+621
+00:32:36,560 --> 00:32:38,160
+I didn't know it worked.
+
+622
+00:32:38,200 --> 00:32:39,640
+YAZ: Seriously?
+
+623
+00:32:41,640 --> 00:32:44,240
+The Skithra have always taken what we need.
+
+624
+00:32:44,280 --> 00:32:45,960
+And, Doctor...
+
+625
+00:32:47,040 --> 00:32:49,880
+...I do not see a need for you.
+
+626
+00:32:53,000 --> 00:32:55,680
+Oh, is that a Dullirian resonator?
+
+627
+00:32:57,680 --> 00:33:02,160
+Oh, and this can power a starship for months.
+
+628
+00:33:02,200 --> 00:33:03,640
+You think Tesla's clever?
+
+629
+00:33:03,680 --> 00:33:06,400
+We make him look like the village idiot. A smart,
+
+630
+00:33:06,440 --> 00:33:08,880
+forward-thinking scorpion queen like yourself,
+
+631
+00:33:08,920 --> 00:33:11,160
+I wouldn't go killing me and Yaz.
+
+632
+00:33:11,200 --> 00:33:12,960
+Cos Yaz...
+
+633
+00:33:14,040 --> 00:33:18,520
+...can tell you what this is.
+
+634
+00:33:18,560 --> 00:33:20,960
+- It's a camera. - Bingo.
+
+635
+00:33:24,320 --> 00:33:25,600
+- GRAHAM: Doctor! - RYAN: Ah, Yaz.
+
+636
+00:33:25,640 --> 00:33:27,680
+- Mr Tesla! - Miss Skerritt.
+
+637
+00:33:29,720 --> 00:33:31,200
+EDISON: Well, I'll be darned.
+
+638
+00:33:31,200 --> 00:33:32,800
+She actually got you back.
+
+639
+00:33:32,840 --> 00:33:34,040
+What is he doing here?
+
+640
+00:33:34,080 --> 00:33:35,560
+Tesla,
+
+641
+00:33:35,600 --> 00:33:36,880
+quite a day we're all having.
+
+642
+00:33:36,920 --> 00:33:38,240
+It's not over yet.
+
+643
+00:33:38,280 --> 00:33:39,440
+Come on.
+
+644
+00:33:39,480 --> 00:33:42,040
+- This is my private laboratory. - Yes.
+
+645
+00:33:43,160 --> 00:33:45,280
+You have no right to be he...
+
+646
+00:33:46,560 --> 00:33:47,800
+What is this?
+
+647
+00:33:47,840 --> 00:33:49,720
+Wh... Wh...
+
+648
+00:33:49,760 --> 00:33:51,440
+Where are you all going?
+
+649
+00:34:07,920 --> 00:34:10,320
+Fantastical!
+
+650
+00:34:11,680 --> 00:34:14,040
+I couldn't figure it out either.
+
+651
+00:34:14,080 --> 00:34:15,760
+The internal dimensions
+
+652
+00:34:15,800 --> 00:34:18,280
+- transcends the external. - Spot-on.
+
+653
+00:34:23,200 --> 00:34:24,800
+Listen up, Skithra queen,
+
+654
+00:34:24,840 --> 00:34:27,000
+it's me, on behalf of Tesla.
+
+655
+00:34:27,040 --> 00:34:29,600
+Consider this your official eviction notice.
+
+656
+00:34:29,640 --> 00:34:32,960
+Get your ship away from Earth right now.
+
+657
+00:34:32,960 --> 00:34:34,800
+QUEEN SKITHRA: We will take the engineer,
+
+658
+00:34:34,840 --> 00:34:37,160
+or this planet shall burn!
+
+659
+00:34:37,200 --> 00:34:40,920
+Surrender him and your lives may be spared.
+
+660
+00:34:42,280 --> 00:34:43,560
+You can't have him.
+
+661
+00:34:43,600 --> 00:34:44,840
+He's with us.
+
+662
+00:34:44,880 --> 00:34:46,480
+And we're not going anywhere.
+
+663
+00:34:46,480 --> 00:34:49,760
+Then we will kill all the teeming millions
+
+664
+00:34:49,800 --> 00:34:50,920
+that infect this world,
+
+665
+00:34:50,920 --> 00:34:53,120
+and you and your friends will die first.
+
+666
+00:34:54,280 --> 00:34:56,120
+This is the choice you must make.
+
+667
+00:34:56,160 --> 00:34:59,200
+Give us Tesla, or the planet,
+
+668
+00:34:59,240 --> 00:35:01,920
+and all who live on it, shall die.
+
+669
+00:35:04,200 --> 00:35:07,040
+It cannot be me or the Earth.
+
+670
+00:35:08,560 --> 00:35:10,720
+You can't place this burden on me.
+
+671
+00:35:12,520 --> 00:35:14,000
+Mr Tesla!
+
+672
+00:35:20,320 --> 00:35:21,920
+Find them.
+
+673
+00:35:37,160 --> 00:35:41,640
+I've spent my life wondering what might be out there.
+
+674
+00:35:43,360 --> 00:35:46,520
+But creatures who would destroy the whole planet
+
+675
+00:35:46,560 --> 00:35:48,440
+just to get their hands on me?
+
+676
+00:35:49,960 --> 00:35:51,680
+Recognition at last.
+
+677
+00:35:57,200 --> 00:35:58,720
+You do realise
+
+678
+00:35:58,760 --> 00:36:01,600
+it's killing Edison that they want you and not him.
+
+679
+00:36:07,240 --> 00:36:10,400
+This place, Wardenclyffe...
+
+680
+00:36:13,040 --> 00:36:14,640
+...I was so close.
+
+681
+00:36:14,680 --> 00:36:17,040
+People would finally see what it can do.
+
+682
+00:36:17,080 --> 00:36:19,200
+What I can do.
+
+683
+00:36:20,120 --> 00:36:22,120
+Now no-one will ever know.
+
+684
+00:36:25,920 --> 00:36:27,640
+You must all go.
+
+685
+00:36:27,680 --> 00:36:29,280
+Let them take me.
+
+686
+00:36:29,320 --> 00:36:30,760
+That's not going to happen.
+
+687
+00:36:32,040 --> 00:36:33,640
+I have to surrender myself.
+
+688
+00:36:33,640 --> 00:36:35,040
+There is nothing else to be done.
+
+689
+00:36:35,080 --> 00:36:36,640
+This is beyond me.
+
+690
+00:36:36,680 --> 00:36:37,840
+No.
+
+691
+00:36:40,080 --> 00:36:41,280
+No?
+
+692
+00:36:41,320 --> 00:36:45,280
+Nikola Tesla, you're going to change the world.
+
+693
+00:36:46,840 --> 00:36:49,320
+But first, you're going to save it.
+
+694
+00:36:50,920 --> 00:36:53,480
+Now, tell me all about Wardenclyffe.
+
+695
+00:36:55,160 --> 00:36:56,840
+The tower works by harnessing
+
+696
+00:36:56,880 --> 00:36:59,280
+the electric field of the Earth itself.
+
+697
+00:36:59,320 --> 00:37:02,160
+Here, my magnifying transformer
+
+698
+00:37:02,200 --> 00:37:04,760
+pumps millions of volts into this tunnel.
+
+699
+00:37:04,760 --> 00:37:07,360
+The current races down through the Earth until it reaches
+
+700
+00:37:07,400 --> 00:37:11,240
+the other side of the planet, and then bounces back.
+
+701
+00:37:11,280 --> 00:37:12,800
+Then it's channelled into the tower,
+
+702
+00:37:12,800 --> 00:37:16,400
+wave after wave after wave, and up into the air!
+
+703
+00:37:17,640 --> 00:37:22,200
+My intention was to build a series of these towers...
+
+704
+00:37:22,960 --> 00:37:26,120
+...transmitting energy throughout the ether,
+
+705
+00:37:26,160 --> 00:37:28,440
+a world wireless system.
+
+706
+00:37:29,800 --> 00:37:31,160
+That's Wi-Fi.
+
+707
+00:37:31,200 --> 00:37:33,840
+Did Tesla have the idea for Wi-Fi?
+
+708
+00:37:33,880 --> 00:37:35,680
+But with enough power,
+
+709
+00:37:35,720 --> 00:37:38,840
+it could be used to send a single bolt of lightning
+
+710
+00:37:38,880 --> 00:37:40,400
+high up into the sky.
+
+711
+00:37:40,440 --> 00:37:43,080
+Ah, well, if we generate one large enough,
+
+712
+00:37:43,120 --> 00:37:45,600
+it could strike the ship, like so!
+
+713
+00:37:45,640 --> 00:37:47,640
+Yes! High-five!
+
+714
+00:37:49,640 --> 00:37:51,000
+Too early!
+
+715
+00:37:51,040 --> 00:37:52,600
+In a pig's eye.
+
+716
+00:37:53,880 --> 00:37:57,120
+You want to bet our lives on a contraption like this, huh?
+
+717
+00:37:57,160 --> 00:38:03,040
+Some fantastical idea no sane man would ever invest in?
+
+718
+00:38:06,920 --> 00:38:09,160
+At least I have ideas.
+
+719
+00:38:09,200 --> 00:38:10,840
+You have filled a factory full of men
+
+720
+00:38:10,880 --> 00:38:12,320
+to do your thinking for you.
+
+721
+00:38:12,320 --> 00:38:14,800
+Half of your inventions were thought up by other people.
+
+722
+00:38:14,840 --> 00:38:16,640
+Anyone can have ideas.
+
+723
+00:38:16,640 --> 00:38:17,920
+I make them happen.
+
+724
+00:38:17,920 --> 00:38:21,640
+All those men, all those inventions,
+
+725
+00:38:21,640 --> 00:38:25,720
+I turn them from a sketch into real things people can buy.
+
+726
+00:38:25,720 --> 00:38:27,560
+That's how you change the world.
+
+727
+00:38:28,440 --> 00:38:31,680
+You're too blind to see that my factory is the best idea
+
+728
+00:38:31,720 --> 00:38:33,360
+either one of us ever had.
+
+729
+00:38:33,400 --> 00:38:36,400
+And you are too narrow-minded to grasp the genius of my work,
+
+730
+00:38:36,440 --> 00:38:38,840
+and that is why you will never achieve real greatness.
+
+731
+00:38:38,880 --> 00:38:42,400
+You are not a man of vision. You're a man of... parts.
+
+732
+00:38:42,400 --> 00:38:46,400
+Oi! AC/DC! You two might be the greatest minds of the age,
+
+733
+00:38:46,400 --> 00:38:47,920
+but is there any chance you can stop squabbling
+
+734
+00:38:47,920 --> 00:38:49,840
+while we try and save the planet?
+
+735
+00:38:50,480 --> 00:38:53,200
+We need to move quickly. We have to prepare the tower.
+
+736
+00:38:54,440 --> 00:38:56,480
+Here's what we're going to do...
+
+737
+00:38:58,320 --> 00:38:59,720
+You and me will finish the tower.
+
+738
+00:38:59,760 --> 00:39:01,600
+I can extend the TARDIS shields
+
+739
+00:39:01,640 --> 00:39:03,680
+within the boundaries of Wardenclyffe.
+
+740
+00:39:06,480 --> 00:39:09,440
+That should keep us safe... for now.
+
+741
+00:39:09,440 --> 00:39:13,040
+Edison, Yaz, I need you to get people off the streets.
+
+742
+00:39:13,080 --> 00:39:15,120
+The Skithra are on their way.
+
+743
+00:39:15,760 --> 00:39:17,200
+Dorothy, Graham, Ryan,
+
+744
+00:39:17,200 --> 00:39:19,800
+find anything we can use to defend Wardenclyffe.
+
+745
+00:39:19,840 --> 00:39:23,120
+And be fast. For all we know, they've already found us.
+
+746
+00:39:23,160 --> 00:39:25,800
+YAZ: Please! Please! Everybody inside!
+
+747
+00:39:25,840 --> 00:39:27,400
+Please! Please move inside.
+
+748
+00:39:27,440 --> 00:39:29,400
+Everybody inside.
+
+749
+00:39:29,440 --> 00:39:31,320
+Why is nobody listening to me? Is it the accent?
+
+750
+00:39:31,360 --> 00:39:32,360
+Please, it's an emergency!
+
+751
+00:39:32,400 --> 00:39:35,520
+- Please can you go inside? - That fool Tesla
+
+752
+00:39:35,560 --> 00:39:38,000
+is still experimenting with his deadly tower!
+
+753
+00:39:38,040 --> 00:39:40,960
+We're as good as fried if we stay outside.
+
+754
+00:39:40,960 --> 00:39:42,840
+He's firing it up right now!
+
+755
+00:39:42,880 --> 00:39:45,640
+Spread the word!
+
+756
+00:39:45,680 --> 00:39:48,640
+No-one is safe!
+
+757
+00:39:54,440 --> 00:39:56,640
+"Mechanism for photographing thoughts"?
+
+758
+00:39:56,680 --> 00:39:57,680
+- No. - No.
+
+759
+00:39:57,720 --> 00:40:00,160
+"Apparatus for producing ozone."
+
+760
+00:40:02,080 --> 00:40:04,480
+"Prototype Death Ray"?
+
+761
+00:40:04,480 --> 00:40:07,680
+- Yes! Yes! No, no. - Yeah? Ah!
+
+762
+00:40:18,240 --> 00:40:20,200
+Where is Tesla?
+
+763
+00:40:27,720 --> 00:40:29,880
+Hey! You stay away from him!
+
+764
+00:40:29,880 --> 00:40:31,760
+Get down, kid!
+
+765
+00:40:33,840 --> 00:40:35,600
+Where the hell did he go?
+
+766
+00:40:36,760 --> 00:40:38,400
+Quick, inside!
+
+767
+00:40:42,560 --> 00:40:44,720
+- When did you get that? - Just be glad I did.
+
+768
+00:40:49,400 --> 00:40:51,480
+EDISON: Oh, my dear Lord, what is that?
+
+769
+00:40:56,200 --> 00:40:58,360
+Come on, run!
+
+770
+00:41:02,880 --> 00:41:04,320
+Run!
+
+771
+00:41:25,480 --> 00:41:27,200
+Are you sure this is right?
+
+772
+00:41:27,240 --> 00:41:29,360
+Tesla said it should be just... Here!
+
+773
+00:41:29,400 --> 00:41:31,320
+This tunnel leads us back to Wardenclyffe.
+
+774
+00:41:31,360 --> 00:41:32,440
+OK!
+
+775
+00:41:41,360 --> 00:41:43,160
+Doctor?
+
+776
+00:41:43,200 --> 00:41:44,840
+We have company.
+
+777
+00:41:50,440 --> 00:41:52,320
+Shield's working, then.
+
+778
+00:41:57,200 --> 00:41:59,440
+Come on. Come on!
+
+779
+00:42:05,600 --> 00:42:08,160
+Just in time. We need to barricade the door now.
+
+780
+00:42:08,200 --> 00:42:10,120
+- Good God... - There's too many of them.
+
+781
+00:42:10,120 --> 00:42:11,880
+Well, they may have superior numbers,
+
+782
+00:42:11,880 --> 00:42:13,600
+but we have superior minds.
+
+783
+00:42:13,600 --> 00:42:15,360
+We just have to hold them off.
+
+784
+00:42:15,400 --> 00:42:18,600
+They're a hive species. So if we take out the queen...
+
+785
+00:42:18,640 --> 00:42:19,760
+We take out all of 'em.
+
+786
+00:42:19,800 --> 00:42:21,080
+Yes! She's still on the ship,
+
+787
+00:42:21,120 --> 00:42:22,840
+and, hopefully, we're about to zap her
+
+788
+00:42:22,880 --> 00:42:24,840
+with a lot of Wardenclyffe electricity!
+
+789
+00:42:24,880 --> 00:42:26,440
+- There's a but. - Small detail.
+
+790
+00:42:26,440 --> 00:42:29,440
+Once we power up the tower, the TARDIS shields will drop,
+
+791
+00:42:29,440 --> 00:42:32,280
+but it will be about 30 seconds before we can blast the ship.
+
+792
+00:42:32,320 --> 00:42:34,360
+There's not enough juice for both.
+
+793
+00:42:34,400 --> 00:42:35,560
+What?
+
+794
+00:42:35,600 --> 00:42:37,760
+What's going to keep them out, then?
+
+795
+00:42:40,280 --> 00:42:41,640
+We are.
+
+796
+00:42:41,680 --> 00:42:43,960
+Don't worry. This ain't our first rodeo.
+
+797
+00:42:43,960 --> 00:42:45,400
+We've never been to a rodeo.
+
+798
+00:42:45,400 --> 00:42:47,280
+You're not helping, Ryan.
+
+799
+00:42:48,400 --> 00:42:49,480
+Ready?
+
+800
+00:43:05,640 --> 00:43:07,680
+It's working.
+
+801
+00:43:07,720 --> 00:43:09,840
+THE DOCTOR: The tower's charging.
+
+802
+00:43:11,080 --> 00:43:13,320
+Nearly there.
+
+803
+00:43:13,360 --> 00:43:15,160
+Get ready out there.
+
+804
+00:43:15,200 --> 00:43:17,600
+Shields are about to drop.
+
+805
+00:43:22,720 --> 00:43:25,240
+Shields down. A few more seconds.
+
+806
+00:43:25,280 --> 00:43:28,240
+GRAHAM: We ain't got a few seconds, Doc!
+
+807
+00:43:31,080 --> 00:43:34,160
+What? Signal coming from the Skithra ship.
+
+808
+00:43:46,040 --> 00:43:47,920
+What are they doing?
+
+809
+00:43:47,960 --> 00:43:50,480
+Why aren't they attacking?
+
+810
+00:43:50,520 --> 00:43:51,800
+Oh, no.
+
+811
+00:43:51,840 --> 00:43:53,200
+What is it?
+
+812
+00:43:55,760 --> 00:43:59,360
+Come on. Let's see what this thing can do.
+
+813
+00:43:59,400 --> 00:44:00,800
+Stay out of our lab!
+
+814
+00:44:03,600 --> 00:44:04,960
+Oh.
+
+815
+00:44:05,000 --> 00:44:06,120
+We can't blast the ship
+
+816
+00:44:06,160 --> 00:44:08,240
+because the queen's no longer on it.
+
+817
+00:44:23,960 --> 00:44:25,640
+This was not the plan.
+
+818
+00:44:26,840 --> 00:44:29,160
+Was this meant to be your fortress?
+
+819
+00:44:29,160 --> 00:44:31,040
+And you its defenders?
+
+820
+00:44:32,520 --> 00:44:34,560
+What was the plan?
+
+821
+00:44:34,600 --> 00:44:37,800
+To shiver in the dark until we went away?
+
+822
+00:44:41,160 --> 00:44:43,840
+Oh, you really are fragile creatures, aren't you?
+
+823
+00:44:43,880 --> 00:44:46,240
+It's a miracle your world has spun on
+
+824
+00:44:46,280 --> 00:44:48,840
+so long undisturbed.
+
+825
+00:44:48,880 --> 00:44:50,600
+Now, tell me.
+
+826
+00:44:50,640 --> 00:44:52,000
+Where is he?
+
+827
+00:44:54,120 --> 00:44:55,560
+No?
+
+828
+00:44:55,600 --> 00:44:56,920
+Then which of you would like
+
+829
+00:44:56,920 --> 00:45:00,680
+- the privilege of dying first? - Stop!
+
+830
+00:45:00,720 --> 00:45:03,440
+If you want Tesla, you have to go through me.
+
+831
+00:45:04,080 --> 00:45:06,360
+Doctor, did you really think
+
+832
+00:45:06,400 --> 00:45:08,040
+I'd let you hide away down here,
+
+833
+00:45:08,040 --> 00:45:09,920
+hatching your little plans?
+
+834
+00:45:10,840 --> 00:45:12,320
+If I'd known we were going to have a royal visit,
+
+835
+00:45:12,320 --> 00:45:13,520
+I'd have put the kettle on.
+
+836
+00:45:13,520 --> 00:45:16,640
+As queen, I grant myself the pleasure of killing you...
+
+837
+00:45:16,680 --> 00:45:18,680
+...in person.
+
+838
+00:45:19,280 --> 00:45:21,720
+And what are you queen of, exactly?
+
+839
+00:45:22,720 --> 00:45:25,360
+A stolen ship and second-hand guns?
+
+840
+00:45:25,360 --> 00:45:27,600
+A queen of shreds and patches.
+
+841
+00:45:27,640 --> 00:45:30,360
+You're not a ruler, you're a parasite.
+
+842
+00:45:30,400 --> 00:45:31,760
+And what are you?
+
+843
+00:45:31,800 --> 00:45:34,760
+So clever, stealing onto my ship,
+
+844
+00:45:34,800 --> 00:45:36,800
+taking what I claimed as mine.
+
+845
+00:45:37,400 --> 00:45:39,480
+But where has it got you?
+
+846
+00:45:39,520 --> 00:45:41,960
+No weapons. No armour.
+
+847
+00:45:42,000 --> 00:45:44,280
+No escape.
+
+848
+00:45:44,280 --> 00:45:47,640
+Just the desperate hope you might change my mind.
+
+849
+00:45:47,680 --> 00:45:50,800
+No. We're way past that. I gave you your chance.
+
+850
+00:45:50,840 --> 00:45:54,400
+- A chance to be like you? - A chance to evolve.
+
+851
+00:45:54,440 --> 00:45:56,560
+But you were too stupid to take it.
+
+852
+00:45:57,080 --> 00:45:59,600
+When you die, there'll be nothing left behind.
+
+853
+00:45:59,600 --> 00:46:02,680
+Just a trail of blood and other people's brilliance.
+
+854
+00:46:02,720 --> 00:46:04,880
+No-one will even know you existed.
+
+855
+00:46:06,720 --> 00:46:09,360
+It's important you understand, Doctor,
+
+856
+00:46:09,360 --> 00:46:12,600
+that we would have only taken the engineer.
+
+857
+00:46:12,600 --> 00:46:14,880
+Now, because of you,
+
+858
+00:46:14,920 --> 00:46:17,320
+I will take everything.
+
+859
+00:46:17,320 --> 00:46:21,120
+We will overrun this world and pick the bones clean.
+
+860
+00:46:21,160 --> 00:46:23,800
+Have you ever seen a dead planet?
+
+861
+00:46:25,880 --> 00:46:28,600
+I've seen more than you can possibly imagine.
+
+862
+00:46:29,240 --> 00:46:30,280
+And yet you still think
+
+863
+00:46:30,280 --> 00:46:32,840
+I can be fooled by the same trick twice.
+
+864
+00:46:33,960 --> 00:46:35,480
+- Doctor! - Stay back!
+
+865
+00:46:39,320 --> 00:46:42,480
+A final weapon for our collection.
+
+866
+00:46:42,520 --> 00:46:46,120
+And what were you planning to do with this?
+
+867
+00:46:47,920 --> 00:46:50,360
+Nothing. I just wanted you to take it.
+
+868
+00:46:54,480 --> 00:46:55,920
+Tesla, now!
+
+869
+00:46:55,960 --> 00:46:57,080
+That is it!
+
+870
+00:47:33,600 --> 00:47:35,040
+There you go, kid.
+
+871
+00:47:35,080 --> 00:47:36,240
+Thank you.
+
+872
+00:47:44,200 --> 00:47:45,800
+I gotta hand it to you.
+
+873
+00:47:46,560 --> 00:47:47,680
+You did it.
+
+874
+00:47:51,440 --> 00:47:53,240
+Come work for me again.
+
+875
+00:47:56,680 --> 00:47:58,520
+You keep working on this thing,
+
+876
+00:47:58,560 --> 00:48:00,520
+you'll be bankrupt within the year.
+
+877
+00:48:01,680 --> 00:48:03,000
+Perhaps.
+
+878
+00:48:03,600 --> 00:48:05,680
+But how could I stop now?
+
+879
+00:48:11,200 --> 00:48:13,880
+- You take good care of yourself. - You too.
+
+880
+00:48:13,920 --> 00:48:17,360
+Was that more or less impossible than your usual day?
+
+881
+00:48:17,400 --> 00:48:20,240
+Yeah, about average. You?
+
+882
+00:48:20,280 --> 00:48:22,080
+Slightly stranger.
+
+883
+00:48:23,240 --> 00:48:26,120
+Normal would be boring, wouldn't it?
+
+884
+00:48:27,280 --> 00:48:28,760
+Bye.
+
+885
+00:48:31,160 --> 00:48:35,120
+Now, this all changes, right? The protests, the funding.
+
+886
+00:48:35,120 --> 00:48:36,720
+Tesla's tower's just saved the world!
+
+887
+00:48:36,760 --> 00:48:38,520
+That's gotta mean rich and famous.
+
+888
+00:48:38,560 --> 00:48:41,120
+No. Nothing's changed.
+
+889
+00:48:41,120 --> 00:48:44,240
+A few years from now, Wardenclyffe is torn down.
+
+890
+00:48:44,240 --> 00:48:48,760
+Tesla keeps on inventing, but no money, no fame.
+
+891
+00:48:48,800 --> 00:48:52,160
+He dies penniless. History leaves him behind.
+
+892
+00:48:52,200 --> 00:48:54,960
+But his vision of wireless energy, that does happen,
+
+893
+00:48:55,000 --> 00:48:56,640
+a connected world,
+
+894
+00:48:56,680 --> 00:48:59,120
+and that idea starts here, with him.
+
+895
+00:48:59,160 --> 00:49:00,440
+That's not right.
+
+896
+00:49:00,480 --> 00:49:01,640
+People should know.
+
+897
+00:49:01,680 --> 00:49:04,320
+Either way, it doesn't change what he's done.
+
+898
+00:49:04,360 --> 00:49:05,760
+Doctor...
+
+899
+00:49:05,800 --> 00:49:08,120
+You have to let me study that machine of yours.
+
+900
+00:49:08,120 --> 00:49:10,680
+It is by far the most magnificent invention
+
+901
+00:49:10,720 --> 00:49:12,440
+I've ever seen in my life.
+
+902
+00:49:13,280 --> 00:49:14,480
+Never mind the TARDIS,
+
+903
+00:49:14,520 --> 00:49:17,000
+you've got enough magnificent inventions of your own.
+
+904
+00:49:18,480 --> 00:49:19,960
+Yes. Yes, you're right.
+
+905
+00:49:20,000 --> 00:49:22,720
+You're right, of course. There's so much to be done.
+
+906
+00:49:25,120 --> 00:49:26,400
+Thank you.
+
+907
+00:49:27,760 --> 00:49:29,560
+Thank you, all.
+
+908
+00:49:29,600 --> 00:49:31,200
+Don't give up.
+
+909
+00:49:31,240 --> 00:49:32,960
+Whatever anyone says.
+
+910
+00:49:34,400 --> 00:49:36,120
+Well, let them talk.
+
+911
+00:49:36,160 --> 00:49:37,920
+The present is theirs.
+
+912
+00:49:37,960 --> 00:49:39,560
+I work for the future.
+
+913
+00:49:42,200 --> 00:49:44,120
+And the future is mine.
+
+914
+00:49:52,280 --> 00:49:53,760
+Shall we?
+
+915
+00:50:27,840 --> 00:50:29,320
+A Judoon warning transmission.
+
+916
+00:50:30,400 --> 00:50:31,440
+Who are you?
+
+917
+00:50:31,480 --> 00:50:33,120
+The city's under siege.
+
+918
+00:50:34,120 --> 00:50:36,760
+- Do you trust me, Ruth? - Sometimes.
+
+1
+00:00:43,040 --> 00:00:44,560
+น้ำตกไนแองการ่า
+
+2
+00:00:44,600 --> 00:00:49,280
+มีการแสดงพลังอันทรงพลังของธรรมชาติที่ดีกว่านี้อีกหรือไม่?
+
+3
+00:00:49,320 --> 00:00:51,040
+เมื่อผมเห็นภาพนี้ครั้งแรก
+
+4
+00:00:51,080 --> 00:00:54,360
+ฉันได้รับแรงบันดาลใจให้สร้างเครื่องกำเนิดไฟฟ้า Niagara ของฉัน
+
+5
+00:00:54,400 --> 00:00:58,200
+และตอนนี้น้ำเหล่านี้ก็สร้างพลังให้กับเมือง
+
+6
+00:00:59,160 --> 00:01:01,600
+แต่ในธรรมชาติยังมีอะไรอีกมากมาย
+
+7
+00:01:01,640 --> 00:01:04,080
+ที่ไม่สามารถมองเห็นได้ด้วยตาเปล่า
+
+8
+00:01:04,120 --> 00:01:08,040
+พลังที่เรามองไม่เห็นแต่ขับเคลื่อนจักรวาล
+
+9
+00:01:08,080 --> 00:01:12,400
+และมันได้ถูกซ่อนไว้จากความเข้าใจของเรา...จนกระทั่งถึงตอนนี้
+
+10
+00:01:13,560 --> 00:01:16,840
+ท่านสุภาพบุรุษทั้งหลาย ข้าพเจ้า นิโคลา เทสลา...
+
+11
+00:01:17,560 --> 00:01:20,960
+...ได้เชิญคุณมาที่นี่เพื่อดึงม่านกลับ
+
+12
+00:01:22,960 --> 00:01:24,040
+เราจะเริ่มกันเลยไหม?
+
+13
+00:01:25,600 --> 00:01:28,360
+- สังเกตดูนะครับท่านผู้หญิงและท่านผู้ชาย
+
+14
+00:01:31,040 --> 00:01:33,200
+ฉันวางแผนที่จะควบคุมพลังแห่งธรรมชาติเหล่านี้
+
+15
+00:01:33,240 --> 00:01:35,480
+ในระดับที่ไม่เคยพบเห็นมาก่อน
+
+16
+00:01:39,600 --> 00:01:41,760
+ระบบไร้สายของโลก
+
+17
+00:01:42,480 --> 00:01:46,600
+หนทางสำหรับเราแต่ละคนที่จะเข้าถึงขอบเขตที่เกินขอบเขตโดยตรงของเรา
+
+18
+00:01:46,640 --> 00:01:49,440
+ไปสู่ทุกมุมโลก
+
+19
+00:01:51,240 --> 00:01:55,320
+ฉันต้องการเงินลงทุนเพียงเล็กน้อย 50,000 เท่านั้น
+
+20
+00:01:55,360 --> 00:01:57,760
+50,000?
+
+21
+00:01:57,800 --> 00:02:00,040
+ราคาเล็กน้อยที่ต้องจ่ายเพื่อส่งพลังงาน
+
+22
+00:02:00,080 --> 00:02:02,040
+ผ่านอีเธอร์โดยปราศจากสายไฟ
+
+23
+00:02:02,080 --> 00:02:03,880
+คุณหมายถึงการบินไปรอบๆ ในอากาศใช่ไหม?
+
+24
+00:02:03,880 --> 00:02:06,440
+ป๊อปปี้ค็อก! พวกมันยังเหนือจริงยิ่งกว่านั้นอีก
+
+25
+00:02:06,480 --> 00:02:08,480
+เรื่องราวของดาวอังคารที่เราทุกคนเคยได้ยินมา
+
+26
+00:02:08,520 --> 00:02:10,120
+ฉันแน่ใจว่าคุณสุภาพบุรุษรู้ดีกว่าที่จะเชื่อ
+
+27
+00:02:10,160 --> 00:02:11,360
+ทุกสิ่งที่คุณอ่าน
+
+28
+00:02:11,400 --> 00:02:12,800
+- ในหนังสือพิมพ์เดอะไทมส์ - ขอบคุณนะคะ คุณสเกอร์ริตต์
+
+29
+00:02:12,800 --> 00:02:15,280
+แต่ฉันได้รับสัญญาณไฟฟ้าอ่อนๆ
+
+30
+00:02:15,320 --> 00:02:18,520
+และฉันคำนวณว่ามันมาจากดาวอังคาร
+
+31
+00:02:20,160 --> 00:02:23,880
+แต่นั่นไม่ใช่จุดเน้นของโครงการนี้
+
+32
+00:02:23,880 --> 00:02:28,000
+คุณเทสลา ฉันไม่ได้มีนิสัยชอบลงทุนในเทพนิยาย
+
+33
+00:02:28,040 --> 00:02:29,360
+สวัสดีคุณวันนี้
+
+34
+00:02:29,400 --> 00:02:33,320
+คุณเบรดี้ครับ ได้โปรดเถอะครับ งานของผมไม่ใช่เทพนิยาย
+
+35
+00:02:37,000 --> 00:02:39,320
+ฉันสัญญากับคุณว่าภายในเวลาประมาณหนึ่งปี
+
+36
+00:02:39,360 --> 00:02:41,760
+โครงการ Wardenclyffe ของฉันจะเป็นจริงและทำงานได้
+
+37
+00:02:41,800 --> 00:02:43,640
+เป็นเครื่องกำเนิดไฟฟ้าตัวนี้เลย!
+
+38
+00:02:47,360 --> 00:02:49,080
+คุณเทสล่าเหรอ?
+
+39
+00:02:50,080 --> 00:02:51,600
+เรามีเหตุฉุกเฉิน
+
+40
+00:02:58,280 --> 00:03:00,920
+โอ้ที่รัก นี่มันเกิดขึ้นได้ยังไง?
+
+41
+00:03:00,960 --> 00:03:02,840
+ฉันคิดว่าเป็นไฟฟ้าช็อตค่ะคุณผู้หญิง
+
+42
+00:03:02,880 --> 00:03:04,080
+อะไร
+
+43
+00:03:05,080 --> 00:03:06,800
+เครื่องจักรเหล่านี้เครื่องหนึ่งคงจะฆ่าเขา
+
+44
+00:03:06,840 --> 00:03:07,680
+มันเป็นไปไม่ได้.
+
+45
+00:03:07,720 --> 00:03:09,720
+อุปกรณ์ทั้งหมดที่นี่ปลอดภัยดีอย่างสมบูรณ์
+
+46
+00:03:11,200 --> 00:03:14,320
+อย่างไรก็ตาม นายเทสลาจะยินดีลองดู
+
+47
+00:03:14,360 --> 00:03:16,040
+ท้ายที่สุดแล้ว เราไม่สามารถให้ผู้คนคิดได้
+
+48
+00:03:16,080 --> 00:03:18,640
+มีข้อบกพร่องร้ายแรงบางอย่างในการออกแบบของคุณ
+
+49
+00:03:18,640 --> 00:03:19,920
+เราจะทำได้ไหมครับท่าน?
+
+50
+00:03:21,600 --> 00:03:22,640
+ดีมากครับ.
+
+51
+00:03:23,960 --> 00:03:25,160
+ฉันทำงานคนเดียว!
+
+52
+00:03:42,480 --> 00:03:44,560
+โอ้ คุณสเกอร์ริตต์!
+
+53
+00:03:44,600 --> 00:03:46,480
+ฉันแก้ปริศนาได้แล้ว!
+
+54
+00:03:46,520 --> 00:03:49,400
+เครื่องจักรของฉันไม่มีข้อบกพร่องแน่นอน
+
+55
+00:03:49,440 --> 00:03:51,160
+มีชิ้นส่วนที่ขาดหายไป
+
+56
+00:03:51,160 --> 00:03:52,640
+ที่ทำงานเรามีขโมย!
+
+57
+00:03:57,240 --> 00:03:58,480
+คุณสเกอร์ริตต์เหรอ?
+
+58
+00:04:09,080 --> 00:04:10,240
+สวัสดี?
+
+59
+00:04:11,280 --> 00:04:12,480
+มีใครอยู่มั้ย?
+
+60
+00:04:30,360 --> 00:04:31,760
+เหลือเชื่อ.
+
+61
+00:04:36,360 --> 00:04:38,080
+มันคืออะไร?
+
+62
+00:04:39,080 --> 00:04:40,320
+ฉัน... ฉันไม่มีไอเดียเลย
+
+63
+00:04:42,960 --> 00:04:44,480
+ฉันคิดว่าหัวหน้าคนงานกลับบ้านไปแล้ว
+
+64
+00:04:44,480 --> 00:04:47,240
+คุณสเกอร์ริตต์ เราต้องไปแล้ว
+
+65
+00:04:55,040 --> 00:04:56,280
+ล็อคแล้ว!
+
+66
+00:05:04,320 --> 00:05:05,440
+โอ้ สวัสดี!
+
+67
+00:05:05,480 --> 00:05:07,920
+ฉันไม่คิดว่าคุณจะได้เห็นอะไรแปลก ๆ แถวนี้ใช่ไหม?
+
+68
+00:05:07,960 --> 00:05:09,720
+อ๋อ! ฉันถือว่านั่นเป็นใช่นะ
+
+69
+00:05:09,760 --> 00:05:11,040
+จะว่าอะไรไหมถ้าฉันจะร่วมด้วย?
+
+70
+00:05:15,520 --> 00:05:16,800
+ฉันชื่อมิสเตอร์เบรดี้
+
+71
+00:05:16,840 --> 00:05:19,480
+เหตุใดนักลงทุนที่มีศักยภาพจึงยิงเรา?
+
+72
+00:05:19,480 --> 00:05:21,680
+ที่น่ากังวลกว่านั้นคือใครเป็นคนยิงเขา?
+
+73
+00:05:22,760 --> 00:05:23,760
+วิ่ง!
+
+74
+00:05:23,800 --> 00:05:26,720
+- คุณเป็นใคร? - คนที่มีทางออกไปจากที่นี่อย่างรวดเร็ว!
+
+75
+00:05:30,480 --> 00:05:33,600
+มาแล้ว รถหลบหนีที่สมบูรณ์แบบ!
+
+76
+00:05:33,600 --> 00:05:35,960
+เต็มสปีดตรงสู่นิวยอร์ก
+
+77
+00:05:36,000 --> 00:05:37,600
+ฉันพูดอะไรนะ?
+
+78
+00:05:37,640 --> 00:05:39,880
+รถไฟกลางคืน ตรงตามกำหนดเวลา
+
+79
+00:05:39,880 --> 00:05:41,960
+แล้วคุณค้นพบหรือยังว่าอะไรคือสาเหตุของเรื่องพลังงานนี้?
+
+80
+00:05:42,000 --> 00:05:44,080
+ไม่หรอก แต่ฉันเจอสองคนนี้
+
+81
+00:05:44,880 --> 00:05:47,880
+ยินดีต้อนรับสู่ Orient Express! เราเดินทางอย่างมีสไตล์
+
+82
+00:05:47,920 --> 00:05:50,920
+นี่คือเกรแฮม ยาซ และไรอัน เรากำลังเที่ยวชมสถานที่ต่างๆ
+
+83
+00:05:50,920 --> 00:05:52,560
+เมื่อฉันหยิบการอ่านค่าพลังงานตลกๆ ขึ้นมา
+
+84
+00:05:52,560 --> 00:05:53,920
+ฉันคิดว่าฉันจะตรวจสอบมันออก
+
+85
+00:05:53,960 --> 00:05:55,480
+เจอปัญหานิดหน่อยที่โรงงาน
+
+86
+00:05:55,520 --> 00:05:57,800
+ไม่มีอะไรต้องกังวล เราเสียพวกเขาไปแล้ว
+
+87
+00:05:57,840 --> 00:05:59,000
+แล้วเราก็มาถึงจุดนี้
+
+88
+00:05:59,040 --> 00:06:00,720
+ฉันเป็นหมอนะ
+
+89
+00:06:00,760 --> 00:06:03,560
+ทำไมคุณไม่บอกฉันว่าคุณเป็นใครและใครกำลังยิงคุณ?
+
+90
+00:06:03,600 --> 00:06:05,680
+โดโรธี โดโรธี สเกอร์ริตต์
+
+91
+00:06:06,840 --> 00:06:10,440
+ฉันคือ นิโคลา เทสลา และฉันรับรองได้เลยว่าฉันไม่มีไอเดียใดๆ เลย
+
+92
+00:06:10,440 --> 00:06:11,680
+เทสล่า!
+
+93
+00:06:12,360 --> 00:06:13,600
+ฉันรู้ว่าคุณดูคุ้นเคย!
+
+94
+00:06:13,640 --> 00:06:15,080
+นิโคลา เทสลาเท่านั้น!
+
+95
+00:06:15,120 --> 00:06:16,920
+- ใคร? - นิโคลัส อะไรสักอย่าง
+
+96
+00:06:16,960 --> 00:06:18,400
+อัจฉริยะขั้นเทพ!
+
+97
+00:06:18,440 --> 00:06:20,440
+ฉันอยากเจอคุณเสมอ!
+
+98
+00:06:20,480 --> 00:06:22,000
+น่าเสียดายที่คุณเป็นคนโกหกตัวยง
+
+99
+00:06:22,040 --> 00:06:23,680
+- ขอโทษ?
+
+100
+00:06:23,720 --> 00:06:25,000
+เขียน: หมอ!
+
+101
+00:06:25,040 --> 00:06:26,280
+และเราก็ออกเดินทางอีกครั้ง!
+
+102
+00:06:26,280 --> 00:06:28,360
+ระวัง! ไป ไป ไป!
+
+103
+00:06:28,400 --> 00:06:30,400
+- ไรอัน: นั่นใคร? - ฉันไม่รู้!
+
+104
+00:06:32,520 --> 00:06:34,560
+ล็อคแล้ว! ไปต่อ!
+
+105
+00:06:39,360 --> 00:06:40,400
+ไป!
+
+106
+00:06:40,440 --> 00:06:41,680
+- ไม่มีทาง! - ไปเลย ไรอัน!
+
+107
+00:06:41,720 --> 00:06:44,440
+ทำได้แล้ว! อ๊าก!
+
+108
+00:06:44,440 --> 00:06:46,040
+ตอนนี้!
+
+109
+00:06:51,240 --> 00:06:52,760
+มันเงียบนะ.
+
+110
+00:06:52,800 --> 00:06:54,920
+ทำไมถึงเงียบหายไป?
+
+111
+00:07:08,000 --> 00:07:09,080
+ฉันจะเอาอันนั้น!
+
+112
+00:07:11,560 --> 00:07:12,920
+งั้นก็เดินหน้าต่อไปเถอะ
+
+113
+00:07:17,440 --> 00:07:18,920
+ขาดอะไรไปหรือเปล่า?
+
+114
+00:07:26,760 --> 00:07:29,480
+เอาล่ะ! อ๊าก! มันเป็นสนิมแล้ว
+
+115
+00:07:29,480 --> 00:07:31,080
+ได้แล้วคุณ!
+
+116
+00:07:42,720 --> 00:07:45,840
+ซิลูเรียน บลาสเตอร์ สิ่งมีชีวิตที่น่ารังเกียจและอันตราย
+
+117
+00:07:45,880 --> 00:07:47,040
+แต่ส่วนที่ตลกคือ
+
+118
+00:07:47,080 --> 00:07:50,360
+อะไรก็ตามที่กำลังยิงอยู่นั้น มันไม่ใช่ไซลูเรียน ดังนั้น นิโคลา เทสลา
+
+119
+00:07:50,400 --> 00:07:52,920
+ทำไมมีคนไล่ตามคุณด้วยปืนเอเลี่ยน?
+
+120
+00:07:52,960 --> 00:07:54,480
+คุณเชื่อว่านี่คือมนุษย์ต่างดาวใช่ไหม?
+
+121
+00:07:54,520 --> 00:07:56,360
+อย่าเร็วขนาดนั้นสิ คุณคนโกหกตัวใหญ่
+
+122
+00:07:56,400 --> 00:07:57,440
+ทำไมคุณถึงพูดอย่างนั้นซ้ำแล้วซ้ำเล่า?
+
+123
+00:07:57,480 --> 00:07:58,920
+เธอเป็นคนไม่สุภาพแบบนี้เสมอเลยเหรอ?
+
+124
+00:07:58,960 --> 00:08:00,600
+- อื่นๆ: ใช่ - สิ่งแรกที่ฉันถามคุณ
+
+125
+00:08:00,640 --> 00:08:02,680
+ฉันถามว่า "คุณเห็นอะไรแปลก ๆ ไหม?"
+
+126
+00:08:02,720 --> 00:08:05,160
+และมีเรื่องสำคัญอย่างหนึ่งที่คุณลืมพูดถึง
+
+127
+00:08:05,200 --> 00:08:06,600
+ดูสิ ฉันเริ่มเย็นนี้แล้ว
+
+128
+00:08:06,600 --> 00:08:08,880
+การไล่ตามการอ่านค่าพลังงานที่ผิดปกติ
+
+129
+00:08:08,920 --> 00:08:11,200
+ฉันติดตามสัญญาณนั้นอย่างดังและชัดเจน
+
+130
+00:08:11,240 --> 00:08:12,800
+ไปที่เครื่องกำเนิดไฟฟ้า Niagara
+
+131
+00:08:12,840 --> 00:08:18,000
+แล้วทำไมฉันถึงยังสัมผัสได้ถึงสิ่งนั้นบนรถไฟขบวนนี้กับคุณอยู่ล่ะ?
+
+132
+00:08:18,000 --> 00:08:20,600
+อะไรก็ตามก็ส่งมอบมันมา
+
+133
+00:08:20,640 --> 00:08:22,240
+นี่เป็นหนึ่งในสิ่งที่น่าอัศจรรย์ที่สุด
+
+134
+00:08:22,280 --> 00:08:23,440
+ฉันได้เห็นในชีวิตของฉัน
+
+135
+00:08:23,480 --> 00:08:25,760
+มันเป็นปริศนาที่ฉันตั้งใจจะไข
+
+136
+00:08:25,760 --> 00:08:28,200
+และฉันไม่มีความตั้งใจที่จะมอบมันให้กับคนแปลกหน้าโดยสิ้นเชิง
+
+137
+00:08:28,240 --> 00:08:30,080
+คนแปลกหน้าที่เพิ่งช่วยชีวิตคุณไว้
+
+138
+00:08:30,120 --> 00:08:32,440
+อะไรก็ตามที่คุณพบกำลังทำให้คุณตกอยู่ในอันตราย
+
+139
+00:08:32,480 --> 00:08:35,760
+ใช่ ทั้งคู่เลย โอเคไหม?
+
+140
+00:08:38,280 --> 00:08:40,200
+ฉันเห็นด้วยกับคุณเทสลา
+
+141
+00:08:40,240 --> 00:08:42,880
+ถ้าจะมีใครเข้าใจเรื่องนี้ได้ ก็คือเขาคนนี้นั่นเอง
+
+142
+00:08:46,360 --> 00:08:49,880
+แล้วถ้าไม่ส่งมอบมันให้ล่ะ
+
+143
+00:08:49,880 --> 00:08:51,720
+คุณไม่ปล่อยให้เราเลือกเลย
+
+144
+00:08:54,760 --> 00:08:56,920
+เราจะไม่ปล่อยให้คุณหลุดจากสายตาของเรา
+
+145
+00:08:56,920 --> 00:08:59,080
+จนกว่าเราจะแก้ไขปัญหานี้เสร็จ
+
+146
+00:09:01,720 --> 00:09:03,040
+แล้วแล็บนี้อยู่ที่ไหนล่ะ?
+
+147
+00:09:13,720 --> 00:09:15,600
+ตอนนี้มันก็เริ่มจะโอเคนิดหน่อยแล้ว
+
+148
+00:09:15,640 --> 00:09:17,000
+ยุคทองแห่งนิวยอร์ก!
+
+149
+00:09:17,040 --> 00:09:19,840
+นี่คือจุดเริ่มต้นของโลกสมัยใหม่!
+
+150
+00:09:19,880 --> 00:09:23,520
+ความคิดใหม่ เทคโนโลยีใหม่ ตึกระฟ้าใหม่
+
+151
+00:09:23,560 --> 00:09:25,120
+มีคนรวยเร็วมากขึ้น
+
+152
+00:09:25,160 --> 00:09:27,640
+และมีคนจนมากขึ้นกว่าเดิมมาก
+
+153
+00:09:27,680 --> 00:09:29,920
+ฉันอยากไปเที่ยวนิวยอร์กและไทม์สแควร์มาตลอด
+
+154
+00:09:29,920 --> 00:09:31,680
+ใช่แล้ว มันเร็วเกินไปสำหรับเรื่องนั้น
+
+155
+00:09:31,720 --> 00:09:32,880
+- ตึกเอ็มไพร์สเตท? - ยังไม่มีครับ
+
+156
+00:09:32,920 --> 00:09:34,200
+- เซ็นทรัลปาร์ค? - จ้ะ!
+
+157
+00:09:34,240 --> 00:09:36,280
+นั่นมีมานานแล้ว
+
+158
+00:09:36,320 --> 00:09:38,080
+คุณได้ยินเสียงตะโกนไหม?
+
+159
+00:09:38,120 --> 00:09:40,360
+ฝูงชน: ไม่ต่อกระแสความตาย ไม่ต่อ AC!
+
+160
+00:09:40,360 --> 00:09:42,600
+ไม่ต่อกระแสความตาย ไม่ต่อ AC!
+
+161
+00:09:42,640 --> 00:09:45,640
+ไม่ต่อกระแสความตาย ไม่ต่อ AC!
+
+162
+00:09:45,680 --> 00:09:49,080
+- พวกเขาเป็นใคร? - ผู้ประท้วง.
+
+163
+00:09:49,120 --> 00:09:51,200
+พวกเขากำลังประท้วงเรื่องอะไร?
+
+164
+00:09:51,200 --> 00:09:53,040
+- ฉัน - ผู้หญิง: นั่นไง!
+
+165
+00:09:53,040 --> 00:09:55,680
+คุณมีไอเดียบ้างไหมว่าคุณกำลังทำอะไรอยู่?
+
+166
+00:09:55,720 --> 00:09:57,520
+- น่าอายชะมัด! - เขาอันตราย!
+
+167
+00:09:57,560 --> 00:09:59,320
+- กลับดาวอังคารไปซะ! - มีคนอีกกี่คน
+
+168
+00:09:59,360 --> 00:10:01,560
+ต้องตายก่อนที่จะยอมรับว่าเครื่องจักรของคุณไม่ปลอดภัยใช่ไหม?
+
+169
+00:10:01,600 --> 00:10:02,880
+สิ่งประดิษฐ์ของฉันไม่เคยทำร้ายใคร!
+
+170
+00:10:02,920 --> 00:10:05,120
+จริงไหมที่สิ่งประดิษฐ์ล่าสุดของคุณทำให้เกิดแผ่นดินไหว?
+
+171
+00:10:05,160 --> 00:10:06,960
+นั่นเป็นเพียงอาการสั่นเล็กน้อย
+
+172
+00:10:07,000 --> 00:10:08,640
+ทำไมคุณถึงสร้างอาวุธที่ลองไอส์แลนด์?
+
+173
+00:10:08,640 --> 00:10:10,320
+นายเทสลาไม่ได้สร้างอาวุธชนิดใดเลย
+
+174
+00:10:10,320 --> 00:10:11,960
+หรือจะมาตอบข้อสงสัยใดๆ!
+
+175
+00:10:12,000 --> 00:10:13,480
+- ขอโทษครับ! - คนบ้าต่างประเทศ!
+
+176
+00:10:13,480 --> 00:10:14,760
+คุณไม่เหมาะกับอเมริกา
+
+177
+00:10:14,800 --> 00:10:15,880
+ใช่!
+
+178
+00:10:17,920 --> 00:10:19,600
+ฉันเป็นพลเมืองอเมริกัน!
+
+179
+00:10:20,800 --> 00:10:24,160
+และคุณกำลังบุกรุกหน้าห้องแล็ปของฉัน
+
+180
+00:10:29,800 --> 00:10:31,280
+ฉันเหรอ? คนบ้า?
+
+181
+00:10:31,320 --> 00:10:34,040
+พวกเขาจะไม่รู้จักความเป็นอัจฉริยะแม้ว่าจะโดนตีที่หน้าก็ตาม
+
+182
+00:10:34,040 --> 00:10:35,480
+คุณสบายดีไหม?
+
+183
+00:10:35,520 --> 00:10:38,000
+โอ้ แน่นอนครับ
+
+184
+00:10:38,040 --> 00:10:39,800
+ความคิดเห็นของพวกเขาไม่ส่งผลต่อฉัน
+
+185
+00:10:46,640 --> 00:10:48,000
+เขาจะแค่ชั่วขณะหนึ่ง
+
+186
+00:10:49,480 --> 00:10:51,040
+ทำไมคุณไม่ไปต่อล่ะ?
+
+187
+00:10:53,800 --> 00:10:55,040
+ห้องทดลองของเทสลา
+
+188
+00:10:56,160 --> 00:10:58,040
+นี่จะเป็นบางสิ่งที่พิเศษ!
+
+189
+00:11:03,560 --> 00:11:05,040
+ฉันจะไม่โกหก
+
+190
+00:11:05,080 --> 00:11:07,000
+ฉันคาดหวังมากกว่านี้
+
+191
+00:11:08,040 --> 00:11:09,680
+เอาล่ะ มาดูกันดีกว่าว่า...
+
+192
+00:11:10,600 --> 00:11:12,200
+มม.
+
+193
+00:11:12,240 --> 00:11:15,160
+แล้ว Tesla เขามีส่วนเกี่ยวข้องกับรถยนต์หรือเปล่า?
+
+194
+00:11:15,200 --> 00:11:16,520
+ใช่แล้ว พวกมันถูกตั้งชื่อตามเขา
+
+195
+00:11:16,560 --> 00:11:18,600
+เขาเป็นนักประดิษฐ์ที่มีชื่อเสียงใช่ไหมครับหมอ?
+
+196
+00:11:18,640 --> 00:11:19,760
+ใช่?
+
+197
+00:11:20,280 --> 00:11:22,280
+แล้วเขาคิดค้นอะไรขึ้นมา?
+
+198
+00:11:23,480 --> 00:11:25,760
+เอ่อ เขาเป็นผู้คิดค้น...
+
+199
+00:11:27,080 --> 00:11:29,760
+นี่มันอะไรกัน บอกพวกเขาสิหมอ
+
+200
+00:11:29,800 --> 00:11:35,080
+นิโคลา เทสลา ฝันถึงศตวรรษที่ 20 ก่อนที่จะเกิดขึ้น
+
+201
+00:11:35,120 --> 00:11:38,000
+ก่อนที่คุณจะมีรังสีเอกซ์ เทสลาจะมีกราฟเงา
+
+202
+00:11:38,040 --> 00:11:40,800
+ก่อนที่จะมีโดรน เทสลาก็มีหุ่นยนต์อัตโนมัติ
+
+203
+00:11:40,840 --> 00:11:44,120
+ก่อนที่มาร์โคนีจะได้รับสิทธิบัตรสำหรับวิทยุ
+
+204
+00:11:44,160 --> 00:11:47,560
+พวกเขาต้องเอาสิ่งนั้นมาจากเทสลาเพราะเขาเป็นคนประดิษฐ์มันขึ้นมาก่อน!
+
+205
+00:11:47,600 --> 00:11:50,800
+งานของเขาเกี่ยวกับกระแสไฟฟ้าสลับ
+
+206
+00:11:50,840 --> 00:11:54,160
+ช่วยสร้างกระแสไฟฟ้าให้กับโลก
+
+207
+00:11:54,200 --> 00:11:56,360
+เขาควรจะเป็นมหาเศรษฐีคนแรกไปแล้ว
+
+208
+00:11:56,400 --> 00:11:58,200
+ถ้าเขาไม่ฉีกสัญญาของเขาทิ้ง
+
+209
+00:11:58,240 --> 00:11:59,800
+ธุรกิจไม่ใช่จุดแข็งของเขา
+
+210
+00:12:02,400 --> 00:12:03,720
+หมอ.
+
+211
+00:12:07,200 --> 00:12:09,480
+ฉันเชื่อว่าคุณอยากเห็นสิ่งนี้
+
+212
+00:12:13,400 --> 00:12:15,760
+นี่คือสิ่งที่คุณพบในเครื่องกำเนิดไฟฟ้าใช่ไหม?
+
+213
+00:12:15,800 --> 00:12:18,600
+ปล่อยพลังงานออกมามากมายขนาดนั้น แต่ทำไมล่ะ?
+
+214
+00:12:19,840 --> 00:12:21,600
+โห!
+
+215
+00:12:25,080 --> 00:12:27,200
+คุณเห็นไหมว่ามันเคลื่อนไหวได้เป็นอิสระ?
+
+216
+00:12:27,240 --> 00:12:30,160
+ฉันเชื่อว่านี่คือสิ่งที่ฉันชอบเรียกว่า "รีโมทคอนโทรล"
+
+217
+00:12:30,200 --> 00:12:32,360
+รีโมตเหรอ? คิดขึ้นมาเองเหรอ?
+
+218
+00:12:32,360 --> 00:12:34,960
+ฉันเชื่อว่าสิ่งนี้ทำงานบนหลักการที่คล้ายคลึงกัน
+
+219
+00:12:34,960 --> 00:12:37,000
+ถ้าเราสามารถหาจุดประสงค์ของมันได้...
+
+220
+00:12:37,040 --> 00:12:38,520
+ฉันรู้ว่ามันคืออะไร
+
+221
+00:12:39,640 --> 00:12:41,480
+มันคือลูกแก้วของ Thassor
+
+222
+00:12:41,480 --> 00:12:43,280
+แต่ฉันไม่มีความคิดว่ามันทำอะไรอยู่ที่นี่
+
+223
+00:12:49,080 --> 00:12:51,080
+ชาวทัสซอร์เป็นชนเผ่าโบราณกลุ่มหนึ่ง
+
+224
+00:12:51,120 --> 00:12:54,680
+นักเล่าเรื่องที่น่าทึ่ง นักประดิษฐ์ นักสำรวจ
+
+225
+00:12:54,680 --> 00:12:57,560
+พวกเขาสร้างทรงกลมเหล่านี้ขึ้นเพื่อเป็นวิธีในการเผยแพร่ข้อมูล
+
+226
+00:12:57,600 --> 00:13:01,880
+เพื่อส่งออกไปในหมู่ดวงดาวเพื่อแบ่งปันมรดกของพวกเขา
+
+227
+00:13:01,920 --> 00:13:03,560
+หลังจากพวกเขาจากไปนานแล้ว
+
+228
+00:13:04,560 --> 00:13:07,080
+ทำไมใครบางคนถึงพยายามฆ่าเราเพื่อที่จะได้สิ่งนั้นมา?
+
+229
+00:13:08,200 --> 00:13:09,320
+ฉันไม่มีไอเดียเลย
+
+230
+00:13:10,160 --> 00:13:11,480
+แต่บางทีฉันอาจจะค้นพบได้
+
+231
+00:13:14,560 --> 00:13:16,160
+ฉันคิดว่ามันถูกนำมาใช้ใหม่
+
+232
+00:13:16,200 --> 00:13:18,400
+แต่ฉันไม่สามารถคิดออกว่ามันกำลังทำอะไรแทน
+
+233
+00:13:18,440 --> 00:13:20,720
+นี่มันผิดหมดเลย! อะไรที่หรูหราขนาดนี้
+
+234
+00:13:20,760 --> 00:13:22,840
+ไม่ควรส่งเสียงดังแบบนี้
+
+235
+00:13:22,880 --> 00:13:25,040
+การอ่านค่าพลังงานนั้นอยู่นอกเหนือแผนภูมิ!
+
+236
+00:13:26,120 --> 00:13:29,760
+เครื่องมือนั่นมันตรวจจับพลังงานเหรอ? นี่นายออกแบบเองรึเปล่า?
+
+237
+00:13:29,760 --> 00:13:31,680
+ทำได้แล้วค่ะ! ส่วนใหญ่ก็ใช้ช้อนค่ะ
+
+238
+00:13:32,400 --> 00:13:33,640
+คุณเป็นนักประดิษฐ์!
+
+239
+00:13:33,680 --> 00:13:35,040
+ฉันก็มีช่วงเวลาของฉัน
+
+240
+00:13:35,080 --> 00:13:36,320
+ฉันรู้แล้ว!
+
+241
+00:13:36,360 --> 00:13:38,800
+ก็...คุณคงเข้าใจความรู้สึกแล้วใช่ไหม
+
+242
+00:13:38,840 --> 00:13:42,000
+คุณรู้ไหมว่าเมื่อคุณมีความคิดและ... และทำให้มันเป็นจริง
+
+243
+00:13:42,040 --> 00:13:44,040
+ไม่คิดว่าจะมีอะไรตื่นเต้นไปกว่านี้อีกแล้ว!
+
+244
+00:13:45,520 --> 00:13:47,040
+ฉันเห็นด้วยอย่างยิ่ง
+
+245
+00:13:49,040 --> 00:13:50,720
+คุณ...คุณพูดถึงมนุษย์ต่างดาว
+
+246
+00:13:50,760 --> 00:13:53,000
+ผู้คนต่างก็หัวเราะกับความคิดนี้กันทั้งนั้น!
+
+247
+00:13:53,040 --> 00:13:54,920
+- แต่ไม่ใช่คุณนะ - ดูเหมือนว่า
+
+248
+00:13:54,960 --> 00:13:56,280
+ฉันไม่เหมือนคนอื่น
+
+249
+00:13:56,320 --> 00:13:59,120
+มันอาจจะยากนะคุณรู้ไหม
+
+250
+00:13:59,160 --> 00:14:01,760
+รู้สึกว่าไม่มีใครมองโลกแบบเดียวกับคุณ
+
+251
+00:14:01,800 --> 00:14:03,680
+มันเหมือนกับว่าคุณเป็นเอ่อ...
+
+252
+00:14:03,680 --> 00:14:05,240
+ผิดที่ผิดทาง
+
+253
+00:14:06,440 --> 00:14:07,440
+ใช่.
+
+254
+00:14:09,000 --> 00:14:12,560
+ฉัน... ฉันคิด... ฉันคิดว่าสิ่งต่างๆ คงจะแตกต่างออกไป
+
+255
+00:14:12,600 --> 00:14:15,320
+คุณรู้ไหมว่าตอนที่ฉันมาถึงอเมริกาครั้งแรก
+
+256
+00:14:15,360 --> 00:14:17,960
+ฉันมีเงินสี่เซ็นต์ในชื่อของฉัน ฉันถูกปล้นระหว่างการเดินทาง
+
+257
+00:14:18,000 --> 00:14:20,640
+แต่ฉันยังคงคิดว่า "นี่คือจุดเริ่มต้น!"
+
+258
+00:14:20,680 --> 00:14:22,480
+ที่นี่ฉันจะเจริญรุ่งเรือง ความคิดของฉันจะคงอยู่!
+
+259
+00:14:22,520 --> 00:14:25,920
+การเปลี่ยนแปลงโลกต้องใช้เวลา คุณต้องอดทน
+
+260
+00:14:25,920 --> 00:14:28,480
+ฉันพยายามแล้ว แต่คุณเห็นพวกเขาอยู่ข้างนอก
+
+261
+00:14:28,520 --> 00:14:32,920
+พวกเขา... พวกเขาพูดราวกับว่าฉันเป็นอันตรายหรือบ้าหรือ...
+
+262
+00:14:32,960 --> 00:14:35,280
+พิสูจน์ให้พวกเขาเห็นว่าพวกเขาคิดผิด!
+
+263
+00:14:36,800 --> 00:14:40,800
+ท่านครับ นี่เพิ่งส่งมาจากคุณมอร์แกนครับ
+
+264
+00:14:42,280 --> 00:14:43,680
+ยอดเยี่ยม.
+
+265
+00:14:44,880 --> 00:14:48,880
+คุณมอร์แกนคือผู้ลงทุนเบื้องหลังโครงการ Wardenclyffe ของฉัน
+
+266
+00:14:48,920 --> 00:14:51,000
+ด้วยความช่วยเหลือของเขาเราจึง...
+
+267
+00:14:58,680 --> 00:15:01,000
+- เขากำลังดึงเงินทุน - อะไรนะ?
+
+268
+00:15:02,400 --> 00:15:06,080
+ฉัน เอ่อ... ไม่สามารถทำ Wardenclyffe ให้สำเร็จได้หากไม่มีมัน
+
+269
+00:15:06,120 --> 00:15:08,160
+ฉันคงไม่มีวันพิสูจน์ได้ว่ามันได้ผล
+
+270
+00:15:08,200 --> 00:15:10,840
+นั่นใครอ่ะ?
+
+271
+00:15:12,560 --> 00:15:15,040
+นั่นคือฮาโรลด์ กรีน หนึ่งในลูกน้องของเอดิสัน
+
+272
+00:15:15,080 --> 00:15:18,280
+- เหมือนกับโทมัส เอดิสันเหรอ? ผู้ชายหลอดไฟเหรอ? - โอเค
+
+273
+00:15:18,280 --> 00:15:20,960
+เราทุกคนรู้จักเอดิสัน แต่มันคือเทสลาที่คุณไม่เคยได้ยินชื่อมาก่อน
+
+274
+00:15:21,000 --> 00:15:23,480
+- เขายืนอยู่ตรงนั้นจริงๆ นะ - ใช่ ขอโทษนะลูกชาย
+
+275
+00:15:23,520 --> 00:15:26,200
+เอดิสัน เอดิสัน แน่นอนอยู่แล้วว่าเป็นเอดิสัน
+
+276
+00:15:26,240 --> 00:15:28,640
+เขาคอยรบกวนฉันทุกย่างก้าวของอาชีพการงาน!
+
+277
+00:15:28,680 --> 00:15:30,920
+เอดิสันเป็นผู้สนับสนุนรูปแบบกระแสไฟฟ้าที่เป็นคู่แข่ง
+
+278
+00:15:30,960 --> 00:15:32,400
+ไปยัง AC ของนายเทสลา
+
+279
+00:15:32,440 --> 00:15:34,320
+กระแสตรงแน่นอนเขาจะสนับสนุน
+
+280
+00:15:34,360 --> 00:15:35,960
+อะไรบางอย่างที่ช้าและไม่มีประสิทธิภาพ
+
+281
+00:15:36,000 --> 00:15:38,920
+ผู้ชายคนนั้นเป็นคนโกหกและเป็นขโมย
+
+282
+00:15:38,960 --> 00:15:42,080
+เรากำลังบอกว่าโทมัส เอดิสันกำลังตามหาลูกแก้วแห่งทัสเซอร์ใช่ไหม?
+
+283
+00:15:42,120 --> 00:15:44,400
+อย่าโง่สิ แล้วพวกเอดิสันจะเอายังไง
+
+284
+00:15:44,440 --> 00:15:46,480
+เครื่องยิงเลเซอร์แห่งสลิมูเรียนเหรอ?
+
+285
+00:15:46,520 --> 00:15:48,360
+ไซลูเรียน ไปดูกันเถอะ
+
+286
+00:15:48,400 --> 00:15:50,400
+พวกคุณสามคนอยู่ที่นี่และเฝ้าดูออร์บ
+
+287
+00:15:50,440 --> 00:15:52,440
+คุณทั้งสองกับฉัน
+
+288
+00:15:52,480 --> 00:15:54,640
+ถึงเวลาที่เราจะไปเยี่ยมคุณโทมัส เอดิสัน
+
+289
+00:15:57,040 --> 00:15:58,840
+สวัสดีคุณผู้หญิงและคุณผู้ชาย
+
+290
+00:15:58,880 --> 00:16:02,560
+AC เป็นพลังที่อันตรายที่สุดที่วิทยาศาสตร์รู้จัก
+
+291
+00:16:02,600 --> 00:16:04,640
+เพื่อความปลอดภัยของประชาชน
+
+292
+00:16:04,680 --> 00:16:07,560
+เครื่องกำเนิดไฟฟ้า Niagara ควรจะปิดลง
+
+293
+00:16:07,560 --> 00:16:08,640
+และให้ฉันเดาดู
+
+294
+00:16:09,480 --> 00:16:11,920
+เครื่องกำเนิดไฟฟ้าเอดิสันถูกสร้างขึ้นในสถานที่ของมัน
+
+295
+00:16:11,960 --> 00:16:13,560
+ฉันเองก็ไม่สามารถพูดได้ดีไปกว่านี้แล้ว
+
+296
+00:16:13,600 --> 00:16:15,360
+โทมัส เอดิสัน เราต้องคุยกัน
+
+297
+00:16:15,360 --> 00:16:16,520
+- ตามที่ผมพูดไว้... - เราสามารถพูดคุยกันได้ที่นี่
+
+298
+00:16:16,560 --> 00:16:18,720
+แต่ฉันคิดว่าคุณคงอยากไปที่ส่วนตัวมากกว่า
+
+299
+00:16:18,760 --> 00:16:21,280
+คุณต้องการนัดหมายกรุณาพูดคุยกับเลขาของฉัน
+
+300
+00:16:21,320 --> 00:16:22,520
+อาวุธจากมนุษย์ต่างดาว
+
+301
+00:16:23,400 --> 00:16:25,200
+คุณได้มันมายังไง?
+
+302
+00:16:25,240 --> 00:16:27,560
+อาวุธเอเลี่ยน!
+
+303
+00:16:27,600 --> 00:16:29,440
+คุณคิดนักประดิษฐ์ผิดคนแล้วครับ
+
+304
+00:16:30,160 --> 00:16:33,480
+มันคือ Nikola Tesla ที่กำลังพูดคุยกับดาวอังคาร
+
+305
+00:16:33,520 --> 00:16:35,560
+ฉันยังคงยืนหยัดอยู่บนพื้นดิน
+
+306
+00:16:35,600 --> 00:16:37,760
+แล้ว...คุณไม่รู้จักสิ่งนี้เหรอ?
+
+307
+00:16:42,080 --> 00:16:43,640
+เรามาดูข้างในกันดีกว่า
+
+308
+00:16:45,600 --> 00:16:48,440
+เกรแฮม: ว้าว! นี่มันแผนการของเขาเลยนะ
+
+309
+00:16:48,480 --> 00:16:50,040
+ดูสิ ฉันเคยได้ยินชื่อผู้ชายคนนี้มาแน่นอน
+
+310
+00:16:50,080 --> 00:16:51,760
+เขาต้องเป็นนักประดิษฐ์ที่มีชื่อเสียงที่สุดของอเมริกา
+
+311
+00:16:51,760 --> 00:16:54,400
+ใช่ แต่เขาก็ไม่ใช่คนขี้ขลาดหรอกนะ ใช่มั้ยล่ะ?
+
+312
+00:16:54,440 --> 00:16:56,240
+ฉันหมายถึงว่าเขาเอาชื่อของเขาไปแปะไว้เต็มร้านเลย!
+
+313
+00:16:56,280 --> 00:16:58,400
+พูดถึงการโม้โอ้อวดตัวเองสิ!
+
+314
+00:16:59,720 --> 00:17:03,440
+ฉันไม่เคยเห็นอะไรเช่นนี้ในชีวิตของฉันเลย
+
+315
+00:17:03,480 --> 00:17:04,960
+มันเป็นการออกแบบของคุณใช่ไหม?
+
+316
+00:17:05,560 --> 00:17:06,680
+ใครมีสิทธิบัตร?
+
+317
+00:17:06,720 --> 00:17:09,400
+นี่ไม่ใช่โอกาสทางธุรกิจ มีคนพยายามจะยิงเราด้วยมัน
+
+318
+00:17:09,440 --> 00:17:11,440
+ก่อนที่เราจะจับพนักงานของคุณได้
+
+319
+00:17:11,480 --> 00:17:12,920
+สอดส่องนิโคลา เทสลา
+
+320
+00:17:12,960 --> 00:17:15,520
+มีคนพยายามขโมยของจากเขา และเขาดูค่อนข้างแน่ใจว่าเป็นคุณ
+
+321
+00:17:15,560 --> 00:17:17,000
+เขาทำตอนนี้เหรอ?
+
+322
+00:17:17,960 --> 00:17:19,280
+คุณผู้หญิง
+
+323
+00:17:19,320 --> 00:17:22,400
+ฉันอาจจะคอยจับตาดูคู่แข่งของฉัน แต่ฉันไม่ขโมย
+
+324
+00:17:22,400 --> 00:17:23,760
+ฉันไม่จำเป็นต้องทำเช่นนั้น
+
+325
+00:17:24,800 --> 00:17:28,040
+มีสิทธิบัตรหนึ่งพันฉบับในชื่อ Edison
+
+326
+00:17:28,080 --> 00:17:29,560
+คุณอาจเคยเห็นมันบนอาคาร
+
+327
+00:17:29,560 --> 00:17:32,800
+- นั่นไม่ใช่สิ่งที่เทสลาคิด - เขารู้สึกเจ็บปวดกับอดีต
+
+328
+00:17:32,840 --> 00:17:34,560
+คุณรู้ไหม ฉันให้งานเขา
+
+329
+00:17:34,560 --> 00:17:36,040
+เมื่อเขามาถึงประเทศนี้ครั้งแรก
+
+330
+00:17:36,080 --> 00:17:37,800
+บนพื้นโรงงาน
+
+331
+00:17:37,840 --> 00:17:40,760
+เขาต้องขุดคูน้ำเพื่อเงินวันละสองเหรียญ
+
+332
+00:17:40,800 --> 00:17:42,360
+เทสล่า?!
+
+333
+00:17:43,040 --> 00:17:44,680
+หนุ่มหล่อที่แต่งตัวไปงานโอเปร่าเหรอ?
+
+334
+00:17:44,720 --> 00:17:46,400
+เขาไปขุดคูน้ำมาได้ยังไง?
+
+335
+00:17:46,440 --> 00:17:48,320
+เขาได้ยินฉันพูดว่าฉันจะจ่าย 50,000
+
+336
+00:17:48,360 --> 00:17:51,040
+ถึงคนที่สามารถซ่อมเครื่องปั่นไฟของฉันได้
+
+337
+00:17:52,080 --> 00:17:55,960
+เขาทำงานกับสิ่งนั้นทั้งวันทั้งคืนเป็นเวลาหนึ่งปี
+
+338
+00:17:56,000 --> 00:17:57,600
+และเขาก็ทำมัน
+
+339
+00:17:57,600 --> 00:17:59,920
+และคุณในฐานะนักธุรกิจที่มีคุณธรรม
+
+340
+00:17:59,920 --> 00:18:01,680
+จ่ายจนหมดทุกเซ็นต์แล้วมั้ง
+
+341
+00:18:02,240 --> 00:18:04,400
+ฉันเสนอให้เขาขึ้นเงินเดือนสิบเหรียญ
+
+342
+00:18:04,440 --> 00:18:06,600
+เขาลาออกแล้วเลือกที่จะขุด
+
+343
+00:18:07,440 --> 00:18:10,880
+ผู้ชายคนนี้ไม่เข้าใจอารมณ์ขันของคนอเมริกัน
+
+344
+00:18:25,680 --> 00:18:27,360
+ฉันคิดว่าคุณจะมีของมากกว่านี้
+
+345
+00:18:27,360 --> 00:18:30,720
+แบบร่าง แบบแปลน อะไรพวกนี้น่ะ สำหรับสิ่งประดิษฐ์ทั้งหมดของคุณ
+
+346
+00:18:31,720 --> 00:18:33,800
+- ทั้งหมดอยู่ที่นี่
+
+347
+00:18:33,840 --> 00:18:36,280
+ก่อนอื่นเลยฉัน...
+
+348
+00:18:36,320 --> 00:18:38,200
+...ฉันสร้างสิ่งต่างๆที่นี่
+
+349
+00:18:43,040 --> 00:18:45,240
+บอกฉันเกี่ยวกับโครงการ Wardenclyffe นี้หน่อย
+
+350
+00:18:47,960 --> 00:18:49,240
+เป็น...
+
+351
+00:18:50,320 --> 00:18:52,680
+ลองนึกภาพดูสิว่าถ้าเอ่อ...
+
+352
+00:18:52,720 --> 00:18:55,880
+...ไม่ว่าคุณจะอยู่ที่ไหน คุณก็สามารถได้ยินเสียงเพลงได้
+
+353
+00:18:55,920 --> 00:18:59,200
+หรือเอ่อ คำพูดของผู้นำที่ยิ่งใหญ่หรือเอ่อ...
+
+354
+00:18:59,240 --> 00:19:02,120
+...เสกแผนที่ของสิ่งที่อยู่ข้างหน้าขึ้นมา
+
+355
+00:19:02,160 --> 00:19:04,160
+นั่นคือสิ่งที่ฉันเสนอกับ Wardenclyffe
+
+356
+00:19:04,200 --> 00:19:06,760
+ความรู้ของมนุษย์ทั้งหมดถูกแบ่งปันอย่างเสรี
+
+357
+00:19:06,800 --> 00:19:08,880
+นั่นฟังดูเหมือนเป็นอนาคตเลย
+
+358
+00:19:09,680 --> 00:19:11,360
+เออ เออ...
+
+359
+00:19:11,360 --> 00:19:13,520
+มันจะเปลี่ยนโลก
+
+360
+00:19:14,840 --> 00:19:16,720
+ทำไมคนอื่นถึงไม่เห็นได้ล่ะ?
+
+361
+00:19:18,120 --> 00:19:20,360
+ต้องมีใครสักคนมาลงทุนแน่ๆ
+
+362
+00:19:21,120 --> 00:19:23,120
+ถ้ามีก็หาไม่เจอครับ
+
+363
+00:19:23,160 --> 00:19:25,800
+และเอ่อ ถ้าไม่มีเงิน ฉันก็ไม่มีแหล่งพลังงาน
+
+364
+00:19:25,840 --> 00:19:27,240
+และไม่มีพลัง...
+
+365
+00:19:32,840 --> 00:19:34,600
+นักวิทยาศาสตร์: ท่านครับ หากท่านอนุญาตให้ผม...
+
+366
+00:19:34,600 --> 00:19:38,360
+ไม่ครับ! ขดลวดกราวด์เข้าแยกครับ
+
+367
+00:19:44,360 --> 00:19:45,600
+- ฉันบอกว่าอย่าแตะ! - ขอโทษ.
+
+368
+00:19:46,600 --> 00:19:48,760
+จริงเหรอ? ไปที่นั่นสิ!
+
+369
+00:20:18,960 --> 00:20:20,320
+มีอะไรบางอย่างผิดปกติ
+
+370
+00:20:20,360 --> 00:20:21,880
+โอ้ ฉันควรจะพูด
+
+371
+00:20:21,920 --> 00:20:24,080
+เราเต้นรำนี้มานานพอแล้ว
+
+372
+00:20:24,080 --> 00:20:26,920
+แล้วคุณทำอะไรกับผู้ชายของฉันล่ะ
+
+373
+00:20:28,320 --> 00:20:31,400
+โอ้ อย่าแกล้งโง่สิ เขากำลังคอยติดตามอยู่
+
+374
+00:20:31,440 --> 00:20:34,560
+ในการแสดงสุนัขและม้าของ Tesla ที่เมืองไนแองการา
+
+375
+00:20:34,600 --> 00:20:37,960
+ตอนนี้เขาเงียบไปในวันที่คุณปรากฏตัว
+
+376
+00:20:37,960 --> 00:20:39,680
+ชี้นิ้ว ฮะ?
+
+377
+00:20:40,680 --> 00:20:42,480
+เชื่อฉันเถอะ คุณเอดิสัน
+
+378
+00:20:42,520 --> 00:20:44,560
+เราไม่ใช่คนประเภทที่คุณควรต้องกังวล
+
+379
+00:20:44,600 --> 00:20:45,600
+เขาเป็น.
+
+380
+00:20:46,600 --> 00:20:48,280
+ข้างหลังฉัน!
+
+381
+00:20:48,320 --> 00:20:50,800
+แฮโรลด์? เขาเป็นอะไรไป?
+
+382
+00:20:50,800 --> 00:20:52,240
+นั่นไม่ใช่ฮาโรลด์ กรีน
+
+383
+00:20:53,120 --> 00:20:56,000
+ไม่มีการอ่านแบบมนุษย์ มันคืออะไร? ไม่ใช่การสิงสู่
+
+384
+00:20:56,040 --> 00:20:58,360
+การปกปิดภาพพลังจิต? โฮโลแกรม?
+
+385
+00:20:58,360 --> 00:21:00,000
+คุณกำลังพูดเรื่องอะไร?
+
+386
+00:21:00,040 --> 00:21:01,120
+ไม่มีปืน ไรอัน!
+
+387
+00:21:01,120 --> 00:21:03,360
+ไม่ว่าคุณจะเป็นอะไร ไม่ว่าคุณจะมาเพื่ออะไรก็ตาม
+
+388
+00:21:03,360 --> 00:21:04,800
+ไม่มีใครต้องการที่จะได้รับบาดเจ็บอีกต่อไป
+
+389
+00:21:04,840 --> 00:21:06,760
+โต๊ะ!
+
+390
+00:21:06,800 --> 00:21:07,840
+วิ่ง!
+
+391
+00:21:10,960 --> 00:21:12,480
+โอ้พระเจ้า.
+
+392
+00:21:12,520 --> 00:21:13,640
+ไม่มีเวลา.
+
+393
+00:21:13,680 --> 00:21:14,920
+ทางนี้ครับ.
+
+394
+00:21:17,320 --> 00:21:18,600
+ในที่นี่.
+
+395
+00:21:19,080 --> 00:21:20,400
+เกรแฮม: หมอ ดูสิ!
+
+396
+00:21:25,000 --> 00:21:26,560
+โอ้ เขาตายแล้ว
+
+397
+00:21:27,240 --> 00:21:28,840
+เขาคือฮาโรลด์ กรีน ตัวจริง
+
+398
+00:21:28,840 --> 00:21:31,880
+สิ่งใดก็ตามที่ไล่ตามเรากำลังฉายภาพของเขา
+
+399
+00:21:31,920 --> 00:21:34,200
+และใช้มันเพื่อปกปิดตัวตนที่แท้จริงของเขาเอาไว้
+
+400
+00:21:35,760 --> 00:21:37,840
+คุณไม่ควรซ่อนอะไรไว้ดีกว่า
+
+401
+00:21:37,840 --> 00:21:39,160
+มีคนเสียชีวิตแล้ว.
+
+402
+00:21:39,200 --> 00:21:40,600
+คนงานของฉัน!
+
+403
+00:21:41,280 --> 00:21:44,000
+ผู้ชายพวกนั้นทำงานให้ฉันหมด พวกเขามีครอบครัว
+
+404
+00:21:44,040 --> 00:21:46,400
+ฉันทานอาหารเย็นกับผู้ชายคนนี้และภรรยาของเขาเมื่อสัปดาห์ที่แล้ว
+
+405
+00:21:46,440 --> 00:21:48,680
+ฉันต้องบอกเธอ บอกกับครอบครัว
+
+406
+00:21:48,680 --> 00:21:50,160
+- ตอนนี้ส่งปืนมาให้ฉัน - ไม่แน่นอน
+
+407
+00:21:50,200 --> 00:21:51,320
+เราไม่ได้กำลังถ่ายมัน!
+
+408
+00:21:51,360 --> 00:21:53,640
+เราจำเป็นต้องควบคุมมันและหาทางทำให้มันออกมาเป็นไปตามที่ต้องการ
+
+409
+00:21:55,480 --> 00:21:57,280
+นี่คือห้องแล็ปเคมีของคุณ
+
+410
+00:21:57,320 --> 00:21:58,880
+สมบูรณ์แบบ!
+
+411
+00:22:00,040 --> 00:22:02,000
+แอมโมเนียมไนเตรต สารสีเขียวเล็กน้อย
+
+412
+00:22:03,000 --> 00:22:04,400
+- สังกะสีของคุณอยู่ไหน - สังกะสี?
+
+413
+00:22:04,440 --> 00:22:06,000
+คุณเสียสติไปแล้วเหรอ...?
+
+414
+00:22:06,920 --> 00:22:09,760
+- โอ้! - ในที่สุดก็คิดเหมือนนักวิทยาศาสตร์ได้แล้ว
+
+415
+00:22:14,040 --> 00:22:15,720
+ยาซ: นั่นคืออะไร?
+
+416
+00:22:15,760 --> 00:22:16,960
+พลัง!
+
+417
+00:22:17,000 --> 00:22:19,560
+รอการนำมาใช้งาน คุณหมอของคุณพูดถูก
+
+418
+00:22:19,600 --> 00:22:22,120
+Orb กำลังปล่อยพลังงานจำนวนมหาศาล
+
+419
+00:22:22,160 --> 00:22:26,000
+มันเต้นเป็นจังหวะ เหมือนไซเรน หรือเรดาร์
+
+420
+00:22:26,880 --> 00:22:27,960
+เรดาร์?
+
+421
+00:22:27,960 --> 00:22:30,400
+การใช้คลื่นพลังงานเพื่อตรวจจับสิ่งที่อยู่รอบตัวคุณ
+
+422
+00:22:32,120 --> 00:22:33,560
+มันเป็นเพียงทฤษฎี
+
+423
+00:22:33,600 --> 00:22:36,160
+ฉันเองก็กำลังศึกษาเกี่ยวกับทฤษฎีที่คล้ายกันนี้อยู่
+
+424
+00:22:36,200 --> 00:22:38,680
+ฉันเรียกมันว่ารังสีสำรวจของฉัน
+
+425
+00:22:38,720 --> 00:22:40,600
+แต่ยังไงก็ตาม ออร์บก็กำลังแผ่รังสีออกมา
+
+426
+00:22:40,640 --> 00:22:42,120
+คลื่นพลังงานที่แตกต่างกัน
+
+427
+00:22:42,160 --> 00:22:45,840
+มันเหมือนกับว่า... มันกำลังรับรู้ถึงสภาพแวดล้อมรอบตัว
+
+428
+00:22:46,440 --> 00:22:47,880
+ยาซ: หรือการสแกน
+
+429
+00:22:47,920 --> 00:22:49,880
+ซึ่งทำให้ฉันสงสัย...
+
+430
+00:22:49,920 --> 00:22:51,480
+มันกำลังมองหาอะไรอยู่?
+
+431
+00:23:19,360 --> 00:23:20,960
+ยังจะมีอีกมากมายที่มาจากที่นั่น
+
+432
+00:23:21,000 --> 00:23:23,720
+ลองอีกครั้งดีไหม? คุณเป็นใคร?
+
+433
+00:23:23,760 --> 00:23:25,720
+แสดงรูปร่างที่แท้จริงของคุณ
+
+434
+00:23:35,200 --> 00:23:37,200
+พระเจ้าช่วยอะไร?
+
+435
+00:23:39,080 --> 00:23:41,040
+ยัส! ไม่ใช่เอดิสันนะ!
+
+436
+00:23:41,040 --> 00:23:43,680
+ฉันหมายถึง มันเป็นอย่างนั้น แต่กลายเป็นว่ามันเป็นมนุษย์ต่างดาวด้วย
+
+437
+00:23:43,720 --> 00:23:46,600
+พวกเขาสามารถดูเหมือนใครก็ได้ ดังนั้นอย่าให้ใครเข้ามา!
+
+438
+00:23:46,640 --> 00:23:48,240
+บอกเทสล่า! บอกโดโรธี!
+
+439
+00:23:48,280 --> 00:23:49,680
+ล็อคทุกประตู!
+
+440
+00:23:51,560 --> 00:23:52,560
+ฉันเสียใจ.
+
+441
+00:23:52,600 --> 00:23:56,240
+ฤดูร้อน? ฤดูร้อน คุณสบายดีไหม?
+
+442
+00:23:56,280 --> 00:23:59,760
+- คุณตายแล้ว - เรารู้ว่าคุณต้องการ Orb
+
+443
+00:23:59,800 --> 00:24:01,600
+ปล่อยเธอไป
+
+444
+00:24:01,640 --> 00:24:04,960
+ใช่แล้ว คุณไม่จำเป็นต้องทำร้ายเธอ
+
+445
+00:24:05,760 --> 00:24:07,560
+ด้วยระดับเทคโนโลยีของคุณ
+
+446
+00:24:07,600 --> 00:24:10,160
+คุณต้องเข้าใจว่าไม่จำเป็นต้องใช้ความรุนแรง
+
+447
+00:24:11,080 --> 00:24:13,440
+บิดเบือน: เราไม่ได้มาเพื่อออร์บ
+
+448
+00:24:15,040 --> 00:24:17,960
+เราได้มา...เพื่อคุณ
+
+449
+00:24:18,000 --> 00:24:19,680
+เลขที่!
+
+450
+00:24:42,840 --> 00:24:45,080
+ยินดีต้อนรับ นิโคลา เทสลา
+
+451
+00:24:55,920 --> 00:24:58,680
+คุณไม่เป็นไรหรอก คุณคงมีคำถาม
+
+452
+00:24:59,440 --> 00:25:00,840
+พวกเขาก็เอาพวกมันไป
+
+453
+00:25:02,240 --> 00:25:03,640
+พวกเขาพาพวกเขาไปที่ไหน?
+
+454
+00:25:03,680 --> 00:25:05,600
+เรารู้ว่าพวกเขามีเทคโนโลยีปกปิด
+
+455
+00:25:05,640 --> 00:25:07,160
+แต่ถ้าฉันติดตั้งบายพาส...
+
+456
+00:25:08,400 --> 00:25:11,480
+โชคดีที่การประดิษฐ์ด้วยความเร็วสูงเป็นหนึ่งในความเชี่ยวชาญของฉัน
+
+457
+00:25:19,640 --> 00:25:21,600
+ครั้งแรกที่นี่อาจจะเยอะมาก
+
+458
+00:25:21,640 --> 00:25:24,640
+มันแน่นอน...เยอะมาก
+
+459
+00:25:24,680 --> 00:25:26,880
+แต่คุณต้องก้าวต่อไป
+
+460
+00:25:26,920 --> 00:25:28,840
+คุณมาจากไหนกันนะ?
+
+461
+00:25:28,880 --> 00:25:31,160
+ยอร์คเชียร์ ประเทศอังกฤษ
+
+462
+00:25:31,200 --> 00:25:34,760
+ฉันอยู่บ้าน คุณรู้ไหม ชีวิตปกติ ทำงาน
+
+463
+00:25:34,760 --> 00:25:37,000
+แล้วบูม หมอ
+
+464
+00:25:37,040 --> 00:25:38,480
+เปลี่ยนชีวิตฉันทั้งหมด
+
+465
+00:25:38,520 --> 00:25:41,240
+ฉันก็เหมือนกันก่อนที่จะได้พบกับนายเทสลา
+
+466
+00:25:41,280 --> 00:25:44,600
+ฉันอยากมีอาชีพเป็นของตัวเองที่มั่นคง
+
+467
+00:25:44,640 --> 00:25:48,040
+แล้วเขาก็แสดงให้ฉันเห็นการค้นพบต่างๆ เหล่านี้ที่สามารถทำได้
+
+468
+00:25:48,080 --> 00:25:50,360
+แต่ดูเหมือนมันเป็นสิ่งที่เป็นไปไม่ได้
+
+469
+00:25:50,400 --> 00:25:54,680
+และตอนนี้สิ่งที่ปกติและมั่นคง...
+
+470
+00:25:54,720 --> 00:25:55,960
+ดูเหมือนจะไม่สำคัญมากนัก
+
+471
+00:25:57,880 --> 00:25:59,320
+เราจะเอาเขากลับมา
+
+472
+00:26:00,120 --> 00:26:02,160
+เธอเก่งในเรื่องที่เป็นไปไม่ได้เหมือนกัน
+
+473
+00:26:03,480 --> 00:26:04,760
+ถูกต้องแล้ว
+
+474
+00:26:06,200 --> 00:26:07,640
+บนคุณป๊อป
+
+475
+00:26:10,360 --> 00:26:13,160
+นี่คือสิ่งที่พิเศษที่สุด
+
+476
+00:26:14,040 --> 00:26:16,800
+เป็นเครื่องเดี่ยวๆหรือว่าอะไรประมาณนั้น...
+
+477
+00:26:16,840 --> 00:26:18,640
+...โรงงานเครื่องจักรกล?
+
+478
+00:26:20,360 --> 00:26:21,680
+เกรแฮม: โอ้!
+
+479
+00:26:21,720 --> 00:26:23,720
+คุณอยู่ที่นี่เฉพาะช่วง QT ใช่ไหม?
+
+480
+00:26:23,760 --> 00:26:25,680
+ดังนั้นจงเอาสัญลักษณ์ดอลลาร์เหล่านั้นออกจากดวงตาของคุณ
+
+481
+00:26:25,720 --> 00:26:28,640
+เพราะที่ดินผืนเล็กๆ นี้ไม่ได้ขาย ลิขสิทธิ์ของเธอ!
+
+482
+00:26:28,680 --> 00:26:30,880
+- นั่นสำเนียงอังกฤษใช่มั้ย? - ใช่.
+
+483
+00:26:30,920 --> 00:26:33,600
+ตอนนี้มีประเทศหนึ่งที่ไม่เคยเข้าใจธุรกิจเลย
+
+484
+00:26:34,320 --> 00:26:35,560
+กรุณาทำงาน
+
+485
+00:26:36,440 --> 00:26:37,840
+คุณมีอะไรมั้ยหมอ?
+
+486
+00:26:39,880 --> 00:26:41,120
+แน่นอน!
+
+487
+00:26:41,160 --> 00:26:43,000
+เพราะเหตุนี้พวกเขาจึงทิ้งมันไว้ข้างหลัง
+
+488
+00:26:43,040 --> 00:26:45,680
+โดนแฮ็กแล้ว ออกอากาศไม่ได้แล้ว
+
+489
+00:26:45,720 --> 00:26:46,960
+มันกำลังรับอยู่
+
+490
+00:26:47,000 --> 00:26:49,760
+คุณหมายถึงว่ามันเป็นอุปกรณ์ดักฟังใช่ไหม
+
+491
+00:26:49,800 --> 00:26:51,200
+คิดอย่างนั้นนะ
+
+492
+00:26:51,240 --> 00:26:52,680
+ฉันเห็นมันทันที
+
+493
+00:26:52,720 --> 00:26:56,640
+ถูกต้องครับ นำมาปรับใช้ใหม่จากจุดประสงค์เดิม
+
+494
+00:26:57,600 --> 00:27:00,040
+มันสแกนโลกมาตั้งแต่มาถึงที่นี่
+
+495
+00:27:03,400 --> 00:27:06,800
+และมันคงได้พบสิ่งที่มันกำลังมองหาในที่สุด
+
+496
+00:27:10,720 --> 00:27:12,200
+ที่นี่คือที่อะไร?
+
+497
+00:27:12,240 --> 00:27:15,400
+คุณยืนอยู่บนบัลลังก์เรือแห่งสคิธรา
+
+498
+00:27:15,440 --> 00:27:17,640
+สูงเหนือเมืองอันแสนยากจนของคุณ
+
+499
+00:27:21,000 --> 00:27:23,520
+คุณสามารถมองเห็นเมืองของคุณได้
+
+500
+00:27:23,560 --> 00:27:26,520
+แต่เมืองของคุณไม่สามารถเห็นเรา
+
+501
+00:27:28,680 --> 00:27:30,120
+เราได้ดูอยู่
+
+502
+00:27:30,160 --> 00:27:33,680
+ซ่อนไว้จากสายตามนุษย์ในขณะที่เราค้นหา
+
+503
+00:27:33,720 --> 00:27:37,200
+นี่คือคอนเดนเซอร์ไฟฟ้าจากเครื่องปั่นไฟของฉัน
+
+504
+00:27:37,240 --> 00:27:40,440
+เรารวบรวมเสบียงไว้แล้ว ตอนนี้คุณทำงานได้เลย
+
+505
+00:27:41,720 --> 00:27:42,920
+ทำงานอะไร?
+
+506
+00:27:42,960 --> 00:27:46,360
+เรือของเรา อาวุธของเรา ทุกสิ่งทุกอย่าง
+
+507
+00:27:47,360 --> 00:27:49,400
+พวกเขาซ่อนใบหน้าที่แท้จริงไว้ภายใต้ภาพฉาย
+
+508
+00:27:49,400 --> 00:27:53,160
+พวกมันอาจดูเหมือนอะไรก็ได้ อยู่ที่ไหนก็ได้ ไม่มีร่องรอย!
+
+509
+00:27:53,200 --> 00:27:54,680
+หากเรากำลังมองหาเส้นทางที่จะเดินตาม
+
+510
+00:27:54,680 --> 00:27:56,600
+จะเป็นยังไงถ้า Tesla พบมันแล้ว?
+
+511
+00:27:56,640 --> 00:27:58,160
+โดโรธี: แต่เขาก็ทำ
+
+512
+00:27:59,400 --> 00:28:00,800
+สัญญาณจากดาวอังคาร
+
+513
+00:28:02,120 --> 00:28:04,160
+ฉันไม่เชื่อเขา จริงๆ นะ
+
+514
+00:28:04,200 --> 00:28:06,600
+แต่เขาบันทึกการสังเกตของเขาไว้ทั้งหมด
+
+515
+00:28:06,640 --> 00:28:09,000
+เราต้องไปที่ Wardenclyffe
+
+516
+00:28:14,440 --> 00:28:16,600
+ว้าว นี่มันห้องแล็บนะ
+
+517
+00:28:16,640 --> 00:28:18,920
+นายเทสลาเริ่มโอนงานทั้งหมดของเขา
+
+518
+00:28:18,960 --> 00:28:20,640
+ถึง Wardenclyffe เมื่อหลายเดือนก่อน
+
+519
+00:28:22,160 --> 00:28:25,040
+เขาสกัดกั้นสัญญาณจากดาวอังคารด้วยสิ่งนี้
+
+520
+00:28:25,720 --> 00:28:27,200
+เขาเรียกมันว่า Teslascope
+
+521
+00:28:27,240 --> 00:28:28,640
+นี่คือบทอ่านทั้งหมดที่เขาอ่าน
+
+522
+00:28:28,680 --> 00:28:30,040
+พวกเขาต้องเพิ่มการปกปิดมากขึ้น
+
+523
+00:28:30,080 --> 00:28:32,080
+เมื่อพวกเขาตระหนักว่าเขามองเห็นพวกเขา
+
+524
+00:28:32,120 --> 00:28:33,600
+เฮ้ย! อย่าละสายตาจากเขานะ
+
+525
+00:28:33,640 --> 00:28:35,600
+และอย่าให้เขาแตะต้องอะไรเลย!
+
+526
+00:28:35,640 --> 00:28:37,200
+เราอยู่บนเกาะลองไอส์แลนด์
+
+527
+00:28:38,400 --> 00:28:41,640
+กล่องนี้พาเราเดินทางข้ามครึ่งนิวยอร์ก
+
+528
+00:28:41,680 --> 00:28:43,200
+เหลือเชื่อ.
+
+529
+00:28:43,240 --> 00:28:44,480
+ใช่แล้ว เก็บมันไว้กับตัวเองเถอะ
+
+530
+00:28:44,520 --> 00:28:46,600
+หรือคนอื่นจะว่าคุณบ้าเหมือนเทสลา
+
+531
+00:28:46,600 --> 00:28:48,560
+นั่นจะไม่มีวันเกิดขึ้นนะเพื่อน
+
+532
+00:28:48,560 --> 00:28:51,040
+ใช่แล้ว ยังไงก็เถอะ ฉันเดิมพันว่าคุณจะคว้าโอกาสให้เขากลับมาทำงาน
+
+533
+00:28:51,040 --> 00:28:52,400
+- สำหรับคุณไม่ใช่เหรอ? - ใช่เหรอ?
+
+534
+00:28:52,400 --> 00:28:53,720
+- เออใช่! - คุณคิดยังไงกับเรื่องนี้?
+
+535
+00:28:53,760 --> 00:28:56,360
+เพราะที่คลังสินค้าเก่าของฉันก็มีหัวหน้าแบบคุณ
+
+536
+00:28:56,400 --> 00:28:59,880
+และผู้ชายอย่างคุณไม่ได้ใส่ใจผู้ชายคนนั้นมากนัก
+
+537
+00:28:59,920 --> 00:29:02,840
+เว้นแต่คุณคิดว่าจะมีการจ่ายเงินออกมา
+
+538
+00:29:02,880 --> 00:29:04,520
+มันต้องอยู่ที่นี่ที่ไหนสักแห่ง
+
+539
+00:29:04,560 --> 00:29:07,800
+อ๋อ เจอแล้ว! เครื่องอ่านสัญญาณ
+
+540
+00:29:07,840 --> 00:29:09,320
+ตอนนี้เราอยู่ในธุรกิจ
+
+541
+00:29:10,280 --> 00:29:12,760
+สิ่งเหล่านี้ต้องมีประโยชน์ในการออกไปจากที่นี่
+
+542
+00:29:12,800 --> 00:29:14,360
+ต้องหาวิธีออกจากเรือให้ได้
+
+543
+00:29:14,360 --> 00:29:15,840
+เราอยู่สูงกว่านิวยอร์กหลายร้อยฟุต
+
+544
+00:29:15,880 --> 00:29:17,560
+คุณแนะนำให้เราทำอย่างไร เปิดประตูสิ?
+
+545
+00:29:17,600 --> 00:29:20,880
+ฉันขอแนะนำว่าเราไม่ควรยอมแพ้ต่อแมงป่องยักษ์เอเลี่ยน
+
+546
+00:29:22,280 --> 00:29:26,720
+คุณพูดถูก ฉันขอโทษ ทั้งหมดนี้เป็นความผิดของฉัน
+
+547
+00:29:26,760 --> 00:29:28,840
+คุณไม่ควรอยู่ที่นี่ด้วยซ้ำ
+
+548
+00:29:28,880 --> 00:29:30,640
+แค่เพราะคุณเป็นอัจฉริยะไม่ได้หมายความว่า
+
+549
+00:29:30,680 --> 00:29:32,920
+คุณต้องคิดหาทางออกทุกอย่างด้วยตัวเอง
+
+550
+00:29:32,960 --> 00:29:34,720
+เราอยู่ในนี้ด้วยกัน
+
+551
+00:29:36,200 --> 00:29:38,600
+คุณได้ตรวจสอบอุปกรณ์แล้วหรือยัง?
+
+552
+00:29:42,680 --> 00:29:44,360
+ใช่ ฉันมี
+
+553
+00:29:44,400 --> 00:29:46,840
+ยังมีความลับอีกมากมายบนเรือลำนี้
+
+554
+00:29:46,880 --> 00:29:49,240
+กว่าที่ฉันจะค้นพบได้ในช่วงชีวิตหนึ่ง เอ่อ...
+
+555
+00:29:49,280 --> 00:29:51,280
+มัน...มันคือความฝันของนักวิทยาศาสตร์
+
+556
+00:29:51,280 --> 00:29:52,920
+แล้วงานของคุณก็จะเริ่มต้นขึ้น
+
+557
+00:29:52,920 --> 00:29:54,640
+พระองค์จะทรงเตรียมเราให้พร้อมสำหรับการต่อสู้
+
+558
+00:29:54,680 --> 00:29:55,800
+ไม่ ฉันจะไม่
+
+559
+00:30:00,760 --> 00:30:03,240
+งานของคุณจะเผาไหม้เส้นทางข้ามกาแล็กซี
+
+560
+00:30:03,280 --> 00:30:05,000
+บนโลกคุณไม่มีค่าอะไรเลย
+
+561
+00:30:05,040 --> 00:30:06,920
+บางทีฉันอาจจะไม่ประสบความสำเร็จอะไรเลย
+
+562
+00:30:06,960 --> 00:30:09,200
+แต่ถ้าฉันประสบความสำเร็จอะไรสักอย่าง
+
+563
+00:30:09,240 --> 00:30:11,040
+มันจะเป็นในนามของความก้าวหน้า
+
+564
+00:30:11,080 --> 00:30:13,360
+และคุณไม่ใช่แนวคิดของฉันเกี่ยวกับความก้าวหน้า
+
+565
+00:30:17,440 --> 00:30:18,960
+ฆ่าผู้ลักลอบขึ้นเรือ
+
+566
+00:30:21,840 --> 00:30:23,440
+ฉันรู้ว่ามีอันหนึ่งอยู่ในกล่องเครื่องมือของฉัน
+
+567
+00:30:24,640 --> 00:30:26,200
+บราเซียม บาวน์เซอร์ มาร์ค 3
+
+568
+00:30:26,240 --> 00:30:27,600
+เจอที่ตลาดนัดครับ
+
+569
+00:30:27,640 --> 00:30:29,840
+แม้จะดูแปลกๆ แต่ฉันก็รับ TARDIS ไม่ได้
+
+570
+00:30:29,880 --> 00:30:32,680
+นี่ควรจะให้พลังมากพอที่จะขนส่งฉันได้
+
+571
+00:30:32,720 --> 00:30:34,480
+ยาซและเทสลากลับมาที่นี่
+
+572
+00:30:34,520 --> 00:30:36,240
+แต่พอผมไปถึงที่นั่นแล้ว
+
+573
+00:30:36,280 --> 00:30:38,680
+ฉันไม่สามารถกระโดดกลับได้จนกว่ามันจะชาร์จตัวเองใหม่
+
+574
+00:30:38,720 --> 00:30:40,680
+ซึ่งคุณก็รู้ว่าฉันไม่กังวลเรื่องนั้น
+
+575
+00:30:40,720 --> 00:30:42,920
+แน่นอนครับ และคุณไม่ควรกังวลเรื่องนี้ด้วย
+
+576
+00:30:42,960 --> 00:30:44,360
+ไม่เลยแม้แต่น้อย
+
+577
+00:30:44,400 --> 00:30:47,080
+นี่คือราคาของการปฏิเสธ
+
+578
+00:30:47,120 --> 00:30:50,120
+ก่อนอื่นเธอตาย จากนั้นทุกคนข้างล่างก็ตาย
+
+579
+00:30:50,120 --> 00:30:51,720
+หยุด.
+
+580
+00:30:51,720 --> 00:30:53,480
+เธอคือผู้ช่วยของฉัน ฉันต้องการเธอ
+
+581
+00:30:55,000 --> 00:30:57,200
+เธอไม่สำคัญ
+
+582
+00:30:57,240 --> 00:30:59,720
+หมอ: ฉันต้องไม่เห็นด้วยกับเรื่องนั้น
+
+583
+00:30:59,760 --> 00:31:00,760
+อ่า.
+
+584
+00:31:01,480 --> 00:31:03,520
+คุณมีสถานที่ที่ดีที่นี่
+
+585
+00:31:03,560 --> 00:31:05,240
+อาจจะ.
+
+586
+00:31:05,280 --> 00:31:07,800
+ถ้าทำความสะอาดหน่อยก็ดีสิ ฉันหมายถึง ฉันเลอะเทอะ แต่แบบนี้เหรอ?
+
+587
+00:31:07,840 --> 00:31:10,200
+พวกคุณสบายดีกันมั้ย?
+
+588
+00:31:10,240 --> 00:31:11,800
+ดีกว่าตอนนี้คุณอยู่ที่นี่
+
+589
+00:31:11,840 --> 00:31:14,160
+ฉันคือหมอ ฉันไม่คิดว่าเราจะเคยเจอกันมาก่อน
+
+590
+00:31:14,200 --> 00:31:16,040
+คุณกำลังพูดกับราชินีแห่งสคิธราใช่ไหม?
+
+591
+00:31:16,080 --> 00:31:18,440
+คุณบุกรุกเรือของฉันเหรอ?
+
+592
+00:31:18,480 --> 00:31:20,200
+โอ้ นี่เรือของคุณเหรอ?
+
+593
+00:31:20,240 --> 00:31:22,120
+เพราะสำหรับฉันมันดูเหมือนดาวศุกร์
+
+594
+00:31:22,160 --> 00:31:24,560
+และฉันค่อนข้างแน่ใจว่านั่นคือไดรฟ์วาร์ปของ Klendov
+
+595
+00:31:26,120 --> 00:31:27,920
+มีสิ่งหนึ่งเดียวบนเรือลำนี้
+
+596
+00:31:27,960 --> 00:31:29,720
+ที่คุณสร้างขึ้นมาเอง?
+
+597
+00:31:30,760 --> 00:31:32,680
+คนนี้ฉลาดมาก
+
+598
+00:31:32,720 --> 00:31:34,640
+เธอจะช่วยเหลือเทสล่า
+
+599
+00:31:34,640 --> 00:31:36,360
+ฉันเคยมีงานที่แย่กว่านี้
+
+600
+00:31:36,360 --> 00:31:38,160
+หรือเธอจะตาย
+
+601
+00:31:40,720 --> 00:31:42,480
+เทคโนโลยีที่ถูกขโมย
+
+602
+00:31:42,520 --> 00:31:43,800
+ใบหน้าที่ถูกขโมย
+
+603
+00:31:43,840 --> 00:31:46,360
+และตอนนี้อุปกรณ์ของคุณที่ถูกขโมยทั้งหมดก็กำลังเสียหาย
+
+604
+00:31:46,400 --> 00:31:47,680
+แล้วคุณทำอะไร?
+
+605
+00:31:47,720 --> 00:31:50,240
+ขโมยคนอื่นมาซ่อม
+
+606
+00:31:50,280 --> 00:31:52,480
+การฆ่าและปล้นสะดมทั้งหมดนี้! คุณไม่เคยคิดถึงเรื่องนี้เลยเหรอ
+
+607
+00:31:52,520 --> 00:31:55,880
+จะลองคิดหรือสร้างอะไรบางอย่างแทนไหม?
+
+608
+00:31:56,960 --> 00:32:00,480
+เหตุใดเราจึงต้องสร้างเมื่อทุกสิ่งที่เรามีก็เป็นของเราเอง?
+
+609
+00:32:01,560 --> 00:32:02,800
+เทสล่า...
+
+610
+00:32:03,600 --> 00:32:04,720
+ทำไมต้องเทสลา?
+
+611
+00:32:04,760 --> 00:32:07,280
+เหตุใดจึงส่งทรงกลมไปติดตามเขา
+
+612
+00:32:07,320 --> 00:32:09,360
+นักประดิษฐ์จากปี 1900?
+
+613
+00:32:10,280 --> 00:32:12,960
+เราต้องการวิศวกร
+
+614
+00:32:18,000 --> 00:32:19,520
+ฉันกำลังพูดอยู่!
+
+615
+00:32:21,360 --> 00:32:22,960
+เราต้องการวิศวกร
+
+616
+00:32:23,640 --> 00:32:27,200
+เทสลาแสดงให้เห็นถึงสัญญาณของความฉลาดที่เหนือกว่า
+
+617
+00:32:27,200 --> 00:32:29,000
+เขาค้นพบสัญญาณของเรา
+
+618
+00:32:29,040 --> 00:32:30,880
+แต่คุณรู้ได้ยังไง?
+
+619
+00:32:30,920 --> 00:32:32,600
+เขาส่งสัญญาณตอบกลับ
+
+620
+00:32:34,600 --> 00:32:36,080
+คุณไม่คิดจะพูดถึงเรื่องนั้นเหรอ?
+
+621
+00:32:36,560 --> 00:32:38,160
+ฉันไม่รู้ว่ามันได้ผล
+
+622
+00:32:38,200 --> 00:32:39,640
+YAZ: จริงเหรอ?
+
+623
+00:32:41,640 --> 00:32:44,240
+Skithra ได้นำสิ่งที่เราต้องการมาให้เราเสมอ
+
+624
+00:32:44,280 --> 00:32:45,960
+และคุณหมอ...
+
+625
+00:32:47,040 --> 00:32:49,880
+...ฉันไม่เห็นความจำเป็นสำหรับคุณ
+
+626
+00:32:53,000 --> 00:32:55,680
+โอ้ นั่นคือเครื่องสะท้อนเสียง Dullirian ใช่ไหม?
+
+627
+00:32:57,680 --> 00:33:02,160
+โอ้ และสิ่งนี้สามารถให้พลังงานแก่ยานอวกาศได้นานหลายเดือน
+
+628
+00:33:02,200 --> 00:33:03,640
+คุณคิดว่า Tesla ฉลาดใช่ไหม?
+
+629
+00:33:03,680 --> 00:33:06,400
+เราทำให้เขาดูเหมือนคนโง่ในหมู่บ้าน ฉลาด
+
+630
+00:33:06,440 --> 00:33:08,880
+ราชินีแมงป่องที่มีความคิดก้าวหน้าเช่นคุณ
+
+631
+00:33:08,920 --> 00:33:11,160
+ฉันจะไม่ฆ่าฉันและยาซ
+
+632
+00:33:11,200 --> 00:33:12,960
+เพราะหน้าร้อน...
+
+633
+00:33:14,040 --> 00:33:18,520
+...บอกได้เลยว่านี่คืออะไร
+
+634
+00:33:18,560 --> 00:33:20,960
+- มันเป็นกล้องถ่ายรูป - บิงโก
+
+635
+00:33:24,320 --> 00:33:25,600
+- เกรแฮม: หมอ! - ไรอัน: อ่า ยาซ
+
+636
+00:33:25,640 --> 00:33:27,680
+- คุณเทสล่า! - คุณสเกอร์ริตต์
+
+637
+00:33:29,720 --> 00:33:31,200
+เอดิสัน: เอาล่ะ ฉันจะถูกสาปแน่
+
+638
+00:33:31,200 --> 00:33:32,800
+จริงๆ แล้วเธอได้คุณกลับคืนมา
+
+639
+00:33:32,840 --> 00:33:34,040
+เขามาทำอะไรที่นี่?
+
+640
+00:33:34,080 --> 00:33:35,560
+เทสลา,
+
+641
+00:33:35,600 --> 00:33:36,880
+วันนี้เป็นวันที่ค่อนข้างวุ่นวายสำหรับเราทุกคน
+
+642
+00:33:36,920 --> 00:33:38,240
+มันยังไม่จบนะ
+
+643
+00:33:38,280 --> 00:33:39,440
+มาเร็ว.
+
+644
+00:33:39,480 --> 00:33:42,040
+- นี่คือห้องทดลองส่วนตัวของฉัน - ใช่.
+
+645
+00:33:43,160 --> 00:33:45,280
+คุณไม่มีสิทธิ์ที่จะเป็นเขา...
+
+646
+00:33:46,560 --> 00:33:47,800
+นี่คืออะไร?
+
+647
+00:33:47,840 --> 00:33:49,720
+ห...ห...
+
+648
+00:33:49,760 --> 00:33:51,440
+ทุกคนกำลังจะไปไหนกันคะ?
+
+649
+00:34:07,920 --> 00:34:10,320
+มหัศจรรย์!
+
+650
+00:34:11,680 --> 00:34:14,040
+ฉันก็ไม่สามารถหาคำตอบได้เช่นกัน
+
+651
+00:34:14,080 --> 00:34:15,760
+ขนาดภายใน
+
+652
+00:34:15,800 --> 00:34:18,280
+- เหนือกว่าภายนอก - ตรงจุด
+
+653
+00:34:23,200 --> 00:34:24,800
+ฟังนะ ราชินีสคิธรา
+
+654
+00:34:24,840 --> 00:34:27,000
+ฉันเอง ในนามของเทสลา
+
+655
+00:34:27,040 --> 00:34:29,600
+ถือว่าสิ่งนี้คือประกาศการขับไล่อย่างเป็นทางการของคุณ
+
+656
+00:34:29,640 --> 00:34:32,960
+นำยานของคุณออกไปจากโลกทันที
+
+657
+00:34:32,960 --> 00:34:34,800
+ราชินีสคิธรา: เราจะนำวิศวกรไป
+
+658
+00:34:34,840 --> 00:34:37,160
+หรือดาวเคราะห์ดวงนี้จะต้องมอดไหม้!
+
+659
+00:34:37,200 --> 00:34:40,920
+ยอมมอบตัวเขาไป ชีวิตคุณอาจได้รับการช่วยเหลือ
+
+660
+00:34:42,280 --> 00:34:43,560
+คุณไม่สามารถมีเขาได้
+
+661
+00:34:43,600 --> 00:34:44,840
+เขาอยู่กับเรา
+
+662
+00:34:44,880 --> 00:34:46,480
+แล้วเราจะไม่ไปไหน
+
+663
+00:34:46,480 --> 00:34:49,760
+แล้วเราจะฆ่าพวกนับล้านๆ
+
+664
+00:34:49,800 --> 00:34:50,920
+ที่แพร่เชื้อสู่โลกนี้
+
+665
+00:34:50,920 --> 00:34:53,120
+และคุณกับเพื่อนของคุณจะตายก่อน
+
+666
+00:34:54,280 --> 00:34:56,120
+นี่คือทางเลือกที่คุณต้องทำ
+
+667
+00:34:56,160 --> 00:34:59,200
+ให้เราเทสลาหรือโลก
+
+668
+00:34:59,240 --> 00:35:01,920
+และทุกคนที่อาศัยอยู่บนนั้นจะต้องตาย
+
+669
+00:35:04,200 --> 00:35:07,040
+มันไม่สามารถเป็นฉันหรือโลกได้
+
+670
+00:35:08,560 --> 00:35:10,720
+คุณไม่สามารถวางภาระนี้ไว้บนตัวฉันได้
+
+671
+00:35:12,520 --> 00:35:14,000
+มิสเตอร์เทสล่า!
+
+672
+00:35:20,320 --> 00:35:21,920
+ค้นหาพวกเขา
+
+673
+00:35:37,160 --> 00:35:41,640
+ฉันใช้ชีวิตไปกับการสงสัยว่าจะมีอะไรอยู่ที่นั่นบ้าง
+
+674
+00:35:43,360 --> 00:35:46,520
+แต่สิ่งมีชีวิตที่คิดจะทำลายทั้งโลก
+
+675
+00:35:46,560 --> 00:35:48,440
+แค่จะได้ตัวฉันมางั้นเหรอ?
+
+676
+00:35:49,960 --> 00:35:51,680
+ในที่สุดก็ได้รู้แล้ว
+
+677
+00:35:57,200 --> 00:35:58,720
+คุณรู้ไหม
+
+678
+00:35:58,760 --> 00:36:01,600
+มันเหมือนกับการฆ่าเอดิสันที่พวกเขาต้องการคุณ ไม่ใช่เขา
+
+679
+00:36:07,240 --> 00:36:10,400
+ที่นี่ วอร์เดนคลิฟฟ์...
+
+680
+00:36:13,040 --> 00:36:14,640
+...ฉันใกล้แล้วล่ะ
+
+681
+00:36:14,680 --> 00:36:17,040
+ในที่สุดผู้คนก็จะได้เห็นว่ามันสามารถทำอะไรได้บ้าง
+
+682
+00:36:17,080 --> 00:36:19,200
+สิ่งที่ฉันสามารถทำได้
+
+683
+00:36:20,120 --> 00:36:22,120
+ตอนนี้ไม่มีใครรู้แล้ว
+
+684
+00:36:25,920 --> 00:36:27,640
+พวกคุณทุกคนต้องไป
+
+685
+00:36:27,680 --> 00:36:29,280
+ปล่อยให้พวกเขาพาฉันไป
+
+686
+00:36:29,320 --> 00:36:30,760
+นั่นจะไม่เกิดขึ้น
+
+687
+00:36:32,040 --> 00:36:33,640
+ฉันต้องยอมมอบตัวแล้ว
+
+688
+00:36:33,640 --> 00:36:35,040
+ไม่มีอะไรจะต้องทำอีกแล้ว
+
+689
+00:36:35,080 --> 00:36:36,640
+เรื่องนี้เกินกว่าที่ฉันจะเข้าใจได้
+
+690
+00:36:36,680 --> 00:36:37,840
+เลขที่
+
+691
+00:36:40,080 --> 00:36:41,280
+เลขที่?
+
+692
+00:36:41,320 --> 00:36:45,280
+นิโคลา เทสลา คุณจะเปลี่ยนโลก
+
+693
+00:36:46,840 --> 00:36:49,320
+แต่ก่อนอื่นคุณจะต้องบันทึกมันก่อน
+
+694
+00:36:50,920 --> 00:36:53,480
+ตอนนี้เล่าให้ฉันฟังเกี่ยวกับ Wardenclyffe หน่อย
+
+695
+00:36:55,160 --> 00:36:56,840
+หอคอยทำงานโดยการใช้ประโยชน์จาก
+
+696
+00:36:56,880 --> 00:36:59,280
+สนามไฟฟ้าของโลกเอง
+
+697
+00:36:59,320 --> 00:37:02,160
+นี่ครับ หม้อแปลงขยายภาพของผม
+
+698
+00:37:02,200 --> 00:37:04,760
+ปั๊มแรงดันไฟฟ้าหลายล้านโวลต์เข้าไปในอุโมงค์นี้
+
+699
+00:37:04,760 --> 00:37:07,360
+กระแสน้ำไหลผ่านโลกลงมาจนถึง
+
+700
+00:37:07,400 --> 00:37:11,240
+อีกด้านหนึ่งของโลกแล้วจึงสะท้อนกลับมา
+
+701
+00:37:11,280 --> 00:37:12,800
+จากนั้นก็ส่งเข้าหอคอย
+
+702
+00:37:12,800 --> 00:37:16,400
+คลื่นแล้วคลื่นเล่า และขึ้นไปในอากาศ!
+
+703
+00:37:17,640 --> 00:37:22,200
+ฉันตั้งใจจะสร้างหอคอยพวกนี้เป็นชุดๆ...
+
+704
+00:37:22,960 --> 00:37:26,120
+...ส่งพลังงานไปทั่วอีเธอร์
+
+705
+00:37:26,160 --> 00:37:28,440
+ระบบไร้สายของโลก
+
+706
+00:37:29,800 --> 00:37:31,160
+นั่นคือ Wi-Fi
+
+707
+00:37:31,200 --> 00:37:33,840
+Tesla มีแนวคิดเรื่อง Wi-Fi หรือไม่?
+
+708
+00:37:33,880 --> 00:37:35,680
+แต่ด้วยพลังที่เพียงพอ
+
+709
+00:37:35,720 --> 00:37:38,840
+มันอาจจะใช้ส่งสายฟ้าได้เพียงครั้งเดียว
+
+710
+00:37:38,880 --> 00:37:40,400
+สูงขึ้นไปบนท้องฟ้า
+
+711
+00:37:40,440 --> 00:37:43,080
+อืม ถ้าเราสร้างอันที่ใหญ่พอ
+
+712
+00:37:43,120 --> 00:37:45,600
+มันอาจโจมตีเรือได้แบบนี้!
+
+713
+00:37:45,640 --> 00:37:47,640
+ใช่เลย! ไฮไฟว์!
+
+714
+00:37:49,640 --> 00:37:51,000
+เร็วเกินไป!
+
+715
+00:37:51,040 --> 00:37:52,600
+ในตาหมู
+
+716
+00:37:53,880 --> 00:37:57,120
+คุณอยากจะเดิมพันชีวิตเราด้วยสิ่งประดิษฐ์แบบนี้ใช่ไหม?
+
+717
+00:37:57,160 --> 00:38:03,040
+ความคิดที่เหนือจินตนาการที่ชายผู้มีสติสัมปชัญญะคนหนึ่งจะไม่ยอมลงทุนใช่หรือไม่?
+
+718
+00:38:06,920 --> 00:38:09,160
+อย่างน้อยฉันก็มีไอเดีย
+
+719
+00:38:09,200 --> 00:38:10,840
+คุณได้เติมเต็มโรงงานที่เต็มไปด้วยผู้ชาย
+
+720
+00:38:10,880 --> 00:38:12,320
+ที่จะคิดแทนคุณ
+
+721
+00:38:12,320 --> 00:38:14,800
+สิ่งประดิษฐ์ของคุณครึ่งหนึ่งถูกคิดขึ้นโดยคนอื่น
+
+722
+00:38:14,840 --> 00:38:16,640
+ใครๆ ก็สามารถมีไอเดียได้
+
+723
+00:38:16,640 --> 00:38:17,920
+ฉันทำให้มันเกิดขึ้น
+
+724
+00:38:17,920 --> 00:38:21,640
+ผู้ชายทั้งหมดเหล่านั้น สิ่งประดิษฐ์ทั้งหมดเหล่านั้น
+
+725
+00:38:21,640 --> 00:38:25,720
+ฉันเปลี่ยนสิ่งเหล่านี้จากภาพร่างให้กลายเป็นสิ่งของจริงที่ผู้คนสามารถซื้อได้
+
+726
+00:38:25,720 --> 00:38:27,560
+นั่นคือวิธีที่คุณเปลี่ยนโลก
+
+727
+00:38:28,440 --> 00:38:31,680
+คุณตาบอดเกินกว่าจะมองเห็นว่าโรงงานของฉันเป็นไอเดียที่ดีที่สุด
+
+728
+00:38:31,720 --> 00:38:33,360
+เราคนใดคนหนึ่งเคยมี
+
+729
+00:38:33,400 --> 00:38:36,400
+และคุณก็มีใจแคบเกินไปที่จะเข้าใจถึงอัจฉริยภาพของงานของฉัน
+
+730
+00:38:36,440 --> 00:38:38,840
+และนั่นคือเหตุผลว่าทำไมคุณถึงไม่มีวันบรรลุความยิ่งใหญ่ที่แท้จริงได้
+
+731
+00:38:38,880 --> 00:38:42,400
+คุณไม่ใช่คนที่มีวิสัยทัศน์ คุณเป็นคนที่มี... ความสามารถ
+
+732
+00:38:42,400 --> 00:38:46,400
+โอ้ย! AC/DC! พวกคุณสองคนอาจจะเป็นสุดยอดแห่งยุคเลยนะ
+
+733
+00:38:46,400 --> 00:38:47,920
+แต่มีโอกาสไหมที่คุณจะหยุดทะเลาะกันได้
+
+734
+00:38:47,920 --> 00:38:49,840
+ขณะที่เรากำลังพยายามช่วยโลกอยู่?
+
+735
+00:38:50,480 --> 00:38:53,200
+เราต้องรีบไป เราต้องเตรียมหอคอยให้พร้อม
+
+736
+00:38:54,440 --> 00:38:56,480
+นี่คือสิ่งที่เราจะทำ...
+
+737
+00:38:58,320 --> 00:38:59,720
+คุณและฉันจะสร้างหอคอยให้เสร็จ
+
+738
+00:38:59,760 --> 00:39:01,600
+ฉันสามารถขยายโล่ TARDIS ได้
+
+739
+00:39:01,640 --> 00:39:03,680
+ภายในเขตเขต Wardenclyffe
+
+740
+00:39:06,480 --> 00:39:09,440
+นั่นน่าจะทำให้เราปลอดภัย... ในตอนนี้
+
+741
+00:39:09,440 --> 00:39:13,040
+เอดิสัน ยาซ ฉันต้องการให้คุณช่วยพาคนออกจากท้องถนน
+
+742
+00:39:13,080 --> 00:39:15,120
+พวกสคิธรา กำลังเดินทางแล้ว
+
+743
+00:39:15,760 --> 00:39:17,200
+โดโรธี, เกรแฮม, ไรอัน,
+
+744
+00:39:17,200 --> 00:39:19,800
+ค้นหาสิ่งที่เราสามารถใช้ปกป้อง Wardenclyffe ได้
+
+745
+00:39:19,840 --> 00:39:23,120
+และต้องเร็วเข้าไว้ เท่าที่เรารู้ พวกเขาเจอเราแล้ว
+
+746
+00:39:23,160 --> 00:39:25,800
+ยาซ: ได้โปรด! ได้โปรด! ทุกคนข้างใน!
+
+747
+00:39:25,840 --> 00:39:27,400
+ขอร้องล่ะ! รีบเข้าไปข้างในเถอะ
+
+748
+00:39:27,440 --> 00:39:29,400
+ทุกคนอยู่ข้างใน
+
+749
+00:39:29,440 --> 00:39:31,320
+ทำไมไม่มีใครฟังฉันเลย เป็นเพราะสำเนียงหรือเปล่า
+
+750
+00:39:31,360 --> 00:39:32,360
+ขอความกรุณาครับ มันเป็นเหตุฉุกเฉิน!
+
+751
+00:39:32,400 --> 00:39:35,520
+- เข้าไปข้างในหน่อยได้ไหม - ไอ้โง่เทสลา
+
+752
+00:39:35,560 --> 00:39:38,000
+ยังคงทำการทดลองกับหอคอยมรณะของเขาอยู่!
+
+753
+00:39:38,040 --> 00:39:40,960
+เราจะแย่ได้เลยถ้าเราอยู่ข้างนอก
+
+754
+00:39:40,960 --> 00:39:42,840
+เขากำลังยิงมันขึ้นมาตอนนี้!
+
+755
+00:39:42,880 --> 00:39:45,640
+ช่วยกระจายข่าวด้วย!
+
+756
+00:39:45,680 --> 00:39:48,640
+ไม่มีใครปลอดภัย!
+
+757
+00:39:54,440 --> 00:39:56,640
+“กลไกการถ่ายภาพความคิด”?
+
+758
+00:39:56,680 --> 00:39:57,680
+- ไม่ ไม่
+
+759
+00:39:57,720 --> 00:40:00,160
+“อุปกรณ์สำหรับผลิตโอโซน”
+
+760
+00:40:02,080 --> 00:40:04,480
+"ต้นแบบแห่งความตายเรย์" น่ะเหรอ?
+
+761
+00:40:04,480 --> 00:40:07,680
+- ครับ! ครับ! ไม่ครับ ไม่ครับ - ครับ? อ่า!
+
+762
+00:40:18,240 --> 00:40:20,200
+เทสล่าอยู่ที่ไหน?
+
+763
+00:40:27,720 --> 00:40:29,880
+เฮ้ย! อย่าเข้าใกล้เขานะ!
+
+764
+00:40:29,880 --> 00:40:31,760
+ลงมาสิหนู!
+
+765
+00:40:33,840 --> 00:40:35,600
+เขาไปไหนวะเนี่ย?
+
+766
+00:40:36,760 --> 00:40:38,400
+เร็วเข้า!
+
+767
+00:40:42,560 --> 00:40:44,720
+- คุณได้รับสิ่งนั้นเมื่อไหร่? - ดีใจที่ฉันได้รับมัน
+
+768
+00:40:49,400 --> 00:40:51,480
+เอดิสัน: โอ้พระเจ้าของฉัน นั่นคืออะไร?
+
+769
+00:40:56,200 --> 00:40:58,360
+มาเลยวิ่ง!
+
+770
+00:41:02,880 --> 00:41:04,320
+วิ่ง!
+
+771
+00:41:25,480 --> 00:41:27,200
+คุณแน่ใจว่านี่ถูกต้องใช่ไหม?
+
+772
+00:41:27,240 --> 00:41:29,360
+เทสล่าบอกว่ามันควรจะแค่... ที่นี่!
+
+773
+00:41:29,400 --> 00:41:31,320
+อุโมงค์นี้จะพาเรากลับไปสู่ ​​Wardenclyffe
+
+774
+00:41:31,360 --> 00:41:32,440
+ตกลง!
+
+775
+00:41:41,360 --> 00:41:43,160
+หมอ?
+
+776
+00:41:43,200 --> 00:41:44,840
+เรามีบริษัทแล้ว
+
+777
+00:41:50,440 --> 00:41:52,320
+โล่ก็ทำงานแล้ว
+
+778
+00:41:57,200 --> 00:41:59,440
+รีบๆหน่อย รีบๆหน่อย!
+
+779
+00:42:05,600 --> 00:42:08,160
+ทันเวลาพอดี เราต้องปิดประตูเดี๋ยวนี้
+
+780
+00:42:08,200 --> 00:42:10,120
+- โอ้พระเจ้า... - มีเยอะเกินไปแล้ว
+
+781
+00:42:10,120 --> 00:42:11,880
+ก็อาจจะมีจำนวนที่เหนือกว่า
+
+782
+00:42:11,880 --> 00:42:13,600
+แต่เรามีจิตใจที่เหนือกว่า
+
+783
+00:42:13,600 --> 00:42:15,360
+เราแค่ต้องยับยั้งพวกเขาไว้
+
+784
+00:42:15,400 --> 00:42:18,600
+พวกมันเป็นสายพันธุ์รังผึ้ง ถ้าเราเอาราชินีออกไป...
+
+785
+00:42:18,640 --> 00:42:19,760
+เราเอามันออกไปทั้งหมด
+
+786
+00:42:19,800 --> 00:42:21,080
+ใช่ค่ะ! เธอยังอยู่บนเรืออยู่
+
+787
+00:42:21,120 --> 00:42:22,840
+และหวังว่าเราจะสามารถยิงเธอได้
+
+788
+00:42:22,880 --> 00:42:24,840
+ด้วยไฟฟ้า Wardenclyffe จำนวนมาก!
+
+789
+00:42:24,880 --> 00:42:26,440
+- มีแต่ครับ - รายละเอียดเล็กน้อย.
+
+790
+00:42:26,440 --> 00:42:29,440
+เมื่อเราเพิ่มพลังให้กับหอคอยแล้ว โล่ TARDIS ก็จะหล่นลงมา
+
+791
+00:42:29,440 --> 00:42:32,280
+แต่คงอีกประมาณ 30 วินาทีก่อนที่เราจะระเบิดเรือได้
+
+792
+00:42:32,320 --> 00:42:34,360
+น้ำผลไม้ไม่เพียงพอสำหรับทั้งสอง
+
+793
+00:42:34,400 --> 00:42:35,560
+อะไร
+
+794
+00:42:35,600 --> 00:42:37,760
+แล้วอะไรล่ะที่จะกันพวกมันออกไปได้?
+
+795
+00:42:40,280 --> 00:42:41,640
+เราเป็น.
+
+796
+00:42:41,680 --> 00:42:43,960
+ไม่ต้องกังวล นี่ไม่ใช่ครั้งแรกของเรา
+
+797
+00:42:43,960 --> 00:42:45,400
+เราไม่เคยไปงานโรดิโอเลย
+
+798
+00:42:45,400 --> 00:42:47,280
+คุณไม่ได้ช่วยอะไรเลย ไรอัน
+
+799
+00:42:48,400 --> 00:42:49,480
+พร้อม?
+
+800
+00:43:05,640 --> 00:43:07,680
+มันกำลังทำงานอยู่
+
+801
+00:43:07,720 --> 00:43:09,840
+หมอ: หอคอยกำลังชาร์จ
+
+802
+00:43:11,080 --> 00:43:13,320
+เกือบถึงแล้ว.
+
+803
+00:43:13,360 --> 00:43:15,160
+เตรียมตัวไว้ให้ดี
+
+804
+00:43:15,200 --> 00:43:17,600
+โล่กำลังจะหล่นลงมา
+
+805
+00:43:22,720 --> 00:43:25,240
+โล่ถูกปิดลง อีกไม่กี่วินาที
+
+806
+00:43:25,280 --> 00:43:28,240
+เกรแฮม: เราไม่มีเวลาแม้แต่วินาทีเดียว หมอ!
+
+807
+00:43:31,080 --> 00:43:34,160
+อะไรนะ? สัญญาณมาจากยานสคิธรา
+
+808
+00:43:46,040 --> 00:43:47,920
+พวกเขาทำอะไรกันอยู่?
+
+809
+00:43:47,960 --> 00:43:50,480
+ทำไมพวกเขาไม่โจมตี?
+
+810
+00:43:50,520 --> 00:43:51,800
+ไม่นะ.
+
+811
+00:43:51,840 --> 00:43:53,200
+มันคืออะไร?
+
+812
+00:43:55,760 --> 00:43:59,360
+เอาล่ะ มาดูกันว่าสิ่งนี้จะทำอะไรได้บ้าง
+
+813
+00:43:59,400 --> 00:44:00,800
+อย่าเข้ามาในห้องแล็ปของเรา!
+
+814
+00:44:03,600 --> 00:44:04,960
+โอ้.
+
+815
+00:44:05,000 --> 00:44:06,120
+เราไม่สามารถระเบิดเรือได้
+
+816
+00:44:06,160 --> 00:44:08,240
+เพราะราชินีไม่อยู่บนนั้นอีกต่อไปแล้ว
+
+817
+00:44:23,960 --> 00:44:25,640
+นี่ไม่ใช่แผน
+
+818
+00:44:26,840 --> 00:44:29,160
+นี่จะเป็นป้อมปราการของคุณใช่ไหม?
+
+819
+00:44:29,160 --> 00:44:31,040
+แล้วคุณล่ะเป็นผู้ปกป้องมัน?
+
+820
+00:44:32,520 --> 00:44:34,560
+มีแผนอะไร?
+
+821
+00:44:34,600 --> 00:44:37,800
+ให้สั่นสะท้านในความมืดจนกว่าเราจะจากไป?
+
+822
+00:44:41,160 --> 00:44:43,840
+โอ้ คุณเป็นสิ่งมีชีวิตที่เปราะบางจริงๆ ใช่ไหม?
+
+823
+00:44:43,880 --> 00:44:46,240
+มันเป็นปาฏิหาริย์ที่โลกของคุณหมุนไป
+
+824
+00:44:46,280 --> 00:44:48,840
+ไม่มีการรบกวนเป็นเวลานาน
+
+825
+00:44:48,880 --> 00:44:50,600
+ตอนนี้บอกฉันหน่อย
+
+826
+00:44:50,640 --> 00:44:52,000
+เขาอยู่ไหน?
+
+827
+00:44:54,120 --> 00:44:55,560
+เลขที่?
+
+828
+00:44:55,600 --> 00:44:56,920
+แล้วคุณล่ะจะชอบใคร
+
+829
+00:44:56,920 --> 00:45:00,680
+- สิทธิพิเศษของการตายก่อน? - หยุด!
+
+830
+00:45:00,720 --> 00:45:03,440
+หากคุณต้องการเทสลา คุณต้องผ่านฉัน
+
+831
+00:45:04,080 --> 00:45:06,360
+หมอคิดจริงๆเหรอ
+
+832
+00:45:06,400 --> 00:45:08,040
+ฉันจะปล่อยให้คุณซ่อนตัวอยู่ที่นี่
+
+833
+00:45:08,040 --> 00:45:09,920
+กำลังวางแผนเล็กๆ น้อยๆ ของคุณอยู่เหรอ?
+
+834
+00:45:10,840 --> 00:45:12,320
+หากฉันรู้ว่าเราจะได้มีพระราชาเสด็จเยือน
+
+835
+00:45:12,320 --> 00:45:13,520
+ฉันคงจะต้มน้ำไว้แล้ว
+
+836
+00:45:13,520 --> 00:45:16,640
+ในฐานะราชินี ฉันขอมอบความสุขในการฆ่าคุณ...
+
+837
+00:45:16,680 --> 00:45:18,680
+...ด้วยตนเอง
+
+838
+00:45:19,280 --> 00:45:21,720
+แล้วคุณเป็นราชินีแห่งอะไรกันแน่?
+
+839
+00:45:22,720 --> 00:45:25,360
+เรือที่ถูกขโมยและปืนมือสอง?
+
+840
+00:45:25,360 --> 00:45:27,600
+ราชินีแห่งการฉีกและปะ
+
+841
+00:45:27,640 --> 00:45:30,360
+คุณไม่ได้เป็นผู้ปกครอง แต่คุณเป็นปรสิต
+
+842
+00:45:30,400 --> 00:45:31,760
+แล้วคุณเป็นอะไร?
+
+843
+00:45:31,800 --> 00:45:34,760
+ฉลาดมากที่แอบขึ้นเรือของฉัน
+
+844
+00:45:34,800 --> 00:45:36,800
+เอาสิ่งที่ฉันอ้างว่าเป็นของฉันไป
+
+845
+00:45:37,400 --> 00:45:39,480
+แต่คุณไปโดนอะไรมา?
+
+846
+00:45:39,520 --> 00:45:41,960
+ไม่มีอาวุธ ไม่มีชุดเกราะ
+
+847
+00:45:42,000 --> 00:45:44,280
+ไม่มีทางหนี
+
+848
+00:45:44,280 --> 00:45:47,640
+แค่ความหวังอันสิ้นหวังของคุณอาจเปลี่ยนใจฉันได้
+
+849
+00:45:47,680 --> 00:45:50,800
+ไม่หรอก เราผ่านเรื่องนั้นมามากแล้ว ฉันให้โอกาสคุณแล้ว
+
+850
+00:45:50,840 --> 00:45:54,400
+- โอกาสที่จะเป็นเหมือนคุณ? - โอกาสที่จะพัฒนา.
+
+851
+00:45:54,440 --> 00:45:56,560
+แต่คุณโง่เกินกว่าที่จะรับมัน
+
+852
+00:45:57,080 --> 00:45:59,600
+เมื่อคุณตายไปก็จะไม่มีอะไรเหลืออยู่เลย
+
+853
+00:45:59,600 --> 00:46:02,680
+เพียงเส้นทางเลือดและความฉลาดของคนอื่น
+
+854
+00:46:02,720 --> 00:46:04,880
+ไม่มีใครรู้ด้วยซ้ำว่าคุณเคยมีตัวตนอยู่
+
+855
+00:46:06,720 --> 00:46:09,360
+สิ่งสำคัญคือคุณต้องเข้าใจนะคะคุณหมอ
+
+856
+00:46:09,360 --> 00:46:12,600
+ที่เราคงจะรับแต่ช่างเท่านั้น
+
+857
+00:46:12,600 --> 00:46:14,880
+ตอนนี้เพราะคุณ
+
+858
+00:46:14,920 --> 00:46:17,320
+ฉันจะเอาทุกอย่าง
+
+859
+00:46:17,320 --> 00:46:21,120
+เราจะยึดครองโลกนี้และเก็บกระดูกออกไปให้หมด
+
+860
+00:46:21,160 --> 00:46:23,800
+คุณเคยเห็นดาวเคราะห์ที่ตายแล้วบ้างไหม?
+
+861
+00:46:25,880 --> 00:46:28,600
+ฉันเห็นมากกว่าที่คุณจะจินตนาการได้
+
+862
+00:46:29,240 --> 00:46:30,280
+แล้วคุณยังคงคิด
+
+863
+00:46:30,280 --> 00:46:32,840
+ฉันอาจจะโดนหลอกด้วยกลอุบายเดียวกันได้สองครั้ง
+
+864
+00:46:33,960 --> 00:46:35,480
+- หมอ! - อยู่ข้างหลัง!
+
+865
+00:46:39,320 --> 00:46:42,480
+อาวุธสุดท้ายสำหรับคอลเลกชันของเรา
+
+866
+00:46:42,520 --> 00:46:46,120
+แล้วคุณวางแผนจะทำอะไรกับสิ่งนี้ล่ะ?
+
+867
+00:46:47,920 --> 00:46:50,360
+ไม่มีอะไร ฉันแค่อยากให้คุณรับมันไป
+
+868
+00:46:54,480 --> 00:46:55,920
+เทสล่า ตอนนี้เลย!
+
+869
+00:46:55,960 --> 00:46:57,080
+นั่นแหละ!
+
+870
+00:47:33,600 --> 00:47:35,040
+ไปได้แล้วหนู
+
+871
+00:47:35,080 --> 00:47:36,240
+ขอบคุณ
+
+872
+00:47:44,200 --> 00:47:45,800
+ฉันต้องยอมรับมัน
+
+873
+00:47:46,560 --> 00:47:47,680
+คุณทำมันแล้ว.
+
+874
+00:47:51,440 --> 00:47:53,240
+มาทำงานกับฉันอีกแล้ว
+
+875
+00:47:56,680 --> 00:47:58,520
+คุณทำงานนี้ต่อไป
+
+876
+00:47:58,560 --> 00:48:00,520
+คุณจะล้มละลายภายในปีนี้
+
+877
+00:48:01,680 --> 00:48:03,000
+บางที.
+
+878
+00:48:03,600 --> 00:48:05,680
+แต่ฉันจะหยุดได้อย่างไรตอนนี้?
+
+879
+00:48:11,200 --> 00:48:13,880
+- คุณดูแลตัวเองดีมากนะ - คุณก็เหมือนกัน
+
+880
+00:48:13,920 --> 00:48:17,360
+มันเป็นไปไม่ได้มากกว่าหรือน้อยกว่าวันปกติของคุณหรือเปล่า?
+
+881
+00:48:17,400 --> 00:48:20,240
+ใช่ ประมาณปานกลาง คุณล่ะ?
+
+882
+00:48:20,280 --> 00:48:22,080
+แปลกนิดหน่อย
+
+883
+00:48:23,240 --> 00:48:26,120
+ปกติก็คงน่าเบื่อไม่ใช่เหรอ?
+
+884
+00:48:27,280 --> 00:48:28,760
+ลาก่อน.
+
+885
+00:48:31,160 --> 00:48:35,120
+ตอนนี้ทุกอย่างเปลี่ยนไปแล้วใช่ไหม? ทั้งการประท้วง เงินทุน
+
+886
+00:48:35,120 --> 00:48:36,720
+หอคอยของเทสลาเพิ่งช่วยโลกไว้!
+
+887
+00:48:36,760 --> 00:48:38,520
+นั่นหมายถึงต้องรวยและมีชื่อเสียง
+
+888
+00:48:38,560 --> 00:48:41,120
+ไม่ครับ ไม่มีอะไรเปลี่ยนแปลงครับ
+
+889
+00:48:41,120 --> 00:48:44,240
+อีกไม่กี่ปีจากนี้ Wardenclyffe ก็จะถูกรื้อถอน
+
+890
+00:48:44,240 --> 00:48:48,760
+เทสลายังคงประดิษฐ์สิ่งใหม่ๆ ต่อไป แต่ไม่มีเงินและไม่มีชื่อเสียง
+
+891
+00:48:48,800 --> 00:48:52,160
+เขาตายอย่างหมดตัว ประวัติศาสตร์ทิ้งเขาไว้เบื้องหลัง
+
+892
+00:48:52,200 --> 00:48:54,960
+แต่วิสัยทัศน์ของเขาเกี่ยวกับพลังงานไร้สายนั้นเกิดขึ้นได้
+
+893
+00:48:55,000 --> 00:48:56,640
+โลกที่เชื่อมต่อกัน
+
+894
+00:48:56,680 --> 00:48:59,120
+และความคิดนั้นเริ่มต้นที่นี่กับเขา
+
+895
+00:48:59,160 --> 00:49:00,440
+นั่นไม่ถูกต้อง.
+
+896
+00:49:00,480 --> 00:49:01,640
+ผู้คนควรจะรู้
+
+897
+00:49:01,680 --> 00:49:04,320
+ไม่ว่าจะทางใดมันก็ไม่เปลี่ยนแปลงสิ่งที่เขาทำ
+
+898
+00:49:04,360 --> 00:49:05,760
+หมอ...
+
+899
+00:49:05,800 --> 00:49:08,120
+คุณต้องปล่อยให้ฉันศึกษาเครื่องของคุณ
+
+900
+00:49:08,120 --> 00:49:10,680
+มันเป็นสิ่งประดิษฐ์ที่วิเศษที่สุด
+
+901
+00:49:10,720 --> 00:49:12,440
+ฉันเคยเห็นในชีวิตของฉัน
+
+902
+00:49:13,280 --> 00:49:14,480
+ไม่ต้องสนใจ TARDIS
+
+903
+00:49:14,520 --> 00:49:17,000
+คุณมีสิ่งประดิษฐ์อันน่าทึ่งของตัวเองมากพอแล้ว
+
+904
+00:49:18,480 --> 00:49:19,960
+ใช่ครับ คุณพูดถูกครับ
+
+905
+00:49:20,000 --> 00:49:22,720
+คุณพูดถูกแน่นอน มีหลายอย่างที่ต้องทำ
+
+906
+00:49:25,120 --> 00:49:26,400
+ขอบคุณ
+
+907
+00:49:27,760 --> 00:49:29,560
+ขอบคุณทุกๆท่านครับ.
+
+908
+00:49:29,600 --> 00:49:31,200
+อย่ายอมแพ้
+
+909
+00:49:31,240 --> 00:49:32,960
+ใครจะพูดอะไรก็ตาม
+
+910
+00:49:34,400 --> 00:49:36,120
+ก็ปล่อยให้พวกเขาคุยกันไป
+
+911
+00:49:36,160 --> 00:49:37,920
+ปัจจุบันเป็นของพวกเขา
+
+912
+00:49:37,960 --> 00:49:39,560
+ฉันทำงานเพื่ออนาคต
+
+913
+00:49:42,200 --> 00:49:44,120
+และอนาคตนั้นเป็นของฉัน
+
+914
+00:49:52,280 --> 00:49:53,760
+เราจะไปกันไหม?
+
+915
+00:50:27,840 --> 00:50:29,320
+การส่งสัญญาณเตือนภัยของจูดูน
+
+916
+00:50:30,400 --> 00:50:31,440
+คุณเป็นใคร?
+
+917
+00:50:31,480 --> 00:50:33,120
+เมืองกำลังถูกปิดล้อม
+
+918
+00:50:34,120 --> 00:50:36,760
+- คุณไว้ใจฉันไหม รูธ? - บางครั้ง

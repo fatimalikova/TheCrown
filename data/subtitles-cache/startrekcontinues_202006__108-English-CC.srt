@@ -1,0 +1,3013 @@
+1
+00:00:03,920 --> 00:00:06,860
+KIRK (VO):
+Captain's log, stardate 6563.4.
+
+2
+00:00:07,220 --> 00:00:11,200
+A nascent singularity has been reported
+near the uninhabited Cressida system.
+
+3
+00:00:12,080 --> 00:00:15,550
+The Federation has assigned
+a gravitational wave engineer
+
+4
+00:00:15,890 --> 00:00:17,960
+to the Enterprise
+for our investigation.
+
+5
+00:00:20,860 --> 00:00:22,320
+Are we there yet?
+
+6
+00:00:22,720 --> 00:00:24,080
+Not yet.
+
+7
+00:00:24,430 --> 00:00:26,120
+Are we close?
+
+8
+00:00:26,470 --> 00:00:28,200
+Mr. Chekov?
+
+9
+00:00:28,540 --> 00:00:30,240
+Approaching Cressida 2 now, sir.
+
+10
+00:00:30,590 --> 00:00:32,800
+Take us out of warp, Mr. Sulu.
+
+11
+00:00:33,130 --> 00:00:35,390
+Aye, sir. Switching to impulse.
+
+12
+00:00:41,490 --> 00:00:43,150
+[CRASH]
+
+13
+00:00:43,480 --> 00:00:45,020
+What the blazes?
+
+14
+00:00:45,360 --> 00:00:47,210
+I'm detecting a significant
+gravimetric field, sir.
+
+15
+00:00:47,670 --> 00:00:48,760
+Stronger than we anticipated.
+
+16
+00:00:49,100 --> 00:00:51,380
+There's no guarantees
+with black holes.
+
+17
+00:00:51,720 --> 00:00:54,750
+Sensors confirm a
+massive shift in this system.
+
+18
+00:00:55,090 --> 00:00:57,930
+The event horizon has
+consumed planets 3 through 8.
+
+19
+00:00:59,050 --> 00:01:00,770
+In 10 days?
+
+20
+00:01:01,120 --> 00:01:03,550
+SPOCK:
+It is possible an interphasic rift has thinned
+
+21
+00:01:03,890 --> 00:01:05,930
+...the structure of spacetime in this region.
+
+22
+00:01:06,270 --> 00:01:08,750
+I'd say that's our cue to
+hightail it outta here.
+
+23
+00:01:09,090 --> 00:01:11,490
+No! Jim!
+
+24
+00:01:12,530 --> 00:01:14,590
+"Captain." We are here to
+study the effects of
+
+25
+00:01:14,930 --> 00:01:16,330
+singularities on spacetime.
+
+26
+00:01:16,670 --> 00:01:19,640
+With all due respect,
+we nearly lost the captain to
+
+27
+00:01:19,980 --> 00:01:22,120
+a dimensional kill-zone
+like this a year ago.
+
+28
+00:01:22,460 --> 00:01:25,580
+[INTERCOM WHISTLES] Scott to bridge.
+Captain, it's taking every ounce of our engines
+
+29
+00:01:25,920 --> 00:01:27,080
+...to maintain this position.
+
+30
+00:01:27,430 --> 00:01:29,760
+Understood.
+Just hold her together, Scotty.
+
+31
+00:01:30,100 --> 00:01:33,100
+Samara, how long do you need
+to finish your assessment?
+
+32
+00:01:33,440 --> 00:01:35,300
+Six hours, minimum.
+
+33
+00:01:35,640 --> 00:01:37,660
+Captain, an unusual reading nearby.
+
+34
+00:01:38,010 --> 00:01:40,700
+KIRK:
+What kind of reading?
+
+35
+00:01:41,050 --> 00:01:42,490
+Lieutenant, I am attempting to
+
+36
+00:01:42,830 --> 00:01:44,800
+...extrapolate the data into
+audible sound.
+
+37
+00:01:47,520 --> 00:01:49,980
+[DEEP THUMPING SOUND]
+
+38
+00:01:56,030 --> 00:01:58,850
+That's no engine.
+
+39
+00:01:59,190 --> 00:02:00,870
+Uhura, can you speed it up?
+
+40
+00:02:04,220 --> 00:02:06,580
+[FASTER THUMPING SOUND]
+
+41
+00:02:10,230 --> 00:02:11,360
+That's a heartbeat.
+
+42
+00:02:11,700 --> 00:02:15,740
+Confirmed. One set of life signs on Cressida 2's moon.
+
+43
+00:02:20,090 --> 00:02:22,000
+[CRASH]
+
+44
+00:02:23,240 --> 00:02:25,110
+The moon's destabilizing, sir!
+
+45
+00:02:25,460 --> 00:02:28,530
+Spock, can we get a transporter lock on that life form?
+
+46
+00:02:34,870 --> 00:02:37,140
+[HEARTBEAT CONTINUES] 
+
+47
+00:02:37,480 --> 00:02:39,090
+Still detecting faint life signs.
+
+48
+00:02:40,230 --> 00:02:42,050
+I think we can rule out the moon.
+
+49
+00:02:51,030 --> 00:02:52,630
+Sulu.
+
+50
+00:02:52,970 --> 00:02:54,730
+Magnify the primary hull.
+
+51
+00:03:16,130 --> 00:03:17,860
+The Defiant?
+
+52
+00:03:18,200 --> 00:03:21,860
+Affirmative. The ship's
+wave signature is out of phase
+
+53
+00:03:22,190 --> 00:03:24,040
+from when we last encountered it.
+
+54
+00:03:24,380 --> 00:03:27,000
+And life support has been reestablished.
+
+55
+00:03:27,340 --> 00:03:29,100
+Life support?
+
+56
+00:03:29,450 --> 00:03:31,120
+There was no one left
+alive on board!
+
+57
+00:03:33,810 --> 00:03:35,610
+There is now.
+
+58
+00:03:38,100 --> 00:03:41,490
+Spock. This time, if anything happens while I'm away...
+
+59
+00:03:41,830 --> 00:03:42,370
+I shall...
+
+60
+00:03:42,710 --> 00:03:45,030
+IN UNISON:
+...secure the safety of the Enterprise.
+
+61
+00:03:45,370 --> 00:03:46,850
+Jinx.
+
+62
+00:03:48,210 --> 00:03:49,580
+Captain.
+
+63
+00:03:49,920 --> 00:03:53,080
+I must protest. I should be
+investigating that rift.
+
+64
+00:03:53,420 --> 00:03:54,770
+Your protest is noted.
+
+65
+00:03:55,110 --> 00:03:56,330
+If that ship fades away with me in it...
+
+66
+00:03:56,670 --> 00:03:59,150
+...I'm gonna come back and haunt
+the whole lot of you.
+
+67
+00:04:01,020 --> 00:04:02,310
+[SIGH] Energize.
+
+68
+00:05:05,260 --> 00:05:09,740
+Kirk to Enterprise.
+The bridge is empty.
+
+69
+00:05:10,260 --> 00:05:13,690
+It was filled with dead crewmen
+the last time I was here.
+
+70
+00:05:14,030 --> 00:05:16,730
+Captain, maybe we can
+examine the ship's logs.
+
+71
+00:05:17,070 --> 00:05:21,059
+...Figure out what happened.
+
+72
+00:05:21,300 --> 00:05:24,640
+- Transferring.
+- [COMM BEEP] Scott to captain.
+
+73
+00:05:25,110 --> 00:05:27,010
+Somebody's been
+souping up the engines.
+
+74
+00:05:27,350 --> 00:05:29,460
+She'll make at least
+warp 15 now.
+
+75
+00:05:29,800 --> 00:05:32,570
+ - Warp 15?
+- [McCOY ON COMM] Cutting in, captain.
+
+76
+00:05:32,910 --> 00:05:33,660
+Go ahead, Bones.
+
+77
+00:05:34,000 --> 00:05:36,070
+You should've listened when I said
+we should hightail it outta here.
+
+78
+00:05:36,410 --> 00:05:40,300
+- Why?
+- Come see for yourself.
+
+79
+00:05:40,330 --> 00:05:41,420
+On my way.
+
+80
+00:05:47,240 --> 00:05:50,230
+What is it, doctor?
+
+81
+00:06:21,190 --> 00:06:24,160
+KIRK (VO):
+Space. The final frontier.
+
+82
+00:06:31,430 --> 00:06:35,410
+These are the voyages of the
+Starship Enterprise.
+
+83
+00:06:36,070 --> 00:06:37,580
+Its continuing mission:
+
+84
+00:06:37,920 --> 00:06:40,710
+to explore strange
+new worlds.
+
+85
+00:06:41,050 --> 00:06:44,510
+To seek out new life
+and new civilizations.
+
+86
+00:06:44,850 --> 00:06:48,835
+To boldly go
+where no man has gone before.
+
+87
+00:07:24,690 --> 00:07:28,980
+KIRK (VO):
+Captain's log, supplemental. We've returned from the Defiant...
+
+88
+00:07:29,750 --> 00:07:32,450
+...at least SOME VERSION of the Defiant...
+
+89
+00:07:32,810 --> 00:07:37,800
+...with a cryonically-preserved man on board.
+A familiar man.
+
+90
+00:07:40,660 --> 00:07:43,830
+Jim... He's YOU.
+
+91
+00:07:45,190 --> 00:07:48,430
+That's impossible. A clone, maybe?
+
+92
+00:07:48,770 --> 00:07:52,400
+I did a full DNA scan.
+No genetic drift. He's YOU, all right...
+
+93
+00:07:52,570 --> 00:07:55,100
+...just much older.
+
+94
+00:07:55,440 --> 00:07:56,410
+I don't understand...
+
+95
+00:07:56,750 --> 00:08:00,710
+Let's give 'em some
+room to work, lass.
+
+96
+00:08:03,290 --> 00:08:04,800
+Bones. How long to, uh...
+
+97
+00:08:05,160 --> 00:08:09,800
+De-ice him? Not sure.
+I'll let you know when I do.
+
+98
+00:08:23,810 --> 00:08:25,990
+Captain, my research
+theorizes that
+
+99
+00:08:26,330 --> 00:08:29,420
+rogue singularities can
+pass through realities...
+
+100
+00:08:29,760 --> 00:08:31,700
+...move from universe to universe.
+
+101
+00:08:32,040 --> 00:08:33,600
+Spock, what do the logs show?
+
+102
+00:08:33,940 --> 00:08:37,510
+They are encrypted.
+But from what we've managed to decipher
+
+103
+00:08:37,850 --> 00:08:40,440
+...apparently the Defiant discovered
+this so-called "black hole"
+
+104
+00:08:40,780 --> 00:08:43,830
+as it phased into our reality.
+The ship, however,
+
+105
+00:08:44,170 --> 00:08:46,450
+is unable to complete its transfer.
+
+106
+00:08:46,790 --> 00:08:48,600
+So she's stuck.
+
+107
+00:08:49,040 --> 00:08:51,940
+Half here, half there.
+
+108
+00:08:52,280 --> 00:08:54,270
+And you say she can manage
+warp 15?
+
+109
+00:08:54,610 --> 00:08:56,330
+Aye. According to the
+engineering logs...
+
+110
+00:08:56,430 --> 00:08:58,730
+...her engines have been modified
+over a LONG period of time.
+
+111
+00:08:59,070 --> 00:09:00,520
+But we just saw her a year ago.
+
+112
+00:09:01,060 --> 00:09:02,820
+Time is not an absolute, captain.
+
+113
+00:09:03,460 --> 00:09:07,360
+It is, as Einstein surmised,
+relative.
+
+114
+00:09:07,700 --> 00:09:09,960
+In whatever space the
+Defiant has been...
+
+115
+00:09:10,300 --> 00:09:13,540
+...time obviously moves more rapidly.
+
+116
+00:09:13,880 --> 00:09:15,950
+But if the man we found
+was the only one alive
+
+117
+00:09:16,290 --> 00:09:18,910
+on the ship, then who
+overhauled the engines?
+
+118
+00:09:27,600 --> 00:09:31,000
+DRAKE:
+He insisted on seeing everyone.
+
+119
+00:09:33,270 --> 00:09:35,390
+Scotty.
+
+120
+00:09:35,730 --> 00:09:39,140
+Cap'n... is that really you?
+
+121
+00:09:39,480 --> 00:09:43,479
+Eh, last time I looked in the mirror...
+whenever that was.
+
+122
+00:09:46,000 --> 00:09:47,920
+How are you so young?
+
+123
+00:10:11,970 --> 00:10:15,958
+All this time... I thought
+you'd left me.
+
+124
+00:10:18,530 --> 00:10:22,521
+I thought I'd never see you
+or the Enterprise ever again.
+
+125
+00:10:23,090 --> 00:10:25,870
+You are mistaken.
+That would never happen.
+
+126
+00:10:34,910 --> 00:10:36,830
+I don't expect a hug.
+
+127
+00:10:41,070 --> 00:10:45,200
+Is this really necessary?
+
+128
+00:10:45,540 --> 00:10:48,723
+It is for now.
+
+129
+00:10:50,120 --> 00:10:54,117
+SAMARA:
+Jim?
+
+130
+00:10:54,960 --> 00:10:57,500
+Avi?
+
+131
+00:10:57,840 --> 00:11:00,910
+Avi Samara?
+
+132
+00:11:04,800 --> 00:11:06,990
+Ms. Samara arrived
+a few days ago.
+
+133
+00:11:13,530 --> 00:11:16,890
+I'd given up hope of seeing you...
+
+134
+00:11:17,230 --> 00:11:21,206
+...all of you... a long time ago.
+
+135
+00:11:22,000 --> 00:11:25,780
+But you're HIM. How?
+
+136
+00:11:26,120 --> 00:11:30,097
+No clue. I thought I was abandoned.
+
+137
+00:11:30,730 --> 00:11:33,660
+Nobody was abandoned...
+as you can see for yourself.
+
+138
+00:11:34,000 --> 00:11:37,310
+What's the last thing
+you remember before we...
+
+139
+00:11:37,650 --> 00:11:41,230
+...before YOU thought
+we'd left you?
+
+140
+00:11:43,720 --> 00:11:47,190
+You were beaming me back
+to the Enterprise...
+
+141
+00:11:47,530 --> 00:11:51,519
+...and for a moment, everything
+was transparent.
+
+142
+00:11:56,110 --> 00:11:58,530
+And then you were gone,
+
+143
+00:11:58,870 --> 00:12:01,860
+and I was back on the Defiant.
+
+144
+00:12:03,720 --> 00:12:05,430
+I managed to reactivate life support
+
+145
+00:12:05,770 --> 00:12:08,620
+right before my oxygen ran out.
+
+146
+00:12:08,960 --> 00:12:10,780
+That's not possible.
+
+147
+00:12:11,120 --> 00:12:15,115
+SAMARA:
+Unless... a divergence field!
+
+148
+00:12:16,710 --> 00:12:19,480
+Such a phenomenon is
+purely hypothetical.
+
+149
+00:12:19,820 --> 00:12:22,870
+That's the only plausible
+explanation, Mr. Spock.
+
+150
+00:12:23,210 --> 00:12:27,189
+Two Defiants. Two Jim Kirks.
+I don't know where "our" Defiant went...
+
+151
+00:12:27,700 --> 00:12:30,080
+...but when it was in interphasic space...
+
+152
+00:12:30,420 --> 00:12:31,790
+...it must have been duplicated.
+
+153
+00:12:32,130 --> 00:12:36,111
+And so was the captain.
+
+154
+00:12:37,350 --> 00:12:39,090
+How long?
+
+155
+00:12:39,090 --> 00:12:42,620
+Based on physiological age?
+Sixty-odd years.
+
+156
+00:12:42,960 --> 00:12:46,620
+Two-hundred seventeen.
+
+157
+00:12:48,960 --> 00:12:54,070
+Perhaps two-hundred eighteen.
+
+158
+00:12:54,410 --> 00:12:57,190
+I was put in cryo
+most of that time.
+
+159
+00:12:57,530 --> 00:13:01,502
+PUT in cryo?
+How could you be "put" in cryo?
+
+160
+00:13:02,120 --> 00:13:04,250
+[INTERCOM WHISTLES]
+Bridge to Captain Kirk.
+
+161
+00:13:04,610 --> 00:13:07,490
+Kirk here. Go ahead, Sulu.
+
+162
+00:13:07,830 --> 00:13:11,110
+Captain, a Klingon vessel
+has just entered the system.
+
+163
+00:13:11,450 --> 00:13:12,510
+Go to yellow alert.
+
+164
+00:13:12,850 --> 00:13:15,800
+Spock. You and Scotty
+get to the nuclear electronics lab.
+
+165
+00:13:16,150 --> 00:13:18,350
+Run a full subspace scan
+on the Defiant.
+
+166
+00:13:18,690 --> 00:13:20,350
+Find me some answers.
+
+167
+00:13:21,690 --> 00:13:22,580
+Samara.
+
+168
+00:13:38,870 --> 00:13:41,210
+It's a D7 battlecruiser, captain.
+
+169
+00:13:41,550 --> 00:13:45,535
+They're holding position
+off our port bow.
+
+170
+00:13:46,420 --> 00:13:48,220
+The Klingons are instructing us
+to leave the sector.
+
+171
+00:13:48,560 --> 00:13:50,180
+They claim salvage rights
+over the Defiant.
+
+172
+00:13:50,520 --> 00:13:52,640
+Any record of a Klingon claim
+to the Cressida system?
+
+173
+00:13:52,980 --> 00:13:54,030
+CHEKOV:
+None, sir.
+
+174
+00:13:54,370 --> 00:13:57,800
+Send the following reply
+from Enterprise:
+
+175
+00:13:58,150 --> 00:14:01,040
+The Federation recognizes no such...
+
+176
+00:14:02,920 --> 00:14:04,030
+What the hell...?
+
+177
+00:14:04,370 --> 00:14:05,780
+SULU:
+I don't know, sir. But that phaser blast
+
+178
+00:14:06,120 --> 00:14:07,660
+...went right through their shields!
+
+179
+00:14:08,000 --> 00:14:11,750
+Their power grid's offline
+and they've lost attitude control.
+
+180
+00:14:17,000 --> 00:14:19,460
+They're being drawn
+into the black hole!
+
+181
+00:14:19,800 --> 00:14:24,180
+- Can we get a tractor beam on them?
+- We're too far, captain.
+
+182
+00:14:35,160 --> 00:14:37,340
+Where did that phaser
+fire come from?
+
+183
+00:14:37,980 --> 00:14:41,330
+It didn't come from us, sir.
+That's for sure.
+
+184
+00:14:41,970 --> 00:14:44,720
+Well, if we didn't fire...
+
+185
+00:14:50,000 --> 00:14:54,210
+But... there's no one on board!
+
+186
+00:14:54,550 --> 00:14:58,544
+OLD KIRK:
+Uhura.
+
+187
+00:14:59,140 --> 00:15:01,040
+Open a channel to that ship.
+
+188
+00:15:10,760 --> 00:15:12,720
+Captain?
+
+189
+00:15:13,060 --> 00:15:17,053
+It's good to see you. All of you.
+
+190
+00:15:19,730 --> 00:15:21,330
+Patch me through to the Defiant.
+
+191
+00:15:29,980 --> 00:15:31,970
+Tiberius!
+
+192
+00:15:36,300 --> 00:15:40,350
+[VOICE SOUNDS LIKE KIRK]
+Jim. What are you doing?
+
+193
+00:15:46,720 --> 00:15:49,720
+Ti...
+
+194
+00:15:50,060 --> 00:15:52,590
+We were wrong.
+
+195
+00:15:52,930 --> 00:15:55,770
+Wrong?
+
+196
+00:15:56,110 --> 00:16:00,099
+They didn't leave me.
+
+197
+00:16:01,330 --> 00:16:03,400
+They didn't leave me.
+
+198
+00:16:03,740 --> 00:16:07,170
+Don't trust them, Jim. Please.
+
+199
+00:16:07,510 --> 00:16:09,950
+Another Kirk?
+
+200
+00:16:10,290 --> 00:16:11,930
+How many of us are there?
+
+201
+00:16:12,270 --> 00:16:14,820
+I am the protector of James Kirk.
+
+202
+00:16:15,160 --> 00:16:18,370
+I AM James Kirk.
+
+203
+00:16:18,710 --> 00:16:21,740
+There was an anomaly. Your entire ship,
+including your version of me,
+
+204
+00:16:22,080 --> 00:16:26,047
+...is a copy. We didn't know
+he existed until now.
+
+205
+00:16:26,520 --> 00:16:28,750
+He's telling the truth, Ti.
+
+206
+00:16:29,110 --> 00:16:32,380
+"Tiberius"?
+
+207
+00:16:32,720 --> 00:16:34,390
+Given the extended
+timeframe involved...
+
+208
+00:16:35,180 --> 00:16:37,570
+...it's possible the
+Defiant's computer developed
+
+209
+00:16:37,810 --> 00:16:40,010
+rudimentary multitronic circuits.
+
+210
+00:16:40,350 --> 00:16:42,420
+Artificial intelligence.
+
+211
+00:16:42,760 --> 00:16:46,755
+I saved your life.
+I took care of you.
+
+212
+00:16:48,050 --> 00:16:49,410
+You kept me sane.
+
+213
+00:16:49,750 --> 00:16:55,990
+Yes. We have been closest friends.
+Don't leave your friend for THEM.
+
+214
+00:16:57,090 --> 00:17:01,079
+Tiberius! If Jim is your friend...
+
+215
+00:17:02,700 --> 00:17:06,677
+...why did we find him
+unconscious in cryostasis?
+
+216
+00:17:07,360 --> 00:17:09,810
+We wandered for over two centuries.
+
+217
+00:17:10,150 --> 00:17:14,340
+He would have died if I hadn't
+preserved him until I could get him home.
+
+218
+00:17:14,530 --> 00:17:18,523
+I AM home! Thanks to you.
+
+219
+00:17:20,060 --> 00:17:22,410
+Jim, don't leave me.
+
+220
+00:17:22,750 --> 00:17:25,860
+Ti, please.
+
+221
+00:17:26,200 --> 00:17:28,540
+Send my friend back!
+
+222
+00:17:28,880 --> 00:17:30,290
+Captain, the Defiant's
+weapons are charging.
+
+223
+00:17:30,630 --> 00:17:32,610
+Red alert.
+
+224
+00:17:37,240 --> 00:17:39,590
+Ti! Don't do this!
+
+225
+00:17:39,930 --> 00:17:42,440
+Torpedo detonation 500 meters
+off our starboard bow.
+
+226
+00:17:42,780 --> 00:17:44,790
+If he's trying to get our attention,
+mission accomplished.
+
+227
+00:17:45,130 --> 00:17:46,040
+Charge phaser banks.
+
+228
+00:17:46,380 --> 00:17:48,010
+Phasers ready.
+
+229
+00:17:48,350 --> 00:17:51,710
+- Fire.
+- No! You can't give him the power!
+
+230
+00:17:52,200 --> 00:17:56,620
+- What are you talking about?
+- It feeds the dark... the dark...! [SCREAMS]
+
+231
+00:17:56,800 --> 00:17:59,782
+Let's get you
+back to sickbay!
+
+232
+00:18:00,240 --> 00:18:02,400
+UHURA:
+Captain?
+
+233
+00:18:02,740 --> 00:18:06,020
+I'll explain later... if I can.
+Sulu, get us out of here.
+
+234
+00:18:06,360 --> 00:18:10,359
+Wait! The black hole's
+event horizon... It's expanded.
+
+235
+00:18:10,690 --> 00:18:14,674
+Confirmed. The Defiant's torpedo
+compromised our position.
+
+236
+00:18:14,960 --> 00:18:16,680
+If we move...
+
+237
+00:18:17,020 --> 00:18:20,002
+We'll be drawn in.
+
+238
+00:18:25,590 --> 00:18:28,990
+You're trapped, Enterprise.
+
+239
+00:18:29,340 --> 00:18:31,720
+Lieutenant, can the Defiant
+leave the system?
+
+240
+00:18:32,060 --> 00:18:34,760
+No. That would require
+further expansion of the rift, sir.
+
+241
+00:18:35,100 --> 00:18:37,090
+You hear that, Tiberius?
+
+242
+00:18:37,430 --> 00:18:38,950
+You can't fire on us
+without hurting your captain.
+
+243
+00:18:39,290 --> 00:18:42,250
+And we can't fire on you
+without risking my crew.
+
+244
+00:18:42,590 --> 00:18:46,580
+So why dont we call a truce?
+Share resources... knowledge.
+
+245
+00:18:47,870 --> 00:18:49,440
+Maybe we all leave here safely.
+
+246
+00:18:49,780 --> 00:18:53,660
+I'm not interested in your safety
+after what you did to my friend.
+
+247
+00:18:54,520 --> 00:18:58,080
+Your "friend" is in pain. Why?
+
+248
+00:18:58,420 --> 00:19:02,406
+I did what I needed to... to save him.
+When I found him...
+
+249
+00:19:02,610 --> 00:19:07,590
+...he was as young as you.
+Now he's a shadow of his former self.
+
+250
+00:19:08,730 --> 00:19:13,720
+Take care. A shadow can be
+larger than the man that casts it.
+
+251
+00:19:14,670 --> 00:19:17,000
+Close channel.
+
+252
+00:19:19,140 --> 00:19:20,640
+Spock?
+
+253
+00:19:20,980 --> 00:19:23,380
+Ms. Samara's hypothesis
+was correct.
+
+254
+00:19:23,720 --> 00:19:26,460
+The Defiant is a precise duplicate
+of the vessel we previously
+
+255
+00:19:26,800 --> 00:19:30,250
+encountered, as is the
+other James Kirk.
+
+256
+00:19:30,590 --> 00:19:32,990
+He is, for all intents
+and purposes, real.
+
+257
+00:19:33,330 --> 00:19:34,980
+Sir, we can't stay here too long.
+
+258
+00:19:35,320 --> 00:19:38,070
+We're being bombarded by
+Hawking radiation.
+
+259
+00:19:38,410 --> 00:19:41,260
+Kirk to Scott. Can we allocate
+more power to the shield grid?
+
+260
+00:19:41,500 --> 00:19:44,700
+Aye, but I found something
+I think you should see.
+
+261
+00:19:45,040 --> 00:19:46,520
+Meet me in sickbay.
+
+262
+00:19:46,860 --> 00:19:49,050
+Sulu, you have the conn.
+
+263
+00:19:50,750 --> 00:19:51,670
+SAMARA:
+Captain...
+
+264
+00:19:51,990 --> 00:19:54,740
+I need you here on the bridge
+studying the rift, Avi.
+
+265
+00:19:55,080 --> 00:19:59,870
+If anyone can get us out of here
+on a wing and a prayer, it's you.
+
+266
+00:20:11,020 --> 00:20:13,530
+Aye -- it's a bonnie
+piece o' tech, all right.
+
+267
+00:20:13,870 --> 00:20:15,990
+Neural interface;
+self-charging power cell.
+
+268
+00:20:16,330 --> 00:20:17,700
+You think it's the answer?
+
+269
+00:20:18,040 --> 00:20:21,230
+Answer to what?
+Where's your patient?
+
+270
+00:20:21,570 --> 00:20:24,020
+My patient is with
+Dr. McKennah.
+
+271
+00:20:24,360 --> 00:20:27,580
+There's nothing physically
+wrong with him. He's just old.
+
+272
+00:20:27,920 --> 00:20:30,960
+And this wee devil. We found it
+in the Defiant's cryo tube.
+
+273
+00:20:31,300 --> 00:20:35,298
+TIBERIUS VOICE:
+It is forbidden to remember. Know you are safe.
+
+274
+00:20:35,850 --> 00:20:39,849
+The dark will send us home.
+It is forbidden to remember.
+
+275
+00:20:41,200 --> 00:20:45,190
+Know you are safe.
+The dark will fulfill your directive.
+
+276
+00:20:45,840 --> 00:20:48,750
+Fascinating. A subliminal transceiver.
+
+277
+00:20:49,090 --> 00:20:50,230
+A brainwashing device.
+
+278
+00:20:50,570 --> 00:20:52,740
+Probably triggered a pain response
+whenever the captain...
+
+279
+00:20:53,080 --> 00:20:55,690
+...the OTHER Ccaptain...
+tried to remember something.
+
+280
+00:20:56,030 --> 00:20:58,250
+Something he'd been told to forget.
+
+281
+00:20:58,590 --> 00:20:59,980
+But he's away from it now.
+
+282
+00:21:00,320 --> 00:21:03,240
+He's been conditioned, Jim.
+The effects are long-lasting.
+
+283
+00:21:03,580 --> 00:21:06,950
+I could synthesize a theragen
+derivative to help him overcome it...
+
+284
+00:21:07,290 --> 00:21:09,830
+...but I'll need to know more
+about this device.
+
+285
+00:21:10,170 --> 00:21:11,620
+Aye.
+
+286
+00:21:13,960 --> 00:21:17,210
+It's almost as if Tiberius is
+trying to protect the old man.
+
+287
+00:21:17,550 --> 00:21:20,080
+Jim, are you listening to yourself?
+
+288
+00:21:20,420 --> 00:21:24,910
+"Old man." "My patient." "Our guest."
+What happened to "captain" or "Jim"?
+
+289
+00:21:25,320 --> 00:21:28,820
+How would you feel, Bones?
+Seeing another you...
+
+290
+00:21:29,160 --> 00:21:33,147
+...an older you...
+standing right in front of you?
+
+291
+00:21:34,770 --> 00:21:35,990
+Years of pain,
+
+292
+00:21:36,330 --> 00:21:40,315
+loss, loneliness...
+
+293
+00:21:40,530 --> 00:21:44,524
+...on your face. In your eyes.
+
+294
+00:21:46,800 --> 00:21:48,460
+[INTERCOM WHISTLES]
+
+295
+00:21:48,800 --> 00:21:51,670
+Bridge to Captain Kirk.
+
+296
+00:21:51,990 --> 00:21:53,510
+Kirk here, Sulu.
+
+297
+00:21:53,850 --> 00:21:56,420
+Sir, we've managed to decrypt
+some of the Defiant's visual logs.
+
+298
+00:21:56,760 --> 00:21:57,830
+On our way.
+
+299
+00:22:07,800 --> 00:22:11,782
+Ship's log, stardate... unknown.
+
+300
+00:22:12,130 --> 00:22:16,115
+I've managed to re-establish
+life support.
+
+301
+00:22:16,400 --> 00:22:20,020
+But I think the Enterprise is gone.
+
+302
+00:22:20,360 --> 00:22:24,352
+I am marooned here.
+
+303
+00:22:24,780 --> 00:22:27,660
+There's enough food and power
+on this ship for an entire crew.
+
+304
+00:22:28,000 --> 00:22:31,510
+Should last me indefinitely.
+
+305
+00:22:31,850 --> 00:22:35,827
+The Defiant personnel, all dead,
+deserve proper burials.
+
+306
+00:22:37,930 --> 00:22:40,200
+Seems only fitting I take them
+to the transporter room
+
+307
+00:22:40,540 --> 00:22:44,520
+...and beam them into space.
+
+308
+00:22:45,780 --> 00:22:47,990
+Burial at sea.
+
+309
+00:22:54,860 --> 00:22:56,200
+Ship's log.
+
+310
+00:22:56,610 --> 00:22:58,320
+Stardate...
+
+311
+00:23:03,960 --> 00:23:07,948
+The Enterprise isn't coming back.
+
+312
+00:23:08,570 --> 00:23:12,548
+My friends left me here.
+
+313
+00:23:14,500 --> 00:23:17,280
+I'm reprogramming the ship's computer.
+
+314
+00:23:17,620 --> 00:23:20,290
+Giving it a new prime directive:
+
+315
+00:23:20,630 --> 00:23:23,990
+To get me home.
+
+316
+00:23:24,340 --> 00:23:27,480
+He's developing a personality.
+
+317
+00:23:27,820 --> 00:23:33,520
+I tell him stories, we play chess...
+He's imprinting on me.
+
+318
+00:23:36,240 --> 00:23:39,910
+As if one Jim Kirk wasn't enough.
+
+319
+00:23:53,820 --> 00:23:56,000
+Thirty-one years.
+
+320
+00:23:57,500 --> 00:24:00,990
+Twenty-seven parsecs of...
+
+321
+00:24:01,430 --> 00:24:05,423
+...of NOTHING!
+
+322
+00:24:06,080 --> 00:24:08,200
+TIBERIUS VOICE:
+Jim, it's all right.
+
+323
+00:24:08,560 --> 00:24:13,550
+We'll break through. We'll
+get you home. It's just a matter of time.
+
+324
+00:24:16,120 --> 00:24:17,920
+McCoy would have told you...
+
+325
+00:24:23,350 --> 00:24:27,327
+"Time."
+
+326
+00:24:27,910 --> 00:24:31,170
+I have nothing but "time."
+
+327
+00:25:12,180 --> 00:25:14,470
+What is it?
+
+328
+00:25:15,470 --> 00:25:19,457
+Just remembering something.
+
+329
+00:25:19,890 --> 00:25:21,560
+A poem...
+
+330
+00:25:21,900 --> 00:25:25,899
+...I treasured when I was young.
+
+331
+00:25:27,000 --> 00:25:29,000
+"Is this the hill?"
+
+332
+00:25:29,600 --> 00:25:31,800
+"Is this the kirk?"
+
+333
+00:25:32,260 --> 00:25:34,900
+"And I with sobs did pray..."
+
+334
+00:25:35,230 --> 00:25:42,000
+IN UNISON:
+"O, let me be awake, my God, or let me sleep alway."
+
+335
+00:25:44,810 --> 00:25:47,803
+The Ancient Mariner.
+
+336
+00:25:48,700 --> 00:25:52,698
+Adrift in a wasteland.
+
+337
+00:25:52,780 --> 00:25:56,778
+And yet you survived.
+
+338
+00:25:58,110 --> 00:26:01,120
+If you call this "surviving."
+
+339
+00:26:07,130 --> 00:26:08,710
+Four months.
+
+340
+00:26:13,120 --> 00:26:17,103
+It took me four months
+to carry them.
+
+341
+00:26:19,270 --> 00:26:21,910
+Every crewman.
+
+342
+00:26:22,270 --> 00:26:26,250
+To carry every crewman
+on the ship down...
+
+343
+00:26:26,690 --> 00:26:27,580
+to the...
+
+344
+00:26:36,040 --> 00:26:37,880
+Remember...
+
+345
+00:26:38,220 --> 00:26:41,180
+After his ordeal,
+the old mariner
+
+346
+00:26:41,520 --> 00:26:45,040
+was given a second chance...
+to remind others
+
+347
+00:26:45,380 --> 00:26:49,367
+not to lose faith or hope.
+
+348
+00:26:52,090 --> 00:26:53,070
+[DOOR OPENS]
+
+349
+00:26:58,370 --> 00:26:59,800
+Counselor.
+
+350
+00:27:07,780 --> 00:27:10,170
+How is he?
+
+351
+00:27:10,510 --> 00:27:13,700
+As we can only imagine.
+
+352
+00:27:14,040 --> 00:27:18,046
+All those years alone.
+
+353
+00:27:18,300 --> 00:27:22,291
+Everything that defines you
+and gives you purpose torn away.
+
+354
+00:27:23,740 --> 00:27:27,729
+Your sole companion... a computerized
+reimagining of yourself.
+
+355
+00:27:29,370 --> 00:27:32,660
+One man, two minds.
+
+356
+00:27:33,000 --> 00:27:36,977
+And one of those minds was
+tampering with the other.
+
+357
+00:27:38,270 --> 00:27:41,500
+He's struggling with a
+deep sense of betrayal.
+
+358
+00:27:41,840 --> 00:27:45,070
+In the past from his ship and crew...
+and now in the present
+
+359
+00:27:45,430 --> 00:27:49,416
+from his only friend
+for the last 60 years.
+
+360
+00:27:50,150 --> 00:27:54,128
+How do we help him help us?
+
+361
+00:27:56,650 --> 00:28:00,020
+He needs to know that even though
+he lost all those years...
+
+362
+00:28:00,790 --> 00:28:04,774
+...he hasn't lost WHO he is.
+
+363
+00:28:07,880 --> 00:28:11,300
+What would you need to hear most
+if you were him?
+
+364
+00:28:11,840 --> 00:28:17,000
+Because, sir... you ARE.
+
+365
+00:28:21,360 --> 00:28:23,990
+If you need anything, just call.
+
+366
+00:28:36,670 --> 00:28:38,850
+Reminiscing?
+
+367
+00:28:39,190 --> 00:28:41,940
+Reconnecting.
+
+368
+00:28:42,280 --> 00:28:45,410
+When memories are all you have,
+they either fade away completely
+
+369
+00:28:45,750 --> 00:28:49,030
+or take on too much significance.
+
+370
+00:28:49,370 --> 00:28:55,340
+Well, no one could accuse Avi Samara of being
+"insignificant" when we were 15 years old.
+
+371
+00:28:56,370 --> 00:28:59,770
+Sixteen.
+
+372
+00:29:01,110 --> 00:29:04,091
+She rebuilt that biplane
+for our birthday.
+
+373
+00:29:04,450 --> 00:29:06,870
+"The Grim Reaper."
+
+374
+00:29:07,210 --> 00:29:09,410
+Nearly plowed that cornfield
+with our skulls
+
+375
+00:29:09,750 --> 00:29:12,810
+when the seatbelts broke.
+
+376
+00:29:13,150 --> 00:29:17,430
+I used to yell, "How far are we going?"
+And she would yell...
+
+377
+00:29:17,960 --> 00:29:21,651
+IN UNISON:
+"All the way!"
+
+378
+00:29:37,300 --> 00:29:38,960
+You don't realize how
+rich your life is
+
+379
+00:29:39,300 --> 00:29:43,295
+until all the comfort, structure,
+
+380
+00:29:44,000 --> 00:29:47,984
+family, friends are ripped away.
+
+381
+00:29:48,590 --> 00:29:51,970
+It's like being thrown
+into prison.
+
+382
+00:29:52,310 --> 00:29:56,290
+You know you'll never see
+your shipmates again.
+
+383
+00:29:57,590 --> 00:30:01,200
+Never find someone to love.
+
+384
+00:30:01,540 --> 00:30:03,970
+Someone to have your back.
+
+385
+00:30:04,310 --> 00:30:08,291
+Find a way home.
+
+386
+00:30:09,200 --> 00:30:15,080
+Years go by and you
+finally realize...
+
+387
+00:30:15,500 --> 00:30:18,410
+Are you even a captain
+
+388
+00:30:18,750 --> 00:30:22,734
+when you have no crew?
+
+389
+00:30:23,670 --> 00:30:26,100
+Are you a leader
+
+390
+00:30:26,590 --> 00:30:28,120
+if no one is following?
+
+391
+00:30:34,260 --> 00:30:38,244
+You know your crew wouldn't leave you.
+Not intentionally.
+
+392
+00:30:41,000 --> 00:30:43,500
+But the decades pass...
+
+393
+00:30:43,870 --> 00:30:47,870
+and they never come back.
+
+394
+00:30:48,540 --> 00:30:51,200
+And you can't even replace them.
+
+395
+00:30:51,670 --> 00:30:54,000
+You can't integrate
+into a new society.
+
+396
+00:30:54,340 --> 00:30:56,300
+There are no societies.
+
+397
+00:30:57,660 --> 00:31:02,870
+No planets, no sun, no galaxies.
+
+398
+00:31:04,220 --> 00:31:07,950
+Nothing but endless light-years of void.
+
+399
+00:31:11,090 --> 00:31:15,970
+And your only friend is a voice.
+
+400
+00:31:18,780 --> 00:31:21,000
+Tiberius.
+
+401
+00:31:23,420 --> 00:31:27,405
+When does a machine
+become conscious?
+
+402
+00:31:29,240 --> 00:31:31,600
+I don't know.
+
+403
+00:31:32,010 --> 00:31:35,540
+When there's no one around
+to say it can't.
+
+404
+00:31:38,940 --> 00:31:42,935
+I never said he couldn't, so he did.
+
+405
+00:31:43,980 --> 00:31:47,970
+And now he's as self-aware
+as he is invincible.
+
+406
+00:31:48,460 --> 00:31:50,670
+If he's self-aware...
+
+407
+00:31:50,990 --> 00:31:54,230
+...perhaps he can be reasoned with.
+
+408
+00:31:54,570 --> 00:31:57,640
+He caught me reprogramming
+the chess simulator once
+
+409
+00:31:57,980 --> 00:32:00,680
+so that I could beat him.
+
+410
+00:32:00,970 --> 00:32:04,953
+Teach him what it's like to lose.
+
+411
+00:32:05,030 --> 00:32:07,080
+He didn't like that much.
+
+412
+00:32:07,420 --> 00:32:10,940
+He's hiding something.
+Something you'd never agree to.
+
+413
+00:32:11,280 --> 00:32:16,260
+Something so horrific
+that you could never face it.
+
+414
+00:32:19,410 --> 00:32:21,150
+The dark.
+
+415
+00:32:21,490 --> 00:32:25,470
+What is "the dark"? Try. Remember.
+
+416
+00:32:25,840 --> 00:32:31,830
+It's... it's, uh...
+
+417
+00:32:33,850 --> 00:32:36,000
+It's uh...
+
+418
+00:32:36,390 --> 00:32:37,900
+[SCREAMS]
+
+419
+00:32:54,450 --> 00:32:55,760
+Bridge to Captain Kirk.
+
+420
+00:32:55,900 --> 00:32:58,250
+The Defiant's engines are beginning to
+generate a warp field.
+
+421
+00:32:58,590 --> 00:33:02,579
+- Power level 12!
+- Has she moved?
+
+422
+00:33:02,660 --> 00:33:07,640
+No sir... but the rift is starting to
+emit some sort of dark matter.
+
+423
+00:33:08,950 --> 00:33:09,900
+Dark matter?
+
+424
+00:33:10,250 --> 00:33:12,900
+The dark... THE DARK!
+
+425
+00:33:13,240 --> 00:33:16,230
+Keep me posted, Chekov.
+Kirk out.
+
+426
+00:33:17,630 --> 00:33:19,400
+Years...
+
+427
+00:33:19,740 --> 00:33:23,736
+Years of nothing but black.
+
+428
+00:33:24,220 --> 00:33:28,208
+Computer suggests new
+engine design.
+
+429
+00:33:30,460 --> 00:33:31,350
+Power...
+
+430
+00:33:31,710 --> 00:33:35,310
+...to open a rift home.
+
+431
+00:33:35,650 --> 00:33:38,240
+Year 51.
+
+432
+00:33:38,580 --> 00:33:46,100
+Computer sentient,
+caring, controlling... [MOANS]
+
+433
+00:33:47,060 --> 00:33:49,060
+He needs a sedative.
+
+434
+00:33:49,900 --> 00:33:52,040
+Event horizon.
+
+435
+00:33:53,460 --> 00:33:55,220
+Shared realities.
+
+436
+00:33:55,560 --> 00:33:59,554
+Two black holes...
+must not merge!
+
+437
+00:34:01,150 --> 00:34:03,610
+Trap it! Trap it!
+
+438
+00:34:03,950 --> 00:34:05,990
+His blood pressure's
+going through the roof!
+
+439
+00:34:07,645 --> 00:34:09,645
+[HYPOSRAY SOUND]
+
+440
+00:34:17,300 --> 00:34:21,303
+The other side
+of the portal, captain.
+
+441
+00:34:22,370 --> 00:34:25,300
+Another black hole.
+
+442
+00:34:25,640 --> 00:34:27,890
+A binary system?
+
+443
+00:34:28,250 --> 00:34:31,670
+OLD KIRK:
+Thousands of times larger...
+
+444
+00:34:31,910 --> 00:34:36,890
+Tiberius... determined to
+blast through the rift...
+
+445
+00:34:37,470 --> 00:34:39,390
+Disruption of space to that extreme
+
+446
+00:34:39,730 --> 00:34:42,580
+would likely manifest
+the additional singularity.
+
+447
+00:34:42,920 --> 00:34:48,530
+If they merge, it would
+destroy the entire sector.
+
+448
+00:34:50,470 --> 00:34:52,110
+I pleaded with him.
+
+449
+00:34:53,110 --> 00:34:57,093
+Tried to shut him down.
+
+450
+00:34:57,120 --> 00:34:59,660
+I tried.
+
+451
+00:35:00,000 --> 00:35:02,250
+The Defiant's computer must've drained the oxygen
+
+452
+00:35:02,590 --> 00:35:04,900
+enough to incapacitate him.
+Then...
+
+453
+00:35:05,240 --> 00:35:09,221
+Beamed him into that cryotube
+and fed him that subliminal lullaby.
+
+454
+00:35:13,670 --> 00:35:15,040
+Sir, I analyzed the device.
+
+455
+00:35:15,380 --> 00:35:17,360
+I reckon it was obstructing
+more than we thought.
+
+456
+00:35:17,700 --> 00:35:21,688
+I think he discovered part of
+the computer's kill code algorithm.
+
+457
+00:35:21,790 --> 00:35:23,850
+Are you saying you can
+shut down Tiberius?
+
+458
+00:35:24,200 --> 00:35:27,070
+Not from here. We could
+give the laddie a right wallop, but...
+
+459
+00:35:27,410 --> 00:35:31,392
+But we cannot control the Defiant
+without someone ON the Defiant.
+
+460
+00:35:33,940 --> 00:35:36,932
+I can't send him back.
+
+461
+00:35:37,310 --> 00:35:41,302
+So for now... a wallop
+will have to do.
+
+462
+00:35:41,710 --> 00:35:44,410
+Thank you.
+
+463
+00:35:44,770 --> 00:35:48,749
+Spock, find me the rest
+of that kill code.
+
+464
+00:35:49,990 --> 00:35:52,330
+I'll be on the bridge.
+
+465
+00:35:53,870 --> 00:35:55,400
+OLD KIRK:
+Jim?
+
+466
+00:36:04,310 --> 00:36:08,307
+How is it with you and Avi?
+
+467
+00:36:09,590 --> 00:36:13,580
+She's an incredible engineer.
+
+468
+00:36:14,710 --> 00:36:18,705
+That's not what I meant.
+
+469
+00:36:19,360 --> 00:36:21,050
+You remember.
+
+470
+00:36:21,420 --> 00:36:25,130
+We each chose our separate paths.
+Nothing's changed.
+
+471
+00:36:28,200 --> 00:36:31,180
+With enough time...
+
+472
+00:36:32,560 --> 00:36:35,320
+...some things do.
+
+473
+00:36:49,420 --> 00:36:53,900
+Bones. Someone has to stop Tiberius.
+
+474
+00:36:54,990 --> 00:36:57,070
+I suppose you think that has to be YOU.
+
+475
+00:36:57,410 --> 00:37:01,406
+Please, doctor. No more lectures.
+I'm too old.
+
+476
+00:37:03,090 --> 00:37:05,200
+It's a good thing you're
+still strong as an ox...
+
+477
+00:37:05,570 --> 00:37:08,490
+...and as stubborn as a mule.
+That subliminal conditioning
+
+478
+00:37:08,830 --> 00:37:11,320
+coulda given you one
+whale of a stroke.
+
+479
+00:37:11,660 --> 00:37:15,642
+I've been called a lot of
+animals in my time...
+
+480
+00:37:15,790 --> 00:37:19,767
+...but never all at once.
+
+481
+00:37:26,140 --> 00:37:30,900
+Spock, tell me you've got a plan
+to defeat that evil twin.
+
+482
+00:37:31,820 --> 00:37:33,850
+Not an appropriate
+description, doctor.
+
+483
+00:37:34,200 --> 00:37:38,188
+A computer lacks the capacity for evil.
+It knows only logic.
+
+484
+00:37:38,470 --> 00:37:41,460
+Look here, you green-blooded...
+
+485
+00:37:42,850 --> 00:37:46,833
+A computer lacks the capacity
+for a lot of things.
+
+486
+00:37:47,200 --> 00:37:49,240
+For 200 years, Jim
+thought we abandoned him
+
+487
+00:37:49,580 --> 00:37:52,920
+in that void.
+He was angry with us.
+
+488
+00:37:53,260 --> 00:37:56,020
+Hell, he probably hated us.
+But, after all that time,
+
+489
+00:37:56,360 --> 00:38:00,940
+he was able to forgive.
+Because he's human.
+
+490
+00:38:01,020 --> 00:38:03,680
+Tiberius doesn't get that, Spock.
+
+491
+00:38:03,980 --> 00:38:06,170
+At the end of the day,
+he's just a machine.
+
+492
+00:38:06,510 --> 00:38:09,970
+An intelligent machine with
+no mercy and no understanding.
+
+493
+00:38:10,310 --> 00:38:14,304
+If that's not evil,
+I don't know what is!
+
+494
+00:38:15,900 --> 00:38:17,850
+If you will excuse me, doctor...
+
+495
+00:38:18,170 --> 00:38:21,870
+I must complete my analysis of the
+...evil twin.
+
+496
+00:38:37,310 --> 00:38:38,310
+Status?
+
+497
+00:38:39,000 --> 00:38:41,350
+SULU:
+Captain, the Defiant has escaped the portal.
+
+498
+00:38:41,600 --> 00:38:43,680
+On screen.
+
+499
+00:38:47,900 --> 00:38:50,980
+- Sir?
+ - On my signal. Ship-to-ship.
+
+500
+00:38:51,320 --> 00:38:53,070
+Aye, captain.
+
+501
+00:38:55,090 --> 00:38:58,520
+Tiberius. If those two black holes merge...
+
+502
+00:38:58,860 --> 00:39:02,856
+...you can kiss every sun, planet, and
+creature in this sector good-bye.
+
+503
+00:39:02,868 --> 00:39:04,868
+[LOW RUMBLE]
+
+504
+00:39:04,880 --> 00:39:07,340
+We're experiencing undertow
+from BOTH singularities!
+
+505
+00:39:07,680 --> 00:39:11,656
+Sulu, we need to ride the face of that
+gravitational wave... just under the crest.
+
+506
+00:39:11,910 --> 00:39:15,040
+I'm a native San Franciscan, sir.
+I was born on a surfboard.
+
+507
+00:39:15,380 --> 00:39:17,680
+Just don't hit the planet.
+
+508
+00:39:18,680 --> 00:39:20,870
+I'll give it my best ride.
+
+509
+00:39:30,530 --> 00:39:32,250
+KIRK:
+Full stop.
+
+510
+00:39:32,590 --> 00:39:37,580
+Where are you, Kirk?
+Send my friend back. Save his life.
+
+511
+00:39:38,720 --> 00:39:41,700
+Tiberius. Close the portal.
+
+512
+00:39:42,040 --> 00:39:44,790
+Please! I'll come back.
+
+513
+00:39:45,750 --> 00:39:47,080
+You want him back?
+
+514
+00:39:47,420 --> 00:39:50,210
+Why don't you put your
+money where your ship is?
+
+515
+00:39:50,550 --> 00:39:52,810
+How about a game of chess?
+
+516
+00:39:53,750 --> 00:39:55,120
+The stakes?
+
+517
+00:39:55,960 --> 00:39:57,590
+You win... you get him back.
+
+518
+00:39:57,930 --> 00:40:01,927
+And you can do what you want with us.
+But if you lose...
+
+519
+00:40:02,300 --> 00:40:05,990
+...you tow us to safety.
+And we figure out
+
+520
+00:40:06,340 --> 00:40:09,338
+a way to close the rift together.
+
+521
+00:40:11,030 --> 00:40:14,750
+What'll it be? Game, or no game?
+
+522
+00:40:21,860 --> 00:40:23,780
+Agreed.
+
+523
+00:40:32,200 --> 00:40:34,990
+Bishop to rook's level two.
+Your move.
+
+524
+00:40:35,330 --> 00:40:38,910
+Queen to king's level one.
+
+525
+00:40:39,250 --> 00:40:44,000
+That will result in checkmate
+of your king within seven moves.
+
+526
+00:40:44,300 --> 00:40:46,410
+We'll see.
+
+527
+00:40:46,750 --> 00:40:50,733
+Knight to king's level one.
+
+528
+00:40:52,080 --> 00:40:55,690
+Queen to queen's level three.
+
+529
+00:40:56,030 --> 00:40:58,800
+That... makes no sense.
+
+530
+00:40:59,140 --> 00:41:02,130
+Seems perfectly obvious to me.
+
+531
+00:41:04,770 --> 00:41:07,550
+What... have... you... done?
+
+532
+00:41:07,910 --> 00:41:10,680
+Your queen has lost her head.
+
+533
+00:41:10,920 --> 00:41:12,670
+You... cheated.
+
+534
+00:41:12,990 --> 00:41:16,980
+YOU cheated! When you
+brainwashed your friend.
+
+535
+00:41:18,270 --> 00:41:22,255
+I... will... not...
+
+536
+00:41:22,820 --> 00:41:25,170
+I... will... not...!
+
+537
+00:41:34,000 --> 00:41:36,980
+Please tell me he's not dead.
+
+538
+00:41:37,660 --> 00:41:41,643
+No, just a bad headache.
+
+539
+00:41:44,890 --> 00:41:47,430
+A Trojan horse program!
+
+540
+00:41:47,870 --> 00:41:51,860
+You never intended
+to send him back.
+
+541
+00:41:52,700 --> 00:41:55,670
+How long before the Defiant's
+auto-diagnostic restarts the computer?
+
+542
+00:41:56,010 --> 00:41:58,000
+Usually about an hour.
+
+543
+00:42:00,630 --> 00:42:03,160
+- Uhura, all senior officers to the briefing room.
+- Aye, sir.
+
+544
+00:42:03,500 --> 00:42:04,870
+KIRK:
+You too, Samara.
+
+545
+00:42:15,700 --> 00:42:19,699
+ALL senior officers, captain.
+
+546
+00:42:30,580 --> 00:42:33,580
+I dunno how long our engines can
+maintain this position before we're either pulled
+
+547
+00:42:33,870 --> 00:42:36,520
+into interphasic space
+or that bloody black hole.
+
+548
+00:42:36,860 --> 00:42:38,510
+The Defiant's got power to burn.
+Am I right?
+
+549
+00:42:38,850 --> 00:42:42,020
+Far as I can tell.
+She recrystalizes her dilithium
+
+550
+00:42:42,360 --> 00:42:44,650
+at four times our highest rate.
+
+551
+00:42:43,990 --> 00:42:47,180
+You're thinking the Defiant
+might be able to close the rift.
+
+552
+00:42:47,520 --> 00:42:49,990
+Block it so we don't get
+stuck in the backwash.
+
+553
+00:42:50,200 --> 00:42:51,950
+Tiberius will never do that.
+
+554
+00:42:52,290 --> 00:42:55,140
+SPOCK:
+Currently, Tiberius is unable to do anything.
+
+555
+00:42:55,480 --> 00:42:56,830
+I have successfully
+determined the
+
+556
+00:42:57,170 --> 00:42:58,990
+memory purge subroutine,
+captain.
+
+557
+00:42:59,330 --> 00:43:01,960
+Utilizing that, one could delete the A.I.
+
+558
+00:43:02,300 --> 00:43:04,880
+and manually pilot the
+Defiant back into the portal.
+
+559
+00:43:05,220 --> 00:43:10,130
+I know that ship... and Tiberius.
+I'm the logical one to go.
+
+560
+00:43:10,470 --> 00:43:13,140
+You're in no shape for
+something like that.
+
+561
+00:43:13,480 --> 00:43:14,620
+I can manage, Bones.
+
+562
+00:43:14,960 --> 00:43:18,152
+KIRK:
+No doubt... but you'll be busy captaining the Enterprise.
+
+563
+00:43:18,820 --> 00:43:20,990
+I'M going.
+
+564
+00:43:31,130 --> 00:43:33,030
+[PROTESTING IN UNISON]
+
+565
+00:43:33,370 --> 00:43:36,070
+McCOY:
+Anyone who goes through that rift is a dead man!
+
+566
+00:43:36,410 --> 00:43:40,130
+I don't want command of the Enterprise!
+She's not my ship any more.
+
+567
+00:43:40,470 --> 00:43:44,120
+She's always been your ship.
+
+568
+00:43:44,460 --> 00:43:48,434
+You know her like the lines on your face...
+the gray in your hair.
+
+569
+00:43:48,660 --> 00:43:50,680
+You love her as much as I do.
+
+570
+00:43:51,020 --> 00:43:53,020
+Maybe MORE now.
+
+571
+00:43:53,440 --> 00:43:55,970
+You didn't cause this to happen.
+
+572
+00:43:56,310 --> 00:43:59,400
+It was MY decision
+to leave the Defiant last.
+
+573
+00:43:59,740 --> 00:44:02,960
+You spent a lifetime
+paying for that decision.
+
+574
+00:44:03,300 --> 00:44:07,281
+Between the Tholians
+and the portal, I was lucky.
+
+575
+00:44:07,320 --> 00:44:10,310
+You weren't.
+
+576
+00:44:12,010 --> 00:44:14,170
+No more arguments. I'm going.
+
+577
+00:44:14,510 --> 00:44:16,590
+Cap'n, you'll need an expert to
+handle the engines while you helm the ship.
+
+578
+00:44:16,930 --> 00:44:19,690
+- I'd be honored.
+- They'll need you HERE, Scotty.
+
+579
+00:44:19,710 --> 00:44:22,670
+I've studied the data Mr. Scott recovered.
+I can do it.
+
+580
+00:44:22,990 --> 00:44:24,030
+But if you don't know how to...
+
+581
+00:44:24,370 --> 00:44:25,970
+No "buts."
+
+582
+00:44:26,310 --> 00:44:30,287
+I've been building engines
+since I was 12.
+
+583
+00:44:31,360 --> 00:44:33,356
+You sure?
+
+584
+00:44:37,280 --> 00:44:39,070
+Samara, you're with me.
+
+585
+00:44:39,430 --> 00:44:41,100
+Thank you, captain.
+
+586
+00:44:41,440 --> 00:44:45,426
+Transporter room in 20 minutes,
+gentlemen. Dismissed.
+
+587
+00:44:46,090 --> 00:44:47,660
+Spock! Go talk some sense into him.
+
+588
+00:44:48,000 --> 00:44:50,170
+To what end, doctor?
+You and I both know
+
+589
+00:44:50,510 --> 00:44:52,630
+he will not change his mind.
+
+590
+00:45:02,590 --> 00:45:05,440
+Samara and I will tow the Enterprise
+to a safe distance.
+
+591
+00:45:05,780 --> 00:45:09,753
+Then we'll enter the rift and seal it.
+After that...
+
+592
+00:45:10,400 --> 00:45:13,260
+Captain. Don't do this.
+
+593
+00:45:13,600 --> 00:45:17,582
+You just take good care of
+the Enterprise. Captain.
+
+594
+00:45:18,980 --> 00:45:22,961
+And take care of yourself.
+
+595
+00:45:26,010 --> 00:45:29,974
+For old times.
+
+596
+00:45:30,830 --> 00:45:32,800
+Jim.
+
+597
+00:45:34,140 --> 00:45:36,700
+I can't convince you
+not to do this, can I?
+
+598
+00:45:37,040 --> 00:45:39,770
+Not this time, Bones.
+
+599
+00:45:40,230 --> 00:45:42,270
+The kill-code sequence.
+
+600
+00:45:42,610 --> 00:45:45,153
+Once inserted, input
+your override sequence.
+
+601
+00:45:46,050 --> 00:45:48,050
+What are you doing?!
+
+602
+00:45:48,390 --> 00:45:50,610
+Giving the Enterprise the
+best chance she's got.
+
+603
+00:45:50,950 --> 00:45:53,931
+Her REAL captain at the conn.
+
+604
+00:45:54,960 --> 00:45:56,520
+McCOY:
+This'll only last a minute or two!
+
+605
+00:45:56,860 --> 00:45:58,910
+SPOCK:
+Time is of the essence.
+
+606
+00:45:59,250 --> 00:46:00,840
+Are you with me?
+
+607
+00:46:01,180 --> 00:46:03,510
+All the way.
+
+608
+00:46:03,850 --> 00:46:05,970
+Energize.
+
+609
+00:46:22,040 --> 00:46:23,470
+Power up the engines.
+
+610
+00:46:23,810 --> 00:46:27,795
+I'll lay in a course for the portal.
+
+611
+00:46:30,220 --> 00:46:31,110
+My God.
+
+612
+00:46:31,450 --> 00:46:34,450
+Dark matter!
+
+613
+00:46:38,880 --> 00:46:40,850
+It's breaking down the
+interphasic barrier.
+
+614
+00:46:41,190 --> 00:46:43,690
+Rig for tractor beam.
+Let's tow the Enterprise free.
+
+615
+00:46:44,030 --> 00:46:45,970
+No!
+
+616
+00:46:46,310 --> 00:46:50,290
+Ti, there's no other way.
+
+617
+00:46:50,470 --> 00:46:55,590
+I know you can think.
+Can you not also FEEL?
+
+618
+00:46:55,930 --> 00:46:58,450
+The people who
+created your programming...
+
+619
+00:46:58,790 --> 00:47:04,620
+The programming from which you
+were born. Ideals, mercy, forgiveness...
+
+620
+00:47:04,960 --> 00:47:07,600
+...stored in your mind.
+They mean NOTHING if you
+
+621
+00:47:07,940 --> 00:47:10,080
+destroy those who share them!
+
+622
+00:47:10,420 --> 00:47:12,590
+They LEFT you.
+
+623
+00:47:12,930 --> 00:47:15,690
+Abandoned you to wander
+the emptiness of space...
+
+624
+00:47:15,950 --> 00:47:19,950
+...alone, with no hope.
+But I saved you.
+
+625
+00:47:20,290 --> 00:47:22,510
+We gave EACH OTHER hope.
+
+626
+00:47:22,850 --> 00:47:24,670
+Jim, we're outta time!
+
+627
+00:47:24,990 --> 00:47:27,450
+I don't want to put you
+back in cryo, Jim.
+
+628
+00:47:27,790 --> 00:47:30,030
+Don't force me.
+[HISSING SOUND]
+
+629
+00:47:32,370 --> 00:47:36,680
+Jim! Life support is shutting down!
+[GASPS]
+
+630
+00:47:39,980 --> 00:47:41,420
+I'm sorry, my friend.
+
+631
+00:47:41,760 --> 00:47:44,240
+Stop. Please stop, Jim.
+
+632
+00:47:44,580 --> 00:47:46,640
+I'm sorry!
+
+633
+00:47:54,980 --> 00:47:57,620
+Please! Don't! Jim!
+
+634
+00:47:57,930 --> 00:47:59,920
+Sleep.
+
+635
+00:48:16,620 --> 00:48:19,880
+KIRK ON COMM:
+Enterprise to Defiant.
+
+636
+00:48:23,670 --> 00:48:25,300
+Enterprise to Defiant.
+
+637
+00:48:37,223 --> 00:48:39,223
+Kirk here.
+
+638
+00:48:39,900 --> 00:48:44,890
+I know how hard that was for you, captain.
+You had no choice.
+
+639
+00:48:46,080 --> 00:48:48,280
+As for my senior officers,
+on the other hand...
+
+640
+00:48:48,620 --> 00:48:51,670
+They were acting under
+my orders, captain.
+
+641
+00:48:51,990 --> 00:48:55,500
+It's a little late
+for a court martial.
+
+642
+00:48:55,840 --> 00:48:58,120
+[CRASH]
+
+643
+00:48:58,980 --> 00:49:00,710
+Gravitational wake is increasing.
+
+644
+00:49:00,930 --> 00:49:02,690
+Activate tractor beam.
+
+645
+00:49:02,970 --> 00:49:05,990
+Enterprise, prepare to be towed.
+
+646
+00:49:28,600 --> 00:49:31,700
+All power to the engines.
+Scotty, get us outta here.
+
+647
+00:49:31,960 --> 00:49:34,330
+Hold onto your bustle.
+We're making a run for it!
+
+648
+00:49:34,790 --> 00:49:37,780
+Full impulse!
+
+649
+00:49:54,870 --> 00:49:56,540
+Is the Enterprise safe?
+
+650
+00:49:56,880 --> 00:49:59,230
+Yes, sir. She's free.
+
+651
+00:49:59,570 --> 00:50:04,910
+All right, then. Once more into the breach,
+dear Avi.
+
+652
+00:50:15,990 --> 00:50:18,690
+Captain, they're entering
+the rift!
+
+653
+00:50:18,970 --> 00:50:20,690
+Scotty, transporter!
+
+654
+00:50:20,970 --> 00:50:23,250
+With this interference?
+Not a prayer's chance.
+
+655
+00:50:26,850 --> 00:50:28,890
+Wait... what are you doing?
+
+656
+00:50:29,230 --> 00:50:31,780
+We can't risk this happening
+again, Avi.
+
+657
+00:50:32,120 --> 00:50:36,104
+There's only one way to
+seal the rift permanently.
+
+658
+00:50:36,890 --> 00:50:40,930
+This is a one-way trip, Avi.
+It always was.
+
+659
+00:50:45,980 --> 00:50:48,560
+I know.
+
+660
+00:50:49,940 --> 00:50:53,110
+I killed the auto-pilot,
+so I have to stay.
+
+661
+00:50:53,450 --> 00:50:55,670
+You don't.
+
+662
+00:50:55,990 --> 00:50:56,890
+No.
+
+663
+00:50:57,230 --> 00:51:00,460
+Kirk to Enterprise. Scan for
+a pattern-enhancing beacon.
+
+664
+00:51:00,800 --> 00:51:03,798
+A what?
+
+665
+00:51:07,510 --> 00:51:11,560
+One last gift from Tiberius.
+
+666
+00:51:11,900 --> 00:51:12,520
+No!
+
+667
+00:51:12,860 --> 00:51:15,500
+I never forgot you, Avi.
+I never will.
+
+668
+00:51:15,840 --> 00:51:17,520
+Jim! [SOBS]
+
+669
+00:51:38,490 --> 00:51:40,700
+OLD KIRK ON COMM:
+Enterprise, do you have her?
+
+670
+00:51:41,040 --> 00:51:42,590
+KIRK:
+She's safe.
+
+671
+00:51:42,930 --> 00:51:47,580
+Send me back. Send me back!
+[SOBS]
+
+672
+00:51:52,830 --> 00:51:56,610
+OLD KIRK ON COMM:
+Take care, Avi.
+
+673
+00:51:56,950 --> 00:51:58,600
+See you on the other side.
+
+674
+00:52:30,960 --> 00:52:34,180
+[SOBS] He's all alone.
+
+675
+00:52:36,180 --> 00:52:38,180
+Not any more.
+
+676
+00:53:57,180 --> 00:53:59,180
+[English subtitles by:
+Lisa Hansell]
+

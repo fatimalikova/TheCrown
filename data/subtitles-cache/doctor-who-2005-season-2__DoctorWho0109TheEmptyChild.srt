@@ -1,0 +1,4311 @@
+1
+00:00:07,173 --> 00:00:09,509
+- What's the emergency? - It's mauve.
+
+2
+00:00:09,592 --> 00:00:10,802
+Mauve?
+
+3
+00:00:13,013 --> 00:00:15,140
+Universally recognised colour for danger.
+
+4
+00:00:15,181 --> 00:00:17,183
+- What happened to red? - That's just humans.
+
+5
+00:00:17,267 --> 00:00:19,477
+By everyone else's standards, red's camp.
+
+6
+00:00:19,561 --> 00:00:22,856
+Oh, the misunderstandings. All those red alerts, all that dancing.
+
+7
+00:00:22,939 --> 00:00:26,443
+It's got a very basic flight computer I've hacked in, slaved the Tardis.
+
+8
+00:00:26,568 --> 00:00:27,861
+Wherever it goes, we go.
+
+9
+00:00:27,944 --> 00:00:30,113
+- And that's safe, is it? - Totally.
+
+10
+00:00:33,366 --> 00:00:36,494
+Okay, reasonably. Should have said "reasonably" there.
+
+11
+00:00:37,495 --> 00:00:40,373
+No. No! It's jumping time tracks, getting away from us.
+
+12
+00:00:40,457 --> 00:00:42,751
+- What exactly is this thing? - No idea.
+
+13
+00:00:42,834 --> 00:00:44,169
+Then why are we chasing it?
+
+14
+00:00:44,294 --> 00:00:48,381
+It's mauve and dangerous and about 30 seconds from the centre of London.
+
+15
+00:01:40,266 --> 00:01:42,393
+Know how long you can knock around space
+
+16
+00:01:42,477 --> 00:01:44,145
+without happening to bump into Earth?
+
+17
+00:01:44,229 --> 00:01:46,648
+- Five days. - Or is that when we're out of milk?
+
+18
+00:01:46,773 --> 00:01:50,360
+Of all the species in all the universe and it has to come out of a cow.
+
+19
+00:01:52,779 --> 00:01:56,324
+Must've come down somewhere quite close. Within a mile anyway.
+
+20
+00:01:56,574 --> 00:01:59,786
+And it can't have been more than a few weeks ago. Maybe a month.
+
+21
+00:01:59,869 --> 00:02:02,288
+A month? We were right behind it.
+
+22
+00:02:02,413 --> 00:02:06,209
+It was jumping time tracks all over the place. We're bound to be a little bit out.
+
+23
+00:02:06,334 --> 00:02:08,378
+- Do you want to drive? - Yeah.
+
+24
+00:02:08,920 --> 00:02:11,256
+- How much is a little? - A bit.
+
+25
+00:02:11,339 --> 00:02:13,675
+- Is that exactly a bit? - Ish.
+
+26
+00:02:14,425 --> 00:02:15,677
+What's the plan, then?
+
+27
+00:02:15,760 --> 00:02:17,971
+You going to do a scan for alien tech or something?
+
+28
+00:02:18,096 --> 00:02:22,225
+Rose, it hit the middle of London with a very loud bang. I'm going to ask.
+
+29
+00:02:22,851 --> 00:02:25,270
+"Dr John Smith, Ministry of Asteroids."
+
+30
+00:02:25,353 --> 00:02:27,272
+It's psychic paper, it tells you what...
+
+31
+00:02:27,355 --> 00:02:30,191
+- Whatever you want it to, I remember. - Sorry.
+
+32
+00:02:30,275 --> 00:02:33,278
+Not very "Spock", is it? Just asking.
+
+33
+00:02:33,987 --> 00:02:38,658
+- Door, music, people. What do you think? - I think you should scan for alien tech.
+
+34
+00:02:38,700 --> 00:02:41,703
+Give me some Spock, for once. Would it kill you?
+
+35
+00:02:41,786 --> 00:02:43,705
+You sure about that T-shirt?
+
+36
+00:02:45,165 --> 00:02:47,917
+Too early to say. I'm taking it out for a spin.
+
+37
+00:02:49,168 --> 00:02:51,171
+Mummy.
+
+38
+00:02:53,339 --> 00:02:55,091
+Mummy.
+
+39
+00:02:58,511 --> 00:03:01,389
+Come on if you're coming. It won't take a minute.
+
+40
+00:03:03,474 --> 00:03:05,727
+Mummy?
+
+41
+00:03:09,939 --> 00:03:13,610
+Doctor, there's a kid up there!
+
+42
+00:03:39,636 --> 00:03:42,680
+# For nobody else
+
+43
+00:03:43,014 --> 00:03:45,433
+# Gave me the thrill
+
+44
+00:03:46,351 --> 00:03:51,064
+# When I uphold silence still
+
+45
+00:03:51,147 --> 00:03:53,775
+# It had to be you
+
+46
+00:03:53,900 --> 00:03:56,194
+# Wonderful you #
+
+47
+00:03:57,612 --> 00:03:59,197
+Are you all right up there?
+
+48
+00:03:59,280 --> 00:04:01,532
+Mummy.
+
+49
+00:04:06,537 --> 00:04:09,123
+# It had to be you #
+
+50
+00:04:19,592 --> 00:04:23,221
+Excuse me, could I have everybody's attention just for a mo?
+
+51
+00:04:23,346 --> 00:04:25,640
+Be very quick. Hello?
+
+52
+00:04:25,723 --> 00:04:29,227
+Erm... might seem like a stupid question
+
+53
+00:04:29,310 --> 00:04:31,980
+but has anything fallen from the sky recently?
+
+54
+00:04:53,501 --> 00:04:54,711
+Mummy.
+
+55
+00:04:57,005 --> 00:04:58,756
+Okay, hang on, don't move.
+
+56
+00:05:12,770 --> 00:05:14,939
+Sorry, have I said something funny?
+
+57
+00:05:15,231 --> 00:05:17,650
+It's just there's this thing that I need to find.
+
+58
+00:05:17,734 --> 00:05:20,737
+Would have fallen from the sky, a couple of days ago.
+
+59
+00:05:23,448 --> 00:05:25,533
+Would have landed quite near here.
+
+60
+00:05:28,661 --> 00:05:30,413
+With a very loud...
+
+61
+00:05:30,496 --> 00:05:33,332
+Quickly as you can, down to the shelter.
+
+62
+00:05:36,335 --> 00:05:37,462
+...bang.
+
+63
+00:05:42,592 --> 00:05:43,801
+Mummy.
+
+64
+00:05:46,721 --> 00:05:48,014
+Balloon.
+
+65
+00:06:01,235 --> 00:06:02,445
+Doctor!
+
+66
+00:06:07,366 --> 00:06:08,701
+Doctor!
+
+67
+00:06:10,495 --> 00:06:12,288
+Doctor!
+
+68
+00:06:21,214 --> 00:06:24,008
+Okay. Maybe not this T-shirt.
+
+69
+00:06:31,516 --> 00:06:32,725
+Rose?
+
+70
+00:06:40,650 --> 00:06:42,819
+You know, one day.
+
+71
+00:06:45,279 --> 00:06:48,533
+Just one day, maybe, I'm going to meet somebody who gets the whole
+
+72
+00:06:48,616 --> 00:06:50,368
+"don't wander off" thing.
+
+73
+00:06:51,327 --> 00:06:55,331
+900 years of phone box travel, it's the only thing left to surprise me.
+
+74
+00:07:10,263 --> 00:07:12,014
+How can you be ringing?
+
+75
+00:07:12,932 --> 00:07:14,767
+What's that about ringing?
+
+76
+00:07:15,476 --> 00:07:17,687
+What am I supposed to do with a ringing phone?
+
+77
+00:07:17,770 --> 00:07:20,940
+Don't answer it. It's not for you.
+
+78
+00:07:25,820 --> 00:07:30,074
+- And how do you know that? - 'Cause I do. And I'm telling you.
+
+79
+00:07:31,367 --> 00:07:32,994
+Don't answer it.
+
+80
+00:07:33,119 --> 00:07:36,789
+Well, if you know so much, tell me this, how can it be ringing?
+
+81
+00:07:37,832 --> 00:07:41,335
+It's not even a real phone, it's not connected, it's not...
+
+82
+00:07:54,056 --> 00:07:55,224
+Hello?
+
+83
+00:07:58,227 --> 00:08:00,146
+This is the Doctor speaking.
+
+84
+00:08:01,647 --> 00:08:04,233
+- How may I help you? - Mummy?
+
+85
+00:08:06,360 --> 00:08:07,612
+Mummy?
+
+86
+00:08:08,112 --> 00:08:10,364
+Who is this? Who's speaking?
+
+87
+00:08:11,324 --> 00:08:13,117
+Are you my mummy?
+
+88
+00:08:13,242 --> 00:08:15,077
+- Who is this? - Mummy.
+
+89
+00:08:17,747 --> 00:08:21,459
+How did you ring it? This isn't a real phone, it's not wired up to...
+
+90
+00:08:21,542 --> 00:08:22,752
+Mummy?
+
+91
+00:08:30,635 --> 00:08:31,802
+Rose?
+
+92
+00:08:33,054 --> 00:08:34,764
+Rose, are you in there?
+
+93
+00:08:46,734 --> 00:08:51,030
+The planes are coming, can't you hear them? Into the shelter.
+
+94
+00:08:51,113 --> 00:08:53,741
+None of your nonsense, now move it.
+
+95
+00:08:54,659 --> 00:08:58,037
+Come on. Hurry up, get in there. Come on.
+
+96
+00:08:58,829 --> 00:09:01,749
+Arthur, will you hurry up?
+
+97
+00:09:01,832 --> 00:09:03,417
+Didn't you hear the siren?
+
+98
+00:09:03,459 --> 00:09:07,004
+Middle of dinner, every night. Blooming Germans, don't they eat?
+
+99
+00:09:07,129 --> 00:09:08,756
+I can hear the planes.
+
+100
+00:09:08,839 --> 00:09:10,299
+Don't you eat?
+
+101
+00:09:10,341 --> 00:09:13,219
+Keep your voice down, will you? It's an air raid.
+
+102
+00:09:16,055 --> 00:09:20,601
+- Get in, look, there's a war on. - I know there's a war on, don't push me.
+
+103
+00:10:16,699 --> 00:10:20,202
+Get those lights out, please. Everyone down to the shelter.
+
+104
+00:10:20,328 --> 00:10:23,539
+Jack? You going down to the shelter?
+
+105
+00:10:23,622 --> 00:10:26,751
+Only I've got to go off on some damn silly guard duty.
+
+106
+00:10:27,460 --> 00:10:31,464
+Barrage balloon? Must've come loose. Happens now and then.
+
+107
+00:10:32,381 --> 00:10:35,384
+Don't you RAF boys use them for target practice?
+
+108
+00:10:37,970 --> 00:10:39,639
+Excellent bottom.
+
+109
+00:10:41,724 --> 00:10:44,644
+I say, old man, there's a time and a place.
+
+110
+00:10:45,102 --> 00:10:47,146
+Look, you should really be off.
+
+111
+00:10:49,857 --> 00:10:51,108
+Sorry, old man.
+
+112
+00:10:52,401 --> 00:10:56,280
+I've got to go meet a girl. But you've got an excellent bottom, too.
+
+113
+00:11:50,251 --> 00:11:52,878
+- Many kids out there? - Yes, miss.
+
+114
+00:11:54,088 --> 00:11:57,341
+Still carving. Sit and wait.
+
+115
+00:11:58,759 --> 00:12:00,177
+Got the whole air raid.
+
+116
+00:12:00,219 --> 00:12:04,098
+- Look. Bet it's off the black market. - That's enough.
+
+117
+00:12:24,285 --> 00:12:27,538
+- Okay, I got you. - Who's got me?
+
+118
+00:12:28,539 --> 00:12:30,791
+Who's got me and how?
+
+119
+00:12:30,875 --> 00:12:33,210
+I'm just programming your descent pattern.
+
+120
+00:12:33,294 --> 00:12:37,465
+Stay as stlll as you can and keep your hands and feet inside the light field.
+
+121
+00:12:37,548 --> 00:12:38,632
+Descent pattern?
+
+122
+00:12:38,716 --> 00:12:41,177
+And can you switch off your cell phone?
+
+123
+00:12:42,011 --> 00:12:44,889
+No, seriously, it interferes with my instruments.
+
+124
+00:12:46,098 --> 00:12:47,933
+No one ever believes that.
+
+125
+00:12:49,894 --> 00:12:51,896
+Thank you, that's much better.
+
+126
+00:12:52,021 --> 00:12:53,981
+Yeah, that's a real load off, that is.
+
+127
+00:12:54,106 --> 00:12:56,776
+I'm hanging in the sky in the middle of a German air raid
+
+128
+00:12:56,859 --> 00:13:00,488
+with a Union Jack across my chest but, hey, my mobile phone's off.
+
+129
+00:13:00,571 --> 00:13:02,281
+Be with you in a moment.
+
+130
+00:13:03,866 --> 00:13:08,662
+The mobile device indicates non-contemporaneous life-form.
+
+131
+00:13:08,787 --> 00:13:10,539
+She's not from round here, no.
+
+132
+00:13:10,623 --> 00:13:12,833
+Ready for you. Hold tight.
+
+133
+00:13:12,917 --> 00:13:15,211
+- To what? - Fair point.
+
+134
+00:13:25,179 --> 00:13:28,349
+I got you. You're fine, you're just fine.
+
+135
+00:13:28,557 --> 00:13:31,894
+The tractor beam, it can scramble your head just a little.
+
+136
+00:13:35,105 --> 00:13:36,857
+- Hello. - Hello.
+
+137
+00:13:38,359 --> 00:13:39,568
+Hello.
+
+138
+00:13:41,529 --> 00:13:46,116
+Sorry. There was "hello" twice there. Dull but, you know, thorough.
+
+139
+00:13:46,450 --> 00:13:48,494
+- Are you all right? - Fine.
+
+140
+00:13:51,163 --> 00:13:53,374
+Why, you expecting me to faint or something?
+
+141
+00:13:53,457 --> 00:13:54,792
+You look a little dizzy.
+
+142
+00:13:54,875 --> 00:13:57,545
+What about you? You're not even in focus.
+
+143
+00:14:28,576 --> 00:14:31,620
+It's got to be black market. You couldn't get all this on coupons.
+
+144
+00:14:31,745 --> 00:14:35,040
+Ernie, how many times? We are guests in this house.
+
+145
+00:14:35,124 --> 00:14:38,127
+We will not make comments of that kind. Washing up.
+
+146
+00:14:38,460 --> 00:14:39,920
+Oh, Nancy.
+
+147
+00:14:40,337 --> 00:14:43,591
+- Haven't seen you at one of these before. - He told me about it.
+
+148
+00:14:43,716 --> 00:14:45,926
+- Sleeping rough? - Yes, miss.
+
+149
+00:14:46,427 --> 00:14:49,054
+All right, then.
+
+150
+00:14:49,138 --> 00:14:52,808
+One slice each. And I want to see everybody chewing properly.
+
+151
+00:14:52,891 --> 00:14:55,436
+- Thank you, miss. - Thanks, miss.
+
+152
+00:14:57,646 --> 00:14:59,106
+Thank you, miss.
+
+153
+00:15:00,649 --> 00:15:02,526
+Thanks, miss.
+
+154
+00:15:03,819 --> 00:15:06,530
+It's all right. Everybody stay where they are.
+
+155
+00:15:06,614 --> 00:15:08,699
+Good here, isn't it? Who's got the salt?
+
+156
+00:15:08,741 --> 00:15:11,952
+Back in your seats. He shouldn't be here either.
+
+157
+00:15:15,623 --> 00:15:19,793
+- So, you lot, what's the story? - What do you mean?
+
+158
+00:15:19,877 --> 00:15:23,797
+- You're homeless, right? Living rough? - Why do you want to know that?
+
+159
+00:15:24,089 --> 00:15:25,299
+You a copper?
+
+160
+00:15:25,341 --> 00:15:28,469
+I'm not a copper. What's a copper going to do with you lot anyway?
+
+161
+00:15:28,594 --> 00:15:30,262
+Arrest you for starving?
+
+162
+00:15:32,598 --> 00:15:35,100
+I make it 1941. You lot shouldn't even be in London.
+
+163
+00:15:35,184 --> 00:15:37,311
+Should've been evacuated to the country by now.
+
+164
+00:15:37,436 --> 00:15:40,064
+I was evacuated. Sent me to a farm.
+
+165
+00:15:40,147 --> 00:15:42,441
+- So why'd you come back? - There was a man there.
+
+166
+00:15:42,524 --> 00:15:44,693
+Yeah. Same with Ernie. Two homes ago.
+
+167
+00:15:44,777 --> 00:15:48,322
+Shut up. It's better on the streets anyway. It's better food.
+
+168
+00:15:48,405 --> 00:15:50,949
+Yeah. Nancy always gets the best food for us.
+
+169
+00:15:51,075 --> 00:15:53,619
+- So that's what you do, is it, Nancy? - What is?
+
+170
+00:15:53,661 --> 00:15:57,539
+Soon as the sirens go, you find a big, fat family meal, still warm on the table,
+
+171
+00:15:57,623 --> 00:16:00,209
+with everyone down in the air raid shelter and bingo.
+
+172
+00:16:00,292 --> 00:16:02,711
+Feeding frenzy for the homeless kids of London town.
+
+173
+00:16:02,836 --> 00:16:05,339
+Puddings for all, as long as the bombs don't get you.
+
+174
+00:16:05,422 --> 00:16:07,758
+- Something wrong with that? - Wrong? It's brilliant.
+
+175
+00:16:07,883 --> 00:16:11,345
+I'm not sure if it's Marxism in action or a West End musical.
+
+176
+00:16:12,846 --> 00:16:16,100
+Why'd you follow me? What do you want?
+
+177
+00:16:16,141 --> 00:16:19,311
+I want to know how a phone that isn't a phone gets a phone call.
+
+178
+00:16:19,436 --> 00:16:22,231
+- You seem to be the one to ask. - I did you a favour.
+
+179
+00:16:22,356 --> 00:16:24,900
+I told you not to answer it. That's all I'm telling you.
+
+180
+00:16:24,983 --> 00:16:27,987
+Great, thanks. And I want to find a blonde in a Union Jack.
+
+181
+00:16:28,070 --> 00:16:32,157
+I mean, a specific one, I didn't just wake up this morning with a craving.
+
+182
+00:16:32,700 --> 00:16:34,660
+Anybody seen a girl like that?
+
+183
+00:16:35,703 --> 00:16:38,372
+- What have I done wrong? - You took two slices.
+
+184
+00:16:38,956 --> 00:16:41,125
+No blondes, no flags.
+
+185
+00:16:41,208 --> 00:16:45,129
+- Anything else before you leave? - There is, actually. Thanks for asking.
+
+186
+00:16:45,212 --> 00:16:46,463
+Something I've been looking for.
+
+187
+00:16:46,547 --> 00:16:49,299
+Would've fallen from the sky a month ago, but not a bomb.
+
+188
+00:16:49,341 --> 00:16:51,844
+Not the usual kind anyway. Wouldn't have exploded.
+
+189
+00:16:51,927 --> 00:16:54,513
+Probably would've buried itself in the ground somewhere.
+
+190
+00:16:54,638 --> 00:16:58,559
+And it would've looked something like this.
+
+191
+00:17:02,688 --> 00:17:05,607
+Mummy? Are you in there, Mummy?
+
+192
+00:17:07,901 --> 00:17:09,069
+Mummy.
+
+193
+00:17:10,112 --> 00:17:12,281
+- Who was the last one in? - Him.
+
+194
+00:17:12,406 --> 00:17:14,700
+He came round the back. Who came in the front?
+
+195
+00:17:14,742 --> 00:17:16,785
+- Me. - Did you close the door?
+
+196
+00:17:16,994 --> 00:17:19,079
+Did you close the door?
+
+197
+00:17:19,329 --> 00:17:21,623
+Mummy. Mummy.
+
+198
+00:17:22,666 --> 00:17:25,085
+Mummy.
+
+199
+00:17:30,674 --> 00:17:32,634
+What's this, then?
+
+200
+00:17:32,760 --> 00:17:35,888
+Never easy being the only child left out in the cold, you know.
+
+201
+00:17:35,971 --> 00:17:38,891
+- I suppose you'd know. - I do, actually, yes.
+
+202
+00:17:39,725 --> 00:17:41,518
+It's not exactly a child.
+
+203
+00:17:42,311 --> 00:17:44,813
+Mummy.
+
+204
+00:17:45,272 --> 00:17:47,983
+Everybody out. Across the back garden, under the fence.
+
+205
+00:17:48,067 --> 00:17:49,568
+Now. Go. Move.
+
+206
+00:17:54,114 --> 00:17:58,202
+Come on, baby, we've got to go. It's just like a game, just like chasing.
+
+207
+00:17:58,452 --> 00:18:00,037
+Take your coat. Go on.
+
+208
+00:18:01,121 --> 00:18:02,498
+Go.
+
+209
+00:18:02,539 --> 00:18:04,833
+Mummy. Mummy.
+
+210
+00:18:04,917 --> 00:18:06,919
+Please let me in, Mummy.
+
+211
+00:18:08,545 --> 00:18:10,380
+Please let me in, Mummy.
+
+212
+00:18:10,464 --> 00:18:11,840
+You all right?
+
+213
+00:18:11,965 --> 00:18:13,550
+Please let me in.
+
+214
+00:18:14,718 --> 00:18:17,846
+- You mustn't let him touch you. - What happens if he touches me?
+
+215
+00:18:17,930 --> 00:18:20,140
+- He makes you like him. - And what's he like?
+
+216
+00:18:20,182 --> 00:18:22,601
+- I've got to go. - Nancy, what's he like?
+
+217
+00:18:25,646 --> 00:18:27,064
+He's empty.
+
+218
+00:18:29,358 --> 00:18:31,318
+It's him.
+
+219
+00:18:31,443 --> 00:18:35,739
+He can make phones ring. He can. Just like with that police box you saw.
+
+220
+00:18:42,371 --> 00:18:44,790
+Are you my mummy?
+
+221
+00:18:46,750 --> 00:18:48,043
+Mummy?
+
+222
+00:18:48,919 --> 00:18:50,546
+Mummy?
+
+223
+00:18:51,296 --> 00:18:53,382
+Please let me in, Mummy.
+
+224
+00:18:54,258 --> 00:18:58,220
+Mummy. Mummy. Mummy.
+
+225
+00:18:59,346 --> 00:19:01,306
+You stay here if you want to.
+
+226
+00:19:01,431 --> 00:19:03,225
+Mummy. Mummy. Mummy...
+
+227
+00:19:03,308 --> 00:19:05,561
+Mummy.
+
+228
+00:19:05,853 --> 00:19:08,313
+Let me in, please, Mummy.
+
+229
+00:19:09,356 --> 00:19:12,359
+- Please let me in. - Your mummy isn't here.
+
+230
+00:19:14,820 --> 00:19:17,156
+- Are you my mummy? - No mummies here.
+
+231
+00:19:17,781 --> 00:19:19,700
+Nobody here but us chickens.
+
+232
+00:19:20,868 --> 00:19:22,661
+Well. This chicken.
+
+233
+00:19:22,744 --> 00:19:24,246
+I'm scared.
+
+234
+00:19:26,623 --> 00:19:29,168
+Why are those other children frightened of you?
+
+235
+00:19:29,293 --> 00:19:32,546
+Please let me in, Mummy.I'm scared of the bombs.
+
+236
+00:19:36,091 --> 00:19:39,219
+Okay. I'm opening the door now.
+
+237
+00:20:10,918 --> 00:20:13,754
+- Better now? - You got lights in here?
+
+238
+00:20:17,507 --> 00:20:19,176
+- Hello. - Hello.
+
+239
+00:20:19,426 --> 00:20:20,552
+Hello.
+
+240
+00:20:20,636 --> 00:20:23,889
+- Let's not start that again. - Okay.
+
+241
+00:20:28,018 --> 00:20:30,562
+So, who are you supposed be, then?
+
+242
+00:20:30,729 --> 00:20:35,192
+Captain Jack Harkness, 133 Squadron, Royal Air Force.
+
+243
+00:20:35,525 --> 00:20:37,152
+American volunteer.
+
+244
+00:20:38,362 --> 00:20:40,864
+Liar. This is psychic paper.
+
+245
+00:20:40,948 --> 00:20:42,950
+It tells me whatever you want it to tell me.
+
+246
+00:20:43,033 --> 00:20:44,409
+- How do you know? - Two things.
+
+247
+00:20:44,534 --> 00:20:47,621
+One, I have a friend that uses this all the time
+
+248
+00:20:47,704 --> 00:20:52,209
+and two, you just handed me a piece of paper telling me you're single
+
+249
+00:20:52,334 --> 00:20:53,669
+and you work out.
+
+250
+00:20:53,752 --> 00:20:55,587
+- Tricky thing, psychic paper. - Yeah.
+
+251
+00:20:55,671 --> 00:20:58,840
+Can't let your mind wander when you're handing it over.
+
+252
+00:20:59,091 --> 00:21:02,928
+You sort of have a boyfriend called Mickey Smith
+
+253
+00:21:03,011 --> 00:21:06,264
+but you consider yourself to be footloose and fancy free.
+
+254
+00:21:06,348 --> 00:21:09,601
+- What? - Actually the word you use is "available".
+
+255
+00:21:09,685 --> 00:21:12,271
+- No way. - And another one, "very".
+
+256
+00:21:12,354 --> 00:21:15,190
+Shall we try and get along without the psychic paper?
+
+257
+00:21:15,274 --> 00:21:17,442
+That would be better, wouldn't it?
+
+258
+00:21:19,528 --> 00:21:22,239
+- Nice spaceship. - Gets me around.
+
+259
+00:21:23,073 --> 00:21:26,410
+Very... Spock.
+
+260
+00:21:27,369 --> 00:21:28,495
+Who?
+
+261
+00:21:28,620 --> 00:21:30,998
+Guessing you're not a local boy, then?
+
+262
+00:21:32,291 --> 00:21:36,378
+A cell phone, a liquid crystal watch and fabrics that won't be around
+
+263
+00:21:36,420 --> 00:21:38,380
+for at least another two decades.
+
+264
+00:21:38,505 --> 00:21:41,508
+- Guessing you're not a local girl. - Guessing right.
+
+265
+00:21:44,303 --> 00:21:46,513
+- Burn your hands on the rope? - Yeah.
+
+266
+00:21:47,431 --> 00:21:50,267
+We're parked in midair. Can't anyone down there see us?
+
+267
+00:21:50,350 --> 00:21:53,645
+No. Can I have a look at your hands for a moment?
+
+268
+00:21:54,271 --> 00:21:55,981
+- Why? - Please.
+
+269
+00:22:03,822 --> 00:22:07,367
+You can stop acting now. I know exactly who you are.
+
+270
+00:22:08,243 --> 00:22:11,997
+- I can spot a Time Agent a mile away. - A Time Agent?
+
+271
+00:22:12,581 --> 00:22:15,333
+I've been expecting one of you guys to show up.
+
+272
+00:22:15,584 --> 00:22:17,919
+Though not, I must to say, by barrage balloon.
+
+273
+00:22:18,003 --> 00:22:19,629
+Do you often travel that way?
+
+274
+00:22:19,713 --> 00:22:22,174
+Sometimes I get swept off my feet.
+
+275
+00:22:23,550 --> 00:22:25,135
+By balloons.
+
+276
+00:22:26,553 --> 00:22:28,972
+- What are you doing? - Try to keep still.
+
+277
+00:22:35,187 --> 00:22:39,983
+Nanogenes, subatomic robots. The air in here is full of them.
+
+278
+00:22:42,903 --> 00:22:45,614
+They just repaired three layers of your skin.
+
+279
+00:22:47,532 --> 00:22:48,950
+Tell them thanks.
+
+280
+00:22:49,951 --> 00:22:52,579
+- Shall we get down to business? - Business?
+
+281
+00:22:53,413 --> 00:22:55,707
+Shall we have a drink on the balcony?
+
+282
+00:22:58,210 --> 00:22:59,836
+Bring up the glasses.
+
+283
+00:23:12,557 --> 00:23:14,726
+I know I'm standing on something.
+
+284
+00:23:24,820 --> 00:23:28,949
+- Okay. You have an invisible spaceship. - Yeah.
+
+285
+00:23:30,659 --> 00:23:33,453
+Tethered up to Big Ben for some reason.
+
+286
+00:23:33,787 --> 00:23:37,707
+First rule of active camouflage. Park somewhere you'll remember.
+
+287
+00:24:28,800 --> 00:24:30,260
+How'd you follow me here?
+
+288
+00:24:30,343 --> 00:24:32,846
+I'm good at following, me. I've got the nose for it.
+
+289
+00:24:32,929 --> 00:24:35,474
+People can't usually follow me if I don't want them to.
+
+290
+00:24:35,557 --> 00:24:39,019
+- My nose has special powers. - Yeah? Is that why it's so...
+
+291
+00:24:39,311 --> 00:24:40,854
+- What? - Nothing.
+
+292
+00:24:41,062 --> 00:24:42,689
+- What? - Nothing.
+
+293
+00:24:43,899 --> 00:24:46,902
+- Your ears have special powers, too? - What are you trying to say?
+
+294
+00:24:46,985 --> 00:24:48,528
+Good night, mister.
+
+295
+00:24:49,029 --> 00:24:50,197
+Nancy.
+
+296
+00:24:50,864 --> 00:24:53,116
+There's something chasing you and the other kids.
+
+297
+00:24:53,241 --> 00:24:54,951
+It looks like a boy and it isn't a boy.
+
+298
+00:24:55,076 --> 00:24:57,579
+And it started about a month ago. Right?
+
+299
+00:24:59,122 --> 00:25:00,916
+The thing I'm looking for.
+
+300
+00:25:01,041 --> 00:25:04,085
+The thing that fell from the sky. That's when it landed.
+
+301
+00:25:04,169 --> 00:25:06,129
+You know what I'm talking about, don't you?
+
+302
+00:25:06,213 --> 00:25:09,299
+There was a bomb. A bomb that wasn't a bomb.
+
+303
+00:25:09,716 --> 00:25:11,885
+Fell the other end of Limehouse Green Station.
+
+304
+00:25:11,968 --> 00:25:16,014
+- Take me there. - No. Soldiers guarding it. Barbed wire.
+
+305
+00:25:16,556 --> 00:25:18,600
+- You'd never get through. - Try me.
+
+306
+00:25:18,683 --> 00:25:21,019
+You sure you want to know what's going on in there?
+
+307
+00:25:21,102 --> 00:25:22,771
+I really want to know.
+
+308
+00:25:23,522 --> 00:25:25,982
+Then there's someone you need to talk to first.
+
+309
+00:25:26,066 --> 00:25:28,860
+- And who might that be? - The Doctor.
+
+310
+00:25:33,281 --> 00:25:36,201
+It's getting a bit late. I should really be getting back.
+
+311
+00:25:36,284 --> 00:25:37,869
+We're discussing business.
+
+312
+00:25:37,994 --> 00:25:41,122
+This isn't business, this is champagne.
+
+313
+00:25:41,915 --> 00:25:44,834
+I try never to discuss business with a clear head.
+
+314
+00:25:47,963 --> 00:25:49,673
+Are you travelling alone?
+
+315
+00:25:50,757 --> 00:25:54,803
+- Are you authorised to negotiate? - What would we be negotiating?
+
+316
+00:25:56,179 --> 00:25:59,808
+I have something for the Time Agency. Something they'd like to buy.
+
+317
+00:25:59,891 --> 00:26:02,060
+Are you empowered to make payment?
+
+318
+00:26:02,769 --> 00:26:06,314
+Well, I should talk to my companion.
+
+319
+00:26:06,439 --> 00:26:09,276
+- Your companion? - I should really be getting back to him.
+
+320
+00:26:09,359 --> 00:26:11,528
+- Him? - Do you have the time?
+
+321
+00:26:18,493 --> 00:26:20,036
+Okay. That was flash.
+
+322
+00:26:21,580 --> 00:26:23,248
+That was on the flash side.
+
+323
+00:26:23,331 --> 00:26:27,544
+So, when you say your companion...
+
+324
+00:26:27,627 --> 00:26:29,629
+just how disappointed should I be?
+
+325
+00:26:29,713 --> 00:26:32,340
+- Okay, we're standing in midair... - Uh-huh.
+
+326
+00:26:32,382 --> 00:26:36,469
+...on a spaceship, during a German air raid.
+
+327
+00:26:37,512 --> 00:26:41,016
+Do you really think now's a good time to be coming on to me?
+
+328
+00:26:42,601 --> 00:26:43,768
+Perhaps not.
+
+329
+00:26:44,394 --> 00:26:46,313
+It was just a suggestion.
+
+330
+00:26:46,813 --> 00:26:48,523
+Do you like Glenn Miller?
+
+331
+00:26:59,826 --> 00:27:03,580
+It's 1941. The height of the London Blitz.
+
+332
+00:27:04,497 --> 00:27:06,374
+The height of the German bombing campaign.
+
+333
+00:27:06,458 --> 00:27:08,918
+And something else has fallen on London.
+
+334
+00:27:09,586 --> 00:27:11,880
+A fully equipped Chula warship.
+
+335
+00:27:12,714 --> 00:27:16,134
+The last one in existence armed to the teeth.
+
+336
+00:27:18,053 --> 00:27:21,389
+And I know where it is because I parked it.
+
+337
+00:27:24,309 --> 00:27:28,772
+If the agency can name the right price, I can get it for you.
+
+338
+00:27:29,898 --> 00:27:31,441
+But in two hours...
+
+339
+00:27:32,776 --> 00:27:36,196
+a German bomb is going to fall on it and destroy it forever.
+
+340
+00:27:37,614 --> 00:27:40,033
+That's your deadline. That's the deal.
+
+341
+00:27:41,242 --> 00:27:43,370
+Now, shall we discuss payment?
+
+342
+00:27:43,495 --> 00:27:45,455
+- You know what I think? - What?
+
+343
+00:27:45,955 --> 00:27:48,208
+I think you were talking just there.
+
+344
+00:27:48,792 --> 00:27:52,921
+Two hours. The bomb falls. There'll be nothing left but dust and a crater.
+
+345
+00:27:53,088 --> 00:27:54,422
+Promises, promises.
+
+346
+00:27:54,506 --> 00:27:56,675
+Are you listening to any of this?
+
+347
+00:27:57,092 --> 00:28:00,929
+You used to be a Time Agent, now you're some kind of freelancer.
+
+348
+00:28:01,054 --> 00:28:03,973
+It's a little harsh. I like to think of myself as a criminal.
+
+349
+00:28:04,057 --> 00:28:05,475
+I'll bet you do.
+
+350
+00:28:07,060 --> 00:28:10,188
+So this companion of yours, does he handle the business?
+
+351
+00:28:10,855 --> 00:28:13,691
+Well, I delegate a lot of that, yeah.
+
+352
+00:28:13,775 --> 00:28:15,694
+Maybe we should go find him.
+
+353
+00:28:16,277 --> 00:28:20,615
+- And how you going to do that? - Easy, I'll do a scan for alien tech.
+
+354
+00:28:24,077 --> 00:28:26,121
+Finally a professional.
+
+355
+00:28:37,424 --> 00:28:41,136
+- The bomb's under the tarpaulin. - They put the fence up overnight.
+
+356
+00:28:41,886 --> 00:28:44,305
+See that building? The hospital?
+
+357
+00:28:46,641 --> 00:28:49,644
+- What about it? - That's where the Doctor is.
+
+358
+00:28:54,107 --> 00:28:55,775
+You should talk to him.
+
+359
+00:28:55,859 --> 00:28:58,319
+For now, I'm more interested in getting in there.
+
+360
+00:28:58,403 --> 00:29:01,156
+- Talk to the Doctor first. - Why?
+
+361
+00:29:01,573 --> 00:29:04,409
+Because then maybe you won't want to get inside.
+
+362
+00:29:07,579 --> 00:29:08,955
+Where you going?
+
+363
+00:29:10,790 --> 00:29:14,419
+There was a lot of food in that house. I've got mouths to feed.
+
+364
+00:29:14,502 --> 00:29:16,254
+Should be safe enough now.
+
+365
+00:29:16,838 --> 00:29:18,590
+Can I ask you a question?
+
+366
+00:29:19,507 --> 00:29:22,427
+- Who did you lose? - What?
+
+367
+00:29:25,472 --> 00:29:30,059
+The way you look after all those kids. It's 'cause you lost somebody, isn't it?
+
+368
+00:29:31,186 --> 00:29:33,688
+You're doing all this to make up for it.
+
+369
+00:29:36,107 --> 00:29:38,860
+My little brother. Jamie.
+
+370
+00:29:41,112 --> 00:29:44,949
+One night I went out looking for food. Same night that thing fell.
+
+371
+00:29:45,575 --> 00:29:49,579
+Told him not to follow me. I told him it was dangerous. But he just...
+
+372
+00:29:50,872 --> 00:29:53,208
+He just didn't like being on his own.
+
+373
+00:29:53,333 --> 00:29:54,501
+What happened?
+
+374
+00:29:55,126 --> 00:29:58,922
+In the middle of an air raid? What do you think happened?
+
+375
+00:30:04,260 --> 00:30:05,970
+- Amazing. - What is?
+
+376
+00:30:06,763 --> 00:30:11,810
+1941. Right now, not very far from here
+
+377
+00:30:11,935 --> 00:30:15,021
+the German war machine is rolling up the map of Europe.
+
+378
+00:30:15,104 --> 00:30:19,317
+Country after country, falling like dominoes. Nothing can stop it, nothing.
+
+379
+00:30:20,527 --> 00:30:23,947
+Until one tiny, damp, little island says "no".
+
+380
+00:30:25,240 --> 00:30:27,659
+No, not here.
+
+381
+00:30:30,620 --> 00:30:32,455
+A mouse in front of a lion.
+
+382
+00:30:35,083 --> 00:30:37,627
+You're amazing. The lot of you.
+
+383
+00:30:37,710 --> 00:30:41,673
+Don't know what you do to Hitler, but you frighten the hell out of me.
+
+384
+00:30:43,216 --> 00:30:47,595
+Off you go, then. Do what you got to do. Save the world.
+
+385
+00:32:41,084 --> 00:32:45,046
+You'll find them everywhere. In every bed, in every ward.
+
+386
+00:32:45,463 --> 00:32:46,631
+Hundreds of them.
+
+387
+00:32:46,714 --> 00:32:50,093
+Yes, I saw. Why are they still wearing gas masks?
+
+388
+00:32:50,176 --> 00:32:52,637
+- They're not. Who are you? - I'm...
+
+389
+00:32:53,054 --> 00:32:57,016
+- Are you the Doctor? - Dr Constantine. And you are?
+
+390
+00:32:57,725 --> 00:32:59,686
+- Nancy sent me. - Nancy?
+
+391
+00:33:00,770 --> 00:33:03,398
+That means you must have been asking about the bomb.
+
+392
+00:33:03,481 --> 00:33:04,607
+Yes.
+
+393
+00:33:05,984 --> 00:33:07,735
+What do you know about it?
+
+394
+00:33:07,819 --> 00:33:10,446
+Nothing. Why I was asking. What do you know?
+
+395
+00:33:11,572 --> 00:33:13,449
+Only what it's done.
+
+396
+00:33:13,533 --> 00:33:15,702
+These people were all caught up in the blast?
+
+397
+00:33:15,827 --> 00:33:17,286
+None of them were.
+
+398
+00:33:24,961 --> 00:33:26,379
+You're very sick.
+
+399
+00:33:27,004 --> 00:33:30,341
+Dying, I should think. I just haven't been able to find the time.
+
+400
+00:33:30,466 --> 00:33:33,219
+- Are you a doctor? - I have my moments.
+
+401
+00:33:33,553 --> 00:33:35,972
+- Have you examined any of them yet? - No.
+
+402
+00:33:37,014 --> 00:33:38,975
+Don't touch the flesh.
+
+403
+00:33:39,183 --> 00:33:41,060
+- Which one? - Any one.
+
+404
+00:33:48,109 --> 00:33:49,360
+Conclusions?
+
+405
+00:33:49,444 --> 00:33:51,946
+Massive head trauma, mostly to the left side.
+
+406
+00:33:52,071 --> 00:33:54,866
+Partial collapse of the chest cavity, mostly to the right.
+
+407
+00:33:54,991 --> 00:33:56,868
+There's scarring on the back of the hand
+
+408
+00:33:56,993 --> 00:34:00,288
+and the gas mask seems to be fused to the flesh, but I can't see any burns.
+
+409
+00:34:00,413 --> 00:34:01,956
+Examine another one.
+
+410
+00:34:14,260 --> 00:34:16,888
+- This is impossible. - Examine another.
+
+411
+00:34:21,017 --> 00:34:22,852
+- This is impossible. - No.
+
+412
+00:34:22,935 --> 00:34:25,730
+- They've all got the same injuries. - Yes.
+
+413
+00:34:25,813 --> 00:34:27,857
+- Exactly the same. - Yes.
+
+414
+00:34:27,899 --> 00:34:31,903
+Identical, all of them, right down to the scar on the back of the hand.
+
+415
+00:34:32,153 --> 00:34:34,280
+How did this happen? How did it start?
+
+416
+00:34:34,363 --> 00:34:36,824
+When that bomb dropped, there was just one victim.
+
+417
+00:34:36,908 --> 00:34:39,577
+- Dead? - At first.
+
+418
+00:34:39,619 --> 00:34:42,205
+His injuries were truly dreadful.
+
+419
+00:34:42,288 --> 00:34:46,626
+By the following morning every doctor and nurse who had treated him,
+
+420
+00:34:46,709 --> 00:34:51,297
+who had touched him, had those exact same injuries.
+
+421
+00:34:51,339 --> 00:34:56,469
+By the next morning, every patient on the same ward, the exact same injuries.
+
+422
+00:34:56,594 --> 00:34:59,138
+Within a week, the entire hospital.
+
+423
+00:35:00,098 --> 00:35:03,935
+Physical injuries as plague.
+
+424
+00:35:04,727 --> 00:35:06,604
+Can you explain that?
+
+425
+00:35:08,147 --> 00:35:11,609
+What would you say was the cause of death?
+
+426
+00:35:11,984 --> 00:35:13,236
+- The head trauma. - No.
+
+427
+00:35:13,361 --> 00:35:15,071
+- Asphyxiation? - No.
+
+428
+00:35:15,363 --> 00:35:17,740
+- The collapse of the chest cavity. - No.
+
+429
+00:35:17,865 --> 00:35:20,326
+All right, what was the cause of death?
+
+430
+00:35:21,911 --> 00:35:23,371
+There wasn't one.
+
+431
+00:35:24,413 --> 00:35:26,207
+They're not dead.
+
+432
+00:35:32,880 --> 00:35:35,383
+It's all right, they are harmless.
+
+433
+00:35:35,466 --> 00:35:38,761
+They just sort of sit there.
+
+434
+00:35:39,220 --> 00:35:42,223
+No heartbeat. No life signs of any kind.
+
+435
+00:35:42,890 --> 00:35:46,227
+They just don't die.
+
+436
+00:35:46,519 --> 00:35:49,814
+And they've just been left here. Nobody's doing anything?
+
+437
+00:35:49,897 --> 00:35:52,775
+I try and make them comfortable. What else is there?
+
+438
+00:35:52,859 --> 00:35:54,735
+Just you? You're the only one here.
+
+439
+00:35:54,819 --> 00:35:58,573
+Before this war began I was a father and a grandfather.
+
+440
+00:35:58,739 --> 00:36:02,118
+Now I'm neither. But I'm still a doctor.
+
+441
+00:36:02,702 --> 00:36:05,496
+Yeah. I know the feeling.
+
+442
+00:36:05,580 --> 00:36:09,917
+I suspect the plan is to blow up the hospital and blame it on a German bomb.
+
+443
+00:36:10,084 --> 00:36:12,336
+- Probably too late. - I know.
+
+444
+00:36:12,420 --> 00:36:14,714
+There are isolated cases.
+
+445
+00:36:17,675 --> 00:36:21,220
+Isolated cases breaking out all over London.
+
+446
+00:36:21,262 --> 00:36:22,680
+Stay back.
+
+447
+00:36:24,974 --> 00:36:28,978
+Listen to me. Top floor.
+
+448
+00:36:29,103 --> 00:36:30,980
+Room 802.
+
+449
+00:36:31,022 --> 00:36:34,567
+That's where they took the first victim. The one from the crash site.
+
+450
+00:36:34,692 --> 00:36:37,236
+- And you must find Nancy again. - Nancy?
+
+451
+00:36:37,361 --> 00:36:38,821
+It was her brother.
+
+452
+00:36:39,655 --> 00:36:43,701
+She knows more than she's saying. She won't tell me, but she...
+
+453
+00:36:49,832 --> 00:36:52,418
+Mummy.
+
+454
+00:36:55,379 --> 00:36:59,425
+Are you my...
+
+455
+00:36:59,508 --> 00:37:01,928
+mummy?
+
+456
+00:37:32,959 --> 00:37:34,835
+Hello?
+
+457
+00:37:34,919 --> 00:37:36,045
+Hello?
+
+458
+00:37:37,338 --> 00:37:37,964
+Hello?
+
+459
+00:37:41,759 --> 00:37:43,803
+Good evening. Hope we're not interrupting.
+
+460
+00:37:43,928 --> 00:37:46,764
+Jack Harkness. I've been hearing all about you on the way over.
+
+461
+00:37:46,889 --> 00:37:50,518
+He knows, I had to tell him. About us being Time Agents.
+
+462
+00:37:52,103 --> 00:37:54,897
+And it's a real pleasure to meet you, Mr Spock.
+
+463
+00:37:57,817 --> 00:37:59,110
+Mr Spock?
+
+464
+00:37:59,193 --> 00:38:01,696
+What was I supposed to say? You don't have a name.
+
+465
+00:38:01,779 --> 00:38:04,115
+Don't you ever get tired of "Doctor"? Doctor who?
+
+466
+00:38:04,198 --> 00:38:06,450
+Nine centuries in, I'm coping. Where've you been?
+
+467
+00:38:06,575 --> 00:38:09,620
+We're in the middle of a London Blitz, not the time for a stroll.
+
+468
+00:38:09,704 --> 00:38:12,290
+Who's strolling? I went by barrage balloon.
+
+469
+00:38:12,415 --> 00:38:14,750
+- Only way to see an air raid. - What?
+
+470
+00:38:14,834 --> 00:38:17,003
+Listen, what's a Chula warship?
+
+471
+00:38:18,671 --> 00:38:19,880
+Chula?
+
+472
+00:38:26,262 --> 00:38:28,806
+Please, Mummy. Please let me in.
+
+473
+00:38:28,931 --> 00:38:31,350
+I'm scared of the bombs, Mummy.
+
+474
+00:38:31,600 --> 00:38:33,102
+Please, Mummy.
+
+475
+00:38:35,938 --> 00:38:37,315
+Mummy.
+
+476
+00:38:38,733 --> 00:38:40,443
+Mummy.
+
+477
+00:38:57,626 --> 00:39:00,755
+This just isn't possible. How did this happen?
+
+478
+00:39:01,047 --> 00:39:03,299
+- What kind of Chula ship landed here? - What?
+
+479
+00:39:03,341 --> 00:39:04,842
+He said it was a warship.
+
+480
+00:39:04,925 --> 00:39:07,094
+He stole it, parked it somewhere out there.
+
+481
+00:39:07,219 --> 00:39:10,431
+Somewhere a bomb's gonna fall on it. Unless we make him an offer.
+
+482
+00:39:10,514 --> 00:39:12,892
+- What kind of warship? - Does it matter?
+
+483
+00:39:13,017 --> 00:39:14,310
+It has nothing to do with this.
+
+484
+00:39:14,393 --> 00:39:17,938
+This started at the bomb site. It's got everything to do with it.
+
+485
+00:39:18,022 --> 00:39:20,274
+- What kind of warship? - An ambulance.
+
+486
+00:39:22,359 --> 00:39:26,322
+Look. That's what you chased through the time vortex.
+
+487
+00:39:26,739 --> 00:39:31,077
+It's space junk, I wanted to kid you it was valuable, it's empty.
+
+488
+00:39:31,368 --> 00:39:33,579
+I made sure of it, nothing but a shell.
+
+489
+00:39:33,704 --> 00:39:35,122
+I threw it at you.
+
+490
+00:39:35,247 --> 00:39:38,459
+Saw your time travel vehicle, love the retro look by the way,
+
+491
+00:39:38,501 --> 00:39:41,379
+- nice panels, threw you the bait... - Bait?
+
+492
+00:39:41,837 --> 00:39:45,466
+I wanted to sell it to you, then destroy it before you found it was junk.
+
+493
+00:39:45,549 --> 00:39:48,844
+- You said it was a warship. - They have ambulances in wars.
+
+494
+00:39:51,889 --> 00:39:54,308
+It's a con. I was conning you.
+
+495
+00:39:54,392 --> 00:39:57,728
+That's what I am, I'm a con man. Thought you were Time Agents.
+
+496
+00:39:57,812 --> 00:40:00,940
+- You're not, are you? - Just a couple more freelancers.
+
+497
+00:40:01,023 --> 00:40:05,403
+Oh! Should've known, the way you guys are blending in with the local colour.
+
+498
+00:40:05,486 --> 00:40:08,322
+Flag Girl was bad enough, but U-boat Captain?
+
+499
+00:40:09,448 --> 00:40:14,286
+Anyway, whatever's happening here has got nothing to do with that ship.
+
+500
+00:40:14,370 --> 00:40:16,789
+What is happening here, Doctor?
+
+501
+00:40:17,915 --> 00:40:20,209
+Human DNA is being rewritten.
+
+502
+00:40:20,709 --> 00:40:22,878
+- By an idiot. - What do you mean?
+
+503
+00:40:22,962 --> 00:40:26,799
+I don't know, some kind of virus. Converting humans into these things.
+
+504
+00:40:26,882 --> 00:40:29,677
+But why? What's the point?
+
+505
+00:40:33,013 --> 00:40:34,140
+Mummy.
+
+506
+00:40:38,060 --> 00:40:39,687
+Where's my mummy?
+
+507
+00:40:41,021 --> 00:40:42,273
+Mummy.
+
+508
+00:41:09,425 --> 00:41:11,135
+Are you my mummy?
+
+509
+00:41:16,640 --> 00:41:18,267
+Mummy.
+
+510
+00:41:18,976 --> 00:41:20,644
+Mummy.
+
+511
+00:41:20,728 --> 00:41:22,688
+Mummy.
+
+512
+00:41:22,771 --> 00:41:25,357
+- What's happening? - I don't know.
+
+513
+00:41:30,654 --> 00:41:31,906
+Mummy.
+
+514
+00:41:32,490 --> 00:41:34,617
+It's me. Nancy.
+
+515
+00:41:36,785 --> 00:41:38,204
+Don't let them touch you.
+
+516
+00:41:38,287 --> 00:41:41,415
+- What happens if they touch us? - You're looking at it.
+
+517
+00:41:43,459 --> 00:41:47,630
+- Are you my mummy? - It's Nancy, your sister.
+
+518
+00:41:51,050 --> 00:41:53,802
+You're dead, Jamie. You're dead.
+
+519
+00:41:53,928 --> 00:41:56,013
+Mummy.
+
+520
+00:41:56,472 --> 00:41:59,016
+Mummy.
+
+521
+00:41:59,099 --> 00:42:01,727
+Mummy. Mummy...
+
+522
+00:42:02,728 --> 00:42:05,898
+- Mummy. - Mummy.
+
+523
+00:42:06,440 --> 00:42:07,983
+Mummy...
+
+524
+00:42:52,319 --> 00:42:55,281
+I don't know what's happening but I had nothing to do with it.
+
+525
+00:42:55,364 --> 00:42:56,657
+I'll tell you what's happening.
+
+526
+00:42:56,740 --> 00:42:59,618
+You forgot to set your alarm clock. It's Volcano Day.
+
+527
+00:43:00,411 --> 00:43:02,329
+That door should hold it for a bit.
+
+528
+00:43:02,413 --> 00:43:04,456
+The door? The wall didn't stop it.
+
+529
+00:43:04,999 --> 00:43:06,542
+Halt. Don't move.
+
+530
+00:43:06,667 --> 00:43:08,544
+Go on, ask me anything, I'm on fire.
+
+531
+00:43:08,669 --> 00:43:10,921
+You've got the moves, show me your moves.
+
+532
+00:43:11,005 --> 00:43:13,424
+The world doesn't end 'cause the Doctor dances.
+
+533
+00:43:13,549 --> 00:43:14,717
+Stay back.
+
+534
+00:43:16,135 --> 00:43:17,219
+Mummy.
+
+535
+00:43:17,886 --> 00:43:19,430
+- Doctor. - Secure those gates.
+
+536
+00:43:19,555 --> 00:43:20,973
+- Why? - Just do it.
+
+537
+00:43:21,098 --> 00:43:24,268
+All that weapons tech in the hands of an hysterical four-year-old
+
+538
+00:43:24,393 --> 00:43:25,811
+looking for his mummy.
+
+539
+00:43:25,894 --> 00:43:28,188
+And nothing in the world can stop it.
+
+1
+00:00:07,173 --> 00:00:09,509
+- มีเหตุฉุกเฉินอะไรเหรอ? - มันเป็นสีม่วงนะ
+
+2
+00:00:09,592 --> 00:00:10,802
+สีม่วงหรอ?
+
+3
+00:00:13,013 --> 00:00:15,140
+สีที่ได้รับการยอมรับทั่วโลกสำหรับความอันตราย
+
+4
+00:00:15,181 --> 00:00:17,183
+-เกิดอะไรขึ้นกับสีแดง? - นั่นเป็นแค่มนุษย์
+
+5
+00:00:17,267 --> 00:00:19,477
+หากพิจารณาตามมาตรฐานของคนอื่นแล้ว ค่ายแดงเป็นฝ่ายชนะ
+
+6
+00:00:19,561 --> 00:00:22,856
+โอ้ ความเข้าใจผิดทั้งหลาย การแจ้งเตือนสีแดงทั้งหลาย การเต้นรำทั้งหลายเหล่านั้น
+
+7
+00:00:22,939 --> 00:00:26,443
+มันมีคอมพิวเตอร์การบินพื้นฐานมากที่ฉันแฮ็กเข้าไป และควบคุม Tardis
+
+8
+00:00:26,568 --> 00:00:27,861
+ที่ไหนไปเราก็ไป
+
+9
+00:00:27,944 --> 00:00:30,113
+- แล้วมันก็ปลอดภัยใช่ไหม? - แน่นอนครับ
+
+10
+00:00:33,366 --> 00:00:36,494
+โอเค สมเหตุสมผล น่าจะเขียนว่า "สมเหตุสมผล" ตรงนั้นนะ
+
+11
+00:00:37,495 --> 00:00:40,373
+ไม่นะ ไม่นะ! มันกำลังกระโดดข้ามเวลาและหนีห่างจากเราไป
+
+12
+00:00:40,457 --> 00:00:42,751
+- สิ่งนี้คืออะไรกันแน่? - ไม่มีไอเดียเลย
+
+13
+00:00:42,834 --> 00:00:44,169
+แล้วทำไมเราถึงยังไล่ตามมันอยู่ล่ะ?
+
+14
+00:00:44,294 --> 00:00:48,381
+มันเป็นสีม่วงและอันตราย และห่างจากใจกลางลอนดอนประมาณ 30 วินาที
+
+15
+00:01:40,266 --> 00:01:42,393
+รู้ว่าคุณสามารถเคลื่อนที่ไปรอบๆ พื้นที่ได้นานแค่ไหน
+
+16
+00:01:42,477 --> 00:01:44,145
+โดยไม่บังเอิญมาชนโลกใช่ไหม?
+
+17
+00:01:44,229 --> 00:01:46,648
+- ห้าวัน - หรือว่าเมื่อเราไม่มีนมแล้ว?
+
+18
+00:01:46,773 --> 00:01:50,360
+ของสายพันธุ์ทั้งหมดในจักรวาลและมันต้องออกมาจากวัว
+
+19
+00:01:52,779 --> 00:01:56,324
+คงตกลงมาที่ไหนสักแห่งใกล้ๆ นั่นแหละ อย่างน้อยก็ประมาณหนึ่งไมล์
+
+20
+00:01:56,574 --> 00:01:59,786
+และมันคงผ่านมาได้ไม่กี่สัปดาห์แล้ว อาจจะประมาณหนึ่งเดือน
+
+21
+00:01:59,869 --> 00:02:02,288
+เดือนนึงเหรอ? เราก็ตามหลังอยู่นะ
+
+22
+00:02:02,413 --> 00:02:06,209
+มันกระโดดข้ามเวลาไปทั่วเลย เราคงจะออกนอกเรื่องไปบ้างแล้วล่ะ
+
+23
+00:02:06,334 --> 00:02:08,378
+- อยากขับรถมั้ย? - ใช่.
+
+24
+00:02:08,920 --> 00:02:11,256
+- นิดหน่อยคือเท่าไหร่? - นิดหน่อย.
+
+25
+00:02:11,339 --> 00:02:13,675
+- นั่นมันนิดหน่อยใช่ไหม? - อิช.
+
+26
+00:02:14,425 --> 00:02:15,677
+แล้วแผนจะเป็นไงต่อไปล่ะ?
+
+27
+00:02:15,760 --> 00:02:17,971
+คุณจะสแกนหาเทคโนโลยีจากต่างดาวหรืออะไรประมาณนั้นเหรอ?
+
+28
+00:02:18,096 --> 00:02:22,225
+โรส มันดังสนั่นกลางลอนดอนเลย ฉันจะถามหน่อย
+
+29
+00:02:22,851 --> 00:02:25,270
+“ดร.จอห์น สมิธ กระทรวงดาวเคราะห์น้อย”
+
+30
+00:02:25,353 --> 00:02:27,272
+มันคือกระดาษพลังจิต มันบอกคุณว่า...
+
+31
+00:02:27,355 --> 00:02:30,191
+- อะไรก็ตามที่คุณต้องการ ฉันจำได้ - ขอโทษ.
+
+32
+00:02:30,275 --> 00:02:33,278
+ไม่ค่อยเหมือน "สป็อค" เท่าไหร่ใช่ไหม? แค่ถามเฉยๆ
+
+33
+00:02:33,987 --> 00:02:38,658
+- ประตู เพลง ผู้คน คุณคิดยังไงบ้าง - ฉันคิดว่าคุณน่าจะสแกนหาเทคโนโลยีต่างดาวนะ
+
+34
+00:02:38,700 --> 00:02:41,703
+ขอสป็อคหน่อยเถอะ สักครั้ง มันจะฆ่าแกมั้ย
+
+35
+00:02:41,786 --> 00:02:43,705
+คุณแน่ใจเกี่ยวกับเสื้อยืดตัวนั้นมั้ย?
+
+36
+00:02:45,165 --> 00:02:47,917
+เร็วเกินไปที่จะพูด ฉันจะเอามันออกมาปั่น
+
+37
+00:02:49,168 --> 00:02:51,171
+มัมมี่.
+
+38
+00:02:53,339 --> 00:02:55,091
+มัมมี่.
+
+39
+00:02:58,511 --> 00:03:01,389
+มาสิ ถ้าคุณจะมา ไม่นานหรอก
+
+40
+00:03:03,474 --> 00:03:05,727
+มัมมี่เหรอ?
+
+41
+00:03:09,939 --> 00:03:13,610
+หมอครับ มีเด็กอยู่บนนั้น!
+
+42
+00:03:39,636 --> 00:03:42,680
+# เพื่อใครอื่น
+
+43
+00:03:43,014 --> 00:03:45,433
+# ทำให้ฉันตื่นเต้น
+
+44
+00:03:46,351 --> 00:03:51,064
+# เมื่อฉันยังคงยืนหยัดเงียบงัน
+
+45
+00:03:51,147 --> 00:03:53,775
+# ต้องเป็นคุณ
+
+46
+00:03:53,900 --> 00:03:56,194
+# คุณวิเศษมาก #
+
+47
+00:03:57,612 --> 00:03:59,197
+คุณอยู่ข้างบนสบายดีไหม?
+
+48
+00:03:59,280 --> 00:04:01,532
+มัมมี่.
+
+49
+00:04:06,537 --> 00:04:09,123
+# ต้องเป็นคุณเท่านั้น #
+
+50
+00:04:19,592 --> 00:04:23,221
+ขอโทษนะ ฉันขอความสนใจจากทุกคนสักครู่ได้ไหม?
+
+51
+00:04:23,346 --> 00:04:25,640
+รีบๆหน่อยนะครับ สวัสดีครับ?
+
+52
+00:04:25,723 --> 00:04:29,227
+เอ่อ...อาจจะดูเหมือนคำถามโง่ๆ
+
+53
+00:04:29,310 --> 00:04:31,980
+แต่มีอะไรตกลงมาจากท้องฟ้าเมื่อเร็วๆ นี้หรือเปล่า?
+
+54
+00:04:53,501 --> 00:04:54,711
+มัมมี่.
+
+55
+00:04:57,005 --> 00:04:58,756
+โอเค รอก่อน อย่าขยับ
+
+56
+00:05:12,770 --> 00:05:14,939
+ขอโทษนะ ฉันพูดอะไรตลกไปหรือเปล่า?
+
+57
+00:05:15,231 --> 00:05:17,650
+มีสิ่งหนึ่งที่ฉันต้องค้นหา
+
+58
+00:05:17,734 --> 00:05:20,737
+คงตกลงมาจากท้องฟ้าเมื่อสองสามวันก่อน
+
+59
+00:05:23,448 --> 00:05:25,533
+คงจะลงจอดใกล้ๆตรงนี้
+
+60
+00:05:28,661 --> 00:05:30,413
+ด้วยเสียงที่ดังมาก...
+
+61
+00:05:30,496 --> 00:05:33,332
+ลงไปยังที่พักโดยเร็วที่สุด
+
+62
+00:05:36,335 --> 00:05:37,462
+...ปัง.
+
+63
+00:05:42,592 --> 00:05:43,801
+มัมมี่.
+
+64
+00:05:46,721 --> 00:05:48,014
+ลูกโป่ง
+
+65
+00:06:01,235 --> 00:06:02,445
+หมอ!
+
+66
+00:06:07,366 --> 00:06:08,701
+หมอ!
+
+67
+00:06:10,495 --> 00:06:12,288
+หมอ!
+
+68
+00:06:21,214 --> 00:06:24,008
+โอเค อาจจะไม่ใช่เสื้อยืดตัวนี้
+
+69
+00:06:31,516 --> 00:06:32,725
+ดอกกุหลาบ?
+
+70
+00:06:40,650 --> 00:06:42,819
+คุณรู้ไหมว่าวันหนึ่ง
+
+71
+00:06:45,279 --> 00:06:48,533
+สักวันหนึ่งฉันอาจจะได้พบใครสักคนที่เข้าใจทุกอย่าง
+
+72
+00:06:48,616 --> 00:06:50,368
+“อย่าออกนอกเรื่อง”
+
+73
+00:06:51,327 --> 00:06:55,331
+การเดินทางของตู้โทรศัพท์ 900 ปี เป็นสิ่งเดียวที่ยังเหลืออยู่เพื่อสร้างความประหลาดใจให้กับฉัน
+
+74
+00:07:10,263 --> 00:07:12,014
+จะโทรมาได้ยังไง?
+
+75
+00:07:12,932 --> 00:07:14,767
+นั่นมันเรื่องเสียงเรียกเข้าเหรอ?
+
+76
+00:07:15,476 --> 00:07:17,687
+ฉันควรทำอย่างไรเมื่อมีเสียงโทรศัพท์ดัง?
+
+77
+00:07:17,770 --> 00:07:20,940
+อย่าตอบนะ มันไม่ใช่สำหรับคุณ
+
+78
+00:07:25,820 --> 00:07:30,074
+- แล้วคุณรู้ได้ยังไงล่ะ? - เพราะฉันรู้ และฉันบอกคุณแล้ว
+
+79
+00:07:31,367 --> 00:07:32,994
+อย่าตอบมัน
+
+80
+00:07:33,119 --> 00:07:36,789
+ถ้าคุณรู้มากขนาดนั้น บอกฉันหน่อยสิ ว่ามันจะดังได้ยังไง?
+
+81
+00:07:37,832 --> 00:07:41,335
+มันไม่ใช่โทรศัพท์จริงด้วยซ้ำ ไม่ได้เชื่อมต่อ ไม่ได้...
+
+82
+00:07:54,056 --> 00:07:55,224
+สวัสดี?
+
+83
+00:07:58,227 --> 00:08:00,146
+นี่คือหมอที่กำลังพูดอยู่
+
+84
+00:08:01,647 --> 00:08:04,233
+- มีอะไรให้ฉันช่วยไหมคะ - แม่คะ?
+
+85
+00:08:06,360 --> 00:08:07,612
+มัมมี่เหรอ?
+
+86
+00:08:08,112 --> 00:08:10,364
+นี่ใคร? ใครพูด?
+
+87
+00:08:11,324 --> 00:08:13,117
+คุณเป็นแม่ของฉันใช่ไหม?
+
+88
+00:08:13,242 --> 00:08:15,077
+- นี่ใคร? - คุณแม่.
+
+89
+00:08:17,747 --> 00:08:21,459
+โทรไปได้ยังไงเนี่ย? นี่ไม่ใช่โทรศัพท์จริง ไม่ได้ต่อสาย...
+
+90
+00:08:21,542 --> 00:08:22,752
+มัมมี่เหรอ?
+
+91
+00:08:30,635 --> 00:08:31,802
+ดอกกุหลาบ?
+
+92
+00:08:33,054 --> 00:08:34,764
+โรส คุณอยู่ข้างในไหม?
+
+93
+00:08:46,734 --> 00:08:51,030
+เครื่องบินกำลังมา คุณไม่ได้ยินเหรอ? เข้าไปในที่หลบภัยสิ
+
+94
+00:08:51,113 --> 00:08:53,741
+ไม่ใช่เรื่องไร้สาระของคุณหรอก ตอนนี้ขยับมันซะ
+
+95
+00:08:54,659 --> 00:08:58,037
+รีบเข้ามาเถอะ รีบเข้ามาเถอะ
+
+96
+00:08:58,829 --> 00:09:01,749
+อาเธอร์ คุณจะรีบหน่อยมั้ย?
+
+97
+00:09:01,832 --> 00:09:03,417
+คุณไม่ได้ยินเสียงไซเรนเหรอ?
+
+98
+00:09:03,459 --> 00:09:07,004
+กลางดึกทุกคืน ชาวเยอรมันผู้เบ่งบาน เขาไม่กินข้าวกันเหรอ
+
+99
+00:09:07,129 --> 00:09:08,756
+ฉันได้ยินเสียงเครื่องบิน
+
+100
+00:09:08,839 --> 00:09:10,299
+คุณไม่กินเหรอ?
+
+101
+00:09:10,341 --> 00:09:13,219
+พูดเบาๆ หน่อยสิ นี่มันการโจมตีทางอากาศนะ
+
+102
+00:09:16,055 --> 00:09:20,601
+- เข้ามาสิ ดูสิ มีสงครามอยู่ - ฉันรู้ว่ามีสงครามอยู่ อย่าผลักฉันนะ
+
+103
+00:10:16,699 --> 00:10:20,202
+ดับไฟด้วยนะ ทุกคนลงไปที่ที่พักกัน
+
+104
+00:10:20,328 --> 00:10:23,539
+แจ็ค? คุณจะลงไปที่พักเหรอ?
+
+105
+00:10:23,622 --> 00:10:26,751
+ฉันต้องออกไปทำหน้าที่ยามที่โง่เง่าบ้าๆ นั่นให้ได้
+
+106
+00:10:27,460 --> 00:10:31,464
+บอลลูนบาราจเหรอ? คงหลุดออกมาบ้างแหละ เกิดขึ้นบ้างเป็นบางครั้งบางคราว
+
+107
+00:10:32,381 --> 00:10:35,384
+พวกหนุ่มๆ RAF ไม่ใช้พวกมันเพื่อฝึกซ้อมยิงปืนเหรอ?
+
+108
+00:10:37,970 --> 00:10:39,639
+ด้านล่างดีเยี่ยม
+
+109
+00:10:41,724 --> 00:10:44,644
+ฉันบอกว่าท่านชายมีเวลาและสถานที่
+
+110
+00:10:45,102 --> 00:10:47,146
+ดูสิ คุณควรจะออกไปจริงๆ
+
+111
+00:10:49,857 --> 00:10:51,108
+ขออภัยครับคุณลุง
+
+112
+00:10:52,401 --> 00:10:56,280
+ฉันต้องไปเจอผู้หญิงนะ แต่เธอมีก้นที่สวยดีเหมือนกันนะ
+
+113
+00:11:50,251 --> 00:11:52,878
+- มีเด็กๆ อยู่ข้างนอกเยอะไหม? - ใช่ค่ะคุณหนู
+
+114
+00:11:54,088 --> 00:11:57,341
+ยังแกะสลักอยู่ครับ นั่งรอก่อนครับ
+
+115
+00:11:58,759 --> 00:12:00,177
+โดนโจมตีทางอากาศทั้งหมด
+
+116
+00:12:00,219 --> 00:12:04,098
+- ดูสิ พนันได้เลยว่ามันต้องออกจากตลาดมืดแน่ๆ - พอแล้ว
+
+117
+00:12:24,285 --> 00:12:27,538
+- โอเค ฉันจับคุณได้แล้ว - ใครจับฉันได้?
+
+118
+00:12:28,539 --> 00:12:30,791
+ใครจับฉันได้ แล้วจับได้ยังไง?
+
+119
+00:12:30,875 --> 00:12:33,210
+ฉันแค่กำลังโปรแกรมรูปแบบการสืบเชื้อสายของคุณอยู่
+
+120
+00:12:33,294 --> 00:12:37,465
+อยู่นิ่งที่สุดเท่าที่จะทำได้และวางมือและเท้าของคุณไว้ในบริเวณที่มีแสง
+
+121
+00:12:37,548 --> 00:12:38,632
+รูปแบบการสืบเชื้อสาย?
+
+122
+00:12:38,716 --> 00:12:41,177
+แล้วคุณสามารถปิดโทรศัพท์มือถือของคุณได้ไหม?
+
+123
+00:12:42,011 --> 00:12:44,889
+ไม่จริงหรอก มันรบกวนเครื่องดนตรีของฉันนะ
+
+124
+00:12:46,098 --> 00:12:47,933
+ไม่มีใครเคยเชื่อเรื่องนั้นเลย
+
+125
+00:12:49,894 --> 00:12:51,896
+ขอบคุณครับดีขึ้นมากแล้ว.
+
+126
+00:12:52,021 --> 00:12:53,981
+ใช่แล้ว มันเป็นภาระหนักจริงๆ
+
+127
+00:12:54,106 --> 00:12:56,776
+ฉันกำลังลอยอยู่บนท้องฟ้าท่ามกลางการโจมตีทางอากาศของเยอรมัน
+
+128
+00:12:56,859 --> 00:13:00,488
+มีธงยูเนี่ยนแจ็คพาดอยู่ที่หน้าอก แต่เดี๋ยวก่อน โทรศัพท์มือถือของฉันปิดอยู่
+
+129
+00:13:00,571 --> 00:13:02,281
+อยู่กับคุณในขณะนี้
+
+130
+00:13:03,866 --> 00:13:08,662
+อุปกรณ์เคลื่อนที่แสดงถึงรูปแบบชีวิตที่ไม่ร่วมสมัย
+
+131
+00:13:08,787 --> 00:13:10,539
+เธอไม่ได้มาจากแถวนี้หรอก ไม่
+
+132
+00:13:10,623 --> 00:13:12,833
+พร้อมแล้วสำหรับคุณ จับไว้ให้แน่นๆ
+
+133
+00:13:12,917 --> 00:13:15,211
+- ถึงอะไร? - ประเด็นที่ยุติธรรม
+
+134
+00:13:25,179 --> 00:13:28,349
+ฉันเข้าใจคุณนะ คุณสบายดี คุณสบายดี
+
+135
+00:13:28,557 --> 00:13:31,894
+ลำแสงดึงดูดสามารถรบกวนหัวคุณได้เพียงเล็กน้อย
+
+136
+00:13:35,105 --> 00:13:36,857
+- สวัสดีคะ - สวัสดีคะ.
+
+137
+00:13:38,359 --> 00:13:39,568
+สวัสดี
+
+138
+00:13:41,529 --> 00:13:46,116
+ขอโทษนะ มีคำว่า "สวัสดี" สองครั้ง น่าเบื่อแต่ก็รู้ๆ กันอยู่ว่าละเอียดแค่ไหน
+
+139
+00:13:46,450 --> 00:13:48,494
+- คุณสบายดีไหม? - สบายดี
+
+140
+00:13:51,163 --> 00:13:53,374
+ทำไมคุณถึงคิดว่าฉันจะเป็นลมหรืออะไรประมาณนั้นล่ะ?
+
+141
+00:13:53,457 --> 00:13:54,792
+คุณดูเวียนหัวนิดหน่อย
+
+142
+00:13:54,875 --> 00:13:57,545
+แล้วคุณล่ะ? คุณไม่โฟกัสเลย
+
+143
+00:14:28,576 --> 00:14:31,620
+ต้องเป็นตลาดมืดแน่ๆ คูปองพวกนี้ซื้อไม่ได้หรอก
+
+144
+00:14:31,745 --> 00:14:35,040
+เออร์นี่ กี่ครั้งแล้ว? เราเป็นแขกในบ้านหลังนี้
+
+145
+00:14:35,124 --> 00:14:38,127
+เราจะไม่แสดงความคิดเห็นแบบนั้นนะ ล้างจาน
+
+146
+00:14:38,460 --> 00:14:39,920
+โอ้ แนนซี่
+
+147
+00:14:40,337 --> 00:14:43,591
+- ไม่เคยเห็นคุณมางานนี้มาก่อนเลย - เขาเล่าให้ฉันฟัง
+
+148
+00:14:43,716 --> 00:14:45,926
+- นอนข้างถนนเหรอ? - ใช่ค่ะคุณผู้หญิง
+
+149
+00:14:46,427 --> 00:14:49,054
+เอาล่ะ งั้นก็ได้
+
+150
+00:14:49,138 --> 00:14:52,808
+คนละชิ้น อยากเห็นทุกคนเคี้ยวให้ละเอียด
+
+151
+00:14:52,891 --> 00:14:55,436
+- ขอบคุณค่ะคุณหนู - ขอบคุณค่ะคุณหนู
+
+152
+00:14:57,646 --> 00:14:59,106
+ขอบคุณค่ะคุณหนู
+
+153
+00:15:00,649 --> 00:15:02,526
+ขอบคุณค่ะคุณหนู
+
+154
+00:15:03,819 --> 00:15:06,530
+ไม่เป็นไร ทุกคนอยู่ตรงที่ของตัวเอง
+
+155
+00:15:06,614 --> 00:15:08,699
+ดีแล้วใช่มั้ยล่ะ? ใครมีเกลือบ้าง?
+
+156
+00:15:08,741 --> 00:15:11,952
+กลับไปนั่งที่ของคุณเถอะ เขาไม่ควรอยู่ที่นี่เหมือนกัน
+
+157
+00:15:15,623 --> 00:15:19,793
+- แล้วพวกคุณล่ะ เรื่องราวเป็นอย่างไรบ้าง? - หมายความว่ายังไง?
+
+158
+00:15:19,877 --> 00:15:23,797
+- คุณเป็นคนไร้บ้านใช่มั้ย? ใช้ชีวิตอย่างยากไร้? - ทำไมคุณถึงอยากรู้ล่ะ?
+
+159
+00:15:24,089 --> 00:15:25,299
+คุณเป็นตำรวจเหรอ?
+
+160
+00:15:25,341 --> 00:15:28,469
+ฉันไม่ใช่ตำรวจนะ แล้วตำรวจจะมายุ่งอะไรกับพวกแกอีก
+
+161
+00:15:28,594 --> 00:15:30,262
+จับคุณเพราะอดอาหารเหรอ?
+
+162
+00:15:32,598 --> 00:15:35,100
+ฉันเกิดปี 1941 พวกคุณไม่ควรอยู่ในลอนดอนด้วยซ้ำ
+
+163
+00:15:35,184 --> 00:15:37,311
+น่าจะอพยพออกนอกประเทศไปแล้ว
+
+164
+00:15:37,436 --> 00:15:40,064
+ฉันถูกอพยพ ส่งฉันไปที่ฟาร์ม
+
+165
+00:15:40,147 --> 00:15:42,441
+- แล้วทำไมคุณถึงกลับมา? - มีผู้ชายคนหนึ่งอยู่ที่นั่น
+
+166
+00:15:42,524 --> 00:15:44,693
+ใช่ เหมือนกับเออร์นี่ สองบ้านที่แล้ว
+
+167
+00:15:44,777 --> 00:15:48,322
+เงียบไว้ ยังไงก็ดีกว่าอยู่บนถนนอยู่แล้ว อาหารก็ดีกว่า
+
+168
+00:15:48,405 --> 00:15:50,949
+ใช่ค่ะ แนนซี่จะหาอาหารที่ดีที่สุดให้เราเสมอ
+
+169
+00:15:51,075 --> 00:15:53,619
+- แล้วคุณทำแบบนั้นใช่ไหมแนนซี่? - คืออะไร?
+
+170
+00:15:53,661 --> 00:15:57,539
+ทันทีที่เสียงไซเรนดังขึ้น คุณก็พบว่ามีอาหารมื้อใหญ่สำหรับครอบครัวที่ยังอุ่นอยู่บนโต๊ะ
+
+171
+00:15:57,623 --> 00:16:00,209
+โดยทุกคนลงไปที่หลุมหลบภัยทางอากาศและเล่นบิงโก
+
+172
+00:16:00,292 --> 00:16:02,711
+ให้อาหารอย่างบ้าคลั่งแก่เด็กไร้บ้านในเมืองลอนดอน
+
+173
+00:16:02,836 --> 00:16:05,339
+พุดดิ้งสำหรับทุกคน ตราบใดที่ระเบิดไม่ได้ทำคุณหาย
+
+174
+00:16:05,422 --> 00:16:07,758
+- มีอะไรผิดปกติรึเปล่า? - ผิดเหรอ? ยอดเยี่ยมเลย
+
+175
+00:16:07,883 --> 00:16:11,345
+ฉันไม่แน่ใจว่ามันเป็นลัทธิมากซ์ในทางปฏิบัติหรือเป็นละครเพลงเวสต์เอนด์
+
+176
+00:16:12,846 --> 00:16:16,100
+ทำไมคุณถึงตามฉันมา คุณต้องการอะไร
+
+177
+00:16:16,141 --> 00:16:19,311
+ฉันอยากรู้ว่าโทรศัพท์ที่ไม่ใช่โทรศัพท์จะรับสายได้ยังไง
+
+178
+00:16:19,436 --> 00:16:22,231
+- คุณดูเหมือนจะเป็นคนถาม - ฉันช่วยคุณแล้ว
+
+179
+00:16:22,356 --> 00:16:24,900
+ฉันบอกคุณแล้วว่าอย่าตอบ แค่นั้นแหละที่ฉันบอกคุณ
+
+180
+00:16:24,983 --> 00:16:27,987
+เยี่ยมเลย ขอบคุณนะ และฉันอยากเจอสาวผมบลอนด์ใส่เสื้อยูเนี่ยนแจ็คจัง
+
+181
+00:16:28,070 --> 00:16:32,157
+ฉันหมายถึงเรื่องเฉพาะอย่างหนึ่ง ฉันไม่ได้เพิ่งตื่นนอนตอนเช้านี้แล้วรู้สึกอยากกินอะไรเป็นพิเศษ
+
+182
+00:16:32,700 --> 00:16:34,660
+มีใครเห็นผู้หญิงแบบนั้นบ้างไหม?
+
+183
+00:16:35,703 --> 00:16:38,372
+- ฉันทำผิดอะไร? - คุณหยิบไปสองชิ้น
+
+184
+00:16:38,956 --> 00:16:41,125
+ไม่มีสาวผมบลอนด์ ไม่มีธง
+
+185
+00:16:41,208 --> 00:16:45,129
+- มีอะไรอีกไหมก่อนไป? - จริงๆ แล้วมี ขอบคุณที่ถามนะ
+
+186
+00:16:45,212 --> 00:16:46,463
+สิ่งหนึ่งที่ฉันกำลังมองหา
+
+187
+00:16:46,547 --> 00:16:49,299
+คงตกลงมาจากท้องฟ้าเมื่อเดือนที่แล้ว แต่ไม่ใช่ระเบิด
+
+188
+00:16:49,341 --> 00:16:51,844
+ไม่ใช่แบบปกติอยู่แล้ว คงไม่ระเบิดหรอก
+
+189
+00:16:51,927 --> 00:16:54,513
+อาจจะฝังตัวเองอยู่ในดินที่ไหนสักแห่ง
+
+190
+00:16:54,638 --> 00:16:58,559
+และมันคงจะดูประมาณนี้
+
+191
+00:17:02,688 --> 00:17:05,607
+แม่คะ แม่อยู่ในนั้นไหมคะ
+
+192
+00:17:07,901 --> 00:17:09,069
+มัมมี่.
+
+193
+00:17:10,112 --> 00:17:12,281
+- ใครเข้ามาเป็นคนสุดท้าย? - เขา.
+
+194
+00:17:12,406 --> 00:17:14,700
+เขามาทางหลัง ใครมาข้างหน้า?
+
+195
+00:17:14,742 --> 00:17:16,785
+- ฉัน. - คุณปิดประตูแล้วเหรอ?
+
+196
+00:17:16,994 --> 00:17:19,079
+คุณปิดประตูแล้วหรือยัง?
+
+197
+00:17:19,329 --> 00:17:21,623
+แม่ แม่
+
+198
+00:17:22,666 --> 00:17:25,085
+มัมมี่.
+
+199
+00:17:30,674 --> 00:17:32,634
+แล้วนี่มันอะไรล่ะ?
+
+200
+00:17:32,760 --> 00:17:35,888
+การเป็นลูกคนเดียวที่ถูกทิ้งให้อยู่ตามลำพังนั้นไม่ใช่เรื่องง่ายเลย คุณรู้ไหม
+
+201
+00:17:35,971 --> 00:17:38,891
+- ฉันคิดว่าคุณคงรู้ - จริงๆ แล้วฉันรู้ ใช่
+
+202
+00:17:39,725 --> 00:17:41,518
+มันไม่ใช่เด็กซะทีเดียว
+
+203
+00:17:42,311 --> 00:17:44,813
+มัมมี่.
+
+204
+00:17:45,272 --> 00:17:47,983
+ทุกคนออกไป ฝั่งตรงข้ามสวนหลังบ้าน ใต้รั้ว
+
+205
+00:17:48,067 --> 00:17:49,568
+ตอนนี้ ไป ขยับเลย
+
+206
+00:17:54,114 --> 00:17:58,202
+เอาล่ะ ที่รัก เราต้องไปแล้ว มันเหมือนเกม เหมือนการไล่ล่าเลย
+
+207
+00:17:58,452 --> 00:18:00,037
+เอาเสื้อโค้ทของคุณไปเถอะ
+
+208
+00:18:01,121 --> 00:18:02,498
+ไป.
+
+209
+00:18:02,539 --> 00:18:04,833
+แม่ แม่
+
+210
+00:18:04,917 --> 00:18:06,919
+ขอเข้าไปหน่อยนะคะคุณแม่
+
+211
+00:18:08,545 --> 00:18:10,380
+ขอเข้าไปหน่อยนะคะคุณแม่
+
+212
+00:18:10,464 --> 00:18:11,840
+คุณสบายดีไหม?
+
+213
+00:18:11,965 --> 00:18:13,550
+กรุณาให้ฉันเข้าไป
+
+214
+00:18:14,718 --> 00:18:17,846
+- คุณต้องไม่ปล่อยให้เขาสัมผัสตัวคุณ - จะเกิดอะไรขึ้นถ้าเขาสัมผัสตัวฉัน?
+
+215
+00:18:17,930 --> 00:18:20,140
+- เขาทำให้คุณชอบเขา - แล้วเขาเป็นคนยังไง?
+
+216
+00:18:20,182 --> 00:18:22,601
+- ฉันต้องไปแล้ว - แนนซี่ เขาเป็นยังไงบ้าง?
+
+217
+00:18:25,646 --> 00:18:27,064
+เขาว่างเปล่า
+
+218
+00:18:29,358 --> 00:18:31,318
+เป็นเขานั่นเอง
+
+219
+00:18:31,443 --> 00:18:35,739
+เขาสามารถทำให้โทรศัพท์ดังได้ เขาทำได้ เหมือนกับตู้ตำรวจที่คุณเห็นนั่นแหละ
+
+220
+00:18:42,371 --> 00:18:44,790
+คุณเป็นแม่ของฉันใช่ไหม?
+
+221
+00:18:46,750 --> 00:18:48,043
+มัมมี่เหรอ?
+
+222
+00:18:48,919 --> 00:18:50,546
+มัมมี่เหรอ?
+
+223
+00:18:51,296 --> 00:18:53,382
+ขอเข้าไปหน่อยนะคะคุณแม่
+
+224
+00:18:54,258 --> 00:18:58,220
+มัมมี่ มัมมี่ มัมมี่
+
+225
+00:18:59,346 --> 00:19:01,306
+คุณจะอยู่ที่นี่ถ้าคุณต้องการ
+
+226
+00:19:01,431 --> 00:19:03,225
+มัมมี่ มัมมี่ มัมมี่...
+
+227
+00:19:03,308 --> 00:19:05,561
+มัมมี่.
+
+228
+00:19:05,853 --> 00:19:08,313
+ขออนุญาตเข้าไปนะคะคุณแม่
+
+229
+00:19:09,356 --> 00:19:12,359
+- ขอเข้าไปหน่อยค่ะ - แม่ของคุณไม่อยู่ที่นี่
+
+230
+00:19:14,820 --> 00:19:17,156
+- คุณเป็นแม่ของฉันเหรอ? - ที่นี่ไม่มีแม่
+
+231
+00:19:17,781 --> 00:19:19,700
+ที่นี่ไม่มีใครนอกจากเราไก่
+
+232
+00:19:20,868 --> 00:19:22,661
+ไก่ตัวนี้น่ะ
+
+233
+00:19:22,744 --> 00:19:24,246
+ฉันกลัว.
+
+234
+00:19:26,623 --> 00:19:29,168
+ทำไมเด็กคนอื่นถึงกลัวคุณล่ะ?
+
+235
+00:19:29,293 --> 00:19:32,546
+ขอเข้าไปหน่อยค่ะแม่ หนูกลัวระเบิด
+
+236
+00:19:36,091 --> 00:19:39,219
+โอเค ฉันจะเปิดประตูเดี๋ยวนี้
+
+237
+00:20:10,918 --> 00:20:13,754
+- ดีขึ้นแล้วเหรอ? - ที่นี่มีไฟไหม?
+
+238
+00:20:17,507 --> 00:20:19,176
+- สวัสดีคะ - สวัสดีคะ.
+
+239
+00:20:19,426 --> 00:20:20,552
+สวัสดี
+
+240
+00:20:20,636 --> 00:20:23,889
+- อย่าเริ่มแบบนั้นอีกนะ - โอเค
+
+241
+00:20:28,018 --> 00:20:30,562
+แล้วคุณล่ะเป็นใคร?
+
+242
+00:20:30,729 --> 00:20:35,192
+กัปตันแจ็ค ฮาร์กเนส ฝูงบินที่ 133 กองทัพอากาศอังกฤษ
+
+243
+00:20:35,525 --> 00:20:37,152
+อาสาสมัครชาวอเมริกัน
+
+244
+00:20:38,362 --> 00:20:40,864
+คนโกหก นี่มันกระดาษพลังจิตนะ
+
+245
+00:20:40,948 --> 00:20:42,950
+มันบอกฉันทุกสิ่งที่คุณต้องการให้มันบอกฉัน
+
+246
+00:20:43,033 --> 00:20:44,409
+- คุณรู้ได้ยังไง? - สองสิ่ง.
+
+247
+00:20:44,534 --> 00:20:47,621
+หนึ่ง ฉันมีเพื่อนที่ใช้สิ่งนี้ตลอดเวลา
+
+248
+00:20:47,704 --> 00:20:52,209
+และสอง คุณเพิ่งยื่นกระดาษแผ่นหนึ่งให้ฉันพร้อมบอกว่าคุณโสด
+
+249
+00:20:52,334 --> 00:20:53,669
+และคุณก็ออกกำลังกาย
+
+250
+00:20:53,752 --> 00:20:55,587
+- เรื่องยุ่งยากนะ กระดาษพลังจิต - ใช่แล้ว
+
+251
+00:20:55,671 --> 00:20:58,840
+อย่าปล่อยให้ใจล่องลอยไปเมื่อคุณมอบมันให้
+
+252
+00:20:59,091 --> 00:21:02,928
+คุณมีแฟนชื่อมิกกี้ สมิธ
+
+253
+00:21:03,011 --> 00:21:06,264
+แต่คุณถือว่าตัวเองเป็นคนอิสระและมีอิสระเสรี
+
+254
+00:21:06,348 --> 00:21:09,601
+- อะไรนะ? - จริงๆ แล้วคำที่คุณใช้คือ "available" นะ
+
+255
+00:21:09,685 --> 00:21:12,271
+- ไม่มีทาง - และอีกอัน "มาก"
+
+256
+00:21:12,354 --> 00:21:15,190
+เราจะลองอยู่กันโดยไม่ต้องใช้กระดาษพลังจิตดูไหม?
+
+257
+00:21:15,274 --> 00:21:17,442
+มันจะดีกว่าใช่ไหมล่ะ?
+
+258
+00:21:19,528 --> 00:21:22,239
+- ยานอวกาศสวยดีนะ - พาฉันไปไหนมาไหนได้สะดวก
+
+259
+00:21:23,073 --> 00:21:26,410
+สป็อคมาก...
+
+260
+00:21:27,369 --> 00:21:28,495
+WHO?
+
+261
+00:21:28,620 --> 00:21:30,998
+เดาว่าคุณไม่ใช่เด็กท้องถิ่นใช่ไหม?
+
+262
+00:21:32,291 --> 00:21:36,378
+โทรศัพท์มือถือ นาฬิกาคริสตัลเหลว และผ้าที่ไม่มีวันอยู่อีกต่อไป
+
+263
+00:21:36,420 --> 00:21:38,380
+อย่างน้อยอีกสองทศวรรษ
+
+264
+00:21:38,505 --> 00:21:41,508
+- เดาว่าคุณไม่ใช่สาวท้องถิ่น - เดาถูกแล้ว
+
+265
+00:21:44,303 --> 00:21:46,513
+- เชือกโดนมือไหม้เหรอ? - ครับ.
+
+266
+00:21:47,431 --> 00:21:50,267
+เราจอดอยู่กลางอากาศ ข้างล่างไม่มีใครเห็นเราเลยเหรอ
+
+267
+00:21:50,350 --> 00:21:53,645
+ไม่ครับ ผมขอดูมือของคุณสักครู่ได้ไหมครับ?
+
+268
+00:21:54,271 --> 00:21:55,981
+- ทำไม? - ได้โปรดเถอะครับ.
+
+269
+00:22:03,822 --> 00:22:07,367
+หยุดแสดงได้แล้ว ฉันรู้ดีว่าคุณเป็นใคร
+
+270
+00:22:08,243 --> 00:22:11,997
+- ฉันสามารถมองเห็น Time Agent ได้ในระยะหนึ่งไมล์ - Time Agent?
+
+271
+00:22:12,581 --> 00:22:15,333
+ฉันคาดหวังว่าพวกคุณคนใดคนหนึ่งจะมาปรากฏตัว
+
+272
+00:22:15,584 --> 00:22:17,919
+แม้ว่าจะไม่ใช่โดยบอลลูนบาราจก็ตาม ฉันต้องบอกว่าโดยบอลลูนบาราจ
+
+273
+00:22:18,003 --> 00:22:19,629
+คุณเดินทางไปทางนั้นบ่อยไหม?
+
+274
+00:22:19,713 --> 00:22:22,174
+บางครั้งฉันก็รู้สึกตื่นเต้นมาก
+
+275
+00:22:23,550 --> 00:22:25,135
+ด้วยลูกโป่ง
+
+276
+00:22:26,553 --> 00:22:28,972
+- คุณกำลังทำอะไรอยู่? - พยายามอยู่นิ่งๆ
+
+277
+00:22:35,187 --> 00:22:39,983
+นาโนยีน หุ่นยนต์ย่อยอะตอม อากาศที่นี่เต็มไปด้วยพวกมัน
+
+278
+00:22:42,903 --> 00:22:45,614
+พวกเขาเพิ่งซ่อมแซมผิวของคุณสามชั้น
+
+279
+00:22:47,532 --> 00:22:48,950
+บอกพวกเขาว่าขอบคุณ
+
+280
+00:22:49,951 --> 00:22:52,579
+- มาเริ่มเรื่องธุรกิจกันเลยไหม - เรื่องธุรกิจ?
+
+281
+00:22:53,413 --> 00:22:55,707
+เราจะดื่มเครื่องดื่มบนระเบียงกันไหม?
+
+282
+00:22:58,210 --> 00:22:59,836
+นำแก้วขึ้นมา
+
+283
+00:23:12,557 --> 00:23:14,726
+ฉันรู้ว่าฉันกำลังยืนอยู่บนอะไรบางอย่าง
+
+284
+00:23:24,820 --> 00:23:28,949
+- โอเค คุณมียานอวกาศล่องหน - ใช่
+
+285
+00:23:30,659 --> 00:23:33,453
+เชื่อมโยงกับบิ๊กเบนด้วยเหตุผลบางประการ
+
+286
+00:23:33,787 --> 00:23:37,707
+กฎข้อแรกของการพรางตัวแบบแอคทีฟ จอดรถในที่ที่คุณจะจำได้
+
+287
+00:24:28,800 --> 00:24:30,260
+คุณตามฉันมาที่นี่ได้ยังไง?
+
+288
+00:24:30,343 --> 00:24:32,846
+ฉันเก่งเรื่องการตามนะ ฉันมีจมูกไวต่อมัน
+
+289
+00:24:32,929 --> 00:24:35,474
+โดยปกติแล้วผู้คนไม่สามารถติดตามฉันได้หากฉันไม่ต้องการให้พวกเขาติดตาม
+
+290
+00:24:35,557 --> 00:24:39,019
+- จมูกฉันมีพลังพิเศษน่ะ - เหรอ? นั่นแหละคือสาเหตุที่มัน...
+
+291
+00:24:39,311 --> 00:24:40,854
+- อะไรนะ? - ไม่มีอะไรครับ.
+
+292
+00:24:41,062 --> 00:24:42,689
+- อะไรนะ? - ไม่มีอะไรครับ.
+
+293
+00:24:43,899 --> 00:24:46,902
+- หูของคุณมีพลังพิเศษด้วยเหรอ? - คุณพยายามจะพูดอะไรน่ะ?
+
+294
+00:24:46,985 --> 00:24:48,528
+ราตรีสวัสดิ์ครับคุณนาย
+
+295
+00:24:49,029 --> 00:24:50,197
+แนนซี่
+
+296
+00:24:50,864 --> 00:24:53,116
+มีอะไรบางอย่างกำลังไล่ตามคุณและเด็กคนอื่นๆ
+
+297
+00:24:53,241 --> 00:24:54,951
+ดูเหมือนเด็กผู้ชายแต่ไม่ใช่เด็กผู้ชาย
+
+298
+00:24:55,076 --> 00:24:57,579
+แล้วมันก็เริ่มขึ้นเมื่อประมาณเดือนที่แล้ว ใช่ไหม?
+
+299
+00:24:59,122 --> 00:25:00,916
+สิ่งที่ฉันกำลังมองหา
+
+300
+00:25:01,041 --> 00:25:04,085
+สิ่งที่ร่วงลงมาจากฟ้า นั่นแหละคือตอนที่มันลงจอด
+
+301
+00:25:04,169 --> 00:25:06,129
+คุณรู้ว่าฉันกำลังพูดถึงอะไรใช่ไหม?
+
+302
+00:25:06,213 --> 00:25:09,299
+มีระเบิดอยู่ ระเบิดที่ไม่ใช่ระเบิด
+
+303
+00:25:09,716 --> 00:25:11,885
+ตกที่ปลายอีกด้านของสถานี Limehouse Green
+
+304
+00:25:11,968 --> 00:25:16,014
+- พาฉันไปที่นั่น - ไม่นะ มีทหารเฝ้าอยู่ มีลวดหนาม
+
+305
+00:25:16,556 --> 00:25:18,600
+- คุณไม่มีทางผ่านได้หรอก - ลองฉันสิ
+
+306
+00:25:18,683 --> 00:25:21,019
+คุณแน่ใจว่าอยากรู้ว่ามีอะไรเกิดขึ้นข้างในนั้นใช่ไหม?
+
+307
+00:25:21,102 --> 00:25:22,771
+ฉันอยากรู้จริงๆ.
+
+308
+00:25:23,522 --> 00:25:25,982
+แล้วก็มีคนคนหนึ่งที่คุณต้องพูดคุยด้วยก่อน
+
+309
+00:25:26,066 --> 00:25:28,860
+- แล้วใครกันล่ะ? - หมอ.
+
+310
+00:25:33,281 --> 00:25:36,201
+เริ่มจะสายแล้ว ฉันน่าจะกลับแล้วล่ะ
+
+311
+00:25:36,284 --> 00:25:37,869
+เรากำลังพูดคุยเรื่องธุรกิจ
+
+312
+00:25:37,994 --> 00:25:41,122
+นี่ไม่ใช่ธุรกิจ แต่นี่คือแชมเปญ
+
+313
+00:25:41,915 --> 00:25:44,834
+ฉันพยายามที่จะไม่พูดคุยเรื่องธุรกิจด้วยความคิดที่แจ่มใส
+
+314
+00:25:47,963 --> 00:25:49,673
+คุณเดินทางคนเดียวใช่ไหม?
+
+315
+00:25:50,757 --> 00:25:54,803
+- คุณได้รับอนุญาตให้เจรจาหรือไม่? - เราจะเจรจาเรื่องอะไร?
+
+316
+00:25:56,179 --> 00:25:59,808
+ฉันมีของฝากให้ไทม์เอเจนซี่ค่ะ ของที่เขาอยากซื้อ
+
+317
+00:25:59,891 --> 00:26:02,060
+คุณมีอำนาจในการชำระเงินหรือไม่?
+
+318
+00:26:02,769 --> 00:26:06,314
+ฉันควรจะคุยกับเพื่อนของฉัน
+
+319
+00:26:06,439 --> 00:26:09,276
+- เพื่อนของคุณเหรอ? - ฉันควรจะติดต่อกลับไปหาเขาแล้ว
+
+320
+00:26:09,359 --> 00:26:11,528
+- เขา? - คุณมีเวลามั้ย?
+
+321
+00:26:18,493 --> 00:26:20,036
+โอเค นั่นมันแฟลช
+
+322
+00:26:21,580 --> 00:26:23,248
+นั่นมันด้านแฟลช
+
+323
+00:26:23,331 --> 00:26:27,544
+แล้วเมื่อคุณพูดว่าเพื่อนของคุณ...
+
+324
+00:26:27,627 --> 00:26:29,629
+ฉันควรจะผิดหวังขนาดไหน?
+
+325
+00:26:29,713 --> 00:26:32,340
+- โอเค เรากำลังยืนอยู่กลางอากาศ... - อืม...
+
+326
+00:26:32,382 --> 00:26:36,469
+...บนยานอวกาศในระหว่างการโจมตีทางอากาศของเยอรมัน
+
+327
+00:26:37,512 --> 00:26:41,016
+คุณคิดจริงๆ เหรอว่าตอนนี้เป็นเวลาที่ดีที่จะมาหาฉัน?
+
+328
+00:26:42,601 --> 00:26:43,768
+บางทีอาจไม่ใช่
+
+329
+00:26:44,394 --> 00:26:46,313
+มันเป็นเพียงข้อเสนอแนะ
+
+330
+00:26:46,813 --> 00:26:48,523
+คุณชอบ Glenn Miller ไหม?
+
+331
+00:26:59,826 --> 00:27:03,580
+ขณะนี้เป็นปีพ.ศ. 2484 ซึ่งเป็นช่วงที่การโจมตีลอนดอนรุนแรงที่สุด
+
+332
+00:27:04,497 --> 00:27:06,374
+ความสูงของการทิ้งระเบิดของเยอรมัน
+
+333
+00:27:06,458 --> 00:27:08,918
+และมีบางอย่างอีกอย่างเกิดขึ้นที่ลอนดอน
+
+334
+00:27:09,586 --> 00:27:11,880
+เรือรบชูลาที่มีอุปกรณ์ครบครัน
+
+335
+00:27:12,714 --> 00:27:16,134
+คนสุดท้ายที่มีอยู่พร้อมอาวุธครบมือ
+
+336
+00:27:18,053 --> 00:27:21,389
+และฉันรู้ว่ามันอยู่ที่ไหนเพราะฉันจอดมันไว้
+
+337
+00:27:24,309 --> 00:27:28,772
+หากเอเจนซี่สามารถตั้งราคาที่เหมาะสมได้ ผมก็สามารถให้ได้
+
+338
+00:27:29,898 --> 00:27:31,441
+แต่ภายในสองชั่วโมง...
+
+339
+00:27:32,776 --> 00:27:36,196
+ระเบิดของเยอรมันจะตกลงมาและทำลายมันตลอดไป
+
+340
+00:27:37,614 --> 00:27:40,033
+นั่นคือกำหนดส่งของคุณแล้ว นั่นแหละคือข้อตกลง
+
+341
+00:27:41,242 --> 00:27:43,370
+ตอนนี้เราจะมาพูดคุยเรื่องการชำระเงินกันไหม?
+
+342
+00:27:43,495 --> 00:27:45,455
+- คุณรู้ไหมว่าฉันคิดยังไง? - อะไรนะ?
+
+343
+00:27:45,955 --> 00:27:48,208
+ฉันคิดว่าคุณกำลังพูดถึงเรื่องนั้นอยู่
+
+344
+00:27:48,792 --> 00:27:52,921
+สองชั่วโมง ระเบิดตกลงมา เหลือเพียงฝุ่นและหลุมอุกกาบาตเท่านั้น
+
+345
+00:27:53,088 --> 00:27:54,422
+สัญญา,สัญญา
+
+346
+00:27:54,506 --> 00:27:56,675
+คุณกำลังฟังอะไรพวกนี้อยู่หรือเปล่า?
+
+347
+00:27:57,092 --> 00:28:00,929
+คุณเคยเป็นตัวแทนแห่งกาลเวลา ตอนนี้คุณกลายเป็นฟรีแลนซ์แล้ว
+
+348
+00:28:01,054 --> 00:28:03,973
+มันรุนแรงไปหน่อย ฉันชอบคิดว่าตัวเองเป็นอาชญากร
+
+349
+00:28:04,057 --> 00:28:05,475
+ฉันเดิมพันว่าคุณทำได้
+
+350
+00:28:07,060 --> 00:28:10,188
+แล้วเพื่อนคุณคนนี้เป็นคนจัดการเรื่องธุรกิจใช่ไหม?
+
+351
+00:28:10,855 --> 00:28:13,691
+ฉันมอบหมายงานส่วนใหญ่นั่นให้คนอื่นทำใช่ไหม
+
+352
+00:28:13,775 --> 00:28:15,694
+บางทีเราควรไปหาเขา
+
+353
+00:28:16,277 --> 00:28:20,615
+- แล้วคุณจะทำอย่างนั้นได้อย่างไร - ง่ายๆ ฉันจะสแกนหาเทคโนโลยีจากต่างดาว
+
+354
+00:28:24,077 --> 00:28:26,121
+ในที่สุดก็เป็นมืออาชีพแล้ว
+
+355
+00:28:37,424 --> 00:28:41,136
+- ระเบิดอยู่ใต้ผ้าใบกันน้ำ - พวกเขาติดตั้งรั้วไว้ข้ามคืน
+
+356
+00:28:41,886 --> 00:28:44,305
+เห็นตึกนั้นมั้ย โรงพยาบาลเหรอ?
+
+357
+00:28:46,641 --> 00:28:49,644
+- แล้วเป็นไงบ้าง - นั่นที่ที่หมออยู่
+
+358
+00:28:54,107 --> 00:28:55,775
+คุณควรคุยกับเขา
+
+359
+00:28:55,859 --> 00:28:58,319
+ตอนนี้ฉันสนใจที่จะเข้าไปที่นั่นมากกว่า
+
+360
+00:28:58,403 --> 00:29:01,156
+- คุยกับหมอก่อนครับ - ทำไม?
+
+361
+00:29:01,573 --> 00:29:04,409
+เพราะถ้าเป็นอย่างนั้นคุณอาจไม่อยากเข้าไปข้างใน
+
+362
+00:29:07,579 --> 00:29:08,955
+คุณจะไปไหน?
+
+363
+00:29:10,790 --> 00:29:14,419
+บ้านหลังนั้นมีอาหารเยอะแยะ ฉันต้องเลี้ยงปากเลี้ยงท้องอีก
+
+364
+00:29:14,502 --> 00:29:16,254
+ตอนนี้น่าจะปลอดภัยพอแล้ว
+
+365
+00:29:16,838 --> 00:29:18,590
+ฉันขอถามคุณหน่อยได้ไหม?
+
+366
+00:29:19,507 --> 00:29:22,427
+- คุณเสียใครไป? - อะไรนะ?
+
+367
+00:29:25,472 --> 00:29:30,059
+วิธีที่คุณดูแลเด็กๆ พวกนั้นน่ะ มันเพราะคุณสูญเสียใครบางคนไปไม่ใช่เหรอ?
+
+368
+00:29:31,186 --> 00:29:33,688
+คุณทำทั้งหมดนี้เพื่อชดเชยมัน
+
+369
+00:29:36,107 --> 00:29:38,860
+น้องชายของฉัน เจมี่
+
+370
+00:29:41,112 --> 00:29:44,949
+คืนหนึ่งฉันออกไปหาอาหาร คืนนั้นเองที่เจ้าสิ่งนั้นตกลงมา
+
+371
+00:29:45,575 --> 00:29:49,579
+บอกเขาว่าอย่าตามฉันมา ฉันบอกเขาว่ามันอันตราย แต่เขาก็แค่...
+
+372
+00:29:50,872 --> 00:29:53,208
+เขาไม่ชอบอยู่คนเดียว
+
+373
+00:29:53,333 --> 00:29:54,501
+เกิดอะไรขึ้น
+
+374
+00:29:55,126 --> 00:29:58,922
+อยู่กลางการโจมตีทางอากาศเหรอ? คิดว่าเกิดอะไรขึ้น?
+
+375
+00:30:04,260 --> 00:30:05,970
+- น่าทึ่ง. - คืออะไร?
+
+376
+00:30:06,763 --> 00:30:11,810
+1941. ขณะนี้ ไม่ไกลจากที่นี่มากนัก
+
+377
+00:30:11,935 --> 00:30:15,021
+เครื่องจักรสงครามของเยอรมันกำลังกลิ้งแผนที่ของยุโรป
+
+378
+00:30:15,104 --> 00:30:19,317
+ประเทศแล้วประเทศเล่า ล้มลงเหมือนโดมิโน ไม่มีอะไรหยุดยั้งได้ ไม่มีสิ่งใด
+
+379
+00:30:20,527 --> 00:30:23,947
+จนกระทั่งเกาะเล็กๆ ชื้นๆ แห่งหนึ่งบอกว่า "ไม่"
+
+380
+00:30:25,240 --> 00:30:27,659
+ไม่ ที่นี่ไม่ใช่
+
+381
+00:30:30,620 --> 00:30:32,455
+หนูอยู่ข้างหน้าสิงโต
+
+382
+00:30:35,083 --> 00:30:37,627
+คุณสุดยอดมาก พวกคุณสุดยอดจริงๆ
+
+383
+00:30:37,710 --> 00:30:41,673
+ฉันไม่รู้ว่าคุณทำอะไรกับฮิตเลอร์ แต่คุณทำให้ฉันกลัวแทบตาย
+
+384
+00:30:43,216 --> 00:30:47,595
+งั้นก็ไปซะ ทำสิ่งที่ต้องทำซะ เพื่อช่วยโลก
+
+385
+00:32:41,084 --> 00:32:45,046
+คุณจะพบพวกมันอยู่ทุกที่ ในทุกเตียง ในทุกวอร์ด
+
+386
+00:32:45,463 --> 00:32:46,631
+มีเป็นร้อยๆตัว
+
+387
+00:32:46,714 --> 00:32:50,093
+ใช่ ฉันเห็นแล้ว ทำไมพวกเขายังใส่หน้ากากกันแก๊สอยู่ล่ะ
+
+388
+00:32:50,176 --> 00:32:52,637
+- ไม่ใช่หรอก คุณเป็นใคร - ฉัน...
+
+389
+00:32:53,054 --> 00:32:57,016
+- คุณเป็นหมอใช่ไหม - ดร.คอนสแตนติน แล้วคุณล่ะ?
+
+390
+00:32:57,725 --> 00:32:59,686
+- แนนซี่ส่งฉันมา - แนนซี่?
+
+391
+00:33:00,770 --> 00:33:03,398
+นั่นหมายความว่าคุณต้องเคยถามเกี่ยวกับระเบิด
+
+392
+00:33:03,481 --> 00:33:04,607
+ใช่.
+
+393
+00:33:05,984 --> 00:33:07,735
+คุณรู้เรื่องนี้อะไรบ้าง?
+
+394
+00:33:07,819 --> 00:33:10,446
+ไม่มีอะไร ทำไมฉันถึงถาม คุณรู้อะไรไหม
+
+395
+00:33:11,572 --> 00:33:13,449
+มีเพียงสิ่งที่ทำไปแล้ว
+
+396
+00:33:13,533 --> 00:33:15,702
+คนพวกนี้โดนระเบิดกันหมดเหรอ?
+
+397
+00:33:15,827 --> 00:33:17,286
+ไม่มีใครเป็นเลย
+
+398
+00:33:24,961 --> 00:33:26,379
+คุณป่วยหนักมาก
+
+399
+00:33:27,004 --> 00:33:30,341
+ฉันคิดว่าคงใกล้ตายแล้วล่ะ แค่หาเวลาไม่ได้เท่านั้นเอง
+
+400
+00:33:30,466 --> 00:33:33,219
+- คุณเป็นหมอใช่ไหม? - ฉันก็มีช่วงเวลาของฉันเหมือนกัน
+
+401
+00:33:33,553 --> 00:33:35,972
+- คุณได้ตรวจสอบตัวใดตัวหนึ่งแล้วหรือยัง? - ยังครับ
+
+402
+00:33:37,014 --> 00:33:38,975
+อย่าแตะเนื้อหนัง
+
+403
+00:33:39,183 --> 00:33:41,060
+- อันไหน? - อันไหนก็ได้
+
+404
+00:33:48,109 --> 00:33:49,360
+สรุปแล้ว?
+
+405
+00:33:49,444 --> 00:33:51,946
+ได้รับบาดเจ็บที่ศีรษะอย่างรุนแรง ส่วนใหญ่จะอยู่ที่ด้านซ้าย
+
+406
+00:33:52,071 --> 00:33:54,866
+ช่องอกยุบบางส่วน ส่วนใหญ่ยุบไปทางขวา
+
+407
+00:33:54,991 --> 00:33:56,868
+มีรอยแผลเป็นที่หลังมือ
+
+408
+00:33:56,993 --> 00:34:00,288
+และหน้ากากป้องกันแก๊สก็ดูเหมือนจะติดกับเนื้อ แต่ฉันไม่เห็นรอยไหม้ใดๆ เลย
+
+409
+00:34:00,413 --> 00:34:01,956
+ตรวจสอบอีกอันหนึ่ง
+
+410
+00:34:14,260 --> 00:34:16,888
+- เป็นไปไม่ได้ - ลองตรวจสอบอีกอันหนึ่ง
+
+411
+00:34:21,017 --> 00:34:22,852
+- มันเป็นไปไม่ได้ - ไม่ครับ
+
+412
+00:34:22,935 --> 00:34:25,730
+- ทุกคนก็ได้รับบาดเจ็บเหมือนกัน - ใช่.
+
+413
+00:34:25,813 --> 00:34:27,857
+- เหมือนกันเลย - ใช่ครับ.
+
+414
+00:34:27,899 --> 00:34:31,903
+เหมือนกันหมดทุกอย่างแม้กระทั่งรอยแผลเป็นที่หลังมือ
+
+415
+00:34:32,153 --> 00:34:34,280
+เรื่องนี้มันเกิดขึ้นได้ยังไง? มันเริ่มต้นได้ยังไง?
+
+416
+00:34:34,363 --> 00:34:36,824
+เมื่อระเบิดนั้นถูกทิ้ง มีเหยื่อเพียงคนเดียว
+
+417
+00:34:36,908 --> 00:34:39,577
+- ตายแล้วเหรอ? - ตอนแรก.
+
+418
+00:34:39,619 --> 00:34:42,205
+อาการบาดเจ็บของเขาเลวร้ายจริงๆ
+
+419
+00:34:42,288 --> 00:34:46,626
+พอเช้าวันรุ่งขึ้น แพทย์และพยาบาลทุกคนที่มารักษาเขา
+
+420
+00:34:46,709 --> 00:34:51,297
+ผู้ที่ได้สัมผัสเขา ก็มีบาดแผลเช่นเดียวกันนั้น
+
+421
+00:34:51,339 --> 00:34:56,469
+เมื่อถึงเช้าวันรุ่งขึ้น คนไข้ทุกคนในวอร์ดเดียวกัน มีอาการบาดเจ็บเหมือนกันทุกประการ
+
+422
+00:34:56,594 --> 00:34:59,138
+ภายในหนึ่งสัปดาห์โรงพยาบาลทั้งโรงพยาบาล
+
+423
+00:35:00,098 --> 00:35:03,935
+การบาดเจ็บทางกายถือเป็นกาฬโรค
+
+424
+00:35:04,727 --> 00:35:06,604
+คุณอธิบายเรื่องนี้ได้ไหม?
+
+425
+00:35:08,147 --> 00:35:11,609
+คุณคิดว่าสาเหตุการตายคืออะไร?
+
+426
+00:35:11,984 --> 00:35:13,236
+- บาดเจ็บที่ศีรษะ - ไม่ครับ
+
+427
+00:35:13,361 --> 00:35:15,071
+- ขาดอากาศหายใจ? - ไม่ครับ
+
+428
+00:35:15,363 --> 00:35:17,740
+- ช่องอกยุบ - ไม่ครับ
+
+429
+00:35:17,865 --> 00:35:20,326
+เอาล่ะ สาเหตุการตายคืออะไร?
+
+430
+00:35:21,911 --> 00:35:23,371
+ไม่มีเลยสักอัน
+
+431
+00:35:24,413 --> 00:35:26,207
+พวกเขาไม่ได้ตาย
+
+432
+00:35:32,880 --> 00:35:35,383
+ไม่เป็นไรครับ ไม่มีอันตรายอะไร
+
+433
+00:35:35,466 --> 00:35:38,761
+พวกเขาแค่นั่งอยู่ตรงนั้น
+
+434
+00:35:39,220 --> 00:35:42,223
+ไม่มีการเต้นของหัวใจ ไม่มีสัญญาณชีพใดๆ ทั้งสิ้น
+
+435
+00:35:42,890 --> 00:35:46,227
+พวกเขาไม่ตายหรอก
+
+436
+00:35:46,519 --> 00:35:49,814
+แล้วพวกเขาก็เพิ่งถูกทิ้งไว้ที่นี่ ไม่มีใครทำอะไรเลยเหรอ
+
+437
+00:35:49,897 --> 00:35:52,775
+ฉันพยายามทำให้พวกเขาสบายใจ มีอะไรอีกไหม?
+
+438
+00:35:52,859 --> 00:35:54,735
+แค่คุณคนเดียวเหรอ? คุณเป็นคนเดียวที่นี่
+
+439
+00:35:54,819 --> 00:35:58,573
+ก่อนสงครามครั้งนี้จะเริ่ม ฉันเป็นทั้งพ่อและปู่
+
+440
+00:35:58,739 --> 00:36:02,118
+ตอนนี้ฉันไม่ได้เป็นทั้งสองอย่าง แต่ฉันยังเป็นหมออยู่
+
+441
+00:36:02,702 --> 00:36:05,496
+ใช่ ฉันรู้ความรู้สึกนั้น
+
+442
+00:36:05,580 --> 00:36:09,917
+ฉันสงสัยว่าแผนคือการระเบิดโรงพยาบาลและโยนความผิดให้กับระเบิดของเยอรมัน
+
+443
+00:36:10,084 --> 00:36:12,336
+- อาจจะสายเกินไปแล้ว - ฉันรู้
+
+444
+00:36:12,420 --> 00:36:14,714
+มีบางกรณีแยกกันอยู่
+
+445
+00:36:17,675 --> 00:36:21,220
+มีผู้ติดเชื้อแยกรายรายกระจายทั่วลอนดอน
+
+446
+00:36:21,262 --> 00:36:22,680
+อยู่ข้างหลัง
+
+447
+00:36:24,974 --> 00:36:28,978
+ฟังฉันนะ ชั้นบนสุด
+
+448
+00:36:29,103 --> 00:36:30,980
+ห้อง 802.
+
+449
+00:36:31,022 --> 00:36:34,567
+นั่นคือที่ที่พวกเขานำเหยื่อรายแรกไป เหยื่อจากจุดเกิดเหตุ
+
+450
+00:36:34,692 --> 00:36:37,236
+- แล้วคุณจะต้องพบแนนซี่อีกครั้ง - แนนซี่?
+
+451
+00:36:37,361 --> 00:36:38,821
+มันเป็นพี่ชายของเธอ
+
+452
+00:36:39,655 --> 00:36:43,701
+เธอรู้มากกว่าที่เธอพูด เธอจะไม่บอกฉัน แต่เธอ...
+
+453
+00:36:49,832 --> 00:36:52,418
+มัมมี่.
+
+454
+00:36:55,379 --> 00:36:59,425
+คุณเป็นของฉัน...
+
+455
+00:36:59,508 --> 00:37:01,928
+มัมมี่เหรอ?
+
+456
+00:37:32,959 --> 00:37:34,835
+สวัสดี?
+
+457
+00:37:34,919 --> 00:37:36,045
+สวัสดี?
+
+458
+00:37:37,338 --> 00:37:37,964
+สวัสดี?
+
+459
+00:37:41,759 --> 00:37:43,803
+สวัสดีตอนเย็น หวังว่าเราคงไม่ได้ขัดจังหวะนะ
+
+460
+00:37:43,928 --> 00:37:46,764
+แจ็ค ฮาร์กเนส ฉันได้ยินเรื่องของคุณมาตลอดระหว่างทางมาที่นี่
+
+461
+00:37:46,889 --> 00:37:50,518
+เขารู้ ฉันต้องบอกเขา เรื่องที่เราเป็น Time Agents
+
+462
+00:37:52,103 --> 00:37:54,897
+และผมมีความยินดีอย่างยิ่งที่ได้พบคุณ มิสเตอร์สป็อค
+
+463
+00:37:57,817 --> 00:37:59,110
+มิสเตอร์สป็อคเหรอ?
+
+464
+00:37:59,193 --> 00:38:01,696
+ฉันจะพูดอะไรได้ล่ะ คุณไม่มีชื่อ
+
+465
+00:38:01,779 --> 00:38:04,115
+ไม่เคยเบื่อ "Doctor" บ้างเหรอ Doctor Who?
+
+466
+00:38:04,198 --> 00:38:06,450
+เก้าศตวรรษผ่านไป ฉันรับมือได้แล้ว คุณหายไปไหนมา
+
+467
+00:38:06,575 --> 00:38:09,620
+เรากำลังอยู่ในช่วงกลางของการโจมตีลอนดอน ไม่ใช่เวลาที่จะเดินเล่น
+
+468
+00:38:09,704 --> 00:38:12,290
+ใครเดินเล่น? ผมไปบอลลูนบาราจครับ
+
+469
+00:38:12,415 --> 00:38:14,750
+- ทางเดียวที่จะเห็นการโจมตีทางอากาศ - อะไรนะ?
+
+470
+00:38:14,834 --> 00:38:17,003
+ฟังนะ เรือรบชูล่าคืออะไร?
+
+471
+00:38:18,671 --> 00:38:19,880
+จุฬา?
+
+472
+00:38:26,262 --> 00:38:28,806
+ขอร้องนะแม่ ให้ฉันเข้าไปหน่อย
+
+473
+00:38:28,931 --> 00:38:31,350
+ฉันกลัวระเบิดค่ะแม่
+
+474
+00:38:31,600 --> 00:38:33,102
+ขอร้องนะคะคุณแม่
+
+475
+00:38:35,938 --> 00:38:37,315
+มัมมี่.
+
+476
+00:38:38,733 --> 00:38:40,443
+มัมมี่.
+
+477
+00:38:57,626 --> 00:39:00,755
+เป็นไปไม่ได้เลย มันเกิดขึ้นได้ยังไง?
+
+478
+00:39:01,047 --> 00:39:03,299
+- เรือชูล่าแบบไหนมาลงที่นี่? - อะไรนะ?
+
+479
+00:39:03,341 --> 00:39:04,842
+เขาบอกว่ามันเป็นเรือรบ
+
+480
+00:39:04,925 --> 00:39:07,094
+เขาขโมยมันแล้วจอดไว้ที่ไหนสักแห่งที่นั่น
+
+481
+00:39:07,219 --> 00:39:10,431
+ระเบิดคงจะตกลงไปที่ไหนสักแห่ง เว้นแต่เราจะเสนอราคาให้เขา
+
+482
+00:39:10,514 --> 00:39:12,892
+- เรือรบประเภทไหน? - สำคัญไหม?
+
+483
+00:39:13,017 --> 00:39:14,310
+มันไม่มีอะไรเกี่ยวข้องกับเรื่องนี้เลย
+
+484
+00:39:14,393 --> 00:39:17,938
+เรื่องนี้เริ่มต้นที่จุดวางระเบิด เกี่ยวข้องทุกอย่างเลย
+
+485
+00:39:18,022 --> 00:39:20,274
+- เรือรบประเภทไหน? - รถพยาบาล.
+
+486
+00:39:22,359 --> 00:39:26,322
+ดูสิ นั่นคือสิ่งที่นายไล่ตามผ่านวังวนแห่งกาลเวลา
+
+487
+00:39:26,739 --> 00:39:31,077
+มันคือขยะอวกาศ ฉันอยากจะหลอกคุณว่ามันมีค่า แต่ว่ามันว่างเปล่า
+
+488
+00:39:31,368 --> 00:39:33,579
+ฉันแน่ใจว่ามันไม่มีอะไรเลยนอกจากเปลือกหอย
+
+489
+00:39:33,704 --> 00:39:35,122
+ฉันโยนมันไปที่คุณแล้ว
+
+490
+00:39:35,247 --> 00:39:38,459
+เห็นรถเดินทางข้ามเวลาของคุณแล้ว ชอบรูปลักษณ์ย้อนยุคนะ
+
+491
+00:39:38,501 --> 00:39:41,379
+- แผงสวยดีครับ โยนเหยื่อให้... - เหยื่อเหรอ?
+
+492
+00:39:41,837 --> 00:39:45,466
+ฉันอยากจะขายมันให้คุณ แล้วก็ทำลายมันก่อนที่คุณจะพบว่ามันเป็นขยะ
+
+493
+00:39:45,549 --> 00:39:48,844
+- คุณบอกว่ามันเป็นเรือรบ - ในสงครามเขามีรถพยาบาล
+
+494
+00:39:51,889 --> 00:39:54,308
+มันเป็นการหลอกลวง ฉันหลอกคุณ
+
+495
+00:39:54,392 --> 00:39:57,728
+นั่นแหละ ฉันคือคนต้มตุ๋น นึกว่าคุณเป็นสายลับข้ามเวลาซะอีก
+
+496
+00:39:57,812 --> 00:40:00,940
+- คุณไม่ใช่เหรอ? - แค่ฟรีแลนซ์อีกสองสามคน
+
+497
+00:40:01,023 --> 00:40:05,403
+โอ้! น่าจะรู้ว่าพวกคุณเข้ากันได้ดีกับสีสันท้องถิ่นขนาดไหน
+
+498
+00:40:05,486 --> 00:40:08,322
+Flag Girl ก็แย่พอแล้ว แต่กัปตันเรือดำน้ำล่ะ?
+
+499
+00:40:09,448 --> 00:40:14,286
+อย่างไรก็ตาม สิ่งที่เกิดขึ้นที่นี่ไม่เกี่ยวอะไรกับเรือลำนั้นเลย
+
+500
+00:40:14,370 --> 00:40:16,789
+ที่นี่เกิดอะไรขึ้นคะคุณหมอ?
+
+501
+00:40:17,915 --> 00:40:20,209
+DNA ของมนุษย์กำลังถูกเขียนใหม่
+
+502
+00:40:20,709 --> 00:40:22,878
+- ไอ้โง่ - หมายความว่ายังไง?
+
+503
+00:40:22,962 --> 00:40:26,799
+ฉันไม่รู้สิ ไวรัสอะไรสักอย่าง ที่เปลี่ยนมนุษย์ให้เป็นสิ่งมีชีวิตพวกนี้
+
+504
+00:40:26,882 --> 00:40:29,677
+แต่ทำไม? มันมีประเด็นอะไร?
+
+505
+00:40:33,013 --> 00:40:34,140
+มัมมี่.
+
+506
+00:40:38,060 --> 00:40:39,687
+แม่ของฉันอยู่ไหน?
+
+507
+00:40:41,021 --> 00:40:42,273
+มัมมี่.
+
+508
+00:41:09,425 --> 00:41:11,135
+คุณเป็นแม่ของฉันใช่ไหม?
+
+509
+00:41:16,640 --> 00:41:18,267
+มัมมี่.
+
+510
+00:41:18,976 --> 00:41:20,644
+มัมมี่.
+
+511
+00:41:20,728 --> 00:41:22,688
+มัมมี่.
+
+512
+00:41:22,771 --> 00:41:25,357
+-เกิดอะไรขึ้น?-ฉันไม่รู้.
+
+513
+00:41:30,654 --> 00:41:31,906
+มัมมี่.
+
+514
+00:41:32,490 --> 00:41:34,617
+ฉันเอง แนนซี่
+
+515
+00:41:36,785 --> 00:41:38,204
+อย่าให้พวกเขาแตะต้องคุณ
+
+516
+00:41:38,287 --> 00:41:41,415
+- ถ้าเขาสัมผัสเราแล้วจะเป็นไง - คุณมองดูมันสิ
+
+517
+00:41:43,459 --> 00:41:47,630
+- คุณเป็นแม่ของฉันใช่ไหม? - ฉันชื่อแนนซี่ น้องสาวของคุณ
+
+518
+00:41:51,050 --> 00:41:53,802
+คุณตายแล้ว เจมี่ คุณตายแล้ว
+
+519
+00:41:53,928 --> 00:41:56,013
+มัมมี่.
+
+520
+00:41:56,472 --> 00:41:59,016
+มัมมี่.
+
+521
+00:41:59,099 --> 00:42:01,727
+แม่ แม่...
+
+522
+00:42:02,728 --> 00:42:05,898
+- คุณแม่ค่ะ - คุณแม่ค่ะ
+
+523
+00:42:06,440 --> 00:42:07,983
+มัมมี่...
+
+524
+00:42:52,319 --> 00:42:55,281
+ฉันไม่รู้ว่าเกิดอะไรขึ้น แต่ฉันไม่มีส่วนเกี่ยวข้องใดๆ
+
+525
+00:42:55,364 --> 00:42:56,657
+ฉันจะเล่าให้คุณฟังว่าเกิดอะไรขึ้น
+
+526
+00:42:56,740 --> 00:42:59,618
+คุณลืมตั้งนาฬิกาปลุก วันนี้เป็นวันภูเขาไฟนะ
+
+527
+00:43:00,411 --> 00:43:02,329
+ประตูบานนั้นน่าจะช่วยได้สักพักหนึ่ง
+
+528
+00:43:02,413 --> 00:43:04,456
+ประตูเหรอ? กำแพงก็ขวางมันไม่ได้
+
+529
+00:43:04,999 --> 00:43:06,542
+หยุด อย่าขยับ
+
+530
+00:43:06,667 --> 00:43:08,544
+ไปเลย ถามฉันอะไรก็ได้ ฉันตื่นเต้นมาก
+
+531
+00:43:08,669 --> 00:43:10,921
+คุณมีท่าไม้ตายแล้ว แสดงท่าไม้ตายของคุณให้ฉันดูหน่อย
+
+532
+00:43:11,005 --> 00:43:13,424
+โลกไม่ได้ล่มสลายเพราะว่าหมอเต้นรำ
+
+533
+00:43:13,549 --> 00:43:14,717
+อยู่ข้างหลัง
+
+534
+00:43:16,135 --> 00:43:17,219
+มัมมี่.
+
+535
+00:43:17,886 --> 00:43:19,430
+- คุณหมอ - ล็อคประตูให้แน่น
+
+536
+00:43:19,555 --> 00:43:20,973
+- ทำไม? - ทำเลยสิ
+
+537
+00:43:21,098 --> 00:43:24,268
+อาวุธเทคโนโลยีทั้งหมดอยู่ในมือของเด็กสี่ขวบที่กำลังตื่นตระหนก
+
+538
+00:43:24,393 --> 00:43:25,811
+กำลังตามหามัมมี่ของเขา
+
+539
+00:43:25,894 --> 00:43:28,188
+และไม่มีอะไรในโลกสามารถหยุดมันได้

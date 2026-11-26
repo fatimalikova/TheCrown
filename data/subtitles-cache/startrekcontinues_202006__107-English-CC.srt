@@ -1,0 +1,2534 @@
+1
+00:00:04,242 --> 00:00:07,101
+KIRK (VO):
+Captain's log, stardate 6295.3. 
+
+2
+00:00:07,242 --> 00:00:10,820
+Starfleet Command has ordered the
+Enterprise to the Aldebaran sector. 
+
+3
+00:00:11,133 --> 00:00:14,312
+Meanwhile, Spock and I have been
+recalled to the starbase...
+
+4
+00:00:14,344 --> 00:00:17,196
+...at Corinth 4 for a classified briefing.
+
+5
+00:00:17,867 --> 00:00:19,617
+Thirty minutes 'til planetfall, captain.
+
+6
+00:00:20,031 --> 00:00:22,445
+Thanks for taking your free time to
+bring us here, Sulu.
+
+7
+00:00:22,758 --> 00:00:24,649
+Sir, may I point out...
+
+8
+00:00:24,687 --> 00:00:29,031
+...as the communique only instructed
+you and myself to report to the starbase...
+
+9
+00:00:29,328 --> 00:00:32,088
+I would have been perfectly
+capable of piloting the shuttle.
+
+10
+00:00:32,310 --> 00:00:35,409
+Then I wouldn't have the chance
+to see the museum at Corinth 4.
+
+11
+00:00:35,434 --> 00:00:39,732
+They have the most extensive collection
+of historical firearms in the quadrant.
+
+12
+00:00:39,797 --> 00:00:41,998
+- It's a dream come true.
+- I see.
+
+13
+00:00:42,388 --> 00:00:46,657
+Doctor, do your interests also
+extend to historical firearms?
+
+14
+00:00:46,787 --> 00:00:51,019
+Absolutely, Mr. Spock. I've always
+had a passion for handheld weaponry.
+
+15
+00:00:58,834 --> 00:01:01,505
+We're near several Orion colonies.
+
+16
+00:01:01,530 --> 00:01:06,193
+I'm using my off-time to perform studies on
+social shifts within the Syndicate.
+
+17
+00:01:06,281 --> 00:01:09,303
+Since the Zaminhon incident.
+
+18
+00:01:09,459 --> 00:01:12,997
+- Has there been any progress with that?
+- Perhaps.
+
+19
+00:01:13,115 --> 00:01:18,935
+Perhaps a little too much.
+There're a lot of very angry people.
+
+20
+00:01:19,092 --> 00:01:22,490
+Angry enough to start
+another civil war?
+
+21
+00:01:23,779 --> 00:01:27,959
+Historically, oppression of any
+segment of a given population...
+
+22
+00:01:27,984 --> 00:01:30,772
+...has lead to disastrous
+long-term results.
+
+23
+00:01:30,796 --> 00:01:33,740
+True, but that doesn't mean
+the past can't be overcome.
+
+24
+00:01:33,803 --> 00:01:36,752
+My mother used to tell me
+stories of my great, great...
+
+25
+00:01:36,776 --> 00:01:39,525
+great, great...
+great, great grandfather...
+
+26
+00:01:39,584 --> 00:01:43,236
+...who grew up in an internment camp
+during Earth's Second World War.
+
+27
+00:01:43,705 --> 00:01:46,010
+If he could only see me now.
+
+28
+00:01:46,244 --> 00:01:50,307
+Well, it's the 23rd century.
+Anything's possible.
+
+29
+00:02:20,357 --> 00:02:22,935
+Gentlemen.
+Welcome to Corinth 4.
+
+30
+00:02:23,150 --> 00:02:26,197
+- May I offer you a drink?
+- Oh my.
+
+31
+00:02:26,373 --> 00:02:28,170
+Is this what I think it is?
+
+32
+00:02:28,248 --> 00:02:31,978
+Well, it depends on what you think it is.
+But your odds are good.
+
+33
+00:02:34,283 --> 00:02:38,033
+One of the advantages of being light
+years away from Federation headquarters.
+
+34
+00:02:38,388 --> 00:02:41,884
+You might need it after
+what I've got to say.
+
+35
+00:02:42,549 --> 00:02:45,259
+Mr. Spock?
+Ease the nerves.
+
+36
+00:02:45,362 --> 00:02:47,749
+Thank you, captain.
+That won't be necessary.
+
+37
+00:02:48,740 --> 00:02:50,869
+So, commodore. To what do we owe this pleasure?
+
+38
+00:02:51,963 --> 00:02:56,474
+Captain, um, I know that you
+and I have had our differences.
+
+39
+00:02:56,767 --> 00:03:00,068
+Under the circumstances I
+hope we can move past that.
+
+40
+00:03:03,467 --> 00:03:06,025
+The crew of the Hood has been lost.
+
+41
+00:03:08,076 --> 00:03:10,654
+Lost?
+
+42
+00:03:13,818 --> 00:03:17,529
+Your communique was rather vague.
+
+43
+00:03:17,554 --> 00:03:21,006
+Life-support systems failure.
+
+44
+00:03:22,451 --> 00:03:27,295
+There's no reason to suspect foul
+play. Just an unfortunate accident.
+
+45
+00:03:27,646 --> 00:03:30,732
+Very unfortunate.
+
+46
+00:03:31,240 --> 00:03:33,271
+Indeed.
+
+47
+00:03:33,701 --> 00:03:38,545
+The ship is still intact. The Enterprise
+has been sent to bring her home.
+
+48
+00:03:39,076 --> 00:03:43,881
+You still haven't said...
+Why are we here?
+
+49
+00:03:44,115 --> 00:03:47,709
+You, Jim, are here as a
+professional courtesy.
+
+50
+00:03:47,748 --> 00:03:52,826
+I thought you'd want to be present
+to hear what I have to say.
+
+51
+00:03:54,935 --> 00:03:58,529
+The Hood will need a new
+crew and a new captain.
+
+52
+00:03:58,554 --> 00:04:02,787
+The Lexington is gone.
+What about Commodore Wesley?
+
+53
+00:04:03,021 --> 00:04:06,029
+He's put in for early retirement.
+
+54
+00:04:07,513 --> 00:04:10,599
+I don't have to point this
+out to you but our fleet
+
+55
+00:04:10,624 --> 00:04:13,709
+has suffered extensive losses
+in the last few years.
+
+56
+00:04:13,998 --> 00:04:16,381
+The Farragut's being decommissioned?
+
+57
+00:04:17,240 --> 00:04:20,990
+We only have 7 Constitution-class
+starships in service.
+
+58
+00:04:21,029 --> 00:04:24,271
+We need experienced
+officers on those bridges.
+
+59
+00:04:24,428 --> 00:04:29,037
+I know of only one candidate who is
+qualified to assume command of the Hood.
+
+60
+00:04:42,198 --> 00:04:46,378
+Congratulations...
+Captain Spock.
+
+61
+00:04:58,995 --> 00:05:00,244
+KIRK (VO):
+Space.
+
+62
+00:05:00,362 --> 00:05:03,018
+The final frontier.
+
+63
+00:05:09,932 --> 00:05:13,721
+These are the voyages of the
+Starship Enterprise.
+
+64
+00:05:13,746 --> 00:05:18,643
+Its continuing mission:
+to explore strange new worlds.
+
+65
+00:05:19,034 --> 00:05:22,667
+To seek out new life
+and new civilizations.
+
+66
+00:05:22,917 --> 00:05:26,120
+To boldly go
+where no man has gone before.
+
+67
+00:06:00,706 --> 00:06:04,768
+SCOTT (VO):
+Ship's log, stardate 6295.5.
+Lieutenant Commander Scott in command.
+
+68
+00:06:04,964 --> 00:06:07,250
+The Enterprise has been sent
+to salvage the USS Hood near
+
+69
+00:06:07,275 --> 00:06:09,441
+the edge of Federation
+territory in the Beta Quadrant.
+
+70
+00:06:10,823 --> 00:06:13,128
+No unusual transmissions, Mr. Scott.
+
+71
+00:06:13,206 --> 00:06:17,362
+The Hood was investigating a subspace
+anomaly when life support failed.
+
+72
+00:06:19,925 --> 00:06:21,566
+Astrophysical analysis.
+
+73
+00:06:21,644 --> 00:06:25,667
+It's possible they didn't compensate
+properly for the gravitational effects.
+
+74
+00:06:25,974 --> 00:06:30,271
+- All hands...
+- And we wonder why man wasn't born with wings.
+
+75
+00:06:30,467 --> 00:06:33,397
+It's a risk we all take when we
+sign up for the service, laddie.
+
+76
+00:06:33,592 --> 00:06:37,967
+Those 400 souls knew that.
+Still, it doesn't make it any easier.
+
+77
+00:06:40,935 --> 00:06:43,865
+- Maintain course.
+- Yes, sir.
+
+78
+00:06:44,178 --> 00:06:46,912
+Arrival at Aldebaran 3 in one hour.
+
+79
+00:06:46,937 --> 00:06:50,857
+Inform Starfleet.
+Scott to engineering. Ready tractor beam.
+
+80
+00:06:50,935 --> 00:06:53,708
+Let's tow this lass back to port.
+
+81
+00:06:58,240 --> 00:07:02,771
+Well. To the new captain of the USS Hood.
+
+82
+00:07:03,631 --> 00:07:08,357
+I must confess I don't cherish the
+idea of losing my best officer.
+
+83
+00:07:08,382 --> 00:07:13,670
+- But I guess I knew this day would come.
+- One moment, gentlemen.
+
+84
+00:07:13,787 --> 00:07:18,748
+There may be a… "complication." Another
+officer had applied for the position.
+
+85
+00:07:18,773 --> 00:07:21,115
+Commander Garrett
+from Earth Spacedock.
+
+86
+00:07:21,271 --> 00:07:26,342
+Garrett?
+Very experienced officer.
+
+87
+00:07:26,498 --> 00:07:30,600
+Starfleet felt she wouldn't be
+best "suited" for command.
+
+88
+00:07:30,638 --> 00:07:33,255
+With all due respect to Mr. Spock...
+
+89
+00:07:33,451 --> 00:07:35,912
+Garrett has an exemplary service record.
+
+90
+00:07:36,303 --> 00:07:39,076
+Well, it seems that Commander
+Garrett agrees with you.
+
+91
+00:07:39,101 --> 00:07:42,514
+She's filed an appeal
+with Starfleet Command.
+
+92
+00:07:42,553 --> 00:07:46,147
+She asserts that she's been
+selectively overlooked.
+
+93
+00:07:46,224 --> 00:07:47,904
+Because she's a woman.
+
+94
+00:07:51,068 --> 00:07:55,443
+Does she have any... basis
+for that complaint?
+
+95
+00:07:57,217 --> 00:08:01,670
+The United Federation of Planets was
+formed over a hundred years ago
+
+96
+00:08:01,826 --> 00:08:07,959
+by an unprecedented alliance of Humans,
+Vulcans, Andorians, and Tellarites.
+
+97
+00:08:07,984 --> 00:08:10,928
+The Romulan threat was
+significant at that time.
+
+98
+00:08:10,953 --> 00:08:16,045
+It was vital for Earth to ally itself
+with other major powers in the region.
+
+99
+00:08:16,070 --> 00:08:20,732
+Military powers. You've dealt
+with Tellarites, captain?
+
+100
+00:08:21,318 --> 00:08:24,677
+I've had the...
+"distinct pleasure."
+
+101
+00:08:24,756 --> 00:08:28,584
+Then let me be frank. The men of Tellar
+Prime are an adversarial people.
+
+102
+00:08:28,662 --> 00:08:32,412
+Their culture is based on
+insults... arguments... hostility.
+
+103
+00:08:32,607 --> 00:08:35,185
+They make excellent politicians.
+
+104
+00:08:35,303 --> 00:08:39,405
+My father and I have both navigated
+the Tellarites' enmity firsthand.
+
+105
+00:08:39,482 --> 00:08:42,756
+Then you understand. Without
+Tellar's resources...
+
+106
+00:08:42,781 --> 00:08:45,756
+...the Earth stood little chance to survive
+the Romulan incursion.
+
+107
+00:08:45,826 --> 00:08:49,146
+Commodore. With all due respect to
+the history lesson...
+
+108
+00:08:49,171 --> 00:08:53,561
+Tellarite society has always frowned on
+females serving as starship captains.
+
+109
+00:08:53,717 --> 00:08:57,623
+- It ALWAYS has.
+- But surely the Federation's not bound...
+
+110
+00:08:57,662 --> 00:09:00,958
+...by the backwards social
+policies of one member species!
+
+111
+00:09:01,063 --> 00:09:02,808
+Not necessarily.
+
+112
+00:09:02,882 --> 00:09:06,440
+But after the controversial admission
+of Coridan, the Tellarites
+
+113
+00:09:06,465 --> 00:09:10,186
+have been "suggesting" they might
+pull their seat from the Council.
+
+114
+00:09:11,959 --> 00:09:15,904
+It would be unwise to
+antagonize them further.
+
+115
+00:09:17,388 --> 00:09:21,451
+- Permission to speak freely, sir.
+- Always.
+
+116
+00:09:21,529 --> 00:09:23,237
+Laura.
+
+117
+00:09:23,524 --> 00:09:27,899
+From the very beginning, Starfleet
+has had female captains.
+
+118
+00:09:28,156 --> 00:09:32,272
+- You, yourself, are a perfect example.
+- I'm in command of a starbase.
+
+119
+00:09:32,296 --> 00:09:34,459
+Not a Constitution-class starship.
+
+120
+00:09:35,828 --> 00:09:39,266
+I sympathize with your
+feelings, believe me.
+
+121
+00:09:39,290 --> 00:09:42,429
+Of all people... I sympathize.
+
+122
+00:09:42,546 --> 00:09:48,132
+Sir. Despite the present lack
+of female starship captains
+
+123
+00:09:48,171 --> 00:09:51,843
+I do not believe there is any
+formal regulation against it.
+
+124
+00:09:51,882 --> 00:09:53,757
+Not officially.
+
+125
+00:09:53,835 --> 00:09:57,468
+And while I am honored
+by the offer...
+
+126
+00:09:57,663 --> 00:10:02,077
+If Commander Garrett indeed posseses
+qualifications greater than I...
+
+127
+00:10:02,234 --> 00:10:04,700
+it would be unethical for
+her to be passed over
+
+128
+00:10:04,725 --> 00:10:06,984
+for promotion simply
+because she is a woman.
+
+129
+00:10:07,507 --> 00:10:10,007
+I agree.
+
+130
+00:10:12,156 --> 00:10:15,398
+She deserves the ship, commodore.
+
+131
+00:10:16,101 --> 00:10:19,031
+I see. Well...
+
+132
+00:10:19,056 --> 00:10:23,328
+I don't envy the person that has to explain
+that to the Tellarite ambassador.
+
+133
+00:10:46,033 --> 00:10:47,713
+Enter.
+
+134
+00:10:50,720 --> 00:10:52,595
+Settling in, I see.
+
+135
+00:10:52,620 --> 00:10:55,031
+As it is unknown how long I
+shall reside here...
+
+136
+00:10:55,056 --> 00:10:58,478
+Logic dictates I arrange my
+quarters to my liking.
+
+137
+00:10:59,353 --> 00:11:03,181
+- Makes sense.
+- Captain...
+
+138
+00:11:03,206 --> 00:11:08,220
+After careful consideration, I have
+concluded that logic also dictates...
+
+139
+00:11:08,245 --> 00:11:11,228
+I may be the more suitable
+candidate for the position.
+
+140
+00:11:11,540 --> 00:11:15,251
+I must consider the possibility that
+Starfleet was correct in their assessment.
+
+141
+00:11:15,276 --> 00:11:19,665
+This is about more than logic, Spock.
+It's about fairness.
+
+142
+00:11:21,423 --> 00:11:24,939
+My God. After all we've overcome...
+
+143
+00:11:25,056 --> 00:11:27,986
+We shouldn't even be
+having this conversation.
+
+144
+00:11:28,181 --> 00:11:33,220
+My position is not based upon
+Commander Garrett's gender.
+
+145
+00:11:33,392 --> 00:11:35,392
+Well maybe it SHOULD be.
+
+146
+00:11:35,564 --> 00:11:38,572
+Despite our charter... our values...
+
+147
+00:11:38,597 --> 00:11:42,283
+Starfleet has never given a woman command
+of a Constitution-class starship.
+
+148
+00:11:43,990 --> 00:11:48,287
+I'd like to tell myself that it's just
+been the way the cards fell...
+
+149
+00:11:48,561 --> 00:11:51,295
+But perhaps there's a greater good
+to be considered here.
+
+150
+00:11:51,842 --> 00:11:54,582
+If the goal is to nominate
+a woman for the post,
+
+151
+00:11:54,607 --> 00:11:57,178
+Commodore Gray would be the
+more appropriate choice.
+
+152
+00:11:57,232 --> 00:11:59,771
+She doesn't want the ship.
+
+153
+00:12:00,826 --> 00:12:04,264
+Apparently, Garrett's
+on her way here.
+
+154
+00:12:04,654 --> 00:12:08,873
+The commodore wants me to interview her.
+Draw my own conclusions.
+
+155
+00:12:09,068 --> 00:12:11,841
+But I must be honest, Spock.
+
+156
+00:12:12,311 --> 00:12:14,889
+I can't imagine the Hood with a
+better captain than Garrett.
+
+157
+00:12:15,217 --> 00:12:16,780
+Perhaps.
+
+158
+00:12:17,209 --> 00:12:21,779
+But perhaps you simply cannot
+imagine the Enterprise without me.
+
+159
+00:12:26,662 --> 00:12:29,318
+I appreciate your confidence.
+
+160
+00:12:29,343 --> 00:12:32,795
+I, too, would find leaving the
+ship to be -- most difficult.
+
+161
+00:12:32,951 --> 00:12:36,389
+But you cannot allow that
+to weigh on your decision.
+
+162
+00:12:37,053 --> 00:12:39,475
+How could it not?
+
+163
+00:12:40,764 --> 00:12:42,795
+I'm only human, Spock.
+
+164
+00:12:43,811 --> 00:12:45,725
+Captain...
+
+165
+00:12:45,803 --> 00:12:49,826
+I took the liberty of accessing
+Commander Garrett's fitness reports.
+
+166
+00:12:49,851 --> 00:12:52,392
+I recommend reading them prior to your
+meeting.
+
+167
+00:12:52,627 --> 00:12:56,220
+You may find them informative.
+
+168
+00:13:15,622 --> 00:13:18,200
+Sir. We're within sensor
+range of the Hood.
+
+169
+00:13:18,695 --> 00:13:21,247
+All stop. That'll be
+close enough for now.
+
+170
+00:13:21,611 --> 00:13:23,252
+All stop.
+
+171
+00:13:28,174 --> 00:13:31,143
+No life signs.
+
+172
+00:13:32,146 --> 00:13:36,703
+Keep an eye out for subspace eddies. We
+don't want the same thing to happen to us.
+
+173
+00:13:38,370 --> 00:13:42,615
+Commander? I'm seeing no unusual
+activity in this system.
+
+174
+00:13:42,875 --> 00:13:45,401
+Confirmed. There's nothing.
+
+175
+00:13:45,454 --> 00:13:49,334
+- But the transmissions clearly said...
+- Aye. An anomaly of some sort.
+
+176
+00:13:50,558 --> 00:13:52,773
+Lieutenant? Scan the
+Hood's EPS grid.
+
+177
+00:13:52,851 --> 00:13:56,391
+Yes sir. Definitely
+been compromised.
+
+178
+00:13:56,521 --> 00:13:58,943
+Is the damage consistent
+with the reports?
+
+179
+00:13:58,995 --> 00:14:02,927
+- Difficult to tell.
+- Shall we rig for tractor beam?
+
+180
+00:14:02,953 --> 00:14:04,829
+Something doesna' feel right.
+
+181
+00:14:04,907 --> 00:14:06,705
+We cannuh risk towing
+her to drydock without
+
+182
+00:14:06,729 --> 00:14:08,446
+knowin' a wee bit more
+about what happened.
+
+183
+00:14:10,673 --> 00:14:13,017
+Commander, if you
+give me some time...
+
+184
+00:14:13,042 --> 00:14:16,637
+I should be able to restore life support
+on her engineering deck remotely.
+
+185
+00:14:16,662 --> 00:14:18,877
+You could get a closer look.
+
+186
+00:14:18,901 --> 00:14:21,767
+Aye. Suppose we must.
+
+187
+00:14:44,137 --> 00:14:46,559
+Diana Garrett reporting as ordered.
+
+188
+00:14:46,663 --> 00:14:48,434
+At ease, commander.
+
+189
+00:14:49,189 --> 00:14:51,533
+I trust your journey from
+Earth was without incident?
+
+190
+00:14:51,620 --> 00:14:54,823
+It was, captain. Thank
+you for asking.
+
+191
+00:14:54,928 --> 00:14:56,378
+Good. Please sit down.
+
+192
+00:14:56,496 --> 00:14:58,527
+Sir.
+
+193
+00:14:58,860 --> 00:15:03,023
+Before we begin, I want
+to stress that I understand my...
+
+194
+00:15:03,048 --> 00:15:06,983
+...protests have "irritated"
+certain flag officers.
+
+195
+00:15:07,063 --> 00:15:11,386
+In my experience, flag
+officers are easily irritated.
+
+196
+00:15:11,411 --> 00:15:16,855
+Believe me, I know. I traveled here
+with Vice Admiral Stomm from ESD.
+
+197
+00:15:16,896 --> 00:15:18,328
+Stomm?
+
+198
+00:15:18,901 --> 00:15:21,245
+Nothing like a
+Vulcan bureaucrat.
+
+199
+00:15:21,480 --> 00:15:24,371
+And yet you survived without
+throwing yourself out the airlock?
+
+200
+00:15:24,395 --> 00:15:28,198
+- Well... barely.
+[THEY LAUGH]
+
+201
+00:15:28,329 --> 00:15:31,975
+So... commander. I've been looking
+at your record.
+
+202
+00:15:32,053 --> 00:15:36,037
+Quite an accomplished officer.
+Rose through the ranks quickly...
+
+203
+00:15:36,115 --> 00:15:39,370
+- Self-made woman.
+- Thank you.
+
+204
+00:15:39,709 --> 00:15:42,886
+I see you served on the Constitution
+before it was decommissioned.
+
+205
+00:15:42,990 --> 00:15:45,803
+Yes. The original.
+
+206
+00:15:46,662 --> 00:15:51,950
+Must've been difficult. The attack on
+Nimbus 3. Losing your captain like that.
+
+207
+00:15:54,026 --> 00:15:56,917
+I'd prefer not to
+discuss the matter, sir.
+
+208
+00:15:58,182 --> 00:15:59,241
+Sorry?
+
+209
+00:15:59,266 --> 00:16:01,995
+I've already said everything there is to
+say about the incident.
+
+210
+00:16:02,020 --> 00:16:04,860
+Turned over all my logs to Starfleet.
+Including my personal logs.
+
+211
+00:16:04,885 --> 00:16:07,021
+I'm certain that's true.
+
+212
+00:16:07,360 --> 00:16:10,745
+Captain. My testimony is a matter of record.
+
+213
+00:16:12,672 --> 00:16:16,083
+Now, with your permission... I would
+like to retire to my quarters.
+
+214
+00:16:16,318 --> 00:16:19,339
+It's been 24 Earth hours
+since I've slept.
+
+215
+00:16:24,125 --> 00:16:27,406
+Certainly, commander.
+Get yourself some rest.
+
+216
+00:16:28,214 --> 00:16:30,532
+Thank you.
+
+217
+00:16:41,787 --> 00:16:44,261
+Mister Scott? I've been
+able to restore emergency
+
+218
+00:16:44,286 --> 00:16:46,264
+power to the Hood's
+engineering section.
+
+219
+00:16:46,396 --> 00:16:49,469
+You'll have six -- maybe seven
+hours of oxygen at most.
+
+220
+00:16:49,547 --> 00:16:51,162
+Good work, ensign.
+That'll have to do.
+
+221
+00:16:51,187 --> 00:16:53,818
+Follett? We need to study the
+reactor for gravitational damage.
+
+222
+00:16:53,870 --> 00:16:57,386
+Sir! Request permission to
+join the boarding party!
+
+223
+00:16:57,464 --> 00:16:59,131
+Not this time, lad.
+
+224
+00:16:59,156 --> 00:17:02,010
+Uhura. Prepare for a full scan of the
+Hood's logs. Suit up for salvage.
+
+225
+00:17:02,088 --> 00:17:04,233
+Meet me in the transporter
+room in half an hour.
+
+226
+00:17:04,339 --> 00:17:07,803
+- Sir.
+- Mister Hadley, you have the conn.
+
+227
+00:17:10,735 --> 00:17:13,105
+"Mister Hadley, you have the conn."
+
+228
+00:17:13,130 --> 00:17:15,136
+It's not personal, Pavel.
+
+229
+00:17:15,161 --> 00:17:19,956
+You're a talented navigator.
+But you're not... focused.
+
+230
+00:17:20,397 --> 00:17:23,418
+Command... science... engineering.
+
+231
+00:17:23,548 --> 00:17:26,725
+A jack-of-all-trades
+is a master of none.
+
+232
+00:17:27,063 --> 00:17:30,761
+Find something you really love.
+And stick with it.
+
+233
+00:17:31,074 --> 00:17:33,991
+You never know until you try.
+
+234
+00:17:52,609 --> 00:17:54,562
+[INTERCOM WHISTLES]
+
+235
+00:18:07,922 --> 00:18:09,485
+Doctor.
+
+236
+00:18:09,693 --> 00:18:12,427
+The captain filled me
+in on the situation.
+
+237
+00:18:12,479 --> 00:18:15,265
+I thought I'd check in
+and see how you're doing.
+
+238
+00:18:15,526 --> 00:18:17,036
+Is this a bad time?
+
+239
+00:18:17,245 --> 00:18:19,875
+I was in the midst
+of deep meditation.
+
+240
+00:18:20,370 --> 00:18:21,646
+A bad time, then.
+
+241
+00:18:21,828 --> 00:18:23,755
+I apologize for the interruption.
+
+242
+00:18:23,989 --> 00:18:25,968
+We can talk later if you like.
+
+243
+00:18:27,141 --> 00:18:28,677
+Counselor...
+
+244
+00:18:29,042 --> 00:18:32,245
+I would welcome your advice on this
+matter.
+
+245
+00:18:36,099 --> 00:18:40,188
+It may not be prudent to provoke the
+Tellarites at this time.
+
+246
+00:18:40,631 --> 00:18:44,433
+We both know the Tellarites love to
+make threats, Mr. Spock.
+
+247
+00:18:44,667 --> 00:18:47,219
+Threats on which they
+almost never deliver.
+
+248
+00:18:47,610 --> 00:18:50,058
+I don't think that's the issue.
+
+249
+00:18:51,438 --> 00:18:54,615
+What do you believe
+the issue is, doctor?
+
+250
+00:18:57,401 --> 00:19:01,021
+Acquiring my position on the
+Enterprise was not easy.
+
+251
+00:19:01,438 --> 00:19:04,797
+There were many who believed
+a counselor was unnecessary.
+
+252
+00:19:04,954 --> 00:19:07,494
+But having the requisite
+skills and experience,
+
+253
+00:19:07,519 --> 00:19:10,160
+I never attributed their
+concern to my being a woman.
+
+254
+00:19:11,178 --> 00:19:15,345
+Yet... I've seen enough
+of human nature to know
+
+255
+00:19:15,370 --> 00:19:19,719
+that how we learn to evaluate
+others is a many-layered process.
+
+256
+00:19:19,954 --> 00:19:25,319
+And if bias is present, it is
+often deep and subconscious.
+
+257
+00:19:25,969 --> 00:19:29,849
+As one whose appearance
+has, on occasion,
+
+258
+00:19:29,874 --> 00:19:33,885
+been perceived as the most
+significant element of my identity...
+
+259
+00:19:33,911 --> 00:19:39,329
+I concur that humans -- indeed, all
+races -- are capable of such bias.
+
+260
+00:19:39,615 --> 00:19:42,948
+Both intentionally...
+and unintentionally.
+
+261
+00:19:44,719 --> 00:19:47,610
+I don't know what my future holds, but...
+
+262
+00:19:47,844 --> 00:19:49,693
+if I were ever to have a daughter...
+
+263
+00:19:49,888 --> 00:19:52,974
+I would want her to know that
+any position is within
+
+264
+00:19:52,999 --> 00:19:56,084
+her grasp if she works
+hard enough to achieve it.
+
+265
+00:19:56,295 --> 00:19:58,131
+Without question.
+
+266
+00:19:59,810 --> 00:20:03,096
+But Commander Garrett's
+record has numerous issues
+
+267
+00:20:03,122 --> 00:20:06,553
+which necessitate
+further scrutiny.
+
+268
+00:20:07,076 --> 00:20:08,912
+And tell me, Spock...
+
+269
+00:20:09,420 --> 00:20:15,099
+Would her record be under the same
+degree of scrutiny if she were a man?
+
+270
+00:20:15,787 --> 00:20:18,365
+I believe it would, doctor.
+
+271
+00:20:18,756 --> 00:20:20,514
+But...
+
+272
+00:20:21,178 --> 00:20:23,678
+One can never be certain of
+another's motives.
+
+273
+00:20:24,068 --> 00:20:27,388
+No. We can't.
+
+274
+00:20:28,404 --> 00:20:32,193
+But we can certainly strive
+to be clear about our own.
+
+275
+00:20:40,240 --> 00:20:41,724
+GRAY:
+Captain.
+
+276
+00:20:41,842 --> 00:20:45,826
+I asked you to interview Commander Garrett.
+Not antagonize her.
+
+277
+00:20:45,865 --> 00:20:47,911
+That wasn't my intention, commodore.
+
+278
+00:20:47,936 --> 00:20:50,488
+Intention or not... She
+filed a petition for an
+
+279
+00:20:50,513 --> 00:20:53,146
+immediate decision regarding
+the Hood's captaincy.
+
+280
+00:20:53,171 --> 00:20:54,591
+What's the hurry?
+
+281
+00:20:54,748 --> 00:20:57,751
+Per Starfleet regulations... a
+three-person committee will
+
+282
+00:20:57,776 --> 00:21:00,646
+hold a formal hearing to make
+the final determination.
+
+283
+00:21:00,671 --> 00:21:05,294
+Admiral Stomm... myself... and the next
+senior officer on this starbase.
+
+284
+00:21:05,320 --> 00:21:08,186
+YOU, captain.
+
+285
+00:21:16,976 --> 00:21:19,320
+KIRK (VO):
+Captain's log, supplemental.
+
+286
+00:21:19,345 --> 00:21:23,265
+I was certain of my decision
+regarding the Hood's captaincy.
+
+287
+00:21:23,290 --> 00:21:26,781
+But now, I'm not so sure.
+
+288
+00:21:27,679 --> 00:21:29,593
+[BELL RINGS]
+
+289
+00:21:34,515 --> 00:21:37,288
+This hearing is now in session.
+
+290
+00:21:37,445 --> 00:21:40,297
+I have appointed as
+members of this inquiry:
+
+291
+00:21:40,414 --> 00:21:42,680
+Space Command
+representative Stomm
+
+292
+00:21:42,797 --> 00:21:46,508
+...and USS Enterprise Captain
+James T. Kirk.
+
+293
+00:21:46,898 --> 00:21:49,164
+Commanders Spock and Garrett.
+
+294
+00:21:49,189 --> 00:21:54,164
+You have the right to ask for substitute
+officers if you feel any of these named
+
+295
+00:21:54,189 --> 00:21:57,875
+harbor any prejudice
+to your cases.
+
+296
+00:21:57,914 --> 00:22:01,664
+Do you consent to the service of
+myself as president of this board?
+
+297
+00:22:01,689 --> 00:22:03,773
+- I do, sir.
+- Yes, I do, sir.
+
+298
+00:22:03,812 --> 00:22:08,148
+Very well.
+Mr. Spock. If you please.
+
+299
+00:22:18,935 --> 00:22:21,396
+[COMPUTER WHIRS]
+
+300
+00:22:26,513 --> 00:22:27,724
+Spock.
+
+301
+00:22:27,749 --> 00:22:31,943
+Serial number: S179-276SP.
+
+302
+00:22:32,138 --> 00:22:34,052
+Service rank: commander.
+
+303
+00:22:34,131 --> 00:22:37,372
+Position: first officer;
+science officer.
+
+304
+00:22:37,412 --> 00:22:39,990
+Current assignment: USS Enterprise.
+
+305
+00:22:40,015 --> 00:22:42,583
+Commander Spock's record
+is impeccable, of course.
+
+306
+00:22:42,700 --> 00:22:46,787
+I move that we dispense with the
+formalities. If there are no objections.
+
+307
+00:22:46,826 --> 00:22:48,310
+No, sir.
+
+308
+00:22:48,349 --> 00:22:49,575
+GRAY:
+Oh, I object.
+
+309
+00:22:49,732 --> 00:22:54,888
+I believe Mr. Spock's qualifications
+are material to this decision.
+
+310
+00:22:55,537 --> 00:22:56,904
+Proceed.
+
+311
+00:22:58,388 --> 00:23:02,607
+Commendations: Vulcanian
+Scientific Legion of Honor.
+
+312
+00:23:02,632 --> 00:23:06,865
+Awards of valor: twice decorated
+by Starfleet Command.
+
+313
+00:23:06,904 --> 00:23:08,623
+Thank you.
+
+314
+00:23:09,404 --> 00:23:13,388
+Commander Spock. How long
+have you served in Starfleet?
+
+315
+00:23:13,857 --> 00:23:16,552
+Nineteen years, five
+months, twenty days...
+
+316
+00:23:16,578 --> 00:23:19,217
+And for the majority of that
+time, you functioned
+
+317
+00:23:19,241 --> 00:23:21,279
+as science officer on
+board the Enterprise.
+
+318
+00:23:21,318 --> 00:23:25,654
+Under both Captain Pike, and -- for the
+last four years -- under Captain Kirk.
+
+319
+00:23:25,679 --> 00:23:28,779
+- I have.
+- Commander.
+
+320
+00:23:29,178 --> 00:23:31,873
+If you were transferred
+to the captaincy of the Hood...
+
+321
+00:23:32,420 --> 00:23:35,467
+How would that make you "feel"?
+
+322
+00:23:38,357 --> 00:23:40,286
+Yes. You are Vulcan.
+
+323
+00:23:40,599 --> 00:23:43,412
+But you are also half-human.
+Aren't you?
+
+324
+00:23:44,021 --> 00:23:47,810
+- I am, admiral.
+- Mister Spock...
+
+325
+00:23:48,084 --> 00:23:51,521
+As a student, you were accepted
+to the Vulcan Science Academy.
+
+326
+00:23:51,834 --> 00:23:54,490
+- A tremendous honor.
+- Affirmative.
+
+327
+00:23:54,920 --> 00:23:57,420
+Yet you turned down admission.
+
+328
+00:23:57,732 --> 00:24:02,240
+Did your "human emotions"
+play a role in that decision?
+
+329
+00:24:02,615 --> 00:24:04,060
+No sir. They did not.
+
+330
+00:24:04,217 --> 00:24:07,733
+COMPUTER:
+Inaccurate. Inaccurate. Data in error.
+
+331
+00:24:11,834 --> 00:24:14,959
+The computer would appear to
+disagree with you, commander.
+
+332
+00:24:14,984 --> 00:24:17,381
+I object to this line of
+questioning.
+
+333
+00:24:17,615 --> 00:24:20,115
+Spock is not on trial here.
+
+334
+00:24:20,349 --> 00:24:23,391
+His racial heritage should have no
+bearing on his qualification
+
+335
+00:24:23,416 --> 00:24:26,233
+for this position, any more than
+Commander Garrett's gender should.
+
+336
+00:24:26,279 --> 00:24:29,773
+Captain Kirk. Would you deny
+that every individual's
+
+337
+00:24:29,798 --> 00:24:32,607
+abilities... character...
+judgments... strengths...
+
+338
+00:24:32,632 --> 00:24:38,193
+are -- in part -- shaped by his
+or her heritage? Beliefs? Gender?
+
+339
+00:24:40,200 --> 00:24:46,685
+I know the idea of a female starship
+captain "unsettles" some people.
+
+340
+00:24:46,802 --> 00:24:50,186
+- Doesn't it.
+- I see.
+
+341
+00:24:52,685 --> 00:24:55,107
+Let's "cut to the
+chase," shall we?
+
+342
+00:24:55,498 --> 00:24:59,587
+For the record: I am absolutely convinced
+
+343
+00:24:59,612 --> 00:25:03,911
+that it's time for a woman to
+captain a Constitution-class vessel.
+
+344
+00:25:04,678 --> 00:25:07,061
+But with respect to
+Commander Garrett...
+
+345
+00:25:07,334 --> 00:25:10,772
+I'm not convinced
+she is that woman.
+
+346
+00:25:43,812 --> 00:25:47,523
+The board's damaged. I'll need to
+bypass it to access the ship's logs.
+
+347
+00:25:47,548 --> 00:25:50,507
+Check the intermix ratio at the time
+the engines went offline. I'll get
+
+348
+00:25:50,532 --> 00:25:53,367
+the dilithium chamber open. See how
+bad these crystals have decayed.
+
+349
+00:26:04,515 --> 00:26:08,226
+[BIONIC WHIRRING]
+
+350
+00:26:21,859 --> 00:26:23,890
+COMPUTER:
+Garrett, Diana L.
+
+351
+00:26:24,046 --> 00:26:28,890
+Serial number:
+SC459-033M.
+
+352
+00:26:28,915 --> 00:26:31,185
+Service rank: commander.
+
+353
+00:26:31,210 --> 00:26:33,138
+Position: first officer.
+
+354
+00:26:33,163 --> 00:26:35,872
+Current assignment:
+Earth Spacedock.
+
+355
+00:26:35,898 --> 00:26:39,506
+Commendations: Tucker
+Memorial Medal of Honor.
+
+356
+00:26:39,531 --> 00:26:41,655
+Risian Star of Excellence.
+
+357
+00:26:41,680 --> 00:26:45,678
+Aenar Award for Meritorious Service
+to Disadvantaged Cultures.
+
+358
+00:26:45,703 --> 00:26:49,936
+Awards of valor: four times
+decorated by Starfleet Command.
+
+359
+00:26:50,013 --> 00:26:51,888
+STOMM:
+Commander Garrett.
+
+360
+00:26:52,045 --> 00:26:55,522
+You boast an impressive record
+for your service to Starfleet.
+
+361
+00:26:55,560 --> 00:26:58,724
+STOMM: Very impressive.
+GRAY: Indeed.
+
+362
+00:26:59,115 --> 00:27:03,646
+But there are some questions which this
+court would be remiss not to address.
+
+363
+00:27:03,881 --> 00:27:08,022
+You were part of the ill-fated
+Nimbus 3 landing party, were you not?
+
+364
+00:27:08,568 --> 00:27:10,990
+Those arthropods came
+out of nowhere.
+
+365
+00:27:11,146 --> 00:27:14,544
+Yes. I read your
+statement to Starfleet.
+
+366
+00:27:14,779 --> 00:27:17,826
+I also read the official
+investigation into the incident.
+
+367
+00:27:18,623 --> 00:27:20,381
+Commodore?
+
+368
+00:27:20,810 --> 00:27:23,271
+It suggested "human error."
+
+369
+00:27:23,506 --> 00:27:26,553
+That investigation was conducted
+by a Tellarite officer.
+
+370
+00:27:26,787 --> 00:27:29,536
+I strongly and formally
+contested those findings...
+
+371
+00:27:29,561 --> 00:27:31,529
+I understand that
+you contested them.
+
+372
+00:27:31,763 --> 00:27:35,615
+...and no proof of wrongdoing was
+ever officially determined.
+
+373
+00:27:35,928 --> 00:27:37,373
+"Officially."
+
+374
+00:27:37,398 --> 00:27:39,798
+Yet you -- and two of your
+subordinates -- plead
+
+375
+00:27:39,823 --> 00:27:41,904
+the 7th Guarantee during
+the proceedings...
+
+376
+00:27:41,929 --> 00:27:46,240
+...Which by law may not be inferred
+as an admission of culpability.
+
+377
+00:27:46,265 --> 00:27:49,834
+There are numerous similar
+incidents in your file.
+
+378
+00:27:50,107 --> 00:27:51,709
+Diana.
+
+379
+00:27:51,826 --> 00:27:54,951
+I see two officers sitting in that chair.
+
+380
+00:27:54,976 --> 00:27:58,506
+One with a long history
+of faithful service.
+
+381
+00:27:58,531 --> 00:28:03,975
+And one who reacts with undue hostility
+whenever her judgment is questioned.
+
+382
+00:28:04,209 --> 00:28:06,895
+Perhaps hostility is a
+legitimate reaction when one
+
+383
+00:28:06,920 --> 00:28:09,662
+is subjected to undue scrutiny
+and discrimination.
+
+384
+00:28:14,920 --> 00:28:18,894
+I wish I could assure you that you
+haven't been held to a different
+
+385
+00:28:18,919 --> 00:28:22,717
+standard throughout your career
+because you happen to be a woman.
+
+386
+00:28:23,006 --> 00:28:24,490
+Perhaps you have.
+
+387
+00:28:24,842 --> 00:28:26,365
+Perhaps I have.
+
+388
+00:28:26,560 --> 00:28:29,216
+I honestly don't know.
+
+389
+00:28:29,256 --> 00:28:31,795
+But part of the duty
+of a starship captain
+
+390
+00:28:31,873 --> 00:28:34,178
+...is to learn from mistakes.
+
+391
+00:28:34,203 --> 00:28:37,694
+To face repercussions
+of action... and inaction.
+
+392
+00:28:37,718 --> 00:28:43,255
+And to admit when he -- or
+she -- is in the wrong.
+
+393
+00:28:43,812 --> 00:28:48,318
+I am well aware of the position's
+job requirements, commodore.
+
+394
+00:28:48,396 --> 00:28:51,599
+And as I have testified
+too many times now:
+
+395
+00:28:51,624 --> 00:28:54,255
+I was not in the wrong.
+
+396
+00:29:07,812 --> 00:29:12,968
+Follett? The logs I've managed to download
+are consistent with a subspace disruption.
+
+397
+00:29:12,993 --> 00:29:14,804
+But here...
+
+398
+00:29:15,468 --> 00:29:19,491
+- The rift... it disappeared!
+- What do you make of it?
+
+399
+00:29:19,960 --> 00:29:22,148
+I've never seen anything like that before.
+
+400
+00:29:22,812 --> 00:29:24,921
+[SHIP SHUDDERS]
+[RED ALERT KLAXON]
+
+401
+00:29:30,156 --> 00:29:32,500
+What in the name of...?
+
+402
+00:29:33,906 --> 00:29:35,547
+Close the chamber!
+
+403
+00:29:36,015 --> 00:29:39,804
+Sir, I'm reading a massive power
+surge in the Hood's engines!
+
+404
+00:29:40,429 --> 00:29:44,218
+Enterprise! We've got a containment
+failure! Get us out of here!
+
+405
+00:29:44,296 --> 00:29:46,523
+Bridge to transporter room!
+Energize!
+
+406
+00:29:46,548 --> 00:29:49,726
+Their deflector screens have activated!
+It's impossible to get a lock!
+
+407
+00:29:50,898 --> 00:29:53,515
+We can't bring them back!
+
+408
+00:30:05,108 --> 00:30:08,023
+Scott to Enterprise! The
+reactor's at "critical"!
+
+409
+00:30:08,765 --> 00:30:11,968
+Sir... there's nothing I can do!
+Can you jettison the core?
+
+410
+00:30:14,390 --> 00:30:16,538
+Circuits are fused!
+
+411
+00:30:18,687 --> 00:30:20,796
+How much time?
+
+412
+00:30:22,046 --> 00:30:24,976
+Minutes? Seconds?
+
+413
+00:30:25,640 --> 00:30:27,671
+Impossible to tell.
+
+414
+00:30:34,468 --> 00:30:36,656
+I'm sorry.
+
+415
+00:30:45,601 --> 00:30:49,976
+Scott to Enterprise. Get
+as far away as possible.
+
+416
+00:30:50,484 --> 00:30:53,453
+Rendezvous with the
+captain at Corinth 4.
+
+417
+00:30:56,115 --> 00:30:57,404
+Commander?
+
+418
+00:30:57,429 --> 00:30:59,357
+Lieutenant, that's a direct order.
+
+419
+00:31:10,295 --> 00:31:12,678
+- Yes, sir.
+- Wait!
+
+420
+00:31:13,771 --> 00:31:17,912
+I have an idea. Permission to take
+weapons subsystems station, sir!
+
+421
+00:31:18,420 --> 00:31:20,061
+Trust me!
+
+422
+00:31:21,037 --> 00:31:22,678
+Go!
+
+423
+00:31:24,045 --> 00:31:27,053
+SCOTT (on comm):
+Enterprise! Get out of here!
+
+424
+00:31:29,435 --> 00:31:31,662
+Mister Hadley! That's a direct order!
+
+425
+00:31:31,951 --> 00:31:33,088
+Chekov...!
+
+426
+00:31:33,113 --> 00:31:35,983
+I might be able to transmit
+duotronic algorithm...
+
+427
+00:31:36,076 --> 00:31:39,279
+Overload signal gain! Force
+computer to drop shields!
+
+428
+00:31:39,304 --> 00:31:42,287
+Are ya daft, ensign? That'll
+short out the whole board!
+
+429
+00:31:43,654 --> 00:31:46,310
+You'll kill yourself, man!
+
+430
+00:31:47,951 --> 00:31:49,943
+The Hood's warp core is critical!
+
+431
+00:31:50,060 --> 00:31:52,950
+[CHEKOV SPEAKS RUSSIAN]
+
+432
+00:32:08,554 --> 00:32:11,679
+Their shields are down! Transporter room!
+Get them out of there!
+
+433
+00:32:37,538 --> 00:32:39,843
+[BELL RINGS]
+
+434
+00:32:43,905 --> 00:32:46,288
+This hearing is now
+back in session.
+
+435
+00:32:46,405 --> 00:32:51,171
+The board will entertain motions
+before delivering its verdict.
+
+436
+00:32:57,226 --> 00:33:00,703
+- Very well.
+- All rise.
+
+437
+00:33:07,224 --> 00:33:09,294
+Admiral?
+
+438
+00:33:09,685 --> 00:33:13,787
+I endorse Commander Garrett for
+promotion to the rank of "captain."
+
+439
+00:33:17,381 --> 00:33:22,850
+I endorse Commander Spock for
+promotion to the rank of "captain."
+
+440
+00:33:25,896 --> 00:33:27,654
+Captain Kirk?
+
+441
+00:33:31,287 --> 00:33:33,435
+[INTERCOM WHISTLES]
+
+442
+00:33:33,460 --> 00:33:35,232
+Ops to Commodore Gray.
+
+443
+00:33:36,249 --> 00:33:37,507
+Gray here.
+
+444
+00:33:37,532 --> 00:33:40,373
+Sir, incoming transmission
+from the Enterprise.
+
+445
+00:33:40,467 --> 00:33:42,967
+They were unable to salvage
+the Hood, commodore.
+
+446
+00:33:43,006 --> 00:33:44,334
+It's been destroyed.
+
+447
+00:33:44,373 --> 00:33:46,717
+Kirk here.
+What about my people...?
+
+448
+00:33:46,912 --> 00:33:51,756
+Reports still coming in, sir... but
+no major injuries to your crew.
+
+449
+00:33:55,662 --> 00:33:58,279
+Understood. Gray out.
+
+450
+00:34:05,094 --> 00:34:07,047
+Ladies and gentlemen.
+
+451
+00:34:07,360 --> 00:34:11,476
+This new information renders
+these proceedings... "unnecessary."
+
+452
+00:34:11,711 --> 00:34:13,688
+I'm afraid that appears
+to be the case.
+
+453
+00:34:14,000 --> 00:34:16,773
+Commander Garrett and I shall
+return to Earth Spacedock.
+
+454
+00:34:18,727 --> 00:34:21,071
+GARRETT:
+If I may...
+
+455
+00:34:25,328 --> 00:34:30,523
+There's an underlying issue that
+still remains, is there not?
+
+456
+00:34:35,680 --> 00:34:39,469
+For decades... I believe the
+service has overlooked capable
+
+457
+00:34:39,494 --> 00:34:43,282
+officers for certain positions
+simply because we're women.
+
+458
+00:34:44,313 --> 00:34:46,149
+They may not admit it.
+
+459
+00:34:46,174 --> 00:34:49,547
+Hell, may not even be intentional.
+
+460
+00:34:49,977 --> 00:34:54,821
+We can hide behind "Tellarite
+diplomacy." Rationalize it. Justify it.
+
+461
+00:34:54,846 --> 00:34:58,922
+- But it is still true.
+- Commander Garrett.
+
+462
+00:34:59,782 --> 00:35:02,336
+Do you believe a person
+should receive special
+
+463
+00:35:02,361 --> 00:35:06,943
+consideration because of their gender?
+Religion? Race?
+
+464
+00:35:06,968 --> 00:35:10,016
+If that person's gender,
+religion, or race has been
+
+465
+00:35:10,041 --> 00:35:13,217
+historically used to
+deny them consideration.
+
+466
+00:35:13,388 --> 00:35:15,810
+That wasn't the question.
+
+467
+00:35:15,849 --> 00:35:21,552
+Perhaps not. But that is my answer.
+
+468
+00:35:23,779 --> 00:35:28,779
+Starfleet has the opportunity
+to implement change.
+
+469
+00:35:28,935 --> 00:35:35,224
+To change our values.
+To change the future.
+
+470
+00:35:36,318 --> 00:35:40,927
+There are countless female officers more
+than capable of commanding a starship.
+
+471
+00:35:40,953 --> 00:35:43,858
+This may not be MY time.
+
+472
+00:35:45,224 --> 00:35:49,013
+But it is most certainly THEIRS.
+
+473
+00:35:49,990 --> 00:35:54,248
+I think we're all in
+agreement with that.
+
+474
+00:36:06,300 --> 00:36:07,721
+Spock.
+
+475
+00:36:10,167 --> 00:36:12,706
+Peace and long life.
+
+476
+00:36:13,683 --> 00:36:16,652
+Live long and prosper.
+
+477
+00:36:41,026 --> 00:36:42,901
+A moment, doctor?
+
+478
+00:36:43,019 --> 00:36:45,949
+Take two, Scotty.
+
+479
+00:36:47,589 --> 00:36:51,730
+Mister! Of all the hare-brained,
+half-baked, lunatic ideas...
+
+480
+00:36:51,755 --> 00:36:54,230
+It's good to see you, too, sir.
+
+481
+00:36:55,675 --> 00:36:56,700
+Yes, sir.
+
+482
+00:36:56,725 --> 00:36:59,800
+I've informed Admiral Stomm of
+your little "stunt," lieutenant.
+
+483
+00:36:59,933 --> 00:37:02,472
+It's worthy of a court martial.
+
+484
+00:37:02,497 --> 00:37:06,417
+Whatever disciplinary action
+you feel I deserve, I...
+
+485
+00:37:07,472 --> 00:37:09,269
+"Lieutenant"?
+
+486
+00:37:18,269 --> 00:37:22,371
+Thank you... for saving our lives.
+Lieutenant Chekov.
+
+487
+00:37:22,566 --> 00:37:24,519
+Sir... yes sir...!
+
+488
+00:37:24,544 --> 00:37:27,677
+I'll be filing a formal recommendation
+with Starfleet Engineering Corps
+
+489
+00:37:27,702 --> 00:37:30,183
+...to install a shield
+prefix code on all of our ships.
+
+490
+00:37:30,208 --> 00:37:32,996
+And it vill be called...
+the "Chekov code"!
+
+491
+00:37:33,230 --> 00:37:35,300
+Don't push your luck, lad.
+
+492
+00:37:35,769 --> 00:37:38,887
+I cannuh lie... that was an inspired idea.
+
+493
+00:37:38,912 --> 00:37:41,745
+Have ya considered a career in tactical?
+Ya may wanna talk to Mr. Drake.
+
+494
+00:37:41,770 --> 00:37:44,519
+Commander? What
+happened over there?
+
+495
+00:37:44,544 --> 00:37:47,800
+The anomaly... the warp core...
+the deflector screens...?
+
+496
+00:37:47,825 --> 00:37:51,198
+I dunno, lieutenant. An'
+that's what worries me.
+
+497
+00:37:56,081 --> 00:37:58,854
+Well. Whatever happened...
+
+498
+00:37:59,050 --> 00:38:01,003
+Thank you.
+
+499
+00:38:01,238 --> 00:38:04,168
+And congratulations!
+
+500
+00:38:06,199 --> 00:38:09,519
+Before you overloaded the
+board, you said something.
+
+501
+00:38:09,792 --> 00:38:13,894
+The translators didn't pick it up.
+But it sounded like Russian?
+
+502
+00:38:13,919 --> 00:38:16,082
+Old expression.
+
+503
+00:38:16,107 --> 00:38:20,037
+"Eyes might be afraid...
+but hands do the job."
+
+504
+00:38:20,154 --> 00:38:25,115
+Means "You never know...
+until you try."
+
+505
+00:38:50,521 --> 00:38:52,849
+Ambassador.
+
+506
+00:38:53,904 --> 00:38:57,146
+We acknowledge and respect
+your culture's beliefs.
+
+507
+00:38:57,810 --> 00:39:00,701
+- But I must tell you...
+- Oh, please.
+
+508
+00:39:00,726 --> 00:39:03,687
+I'm well aware that my
+people's prejudices
+
+509
+00:39:03,712 --> 00:39:06,741
+are hopelessly outdated
+by modern standards.
+
+510
+00:39:09,568 --> 00:39:12,810
+I appreciate that you
+recognize that, sir.
+
+511
+00:39:12,835 --> 00:39:18,568
+A large faction on Tellar Prime argues against
+our government's stance on this matter.
+
+512
+00:39:18,685 --> 00:39:23,216
+And I, for one, am
+part of that faction.
+
+513
+00:39:24,232 --> 00:39:27,225
+I believe one of your
+greatest human writers once said...
+
+514
+00:39:27,250 --> 00:39:31,210
+ "A lady's 'verily'
+is as potent as a lord's."
+
+515
+00:39:33,021 --> 00:39:34,544
+That he did, sir.
+
+516
+00:39:34,935 --> 00:39:37,943
+The winds of change blow for us.
+
+517
+00:39:37,968 --> 00:39:41,833
+I do not envy the decisions
+Starfleet now faces.
+
+518
+00:39:41,873 --> 00:39:46,170
+But trust that you
+have my full support.
+
+519
+00:39:46,326 --> 00:39:48,474
+Thank you, ambassador.
+
+520
+00:39:48,943 --> 00:39:52,185
+Embrace the winds.
+
+521
+00:40:39,413 --> 00:40:41,757
+Sir.
+
+522
+00:40:42,538 --> 00:40:45,936
+I know we didn't get off
+to the greatest start.
+
+523
+00:40:46,092 --> 00:40:50,623
+Regardless. Thank you
+for your consideration.
+
+524
+00:40:50,858 --> 00:40:55,546
+- I do hope our paths cross again.
+- As do I.
+
+525
+00:40:57,186 --> 00:41:02,006
+Who knows. Maybe some day a "Garrett"
+will command an "Enterprise."
+
+526
+00:41:03,334 --> 00:41:08,607
+Well, it is the 23rd century.
+Anything's possible.
+
+527
+00:41:09,584 --> 00:41:12,318
+Yes.
+
+528
+00:41:15,444 --> 00:41:17,632
+Thank you.
+
+529
+00:41:29,311 --> 00:41:31,694
+- Captain.
+- Spock.
+
+530
+00:41:31,719 --> 00:41:35,913
+I must confess... I find myself
+bordering on an emotional reaction.
+
+531
+00:41:35,938 --> 00:41:39,233
+I believe you would
+refer to it as... "shame."
+
+532
+00:41:39,272 --> 00:41:41,850
+- "Shame," Spock?
+- Shame.
+
+533
+00:41:42,084 --> 00:41:45,053
+That I am somewhat relieved at
+the destruction of the Hood.
+
+534
+00:41:45,327 --> 00:41:49,468
+If I may inquire... Had the
+vessel not been lost...
+
+535
+00:41:49,506 --> 00:41:53,998
+- How would you have voted?
+- Ohhhh... Spock.
+
+536
+00:41:54,233 --> 00:41:59,741
+I'll admit. I considered voting against
+you... because I didn't wanna lose you.
+
+537
+00:41:59,935 --> 00:42:04,583
+Indeed. I briefly considered withdrawing
+my name for the very same reason.
+
+538
+00:42:04,779 --> 00:42:08,373
+And I briefly considered chaining you
+to your station so you could never leave.
+
+539
+00:42:13,217 --> 00:42:16,772
+- Kirk to Enterprise.
+- Enterprise. Scott here, sir.
+
+540
+00:42:16,796 --> 00:42:19,780
+Scotty, standby to receive shuttlecraft.
+We'll be home for dinner.
+
+541
+00:42:19,937 --> 00:42:22,202
+Both of us.
+
+542
+00:43:44,078 --> 00:43:47,867
+[Engish subtitles by:
+Peter Goundrill]
+
